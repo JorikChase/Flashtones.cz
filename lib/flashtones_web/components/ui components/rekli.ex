@@ -30,7 +30,7 @@ defmodule Rekli do
             Uspokojený rodič
             </p>
           </div>
-            <a href="###">
+            <a href="/ratings">
             VŠECHNA HODNOCENÍ
             </a>
         </div>

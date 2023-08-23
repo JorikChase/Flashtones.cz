@@ -42,19 +42,19 @@ defmodule Kdo do
         <h3>KDO JSME</h3>
         <p>moris piktus no hombres allos novadum, ilyyy sooo much!!</p>
         <div>
-          <a href="###">
+          <a href="/kdoJsme">
             O nás
           </a>
-          <a href="###">
+          <a href="/kdoJsme">
             Historie flashtones
           </a>
-          <a href="###">
+          <a href="/kdoJsme">
             Naši lidé
           </a>
         </div>
       </div>
       <div class="kdoPersons">
-        <a href="###">
+        <a href="/kdoJsme">
         <img src="/images/ft/marcel.png" />
           <h4>
             Marcel Valouch
@@ -63,7 +63,7 @@ defmodule Kdo do
             Hlavní manager ZŠ PRO DĚTI
           </p>
         </a>
-        <a href="###">
+        <a href="/kdoJsme">
         <img src="/images/ft/omar.png" />
           <h4>
             Omar el Karib

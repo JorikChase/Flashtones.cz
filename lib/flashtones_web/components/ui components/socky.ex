@@ -16,25 +16,25 @@ defmodule Socky do
         Sledujte nás na Instagramu, YouTube nebo Facebooku a buďte tak <i>ellentesque mi ipsum</i>, ultrices sit amet sem quis, bibendum mattis massa. Pellentesque ut eros ut velit ullamcorper pharetra nec id sem.
       </p>
       <div class="socky-grid">
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/lyzovani.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/svp.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/tabor.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/Hero1.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/Hero2.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/Hero3.jpeg" alt="Socky Image">
         </a>
-        <a href="###" class="socky-item">
+        <a href="/aktuality#blog" class="socky-item">
           <img src="/images/zs/Hero4.jpeg" alt="Socky Image">
         </a>
       </div>

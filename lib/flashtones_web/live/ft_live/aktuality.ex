@@ -55,8 +55,8 @@ defmodule FlashtonesWeb.AktualityLive do
     <div class="container mx-auto py-8">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
-        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">Section 1</div>
-        <div class="nav-item p-4 rounded" onclick="showSection(2)">Section 2</div>
+        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">Aktuality</div>
+        <div class="nav-item p-4 rounded" onclick="showSection(2)">Blog</div>
       </div>
       <!-- Sections -->
       <div id="section1" class="hidden">
@@ -74,8 +74,8 @@ defmodule FlashtonesWeb.AktualityLive do
             >
             </div>
             <!-- Description -->
-            <h4 class="mt-2 font-bold">John Doe</h4>
-            <p class="italic text-xs">Date and Category</p>
+            <h4 class="mt-2 font-bold">jorik napravil linky</h4>
+            <p class="italic text-xs">23.8. / Administrace</p>
           </div>
           <!-- Profile Item 2 -->
           <div
@@ -90,8 +90,8 @@ defmodule FlashtonesWeb.AktualityLive do
             >
             </div>
             <!-- Description -->
-            <h4 class="mt-2 font-bold">Jane Doe</h4>
-            <p class="italic text-xs">Date and Category</p>
+            <h4 class="mt-2 font-bold">jorik osekal strom adresaru</h4>
+            <p class="italic text-xs">23.8. / priroda</p>
           </div>
           <!-- Profile Item 3 -->
           <div
@@ -128,8 +128,8 @@ defmodule FlashtonesWeb.AktualityLive do
             >
             </div>
             <!-- Description -->
-            <h4 class="mt-2 font-bold">John Doe</h4>
-            <p class="italic text-xs">Date and Category</p>
+            <h4 class="mt-2 font-bold">Mily denicku blog je tu</h4>
+            <p class="italic text-xs">23.8. Blog</p>
           </div>
           <!-- Profile Item 2 -->
           <div
