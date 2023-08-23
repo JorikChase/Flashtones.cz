@@ -10,33 +10,33 @@ defmodule FtHero do
         </h1>
         <div class="relative">
           <div class="carousel">
-            <img src="/images/ft/ft-hero.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpg" alt="Image 2" class="carousel-item">
-            <img src="/images/zs/Hero1.jpg" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpg" alt="Image 4" class="carousel-item">
+            <img src="/images/ft/placeholder.jpeg" alt="Image 1" class="carousel-item">
+            <img src="/images/ft/placeholder.jpeg" alt="Image 2" class="carousel-item">
+            <img src="/images/ft/placeholder.jpeg" alt="Image 3" class="carousel-item">
+            <img src="/images/ft/placeholder.jpeg" alt="Image 4" class="carousel-item">
             <!-- Add more images as needed -->
           </div>
           <div class="carousel-nav flex justify-center mt-4">
             <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/ft/ft-hero.png" alt="Image 1">
+              <img src="/images/ft/placeholder.jpeg" alt="Image 1">
               <a>
                 veta nahore
               </a>
             </button>
             <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpg" alt="Image 2">
+              <img src="/images/ft/placeholder.jpeg" alt="Image 2">
               <a>
                 veta nahore
               </a>
             </button>
             <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/zs/Hero1.jpg" alt="Image 3">
+              <img src="/images/ft/placeholder.jpeg" alt="Image 3">
               <a>
                 veta nahore
               </a>
             </button>
             <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpg" alt="Image 4">
+              <img src="/images/ft/placeholder.jpeg" alt="Image 4">
               <a>
                 veta nahore
               </a>
