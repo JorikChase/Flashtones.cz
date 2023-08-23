@@ -17,14 +17,14 @@ defmodule FlashtonesWeb.Router do
   scope "/", FlashtonesWeb do
     pipe_through :browser
 
-    live "ft/", IndexLive
-    live "ft/aktuality", AktualityLive
-    live "ft/faq", FaqLive
-    live "ft/kontakty", KontaktyLive
-    live "ft/kdoJsme", KdoJsmeLive
-    live "ft/sluzby", SluzbyLive
-    live "ft/hodnoceni", HodnoceniLive
-    live "zs/", ZsIndexLive
+    live "/", IndexLive
+    live "/aktuality", AktualityLive
+    live "/faq", FaqLive
+    live "/kontakty", KontaktyLive
+    live "/kdoJsme", KdoJsmeLive
+    live "/sluzby", SluzbyLive
+    live "/hodnoceni", HodnoceniLive
+    live "/zs/", ZsIndexLive
 
     live "/posts", PostLive.Index, :index
     live "/posts/new", PostLive.Index, :new
@@ -40,7 +40,6 @@ defmodule FlashtonesWeb.Router do
     live "/ratings/:id", RatingLive.Show, :show
     live "/ratings/:id/show/edit", RatingLive.Show, :edit
 
-    get "/", PageController, :home
   end
 
   # Other scopes may use custom stacks.
