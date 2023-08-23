@@ -4,7 +4,7 @@ defmodule FtHero do
   def ftHero(assigns) do
     ~H"""
       <div class="hero">
-      <h1>
+      <h1 id="h1ro">
             MĚNÍME SE! <br>
             Flashtones už nejsou jen ponožky
         </h1>
@@ -46,6 +46,22 @@ defmodule FtHero do
       </div>
 
       <style>
+      #h1ro{
+        color: white;
+        z-index: 5;
+        position:absolute;
+        top: 150px;
+        right: 50%;
+        left: 90px;
+      }
+      @media(orientation: portrait){
+        #h1ro{
+        position:absolute;
+        top: 90px;
+        right: 90px;
+        left: 90px;
+        }
+      }
         .carousel {
           width: 100%;
           height: 90vh; /* Set desired carousel height */

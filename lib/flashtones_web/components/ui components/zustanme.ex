@@ -3,6 +3,30 @@ defmodule Zustanme do
 
   def zustanme(assigns) do
     ~H"""
+    <style>
+      .zustanme{
+        width: 100%;
+        background: var(--flashtones-light, #F4EBD7);
+        background-size: cover;
+
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-content: center;
+        padding: 1em 1.5em;
+      }
+      .zustanmeText{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-content: center;
+      }
+      @media (orientation:portrait){
+        .zustanme{
+          flex-direction: column;
+        }
+      }
+    </style>
      <div class="zustanme">
       <div>
         <h3>
@@ -18,11 +42,11 @@ defmodule Zustanme do
           <label for="email">@</label>
           <input type="text" id="email" name="fname"><br><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
           <input type="submit" value="Submit" class="button">
         </form>
       </div>
-      <img src="/images/zustanmeBig.png">
+      <img src="/images/ft/zustanme-bg.png">
     </div>
     """
   end

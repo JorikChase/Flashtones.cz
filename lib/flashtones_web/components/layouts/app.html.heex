@@ -17,18 +17,17 @@
     max-height: 30px;
     width: 100%;
     transition: all 0.5s ease;
-    align-content: center;
-    justify-content: center;
+    transition: max-height 2s ease-out;
     background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(10px);
     color: var(--white, #fff);
   }
   .nav:hover {
     height: auto;
-    max-height: 1000px;
+    max-height: 4000px;
     overflow-y: hidden;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
   }
   .nav * {
     visibility: hidden;
@@ -204,7 +203,7 @@
     transition: all 0.35s ease;
     position: fixed;
     padding-right: 65px;
-    top: 40px;
+    top: 30px;
     right: 0;
     left: 0;
     display: flex;
@@ -270,7 +269,9 @@
     right: 0;
     height: 30px;
 
-    background-color: rgb(225, 225, 225);
+    background: rgba(225, 225, 225, 0.7);
+
+    backdrop-filter: blur(7px);
 
     display: flex;
     flex-direction: column;
@@ -320,6 +321,7 @@
   }
 }
 </style>
+
 <div class="mobileMenuToggle">
   <h4> FLASHTONES</h4>
   <h4> zavrit</h4>
@@ -342,107 +344,189 @@
   </div>
 </div>
 
+<style>
+  .nav{
+    background: rgba(0, 0, 0, 1);
+    color: #FFF;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav a:hover{
+    color: #cfa44a;
+  }
+  .nav p{
+    color: var(--gray-3, #828282);
+  }
+  .base-links{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 3.125rem;
+  }
+  .nav-content-wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-content-column-wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 1em 1.5em;
+  }
+  .nav-content-column{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-link{
+    display: flex;
+    flex-direction: row;
+    width: 15.01094rem;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  .nav-link-arrow{
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+  }
+  .nav-link-thick{
+    color: var(--white, #FFF);
+    font-family: Barlow;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem; /* 187.5% */
+    transition: all 0.5s ease;
+  }
+  .nav-link-thick:hover{
+    color: var(--hover, #cfa44a);
+  }
+  .nav-link-thin{
+    color: var(--white, #FFF);
+    font-family: Barlow;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    transition: all 0.4s ease;
+  }
+  .nav-link-thin:hover{
+    color: var(--hover, #cfa44a);
+  }
+  @media (orientation: portrait){
+    .base-links{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .nav-content-column-wrap{
+      flex-direction: column;
+    }
+  }
+</style>
+
 <span class="x noBreak">
   zavřít
 </span>
 <nav>
   <button class="nav">
-    <div class="container mx-auto py-8">
-      <div class="flex justify-between">
-        <!-- Column 1 -->
-        <div class="w-full md:w-1/3 p-4">
-          <h3 class="text-xl font-bold mb-2">
-            <a href="#" class="column-link">Column 1</a>
-          </h3>
-          <p class="text-gray-600">Description for Column 1 goes here.</p>
-          <div class="mt-4">
-            <ul class="list-disc list-inside">
-              <li><a href="#" class="column-link">Link 1</a></li>
-              <li><a href="#" class="column-link">Link 2</a></li>
-              <li><a href="#" class="column-link">Link 3</a></li>
-              <li><a href="#" class="column-link">Link 4</a></li>
-              <li><a href="#" class="column-link">Link 5</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Column 2 -->
-        <div class="w-full md:w-1/3 p-4">
-          <h3 class="text-xl font-bold mb-2">
-            <a href="#" class="column-link">Column 2</a>
-          </h3>
-          <p class="text-gray-600">Description for Column 2 goes here.</p>
-          <div class="mt-4">
-            <ul class="list-disc list-inside">
-              <li><a href="#" class="column-link">Link 1</a></li>
-              <li><a href="#" class="column-link">Link 2</a></li>
-              <li><a href="#" class="column-link">Link 3</a></li>
-              <li><a href="#" class="column-link">Link 4</a></li>
-              <li><a href="#" class="column-link">Link 5</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Column 3 -->
-        <div class="w-full md:w-1/3 p-4">
-          <h3 class="text-xl font-bold mb-2">
-            <a href="#" class="column-link">Column 3</a>
-          </h3>
-          <p class="text-gray-600">Description for Column 3 goes here.</p>
-          <div class="mt-4">
-            <ul class="list-disc list-inside">
-              <li><a href="#" class="column-link">Link 1</a></li>
-              <li><a href="#" class="column-link">Link 2</a></li>
-              <li><a href="#" class="column-link">Link 3</a></li>
-              <li><a href="#" class="column-link">Link 4</a></li>
-              <li><a href="#" class="column-link">Link 5</a></li>
-            </ul>
-          </div>
-        </div>
+    <div class="base-links">
+      <a href="/ft/"> Úvod </a>
+      <a href="/aktuality"> Aktuality </a>
+      <a href="/aktuality#blog"> Blog </a>
+      <a href="/sluzby"> Naše služby </a>
+      <a href="/kdoJsme"> Kdo jsme </a>
+      <a href="/faq"> Časté dotazy </a>
+      <a href="/ratings"> Hodnocení </a>
+      <a href="/kontakty"> Kontakty </a>
+    </div>
+    <div class="nav-content-wrap">
+      <h2>Co nás baví</h2>
+      <div class="nav-content-column-wrap">
+      <div class="nav-content-column">
+        <a class="nav-link" href="/zs">
+          <h3>pro děti</h3>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <p>
+          Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+        </p>
+        <a class="nav-link" href="/zs/plavani">
+          <span class="nav-link-thick">ZŠ Plavání:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/enviro">
+          <span class="nav-link-thick">ZŠ Enviro:<span class="nav-link-thin"> Školy v přírodě a příměstské tábory</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/lyzovani">
+          <span class="nav-link-thick">ZŠ Lyžování::<span class="nav-link-thin"> Lyžařské kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/vylety">
+          <span class="nav-link-thick">ZŠ Výlety:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/doma">
+          <span class="nav-link-thick">ZŠ Doma:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/academy">
+          <span class="nav-link-thick">ZŠ Academy:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+      </div>
+      <div class="nav-content-column">
+        <a class="nav-link" href="/zs">
+          <h3>oblečení</h3>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <p>
+          Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
+        </p>
+        <a class="nav-link" href="/zs/plavani">
+          <span class="nav-link-thick">Ponožky:<span class="nav-link-thin"> Lorem Ipsum</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/enviro">
+          <span class="nav-link-thick">Dashinky:<span class="nav-link-thin"> Školy v přírodě a příměstské tábory</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/lyzovani">
+          <span class="nav-link-thick">Šátky:<span class="nav-link-thin"> Lyžařské kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/vylety">
+          <span class="nav-link-thick">Šperky:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <a class="nav-link" href="/zs/doma">
+          <span class="nav-link-thick">Kniha:<span class="nav-link-thin"> Plavecké kurzy</span></span>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+      </div>
+      <div class="nav-content-column">
+        <a class="nav-link" href="/zs">
+          <h3>eventy</h3>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <p>
+          Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+        </p>
+        <a class="nav-link" href="/ft/">
+          <h3>studio</h3>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <p>
+          Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+        </p>
+        <a class="nav-link" href="https://eshop.flashtones.cz/">
+          <img class="nav-link-arrow" src="/images/eshop.svg">
+          <h3>eshop</h3>
+          <img class="nav-link-arrow" src="/images/arrow right.svg">
+        </a>
+        <p>
+          Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+        </p>
       </div>
     </div>
-
-    <div class="container mx-auto py-8">
-      <div class="news-grid">
-        <div
-          class="news-item"
-          style="background-image: url('/images/socky1.png')"
-        >
-          <div class="news-item-description">
-            <a href="###">News Item 1</a>
-          </div>
-        </div>
-        <div
-          class="news-item"
-          style="background-image: url('/images/socky2.png')"
-        >
-          <div class="news-item-description">
-            <a href="###">News Item 2</a>
-          </div>
-        </div>
-        <div
-          class="news-item"
-          style="background-image: url('/images/socky3.png')"
-        >
-          <div class="news-item-description">
-            <a href="###">News Item 3</a>
-          </div>
-        </div>
-        <div
-          class="news-item news-item-big"
-          style="background-image: url('/images/socky4.png')"
-        >
-          <div class="news-item-description">
-            <a href="###">News Item 4 (Big)</a>
-          </div>
-        </div>
-        <div
-          class="news-item"
-          style="background-image: url('/images/socky5.png')"
-        >
-          <div class="news-item-description">
-            <a href="###">News Item 5</a>
-          </div>
-        </div>
-      </div>
     </div>
   </button>
 </nav>
@@ -554,15 +638,24 @@
   <a href="/kontakty"> Kontakty </a>
 </div>
 
-<main class="px-4 sm:px-6 lg:px-8" >
+<main class="px-4 sm:px-6 lg:px-8" style="margin-top: 45px;" >
   <div class=" max-w-full">
     <.flash_group flash={@flash} /> <%= @inner_content %>
   </div>
 </main>
 <style>
   footer{
+    background: rgba(0, 0, 0, 1);
+    color: #FFF;
+    padding: 1em 2em;
     display: flex;
     flex-direction: column;
+  }
+  footer a:hover{
+    color: #cfa44a;
+  }
+  footer p{
+    color: var(--gray-3, #828282);
   }
   .base-links{
     display: inline-flex;
@@ -576,6 +669,7 @@
   .footer-content-column-wrap{
     display: flex;
     flex-direction: row;
+    padding: 1em 1.5em;
   }
   .footer-content-column{
     display: flex;
@@ -599,6 +693,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.875rem; /* 187.5% */
+    transition: all 0.5s ease;
+  }
+  .footer-link-thick:hover{
+    color: var(--hover, #cfa44a);
   }
   .footer-link-thin{
     color: var(--white, #FFF);
@@ -607,6 +705,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
+    transition: all 0.4s ease;
+  }
+  .footer-link-thin:hover{
+    color: var(--hover, #cfa44a);
+  }
+  @media (orientation: portrait){
+    .base-links{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .footer-content-column-wrap{
+      flex-direction: column;
+    }
   }
 </style>
 <footer>
@@ -658,54 +769,51 @@
     </div>
     <div class="footer-content-column">
       <a class="footer-link" href="/zs">
-        <h3>pro děti</h3>
+        <h3>oblečení</h3>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <p>
-        Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+        Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
       </p>
       <a class="footer-link" href="/zs/plavani">
-        <span class="footer-link-thick">ZŠ Plavání:<span class="footer-link-thin"> Plavecké kurzy</span></span>
+        <span class="footer-link-thick">Ponožky:<span class="footer-link-thin"> Lorem Ipsum</span></span>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <a class="footer-link" href="/zs/enviro">
-        <span class="footer-link-thick">ZŠ Enviro:<span class="footer-link-thin"> Školy v přírodě a příměstské tábory</span></span>
+        <span class="footer-link-thick">Dashinky:<span class="footer-link-thin"> Školy v přírodě a příměstské tábory</span></span>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <a class="footer-link" href="/zs/lyzovani">
-        <span class="footer-link-thick">ZŠ Lyžování::<span class="footer-link-thin"> Lyžařské kurzy</span></span>
+        <span class="footer-link-thick">Šátky:<span class="footer-link-thin"> Lyžařské kurzy</span></span>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <a class="footer-link" href="/zs/vylety">
-        <span class="footer-link-thick">ZŠ Výlety:<span class="footer-link-thin"> Plavecké kurzy</span></span>
+        <span class="footer-link-thick">Šperky:<span class="footer-link-thin"> Plavecké kurzy</span></span>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <a class="footer-link" href="/zs/doma">
-        <span class="footer-link-thick">ZŠ Doma:<span class="footer-link-thin"> Plavecké kurzy</span></span>
-        <img class="footer-link-arrow" src="/images/arrow right.svg">
-      </a>
-      <a class="footer-link" href="/zs/academy">
-        <span class="footer-link-thick">ZŠ Academy:<span class="footer-link-thin"> Plavecké kurzy</span></span>
+        <span class="footer-link-thick">Kniha:<span class="footer-link-thin"> Plavecké kurzy</span></span>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
     </div>
     <div class="footer-content-column">
       <a class="footer-link" href="/zs">
-        <h3>oblečení</h3>
+        <h3>eventy</h3>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <p>
         Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
       </p>
-      <a class="footer-link" href="/zs">
-        <h3>oblečení</h3>
+      <a class="footer-link" href="/ft/">
+        <h3>studio</h3>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <p>
         Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
       </p>
-      <a class="footer-link" href="/zs">
-        <h3>oblečení</h3>
+      <a class="footer-link" href="https://eshop.flashtones.cz/">
+        <img class="footer-link-arrow" src="/images/eshop.svg">
+        <h3>eshop</h3>
         <img class="footer-link-arrow" src="/images/arrow right.svg">
       </a>
       <p>

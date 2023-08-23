@@ -3,6 +3,11 @@ defmodule Rekli do
 
   def rekli(assigns) do
     ~H"""
+    <style>
+      .rekli{
+        padding: 1em 1.5em;
+      }
+    </style>
     <div class="rekli">
       <h3>
       Řekli o nás

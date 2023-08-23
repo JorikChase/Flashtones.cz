@@ -13,6 +13,8 @@ defmodule Kdo do
         flex-direction:row;
         justify-content: center;
         align-content: center;
+
+        padding: 1em 1.5em;
       }
       .kdoText{
         display:flex;
@@ -25,6 +27,9 @@ defmodule Kdo do
         flex-direction:row;
         justify-content: center;
         align-content: center;
+      }
+      .kdoPersons a{
+        padding: 1em 1.5em;
       }
       @media (orientation:portrait){
         .kdo{

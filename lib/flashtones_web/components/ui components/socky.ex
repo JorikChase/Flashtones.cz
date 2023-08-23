@@ -7,15 +7,9 @@ defmodule Socky do
       <div class="socky-header">
         <h3>Jsme tak trochu socky</h3>
         <span class="socky-icons">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- SVG Paths -->
-          </svg>
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- SVG Paths -->
-          </svg>
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- SVG Paths -->
-          </svg>
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/insta.svg"></a>
+          <a href="###"><img src="/images/yt.svg"></a>
+          <a href="https://www.facebook.com/flashtones/"><img src="/images/fb.svg"></a>
         </span>
       </div>
       <p>
@@ -23,28 +17,25 @@ defmodule Socky do
       </p>
       <div class="socky-grid">
         <a href="###" class="socky-item">
-          <img src="/images/sockyBig1.png" alt="Socky Image">
+          <img src="/images/zs/lyzovani.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/socky1.png" alt="Socky Image">
+          <img src="/images/zs/svp.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/socky2.png" alt="Socky Image">
+          <img src="/images/zs/tabor.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/socky3.png" alt="Socky Image">
+          <img src="/images/zs/Hero1.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/socky4.png" alt="Socky Image">
+          <img src="/images/zs/Hero2.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/sockyBig2.png" alt="Socky Image">
+          <img src="/images/zs/Hero3.jpeg" alt="Socky Image">
         </a>
         <a href="###" class="socky-item">
-          <img src="/images/socky5.png" alt="Socky Image">
-        </a>
-        <a href="###" class="socky-item">
-          <img src="/images/socky6.png" alt="Socky Image">
+          <img src="/images/zs/Hero4.jpeg" alt="Socky Image">
         </a>
       </div>
     </div>
@@ -54,6 +45,7 @@ defmodule Socky do
         background-color: #f4f4f4;
         border-radius: 8px;
         text-align: center;
+        margin: 1em 0;
       }
 
       .socky-header {
@@ -66,6 +58,7 @@ defmodule Socky do
 
       .socky-icons {
         display: flex;
+        flex-direction: row;
         gap: 0.5rem;
         color: #cfa44a;
       }

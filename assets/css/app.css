@@ -55,6 +55,13 @@ a{
 a:hover{
   color: var(--hover);
 }
+p{
+  font-family: Barlow;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1875rem; /* 194.444% */
+}
 @media (orientation: landscape) {
 }
 /*mobile*/
