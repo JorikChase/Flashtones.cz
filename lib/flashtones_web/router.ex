@@ -24,7 +24,7 @@ defmodule FlashtonesWeb.Router do
     live "/kdoJsme", KdoJsmeLive
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
-    live "/zs/", ZsIndexLive
+    live "zs/", ZsIndexLive
 
     live "/posts", PostLive.Index, :index
     live "/posts/new", PostLive.Index, :new

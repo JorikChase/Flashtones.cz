@@ -4,7 +4,7 @@ defmodule FlashtonesWeb.ZsIndexLive do
   def render(assigns) do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
-      <FtHero.ftHero />
+      <ZsHero.zsHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />
