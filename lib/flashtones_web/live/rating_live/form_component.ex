@@ -19,9 +19,9 @@ defmodule FlashtonesWeb.RatingLive.FormComponent do
         phx-change="validate"
         phx-submit="save"
       >
-        <.input field={@form[:name]} type="text" label="Name" />
-        <.input field={@form[:experience]} type="text" label="Experience" />
-        <.input field={@form[:score_count]} type="number" label="Score count" />
+        <.input field={@form[:name]} type="text" label="Jak se jmenujete?" />
+        <.input field={@form[:experience]} type="textarea" label="Jaké to s námi bylo?" />
+        <.input field={@form[:score_count]} type="number" label="Kolik hvězdiček si zasloužíme?" />
         <:actions>
           <.button phx-disable-with="Saving...">Save Rating</.button>
         </:actions>

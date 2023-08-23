@@ -17,6 +17,15 @@ defmodule FlashtonesWeb.Router do
   scope "/", FlashtonesWeb do
     pipe_through :browser
 
+    live "ft/", IndexLive
+    live "ft/aktuality", AktualityLive
+    live "ft/faq", FaqLive
+    live "ft/kontakty", KontaktyLive
+    live "ft/kdoJsme", KdoJsmeLive
+    live "ft/sluzby", SluzbyLive
+    live "ft/hodnoceni", HodnoceniLive
+    live "zs/", ZsIndexLive
+
     live "/posts", PostLive.Index, :index
     live "/posts/new", PostLive.Index, :new
     live "/posts/:id/edit", PostLive.Index, :edit
