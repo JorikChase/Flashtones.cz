@@ -64,13 +64,13 @@ defmodule FlashtonesWeb.AktualityLive do
           <!-- Profile Item 1 -->
           <div
             class="profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for John Doe.')"
+            onmouseover="showTooltip(event, 'napravil je pres rouoter.')"
             onmouseout="hideTooltip()"
           >
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image1.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
@@ -86,7 +86,7 @@ defmodule FlashtonesWeb.AktualityLive do
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image2.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
@@ -102,7 +102,7 @@ defmodule FlashtonesWeb.AktualityLive do
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image3.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
@@ -124,7 +124,7 @@ defmodule FlashtonesWeb.AktualityLive do
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image1.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
@@ -140,7 +140,7 @@ defmodule FlashtonesWeb.AktualityLive do
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image2.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
@@ -156,7 +156,7 @@ defmodule FlashtonesWeb.AktualityLive do
             <!-- Background Image -->
             <div
               class="w-full h-32 bg-cover bg-center bg-gray-300"
-              style="background-image: url('image3.jpg');"
+              style="background-image: url('/images/ft/placeholder.jpeg');"
             >
             </div>
             <!-- Description -->
