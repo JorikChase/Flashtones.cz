@@ -1,7 +1,7 @@
-defmodule ZsHero do
+defmodule DetiHero do
   use Phoenix.Component
 
-  def zsHero(assigns) do
+  def detiHero(assigns) do
     ~H"""
       <div class="hero">
       <h1 id="h1ro">
