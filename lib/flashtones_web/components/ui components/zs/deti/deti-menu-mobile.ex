@@ -76,24 +76,25 @@ defmodule MenuDetiMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <h4>FLASHTONES</h4>
-      <h4>zavřít</h4>
+      <img src="/images/deti/deti-logo.svg">
+      <img src="/images/icon/x.svg">
     </div>
     <div class="mobileMenu">
       <div>
-        <a href="/"> Úvod </a>
+        <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
+        <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
+        <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
+        <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
+        <a href="/zs/deti"> Úvod </a>
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/kdoJsme"> Kdo jsme </a>
+        <a href="/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <a href="/aktuality"> Aktuality </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/kdoJsme"> Kdo jsme </a>
-        <a href="/faq"> Časté dotazy </a>
-        <a href="/ratings"> Hodnocení </a>
       </div>
     </div>
     """

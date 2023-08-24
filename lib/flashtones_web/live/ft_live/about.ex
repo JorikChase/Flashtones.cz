@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.KdoJsmeLive do
+defmodule FlashtonesWeb.AboutLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
