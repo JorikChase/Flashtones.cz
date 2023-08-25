@@ -4,9 +4,8 @@ defmodule DetiHero do
   def detiHero(assigns) do
     ~H"""
       <div class="hero">
-      <h1 id="h1ro">
-            deti<br>
-            deti
+        <h1 id="h1ro">
+        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
         </h1>
         <div class="relative">
           <div class="carousel">
@@ -61,6 +60,9 @@ defmodule DetiHero do
         right: 90px;
         left: 90px;
         }
+        .carousel-nav > a{
+          display: none;
+        }
       }
         .carousel {
           width: 100%;
@@ -103,7 +105,6 @@ defmodule DetiHero do
           width: 220px;
           height: 70px;
           padding: 10px 10px;
-          flex-direction: column;
           justify-content: center;
           align-items: flex-start;
         }
