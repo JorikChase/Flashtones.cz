@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
       <MenuDetiMobile.menuPlavaniMobile />
-      <DetiHero.detiHero />
+      <DetiHero.plavaniHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

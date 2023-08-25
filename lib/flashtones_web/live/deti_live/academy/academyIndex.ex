@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
       <MenuDetiMobile.menuAcademyMobile />
-      <DetiHero.detiHero />
+      <DetiHero.academyHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

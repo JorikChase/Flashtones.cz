@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
       <MenuDetiMobile.menuEnviroMobile />
-      <DetiHero.detiHero />
+      <DetiHero.enviroHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
       <MenuDetiMobile.menuVyletyMobile />
-      <DetiHero.detiHero />
+      <DetiHero.vyletyHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />
