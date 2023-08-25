@@ -48,7 +48,7 @@ defmodule MenuDetiMobile do
 
       justify-content: space-evenly;
 
-      padding: 1em;
+      padding: 30px;
 
       position: fixed;
       top: 45px;
@@ -66,11 +66,12 @@ defmodule MenuDetiMobile do
       left: 0;
       right: 0;
 
-      padding: 0 1em;
+      padding: 0 30px 0 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-content: center;
       }
       }
     </style>
@@ -95,6 +96,11 @@ defmodule MenuDetiMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
+        <span class="socky-icons">
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
+          <a href="###"><img src="/images/icon/yt.svg"></a>
+          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
+        </span>
       </div>
     </div>
     """

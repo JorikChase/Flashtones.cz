@@ -53,17 +53,7 @@ defmodule DetiHero do
         right: 50%;
         left: 90px;
       }
-      @media(orientation: portrait){
-        #h1ro{
-        position:absolute;
-        top: 90px;
-        right: 90px;
-        left: 90px;
-        }
-        .carousel-nav > a{
-          display: none;
-        }
-      }
+
         .carousel {
           width: 100%;
           height: 90vh; /* Set desired carousel height */
@@ -89,7 +79,7 @@ defmodule DetiHero do
 
         .carousel-control {
           z-index:2;
-          background-color: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0.6);
           color: #fff;
           font-size: 20px;
           margin: -50px 5px 0 5px;
@@ -110,7 +100,7 @@ defmodule DetiHero do
         }
 
         .carousel-control:hover {
-          background-color: rgba(0, 0, 0, 0.8);
+          background: rgba(0, 0, 0, 0.8);
         }
         .carousel-control > img {
           position: relative;
@@ -124,6 +114,22 @@ defmodule DetiHero do
           bottom: 10vh;
           width: 100%;
         }
+        @media(orientation: portrait){
+        #h1ro{
+        position:absolute;
+        top: 90px;
+        right: 90px;
+        left: 90px;
+        }
+        .carousel-control{
+          width: fit-content;
+          height: fit-content;
+          background: transparent;
+        }
+        .carousel-nav > button > a{
+          display: none;
+        }
+      }
       </style>
 
       <script>

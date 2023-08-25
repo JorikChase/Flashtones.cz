@@ -7,9 +7,9 @@ defmodule Socky do
       <div class="socky-header">
         <h3>Jsme tak trochu socky</h3>
         <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/insta.svg"></a>
-          <a href="###"><img src="/images/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/fb.svg"></a>
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
+          <a href="###"><img src="/images/icon/yt.svg"></a>
+          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
         </span>
       </div>
       <p>
