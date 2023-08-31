@@ -4,8 +4,9 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
   def render(assigns) do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
-      <MenuDetiMobile.menuLyzovaniMobile />
-      <DetiHero.lyzovaniHero />
+      <MenuMobile.menuLyzovaniMobile />
+      <MenuPc.menuLyzovaniPc />
+      <Hero.lyzovaniHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

@@ -4,8 +4,9 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
   def render(assigns) do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
-      <MenuDetiMobile.menuPlavaniMobile />
-      <DetiHero.plavaniHero />
+      <MenuMobile.menuPlavaniMobile />
+      <MenuPc.menuPlavaniPc />
+      <Hero.plavaniHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

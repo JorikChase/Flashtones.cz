@@ -4,8 +4,9 @@ defmodule FlashtonesWeb.AcademyIndexLive do
   def render(assigns) do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
-      <MenuDetiMobile.menuAcademyMobile />
-      <DetiHero.academyHero />
+      <MenuMobile.menuAcademyMobile />
+      <MenuPc.menuAcademyPc />
+      <Hero.academyHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

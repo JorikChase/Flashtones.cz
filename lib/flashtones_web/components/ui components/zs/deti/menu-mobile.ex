@@ -1,4 +1,4 @@
-defmodule MenuDetiMobile do
+defmodule MenuMobile do
   use Phoenix.Component
 
   def menuAcademyMobile(assigns) do

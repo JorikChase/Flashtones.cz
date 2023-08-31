@@ -1,50 +1,49 @@
-defmodule DetiHero do
+defmodule Hero do
   use Phoenix.Component
 
   def academyHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -130,84 +129,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def detiHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -293,84 +292,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def domaHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -456,84 +455,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def enviroHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -619,84 +618,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def lyzovaniHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -782,84 +781,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def plavaniHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -945,84 +944,84 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
+
   def vyletyHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
+    <div class="hero">
+      <h1 id="h1ro">
         Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item">
-            <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item">
-            <!-- Add more images as needed -->
-          </div>
-          <div class="carousel-nav flex justify-center mt-4">
-            <button class="carousel-control noBreak" onclick="goToSlide(0)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 1">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(1)">
-              <img src="/images/zs/Hero3.jpeg" alt="Image 2">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(2)">
-              <img src="/images/plavani/plavani-head.png" alt="Image 3">
-              <a>
-                veta nahore
-              </a>
-            </button>
-            <button class="carousel-control noBreak" onclick="goToSlide(3)">
-              <img src="/images/zs/Hero2.jpeg" alt="Image 4">
-              <a>
-                veta nahore
-              </a>
-            </button>
-          </div>
+      </h1>
+      <div class="relative">
+        <div class="carousel">
+          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
+          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
+          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
+          <!-- Add more images as needed -->
+        </div>
+        <div class="carousel-nav flex justify-center mt-4">
+          <button class="carousel-control noBreak" onclick="goToSlide(0)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 1" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(1)">
+            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(2)">
+            <img src="/images/plavani/plavani-head.png" alt="Image 3" />
+            <a>
+              veta nahore
+            </a>
+          </button>
+          <button class="carousel-control noBreak" onclick="goToSlide(3)">
+            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
+            <a>
+              veta nahore
+            </a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <style>
+    <style>
       #h1ro{
         color: white;
         z-index: 5;
@@ -1108,38 +1107,37 @@ defmodule DetiHero do
           display: none;
         }
       }
-      </style>
+    </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
+    <script>
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselControls = document.querySelectorAll('.carousel-control');
 
-        let currentSlide = 0;
+      let currentSlide = 0;
 
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
+      function showSlide() {
+        carouselItems.forEach((item, index) => {
+          item.style.opacity = index === currentSlide ? 1 : 0;
+        });
+      }
 
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
+      function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        showSlide();
+      }
 
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % carouselItems.length;
+        showSlide();
+      }
 
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+        showSlide();
+      }
 
-        showSlide(); // Show initial slide
-
-      </script>
+      showSlide(); // Show initial slide
+    </script>
     """
   end
 end

@@ -164,6 +164,11 @@ p{
 }
 /*global*/
 
+.zs-menu-deti{
+  color: #118C8C;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .zs-menu-plavani{
   color: #002FE0;
   text-transform: uppercase;
