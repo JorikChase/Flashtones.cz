@@ -6,7 +6,7 @@ defmodule Nav do
     <style>
       @media (orientation: landscape){
         .navBg{
-          z-index: 1;
+          z-index: 100;
           position: absolute;
           top: 0;
           right: 0;
@@ -15,19 +15,8 @@ defmodule Nav do
           background: rgba(0, 0, 0, 1);
           border-radius: 0;
         }
-        .navToggle{
-          color: var(--white);
-          font-weight: bold;
-          z-index: 101;
-          position: absolute;
-          top: 0;
-          right: 0;
-          height: 30px;
-          background: rgba(0, 0, 0, 1);
-          border-radius: 0;
-        }
         nav{
-          padding: 30px;
+          padding: 0 30px 30px 30px;
           z-index: 100;
           position: absolute;
           display: flex;
@@ -35,26 +24,17 @@ defmodule Nav do
           top: 0;
           right: 0;
           left: 0;
-          height: 30px;
-          background: rgba(0, 0, 0, 0);
+
+          backdrop-filter: blur(7px);
+          -webkit-backdrop-filter: blur(7px);
 
           border-radius: 0;
 
-          transition: all .25s ease;
-        }
-        nav:hover{
+          transition: all .5s ease;
           height: fit-content;
-          background: rgba(0, 0, 0, 1);
+          background: rgba(0, 0, 0, .8);
         }
-        nav > *{
-          opacity: 0;
-          visibility: hidden;
-          transition: all .25s ease;
-        }
-        nav:hover > *{
-          opacity: 1;
-          visibility: visible;
-        }
+        
         nav h1{
           color: var(--White, #FFF);
           font-family: Barlow;
@@ -85,14 +65,6 @@ defmodule Nav do
         .navHero{
           display: flex;
           flex-direction: column;
-        }
-        .navHero a{
-          display: inline-flex;
-          height: 50px;
-          padding: 15px 40px;
-          justify-content: center;
-          align-items: center;
-          flex-shrink: 0;
         }
         .navHero button{
           border-radius: 30px;
@@ -140,16 +112,75 @@ defmodule Nav do
           display: flex;
           flex-direction: row;
         }
+        /* Button styles for toggling navigation */
+        #navToggle {
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 101; /* Above navigation */
+                background-color: rgba(0, 0, 0, 1);
+                color: white;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+                transition: transform 0.3s ease-in-out;
+            }
 
-      }
+            /* Styling for the arrow-down and cross icons */
+            #navToggle::before,
+            #navToggle::after {
+                content: "";
+                display: block;
+                width: 20px;
+                height: 2px;
+                background-color: white;
+                position: absolute;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            #navToggle::before {
+                top: 14px;
+            }
+
+            #navToggle::after {
+                top: 22px;
+            }
+
+            /* Rotate the icons for animation */
+            #navToggle.active::before {
+                transform: rotate(45deg);
+            }
+
+            #navToggle.active::after {
+                transform: rotate(-45deg);
+            }
+        }
+        @media (orientation: portrait){
+          nav{
+            flex-direction: column;
+            display: none;
+          }
+          nav > *{
+            flex-direction: column;
+            display: none;
+          }
+          .navBg{
+            display: none;
+          }
+        }
+      
     </style>
     <div class="navBg">
 
     </div>
-    <div class="navToggle">
-      zavřít
-    </div>
-    <nav>
+    <button id="navToggle"></button>
+    <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">
         <h1>My jsme Flashtones</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu nulla, vitae mi laoreet sit amet. Pellentesque mi ipsum, ultrices sit amet sem quis.</p>
@@ -270,6 +301,25 @@ defmodule Nav do
           </div>
       </div>
     </nav>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const navToggle = document.getElementById('navToggle');
+          const navigation = document.getElementById('navigation');
+
+          navToggle.addEventListener('click', function () {
+              // Toggle the active class to change the button content and icon
+              navToggle.classList.toggle('active');
+
+              // Toggle the visibility of the navigation component
+              if (navigation.style.transform === 'translateY(-100%)') {
+                  navigation.style.transform = 'translateY(0)';
+              } else {
+                  navigation.style.transform = 'translateY(-100%)';
+              }
+          });
+      });
+    </script>
+    
     """
   end
 end

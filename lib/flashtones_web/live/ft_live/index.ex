@@ -10,6 +10,7 @@ defmodule FlashtonesWeb.IndexLive do
     #instagram_token = assigns.instagram_token
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/flashtones.css"} />
+      <Nav.nav />
       <FtHero.ftHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
