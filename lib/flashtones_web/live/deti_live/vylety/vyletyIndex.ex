@@ -4,6 +4,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
   def render(assigns) do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
+      <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <Hero.vyletyHero />
