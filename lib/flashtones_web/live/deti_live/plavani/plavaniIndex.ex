@@ -8,6 +8,8 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <Hero.plavaniHero />
+      <KurzNav.kurzNav />
+      <IconRow.iconRow />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />
