@@ -25,12 +25,20 @@ defmodule FlashtonesWeb.Router do
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
     live "zs/academy", AcademyIndexLive
+    live "zs/academy/courses", AcademyCoursesLive
     live "zs/deti", DetiIndexLive
+    live "zs/deti/courses", DetiCoursesLive
     live "zs/doma", DomaIndexLive
+    live "zs/doma/courses", DomaCoursesLive
     live "zs/enviro", EnviroIndexLive
+    live "zs/enviro/courses", EnviroCoursesLive
     live "zs/lyzovani", LyzovaniIndexLive
+    live "zs/lyzovani/courses", LyzovaniCoursesLive
     live "zs/plavani", PlavaniIndexLive
+    live "zs/plavani/courses", PlavaniCoursesLive
     live "zs/vylety", VyletyIndexLive
+    live "zs/vylety/courses", VyletyCoursesLive
+    live "/desk", DeskLive
 
     live "/posts", PostLive.Index, :index
     live "/posts/new", PostLive.Index, :new
