@@ -3,10 +3,10 @@ defmodule FlashtonesWeb.DetiCoursesLive do
 
   def render(assigns) do
     ~H"""
-    <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
+      <KurzDetail.kurzDetail />
       <Socky.socky />
       <Footer.footer />
     """
