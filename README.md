@@ -16,3 +16,318 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## work
+
+- [ ] flashtones
+	- [ ] studio
+		- [ ] sluzby
+			- [ ] kurzy-links_component
+	- [ ] homepage
+		- [x] plachta
+		- [x] menu
+		- [ ] header-ft_component
+		- [x] aktuality_component
+		- [x] kdo-jsme_component
+		- [x] rekli_component
+		- [x] kontakt_component
+		- [x] socky_component
+		- [ ] footer
+	- [ ] aktuality/blog
+		- [x] plachta
+		- [x] menu
+		- [ ] header-small
+		- [ ] aktuality-section
+			- [ ] aktuality-detail
+				- [ ] aktuality-detail-header-big
+				- [ ] aktuality-detail-content
+					- [ ] bold
+					- [ ] p
+					- [ ] img
+					- [ ] h3
+					- [ ] p
+				- [ ] socky
+				- [ ] footer
+		- [ ] blog-section
+			- [ ] blog-detail
+				- [ ] blog-detail-header-big
+				- [ ] blog-detail-content
+					- [ ] bold
+					- [ ] p
+					- [ ] img
+					- [ ] h3
+					- [ ] p
+				- [ ] socky
+				- [ ] footer
+		- [ ] socky
+		- [ ] footer
+	- [ ] about
+		- [x] plachta
+		- [x] menu
+		- [ ] header-small
+		- [ ] o-section
+			- [ ] bold
+			- [ ] p
+			- [ ] img
+			- [ ] p
+			- [ ] p
+		- [ ] historie-section
+			- [ ] p
+		- [ ] nasi-section
+			- [ ] p
+			- [ ] grid
+		- [x] socky
+		- [ ] footer
+	- [ ] faq
+		- [x] plachta
+		- [x] menu
+		- [ ] header-small
+		- [x] obecne-section
+			- [x] toggle-item
+		- [x] socky
+		- [ ] footer
+	- [ ] sluzby
+		- [x] plachta
+		- [x] menu
+		- [ ] header-small
+		- [ ] p
+		- [ ] sluzby-item
+			- [ ] img
+			- [ ] h3
+			- [ ] p
+			- [ ] a
+			- [ ] button
+		- [ ] sluzby-extra
+			- [ ] sluzby-extra-item
+				- [ ] img
+				- [ ] h3
+				- [ ] p
+				- [ ] button
+		- [x] socky
+		- [ ] footer
+	- [ ] ratings
+	- [ ] kontakt
+		- [x] plachta
+		- [x] menu
+		- [ ] head-small
+		- [ ] kontakt-section
+			- [ ] kontakt-link-item
+			- [ ] h3
+			- [ ] kontakt-company-item
+			- [ ] formToggle
+		- [ ] kontakt-form-section
+			- [ ] p
+			- [ ] form-grid-item
+				- [ ] small
+				- [ ] input type form
+				- [ ] checkbox
+					- [ ] small
+				- [ ] submit
+		- [ ] socky
+		- [ ] footer
+- [ ] studio
+	- [ ] 
+- [ ] obleceni
+	- [ ] 
+- [ ] zs pro deti
+	- [ ] homepage
+		- [x] plachta
+		- [x] menu
+		- [x] header-zs_component
+		- [x] kurzy-links_component
+		- [x] icon-row_component
+		- [x] aktuality_component
+		- [x] kdo-jsme_component
+		- [x] rekli_component
+		- [x] kontakt_component
+		- [x] socky_component
+		- [x] footer
+	- [ ] landing
+		- [x] header-zs-landing
+		- [ ] skoly-section
+			- [ ] p
+			- [ ] kurz-item
+		- [ ] public-section
+			- [ ] p
+			- [ ] public-item
+		- [x] kurzy-icon_component
+		- [x] aktuality_component
+		- [x] kdo-jsme_component
+		- [x] rekli_component
+		- [x] kontakt_component
+		- [x] socky_component
+		- [ ] footer
+	- [x] zs-detail
+		- [x] plachta
+		- [x] menu
+		- [x] head-small
+		- [ ] kurz-cta
+			- [ ] span
+			- [ ] p
+				- [ ] bold
+			- [ ] cta-button 
+				- [ ] odkaz na rezrvacak - verejnost
+				- [ ] else - kontakt form
+			- [ ] p
+			- [ ] span
+				- [ ] img
+				- [ ] a
+		- [x] h2
+		- [ ] average-rating
+		- [x] p
+			- [x] bold
+		- [x] h3
+		- [x] p
+		- [x] p
+		- [x] ul
+			- [x] li
+		- [x] h3
+		- [x] detail-faq
+			- [x] flex-column
+				- [x] toggle-item
+		- [x] h3
+		- [x] detail-mista_component
+			- [x] img
+			- [x] div
+				- [x] h3
+				- [x] p
+				- [x] a
+		- [x] rekli_component
+		- [x] extra-kurzy
+			- [x] kurz-item
+		- [x] socky_component
+		- [x] footer
+	- [ ] lokalita
+		- [ ] plachta
+		- [ ] menu
+		- [ ] head-small
+		- [ ] seznam-section
+			- [ ] detail-mista_component
+				- [ ] img
+				- [ ] div
+					- [ ] h3
+					- [ ] p
+					- [ ] a
+		- [ ] mapa-section
+			- [ ] maps.google embed
+		- [ ] lokalita-detail
+			- [ ] head-small
+			- [ ] p
+			- [ ] img
+			- [ ] h3
+			- [ ] p
+			- [ ] h3
+			- [ ] detail-faq
+				- [ ] flex-column
+					- [ ] toggle-item
+		- [ ] socky_component
+		- [ ] footer
+	- [ ] kurzy
+		- [x] plachta
+		- [x] menu
+		- [ ] head-small
+		- [ ] skoly-section
+			- [ ] p
+			- [x] kurz-item
+		- [ ] public-section
+			- [ ] p
+			- [x] public-item
+		- [x] socky_component
+		- [ ] footer
+	- [ ] sluzby
+		- [ ] p
+		- [ ] zs-sluzby
+			- [ ] zs-sluzba-link
+				- [ ] img
+				- [ ] p
+				- [ ] button
+		- [ ] socky_component
+		- [ ] footer
+	- [ ] fotogalerie
+		- [ ] plachta
+		- [ ] menu
+		- [ ] head-small
+		- [ ] prihlaseni-section
+			- [ ] input-jmeno
+				- [ ] small bold
+				- [ ] input
+			- [ ] input-heslo
+				- [ ] small bold
+				- [ ] input
+			- [ ] link-small-password
+			- [ ] submit
+				- [ ] checkbox
+					- [ ] small
+				- [ ] submit
+		- [ ] registrace-section
+			- [ ] input-jmeno
+				- [ ] small bold
+				- [ ] input
+			- [ ] input-heslo
+				- [ ] small bold
+				- [ ] input
+			- [ ] submit
+				- [ ] checkbox
+					- [ ] small-souhlas
+				- [ ] submit
+		- [ ] prihlaseni-kod
+			- [ ] input
+				- [ ] small
+				- [ ] input
+			- [ ] vstoupit
+		- [ ] kod-nalezen
+			- [ ] fotogalerie
+				- [ ] h3
+				- [ ] small
+				- [ ] download-button
+			- [ ] hodnoceni-cta
+				- [ ] h3
+				- [ ] p
+				- [ ] ratings-button
+				- [ ] img-unflexed
+			- [ ] a-prihlaseni-kod
+		- [ ] socky_component
+		- [ ] footer
+	- [ ] 
+- [ ] misc
+	- [ ] cookies
+	- [ ] section-toggle
+- [ ] komponenty
+	- [x] plachta
+		- [x] max-width
+		- [x] fit body content
+		- [x] backdrop-filter: blur();
+	- [ ] menu
+		- [ ] ft
+		- [x] pro deti
+		- [x] plavani
+		- [x] lyzovani
+		- [x] enviro
+		- [x] vylety
+		- [x] doma
+		- [x] academy
+	- [ ] menuMobile
+		- [ ] ft
+		- [x] pro deti
+		- [x] plavani
+		- [x] lyzovani
+		- [x] enviro
+		- [x] vylety
+		- [x] doma
+		- [x] academy
+	- [ ] footer
+	- [ ] header
+	- [ ] aktuality
+	- [x] kdo 
+	- [x] rekli
+	- [ ] kontakt
+	- [x] socky
+	- [x] kurz-item
+	- [x] public-item
+[[ft]]
+- pokud potrebuji pomoc 607 575 478
+- brat vsechna infa o kurzech z ft ori
+- co se nauci
+- [ ] minimum zsprodeti boiler
+	- [ ] hp
+		- [ ] kurzy
