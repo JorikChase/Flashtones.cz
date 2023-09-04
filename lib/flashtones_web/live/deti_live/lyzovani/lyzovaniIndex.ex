@@ -8,6 +8,8 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
       <Hero.lyzovaniHero />
+      <KurzNav.kurzNav />
+      <IconRow.iconRow />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />
