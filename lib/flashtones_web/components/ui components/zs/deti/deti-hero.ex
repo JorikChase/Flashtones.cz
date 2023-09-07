@@ -48,12 +48,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -211,12 +212,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -374,12 +376,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -537,12 +540,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -700,12 +704,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -863,12 +868,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -1026,12 +1032,13 @@ defmodule Hero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
 
         .carousel {
+          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
