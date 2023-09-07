@@ -11,6 +11,8 @@ defmodule FlashtonesWeb.IndexLive do
     ~H"""
     <link phx-track-static rel="stylesheet" href={~p"/assets/flashtones.css"} />
       <Nav.nav />
+      <MenuMobile.menuFtMobile />
+      <MenuPc.menuFtPc />
       <FtHero.ftHero />
       <Aktuality.aktuality />
       <Kdo.kdo />
