@@ -3,6 +3,10 @@ defmodule FlashtonesWeb.AboutLive do
 
   def render(assigns) do
     ~H"""
+      <Nav.nav />
+      <MenuMobile.menuFtMobile />
+      <MenuPc.menuFtPc />
+      <HeroSmall.heroSmall />
     <style>
       /* Custom styles for the navigation bar */
       .nav-item {
@@ -53,9 +57,9 @@ defmodule FlashtonesWeb.AboutLive do
     <div class="container mx-auto py-8">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
-        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">Section 1</div>
-        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">Section 2</div>
-        <div class="nav-item p-4 rounded" onclick="showSection(3)">Section 3</div>
+        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
+        <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
+        <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
       </div>
       <!-- Sections -->
       <div id="section1" class="hidden">
@@ -312,6 +316,25 @@ defmodule FlashtonesWeb.AboutLive do
           tooltip.remove();
         }
       }
+      document.addEventListener('DOMContentLoaded', function () {
+            // Call showSection with section number 1 to select the first section by default
+            showSection(1);
+
+            const navToggle = document.getElementById('navToggle');
+            const navigation = document.getElementById('navigation');
+
+            navToggle.addEventListener('click', function () {
+                // Toggle the active class to change the button content and icon
+                navToggle.classList.toggle('active');
+
+                // Toggle the visibility of the navigation component
+                if (navigation.style.transform === 'translateX(100%)') {
+                    navigation.style.transform = 'translateX(0)';
+                } else {
+                    navigation.style.transform = 'translateX(100%)';
+                }
+            });
+        });
     </script>
 
     <Socky.socky />

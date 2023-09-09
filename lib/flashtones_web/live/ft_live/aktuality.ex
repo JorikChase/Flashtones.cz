@@ -3,7 +3,10 @@ defmodule FlashtonesWeb.AktualityLive do
 
   def render(assigns) do
     ~H"""
-
+      <Nav.nav />
+      <MenuMobile.menuFtMobile />
+      <MenuPc.menuFtPc />
+      <HeroSmall.heroSmall />
     <style>
       /* Custom styles for the navigation bar */
       .nav-item {

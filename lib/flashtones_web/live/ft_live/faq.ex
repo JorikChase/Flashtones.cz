@@ -3,6 +3,10 @@ defmodule FlashtonesWeb.FaqLive do
 
   def render(assigns) do
     ~H"""
+      <Nav.nav />
+      <MenuMobile.menuFtMobile />
+      <MenuPc.menuFtPc />
+      <HeroSmall.heroSmall />
     <style>
       .question-box {
         cursor: pointer;

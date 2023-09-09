@@ -340,7 +340,7 @@ defmodule MenuPc do
         <img src="/images/academy/academy-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/academy"> Úvod </a>
-          <a href="/zs/academy/courses"> Kurzy </a>
+          <a href="/zs/academy/courses/school"> Kurzy </a>
           <a href="/zs/academy/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -537,7 +537,7 @@ defmodule MenuPc do
         <img src="/images/deti/deti-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/deti"> Úvod </a>
-          <a href="/zs/deti/courses"> Kurzy </a>
+          <a href="/zs/deti/courses/school"> Kurzy </a>
           <a href="/zs/deti/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -734,7 +734,7 @@ defmodule MenuPc do
         <img src="/images/doma/doma-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/doma"> Úvod </a>
-          <a href="/zs/doma/courses"> Kurzy </a>
+          <a href="/zs/doma/courses/school"> Kurzy </a>
           <a href="/zs/doma/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -931,7 +931,7 @@ defmodule MenuPc do
         <img src="/images/enviro/enviro-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/enviro"> Úvod </a>
-          <a href="/zs/enviro/courses"> Kurzy </a>
+          <a href="/zs/enviro/courses/school"> Kurzy </a>
           <a href="/zs/enviro/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -1128,7 +1128,7 @@ defmodule MenuPc do
         <img src="/images/lyzovani/lyzovani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/lyzovani"> Úvod </a>
-          <a href="/zs/lyzovani/courses"> Kurzy </a>
+          <a href="/zs/lyzovani/courses/school"> Kurzy </a>
           <a href="/zs/lyzovani/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -1325,7 +1325,7 @@ defmodule MenuPc do
         <img src="/images/plavani/plavani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/plavani"> Úvod </a>
-          <a href="/zs/plavani/courses"> Kurzy </a>
+          <a href="/zs/plavani/courses/school"> Kurzy </a>
           <a href="/zs/plavani/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
@@ -1522,7 +1522,7 @@ defmodule MenuPc do
         <img src="/images/vylety/vylety-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/vylety"> Úvod </a>
-          <a href="/zs/vylety/courses"> Kurzy </a>
+          <a href="/zs/vylety/courses/school"> Kurzy </a>
           <a href="/zs/vylety/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
