@@ -50,7 +50,7 @@ defmodule FtHero do
         color: white;
         z-index: 5;
         position:absolute;
-        top: 150px;
+        top: 180px;
         right: 50%;
         left: 90px;
       }
