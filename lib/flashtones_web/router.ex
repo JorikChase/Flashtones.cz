@@ -28,6 +28,7 @@ defmodule FlashtonesWeb.Router do
     live "zs/academy/courses", AcademyCoursesLive
     live "zs/deti", DetiIndexLive
     live "zs/deti/courses/school", DetiCoursesLive
+    live "zs/deti/courses/location", DetiLocationLive
     live "zs/doma", DomaIndexLive
     live "zs/doma/courses", DomaCoursesLive
     live "zs/enviro", EnviroIndexLive
