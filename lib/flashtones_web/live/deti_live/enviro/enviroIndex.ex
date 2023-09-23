@@ -3,7 +3,11 @@ defmodule FlashtonesWeb.EnviroIndexLive do
 
   def render(assigns) do
     ~H"""
-    <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
+    <style>
+      main{
+        background: #e5f8e4;
+      }
+    </style>
       <Nav.nav />
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />

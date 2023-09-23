@@ -3,6 +3,11 @@ defmodule FlashtonesWeb.DetiIndexLive do
 
   def render(assigns) do
     ~H"""
+    <style>
+    main{
+      background: #dbf6f9;
+    }
+    </style>
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />

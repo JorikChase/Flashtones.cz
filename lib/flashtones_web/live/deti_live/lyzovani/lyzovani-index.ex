@@ -3,7 +3,11 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
 
   def render(assigns) do
     ~H"""
-    <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
+      <style>
+        main{
+          background: #e4edf8;
+        }
+      </style>
       <Nav.nav />
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />

@@ -3,6 +3,11 @@ defmodule FlashtonesWeb.VyletyIndexLive do
 
   def render(assigns) do
     ~H"""
+      <style>
+        main{
+          background: #f8f0e4;
+        }
+      </style>
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />

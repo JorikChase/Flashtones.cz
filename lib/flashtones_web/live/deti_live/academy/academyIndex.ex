@@ -3,7 +3,11 @@ defmodule FlashtonesWeb.AcademyIndexLive do
 
   def render(assigns) do
     ~H"""
-    <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
+    <style>
+    main{
+      background: #f8e4e4;
+    }
+    </style>
       <Nav.nav />
       <MenuMobile.menuAcademyMobile />
       <MenuPc.menuAcademyPc />

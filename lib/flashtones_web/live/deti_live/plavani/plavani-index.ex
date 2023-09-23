@@ -3,7 +3,11 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
 
   def render(assigns) do
     ~H"""
-    <link phx-track-static rel="stylesheet" href={~p"/assets/doma.css"} />
+      <style>
+        main{
+          background: #e4e9f8;
+        }
+      </style>
       <Nav.nav />
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
