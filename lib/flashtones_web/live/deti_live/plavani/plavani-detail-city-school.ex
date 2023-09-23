@@ -42,6 +42,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
         <Rekli.rekli />
         <KurzNav.kurzNav />
         <Socky.socky />
+        <Footer.footer />
     """
   end
 

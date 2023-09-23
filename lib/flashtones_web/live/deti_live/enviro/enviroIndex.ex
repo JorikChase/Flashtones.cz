@@ -14,6 +14,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />
+      <Footer.footer />
     """
   end
 end

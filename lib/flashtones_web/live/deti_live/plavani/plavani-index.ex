@@ -76,6 +76,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />
+      <Footer.footer />
     """
   end
 end

@@ -42,6 +42,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
         <Rekli.rekli />
         <KurzNav.kurzNav />
         <Socky.socky />
+        <Footer.footer />
     """
   end
 
