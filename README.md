@@ -339,12 +339,7 @@ Kontakty dodat hned zapnout
 Predelat loga mezi největším a nejmenším 
 Odkaz do kdo jsme přidat správně 
 https://www.zsprodeti.cz/nas-tym/ O nas copy do zsprodeti
-Ikonka stránky
-Odendat nabidku satin na hlavním banneru
 Dodat hodnoceni v řekli o nas na disku sdílení Adrian
 Zustanme v kontaktu ukládat mail submitlej
-Socky smazat fotky zbytek textu a dodat neustale v obraze zvětšit ikonky
-
-Footer pridat
 
 Instagram feed

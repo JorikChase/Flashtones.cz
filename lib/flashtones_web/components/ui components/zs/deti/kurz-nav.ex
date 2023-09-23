@@ -122,13 +122,13 @@ defmodule KurzNav do
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
           <p>Žáci provedou během pětidenního kurzu základy běžeckého lyžování. Na kurzu je věnován dostatečný čas jak klasickému stylu, tak technice bruslení. </p>
-          <a href="/zs/lyzovani/city-school">více informací</a>
+          <a href="/zs/lyzovani/pre-school">více informací</a>
         </div>
         <div class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
           <p>Jsou čtyřdenní – dvouvíkendové kurzy pro děti předškolního a mladšího školního věku. Lekce probíhá v lyžařském areálu Klínovec.</p>
-          <a href="/zs/lyzovani/pre-school">více informací</a>
+          <a href="/zs/lyzovani/city-school">více informací</a>
         </div>
       </div>
     """
