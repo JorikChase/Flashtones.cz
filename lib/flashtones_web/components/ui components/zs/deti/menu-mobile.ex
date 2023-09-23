@@ -380,7 +380,7 @@ defmodule MenuMobile do
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/deti"> Úvod </a>
+        <a href="/zs"> Úvod </a>
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>

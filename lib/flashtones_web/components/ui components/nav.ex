@@ -34,7 +34,7 @@ defmodule Nav do
           height: fit-content;
           background: rgba(0, 0, 0, .8);
         }
-        
+
         nav h1{
           color: var(--White, #FFF);
           font-family: Barlow;
@@ -192,7 +192,7 @@ defmodule Nav do
       </div>
       <div class="navLinks">
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs/deti">
+          <a class="navLink" href="/zs">
             <h3>pro děti</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
@@ -237,7 +237,7 @@ defmodule Nav do
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs/deti">
+          <a class="navLink" href="/zs">
             <h3>oblečení</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
@@ -276,7 +276,7 @@ defmodule Nav do
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs/deti">
+          <a class="navLink" href="/zs">
             <h3>eventy</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>

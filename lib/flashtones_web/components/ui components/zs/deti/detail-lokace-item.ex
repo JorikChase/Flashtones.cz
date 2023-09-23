@@ -28,7 +28,7 @@ defmodule DetailLokaceItem do
         <p>
           Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
         </p>
-        <a href="/zs/deti/courses/location">více informací</a>
+        <a href="/zs/courses/location">více informací</a>
       </div>
     </div>
     """

@@ -92,7 +92,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -139,7 +139,7 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/ft/Flashtones.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/deti/"> pro děti </a>
+          <a href="/zs/"> pro děti </a>
           <a href="/zs/academy/faq"> oblečení </a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -154,7 +154,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -292,7 +292,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -351,7 +351,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -489,7 +489,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -536,9 +536,9 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/deti/deti-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/deti"> Úvod </a>
-          <a href="/zs/deti/courses/school"> Kurzy </a>
-          <a href="/zs/deti/faq"> Lokality </a>
+          <a href="/zs"> Úvod </a>
+          <a href="/zs/courses/school"> Kurzy </a>
+          <a href="/zs/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
         </div>
@@ -548,7 +548,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -686,7 +686,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -745,7 +745,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -883,7 +883,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -942,7 +942,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -1080,7 +1080,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -1139,7 +1139,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -1277,7 +1277,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -1336,7 +1336,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink
@@ -1474,7 +1474,7 @@ defmodule MenuPc do
 
           width: 0px;
           height: 0px;
-          
+
           transition: all 0.75s ease;
 
           visibility: hidden;
@@ -1533,7 +1533,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <a href="/zs/deti" class="pcMenuBottomLink" id="item1">
+          <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
             <p>
               textPcMenuBottomLink

@@ -1,7 +1,7 @@
-defmodule KurzDetail do
-  use Phoenix.Component
+defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
+  use FlashtonesWeb, :live_view
 
-  def kurzDetail(assigns) do
+  def render(assigns) do
     ~H"""
         <style>
           p{
@@ -44,5 +44,7 @@ defmodule KurzDetail do
         <Socky.socky />
     """
   end
+
+
 
 end

@@ -54,7 +54,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -110,6 +109,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -218,7 +218,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -274,6 +273,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -382,7 +382,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -438,6 +437,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -546,7 +546,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -602,6 +601,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -710,7 +710,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -766,6 +765,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -874,7 +874,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -930,6 +929,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;
@@ -1038,7 +1038,6 @@ defmodule Hero do
       }
 
         .carousel {
-          margin-top: 30px;
           width: 100%;
           height: 90vh; /* Set desired carousel height */
           overflow: hidden;
@@ -1094,6 +1093,7 @@ defmodule Hero do
           margin-right: 1em;
         }
         .carousel-nav{
+          display: none;
           position: absolute;
           bottom: 10vh;
           width: 100%;

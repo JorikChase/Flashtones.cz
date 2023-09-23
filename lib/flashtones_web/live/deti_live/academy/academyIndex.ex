@@ -8,7 +8,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
       <MenuMobile.menuAcademyMobile />
       <MenuPc.menuAcademyPc />
       <Hero.academyHero />
-      <Aktuality.aktuality />
+      <!--<Aktuality.aktuality />-->
       <Kdo.kdo />
       <Rekli.rekli />
       <Zustanme.zustanme />

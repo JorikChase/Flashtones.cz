@@ -26,9 +26,9 @@ defmodule FlashtonesWeb.Router do
     live "/hodnoceni", HodnoceniLive
     live "zs/academy", AcademyIndexLive
     live "zs/academy/courses", AcademyCoursesLive
-    live "zs/deti", DetiIndexLive
-    live "zs/deti/courses/school", DetiCoursesLive
-    live "zs/deti/courses/location", DetiLocationLive
+    live "zs", DetiIndexLive
+    live "zs/courses/school", DetiCoursesLive
+    live "zs/courses/location", DetiLocationLive
     live "zs/doma", DomaIndexLive
     live "zs/doma/courses", DomaCoursesLive
     live "zs/enviro", EnviroIndexLive
@@ -36,7 +36,9 @@ defmodule FlashtonesWeb.Router do
     live "zs/lyzovani", LyzovaniIndexLive
     live "zs/lyzovani/courses", LyzovaniCoursesLive
     live "zs/plavani", PlavaniIndexLive
-    live "zs/plavani/courses", PlavaniCoursesLive
+    live "zs/plavani/school", PlavaniDetailSchoolLive
+    live "zs/plavani/pre-school", PlavaniDetailPreSchoolLive
+    live "zs/plavani/city-school", PlavaniDetailCitySchoolLive
     live "zs/vylety", VyletyIndexLive
     live "zs/vylety/courses", VyletyCoursesLive
     live "/desk", DeskLive
