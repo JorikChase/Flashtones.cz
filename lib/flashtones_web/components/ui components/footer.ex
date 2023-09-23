@@ -97,7 +97,7 @@ defmodule Footer do
           <div class="footer-content-column">
             <a class="footer-link" href="/zs">
               <h3>pro děti</h3>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
               Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
@@ -106,43 +106,43 @@ defmodule Footer do
               <span class="footer-link-thick">
                 ZŠ Plavání:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/enviro">
               <span class="footer-link-thick">
                 ZŠ Enviro:<span class="footer-link-thin"> Školy v přírodě a příměstské tábory</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/lyzovani">
               <span class="footer-link-thick">
                 ZŠ Lyžování::<span class="footer-link-thin"> Lyžařské kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/vylety">
               <span class="footer-link-thick">
                 ZŠ Výlety:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/doma">
               <span class="footer-link-thick">
                 ZŠ Doma:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/academy">
               <span class="footer-link-thick">
                 ZŠ Academy:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
           </div>
           <div class="footer-content-column">
             <a class="footer-link" href="/zs">
               <h3>oblečení</h3>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
               Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
@@ -151,52 +151,52 @@ defmodule Footer do
               <span class="footer-link-thick">
                 Ponožky:<span class="footer-link-thin"> Lorem Ipsum</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/enviro">
               <span class="footer-link-thick">
                 Dashinky:<span class="footer-link-thin"> Školy v přírodě a příměstské tábory</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/lyzovani">
               <span class="footer-link-thick">
                 Šátky:<span class="footer-link-thin"> Lyžařské kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/vylety">
               <span class="footer-link-thick">
                 Šperky:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <a class="footer-link" href="/zs/doma">
               <span class="footer-link-thick">
                 Kniha:<span class="footer-link-thin"> Plavecké kurzy</span>
               </span>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
           </div>
           <div class="footer-content-column">
             <a class="footer-link" href="/zs">
               <h3>eventy</h3>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
               Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
             </p>
             <a class="footer-link" href="/">
               <h3>studio</h3>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
               Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
             </p>
             <a class="footer-link" href="https://eshop.flashtones.cz/">
-              <img class="footer-link-arrow" src="/images/eshop.svg" />
+              <img class="footer-link-arrow" src="/images/icon/eshop.svg" />
               <h3>eshop</h3>
-              <img class="footer-link-arrow" src="/images/arrow right.svg" />
+              <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
               Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.

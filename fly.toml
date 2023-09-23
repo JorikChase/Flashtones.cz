@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for flashtones-test on 2023-08-31T18:05:41+02:00
+# fly.toml app configuration file generated for flashtones on 2023-09-22T23:59:52+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "flashtones-test"
+app = "flashtones"
 primary_region = "ams"
 kill_signal = "SIGTERM"
 swap_size_mb = 512
@@ -14,7 +14,7 @@ swap_size_mb = 512
   release_command = "/app/bin/migrate"
 
 [env]
-  PHX_HOST = "flashtones-test.fly.dev"
+  PHX_HOST = "flashtones.fly.dev"
   PORT = "8080"
 
 [http_service]
