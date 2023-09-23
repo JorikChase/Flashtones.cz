@@ -8,7 +8,6 @@ defmodule FlashtonesWeb.DomaIndexLive do
       <MenuPc.menuDomaPc />
       <Hero.domaHero />
       <KurzNav.kurzNav />
-      <IconRow.iconRow />
       <Aktuality.aktuality />
       <Kdo.kdo />
       <Rekli.rekli />

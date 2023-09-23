@@ -28,9 +28,6 @@ defmodule Kdo do
         justify-content: center;
         align-content: center;
       }
-      .kdoPersons a{
-        padding: 1em 1.5em;
-      }
       @media (orientation:portrait){
         .kdo{
           flex-direction: column;
@@ -40,21 +37,20 @@ defmodule Kdo do
     <div class="kdo">
       <div class="kdoText">
         <h3>KDO JSME</h3>
-        <p>moris piktus no hombres allos novadum, ilyyy sooo much!!</p>
         <div>
-          <a href="/kdoJsme">
+          <a href="/about">
             O nás
           </a>
-          <a href="/kdoJsme">
+          <a href="/about">
             Historie flashtones
           </a>
-          <a href="/kdoJsme">
+          <a href="/about">
             Naši lidé
           </a>
         </div>
       </div>
       <div class="kdoPersons">
-        <a href="/about">
+        <a href="/about" style="margin-right: 30px;">
         <img src="/images/ft/marcel.png" />
           <h4>
             Marcel Valouch

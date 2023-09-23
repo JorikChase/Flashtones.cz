@@ -9,14 +9,6 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
-
 ## work
 
 - [ ] flashtones
@@ -330,4 +322,30 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 - co se nauci
 - [ ] minimum zsprodeti boiler
 	- [ ] hp
-		- [ ] kurzy
+		- [ ] kurz
+
+
+
+Chrome desktop: cerna lista, my asme flash tones
+Podstranka je jedna stranka, kurzy plus hotely
+Detailkurzu cta zapnout a odundat čtvrtinu sirky textu
+Aktuality zadny detaily
+Zs pro děti dlaždice
+Z podstranek jde pustnout nadpisy
+https://www.zslyzovani.cz dole ikonky
+Caste dotazy dodělat, až se to dodá - odendat tlačítko
+Hodnoceni texty, Omar, styl
+Kontakty dodat hned zapnout
+Zapojit barvy
+Predelat loga mezi největším a nejmenším 
+Odkaz do kdo jsme přidat správně 
+https://www.zsprodeti.cz/nas-tym/ O nas copy do zsprodeti
+Ikonka stránky
+Odendat nabidku satin na hlavním banneru
+Dodat hodnoceni v řekli o nas na disku sdílení Adrian
+Zustanme v kontaktu ukládat mail submitlej
+Socky smazat fotky zbytek textu a dodat neustale v obraze zvětšit ikonky
+
+Footer pridat
+
+Instagram feed

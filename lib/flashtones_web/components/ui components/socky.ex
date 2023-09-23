@@ -12,32 +12,6 @@ defmodule Socky do
           <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
         </span>
       </div>
-      <p>
-        Sledujte nás na Instagramu, YouTube nebo Facebooku a buďte tak <i>ellentesque mi ipsum</i>, ultrices sit amet sem quis, bibendum mattis massa. Pellentesque ut eros ut velit ullamcorper pharetra nec id sem.
-      </p>
-      <div class="socky-grid">
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/lyzovani.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/svp.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/tabor.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/Hero1.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/Hero2.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/Hero3.jpeg" alt="Socky Image">
-        </a>
-        <a href="/aktuality#blog" class="socky-item">
-          <img src="/images/zs/Hero4.jpeg" alt="Socky Image">
-        </a>
-      </div>
     </div>
     <style>
       .socky-container {
@@ -68,24 +42,6 @@ defmodule Socky do
         height: 40px;
         fill: currentColor;
       }
-
-      .socky-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 1rem;
-        justify-items: center;
-        align-items: center;
-      }
-
-      .socky-item {
-        display: block;
-        width: 100%;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
-
       .socky-item:hover {
         transform: translateY(-5px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

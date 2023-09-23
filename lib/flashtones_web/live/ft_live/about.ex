@@ -63,8 +63,12 @@ defmodule FlashtonesWeb.AboutLive do
       </div>
       <!-- Sections -->
       <div id="section1" class="hidden">
-        <p>Paragraph 1</p>
-        <p>Paragraph 2</p>
+        <p>
+            Flashtones znamená okázalé tóny. Tóny dělají hudbu krásnou v její různorodosti a originalitě, to samé vytváří u módy ponožek a oblékání. Co říkáte, odrbaný hit nebo osobitý song? Uniforma nebo Flashtones ponožky či oblečení?
+        </p>
+          <br>
+        <p>Jsme originální česká značka oblečení, ponožek a jiných módních doplňků, která Vás bude inspirovat i bavit! Párujte naše liché ponožky jak se Vám jen zlíbí, oblékněte africké dashiki s prvky tradičního českého designu nebo oživte starou bundu našimi nášivkami. Nalaďte s námi Flashtones a bořte stereotypy!
+        </p>
         <div class="relative mt-4">
           <!-- Insert video here -->
           <div class="absolute inset-0 flex items-center justify-center">

@@ -174,16 +174,16 @@ defmodule Nav do
             display: none;
           }
         }
-      
     </style>
-    <div class="navBg">
-
-    </div>
+    <div class="navBg"></div>
     <button id="navToggle"></button>
+    <button class="navToggle"></button>
     <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">
         <h1>My jsme Flashtones</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu nulla, vitae mi laoreet sit amet. Pellentesque mi ipsum, ultrices sit amet sem quis.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu nulla, vitae mi laoreet sit amet. Pellentesque mi ipsum, ultrices sit amet sem quis.
+        </p>
         <a href="/">
           <button>
             navštívit hlavní web
@@ -191,114 +191,114 @@ defmodule Nav do
         </a>
       </div>
       <div class="navLinks">
-          <div class="navLinksColumn">
-            <a class="navLink" href="/zs/deti">
-              <h3>pro děti</h3>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
-            </p>
-            <a class="navLink" href="/zs/plavani">
-              <span class="navLink-thick">
-                ZŠ Plavání:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/enviro">
-              <span class="navLink-thick">
-                ZŠ Enviro:<span class="navLink-thin"> Školy v přírodě a příměstské tábory</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/lyzovani">
-              <span class="navLink-thick">
-                ZŠ Lyžování::<span class="navLink-thin"> Lyžařské kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/vylety">
-              <span class="navLink-thick">
-                ZŠ Výlety:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/doma">
-              <span class="navLink-thick">
-                ZŠ Doma:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/academy">
-              <span class="navLink-thick">
-                ZŠ Academy:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-          </div>
-          <div class="navLinksColumn">
-            <a class="navLink" href="/zs/deti">
-              <h3>oblečení</h3>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <p>
-              Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
-            </p>
-            <a class="navLink" href="/zs/plavani">
-              <span class="navLink-thick">
-                Ponožky:<span class="navLink-thin"> Lorem Ipsum</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/enviro">
-              <span class="navLink-thick">
-                Dashinky:<span class="navLink-thin"> Školy v přírodě a příměstské tábory</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/lyzovani">
-              <span class="navLink-thick">
-                Šátky:<span class="navLink-thin"> Lyžařské kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/vylety">
-              <span class="navLink-thick">
-                Šperky:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <a class="navLink" href="/zs/doma">
-              <span class="navLink-thick">
-                Kniha:<span class="navLink-thin"> Plavecké kurzy</span>
-              </span>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-          </div>
-          <div class="navLinksColumn">
-            <a class="navLink" href="/zs/deti">
-              <h3>eventy</h3>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
-            </p>
-            <a class="navLink" href="/">
-              <h3>studio</h3>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
-            </p>
-            <a class="navLink" href="https://eshop.flashtones.cz/">
-              <img class="navLink-arrow" src="/images/icon/eshop.svg" />
-              <h3>eshop</h3>
-              <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-            </a>
-            <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
-            </p>
-          </div>
+        <div class="navLinksColumn">
+          <a class="navLink" href="/zs/deti">
+            <h3>pro děti</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <p>
+            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+          </p>
+          <a class="navLink" href="/zs/plavani">
+            <span class="navLink-thick">
+              ZŠ Plavání:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/enviro">
+            <span class="navLink-thick">
+              ZŠ Enviro:<span class="navLink-thin"> Školy v přírodě a příměstské tábory</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/lyzovani">
+            <span class="navLink-thick">
+              ZŠ Lyžování::<span class="navLink-thin"> Lyžařské kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/vylety">
+            <span class="navLink-thick">
+              ZŠ Výlety:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/doma">
+            <span class="navLink-thick">
+              ZŠ Doma:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/academy">
+            <span class="navLink-thick">
+              ZŠ Academy:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+        </div>
+        <div class="navLinksColumn">
+          <a class="navLink" href="/zs/deti">
+            <h3>oblečení</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <p>
+            Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
+          </p>
+          <a class="navLink" href="/zs/plavani">
+            <span class="navLink-thick">
+              Ponožky:<span class="navLink-thin"> Lorem Ipsum</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/enviro">
+            <span class="navLink-thick">
+              Dashinky:<span class="navLink-thin"> Školy v přírodě a příměstské tábory</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/lyzovani">
+            <span class="navLink-thick">
+              Šátky:<span class="navLink-thin"> Lyžařské kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/vylety">
+            <span class="navLink-thick">
+              Šperky:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs/doma">
+            <span class="navLink-thick">
+              Kniha:<span class="navLink-thin"> Plavecké kurzy</span>
+            </span>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+        </div>
+        <div class="navLinksColumn">
+          <a class="navLink" href="/zs/deti">
+            <h3>eventy</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <p>
+            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+          </p>
+          <a class="navLink" href="/">
+            <h3>studio</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <p>
+            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+          </p>
+          <a class="navLink" href="https://eshop.flashtones.cz/">
+            <img class="navLink-arrow" src="/images/icon/eshop.svg" />
+            <h3>eshop</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <p>
+            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+          </p>
+        </div>
       </div>
     </nav>
     <script>
@@ -319,7 +319,6 @@ defmodule Nav do
           });
       });
     </script>
-    
     """
   end
 end

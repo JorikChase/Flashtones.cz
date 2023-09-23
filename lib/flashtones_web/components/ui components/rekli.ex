@@ -5,8 +5,17 @@ defmodule Rekli do
     ~H"""
     <style>
       .rekli{
+        display:flex;
+        flex-direction: column;
         padding: 1em 1.5em;
+        text-align: justify;
+        align-items: flex-start;
+
       }
+      .ratings-link{
+        align-self: flex-end;
+    }
+
     </style>
     <div class="rekli">
       <h3>
@@ -26,11 +35,11 @@ defmodule Rekli do
             <h4>
             Milan Králíček
             </h4>
-            <p>
+            <small>
             Uspokojený rodič
-            </p>
+            </small>
           </div>
-            <a href="/ratings">
+            <a href="/ratings" class="ratings-link">
             VŠECHNA HODNOCENÍ
             </a>
         </div>

@@ -8,6 +8,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
+      top: 180px;
       height: 350px;
       width: 100%;
       background-image: url(/images/ft/head-small.png);
