@@ -50,19 +50,19 @@ defmodule KurzNav do
           <img src="/images/icon/skola.svg">
           <h4>ŠKOLNÍ PLAVECKÝ KURZ</h4>
           <p>Unikátní forma školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak  polovinu povinné plavecké výuky.</p>
-          <a href="/zs/courses/school">více informací</a>
+          <a href="/zs/lyzovani/school">více informací</a>
         </div>
         <div class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Příměstský školní plavecký kurz</h4>
           <p>Nejedna se o pobytový kurz, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
-          <a href="/zs/courses/city-school">více informací</a>
+          <a href="/zs/lyzovani/city-school">více informací</a>
         </div>
         <div class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Předškolní plavecký kurz</h4>
           <p>je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let.</p>
-          <a href="/zs/courses/pre-school">více informací</a>
+          <a href="/zs/lyzovani/pre-school">více informací</a>
         </div>
       </div>
     """

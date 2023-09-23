@@ -3,6 +3,10 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
 
   def render(assigns) do
     ~H"""
+      <Nav.nav />
+      <MenuMobile.menuPlavaniMobile />
+      <MenuPc.menuPlavaniPc />
+      <HeroSmall.heroSmall />
         <style>
           p{
             color: var(--Text, #333);
@@ -21,8 +25,14 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <h2>ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <p><bold>Je unikátní formou školy v přírodě s plaváním</bold>, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou <bold>polovinu povinné plavecké výuky</bold>, která ji díky Opatření v souladu s 4 odst. zákona č. 561/2004 Sb. Školského zákona řadí mezi povinné výukové postupy. Dále se žáci účastní celkem pěti devadesátiminutových doplňkových sportovních programů a pěti stejně dlouhých zábavních večerních programů.</p>
+        <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
+        <p>T
+
+        ento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
+
+        Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
+
+        </p>
         <h3>Jak to probíhá</h3>
         <p>
           S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.

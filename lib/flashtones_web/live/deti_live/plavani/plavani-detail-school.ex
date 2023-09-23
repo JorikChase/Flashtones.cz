@@ -3,6 +3,10 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
 
   def render(assigns) do
     ~H"""
+      <Nav.nav />
+      <MenuMobile.menuPlavaniMobile />
+      <MenuPc.menuPlavaniPc />
+      <HeroSmall.heroSmall />
         <style>
           p{
             color: var(--Text, #333);

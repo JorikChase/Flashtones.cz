@@ -3,6 +3,11 @@ defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
 
   def render(assigns) do
     ~H"""
+      <Nav.nav />
+      <MenuMobile.menuLyzovaniMobile />
+      <MenuPc.menuLyzovaniPc />
+      <HeroSmall.heroSmall />
+      <HeroSmall.heroSmall />
         <style>
           p{
             color: var(--Text, #333);
@@ -21,20 +26,8 @@ defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <h2>ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <p><bold>Je unikátní formou školy v přírodě s plaváním</bold>, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou <bold>polovinu povinné plavecké výuky</bold>, která ji díky Opatření v souladu s 4 odst. zákona č. 561/2004 Sb. Školského zákona řadí mezi povinné výukové postupy. Dále se žáci účastní celkem pěti devadesátiminutových doplňkových sportovních programů a pěti stejně dlouhých zábavních večerních programů.</p>
-        <h3>Jak to probíhá</h3>
-        <p>
-          S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
-        </p>
-        <p>
-          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (max. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
-        </p>
-        <ul>
-          <li><bold>úvodní seznámení s náplní lekce a následná rozcvička</bold></li>
-          <li><bold>hlavní výuková část</bold></li>
-          <li><bold>vodní hry</bold></li>
-        </ul>
+        <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>
+        <p>Jsou čtyřdenní – dvouvíkendové kurzy pro děti předškolního a mladšího školního věku. Lekce probíhá v lyžařském areálu Klínovec, kam je vypravován každý den autobus ze zastávky Na Knížecí, nástupiště 1 v 7:00. Návrat a přebírání dětí je v 19.00 na témže místě. Je možné jet s dětmi v maximálním počtu dvou osob, či se po dohodě na místo dopravit po vlastní ose.</p>
         <h3>Další informace</h3>
         <DetailFaq.detailFaq />
         <h3>Místa konání</h3>

@@ -12,6 +12,7 @@ defmodule HeroSmall do
       height: 350px;
       width: 100%;
       background-image: url(/images/ft/head-small.png);
+      margin-bottom: 30px;
      }
     </style>
     """
