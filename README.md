@@ -18,7 +18,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 	- [ ] homepage
 		- [x] plachta
 		- [x] menu
-		- [ ] header-ft_component
+		- [x] header-ft_component
 		- [x] aktuality_component
 		- [x] kdo-jsme_component
 		- [x] rekli_component
@@ -326,7 +326,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 
 
-Chrome desktop: cerna lista, my asme flash tones
+Chrome desktop:cerna lista, my asme flash tones
 Podstranka je jedna stranka, kurzy plus hotely
 Detailkurzu cta zapnout a odundat čtvrtinu sirky textu
 Aktuality zadny detaily
@@ -336,7 +336,6 @@ https://www.zslyzovani.cz dole ikonky
 Caste dotazy dodělat, až se to dodá - odendat tlačítko
 Hodnoceni texty, Omar, styl
 Kontakty dodat hned zapnout
-Zapojit barvy
 Predelat loga mezi největším a nejmenším 
 Odkaz do kdo jsme přidat správně 
 https://www.zsprodeti.cz/nas-tym/ O nas copy do zsprodeti
