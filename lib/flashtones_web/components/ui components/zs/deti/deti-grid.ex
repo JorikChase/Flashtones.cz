@@ -7,7 +7,7 @@ defmodule DetiGrid do
       .deti-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 30px 0;
+        padding-top: 30px;
         gap: 30px;
         width: 100%;
       }
@@ -17,8 +17,8 @@ defmodule DetiGrid do
         font-size: 30px;
         text-align: center;
         filter: blur(1px);
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         flex-shrink: 0;
         position: relative;
         margin: auto;
@@ -38,7 +38,7 @@ defmodule DetiGrid do
       }
     </style>
     <div class="deti-grid">
-      <a href="/zs/plavani" style="background-color: rgba(0, 47, 224, .9)">
+      <a href="/zs/plavani" style="background-color: rgba(0, 47, 224, 1)">
         <span>
          <h3>Plavání</h3> 
         </span>
