@@ -14,7 +14,7 @@ defmodule FlashtonesWeb.IndexLive do
       <MenuPc.menuFtPc />
       <FtHero.ftHero />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdo />
+      <Kdo.kdoFt />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

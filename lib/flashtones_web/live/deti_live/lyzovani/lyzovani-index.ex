@@ -15,7 +15,7 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
       <KurzNav.kurzLyzovani />
       <IconRow.iconRowLyzovani />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdo />
+      <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

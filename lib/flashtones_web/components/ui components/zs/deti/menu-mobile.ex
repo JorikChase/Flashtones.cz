@@ -252,7 +252,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -384,7 +384,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -516,7 +516,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -648,7 +648,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -780,7 +780,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -912,7 +912,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
@@ -1044,7 +1044,7 @@ defmodule MenuMobile do
         <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>

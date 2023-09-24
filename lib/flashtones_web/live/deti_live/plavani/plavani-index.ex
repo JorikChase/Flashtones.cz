@@ -15,7 +15,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <KurzNav.kurzPlavani />
       <IconRow.iconRowPlavani />
       <!--<!--<Aktuality.aktuality />-->-->
-      <Kdo.kdo />
+      <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

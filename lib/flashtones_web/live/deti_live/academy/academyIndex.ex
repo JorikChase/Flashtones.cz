@@ -13,7 +13,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
       <MenuPc.menuAcademyPc />
       <Hero.academyHero />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdo />
+      <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

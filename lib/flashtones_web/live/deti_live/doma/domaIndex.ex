@@ -14,7 +14,7 @@ defmodule FlashtonesWeb.DomaIndexLive do
       <MenuPc.menuDomaPc />
       <Hero.domaHero />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdo />
+      <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

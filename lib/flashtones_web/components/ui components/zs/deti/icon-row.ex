@@ -20,10 +20,12 @@ defmodule IconRow do
           line-height: 35px; /* 194.444% */
         }
         .icon-row{
+          width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
           align-items: flex-start;
+          padding-top: 30px;
         }
         .icon-row-item{
           display: flex;
@@ -44,8 +46,10 @@ defmodule IconRow do
         }
         @media (orientation: portrait){
           .icon-row{
+            width: 100%;
             flex-direction: column;
-            align-self: center;
+            align-items: center;
+            justify-content: center;
           }
         }
       </style>
@@ -100,10 +104,12 @@ defmodule IconRow do
           line-height: 35px; /* 194.444% */
         }
         .icon-row{
+          width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
           align-items: flex-start;
+          padding-top: 30px;
         }
         .icon-row-item{
           display: flex;
@@ -124,8 +130,10 @@ defmodule IconRow do
         }
         @media (orientation: portrait){
           .icon-row{
+            width: 100%;
             flex-direction: column;
-            align-self: center;
+            align-items: center;
+            justify-content: center;
           }
         }
       </style>

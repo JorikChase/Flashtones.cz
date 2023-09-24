@@ -13,7 +13,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <MenuPc.menuDetiPc />
       <Hero.detiHero />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdo />
+      <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
       <Socky.socky />

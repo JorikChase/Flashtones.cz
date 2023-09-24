@@ -22,6 +22,7 @@ defmodule FlashtonesWeb.Router do
     live "/faq", FaqLive
     live "/kontakty", KontaktyLive
     live "/about", AboutLive
+    live "/zs/about", DetiAboutLive
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
     live "zs/academy", AcademyIndexLive
