@@ -12,6 +12,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
       <Hero.detiHero />
+      <DetiGrid.detiGrid />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />
       <Rekli.rekli />
