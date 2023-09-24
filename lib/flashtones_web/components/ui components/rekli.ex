@@ -28,15 +28,15 @@ defmodule Rekli do
       </span>
       <div>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu nulla, vitae egestas mi laoreet sit amet. Pellentesque mi ipsum, ultrices sit amet sem quis, bibendum mattis massa. Pellentesque ut eros ut velit ullamcorper pharetra nec id sem. Maecenas sit amet massa mi. Morbi sit amet urna iaculis, pulvinar neque et, laoreet tortor. Quisque id mattis massa.
+        Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
         </p>
         <div>
           <div>
             <h4>
-            Milan Králíček
+            Soukromá základní škola a mateřská škola Viva Bambini
             </h4>
             <small>
-            Uspokojený rodič
+            4. 1. 2023
             </small>
           </div>
             <a href="/ratings" class="ratings-link">
