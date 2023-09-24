@@ -4,8 +4,8 @@ defmodule FlashtonesWeb.DetiAboutLive do
   def render(assigns) do
     ~H"""
       <Nav.nav />
-      <MenuMobile.menuFtMobile />
-      <MenuPc.menuFtPc />
+      <MenuMobile.menuDetiMobile />
+      <MenuPc.menuDetiPc />
       <HeroSmall.heroSmall />
     <style>
       /* Custom styles for the navigation bar */
@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.DetiAboutLive do
         position: fixed;
         max-width: 300px;
         padding: 8px;
-        background-color: red;
+        background-color: #b5dfdf;
         color: black;
         border-radius: 4px;
         z-index: 9999;
@@ -84,52 +84,84 @@ defmodule FlashtonesWeb.DetiAboutLive do
       </div>
 
       <div id="section3" class="hidden">
-        <p>Paragraph in Section 3</p>
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
-            class="col-span-2 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for John Doe.')"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
+            onmouseover="showTooltip(event, 'Absolvent ASA výukového programu pro učitele plavání, Londýn, Velká Británie​ (2012). ​Držitel certifikátů vodní záchranné služby z Velké Británie a USA ​(2012). ​Lektorská a vodně-záchranná praxe v GLL (Londýn, UK), Disney Cruise Line (USA, Karibské moře, Evropa), PŠ Vodník a ASC (Česká republika),​ (2012-2017). ')"
             onmouseout="hideTooltip()"
           >
-            <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <!-- Profile picture /////////////////////////////////////////////////////////////////////////////-->
+            <img src="/images/about/marcel.png">
             <!-- Name -->
-            <p class="font-bold">John Doe</p>
+            <p class="font-bold">MARCEL VALOUCH</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní manager ZŠ PRO DĚTI</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">
+               Absolvent ASA výukového programu pro učitele plavání, Londýn, Velká Británie​ (2012)
+               ​Držitel certifikátů vodní záchranné služby z Velké Británie a USA ​(2012)
+               ​Lektorská a vodně-záchranná praxe v GLL (Londýn, UK), Disney Cruise Line (USA, Karibské moře, Evropa), PŠ Vodník a ASC (Česká republika),​ (2012-2017)
+               ​Trenér plavání III.tř., Fakulta tělesné výchovy a sportu Univerzita Karlova
+               ​Juniorský reprezentant ČR ve vodním pólu​
+               ​Několikanásobný mistr republiky ve vodním pólu</p>
           </div>
           <!-- Profile Item 2 -->
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
+            onmouseover="showTooltip(event, 'Absolvent magisterského studia Fakulty tělesné výchovy a sportu Univerzity Karlovy (2009)​. ​Trenérská a lektorská praxe v plaveckých klubech Junior (2006-2009), ASC a PŠ Vodník (2015-2017). ​Pedagogická praxe na SŠ elektrotechnická V Úžlabině (2011-2012), ZŠ z Lobkovic a Gymnázium Trojská (2007-2008). Manažerské pozice v Bohemiafit, a.s. (2009-2011) a Radix CZ, s.r.o. (2012-2015)​. Spoluzakladatel AJVA,o.s.- pořádání sportovních a kulturních akcí. ​Několikanásobný mistr ČR v plavání​ – USK Praha a TJ Tábor')"
+            onmouseout="hideTooltip()"
+          >
+            <!-- Profile picture -->
+            <img src="/images/about/omar.png">
+            <!-- Name -->
+            <p class="font-bold">OMAR EL KARIB</p>
+            <!-- Short Description -->
+            <p>Hlavní manager ZŠ PRO DĚTI</p>
+            <!-- Longer Description (Hidden by default) -->
+            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+          </div>
+          <div
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Jane Doe.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Ondrej-Petiska-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Jane Doe</p>
+            <p class="font-bold">Ondřej Petiška</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní instruktor</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">EF TUL bakalářské studium ekonomika a management mezinárodního obchodu (2016- 2019) 
+              EF TUL magisterské studium hospodářská politika v globálním prostředí (2019- nyní) 
+              Instruktor ZŠ Plavání (2020-sučasnost) 
+              6 let zkušeností jako instruktor a organizátor příměstských cyklo kempů v ČR 
+              Organizátor závodů Hradecký terénní triatlon (organizační tým), Závody navzdory (hlavní organizátor), Běžecká bitva SEVERU 
+              Lektor plavání začátečníku i pokročilých plavců Plavmimi Liberec 
+              Semestrální praxe v managementu logistické společnosti DB Schenker 
+              Vítěz světového poháru Xterra Čína, 3. místo- Mistrovství Evropy Xterra, vícemístr světa v zimním triatlonu Itálie, dvojnásobný mistr Evropy v zimním triatlonu v Rumunsku 
+              Několikanásobný medailista z MČR terénní triatlon a zimní triatlon 
+              Dvojnásobný akademický mistr ČR v OCR</p>
           </div>
           <!-- Profile Item 3 -->
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
-            onmouseout="hideTooltip()"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
+            onmouseover="showTooltip(event, 'Držitel trenérské Licence ČSVP 3.třídy. Aktivní hráč v nejvyšší české lize vodního póla. Juniorský reprezentant ve vodním pólu.. Osmi násobný mistr republiky ve vodním pólu.. Trenér starších žáků a dorostenců vodního póla.')". onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Petr-Cerny-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">PETR ČERNÝ</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní instruktor a obchodní manager pro Moravu</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">Držitel certifikátu Učitel plavání.
+              Držitel trenérské Licence ČSVP 3.třídy.
+              Aktivní hráč v nejvyšší české lize vodního póla
+              Juniorský reprezentant ve vodním pólu.
+              Osmi násobný mistr republiky ve vodním pólu.
+              Trenér starších žáků a dorostenců vodního póla.</p>
           </div>
           <!-- Profile Item 4 (Span 2 columns) -->
           <div
@@ -150,132 +182,98 @@ defmodule FlashtonesWeb.DetiAboutLive do
           </div>
 
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'Borovador')"
-            onmouseout="hideTooltip()"
-          >
-            <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
-            <!-- Name -->
-            <p class="font-bold">bruh</p>
-            <!-- Short Description -->
-            <p>Short description</p>
-            <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">brovador</p>
-          </div>
-          <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Petra-Huskova-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">PETRA HUŠKOVÁ</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Provozní manager kurzů pro veřejnost</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">kontaktní osoba pro všechny Vaše dotazy týkající se kurzů pro veřejnost
+              email: petra@zsprodeti.cz
+              telefon: 724 168 962</p>
           </div>
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Milan-Broz-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">MILAN BROŽ</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní instruktor a obchodní manažer ZŠ PRO DĚTI- Čechy</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">Absolvent kurzu Kondiční trenér pro potřeby sportovců a sportovních klubů na Fakultě tělesné výchovy a sportu Univerzity Karlovy (2020)
+              Certifikovaný trenér fitness – FIT Praha (2019)
+              Student Tělesné výchovy a sportu na PF v Českých Budějovicích
+              Spoluzakladatel Taneční akademie Sušice
+              Trenér hráček Streetball Sušice U17 (2019-2020)
+              Instruktor plavání – Sportoviště města Sušice (2018-2021), ZŠ PRO DĚTI (od 2021)
+              Organizátor sportovních a sportovně-kulturních akcí</p>
           </div>
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Veronika-Kubinkova-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">Veronika Kubínková</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Marketing manager, instruktor</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">Vystudovala Univerzitu Karlovu, obor Humanitní vzdělanost, kde se zamilovala do ryzí filosofie a vlídné duše profesora Jana Sokola.
+              V nejsledovanější soukromé televizi provětrala stojaté vody mediálního PR.
+              Studuje na Vysoké škole ekonomické v Praze, obor Arts Management, kde by měla jako nejstarší chovanka odpromovat na začátku roku 2023.
+              Lektorka ZŠ Plavání a ZŠ Enviro, marketingová manažerka ZŠ PRO DĚTI.
+              </p>
           </div>
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Zuzana-Lorencova-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">
+              Zuzana Lorenco</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní instruktorka</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">Absolventka studia Fakulty tělesné výchovy a sportu Univerzity Karlovy (2011)
+              Erasmus studium na Katholieke Universiteit Leuven, Faculty of Kinesiology and Rehabilition Science
+              Trenérská a lektorská praxe (od 2011)- ZŠ Plavání, Activity Club, Riverside School, Prague Sharks, Park Lane International School
+              Instruktor plavání, lyžování a snowboardingu, instruktor volnočasových aktivit</p>
           </div>
           <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
+            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
             onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
             onmouseout="hideTooltip()"
           >
             <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
+            <img src="/images/about/zs/Adrian-Sirek-500x438.jpg">
             <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
+            <p class="font-bold">ADRIAN ŠÍREK</p>
             <!-- Short Description -->
-            <p>Short description</p>
+            <p>Hlavní instruktor</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
+            <p class="hidden mt-2">
+              Absolvent bakalářského studia Fakulty tělesné výchovy a sportu
+              Univerzity Karlovy (2021)
+              Instruktor ZŠ Plavání a ZŠ Lyžování(2020-současnost)
+              Trenérská praxe v KC Kooperativa SG Jablonec nad Nisou. (2017-2018)
+              Český reprezentant v silniční cyklistice, cyklokrosu a MTB – KC Kooperativa SG Jablonec nad Nisou
+              Několikanásobný vícemistr ČR v běžeckém lyžování – TJ Tanvlad, Ski klub Jablonec
+              </p>
           </div>
-          <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
-            onmouseout="hideTooltip()"
-          >
-            <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
-            <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
-            <!-- Short Description -->
-            <p>Short description</p>
-            <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
-          </div>
-          <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
-            onmouseout="hideTooltip()"
-          >
-            <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
-            <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
-            <!-- Short Description -->
-            <p>Short description</p>
-            <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
-          </div>
-          <div
-            class="col-span-1 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'This is a longer description for Mark Smith.')"
-            onmouseout="hideTooltip()"
-          >
-            <!-- Profile picture -->
-            <div class="w-16 h-12 bg-gray-300 mb-2"></div>
-            <!-- Name -->
-            <p class="font-bold">Mark Smith</p>
-            <!-- Short Description -->
-            <p>Short description</p>
-            <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">This is a longer description that appears on hover.</p>
-          </div>
-          <!-- Rest of the profile items... -->
         </div>
       </div>
     </div>
