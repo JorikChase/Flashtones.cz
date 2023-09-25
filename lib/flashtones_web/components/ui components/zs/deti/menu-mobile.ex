@@ -40,7 +40,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -48,11 +48,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -96,6 +96,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -172,7 +184,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -180,11 +192,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -228,6 +240,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -304,7 +328,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -312,11 +336,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -360,6 +384,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -436,7 +472,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -444,11 +480,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -492,6 +528,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -568,7 +616,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -576,11 +624,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -624,6 +672,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -700,7 +760,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -708,11 +768,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -756,6 +816,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -832,7 +904,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -840,11 +912,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -888,6 +960,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>
@@ -964,7 +1048,7 @@ defmodule MenuMobile do
       }
       .mobileMenu:hover{
       z-index: 90;
-      height:100vh
+      height:100vh;
       }
       .mobileMenu:hover > div{
       display: flex;
@@ -972,11 +1056,11 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 30px;
+      padding: 120px 30px 60px 30px;
 
       position: fixed;
-      top: 45px;
-      bottom: 30px;
+      top: 0;
+      bottom: 0;
 
       }
       .mobileMenu:hover > div > a{
@@ -1020,6 +1104,18 @@ defmodule MenuMobile do
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
         opacity: 0;
+      }
+      .socky-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
       }
       }
     </style>

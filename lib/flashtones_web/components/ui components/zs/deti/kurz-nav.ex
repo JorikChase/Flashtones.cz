@@ -41,7 +41,7 @@ defmodule KurzNav do
             flex-direction: column;
           }
           .kurz-item{
-            width: 60vw;
+            width: fit-content;
           }
         }
       </style>
@@ -107,7 +107,7 @@ defmodule KurzNav do
             flex-direction: column;
           }
           .kurz-item{
-            width: 60vw;
+            width: 100%;
           }
         }
       </style>
