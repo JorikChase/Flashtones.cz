@@ -1338,45 +1338,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>

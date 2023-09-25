@@ -153,17 +153,17 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 		- [x] plachta
 		- [x] menu
 		- [x] head-small
-		- [ ] kurz-cta
-			- [ ] span
-			- [ ] p
-				- [ ] bold
-			- [ ] cta-button 
-				- [ ] odkaz na rezrvacak - verejnost
-				- [ ] else - kontakt form
-			- [ ] p
-			- [ ] span
-				- [ ] img
-				- [ ] a
+		- [x] kurz-cta
+			- [x] span
+			- [x] p
+				- [x] bold
+			- [x] cta-button 
+				- [x] odkaz na rezrvacak - verejnost
+				- [x] else - kontakt form
+			- [x] p
+			- [x] span
+				- [x] img
+				- [x] a
 		- [x] h2
 		- [ ] average-rating
 		- [x] p

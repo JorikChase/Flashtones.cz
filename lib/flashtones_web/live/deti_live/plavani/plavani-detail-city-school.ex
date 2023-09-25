@@ -7,6 +7,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <HeroSmall.heroSmall />
+      <DetailCta.plavani />
         <style>
           p{
             color: var(--Text, #333);

@@ -7,6 +7,7 @@ defmodule FlashtonesWeb.LyzovaniDetailPreSchoolLive do
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.heroSmall />
+      <DetailCta.lyzovani />
         <style>
           p{
             color: var(--Text, #333);
