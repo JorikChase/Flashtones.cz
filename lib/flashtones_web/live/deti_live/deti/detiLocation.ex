@@ -18,7 +18,7 @@ defmodule FlashtonesWeb.DetiLocationLive do
         Spolupráce s hotelem Fontána vznikla v roce 2020. Od tohoto roku zde probíhají kurzy ZŠ Enviro pro pátou až sedmou třídu a kurzy ZŠ Plavání. Výuka plavání při kurzech ZŠ Plavání probíhá ve 12 m dlouhém vyhřívaném bazénu uvnitř objektu hlavní budovy. Hotel Fontána je vhodný pro výuku plavání dětí od předškolního věku až po pátou třídu ZŠ. Bazén je z didaktického pohledu velmi příjemný a kompaktní. Nevzbuzuje v dětech stres a zároveň je dostatečně dlouhý pro výuku dvou skupin dětí ve stejném čase, tedy 20 až 24 dětí.
         Areál disponuje fantastickými možnostmi pro doplňkové sportovní aktivity na kurzech a to jak pro suchou, tak i pro mokrou variantu. Večerní programy probíhají převážně ve společenské místnosti hlavní budovy.
       </p>
-      <DetailFaq.detailFaq />
+      <DetailFaq.detailLokace />
       <Socky.socky />
       <Footer.footer />
     """

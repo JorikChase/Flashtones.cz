@@ -12,9 +12,9 @@ defmodule KurzNav do
         }
         .kurz-item{
           display: inline-flex;
-          height: 455px;
+          height: fit-content;
           width: 25vw;
-          margin: 15px;
+          margin: 15px 0;
           padding: 30px;
           flex-direction: column;
           justify-content: center;
@@ -78,7 +78,7 @@ defmodule KurzNav do
         }
         .kurz-item{
           display: inline-flex;
-          height: 455px;
+          height: fit-content;
           width: 25vw;
           margin: 15px;
           padding: 30px;

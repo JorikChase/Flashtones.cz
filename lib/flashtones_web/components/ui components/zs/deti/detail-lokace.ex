@@ -13,7 +13,7 @@ defmodule DetailLokace do
     </style>
     <div class="detail-lokace">
       <DetailLokaceItem.detailLokaceItemFontana />
-      <DetailLokaceItem.detailLokaceItemFontana />
+      <DetailLokaceItem.detailLokaceItemEnergetik />
       <DetailLokaceItem.detailLokaceItemFontana />
       <DetailLokaceItem.detailLokaceItemFontana />
       <DetailLokaceItem.detailLokaceItemFontana />
