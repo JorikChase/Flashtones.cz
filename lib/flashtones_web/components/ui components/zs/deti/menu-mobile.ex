@@ -48,7 +48,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -63,11 +63,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -192,7 +191,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -207,11 +206,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -336,7 +334,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -351,11 +349,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -480,7 +477,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -495,11 +492,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 5px;
 
       display: flex;
       flex-direction: row;
@@ -624,7 +620,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -639,11 +635,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -768,7 +763,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -783,11 +778,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -912,7 +906,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -927,11 +921,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
@@ -1056,7 +1049,7 @@ defmodule MenuMobile do
 
       justify-content: space-evenly;
 
-      padding: 120px 30px 60px 30px;
+      padding: 60px 30px 60px 30px;
 
       position: fixed;
       top: 0;
@@ -1071,11 +1064,10 @@ defmodule MenuMobile do
       z-index: 100;
       position: fixed;
       top: 0;
-      height: 60px;
       left: 0;
       right: 0;
-
-      padding: 30px 30px 0 30px;
+      height: 0;
+      padding: 0;
 
       display: flex;
       flex-direction: row;
