@@ -16,7 +16,7 @@ defmodule DetiGrid do
         padding: 20px;
         font-size: 30px;
         text-align: center;
-        filter: blur(2px);
+        filter: blur(0px);
         width: 180px;
         height: 180px;
         flex-shrink: 0;
@@ -25,7 +25,7 @@ defmodule DetiGrid do
 
       }
       .deti-grid > a:hover{
-        filter: blur(0px);
+        filter: blur(3px);
       }
       .deti-grid > a > span > h3{
         margin: auto;
