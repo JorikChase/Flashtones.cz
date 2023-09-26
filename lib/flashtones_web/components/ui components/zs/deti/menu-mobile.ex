@@ -96,7 +96,7 @@ defmodule MenuMobile do
         visibility: hidden;
         opacity: 0;
       }
-      .socky-icons{
+      .mobileMenu:hover .socky-icons{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -537,9 +537,6 @@ defmodule MenuMobile do
         bottom: 0;
         right: 0;
         width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
         height: 90px;
         padding: 30px;
       }

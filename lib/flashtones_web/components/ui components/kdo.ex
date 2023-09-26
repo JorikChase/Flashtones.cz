@@ -145,7 +145,7 @@ defmodule Kdo do
         </div>
       </div>
       <div class="kdoPersons">
-        <a href="/zs/about/person/marcel" style="margin-right: 30px;">
+        <a href="/zs/about/" style="margin-right: 30px;">
         <img src="/images/ft/marcel.png" />
           <h4>
             Marcel Valouch
@@ -154,7 +154,7 @@ defmodule Kdo do
             Hlavní manager ZŠ PRO DĚTI
           </p>
         </a>
-        <a href="/zs/about/person/omar">
+        <a href="/zs/about/">
         <img src="/images/ft/omar.png" />
           <h4>
             Omar el Karib
