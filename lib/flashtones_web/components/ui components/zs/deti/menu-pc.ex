@@ -156,45 +156,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -339,11 +318,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/academy/academy-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/academy"> Úvod </a>
           <a href="/zs/academy/courses/school"> Kurzy </a>
           <a href="/zs/academy/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -353,45 +332,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -536,11 +494,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/deti/deti-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs"> Úvod </a>
           <a href="/zs/courses/school"> Kurzy </a>
           <a href="/zs/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -550,45 +508,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -733,11 +670,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/doma/doma-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/doma"> Úvod </a>
           <a href="/zs/doma/courses/school"> Kurzy </a>
           <a href="/zs/doma/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -747,45 +684,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -930,11 +846,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/enviro/enviro-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/enviro"> Úvod </a>
           <a href="/zs/enviro/courses/school"> Kurzy </a>
           <a href="/zs/enviro/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -944,45 +860,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -1127,11 +1022,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/lyzovani/lyzovani-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/lyzovani"> Úvod </a>
           <a href="/zs/lyzovani/courses/school"> Kurzy </a>
           <a href="/zs/lyzovani/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -1141,45 +1036,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>
@@ -1324,11 +1198,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/plavani/plavani-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/plavani"> Úvod </a>
           <a href="/zs/plavani/courses/school"> Kurzy </a>
           <a href="/zs/plavani/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -1500,11 +1374,11 @@ defmodule MenuPc do
       <div class="pcMenuBar">
         <img src="/images/vylety/vylety-logo.svg">
         <div class="pcMenuBarLinks">
-          <a href="/zs/vylety"> Úvod </a>
           <a href="/zs/vylety/courses/school"> Kurzy </a>
           <a href="/zs/vylety/faq"> Lokality </a>
           <a href="/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom">
@@ -1514,45 +1388,24 @@ defmodule MenuPc do
         <div class="pcMenuBottomLinks">
           <a href="/zs" class="pcMenuBottomLink" id="item1">
             <h3  class="zs-menu-deti"> Zš pro děti </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/plavani" class="pcMenuBottomLink">
             <h3  class="zs-menu-plavani"> Plavání </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/lyzovani" class="pcMenuBottomLink">
             <h3  class="zs-menu-lyzovani"> Lyžování </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/enviro" class="pcMenuBottomLink">
             <h3  class="zs-menu-enviro"> Enviro </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/vylety" class="pcMenuBottomLink">
             <h3  class="zs-menu-vylety"> Výlety </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/doma" class="pcMenuBottomLink">
             <h3  class="zs-menu-doma"> Domácí výuka </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
           <a href="/zs/academy" class="pcMenuBottomLink">
             <h3  class="zs-menu-academy"> Academy </h3>
-            <p>
-              textPcMenuBottomLink
-            </p>
           </a>
         </div>
       </div>

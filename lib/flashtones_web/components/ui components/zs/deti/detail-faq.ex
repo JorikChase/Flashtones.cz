@@ -18,9 +18,9 @@ defmodule DetailFaq do
         max-height: 500px; /* Adjust the maximum height as needed */
       }
     </style>
-    <div class="container mx-auto px-4 py-8">
+    <div class="container px-4 py-8">
 
-      <div class="w-full md:w-1/2 mx-auto">
+      <div class="w-full md:w-1/2">
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/terminy.svg">Termíny kurzu</h3>
           <p class="answer mt-2">Answer to Question 1.</p>

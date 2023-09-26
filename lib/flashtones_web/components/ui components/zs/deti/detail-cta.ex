@@ -6,8 +6,8 @@ defmodule DetailCta do
     <style>
       .detail-cta{
         position: fixed;
-        right: 30px;
-        top: 30px;
+        right: 60px;
+        top: 210px;
         border-top: 5px solid #486EFF ;
         background: rgba(255, 255, 255, 0.9);
         filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
@@ -99,8 +99,8 @@ defmodule DetailCta do
     <style>
       .detail-cta{
         position: fixed;
-        right: 30px;
-        top: 30px;
+        right: 60px;
+        top: 210px;
         border-top: 5px solid #486EFF ;
         background: rgba(255, 255, 255, 0.9);
         filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));

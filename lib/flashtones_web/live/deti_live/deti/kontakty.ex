@@ -1,11 +1,11 @@
-defmodule FlashtonesWeb.KontaktyLive do
+defmodule FlashtonesWeb.ZsKontaktyLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
     ~H"""
       <Nav.nav />
-      <MenuMobile.menuFtMobile />
-      <MenuPc.menuFtPc />
+      <MenuMobile.menuDetiMobile />
+      <MenuPc.menuDetiPc />
       <HeroSmall.heroSmall />
       <Kontakt.main />
       <Kontakt.form />
