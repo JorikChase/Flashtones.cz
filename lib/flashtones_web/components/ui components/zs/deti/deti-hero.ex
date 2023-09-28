@@ -44,6 +44,9 @@ defmodule Hero do
     </div>
 
     <style>
+.hero{
+  margin-bottom: 30px;
+}
       #h1ro{
         color: white;
         z-index: 5;
@@ -208,6 +211,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -372,6 +378,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -536,6 +545,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -700,6 +712,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -864,6 +879,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -1028,6 +1046,9 @@ defmodule Hero do
     </div>
 
     <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;

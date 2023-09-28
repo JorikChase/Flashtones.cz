@@ -12,7 +12,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <Hero.plavaniHero />
-      <KurzNav.kurzPlavani />
+      <SectionToggle.kurzNav />
       <IconRow.iconRowPlavani />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />

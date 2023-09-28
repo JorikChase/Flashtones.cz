@@ -9,12 +9,12 @@ defmodule KurzNav do
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
+          margin-bottom: 30px;
         }
         .kurz-item{
           display: inline-flex;
           height: fit-content;
           width: 25vw;
-          margin: 15px 0;
           padding: 30px;
           flex-direction: column;
           justify-content: center;
@@ -75,18 +75,19 @@ defmodule KurzNav do
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
+          margin-bottom: 30px;
         }
         .kurz-item{
           display: inline-flex;
           height: fit-content;
           width: 25vw;
-          margin: 15px;
           padding: 30px;
           flex-direction: column;
           justify-content: center;
           align-items: flex-end;
           gap: 10px;
           flex-shrink: 0;
+          border-radius: 3px;
           background: var(--White, #FFF);
 
           /* Shadow News */
@@ -106,7 +107,7 @@ defmodule KurzNav do
             flex-direction: column;
           }
           .kurz-item{
-            width: 100%;
+            width: fit-content;
           }
         }
       </style>
