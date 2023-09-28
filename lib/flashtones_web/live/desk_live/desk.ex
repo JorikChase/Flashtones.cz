@@ -4,7 +4,6 @@ defmodule FlashtonesWeb.DeskLive do
 
   def render(assigns) do
     ~H"""
-      <DetailCta.lyzovani />
     """
   end
 end

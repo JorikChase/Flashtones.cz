@@ -11,15 +11,20 @@ defmodule Zustanme do
 
         display:flex;
         flex-direction:row;
-        justify-content: center;
-        align-content: center;
-        padding: 1em 1.5em;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15px;
+        height: 100%;
       }
-      .zustanmeText{
+      .zustanme-text{
         display:flex;
         flex-direction:column;
         justify-content: center;
         align-content: center;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.2);
+        height: 100%;
+        padding: 15px;
       }
       @media (orientation:portrait){
         .zustanme{
@@ -28,13 +33,10 @@ defmodule Zustanme do
       }
     </style>
      <div class="zustanme">
-      <div>
+      <div class="zustanme-text">
         <h3>
         zůstaňme V KONTAKTU
         </h3>
-        <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
-        </p>
         <span>
         Váš e-mail
         </span>

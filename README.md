@@ -65,9 +65,9 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 					- [ ] small
 				- [ ] submit
 - [ ] studio
-	- [ ] 
+	- [ ] odkaz sluzby
 - [ ] obleceni
-	- [ ] 
+	- [ ] produkty
 - [ ] zs pro deti
 	- [ ] landing
 		- [ ] skoly-section

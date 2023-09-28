@@ -332,7 +332,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
+        Oblíbené plavecké kurzy pro školy i pro veřejnost
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -824,7 +824,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
+        Oblíbené plavecké kurzy pro školy i pro veřejnost
       </h1>
       <div class="relative">
         <div class="carousel">

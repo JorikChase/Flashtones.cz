@@ -23,7 +23,7 @@ defmodule IconRow do
           width: 100%;
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: space-between;
           align-items: flex-start;
           padding-top: 30px;
         }
@@ -107,7 +107,7 @@ defmodule IconRow do
           width: 100%;
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: space-between;
           align-items: flex-start;
           padding-top: 30px;
         }

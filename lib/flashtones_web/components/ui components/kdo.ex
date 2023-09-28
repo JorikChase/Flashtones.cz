@@ -5,6 +5,7 @@ defmodule Kdo do
     ~H"""
     <style>
       .kdo{
+        margin-bottom: 30px;
         width: 100%;
         background-image: url(/images/ft/kdo-bg.jpg);
         background-size: cover;
@@ -42,6 +43,7 @@ defmodule Kdo do
       }
       @media (orientation:portrait){
         .kdo{
+          margin-bottom: 30px;
           flex-direction: column;
         }
       }
@@ -88,6 +90,7 @@ defmodule Kdo do
     ~H"""
     <style>
       .kdo{
+        margin-bottom: 30px;
         width: 100%;
         background-image: url(/images/ft/kdo-bg.jpg);
         background-size: cover;
@@ -125,6 +128,7 @@ defmodule Kdo do
       }
       @media (orientation:portrait){
         .kdo{
+          margin-bottom: 30px;
           flex-direction: column;
         }
       }

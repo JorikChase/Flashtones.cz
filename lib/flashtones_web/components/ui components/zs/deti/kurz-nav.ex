@@ -7,7 +7,7 @@ defmodule KurzNav do
         .kurz-nav{
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: space-between;
           align-items: center;
         }
         .kurz-item{
@@ -73,7 +73,7 @@ defmodule KurzNav do
         .kurz-nav{
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: space-between;
           align-items: center;
         }
         .kurz-item{
@@ -87,7 +87,6 @@ defmodule KurzNav do
           align-items: flex-end;
           gap: 10px;
           flex-shrink: 0;
-          border-radius: 3px;
           background: var(--White, #FFF);
 
           /* Shadow News */

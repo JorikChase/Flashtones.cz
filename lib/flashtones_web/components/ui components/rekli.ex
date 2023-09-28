@@ -5,17 +5,29 @@ defmodule Rekli do
     ~H"""
     <style>
       .rekli{
+        background: rgba(255, 255, 255, 0.2);
         display:flex;
         flex-direction: column;
-        padding: 1em 1.5em;
+        padding: 30px;
         text-align: justify;
         align-items: flex-start;
-
+        width: 50%;
+        border-radius: 5px;
+        margin-bottom: 30px;
       }
       .ratings-link{
         align-self: flex-end;
     }
-
+    @media (orientation: portrait){
+      .rekli{
+        display:flex;
+        flex-direction: column;
+        padding: 30px;
+        text-align: justify;
+        align-items: flex-start;
+        width: 100%;
+      }
+    }
     </style>
     <div class="rekli">
       <h3>
