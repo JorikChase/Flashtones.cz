@@ -16,7 +16,7 @@ defmodule Nav do
           border-radius: 0;
         }
         nav{
-          padding: 0 30px 30px 30px;
+          padding: 30px;
           z-index: 100;
           position: absolute;
           display: flex;
@@ -114,51 +114,47 @@ defmodule Nav do
         }
         /* Button styles for toggling navigation */
         #navToggle {
+          color: var(--White, #FFF);
+
+          /* TopLine */
+          font-family: Barlow;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: 0.65px;
+          text-transform: uppercase;
                 position: absolute;
                 top: 0;
-                right: 0;
+                left: 0;
                 z-index: 101; /* Above navigation */
                 background-color: rgba(0, 0, 0, 1);
                 color: white;
                 border: none;
                 cursor: pointer;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                width: 30px;
+                width: auto;
                 height: 30px;
-                padding: 5px;
+                padding: 5px 5px 5px 0;
                 transition: transform 0.3s ease-in-out;
             }
+            .nav-logo{
+              height: 30px;
+              width: 30px;
+              margin-right: 15px;
+              background-color: var(--flashtones-main, #D9B770);
 
-            /* Styling for the arrow-down and cross icons */
-            #navToggle::before,
-            #navToggle::after {
-                content: "";
-                display: block;
-                width: 20px;
-                height: 2px;
-                background-color: white;
-                position: absolute;
-                transition: transform 0.3s ease-in-out;
-            }
+              background-image: url(/images/ft/ft-logo.png);
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
 
-            #navToggle::before {
-                top: 14px;
-            }
 
-            #navToggle::after {
-                top: 22px;
-            }
+              border-radius: 0;
 
-            /* Rotate the icons for animation */
-            #navToggle.active::before {
-                transform: rotate(45deg);
-            }
-
-            #navToggle.active::after {
-                transform: rotate(-45deg);
             }
         }
         @media (orientation: portrait){
@@ -176,7 +172,7 @@ defmodule Nav do
         }
     </style>
     <div class="navBg"></div>
-    <button id="navToggle"></button>
+    <button id="navToggle"><span class="nav-logo"></span>My jsme FLASHTONES<img src="/images/icon/dropdown.svg"></button>
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">
