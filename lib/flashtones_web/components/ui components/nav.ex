@@ -124,38 +124,35 @@ defmodule Nav do
           line-height: normal;
           letter-spacing: 0.65px;
           text-transform: uppercase;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 101; /* Above navigation */
-                background-color: rgba(0, 0, 0, 1);
-                color: white;
-                border: none;
-                cursor: pointer;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                width: auto;
-                height: 30px;
-                padding: 5px 5px 5px 0;
-                transition: transform 0.3s ease-in-out;
-            }
-            .nav-logo{
-              height: 30px;
-              width: 30px;
-              margin-right: 15px;
-              background-color: var(--flashtones-main, #D9B770);
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 101; /* Above navigation */
+          background-color: rgba(0, 0, 0, 1);
+          color: white;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: auto;
+          height: 30px;
+          padding: 5px 5px 5px 0;
+          transition: transform 0.3s ease-in-out;
+        }
+        .nav-logo{
+          height: 30px;
+          width: 30px;
+          margin-right: 15px;
+          background-color: var(--flashtones-main, #D9B770);
 
-              background-image: url(/images/ft/ft-logo.png);
-              background-position: center;
-              background-size: contain;
-              background-repeat: no-repeat;
-
-
-              border-radius: 0;
-
-            }
+          background-image: url(/images/ft/ft-logo.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          border-radius: 0;
+        }
         }
         @media (orientation: portrait){
           nav{

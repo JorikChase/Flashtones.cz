@@ -29,6 +29,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -63,6 +65,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--ft-main);
 
           backdrop-filter: blur(1px);
@@ -71,7 +75,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -79,12 +83,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -208,6 +210,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -242,6 +246,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--academy-main);
 
           backdrop-filter: blur(1px);
@@ -250,7 +256,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -258,12 +264,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -383,6 +387,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -403,7 +409,7 @@ defmodule MenuPc do
           width: 100%;
           display: flex;
           flex-direction: row;
-          justify-content: end;
+          justify-content: flex-end;
           align-items: center;
         }
         .pcMenuBarLinks a{
@@ -417,6 +423,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--deti-main);
 
           backdrop-filter: blur(1px);
@@ -425,7 +433,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -433,12 +441,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -558,6 +564,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -592,6 +600,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--doma-main);
 
           backdrop-filter: blur(1px);
@@ -600,7 +610,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -608,12 +618,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -733,6 +741,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -767,6 +777,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--enviro-main);
 
           backdrop-filter: blur(1px);
@@ -775,7 +787,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -783,12 +795,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -908,6 +918,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -942,6 +954,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--lyzovani-main);
 
           backdrop-filter: blur(1px);
@@ -950,7 +964,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -958,12 +972,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -1083,6 +1095,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -1117,6 +1131,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--plavani-main);
 
           backdrop-filter: blur(1px);
@@ -1125,7 +1141,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -1133,12 +1149,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
@@ -1258,6 +1272,8 @@ defmodule MenuPc do
 
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
 
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
@@ -1292,6 +1308,8 @@ defmodule MenuPc do
           left: 60px;
           height: 60px;
 
+          padding: 30px;
+
           background: var(--vylety-main);
 
           backdrop-filter: blur(1px);
@@ -1300,7 +1318,7 @@ defmodule MenuPc do
           transition: all 0.5s ease;
         }
         .pcMenuBottom:hover{
-          height: 500px;
+          height: 510px;
 
           background: rgba(255, 255, 255, 0.414);
 
@@ -1308,12 +1326,10 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(15px);
         }
         .pcMenuBottomLinks{
-          position: fixed;
-          top: 90px;
-          left: 30px;
-          right: 30px;
+          padding-top: 30px;
+          width: 100%;
+          height: 100%;
           display: grid;
-          gap: 15px;
           grid-template-columns: auto auto auto;
         }
         .pcMenuBottomLink{
