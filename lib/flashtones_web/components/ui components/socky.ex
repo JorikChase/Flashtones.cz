@@ -5,7 +5,6 @@ defmodule Socky do
     ~H"""
     <div class="socky-container">
       <div class="socky-header">
-        <h3>Jsme tak trochu socky</h3>
         <span class="socky-icons">
           <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
           <a href="###"><img src="/images/icon/yt.svg"></a>
@@ -19,27 +18,21 @@ defmodule Socky do
         background-color: #f4f4f4;
         border-radius: 8px;
         text-align: center;
-        margin: 1em 0;
-      }
-
-      .socky-header {
-        margin-bottom: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+        margin: 30px 0;
       }
 
       .socky-icons {
         display: flex;
         flex-direction: row;
-        gap: 0.5rem;
+        justify-content: center;
+        gap: 30px;
         color: #cfa44a;
+        width: 100%;
       }
 
-      .socky-icons svg {
-        width: 40px;
-        height: 40px;
+      .socky-icons img {
+        width: 180px;
+        height: 180px;
         fill: currentColor;
       }
       .socky-item:hover {
