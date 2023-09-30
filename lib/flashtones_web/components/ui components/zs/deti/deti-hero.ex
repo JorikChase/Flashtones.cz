@@ -16,6 +16,12 @@ defmodule Hero do
       </div>
 
       <style>
+      @media (orientation: portrait){
+        .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+      }
       .hero{
         margin-bottom: 30px;
       }
@@ -65,53 +71,8 @@ defmodule Hero do
           align-items: flex-start;
         }
 
-        .carousel-control:hover {
-          background-color: rgba(0, 0, 0, 0.8);
-        }
-        .carousel-control > img {
-          position: relative;
-          border-radius: 50%;
-          width:50px;
-          height:50px;
-          margin-right: 1em;
-        }
-        .carousel-nav{
-          position: absolute;
-          bottom: 10vh;
-          width: 100%;
-        }
       </style>
 
-      <script>
-        const carouselItems = document.querySelectorAll('.carousel-item');
-        const carouselControls = document.querySelectorAll('.carousel-control');
-
-        let currentSlide = 0;
-
-        function showSlide() {
-          carouselItems.forEach((item, index) => {
-            item.style.opacity = index === currentSlide ? 1 : 0;
-          });
-        }
-
-        function goToSlide(slideIndex) {
-          currentSlide = slideIndex;
-          showSlide();
-        }
-
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % carouselItems.length;
-          showSlide();
-        }
-
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-          showSlide();
-        }
-
-        showSlide(); // Show initial slide
-
-      </script>
     """
   end
 
@@ -132,13 +93,20 @@ defmodule Hero do
     </div>
 
     <style>
-.hero{
-  margin-bottom: 30px;
-}
+    @media (orientation: portrait){
+        .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+      }
+
+        .hero{
+          margin-bottom: 30px;
+        }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
@@ -257,13 +225,19 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
@@ -382,13 +356,19 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
@@ -507,6 +487,12 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
@@ -658,13 +644,19 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
@@ -783,13 +775,19 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
@@ -908,13 +906,19 @@ defmodule Hero do
     </div>
 
     <style>
+    @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+    }
       .hero{
         margin-bottom: 30px;
       }
 
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }
