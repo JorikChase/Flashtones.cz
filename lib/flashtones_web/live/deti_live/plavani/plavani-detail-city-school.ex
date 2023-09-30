@@ -10,7 +10,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <DetailCta.plavani />
         <style>
           p{
-            color: var(--Text, #333);
+            color: #333;
             font-family: Barlow;
             font-size: 18px;
             font-style: normal;
@@ -19,7 +19,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
             width: 75%;
           }
           bold{
-            color: var(--Text, #333);
+            color: #333;
             font-family: Barlow;
             font-size: 18px;
             font-style: normal;

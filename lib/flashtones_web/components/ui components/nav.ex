@@ -82,6 +82,8 @@ defmodule Nav do
         .navLinks{
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
         }
         .navLinksColumn{
           display: flex;
@@ -177,9 +179,6 @@ defmodule Nav do
     <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">
         <h1>My jsme Flashtones</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu nulla, vitae mi laoreet sit amet. Pellentesque mi ipsum, ultrices sit amet sem quis.
-        </p>
         <a href="/">
           <button>
             navštívit hlavní web
@@ -193,7 +192,7 @@ defmodule Nav do
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+            Přenech výchovu svých dětí na nás a užívej si života!
           </p>
           <a class="navLink" href="/zs/plavani">
             <span class="navLink-thick">
@@ -238,7 +237,7 @@ defmodule Nav do
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
+            Buď stylovej!
           </p>
           <a class="navLink" href="/zs/plavani">
             <span class="navLink-thick">
@@ -277,14 +276,14 @@ defmodule Nav do
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+            Přenech výchovu svých dětí na nás a užívej si života!
           </p>
           <a class="navLink" href="/">
             <h3>studio</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+            Přenech výchovu svých dětí na nás a užívej si života!
           </p>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <img class="navLink-arrow" src="/images/icon/eshop.svg" />
@@ -292,7 +291,7 @@ defmodule Nav do
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+            Přenech výchovu svých dětí na nás a užívej si života!
           </p>
         </div>
       </div>

@@ -5,58 +5,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -74,61 +23,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -137,8 +32,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/ft/Flashtones.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> pro děti </a>
@@ -151,7 +46,7 @@ defmodule MenuPc do
           </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -186,58 +81,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -255,61 +99,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -318,8 +108,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/academy/academy-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -328,7 +118,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -432,61 +222,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -495,8 +231,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/deti/deti-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -505,7 +241,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -540,58 +276,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -609,61 +294,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -672,8 +303,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/doma/doma-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -682,7 +313,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -717,58 +348,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -786,61 +366,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -849,8 +375,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/enviro/enviro-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -859,7 +385,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -894,58 +420,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -963,61 +438,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -1026,8 +447,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/lyzovani/lyzovani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -1036,7 +457,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -1071,58 +492,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -1140,61 +510,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -1203,8 +519,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/plavani/plavani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -1213,7 +529,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
@@ -1248,58 +564,7 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
 
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -1317,61 +582,7 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-        .pcMenuBottom:hover{
-          height: 510px;
 
-          background: rgba(255, 255, 255, 0.414);
-
-          backdrop-filter: blur(15px);
-          -webkit-backdrop-filter: blur(15px);
-        }
-        .pcMenuBottomLinks{
-          padding-top: 30px;
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        .pcMenuBottomLink{
-          position: relative;
-
-          width: 0px;
-          height: 0px;
-
-          transition: all 0.75s ease;
-
-          visibility: hidden;
-          opacity: 0;
-
-
-          filter: blur(20px);
-          -webkit-filter: blur(20px);
-
-          transform: scaleY(0%);
-        }
-        .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
-          visibility: visible;
-          opacity: 1;
-
-          width: 25vw;
-          height: 120px;
-
-          padding: 1em 1.5em;
-
-          filter: blur(0px);
-          -webkit-filter: blur(0px);
-          transform: scaleY(100%);
-
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .pcMenuBottomLink a{
-          font-weight: bold;
-        }
-        #item1 {
-          grid-column-start: 1;
-          grid-column-end: 4;
-          width: auto;
-        }
       }
       @media (orientation: portrait){
         .pcMenu{
@@ -1380,8 +591,8 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu">
-      <div class="pcMenuBar">
+    <div class="pcMenu" id="pcMenu">
+      <div class="pcMenuBar" id="pcMenuBar">
         <img src="/images/vylety/vylety-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
@@ -1390,7 +601,7 @@ defmodule MenuPc do
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="pcMenuBottom">
+      <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
           <img src="/images/icon/menu.svg">
         </div>
