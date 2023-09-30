@@ -12,17 +12,16 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
 
         padding: 30px;
-        margin-top: 30px;
       }
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-content: center;
+        justify-content: space-between;
+        align-content: flex-start;
         padding: 30px;
       }
       .kdoText a{
@@ -97,17 +96,16 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
 
         padding: 30px;
-        margin-top: 30px;
       }
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-content: center;
+        justify-content: space-between;
+        align-content: flex-start;
         padding: 30px;
       }
       .kdoText a{

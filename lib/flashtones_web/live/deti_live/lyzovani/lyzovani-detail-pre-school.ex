@@ -16,6 +16,7 @@ defmodule FlashtonesWeb.LyzovaniDetailPreSchoolLive do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
+            width: 75%;
           }
           bold{
             color: var(--Text, #333);

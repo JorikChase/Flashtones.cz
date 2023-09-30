@@ -46,6 +46,9 @@ defmodule FtHero do
       </div>
 
       <style>
+      .hero{
+        margin-bottom: 30px;
+      }
       #h1ro{
         color: white;
         z-index: 5;
@@ -64,7 +67,7 @@ defmodule FtHero do
       }
         .carousel {
           width: 100%;
-          height: 90vh; /* Set desired carousel height */
+          aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
         }

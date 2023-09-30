@@ -129,6 +129,14 @@ p{
   line-height: 2.1875rem; /* 194.444% */
 }
 @media (orientation: landscape) {
+  #h1ro{
+    color: white;
+    z-index: 5;
+    position:absolute;
+    top: 180px;
+    right: 50%;
+    left: 90px;
+  }
 }
 /*mobile*/
 
@@ -145,7 +153,14 @@ p{
   *{
     flex-direction: column;
   }
-  
+  #h1ro{
+    color: white;
+    z-index: 5;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+  }
 }
 
 /*components*/

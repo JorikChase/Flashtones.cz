@@ -12,7 +12,7 @@ defmodule FlashtonesWeb.IndexLive do
       <Nav.nav />
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
-      <FtHero.ftHero />
+      <Hero.ftHero />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoFt />
       <Rekli.rekli />

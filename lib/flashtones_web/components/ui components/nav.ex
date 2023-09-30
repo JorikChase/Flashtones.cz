@@ -166,6 +166,9 @@ defmodule Nav do
           .navBg{
             display: none;
           }
+          #navToggle{
+            display: none;
+          }
         }
     </style>
     <div class="navBg"></div>

@@ -7,7 +7,7 @@ defmodule DetiGrid do
       .deti-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 30px;
+        padding: 30px 0;
         gap: 30px;
         width: 100%;
       }
@@ -17,11 +17,15 @@ defmodule DetiGrid do
         font-size: 30px;
         text-align: center;
         filter: blur(0px);
-        width: 180px;
+        width: 360px;
         height: 180px;
         flex-shrink: 0;
         position: relative;
         margin: auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
       }
       .deti-grid > a:hover{
@@ -36,6 +40,19 @@ defmodule DetiGrid do
         font-weight: 800;
         line-height: 45px; /* 180% */
         text-transform: uppercase;
+
+      }
+      @media (orientation: portrait){
+        .deti-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px 0;
+        gap: 30px;
+        width: 100%;
+      }
+      .deti-grid > a{
+        width: 100%;
+      }
       }
     </style>
     <div class="deti-grid">
