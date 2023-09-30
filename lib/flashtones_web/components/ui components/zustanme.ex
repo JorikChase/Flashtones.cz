@@ -30,6 +30,9 @@ defmodule Zustanme do
         .zustanme{
           flex-direction: column;
         }
+        .zustanme-text{
+        width: 100%;
+      }
       }
     </style>
      <div class="zustanme">
