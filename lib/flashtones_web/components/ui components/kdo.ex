@@ -22,7 +22,6 @@ defmodule Kdo do
         flex-direction:column;
         justify-content: space-between;
         align-content: flex-start;
-        padding: 30px;
       }
       .kdoText a{
         padding-right: 30px;
@@ -106,7 +105,6 @@ defmodule Kdo do
         flex-direction:column;
         justify-content: space-between;
         align-content: flex-start;
-        padding: 30px;
       }
       .kdoText a{
         padding-right: 30px;

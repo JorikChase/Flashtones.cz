@@ -19,7 +19,6 @@ defmodule Hero do
       .hero{
         margin-bottom: 30px;
       }
-      }
         .carousel {
           width: 100%;
           aspect-ratio: 16/9;
