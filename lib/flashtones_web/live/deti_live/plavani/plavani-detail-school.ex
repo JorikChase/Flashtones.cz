@@ -46,7 +46,7 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
         <h3>Místa konání</h3>
         <DetailLokace.detailLokace />
         <Rekli.rekli />
-        <KurzNav.kurzPlavani />
+        <SectionToggle.kurzNavPlavani />
         <Socky.socky />
         <Footer.footer />
     """

@@ -34,7 +34,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
         <h3>Místa konání</h3>
         <DetailLokace.detailLokace />
         <Rekli.rekli />
-        <KurzNav.kurzLyzovani />
+        <SectionToggle.kurzNavLyzovani />
         <Socky.socky />
         <Footer.footer />
     """
