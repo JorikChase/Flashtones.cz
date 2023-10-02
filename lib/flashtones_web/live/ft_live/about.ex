@@ -341,7 +341,7 @@ defmodule FlashtonesWeb.AboutLive do
         });
     </script>
 
-    <Socky.socky />
+    <Zustanme.zustanme />
     """
   end
 end

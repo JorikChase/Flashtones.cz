@@ -17,7 +17,6 @@ defmodule FlashtonesWeb.IndexLive do
       <Kdo.kdoFt />
       <Rekli.rekli />
       <Zustanme.zustanme />
-      <Socky.socky />
       <Footer.footer />
     """
   end

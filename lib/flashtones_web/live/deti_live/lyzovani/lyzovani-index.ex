@@ -18,7 +18,6 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
       <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />
-      <Socky.socky />
       <Footer.footer />
     """
   end

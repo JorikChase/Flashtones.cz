@@ -15,8 +15,8 @@ defmodule FlashtonesWeb.VyletyIndexLive do
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />
       <Rekli.rekli />
+
       <Zustanme.zustanme />
-      <Socky.socky />
     """
   end
 end

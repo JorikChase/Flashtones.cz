@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.DetiCoursesLive do
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
       <HeroSmall.detiCourses />
-      <Socky.socky />
+      <Zustanme.zustanme />
       <Footer.footer />
     """
   end

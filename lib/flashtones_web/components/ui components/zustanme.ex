@@ -10,10 +10,11 @@ defmodule Zustanme do
 
         display:flex;
         flex-direction:row;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         padding: 15px;
         height: fit-content;
+        margin-bottom: 30px;
       }
       .zustanme-text{
         display:flex;
@@ -32,6 +33,27 @@ defmodule Zustanme do
         width: 100%;
       }
       }
+
+      .socky-icons {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-content: center;
+        width: 50%;
+        height:100%;
+        padding: 15px;
+      }
+
+      .socky-icons a {
+        width: 120px;
+        height: 120px;
+        fill: currentColor;
+      }
+      .socky-icons a img{
+        width: 120px;
+        height: 120px;
+        fill: currentColor;
+      }
     </style>
      <div class="zustanme">
       <div class="zustanme-text">
@@ -47,9 +69,14 @@ defmodule Zustanme do
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
           <br>
-          <input type="submit" value="Submit" class="button">
+          <input type="submit" value="Odebírat novinky" class="button">
         </form>
       </div>
+    <div class="socky-icons">
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
+          <a href="###"><img src="/images/icon/yt.svg"></a>
+          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
+    </div>
     </div>
     """
   end

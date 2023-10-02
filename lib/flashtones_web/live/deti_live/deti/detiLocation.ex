@@ -19,7 +19,7 @@ defmodule FlashtonesWeb.DetiLocationLive do
         Areál disponuje fantastickými možnostmi pro doplňkové sportovní aktivity na kurzech a to jak pro suchou, tak i pro mokrou variantu. Večerní programy probíhají převážně ve společenské místnosti hlavní budovy.
       </p>
       <DetailFaq.detailLokace />
-      <Socky.socky />
+      <Zustanme.zustanme />
       <Footer.footer />
     """
   end

@@ -213,7 +213,7 @@ defmodule FlashtonesWeb.AktualityLive do
       }
     </script>
 
-    <Socky.socky />
+    <Zustanme.zustanme />
     """
   end
 end

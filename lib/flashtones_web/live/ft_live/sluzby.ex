@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.SluzbyLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <HeroSmall.services />
-      <Socky.socky />
+      <Zustanme.zustanme />
 
     """
   end
