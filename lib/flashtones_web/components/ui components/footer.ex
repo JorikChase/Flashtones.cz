@@ -7,7 +7,7 @@ defmodule Footer do
       footer{
       background: rgba(0, 0, 0, 1);
       color: #FFF;
-      padding: 1em 2em;
+      padding: 30px;
       display: flex;
       flex-direction: column;
       }
@@ -18,8 +18,9 @@ defmodule Footer do
       color: var(--gray-3, #828282);
       }
       .base-links{
+      padding: 0 30px;
       display: inline-flex;
-      align-items: flex-start;
+      justify-content: space-between;
       gap: 3.125rem;
       }
       .footer-content-wrap{
@@ -29,11 +30,13 @@ defmodule Footer do
       .footer-content-column-wrap{
       display: flex;
       flex-direction: row;
-      padding: 1em 1.5em;
+      justify-content: space-between;
+      padding: 30px;
       }
       .footer-content-column{
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       }
       .footer-link{
       display: flex;
@@ -92,7 +95,7 @@ defmodule Footer do
         <a href="/kontakty"> Kontakty </a>
       </div>
       <div class="footer-content-wrap">
-        <h2>Co nás baví</h2>
+        <h2 style="padding-left: 30px;">Co nás baví</h2>
         <div class="footer-content-column-wrap">
           <div class="footer-content-column">
             <a class="footer-link" href="/zs">
@@ -100,7 +103,7 @@ defmodule Footer do
               <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+              Přenech výchovu svých dětí na nás!
             </p>
             <a class="footer-link" href="/zs/plavani">
               <span class="footer-link-thick">
@@ -145,7 +148,7 @@ defmodule Footer do
               <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
-              Buď stylovej! Nullam vel ornare ipsum. Proin neque erat, luctus non tincidunt sed, varius a est.
+              Buď stylovej!
             </p>
             <a class="footer-link" href="/zs/plavani">
               <span class="footer-link-thick">
@@ -184,14 +187,14 @@ defmodule Footer do
               <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+              Přenech výchovu svých dětí na nás a užívej si života!
             </p>
             <a class="footer-link" href="/">
               <h3>studio</h3>
               <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+              Přenech výchovu svých dětí na nás a užívej si života!
             </p>
             <a class="footer-link" href="https://eshop.flashtones.cz/">
               <img class="footer-link-arrow" src="/images/icon/eshop.svg" />
@@ -199,7 +202,7 @@ defmodule Footer do
               <img class="footer-link-arrow" src="/images/icon/arrow right.svg" />
             </a>
             <p>
-              Přenech výchovu svých dětí na nás a užívej si života! estibulum vestibulum ipsum quis dolor.
+              Přenech výchovu svých dětí na nás a užívej si života!
             </p>
           </div>
         </div>

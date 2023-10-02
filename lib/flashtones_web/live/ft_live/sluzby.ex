@@ -8,7 +8,7 @@ defmodule FlashtonesWeb.SluzbyLive do
       <MenuPc.menuFtPc />
       <HeroSmall.services />
       <Zustanme.zustanme />
-
+      <Footer.footer />
     """
   end
 
