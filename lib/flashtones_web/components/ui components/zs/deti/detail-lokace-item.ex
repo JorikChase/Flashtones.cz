@@ -3,22 +3,6 @@ defmodule DetailLokaceItem do
 
   def detailLokaceItemFontana(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/plavani/hotel-fontana.png">
       <div class="detail-lokace-item-column">
@@ -35,26 +19,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemEnergetik(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -71,26 +35,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemRousarka(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -107,26 +51,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemMozolov(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -143,26 +67,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemZviretice(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -179,26 +83,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemJelenovska(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -214,26 +98,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemBrandys(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">
@@ -250,26 +114,6 @@ defmodule DetailLokaceItem do
   end
   def detailLokaceItemBystre(assigns) do
     ~H"""
-    <style>
-      .detail-lokace-item{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-      }
-      .detail-lokace-item img{
-        width: 270px;
-        height: 185px;
-      }
-      .detail-lokace-item-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 0 30px;
-      }
-    </style>
     <div class="detail-lokace-item">
       <img src="/images/hotely/Energetik/energetik.jpeg">
       <div class="detail-lokace-item-column">

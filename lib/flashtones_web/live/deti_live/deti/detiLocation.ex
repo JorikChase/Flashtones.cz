@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.DetiLocationLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.detiLocation />
       <p>
         Fontána Blue Marine Resort se nachází v malebné oblasti na břehu Lipna 750 m nad mořem. Místo je zárukou čistého horského vzduchu. Hotel je tvořen centrální budovou a několika ubytovacími budovami čítajícími 94 pokojů a 6 apartmánů s balkónem nebo terasou.
         V těsné blízkosti je písečná pláž, sportoviště, cyklotrajekt a marina. K dispozici je vnitřní bazén se sluneční terasou, whirpool, finská sauna, infra sauny, tělocvična na volejbal i basketbal, dětská herna a venkovní hřiště s trampolínami.

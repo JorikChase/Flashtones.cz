@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.AktualityLive do
       <Nav.nav />
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.aktuality />
     <style>
       /* Custom styles for the navigation bar */
       .nav-item {

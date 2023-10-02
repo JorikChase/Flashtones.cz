@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.KontaktyLive do
       <Nav.nav />
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.contacts />
       <Kontakt.main />
       <Kontakt.form />
       <Socky.socky />

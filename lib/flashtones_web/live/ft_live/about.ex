@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.AboutLive do
       <Nav.nav />
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.about />
     <style>
       /* Custom styles for the navigation bar */
       .nav-item {

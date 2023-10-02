@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.DetiAboutLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.detiAbout />
     <style>
       /* Custom styles for the navigation bar */
       .nav-item {
@@ -133,15 +133,15 @@ defmodule FlashtonesWeb.DetiAboutLive do
             <!-- Short Description -->
             <p>Hlavní instruktor</p>
             <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">EF TUL bakalářské studium ekonomika a management mezinárodního obchodu (2016- 2019) 
-              EF TUL magisterské studium hospodářská politika v globálním prostředí (2019- nyní) 
-              Instruktor ZŠ Plavání (2020-sučasnost) 
-              6 let zkušeností jako instruktor a organizátor příměstských cyklo kempů v ČR 
-              Organizátor závodů Hradecký terénní triatlon (organizační tým), Závody navzdory (hlavní organizátor), Běžecká bitva SEVERU 
-              Lektor plavání začátečníku i pokročilých plavců Plavmimi Liberec 
-              Semestrální praxe v managementu logistické společnosti DB Schenker 
-              Vítěz světového poháru Xterra Čína, 3. místo- Mistrovství Evropy Xterra, vícemístr světa v zimním triatlonu Itálie, dvojnásobný mistr Evropy v zimním triatlonu v Rumunsku 
-              Několikanásobný medailista z MČR terénní triatlon a zimní triatlon 
+            <p class="hidden mt-2">EF TUL bakalářské studium ekonomika a management mezinárodního obchodu (2016- 2019)
+              EF TUL magisterské studium hospodářská politika v globálním prostředí (2019- nyní)
+              Instruktor ZŠ Plavání (2020-sučasnost)
+              6 let zkušeností jako instruktor a organizátor příměstských cyklo kempů v ČR
+              Organizátor závodů Hradecký terénní triatlon (organizační tým), Závody navzdory (hlavní organizátor), Běžecká bitva SEVERU
+              Lektor plavání začátečníku i pokročilých plavců Plavmimi Liberec
+              Semestrální praxe v managementu logistické společnosti DB Schenker
+              Vítěz světového poháru Xterra Čína, 3. místo- Mistrovství Evropy Xterra, vícemístr světa v zimním triatlonu Itálie, dvojnásobný mistr Evropy v zimním triatlonu v Rumunsku
+              Několikanásobný medailista z MČR terénní triatlon a zimní triatlon
               Dvojnásobný akademický mistr ČR v OCR</p>
           </div>
           <!-- Profile Item 3 -->

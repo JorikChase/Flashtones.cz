@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <Nav.nav />
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.lyzovaniSchool />
       <DetailCta.lyzovani />
         <style>
           p{

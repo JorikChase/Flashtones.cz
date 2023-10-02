@@ -8,7 +8,7 @@ defmodule DetailLokace do
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
       }
     </style>
     <div class="detail-lokace">

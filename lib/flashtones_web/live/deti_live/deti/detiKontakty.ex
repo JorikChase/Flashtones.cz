@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.detiContacts />
       <Kontakt.main />
       <Kontakt.form />
       <Socky.socky />

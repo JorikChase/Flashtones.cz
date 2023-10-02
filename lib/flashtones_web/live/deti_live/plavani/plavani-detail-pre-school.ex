@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.PlavaniDetailPreSchoolLive do
       <Nav.nav />
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
-      <HeroSmall.heroSmall />
+      <HeroSmall.plavaniPre />
       <DetailCta.plavani />
         <style>
           p{
