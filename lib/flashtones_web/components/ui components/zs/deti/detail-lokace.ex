@@ -14,10 +14,10 @@ defmodule DetailLokace do
     <div class="detail-lokace">
       <DetailLokaceItem.detailLokaceItemFontana />
       <DetailLokaceItem.detailLokaceItemEnergetik />
-      <DetailLokaceItem.detailLokaceItemFontana />
-      <DetailLokaceItem.detailLokaceItemFontana />
-      <DetailLokaceItem.detailLokaceItemFontana />
-      <DetailLokaceItem.detailLokaceItemFontana />
+      <DetailLokaceItem.detailLokaceItemRousarka />
+      <DetailLokaceItem.detailLokaceItemMozolov />
+      <DetailLokaceItem.detailLokaceItemZviretice />
+      <DetailLokaceItem.detailLokaceItemJelenovska />
     </div>
     """
   end
