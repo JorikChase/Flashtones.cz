@@ -5,6 +5,7 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
+          margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -89,6 +90,7 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
+          margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -147,7 +149,7 @@ defmodule IconRow do
           </div>
           <div class="icon-row-item">
             <img src="/images/lyzovani/lyzovani-dolu.png">
-            <p>Jízda rovně, jízda v pluhu, brždění, jízda šikmo svahem,sesouvání šikmo svahem</p>
+            <p>Volná mobilita</p>
           </div>
           <div class="icon-row-item">
             <img src="/images/lyzovani/lyzovani-diagonal.png">
