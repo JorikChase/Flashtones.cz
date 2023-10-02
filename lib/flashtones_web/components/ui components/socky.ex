@@ -24,7 +24,7 @@ defmodule Socky do
       .socky-icons {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         gap: 30px;
         color: #cfa44a;
         width: 100%;

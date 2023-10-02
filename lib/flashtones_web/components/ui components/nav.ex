@@ -178,12 +178,15 @@ defmodule Nav do
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">
+      <br>
         <h1>My jsme Flashtones</h1>
-        <a href="/">
-          <button>
+        <br>
+        <a href="/" >
+          <button class="button">
             navštívit hlavní web
           </button>
         </a>
+        <br>
       </div>
       <div class="navLinks">
         <div class="navLinksColumn">

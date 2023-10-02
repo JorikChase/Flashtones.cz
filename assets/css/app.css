@@ -191,6 +191,23 @@ p{
 .button-promo:hover{
   background: rgba(0, 0, 0, 0.5);
 }
+.button{
+  color: white;
+  font-weight: bold;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--flashtones-link, #daaf52);
+  transition: all 0.5s ease;
+}
+.button:hover{
+  color: rgb(241, 253, 255);
+  border-radius: 25px;
+  background: #dbb488;
+}
 /*pc menu*/
 
 .pcMenu{
