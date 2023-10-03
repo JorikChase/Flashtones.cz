@@ -29,13 +29,15 @@ defmodule MenuPc do
       .pcMenuBottomLinks{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         font-weight: bold;
       }
       .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
         width: auto;
         height: 60px;
         padding: 15px;
+        margin-right: 30px;
+        font-size: 25px;
       }
       }
       @media (orientation: portrait){
