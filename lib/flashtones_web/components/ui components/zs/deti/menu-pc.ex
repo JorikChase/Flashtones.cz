@@ -73,7 +73,6 @@ defmodule MenuPc do
         <a class="pcMenuBottomLink" href="/"> Úvod </a>
         <a class="pcMenuBottomLink" href="/sluzby"> Naše služby </a>
         <a class="pcMenuBottomLink" href="/about"> Kdo jsme </a>
-        <a class="pcMenuBottomLink" href="/faq"> Časté dotazy </a>
         <a class="pcMenuBottomLink" href="/kontakty"> Kontakty </a>
         </div>
       </div>

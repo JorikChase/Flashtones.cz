@@ -4,6 +4,7 @@
 
 <script>
   window.onscroll = function () {
+    var cta = document.getElementById("detail-cta");
     var menu = document.getElementById("pcMenu");
     var menuBar = document.getElementById("pcMenuBar");
     var menuBottom = document.getElementById("pcMenuBottom");
@@ -19,6 +20,8 @@
       menu.style.borderRadius = "0px";
       menuBar.style.borderRadius = "0px";
       menuBottom.style.borderRadius = "0px";
+      cta.style.right = "30px";
+      cta.style.top = "90px";
     } else {
       menu.style.top = "60px";
       menu.style.left = "30px";
@@ -31,6 +34,8 @@
       menu.style.borderRadius = "10px";
       menuBar.style.borderRadius = "10px";
       menuBottom.style.borderRadius = "10px";
+      cta.style.right = "30px";
+      cta.style.top = "150px";
     }
   };
 </script>

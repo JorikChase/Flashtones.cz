@@ -372,6 +372,9 @@ p{
   height: 350px;
   width: 100%;
   background-image: url(/images/ft/head-small.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -391,6 +394,9 @@ p{
   text-transform: uppercase;
  }
 
+ .course-container{
+  padding: 30px;
+ }
 /*global*/
 
 .zs-menu-deti{
