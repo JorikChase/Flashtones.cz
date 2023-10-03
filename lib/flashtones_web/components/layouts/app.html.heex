@@ -10,6 +10,7 @@
     if (window.pageYOffset > 100) {
       menu.style.top = "0px";
       menu.style.left = "0px";
+      menu.style.right = "0px";
       menuBar.style.top = "0px";
       menuBar.style.left = "0px";
       menuBottom.style.top = "0px";
@@ -19,13 +20,14 @@
       menuBar.style.borderRadius = "0px";
       menuBottom.style.borderRadius = "0px";
     } else {
-      menu.style.top = "90px";
-      menu.style.left = "60px";
-      menuBar.style.top = "90px";
-      menuBar.style.left = "60px";
-      menuBottom.style.top = "90px";
-      menuBottom.style.left = "60px";
-      menuBottom.style.right = "60px";
+      menu.style.top = "60px";
+      menu.style.left = "30px";
+      menu.style.right = "30px";
+      menuBar.style.top = "60px";
+      menuBar.style.left = "30px";
+      menuBottom.style.top = "60px";
+      menuBottom.style.left = "30px";
+      menuBottom.style.right = "30px";
       menu.style.borderRadius = "10px";
       menuBar.style.borderRadius = "10px";
       menuBottom.style.borderRadius = "10px";
@@ -33,7 +35,7 @@
   };
 </script>
 
-<main class="px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
+<main class="">
   <div class=" max-w-full">
     <.flash_group flash={@flash} /> <%= @inner_content %>
   </div>
