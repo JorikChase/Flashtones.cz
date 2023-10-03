@@ -62,22 +62,22 @@ defmodule Kdo do
         </div>
       </div>
       <div class="kdoPersons">
-        <a href="/about/person/marcel" style="margin-right: 30px;">
+        <a href="/about/" style="margin-right: 30px;">
         <img src="/images/ft/marcel.png" />
           <h4>
             Marcel Valouch
           </h4>
           <p>
-            Hlavní manager ZŠ PRO DĚTI
+            Hlavní manager a zakladatel ZŠ PRO DĚTI
           </p>
         </a>
-        <a href="/about/person/omar">
+        <a href="/about/">
         <img src="/images/ft/omar.png" />
           <h4>
             Omar el Karib
           </h4>
           <p>
-            Hlavní manager ZŠ PRO DĚTI
+            Hlavní manager a zakladatel ZŠ PRO DĚTI
           </p>
         </a>
       </div>
@@ -151,7 +151,7 @@ defmodule Kdo do
             Marcel Valouch
           </h4>
           <p>
-            Hlavní manager ZŠ PRO DĚTI
+            Hlavní manager a zakladatel ZŠ PRO DĚTI
           </p>
         </a>
         <a href="/zs/about/">
@@ -160,7 +160,7 @@ defmodule Kdo do
             Omar el Karib
           </h4>
           <p>
-            Hlavní manager ZŠ PRO DĚTI
+            Hlavní manager a zakladatel ZŠ PRO DĚTI
           </p>
         </a>
       </div>
