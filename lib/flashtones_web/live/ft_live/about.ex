@@ -9,6 +9,7 @@ defmodule FlashtonesWeb.AboutLive do
       <HeroSmall.about />
       <About.general />
       <Zustanme.zustanme />
+      <Footer.footer />
     """
   end
 end

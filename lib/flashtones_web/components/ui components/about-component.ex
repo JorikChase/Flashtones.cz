@@ -56,6 +56,7 @@ defmodule About do
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
+        <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
       <div id="section1" class="hidden">
@@ -268,6 +269,27 @@ defmodule About do
               </p>
           </div>
         </div>
+      </div>
+      <div id="section4" class="hidden">
+      <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
+        <p>
+        Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
+          <ul><li>
+          Jsme řádná cestovní kancelář a máme uhrazené zákonné pojištění záruky proti úpadku, dle zákona č. 159/1999 Sb. Pojištění je sjednáno u Slavia pojišťovna a.s.
+          </li>
+          <li>
+          Jsme oprávněným držitelem koncesované živnosti Provozování cestovní kanceláře
+          </li>
+          <li>
+          Pro maximální bezpečnost a komfort nás i našich klientů máme sjednané pojištění odpovědnosti za škodu u Generali Česká pojišťovna a.s.
+          </li></ul>
+        </p>
+        <br>
+        <h4>
+          Spolupracujeme
+        </h4>
+        <br>
+        <IconRow.iconRowPartneri />
       </div>
     </div>
 

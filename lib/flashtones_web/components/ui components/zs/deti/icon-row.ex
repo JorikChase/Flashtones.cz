@@ -171,5 +171,75 @@ defmodule IconRow do
       </div>
     """
   end
+  def iconRowPartneri(assigns) do
+    ~H"""
+      <style>
+        .icon-row_component{
+          margin-bottom: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 30px;
+        }
+        .icon-row_component > p{
+          color: var(--Text, #333);
+          font-family: Barlow;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 35px; /* 194.444% */
+        }
+        .icon-row{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          padding-top: 30px;
+        }
+        .icon-row-item{
+          display: flex;
+          width: 170px;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+        .icon-row-item > p{
+          align-self: stretch;
+          color: var(--Text, #333);
+          text-align: center;
+          font-family: Barlow;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 35px; /* 194.444% */
+        }
+        @media (orientation: portrait){
+          .icon-row{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      </style>
+      <div class="icon-row_component">
+        <div class="icon-row">
+          <div class="icon-row-item">
+            <img src="/images/icon/decathlon.jpeg">
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/generali.png">
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/msmt.jpg">
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/slavia.jpeg">
+          </div>
+        </div>
+      </div>
+    """
+  end
 
 end
