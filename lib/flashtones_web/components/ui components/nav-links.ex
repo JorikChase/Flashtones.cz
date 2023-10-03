@@ -144,37 +144,37 @@ defmodule Navlinks do
           </p>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální základní škola
+            Virtuální základní škola:<span class="navLink-thin"> Propojení s těmi nejlepšími učiteli ZŠ </span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální střední škola
+            Virtuální střední škola:<span class="navLink-thin"> Ten správný učitel tradičních i méně tradičních předmětů</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální základní umělecké škola
+            Virtuální základní umělecká škola:<span class="navLink-thin"> Výuka nástrojů pomocí vlastního on-line streamu</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální jazyková škola
+            Virtuální jazyková škola:<span class="navLink-thin"> Výuka světových jazyků on-line</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální tělocvična
+            Virtuální tělocvična:<span class="navLink-thin"> Fitness trenér odkudkoli</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/produkty">
             <span class="navLink-thick">
-            Virtuální kulturní dům
+            Virtuální kulturní dům:<span class="navLink-thin"> Centrum kultury, vzdělání i zábavy</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
