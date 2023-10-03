@@ -79,6 +79,19 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def detiLocationFontana(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Hotel fontána blue marine resort lipno </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
   def lyzovaniCity(assigns) do
     ~H"""
     <div class="hero-small">
@@ -118,7 +131,7 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def plavaniCity(assigns) do
+  def plavaniCitySchool(assigns) do
     ~H"""
     <div class="hero-small">
       <h2> PŘÍMĚSTSKÝ PLAVECKÝ KURZ </h2>
@@ -157,10 +170,62 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def plavaniSaturday(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Pravidelné sobotní kurzy plavání </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def plavaniCity(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Víkendové příměstské tábory </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
   def about(assigns) do
     ~H"""
     <div class="hero-small">
       <h2> O nás </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def produkty(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Produkty </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def studio(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Studio </h2>
     </div>
 
     <style>
