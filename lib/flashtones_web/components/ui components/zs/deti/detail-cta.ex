@@ -7,7 +7,7 @@ defmodule DetailCta do
       .detail-cta{
         position: fixed;
         right: 60px;
-        top: 210px;
+        top: 180px;
         border-top: 5px solid #486EFF ;
         background: rgba(255, 255, 255, 0.9);
         filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
@@ -45,7 +45,7 @@ defmodule DetailCta do
         margin-bottom: 30px;
         border-radius: 40px;
         color: white;
-        
+
       }
       .detail-cta button:hover{
         background: #6d96ff;
@@ -78,7 +78,7 @@ defmodule DetailCta do
       }
       }
     </style>
-    <div class="detail-cta">
+    <div class="detail-cta" id="detail-cta">
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>
@@ -100,7 +100,7 @@ defmodule DetailCta do
       .detail-cta{
         position: fixed;
         right: 60px;
-        top: 210px;
+        top: 180px;
         border-top: 5px solid #486EFF ;
         background: rgba(255, 255, 255, 0.9);
         filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
@@ -138,7 +138,7 @@ defmodule DetailCta do
         margin-bottom: 30px;
         border-radius: 40px;
         color: white;
-        
+
       }
       .detail-cta button:hover{
         background: #6d96ff;
@@ -171,7 +171,7 @@ defmodule DetailCta do
       }
       }
     </style>
-    <div class="detail-cta">
+    <div class="detail-cta" id="detail-cta">
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>

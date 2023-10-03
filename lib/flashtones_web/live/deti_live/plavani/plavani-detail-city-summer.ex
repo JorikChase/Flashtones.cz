@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
+defmodule FlashtonesWeb.PlavaniDetailSummerLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -6,9 +6,9 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <Nav.nav />
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
-      <HeroSmall.plavaniCitySchool />
+      <HeroSmall.plavaniSummer />
       <DetailCta.plavani />
-      <KurzDetail.plavaniCitySchool />
+      <KurzDetail.plavaniCitySummer />
         <h3>Další informace</h3>
         <DetailFaq.detailFaq />
         <h3>Místa konání</h3>

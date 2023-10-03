@@ -144,6 +144,19 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def plavaniSummer(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> PŘÍMĚSTSKÝ Letní Tábor </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
   def plavaniPre(assigns) do
     ~H"""
     <div class="hero-small">

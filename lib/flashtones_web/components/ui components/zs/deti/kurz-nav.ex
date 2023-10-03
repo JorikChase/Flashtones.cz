@@ -50,6 +50,10 @@ defmodule KurzNav do
           <img src="/images/icon/skola.svg">
           <h4>Pravidelné sobotní kurzy plavání</h4>
         </a>
+        <a href="/zs/plavani/summer" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Letní příměstské tábory</h4>
+        </a>
         <a href="/zs/plavani/city" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Víkendové příměstské tábory</h4>
