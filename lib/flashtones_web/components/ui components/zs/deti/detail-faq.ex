@@ -81,9 +81,8 @@ defmodule DetailFaq do
         max-height: 500px; /* Adjust the maximum height as needed */
       }
     </style>
-    <div class="container mx-auto px-4 py-8">
 
-      <div class="w-full md:w-1/2 mx-auto">
+      <div class="w-full md:w-2/3 mx-auto mb-8">
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/historie.svg">Historie obce</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
@@ -109,7 +108,6 @@ defmodule DetailFaq do
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
       </div>
-    </div>
 
     <script>
       document.querySelectorAll('.question-box').forEach(box => {
