@@ -80,7 +80,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-      Sport, vzdělávání a zábava
+      Školící centrum
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -212,7 +212,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
+      Intenzivní vzdělávací koncept založený na partnerském a respektujícím přístupu k dětem
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -343,7 +343,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy pro školy i pro veřejnost
+      Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -474,7 +474,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Pobyty v přírodě
+      Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -605,7 +605,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
+      Lyžařská škola nejen o obloucích
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -762,7 +762,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy pro školy i pro veřejnost
+      Největší plavecká škola v ČR
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -893,7 +893,7 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <h1 id="h1ro">
-        Oblíbené plavecké kurzy jak pro školy, tak i veřejnost
+      Jednodenní a vícedenní výlety pro školy a veřejnost
       </h1>
       <div class="relative">
         <div class="carousel">
