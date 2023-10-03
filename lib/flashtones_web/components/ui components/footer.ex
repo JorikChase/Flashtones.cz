@@ -86,13 +86,11 @@ defmodule Footer do
     <footer>
       <div class="base-links">
         <a href="/"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
-        <a href="/aktuality#blog"> Blog </a>
         <a href="/sluzby"> Naše služby </a>
-        <a href="/kdoJsme"> Kdo jsme </a>
-        <a href="/faq"> Časté dotazy </a>
+        <a href="./about"> Kdo jsme </a>
+        <a href="./faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="./kontakty"> Kontakty </a>
       </div>
       <div class="footer-content-wrap">
         <h2 style="padding-left: 30px;">Co nás baví</h2>
