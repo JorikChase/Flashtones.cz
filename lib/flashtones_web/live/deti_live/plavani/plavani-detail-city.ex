@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
+defmodule FlashtonesWeb.PlavaniDetailCityLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <Nav.nav />
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
-      <HeroSmall.plavaniCitySchool />
+      <HeroSmall.plavaniCity />
       <DetailCta.plavani />
         <style>
           p{

@@ -165,10 +165,10 @@ defmodule SectionToggle do
     </div>
 
     <section id="sectionA" class="hidden">
-      <KurzNav.kurzPlavaniVerejnost />
+      <KurzNav.kurzPlavaniSkola />
     </section>
     <section id="sectionB" class="hidden">
-      <KurzNav.kurzPlavaniSkola />
+      <KurzNav.kurzPlavaniVerejnost />
     </section>
 
     <script>
