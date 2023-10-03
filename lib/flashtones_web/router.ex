@@ -24,6 +24,8 @@ defmodule FlashtonesWeb.Router do
     live "/kontakty", KontaktyLive
     live "zs/kontakty", ZsKontaktyLive
     live "/about", AboutLive
+    live "/produkty", ProduktyLive
+    live "/studio", StudioLive
     live "/zs/about", DetiAboutLive
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
@@ -42,6 +44,8 @@ defmodule FlashtonesWeb.Router do
     live "zs/plavani/school", PlavaniDetailSchoolLive
     live "zs/plavani/pre-school", PlavaniDetailPreSchoolLive
     live "zs/plavani/city-school", PlavaniDetailCitySchoolLive
+    live "zs/plavani/saturday", PlavaniDetailSaturdayLive
+    live "zs/plavani/city", PlavaniDetailCityLive
     live "zs/lyzovani/school", LyzovaniDetailSchoolLive
     live "zs/lyzovani/pre-school", LyzovaniDetailPreSchoolLive
     live "zs/lyzovani/city-school", LyzovaniDetailCitySchoolLive
