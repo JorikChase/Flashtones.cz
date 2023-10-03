@@ -7,7 +7,7 @@ defmodule KurzNav do
         .kurz-nav{
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: space-evenly;
           align-items: center;
           margin-bottom: 30px;
         }
@@ -46,21 +46,14 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <div class="kurz-item">
+        <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/skola.svg">
-          <h4>ŠKOLNÍ PLAVECKÝ KURZ</h4>
-          <a href="/zs/plavani/school">více informací</a>
-        </div>
-        <div class="kurz-item">
+          <h4>Pravidelné sobotní kurzy plavání</h4>
+        </a>
+        <a href="/zs/plavani/city" class="kurz-item">
           <img src="/images/icon/primestak.svg">
-          <h4>Příměstský školní plavecký kurz</h4>
-          <a href="/zs/plavani/city-school">více informací</a>
-        </div>
-        <div class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Předškolní plavecký kurz</h4>
-          <a href="/zs/plavani/pre-school">více informací</a>
-        </div>
+          <h4>Víkendové příměstské tábory</h4>
+        </a>
       </div>
     """
   end
@@ -109,21 +102,18 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <div class="kurz-item">
+        <a href="/zs/plavani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>ŠKOLNÍ PLAVECKÝ KURZ</h4>
-          <a href="/zs/plavani/school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/plavani/city-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Příměstský školní plavecký kurz</h4>
-          <a href="/zs/plavani/city-school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/plavani/pre-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Předškolní plavecký kurz</h4>
-          <a href="/zs/plavani/pre-school">více informací</a>
-        </div>
+        </a>
       </div>
     """
   end
@@ -172,21 +162,18 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <div class="kurz-item">
+        <a href="/zs/lyzovani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>Školní lyžařský kurz</h4>
-          <a href="/zs/lyzovani/school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/lyzovani/pre-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
-          <a href="/zs/lyzovani/pre-school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/lyzovani/city-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
-          <a href="/zs/lyzovani/city-school">více informací</a>
-        </div>
+        </a>
       </div>
     """
   end
@@ -235,21 +222,18 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <div class="kurz-item">
+        <a href="/zs/lyzovani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>Školní lyžařský kurz</h4>
-          <a href="/zs/lyzovani/school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/lyzovani/pre-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
-          <a href="/zs/lyzovani/pre-school">více informací</a>
-        </div>
-        <div class="kurz-item">
+        </a>
+        <a href="/zs/lyzovani/city-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
-          <a href="/zs/lyzovani/city-school">více informací</a>
-        </div>
+        </a>
       </div>
     """
   end
