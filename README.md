@@ -322,3 +322,10 @@ pomoc Ukrajině.
 
 
 px-4 pb-4 sm:px-6 sm:pb-6 lg:px-8 lg:pb-8
+
+lyzovani:
+
+hotely napravit
+
+kurz detail dodelat
+	ceny uvadet jen pro verejnost
