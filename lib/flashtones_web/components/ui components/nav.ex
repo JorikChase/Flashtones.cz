@@ -244,13 +244,13 @@ defmodule Nav do
           </p>
           <a class="navLink" href="/zs/plavani">
             <span class="navLink-thick">
-              Ponožky:<span class="navLink-thin"> Lorem Ipsum</span>
+              Ponožky:<span class="navLink-thin"> liché ponožky</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <a class="navLink" href="/zs/enviro">
             <span class="navLink-thick">
-              Dashinky:<span class="navLink-thin"> Školy v přírodě a příměstské tábory</span>
+              Dashiky:<span class="navLink-thin"> africké oblečení s českými prvky</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
