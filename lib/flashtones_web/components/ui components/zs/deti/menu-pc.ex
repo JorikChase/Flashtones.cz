@@ -23,13 +23,29 @@ defmodule MenuPc do
 
           transition: all 0.5s ease;
         }
-
+        .pcMenuBottom:hover{
+        height: 180px;
+      }
+      .pcMenuBottomLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+      }
+      .pcMenuBottom:hover > .pcMenuBottomLinks > .pcMenuBottomLink{
+        width: auto;
+        height: 60px;
+        padding: 15px;
+      }
       }
       @media (orientation: portrait){
         .pcMenu{
           display:none;
         }
       }
+
+
+
     </style>
 
     <div class="pcMenu" id="pcMenu">
@@ -52,16 +68,11 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-        <div class="base-links">
-        <a href="/"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
-        <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/kdoJsme"> Kdo jsme </a>
-        <a href="/faq"> Časté dotazy </a>
-        <a href="/ratings"> Hodnocení </a>
-        <a href="/kontakty"> Kontakty </a>
-      </div>
+        <a class="pcMenuBottomLink" href="/"> Úvod </a>
+        <a class="pcMenuBottomLink" href="/sluzby"> Naše služby </a>
+        <a class="pcMenuBottomLink" href="/about"> Kdo jsme </a>
+        <a class="pcMenuBottomLink" href="/faq"> Časté dotazy </a>
+        <a class="pcMenuBottomLink" href="/kontakty"> Kontakty </a>
         </div>
       </div>
     </div>
