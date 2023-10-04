@@ -141,7 +141,7 @@ defmodule IconRow do
       </style>
       <div class="icon-row_component">
         <h2>Co se u nás děti naučí</h2>
-        <p>Plavecký kurz si klade za cíl osvojení plaveckých dovedností a rozvoj schopností vašeho dítěte</p>
+        <p>Lyžařský kurz si klade za cíl rozvoj schopností, osvojení specifických dovedností a získání pozitivního vztahu k horám a přírodě</p>
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/lyzovani/lyzovani-lyze.png">

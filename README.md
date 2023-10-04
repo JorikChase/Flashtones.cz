@@ -324,8 +324,18 @@ pomoc Ukrajině.
 px-4 pb-4 sm:px-6 sm:pb-6 lg:px-8 lg:pb-8
 
 lyzovani:
-
+	skoly prvni dva
+	verejnost jeden
 hotely napravit
 
 kurz detail dodelat
 	ceny uvadet jen pro verejnost
+
+enviro 
+	double slide section
+academy
+
+produkty /https://flashtones.cz/blog-post/katalog-produktu-flashtones/
+studio /https://flashtones.cz/studio/
+
+stahnout dokument v mailu pdf kazde aktivity

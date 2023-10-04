@@ -13,6 +13,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
       <MenuPc.menuEnviroPc />
       <Hero.enviroHero />
       <!--<Aktuality.aktuality />-->
+      <General.enviro />
       <Kdo.kdoZs />
       <Rekli.rekli />
       <Zustanme.zustanme />

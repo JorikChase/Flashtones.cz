@@ -4,6 +4,7 @@ defmodule FlashtonesWeb.DeskLive do
 
   def render(assigns) do
     ~H"""
+    <General.enviro />
     """
   end
 end

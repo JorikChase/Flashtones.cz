@@ -12,6 +12,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <Hero.vyletyHero />
+      <General.vylety />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />
       <Rekli.rekli />
