@@ -18,8 +18,8 @@ defmodule MenuPc do
 
           background: var(--ft-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -95,8 +95,8 @@ defmodule MenuPc do
 
           background: var(--academy-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -154,58 +154,6 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-        .pcMenu{
-          z-index: 98;
-          position: fixed;
-          top: 90px;
-          right: 60px;
-          left: 60px;
-          height: 60px;
-
-          background: rgba(255, 255, 255, 1);
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBar{
-          z-index: 100;
-          position: fixed;
-          top: 90px;
-          right: calc(60px + 7em);
-          left: 60px;
-          height: 60px;
-
-          padding: 1em 1.5em;
-
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-
-          background: rgb(255, 255, 255);
-
-          font-family: Barlow;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.8px;
-          text-transform: uppercase;
-
-          transition: all 0.5s ease;
-        }
-        .pcMenuBarLinks{
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center;
-        }
-        .pcMenuBarLinks a{
-          padding: 0 0.5em;
-        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -218,8 +166,8 @@ defmodule MenuPc do
 
           background: var(--deti-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -290,8 +238,8 @@ defmodule MenuPc do
 
           background: var(--doma-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -362,8 +310,8 @@ defmodule MenuPc do
 
           background: var(--enviro-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -434,8 +382,8 @@ defmodule MenuPc do
 
           background: var(--lyzovani-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -506,8 +454,8 @@ defmodule MenuPc do
 
           background: var(--plavani-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
@@ -578,8 +526,8 @@ defmodule MenuPc do
 
           background: var(--vylety-main);
 
-          backdrop-filter: blur(1px);
-          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3px);
 
           transition: all 0.5s ease;
         }
