@@ -116,5 +116,50 @@ defmodule General do
     </div>
     """
   end
+  def academy(assigns) do
+    ~H"""
+    <style>
+      .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 60px;
+        background: linear-gradient(1deg, #f0ccb8, #ffffff3c);
+        background-size: 400% 400%;
+
+        -webkit-animation: VyletyGradient 6s ease infinite;
+        -moz-animation: VyletyGradient 6s ease infinite;
+        animation: VyletyGradient 6s ease infinite;
+      }
+      @-webkit-keyframes VyletyGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
+      }
+      @-moz-keyframes VyletyGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+      @keyframes VyletyGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+    </style>
+    <div class="general">
+      <div class="projekt"><h3>O PROJEKTU</h3><p>ZS ACADEMY je jedinečný koncept spojující plaveckou výuku, environmentální výchovu a sportovně-zábavní program pro děti mladšího školního věku.
+      <br>
+      Projekt ZS Academy je součástí intenzivního vzdělávacího konceptu ZŠ PRO DĚTI.</p></div>
+      <div class="program"><h3>JAK TO PROBÍHÁ</h3><p>Děti absolvují v průběhu pěti dnů celkem deset devadesátiminutových vyučovacích lekcí plavání, které jsou vždy rozděleny do tří částí:</p>
+      <ul>
+        <li>úvodní – rozcvičení a příprava na plaveckou výuku, rozvoj koordinačních schopností a uvědomování si vlastního těla</li>
+        <li>hlavní – osvojování plaveckých dovedností, zvládnutí základních plaveckých způsobů znak, prsa a kraul, seznámení se základy první pomoci, skoky do vody a potápění</li>
+        <li>závěrečná – především hry ve vodě.</li>
+      </ul>
+      </div>
+    </div>
+    """
+  end
 
 end
