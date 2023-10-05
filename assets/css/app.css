@@ -7,56 +7,56 @@
 :root {
   --white: rgba(232, 237, 239, 1);
 
-  --academy-main: #F21D1D;
+  --academy-main: #f21d1dc4;
   --academy-bg: #FFFAFA;
   --academy-light: #FCEEEE;
   --academy-link: #CF0C0C;
   --academy-hover: #9F0909;
   --academy-checked: #6F0606;
 
-  --deti-main: #118C8C;
+  --deti-main: #118c8ccd;
   --deti-bg: #F7FAFA;
   --deti-light: #DCE6E6;
   --deti-link: #118C8C;
   --deti-hover: #066565;
   --deti-checked: #015151;
 
-  --doma-main: #FF7C00;
+  --doma-main: #ff7b00c8;
   --doma-bg: #FFFCFA;
   --doma-light: #F8EFE7;
   --doma-link: #CC6300;
   --doma-hover: #994A00;
   --doma-checked: #7A3C00;
 
-  --enviro-main: #5CAE13;
+  --enviro-main: #5bae13c3;
   --enviro-bg: #FBFEFA;
   --enviro-light: #EEF7F0;
   --enviro-link: #44810E;
   --enviro-hover: #2C5309;
   --enviro-checked: #274F03;
 
-  --ft-main: #D9B770;
+  --ft-main: #d9b870c0;
   --ft-bg: #FBF8F1;
   --ft-light: #F4EBD7;
   --ft-link: #CFA44A;
   --ft-hover: #C18E25;
   --ft-checked: #9F7214;
 
-  --lyzovani-main: #00A5FF;
+  --lyzovani-main: #00a6ffc7;
   --lyzovani-bg: #FAFDFF;
   --lyzovani-light: #E4F0F6;
   --lyzovani-link: #0084CC;
   --lyzovani-hover: #006399;
   --lyzovani-checked: #004266;
 
-  --plavani-main: #002FE0;
+  --plavani-main: #0031e0c8;
   --plavani-bg: #FAFBFF;
   --plavani-light: #E6EAF9;
   --plavani-link: #486EFF;
   --plavani-hover: #0034FA;
   --plavani-checked: #001F94;
 
-  --vylety-main: #F2AB27;
+  --vylety-main: #f2ab27c1;
   --vylety-bg: #FFFDFA;
   --vylety-light: #F9F1E1;
   --vylety-link: #D8910D;
@@ -222,8 +222,6 @@ p{
   left: 60px;
   height: 60px;
 
-  background: rgba(255, 255, 255, 1);
-
   transition: all 0.5s ease;
 }
 .pcMenuBar{
@@ -244,7 +242,7 @@ p{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.804);
 
   font-family: Barlow;
   font-size: 16px;
