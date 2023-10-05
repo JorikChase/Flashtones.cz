@@ -11,7 +11,6 @@ defmodule Rekli do
         padding: 30px;
         text-align: justify;
         align-items: flex-start;
-        width: 50%;
         border-radius: 5px;
         margin-bottom: 30px;
       }
@@ -29,7 +28,7 @@ defmodule Rekli do
       }
     }
     </style>
-    <div class="rekli">
+    <div class="rekli w-full md:w-2/3">
       <h3>
       Řekli o nás
       </h3>

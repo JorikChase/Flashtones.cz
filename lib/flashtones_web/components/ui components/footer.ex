@@ -5,7 +5,7 @@ defmodule Footer do
     ~H"""
     <style>
       footer{
-      background: rgba(0, 0, 0, 1);
+      background: rgba(0, 0, 0, 0.866);
       color: #FFF;
       padding: 30px;
       display: flex;

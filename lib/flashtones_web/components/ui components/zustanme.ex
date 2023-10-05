@@ -6,7 +6,7 @@ defmodule Zustanme do
     <style>
       .zustanme{
         width: 100%;
-        background: var(--flashtones-light, #F4EBD7);
+        background: #f4ebd764;
 
         display:flex;
         flex-direction:row;

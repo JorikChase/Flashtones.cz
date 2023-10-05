@@ -39,9 +39,38 @@
     }
   };
 </script>
+<style>
+  .app-bg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-position: fixed;
+        background: linear-gradient(1deg, #f9e7a5, #a5adf9, #a5f9ab, #f9a5a5, #f9d0a5, #ffffff3c);
+        background-size: 400% 400%;
 
-<main class="">
-  <div class=" max-w-full">
+        -webkit-animation: MainGradient 20s ease-in-out infinite;
+        -moz-animation: MainGradient 20s ease-in-out infinite;
+        animation: MainGradient 20s ease-in-out infinite;
+        }
+        @-webkit-keyframes MainGradient {
+        0%{background-position:0% 23%}
+        50%{background-position:100% 78%}
+        100%{background-position:0% 23%}
+        }
+        @-moz-keyframes MainGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+        }
+        @keyframes MainGradient {
+            0%{background-position:0% 23%}
+            50%{background-position:100% 78%}
+            100%{background-position:0% 23%}
+        }
+    }
+</style>
+<main class="app-bg">
+  <div class="max-w-full">
     <.flash_group flash={@flash} /> <%= @inner_content %>
   </div>
 </main>

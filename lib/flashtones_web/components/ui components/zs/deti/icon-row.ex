@@ -10,7 +10,7 @@ defmodule IconRow do
           flex-direction: column;
           align-items: flex-start;
           padding: 30px;
-          background: var(--enviro-light, #EEF7F0);
+          background: #c3e8ffb0;
         }
         .icon-row_component > p{
           color: var(--Text, #333);
@@ -95,7 +95,7 @@ defmodule IconRow do
           flex-direction: column;
           align-items: flex-start;
           padding: 30px;
-          background: var(--enviro-light, #EEF7F0);
+          background: #d7ffdfc3;
         }
         .icon-row_component > p{
           color: var(--Text, #333);

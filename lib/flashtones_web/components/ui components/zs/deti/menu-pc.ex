@@ -18,8 +18,8 @@ defmodule MenuPc do
 
           background: var(--ft-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -95,8 +95,8 @@ defmodule MenuPc do
 
           background: var(--academy-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -166,8 +166,8 @@ defmodule MenuPc do
 
           background: var(--deti-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -238,8 +238,8 @@ defmodule MenuPc do
 
           background: var(--doma-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -310,8 +310,8 @@ defmodule MenuPc do
 
           background: var(--enviro-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -382,8 +382,8 @@ defmodule MenuPc do
 
           background: var(--lyzovani-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -454,8 +454,8 @@ defmodule MenuPc do
 
           background: var(--plavani-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
@@ -526,8 +526,8 @@ defmodule MenuPc do
 
           background: var(--vylety-main);
 
-          backdrop-filter: blur(3px);
-          -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
         }
