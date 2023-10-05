@@ -478,7 +478,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/enviro/hradek.jfif" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />

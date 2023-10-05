@@ -9,35 +9,27 @@ defmodule General do
         flex-direction: column;
         justify-content: space-evenly;
         padding: 60px;
-      }
-      .general > div{
-        width: 50%;
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.02);
-        border-radius: 15px;
-        backdrop-filter: blur(7px);
-        -webkit-backdrop-filter: blur(7px);
-        transform: scale(1);
-        transition: all 0.5s ease;
-      }
-      .general > div:hover{
-        width: 50%;
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.05);
-        border-radius: 20px;
-        transform: scale(1.05);
+        background: linear-gradient(1deg, #c5f0b8, #ffffff);
+        background-size: 400% 400%;
 
+        -webkit-animation: EnviroGradient 6s ease infinite;
+        -moz-animation: EnviroGradient 6s ease infinite;
+        animation: EnviroGradient 6s ease infinite;
       }
-      .projekt{
-        align-self: flex-start;
+      @-webkit-keyframes EnviroGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
       }
-      .prubeh{
-        margin-top: -30px;
-        align-self: center;
+      @-moz-keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
       }
-      .program{
-        margin-top: -30px;
-        align-self: flex-end;
+      @keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
       }
     </style>
     <div class="general">
@@ -56,35 +48,27 @@ defmodule General do
         flex-direction: column;
         justify-content: space-evenly;
         padding: 60px;
-      }
-      .general > div{
-        width: 50%;
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.02);
-        border-radius: 15px;
-        backdrop-filter: blur(7px);
-        -webkit-backdrop-filter: blur(7px);
-        transform: scale(1);
-        transition: all 0.5s ease;
-      }
-      .general > div:hover{
-        width: 50%;
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.05);
-        border-radius: 20px;
-        transform: scale(1.05);
+        background: linear-gradient(1deg, #eaf0b8, #ffffff);
+        background-size: 400% 400%;
 
+        -webkit-animation: VyletyGradient 6s ease infinite;
+        -moz-animation: VyletyGradient 6s ease infinite;
+        animation: VyletyGradient 6s ease infinite;
       }
-      .projekt{
-        align-self: flex-start;
+      @-webkit-keyframes VyletyGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
       }
-      .prubeh{
-        margin-top: -30px;
-        align-self: center;
+      @-moz-keyframes VyletyGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
       }
-      .program{
-        margin-top: -30px;
-        align-self: flex-end;
+      @keyframes VyletyGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
       }
     </style>
     <div class="general">

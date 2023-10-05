@@ -130,12 +130,16 @@ p{
 }
 @media (orientation: landscape) {
   #h1ro{
+    background: rgba(0, 28, 1, 0.231);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
     color: white;
     z-index: 5;
     position:absolute;
     top: 180px;
     right: 50%;
-    left: 90px;
+    left: 60px;
+    padding: 30px;
   }
 }
 /*mobile*/
@@ -397,6 +401,38 @@ p{
  .course-container{
   padding: 30px;
  }
+ /*general*/
+
+ .general > div{
+  width: 50%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 15px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.general > div:hover{
+  width: 50%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  transform: scale(1.05);
+
+}
+.projekt{
+  align-self: flex-start;
+}
+.prubeh{
+  margin-top: -30px;
+  align-self: center;
+}
+.program{
+  margin-top: -30px;
+  align-self: flex-end;
+}
+
 /*global*/
 
 .zs-menu-deti{
