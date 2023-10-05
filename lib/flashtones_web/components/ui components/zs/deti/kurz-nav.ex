@@ -127,7 +127,7 @@ defmodule KurzNav do
         .kurz-nav{
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           margin-bottom: 30px;
         }
@@ -136,6 +136,7 @@ defmodule KurzNav do
           height: fit-content;
           width: 25vw;
           padding: 30px;
+          margin: 30px;
           flex-direction: column;
           justify-content: flex-start;
           align-items: flex-start;
@@ -166,14 +167,6 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <a href="/zs/lyzovani/school" class="kurz-item">
-          <img src="/images/icon/skola.svg">
-          <h4>Školní lyžařský kurz</h4>
-        </a>
-        <a href="/zs/lyzovani/pre-school" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
-          <h4>Kurz běžeckého lyžování</h4>
-        </a>
         <a href="/zs/lyzovani/city-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
@@ -187,7 +180,7 @@ defmodule KurzNav do
         .kurz-nav{
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           margin-bottom: 30px;
         }
@@ -196,6 +189,7 @@ defmodule KurzNav do
           height: fit-content;
           width: 25vw;
           padding: 30px;
+          margin: 30px
           flex-direction: column;
           justify-content: flex-start;
           align-items: flex-start;
@@ -233,10 +227,6 @@ defmodule KurzNav do
         <a href="/zs/lyzovani/pre-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
-        </a>
-        <a href="/zs/lyzovani/city-school" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Víkendové kurzy lyžování a snowboardingu</h4>
         </a>
       </div>
     """
