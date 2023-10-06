@@ -51,7 +51,19 @@ defmodule FlashtonesWeb.Router do
     live "zs/lyzovani/pre-school", LyzovaniDetailPreSchoolLive
     live "zs/lyzovani/city-school", LyzovaniDetailCitySchoolLive
     live "zs/vylety", VyletyIndexLive
+
     live "zs/vylety/courses", VyletyCoursesLive
+    live "zs/vylety/berlin", VyletyBerlinLive
+    live "zs/vylety/terezin", VyletyTerezinLive
+    live "zs/vylety/viden", VyletyVidenLive
+    live "zs/svp/jelenovska", VyletyJelenovskaLive
+    live "zs/svp/lites", VyletyLitesLive
+    live "zs/svp/lubenec", VyletyLubenecLive
+    live "zs/svp/maj", VyletyMajLive
+    live "zs/svp/plesivka", VyletyPlesivkaLive
+    live "zs/svp/pramen", VyletyPramenLive
+    live "zs/svp/radost", VyletyRadostLive
+
     live "/desk", DeskLive
 
     live "/posts", PostLive.Index, :index

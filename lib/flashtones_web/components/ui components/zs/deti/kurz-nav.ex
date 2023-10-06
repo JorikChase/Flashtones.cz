@@ -118,6 +118,22 @@ defmodule KurzNav do
           <img src="/images/icon/skolka.svg">
           <h4>RS Lubenec</h4>
         </a>
+        <a href="/zs/svp/radost" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>RS Radost</h4>
+        </a>
+        <a href="/zs/svp/pramen" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>RS Pramen</h4>
+        </a>
+        <a href="/zs/svp/plesivka" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>RS Plesivka</h4>
+        </a>
+        <a href="/zs/svp/jelenovska" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>RS Jelenovska</h4>
+        </a>
       </div>
     """
   end
