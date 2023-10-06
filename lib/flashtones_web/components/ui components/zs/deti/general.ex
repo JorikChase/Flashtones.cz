@@ -8,7 +8,7 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 60px;
+        padding: 30px;
         background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
         background-size: 400% 400%;
 
@@ -47,7 +47,7 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 60px;
+        padding: 30px;
         background: linear-gradient(1deg, #eaf0b8, #ffffff3c);
         background-size: 400% 400%;
 
@@ -85,7 +85,7 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 60px;
+        padding: 30px;
         background: linear-gradient(1deg, #f0ccb8, #ffffff3c);
         background-size: 400% 400%;
 
@@ -123,7 +123,7 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 60px;
+        padding: 30px;
         background: linear-gradient(1deg, #f0ccb8, #ffffff3c);
         background-size: 400% 400%;
 

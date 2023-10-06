@@ -12,7 +12,7 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: space-between;
+        justify-content: center;
         align-content: center;
 
         padding: 30px;
@@ -22,6 +22,15 @@ defmodule Kdo do
         flex-direction:column;
         justify-content: space-between;
         align-content: flex-start;
+      }
+      .kdoText > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding:30px;
+        gap: 30px;
+        padding-left: 0;
       }
       .kdoText a{
         padding-right: 30px;
@@ -50,13 +59,13 @@ defmodule Kdo do
       <div class="kdoText">
         <h3>KDO JSME</h3>
         <div>
-          <a href="/about">
+          <a class="button" href="/about">
             O nás
           </a>
-          <a href="/about#history">
+          <a class="button" href="/about#history">
             Historie flashtones
           </a>
-          <a href="/about#persons">
+          <a class="button" href="/about#persons">
             Naši lidé
           </a>
         </div>
@@ -95,7 +104,7 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: space-between;
+        justify-content: center;
         align-content: center;
 
         padding: 30px;
@@ -105,6 +114,15 @@ defmodule Kdo do
         flex-direction:column;
         justify-content: space-between;
         align-content: flex-start;
+      }
+      .kdoText > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding:30px;
+        gap: 30px;
+        padding-left: 0;
       }
       .kdoText a{
         padding-right: 30px;
@@ -133,13 +151,13 @@ defmodule Kdo do
       <div class="kdoText">
         <h3>KDO JSME</h3>
         <div>
-          <a href="/zs/about">
+          <a class="button" href="/zs/about">
             O nás
           </a>
-          <a href="/zs/about#history">
+          <a class="button" href="/zs/about#history">
             Historie flashtones
           </a>
-          <a href="/zs/about#persons">
+          <a class="button" href="/zs/about#persons">
             Naši lidé
           </a>
         </div>

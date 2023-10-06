@@ -5,7 +5,6 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
-          margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -90,7 +89,6 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
-          margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -175,7 +173,6 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
-          margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;

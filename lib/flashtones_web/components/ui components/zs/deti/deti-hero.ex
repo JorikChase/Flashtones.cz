@@ -22,9 +22,6 @@ defmodule Hero do
           height: 90vh;
         }
       }
-      .hero{
-        margin-bottom: 30px;
-      }
         .carousel {
           width: 100%;
           aspect-ratio: 16/9;
@@ -231,9 +228,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;
@@ -362,9 +356,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;
@@ -493,9 +484,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;
@@ -650,9 +638,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;
@@ -781,9 +766,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;
@@ -897,7 +879,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
+          <img src="/images/vylety/vylety.jpg" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -912,9 +894,6 @@ defmodule Hero do
           height: 90vh;
         }
     }
-      .hero{
-        margin-bottom: 30px;
-      }
 
         .carousel {
           width: 100%;

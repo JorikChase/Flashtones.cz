@@ -13,6 +13,7 @@ defmodule Rekli do
         align-items: flex-start;
         border-radius: 5px;
         margin-bottom: 30px;
+        margin-left: 30px;
       }
       .ratings-link{
         align-self: flex-end;
@@ -25,6 +26,7 @@ defmodule Rekli do
         text-align: justify;
         align-items: flex-start;
         width: 100%;
+        margin-left: 0;
       }
     }
     </style>

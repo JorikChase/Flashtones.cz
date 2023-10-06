@@ -5,7 +5,7 @@ defmodule Zustanme do
     ~H"""
     <style>
       .zustanme{
-        width: 100%;
+        width: max-content;
         background: #f4ebd764;
 
         display:flex;
@@ -14,7 +14,7 @@ defmodule Zustanme do
         align-items: center;
         padding: 15px;
         height: fit-content;
-        margin-bottom: 30px;
+        margin: 0 30px 30px 30px;
       }
       .zustanme-text{
         display:flex;
@@ -28,6 +28,8 @@ defmodule Zustanme do
       @media (orientation:portrait){
         .zustanme{
           flex-direction: column;
+          width: 100%;
+          margin: 0;
         }
         .zustanme-text{
         width: 100%;

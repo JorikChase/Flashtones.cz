@@ -5,44 +5,8 @@ defmodule KurzNav do
     ~H"""
       <style>
         .kurz-nav{
-          display: flex;
           flex-direction: row;
           justify-content: space-evenly;
-          align-items: center;
-          margin-bottom: 30px;
-        }
-        .kurz-item{
-          display: inline-flex;
-          height: fit-content;
-          width: 25vw;
-          padding: 30px;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 10px;
-          flex-shrink: 0;
-          border-radius: 3px;
-          background: var(--White, #FFF);
-
-          /* Shadow News */
-          box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
-        }
-        .kurz-item p{
-          flex: 1 0 0;
-          color: var(--Text, #333);
-          font-family: Barlow;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 35px; /* 194.444% */
-        }
-        @media (orientation: portrait){
-          .kurz-nav{
-            flex-direction: column;
-          }
-          .kurz-item{
-            width: fit-content;
-          }
         }
       </style>
       <div class="kurz-nav">
@@ -64,46 +28,6 @@ defmodule KurzNav do
   def kurzPlavaniSkola(assigns) do
     ~H"""
       <style>
-        .kurz-nav{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 30px;
-        }
-        .kurz-item{
-          display: inline-flex;
-          height: fit-content;
-          width: 25vw;
-          padding: 30px;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 10px;
-          flex-shrink: 0;
-          border-radius: 3px;
-          background: var(--White, #FFF);
-
-          /* Shadow News */
-          box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
-        }
-        .kurz-item p{
-          flex: 1 0 0;
-          color: var(--Text, #333);
-          font-family: Barlow;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 35px; /* 194.444% */
-        }
-        @media (orientation: portrait){
-          .kurz-nav{
-            flex-direction: column;
-          }
-          .kurz-item{
-            width: fit-content;
-          }
-        }
       </style>
       <div class="kurz-nav">
         <a href="/zs/plavani/school" class="kurz-item">
@@ -125,45 +49,8 @@ defmodule KurzNav do
     ~H"""
       <style>
         .kurz-nav{
-          display: flex;
           flex-direction: row;
           justify-content: center;
-          align-items: center;
-          margin-bottom: 30px;
-        }
-        .kurz-item{
-          display: inline-flex;
-          height: fit-content;
-          width: 25vw;
-          padding: 30px;
-          margin: 30px;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 10px;
-          flex-shrink: 0;
-          border-radius: 3px;
-          background: var(--White, #FFF);
-
-          /* Shadow News */
-          box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
-        }
-        .kurz-item p{
-          flex: 1 0 0;
-          color: var(--Text, #333);
-          font-family: Barlow;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 35px; /* 194.444% */
-        }
-        @media (orientation: portrait){
-          .kurz-nav{
-            flex-direction: column;
-          }
-          .kurz-item{
-            width: fit-content;
-          }
         }
       </style>
       <div class="kurz-nav">
@@ -178,45 +65,8 @@ defmodule KurzNav do
     ~H"""
       <style>
         .kurz-nav{
-          display: flex;
           flex-direction: row;
           justify-content: center;
-          align-items: center;
-          margin-bottom: 30px;
-        }
-        .kurz-item{
-          display: inline-flex;
-          height: fit-content;
-          width: 25vw;
-          padding: 30px;
-          margin: 30px
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 10px;
-          flex-shrink: 0;
-          border-radius: 3px;
-          background: var(--White, #FFF);
-
-          /* Shadow News */
-          box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
-        }
-        .kurz-item p{
-          flex: 1 0 0;
-          color: var(--Text, #333);
-          font-family: Barlow;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 35px; /* 194.444% */
-        }
-        @media (orientation: portrait){
-          .kurz-nav{
-            flex-direction: column;
-          }
-          .kurz-item{
-            width: fit-content;
-          }
         }
       </style>
       <div class="kurz-nav">
@@ -227,6 +77,46 @@ defmodule KurzNav do
         <a href="/zs/lyzovani/pre-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
+        </a>
+      </div>
+    """
+  end
+  def vyletyVerejnost(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/zs/vylety/viden" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Vídeň – Rakousko – Uhersko</h4>
+        </a>
+        <a href="/zs/vylety/berlin" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Berlín 20. století</h4>
+        </a>
+        <a href="/zs/vylety/terezin" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Pevnostní město Terezín</h4>
+        </a>
+      </div>
+    """
+  end
+  def vyletySkola(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/zs/svp/lites" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>RS Lites</h4>
+        </a>
+        <a href="/zs/svp/maj" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>RS Máj</h4>
+        </a>
+        <a href="/zs/svp/lubenec" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>RS Lubenec</h4>
         </a>
       </div>
     """
