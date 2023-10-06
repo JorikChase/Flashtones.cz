@@ -4,19 +4,19 @@ defmodule FlashtonesWeb.VyletyPramenLive do
   def render(assigns) do
     ~H"""
       <Nav.nav />
-      <MenuMobile.menuPlavaniMobile />
-      <MenuPc.menuPlavaniPc />
+      <MenuMobile.menuVyletyMobile />
+      <MenuPc.menuVyletyPc />
       <HeroSmall.plavaniCitySchool />
       <div class="course-container">
       <DetailCta.plavani />
-      <KurzDetail.plavaniCitySchool />
+      <KurzDetail.pramen />
       <h3>Další informace</h3>
       <DetailFaq.detailFaq />
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <SectionToggle.kurzNavPlavani />
+      <SectionToggle.vylety />
       <Zustanme.zustanme />
       <Footer.footer />
     """
