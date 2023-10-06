@@ -109,55 +109,6 @@ defmodule SectionToggle do
   end
   def kurzNavPlavani(assigns) do
     ~H"""
-    <style>
-      .section-toggle {
-        font-weight: bold;
-        height: 45px;
-        width: 30%;
-        margin: auto auto 30px auto;
-        background: rgba(2, 3, 3, 0.1);
-        transition: all 0.5s ease;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px;
-      }
-      .section-toggle:hover {
-        background: rgba(0, 0, 0, 0.2);
-      }
-      .section-toggle a {
-        width: 50%;
-        height: 100%;
-        border-radius: 20px;
-        background: rgba(156, 199, 249, 0.1);
-        transition: all 0.5s ease;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 45px;
-        text-decoration: none;
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-      .section-toggle a:hover {
-        background: rgba(255, 255, 255, 1);
-      }
-      .active {
-        background: rgba(255, 255, 255, 1);
-      }
-      .hidden {
-        display: none;
-      }
-      @media (orientation: portrait){
-        .section-toggle{
-          width: 80%;
-        }
-      }
-    </style>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Pro školy</a>
@@ -213,55 +164,6 @@ defmodule SectionToggle do
   end
   def kurzNavLyzovani(assigns) do
     ~H"""
-    <style>
-      .section-toggle {
-        font-weight: bold;
-        height: 45px;
-        width: 30%;
-        margin: auto auto 30px auto;
-        background: rgba(2, 3, 3, 0.1);
-        transition: all 0.5s ease;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px;
-      }
-      .section-toggle:hover {
-        background: rgba(0, 0, 0, 0.2);
-      }
-      .section-toggle a {
-        width: 50%;
-        height: 100%;
-        border-radius: 20px;
-        background: rgba(156, 199, 249, 0.1);
-        transition: all 0.5s ease;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 45px;
-        text-decoration: none;
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-      .section-toggle a:hover {
-        background: rgba(255, 255, 255, 1);
-      }
-      .active {
-        background: rgba(255, 255, 255, 1);
-      }
-      .hidden {
-        display: none;
-      }
-      @media (orientation: portrait){
-        .section-toggle{
-          width: 80%;
-        }
-      }
-    </style>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Pro školy</a>
@@ -317,55 +219,6 @@ defmodule SectionToggle do
   end
   def vylety(assigns) do
     ~H"""
-    <style>
-      .section-toggle {
-        font-weight: bold;
-        height: 45px;
-        width: 30%;
-        margin: auto auto 30px auto;
-        background: rgba(2, 3, 3, 0.1);
-        transition: all 0.5s ease;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px;
-      }
-      .section-toggle:hover {
-        background: rgba(0, 0, 0, 0.2);
-      }
-      .section-toggle a {
-        width: 50%;
-        height: 100%;
-        border-radius: 20px;
-        background: rgba(156, 199, 249, 0.1);
-        transition: all 0.5s ease;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 45px;
-        text-decoration: none;
-        color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-      .section-toggle a:hover {
-        background: rgba(255, 255, 255, 1);
-      }
-      .active {
-        background: rgba(255, 255, 255, 1);
-      }
-      .hidden {
-        display: none;
-      }
-      @media (orientation: portrait){
-        .section-toggle{
-          width: 80%;
-        }
-      }
-    </style>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Výlety pro veřejnost</a>
