@@ -81,6 +81,42 @@ defmodule KurzNav do
       </div>
     """
   end
+  def enviroVerejnost(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/zs/enviro/viden" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Víkendové příměstské tábory</h4>
+        </a>
+        <a href="/zs/enviro/berlin" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Příměstské tábory ZŠ Enviro</h4>
+        </a>
+        <a href="/zs/enviro/terezin" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Pobytové EVP pro vzdělavatele ZŠ Enviro</h4>
+        </a>
+      </div>
+    """
+  end
+  def enviroSkola(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/zs/svp/lites" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Škola v přírodě ZŠ Enviro</h4>
+        </a>
+        <a href="/zs/svp/maj" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>ZŠ V týmu</h4>
+        </a>
+      </div>
+    """
+  end
   def vyletyVerejnost(assigns) do
     ~H"""
       <style>

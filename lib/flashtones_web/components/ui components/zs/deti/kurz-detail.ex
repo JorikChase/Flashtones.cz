@@ -375,17 +375,11 @@ defmodule KurzDetail do
   end
   def berlin(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>BERLÍN 20. STOLETÍ</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Tématické výlety do Berlína jsou orientovány na historii Berlína 20. století a jsou dvoudenní.
+        <br>
+        Léta minulého století byla turbulentním obdobím v historii Německa a Evropy všeobecně. Berlín se stal po skončení 1. světové války jedním z největších průmyslových center Evropy.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -394,17 +388,12 @@ defmodule KurzDetail do
   end
   def viden(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>VÍDEŇ – RAKOUSKO-UHERSKO</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Tématické výlety do Vídně jsou orientovány na historii Vídně a dějin Rakouska-Uherska a jsou dvoudenní.
+        Vídeň byla srdcem rakousko-uherské monarchie v čele s Habsburky.
+          <br>
+        Výlet si lze rezervovat nebo zjistit podrobnosti pomocí emailového nebo telefonického kontaktu.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -413,17 +402,11 @@ defmodule KurzDetail do
   end
   def terezin(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>PEVNOSTNÍ MĚSTO TEREZÍN</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Hlavní destinací výletu je pevnostní město Terezín, které nechvalně proslulo v době 2. světové války (koncentrační tábor, židovské ghetto).
+        <br>
+        Součástí Památníku Terezín jsou objekty, které lze navštívit: Malá pevnost, Muzeum ghetta, Magdeburská kasárna, krematorium a židovský hřbitov, kolumbárium, modlitebna, replika mansardy.
         </p>
         <Vylety.duo />
         <Vylety.proc />

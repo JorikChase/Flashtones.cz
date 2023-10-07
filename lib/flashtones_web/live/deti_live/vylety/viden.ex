@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.VyletyVidenLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.plavaniCitySchool />
+      <HeroSmall.vyletyViden />
       <div class="course-container">
       <DetailCta.vyletyVerejnost />
       <KurzDetail.viden />

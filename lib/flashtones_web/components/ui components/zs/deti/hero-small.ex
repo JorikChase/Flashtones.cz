@@ -300,5 +300,18 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def vyletyViden(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Vídeň – Rakousko – Uhersko </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
 
 end

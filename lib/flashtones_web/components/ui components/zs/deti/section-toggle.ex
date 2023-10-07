@@ -272,5 +272,60 @@ defmodule SectionToggle do
     </script>
     """
   end
+  def enviro(assigns) do
+    ~H"""
+    <title>Modular Toggle Button</title>
+    <div class="section-toggle">
+        <a href="#sectionA">KURZY PRO VEŘEJNOST</a>
+        <a href="#sectionB">ŠKOLY V PŘÍRODĚ</a>
+    </div>
+
+    <section id="sectionA" class="hidden">
+      <KurzNav.enviroVerejnost />
+    </section>
+    <section id="sectionB" class="hidden">
+      <KurzNav.enviroSkola />
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sectionLinks = document.querySelectorAll(".section-toggle a");
+            const sections = document.querySelectorAll("section");
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    if (section.id === sectionId) {
+                        section.classList.remove("hidden");
+                    } else {
+                        section.classList.add("hidden");
+                    }
+                });
+            }
+
+            sectionLinks.forEach(link => {
+                link.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    sectionLinks.forEach(link => link.classList.remove("active"));
+                    e.target.classList.add("active");
+                    showSection(e.target.getAttribute("href").substr(1));
+                });
+            });
+
+            const hash = window.location.hash;
+            if (hash) {
+                showSection(hash.substr(1));
+                sectionLinks.forEach(link => {
+                    if (link.getAttribute("href") === hash) {
+                        link.classList.add("active");
+                    }
+                });
+            } else {
+                showSection("sectionA");
+                sectionLinks[0].classList.add("active");
+            }
+        });
+    </script>
+    """
+  end
 
 end
