@@ -38,7 +38,9 @@ defmodule MenuPc do
         padding: 15px;
         margin-right: 30px;
         font-size: 25px;
+        color: white;
       }
+
       }
       @media (orientation: portrait){
         .pcMenu{
