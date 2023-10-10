@@ -6,12 +6,12 @@ defmodule FlashtonesWeb.VyletyJelenovskaLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.plavaniCitySchool />
+      <HeroSmall.jelenovska />
       <div class="course-container">
       <DetailCta.vyletySkola />
       <KurzDetail.jelenovska />
-      <h3>Další informace</h3>
-      <DetailFaq.detailFaq />
+      <!--<h3>Další informace</h3>-->
+      <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
       </div>

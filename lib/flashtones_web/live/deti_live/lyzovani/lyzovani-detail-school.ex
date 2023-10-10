@@ -30,8 +30,8 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       </style>
       <h2>ŠKOLNÍ LYŽAŘSKÝ KURZ</h2>
       <p>Žáci absolvují během pětidenního kurzu základy klasického, sjezdové lyžování, snowboardingu a netradičních zimních sportů. Do jednotlivých lekcí jsou zapojovány nejrůznější doplňkové hry i vzdělávací prvky. Každý večer probíhá devadesátiminutový zábavní blok.</p>
-      <h3>Další informace</h3>
-      <DetailFaq.detailFaq />
+      <!--<h3>Další informace</h3>-->
+      <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
       </div>

@@ -313,5 +313,96 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def jelenovska(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Jelenovská </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def lites(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Lites </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def lubenec(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Lubenec </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def maj(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Máj </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def plesivka(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Plešivka </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def pramen(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Pramen </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
+  def radost(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Radost </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
 
 end

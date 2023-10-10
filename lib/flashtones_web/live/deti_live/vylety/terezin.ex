@@ -10,8 +10,8 @@ defmodule FlashtonesWeb.VyletyTerezinLive do
       <div class="course-container">
       <DetailCta.vyletyVerejnost />
       <KurzDetail.terezin />
-      <h3>Další informace</h3>
-      <DetailFaq.detailFaq />
+      <!--<h3>Další informace</h3>-->
+      <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
       </div>

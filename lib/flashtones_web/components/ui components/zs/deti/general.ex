@@ -16,6 +16,20 @@ defmodule General do
         -moz-animation: EnviroGradient 6s ease infinite;
         animation: EnviroGradient 6s ease infinite;
       }
+      .general .duo-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .general .duo-container > h3, ul{
+        width: 50%;
+      }
+      .general li{
+        list-style-type: circle;
+      }
+
+
       @-webkit-keyframes EnviroGradient {
       0%{background-position:0% 23%}
       50%{background-position:100% 78%}
@@ -33,11 +47,22 @@ defmodule General do
       }
     </style>
     <div class="general">
-      <div class="projekt"><h3>O PROJEKTU</h3><p>Pořádáme školy v přírodě se zaměřením na environmentální výchovu a doprovodný sportovní a zábavní program určený dětem mladšího školního věku.</p><br><p>Projekt ZŠ Enviro je součástí intenzivního vzdělávacího konceptu ZŠ PRO DĚTI.</p></div>
-      <div class="prubeh"><h3>JAK TO PROBÍHÁ</h3><p>Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s několika organizacemi působících v oboru environmentálního vzdělávání se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.</p></div>
+      <div class="projekt"><h3>Co je Flashtones Studio</h3><p>Flashtones Studio je místem smysluplného setkávání. Klademe si za cíl nabídnout kvalitní, a moderní volnočasové aktivity pro děti, mládež i dospělé.</p></div>
+      <div class="prubeh duo-container"><h3>V čem jsou naše programy specifické</h3>
+        <ul>
+          <li>Fungujeme v příjemném kompaktním prostoru v centru Prahy</li>
+          <li>Klademe důraz na individuální přístup, který je zaručen prací v malých skupinkách</li>
+          <li>Všichni naši lektoři jsou zkušení a empatičtí lídři</li>
+          <li>Je pro nás důležitý kvalitní obsah a správná metodika</li>
+          <li>Do všech společných aktivit se snažíme vnášet přesah sebepoznání a budování přirozené sebedůvěry, utužování vztahů ve skupině, vzájemný respekt a spolupráci v kolektivu</li>
+          <li>Konkurujeme televizi, sociálním sítím a počítačovým hrám a snažíme se ukazovat sílu fyzických zážitků a aktivně stráveného čas</li>
+        </ul>
+      </div>
       <div class="program"><h3>ENVIRO PROGRAM</h3><p>Probíhá každý den. V devadesátiminutových zábavně-výukových blocích jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany. Vše je protnuto s příběhem dětské knihy Ostrov Socci a základní misí lekcí je vždy simulovaná záchrana světa před zlovůlemi krutého panovníka Pepina.</p></div>
     </div>
-    <Activities.enviro />
+
+    <DetailFaq.studio />
+
     """
   end
   def enviro(assigns) do

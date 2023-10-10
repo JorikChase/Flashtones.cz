@@ -96,18 +96,6 @@ defmodule MenuMobile do
         visibility: hidden;
         opacity: 0;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -135,11 +123,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -278,11 +261,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -421,11 +399,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -528,18 +501,6 @@ defmodule MenuMobile do
       .mobileMenu .socky-icons{
         display: none;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -567,11 +528,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -674,18 +630,6 @@ defmodule MenuMobile do
       .mobileMenu .socky-icons{
         display: none;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -713,11 +657,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -820,18 +759,6 @@ defmodule MenuMobile do
       .mobileMenu .socky-icons{
         display: none;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -859,11 +786,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -966,18 +888,6 @@ defmodule MenuMobile do
       .mobileMenu .socky-icons{
         display: none;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -1005,11 +915,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """
@@ -1112,18 +1017,6 @@ defmodule MenuMobile do
       .mobileMenu .socky-icons{
         display: none;
       }
-      .mobileMenu:hover .socky-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
-      }
       }
     </style>
 
@@ -1151,11 +1044,6 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/kontakty"> Kontakty </a>
-        <span class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-        </span>
       </div>
     </div>
     """

@@ -10,8 +10,8 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       <DetailCta.plavani />
       <div class="course-container">
       <KurzDetail.plavaniSaturday />
-      <h3>Další informace</h3>
-      <DetailFaq.detailFaq />
+      <!--<h3>Další informace</h3>-->
+      <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
       </div>

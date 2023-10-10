@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.FaqLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <HeroSmall.faq />
-      <DetailFaq.detailFaq />
+      <!--<DetailFaq.detailFaq />-->
       <Zustanme.zustanme />
       <Footer.footer />
     """
