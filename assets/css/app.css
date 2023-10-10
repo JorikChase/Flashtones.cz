@@ -131,13 +131,13 @@ p{
 @media (orientation: landscape) {
   #h1ro{
     background: rgba(0, 28, 1, 0.231);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     color: white;
     z-index: 5;
     position:absolute;
     top: 180px;
-    right: 50%;
+    width: auto;
     left: 60px;
     padding: 30px;
   }
