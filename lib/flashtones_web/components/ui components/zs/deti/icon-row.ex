@@ -29,7 +29,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 170px;
+          width: 12%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -50,6 +50,12 @@ defmodule IconRow do
             flex-direction: column;
             align-items: center;
             justify-content: center;
+          }
+          .icon-row-item{
+            width: 30%;
+          }
+          .icon-row-item img{
+            width: 100%;
           }
         }
       </style>
@@ -113,7 +119,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 170px;
+          width: 12%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -134,6 +140,12 @@ defmodule IconRow do
             flex-direction: column;
             align-items: center;
             justify-content: center;
+          }
+          .icon-row-item{
+            width: 30%;
+          }
+          .icon-row-item img{
+            width: 100%;
           }
         }
       </style>
@@ -196,7 +208,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 170px;
+          width: 12%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -217,6 +229,12 @@ defmodule IconRow do
             flex-direction: column;
             align-items: center;
             justify-content: center;
+          }
+          .icon-row-item{
+            width: 30%;
+          }
+          .icon-row-item img{
+            width: 100%;
           }
         }
       </style>
