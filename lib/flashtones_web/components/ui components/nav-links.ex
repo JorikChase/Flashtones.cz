@@ -50,7 +50,7 @@ defmodule Navlinks do
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs">
+          <a class="navLink" href="/produkty">
             <h3>PRODUKTY</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>

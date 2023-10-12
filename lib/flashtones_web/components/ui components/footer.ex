@@ -84,14 +84,6 @@ defmodule Footer do
       }
     </style>
     <footer>
-      <div class="base-links">
-        <a href="/"> Úvod </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="./about"> Kdo jsme </a>
-        <a href="./faq"> Časté dotazy </a>
-        <a href="/ratings"> Hodnocení </a>
-        <a href="./kontakty"> Kontakty </a>
-      </div>
       <Navlinks.general />
 
     </footer>
