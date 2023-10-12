@@ -128,32 +128,32 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Cvičení maminek</h3>
           <p class="answer mt-2">Potřebujete trochu času jen pro sebe? Přijďte si zacvičit a popovídat! Cvičení je zaměřeno na posílení těla i duše, zlepšení flexibility, zvýšení energie, ale i posílení sousedských vazeb. Nejenže budete pracovat na své postavě, setkáte se s dalšími maminkami a vytvoříte si nová přátelství. Přijďte a objevte radost z pohybu a zdravého těla i duše! Tento program je určený pouze ženám, chlapi pro tentokrát prominou.
-</p>
+          </p>
         </div>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Filmový klub</h3>
           <p class="answer mt-2">Milujete filmy? Tak to jste na správném místě! Promítání v našem filmovém klubu je určeno filmovým nadšencům i obyčejným smrtelníkům, kteří se chtějí jen dozvědět něco více o předmětném díle či jeho autorovi. Filmový klub je veden filmovou studnicí Hankou Dvořákovou, ale setkáte se u nás i s dalšími filmovými nadšenci. Přijďte se setkat a zkuste se s námi podívat na filmy jinak. Připojte se k nám a ponořte se do fascinujícího světa filmového plátna!
-</p>
+          </p>
         </div>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">ZŠ Academy</h3>
           <p class="answer mt-2">Jste pedagog a hledáte způsob, jak se dále rozvíjet a zlepšovat své dovednosti? Připojte se k programům ZŠ Academy! Tento program je zaměřen na posilování vašeho profesionálního růstu prostřednictvím workshopů, seminářů a diskusí na různá témata, jako je komunikace, řešení konfliktů, vedení třídy a mnoho dalšího. Budete mít možnost sdílet své zkušenosti a nápady s ostatními pedagogy a zároveň se učit od odborníků v oblasti vzdělávání. Kurz je každý týden veden jiným zkušeným lektorem v rámci daného tématu.
-</p>
+          </p>
         </div>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Zvládání fóbie</h3>
           <p class="answer mt-2">Tento workshopový program si klade za cíl zbořit mýtus o nebezpečnosti či agresivitě některých druhů. Máme skutečně fóbii? Proč se vlastně bojíme bezobratlých? Jsou pro nás nebezpeční? Program začíná úvodním komentářem o důvodech lidského strachu z bezobratlých. Postupně přecházíme přes výklad a obrázky ke zvířatům samotným, která jsou bezpečně uzavřena v teráriích. Následně s živočichem pracuje lektor a až poté účastník. Jedním z cílů programu je překonat strachy a fóbie, a zkusit si některé ze zvířat vzít do ruky. Vše probíhá bezpečně, dobrovolně a nenásilně. Program lze kdykoli ukončit. Prohlídka je určena pro menší skupinu do deseti osob.
-</p>
+        </p>
         </div>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Správné úči</h3>
           <p class="answer mt-2">Zajímá vás, jak lépe porozumět dětem a podporovat jejich rozvoj? Připojte se k nám. Tento kurz je vedený známým filosofem Jiřím Bartoníkem, který vás provede moderními didaktickými zásadami a praktickými strategiemi pro výchovu a efektivní vzdělávání dětí. Díky tomuto kurzu budete schopni lépe pochopit potřeby svých dětí, podporovat jejich růst a rozvoj a stát se pro ně lepším průvodcem a učitelem. Protože výchova dětí není jen o tom, co děláme pro naše děti, ale také o tom, kým se pro ně stáváme my.
-</p>
+        </p>
         </div>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Cestovatelský klub</h3>
           <p class="answer mt-2">Žijeme na úžasné planetě plné krásných míst, kultury a dobrodružství čekajících na objevení. V našem cestovatelském klubu se setkáte s lidmi, kteří sdílejí váš zájem o cestování a objevování nových míst. Každé setkání přináší přednášky, fotografie a příběhy od zkušených cestovatelů, kteří vás vezmou na virtuální cestu do různých koutů světa. Budete mít také možnost sdílet své vlastní zážitky a tipy s ostatními členy klubu. Ať už jste zkušený cestovatel nebo se teprve chystáte na svou první cestu, cestovatelský klub je ideální místo pro vás. Připojte se k nám a buďte součástí komunity lidí, kteří milují cestování tak jako vy!
-</p>
+      </p>
         </div>
       </div>
     </div>

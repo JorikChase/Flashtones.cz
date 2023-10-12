@@ -22,47 +22,47 @@ defmodule FlashtonesWeb.Router do
     live "/faq", FaqLive
     live "/zs/faq", ZsFaqLive
     live "/kontakty", KontaktyLive
-    live "zs/kontakty", ZsKontaktyLive
+    live "/zs/kontakty", ZsKontaktyLive
     live "/about", AboutLive
     live "/produkty", ProduktyLive
     live "/studio", StudioLive
     live "/zs/about", DetiAboutLive
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
-    live "zs/academy", AcademyIndexLive
-    live "zs/academy/courses", AcademyCoursesLive
-    live "zs", DetiIndexLive
-    live "zs/courses/school", DetiCoursesLive
-    live "zs/courses/location", DetiLocationLive
-    live "zs/doma", DomaIndexLive
-    live "zs/doma/courses", DomaCoursesLive
-    live "zs/enviro", EnviroIndexLive
-    live "zs/enviro/courses", EnviroCoursesLive
-    live "zs/lyzovani", LyzovaniIndexLive
-    live "zs/lyzovani/courses", LyzovaniCoursesLive
-    live "zs/plavani", PlavaniIndexLive
-    live "zs/plavani/school", PlavaniDetailSchoolLive
-    live "zs/plavani/pre-school", PlavaniDetailPreSchoolLive
-    live "zs/plavani/city-school", PlavaniDetailCitySchoolLive
-    live "zs/plavani/saturday", PlavaniDetailSaturdayLive
-    live "zs/plavani/summer", PlavaniDetailSummerLive
-    live "zs/plavani/city", PlavaniDetailCityLive
-    live "zs/lyzovani/school", LyzovaniDetailSchoolLive
-    live "zs/lyzovani/pre-school", LyzovaniDetailPreSchoolLive
-    live "zs/lyzovani/city-school", LyzovaniDetailCitySchoolLive
-    live "zs/vylety", VyletyIndexLive
+    live "/zs/academy", AcademyIndexLive
+    live "/zs/academy/courses", AcademyCoursesLive
+    live "/zs", DetiIndexLive
+    live "/zs/courses/school", DetiCoursesLive
+    live "/zs/courses/location", DetiLocationLive
+    live "/zs/doma", DomaIndexLive
+    live "/zs/doma/courses", DomaCoursesLive
+    live "/zs/enviro", EnviroIndexLive
+    live "/zs/enviro/courses", EnviroCoursesLive
+    live "/zs/lyzovani", LyzovaniIndexLive
+    live "/zs/lyzovani/courses", LyzovaniCoursesLive
+    live "/zs/plavani", PlavaniIndexLive
+    live "/zs/plavani/school", PlavaniDetailSchoolLive
+    live "/zs/plavani/pre-school", PlavaniDetailPreSchoolLive
+    live "/zs/plavani/city-school", PlavaniDetailCitySchoolLive
+    live "/zs/plavani/saturday", PlavaniDetailSaturdayLive
+    live "/zs/plavani/summer", PlavaniDetailSummerLive
+    live "/zs/plavani/city", PlavaniDetailCityLive
+    live "/zs/lyzovani/school", LyzovaniDetailSchoolLive
+    live "/zs/lyzovani/pre-school", LyzovaniDetailPreSchoolLive
+    live "/zs/lyzovani/city-school", LyzovaniDetailCitySchoolLive
+    live "/zs/vylety", VyletyIndexLive
 
-    live "zs/vylety/courses", VyletyCoursesLive
-    live "zs/vylety/berlin", VyletyBerlinLive
-    live "zs/vylety/terezin", VyletyTerezinLive
-    live "zs/vylety/viden", VyletyVidenLive
-    live "zs/svp/jelenovska", VyletyJelenovskaLive
-    live "zs/svp/lites", VyletyLitesLive
-    live "zs/svp/lubenec", VyletyLubenecLive
-    live "zs/svp/maj", VyletyMajLive
-    live "zs/svp/plesivka", VyletyPlesivkaLive
-    live "zs/svp/pramen", VyletyPramenLive
-    live "zs/svp/radost", VyletyRadostLive
+    live "/zs/vylety/courses", VyletyCoursesLive
+    live "/zs/vylety/berlin", VyletyBerlinLive
+    live "/zs/vylety/terezin", VyletyTerezinLive
+    live "/zs/vylety/viden", VyletyVidenLive
+    live "/zs/svp/jelenovska", VyletyJelenovskaLive
+    live "/zs/svp/lites", VyletyLitesLive
+    live "/zs/svp/lubenec", VyletyLubenecLive
+    live "/zs/svp/maj", VyletyMajLive
+    live "/zs/svp/plesivka", VyletyPlesivkaLive
+    live "/zs/svp/pramen", VyletyPramenLive
+    live "/zs/svp/radost", VyletyRadostLive
 
     live "/desk", DeskLive
 
