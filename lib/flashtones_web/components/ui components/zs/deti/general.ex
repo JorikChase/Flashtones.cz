@@ -17,7 +17,7 @@ defmodule General do
         animation: EnviroGradient 6s ease infinite;
       }
       .general .duo-container{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;

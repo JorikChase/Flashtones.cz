@@ -29,7 +29,7 @@ defmodule DetiGrid do
 
       }
       .deti-grid > a:hover{
-        filter: blur(3px);
+        filter: blur(1px);
       }
       .deti-grid > a > span > h3{
         margin: auto;

@@ -116,63 +116,63 @@ defmodule Navlinks do
 
 
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs">
+          <a class="navLink" href="/studio">
             <h3>STUDIO</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
           Místo pro smysluplného setkávání dětí i dospělých
           </p>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="/studio">
             <span class="navLink-thick">
             Programy pro děti:<span class="navLink-thin"> Moderní kroužky pro děti a mládež</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="/studio">
             <span class="navLink-thick">
             Programy pro dospělé:<span class="navLink-thin"> Užitečné a zábavné volnočasové aktivity pro dospělé</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="https://eshop.flashtones.cz/">
+          <a class="navLink" href="https://dobrilo.cz/">
             <h3>DOBRILO </h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
           První virtuální město
           </p>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální základní škola:<span class="navLink-thin"> Propojení s těmi nejlepšími učiteli ZŠ </span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální střední škola:<span class="navLink-thin"> Ten správný učitel tradičních i méně tradičních předmětů</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální základní umělecká škola:<span class="navLink-thin"> Výuka nástrojů pomocí vlastního on-line streamu</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální jazyková škola:<span class="navLink-thin"> Výuka světových jazyků on-line</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální tělocvična:<span class="navLink-thin"> Fitness trenér odkudkoli</span>
             </span>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink" href="https://dobrilo.cz/">
             <span class="navLink-thick">
             Virtuální kulturní dům:<span class="navLink-thin"> Centrum kultury, vzdělání i zábavy</span>
             </span>
