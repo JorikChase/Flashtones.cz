@@ -79,7 +79,8 @@ defmodule General do
       .categories ul {
           list-style: none;
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
+          padding: 30px;
       }
 
       .categories li {
@@ -104,11 +105,13 @@ defmodule General do
           flex-wrap: wrap;
           justify-content: space-evenly;
           align-items: center;
+          padding: 30px;
       }
 
       .product {
           width: 300px;
           margin: 10px;
+          padding: 15px;
           border: 1px solid #ddd;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           transition: transform 0.2s, box-shadow 0.2s;
@@ -173,45 +176,45 @@ defmodule General do
       <div class="gallery">
           <div class="category" data-category="Ponožky Flashtones">
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/ponozky-made-in-czech/ponozky-made-in-czech-modrotisk/">
                       <div class="product-image" style="background-image: url('/images/produkty/ponozky-modrotisk.jpeg')"></div>
-                      <h3>Ponožky Modrotisk</h3>
+                      <h4>Ponožky Modrotisk</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/ponozky-cibulak.jpeg')"></div>
-                      <h3>Ponožky Cibulák</h3>
+                      <h4>Ponožky Cibulák</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/ponozky/ponozky-made-in-czech/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-na-miru.jpeg')"></div>
-                      <h3>Flashtones na míru</h3>
+                      <h4>Flashtones na míru</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-shapes.jpeg')"></div>
-                      <h3>Flashtones Shapes</h3>
+                      <h4>Flashtones Shapes</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-legends.jpeg')"></div>
-                      <h3>Flashtones „Legends“</h3>
+                      <h4>Flashtones „Legends“</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-one.jpeg')"></div>
-                      <h3>Flashtones One</h3>
+                      <h4>Flashtones One</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-mystery-box.jpeg')"></div>
-                      <h3>Flashtones Mysterybox</h3>
+                      <h4>Flashtones Mysterybox</h4>
                   </a>
               </div>
           </div>
@@ -219,7 +222,7 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-damske.jpeg')"></div>
-                      <h3>Dashiki dámské šaty</h3>
+                      <h4>Dashiki dámské šaty</h4>
                   </a>
               </div>
           </div>
@@ -227,13 +230,13 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kalhoty.jpeg')"></div>
-                      <h3>Dashiki kalhoty pánské</h3>
+                      <h4>Dashiki kalhoty pánské</h4>
                   </a>
               </div>
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kosile.jpeg')"></div>
-                      <h3>Dashiki pánské košile</h3>
+                      <h4>Dashiki pánské košile</h4>
                   </a>
               </div>
           </div>
@@ -241,7 +244,7 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/satky.jpeg')"></div>
-                      <h3>Šátky</h3>
+                      <h4>Šátky</h4>
                   </a>
               </div>
           </div>
@@ -249,7 +252,7 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/naramky.jpeg')"></div>
-                      <h3>Náramky</h3>
+                      <h4>Náramky</h4>
                   </a>
               </div>
           </div>
@@ -257,7 +260,7 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/nahrdelniky.jpeg')"></div>
-                      <h3>Náhrdelníky</h3>
+                      <h4>Náhrdelníky</h4>
                   </a>
               </div>
           </div>
@@ -265,15 +268,15 @@ defmodule General do
               <div class="product">
                   <a href="https://eshop.flashtones.cz/">
                       <div class="product-image" style="background-image: url('/images/produkty/nausnice.jpeg')"></div>
-                      <h3>Náušnice</h3>
+                      <h4>Náušnice</h4>
                   </a>
               </div>
           </div>
           <div class="category" data-category="Knihy">
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/kniha-ostrov-socci/kniha-ostrov-socci/">
                       <div class="product-image" style="background-image: url('/images/produkty/kniha-socci.jpeg')"></div>
-                      <h3>Ostrov Socci</h3>
+                      <h4>Ostrov Socci</h4>
                   </a>
               </div>
           </div>
