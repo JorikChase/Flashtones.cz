@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.ProduktyLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <HeroSmall.produkty />
-
+      <General.produkty />
       <Zustanme.zustanme />
       <Footer.footer />
     """

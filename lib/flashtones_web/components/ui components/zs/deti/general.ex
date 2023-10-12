@@ -65,6 +65,272 @@ defmodule General do
 
     """
   end
+  def produkty(assigns) do
+    ~H"""
+      <style>
+      .categories {
+        position: relative;
+        background-color: #33333318;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .categories ul {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+      }
+
+      .categories li {
+          padding: 10px 20px;
+          cursor: pointer;
+      }
+
+      .categories li.active {
+          background-color: #ffffffe7;
+      }
+
+      .gallery {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+      }
+      .category {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+      }
+
+      .product {
+          width: 300px;
+          margin: 10px;
+          border: 1px solid #ddd;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      .product:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .product a {
+          text-decoration: none;
+          color: black;
+      }
+
+      .product-image {
+          height: 200px;
+          background-image: url('product-image.jpg');
+          background-size: cover;
+          background-position: center;
+          transition: background 0.3s;
+      }
+
+      .product:hover .product-image {
+          background-size: 110%;
+      }
+
+      h3 {
+          padding: 10px;
+      }
+
+      @media (max-width: 768px) {
+          .gallery {
+              flex-direction: column;
+              align-items: center;
+          }
+          .category {
+              flex-direction: column;
+              align-items: center;
+              width: 100%;
+          }
+
+          .product {
+              width: 90%;
+          }
+      }
+
+      </style>
+      <div class="produkty">
+      <div class="categories produkty-nav">
+          <ul>
+              <li class="active">Ponožky Flashtones</li>
+              <li>Dashiki dámské</li>
+              <li>Dashiki pánské</li>
+              <li>Šátky Flashtones</li>
+              <li>Náramky Flashtones</li>
+              <li>Náhrdelníky Flashtones</li>
+              <li>Náušnice Flashtones</li>
+              <li>Knihy</li>
+          </ul>
+      </div>
+      <div class="gallery">
+          <div class="category" data-category="Ponožky Flashtones">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/ponozky-modrotisk.jpeg')"></div>
+                      <h3>Ponožky Modrotisk</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/ponozky-cibulak.jpeg')"></div>
+                      <h3>Ponožky Cibulák</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/flashtones-na-miru.jpeg')"></div>
+                      <h3>Flashtones na míru</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/flashtones-shapes.jpeg')"></div>
+                      <h3>Flashtones Shapes</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/flashtones-legends.jpeg')"></div>
+                      <h3>Flashtones „Legends“</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/flashtones-one.jpeg')"></div>
+                      <h3>Flashtones One</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/flashtones-mystery-box.jpeg')"></div>
+                      <h3>Flashtones Mysterybox</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Dashiki dámské">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/dashiki-damske.jpeg')"></div>
+                      <h3>Dashiki dámské šaty</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Dashiki pánské">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kalhoty.jpeg')"></div>
+                      <h3>Dashiki kalhoty pánské</h3>
+                  </a>
+              </div>
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kosile.jpeg')"></div>
+                      <h3>Dashiki pánské košile</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Šátky Flashtones">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/satky.jpeg')"></div>
+                      <h3>Šátky</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Náramky Flashtones">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/naramky.jpeg')"></div>
+                      <h3>Náramky</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Náhrdelníky Flashtones">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/nahrdelniky.jpeg')"></div>
+                      <h3>Náhrdelníky</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Náušnice Flashtones">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/nausnice.jpeg')"></div>
+                      <h3>Náušnice</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="category" data-category="Knihy">
+              <div class="product">
+                  <a href="https://eshop.flashtones.cz/">
+                      <div class="product-image" style="background-image: url('/images/produkty/kniha-socci.jpeg')"></div>
+                      <h3>Ostrov Socci</h3>
+                  </a>
+              </div>
+          </div>
+          <!-- Add more categories and products here -->
+        </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const categories = document.querySelectorAll('.categories li');
+          const categoryDivs = document.querySelectorAll('.category');
+
+          // Start by showing the products in the first category by default
+          showCategoryProducts(categoryDivs[0]);
+
+          categories.forEach(category => {
+              category.addEventListener('click', () => {
+                  categories.forEach(c => c.classList.remove('active'));
+                  category.classList.add('active');
+
+                  const categoryName = category.textContent;
+
+                  categoryDivs.forEach(categoryDiv => {
+                      if (categoryName === categoryDiv.getAttribute('data-category')) {
+                          showCategoryProducts(categoryDiv);
+                      } else {
+                          hideCategoryProducts(categoryDiv);
+                      }
+                  });
+              });
+          });
+
+          function showCategoryProducts(categoryDiv) {
+              categoryDiv.style.display = 'flex';
+          }
+
+          function hideCategoryProducts(categoryDiv) {
+              categoryDiv.style.display = 'none';
+          }
+
+          // Automatic image switching
+          //categoryDivs.forEach(categoryDiv => {
+          //    const productImages = categoryDiv.querySelectorAll('.product-image');
+          //    let currentImageIndex = 0;
+            //  setInterval(() => {
+           //       productImages.forEach(image => {
+           //           image.style.display = 'none';
+           //       });
+          //
+           //       currentImageIndex = (currentImageIndex + 1) % productImages.length;
+           //       productImages[currentImageIndex].style.display = 'block';
+            //  }, 3000);
+         // }
+          //);
+        });
+        </script>
+      </div>
+    """
+  end
   def enviro(assigns) do
     ~H"""
     <style>
