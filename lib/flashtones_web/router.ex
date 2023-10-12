@@ -66,19 +66,6 @@ defmodule FlashtonesWeb.Router do
 
     live "/desk", DeskLive
 
-    live "/posts", PostLive.Index, :index
-    live "/posts/new", PostLive.Index, :new
-    live "/posts/:id/edit", PostLive.Index, :edit
-
-    live "/posts/:id", PostLive.Show, :show
-    live "/posts/:id/show/edit", PostLive.Show, :edit
-
-    live "/ratings", RatingLive.Index, :index
-    live "/ratings/new", RatingLive.Index, :new
-    live "/ratings/:id/edit", RatingLive.Index, :edit
-
-    live "/ratings/:id", RatingLive.Show, :show
-    live "/ratings/:id/show/edit", RatingLive.Show, :edit
 
   end
 
