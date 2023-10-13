@@ -410,8 +410,11 @@ li{
   .detail-lokace-item{
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding: 15px;
+  }
+  .detail-lokace-item-column{
+    padding: 0;
   }
   .detail-lokace-item img{
     margin-bottom: 30px;
