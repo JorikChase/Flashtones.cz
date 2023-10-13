@@ -241,6 +241,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -379,6 +380,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -508,6 +510,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -637,6 +640,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -766,6 +770,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -895,6 +900,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
@@ -1024,6 +1030,7 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
+        <a href="/"><h4> Flashtones </h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
