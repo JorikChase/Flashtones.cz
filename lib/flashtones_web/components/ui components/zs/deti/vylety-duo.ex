@@ -15,6 +15,15 @@ defmodule Vylety do
         padding: 30px;
         background: rgba(0, 0, 0, 0.05);
       }
+      @media (orientation: portrait){
+        .duo{
+          flex-direction: column;
+        }
+        .duo > div{
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+      }
+      }
     </style>
     <div class="duo">
       <div class=""><h3>CENA ZAHRNUJE</h3>
@@ -51,6 +60,15 @@ defmodule Vylety do
       .proc > div{
         padding: 30px;
         background: rgba(0, 0, 0, 0.05);
+      }
+      @media (orientation: portrait){
+        .proc{
+          flex-direction: column;
+        }
+        .proc > div{
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+      }
       }
     </style>
     <div class="proc">

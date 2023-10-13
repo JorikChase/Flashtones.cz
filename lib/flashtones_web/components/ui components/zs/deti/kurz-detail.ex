@@ -276,17 +276,19 @@ defmodule KurzDetail do
   end
   def lubenec(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>RS LUBENEC</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        RS Lubenec se nachází mimo civilizaci na kopci nad městečkem Lubenec, které leží na spojnici mezi Prahou (cca. 100 km) a Karlovými Vary (cca. 35 km). Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
+        <br>
+        Ubytování nabízí celkem dvě zděné budovy, které disponují dvěma až šestilůžkovými pokoji s vlastním sociálním zařízením a vytápěním.
+        <br>
+        45 čtyřlůžkových chatek, do kterých je zaveden elektrický proud a využívají společné sociální zařízení (oddělené pro muže a ženy).
+        <br>
+        4 plně vybavené pětilůžkové chaty s vlastním sociálním zařízením, kuchyní, obývákem, dvěma ložnicemi a balkonem.
+        <br>
+        V hlavní budově se nachází zázemí kuchyně, prostorná jídelna a dvě menší klubovny, které je možné využít jako učebny. V případě nepřízně počasí je možné využít již zmíněné vnitřní prostory, ale také party stan v horní části areálu či několik nových zastřešených pergol s posezením. Jídelna také disponuje moderní zvukovou technikou, kterou je rovněž možné využít.
+        <br>
+        Krom bohatě vybaveného sportovního skladu na Vás čeká také beachvolejbalové hřiště, dvě betonová hřiště, pingpongové stoly a ohniště. Využít se kromě prostor v areálu dají i okolní lesy a louky. V teplých měsících je možné koupání v pět minut chůzí vzdáleném lubeneckém rybníce.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -295,17 +297,19 @@ defmodule KurzDetail do
   end
   def radost(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>CHATA RADOST</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Horská chata RADOST je rekreační areál uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Ubytování je zajištěno v hlavní budově s s třinácti pokoji s 52 lůžky a osmi dřevěných, celoročně obyvatelných chatkách. Nejbližší okolí nabízí pestré využití volného času, především díky překrásné přírodě a dechberoucím vyhlídkám. ZŠ PRO DĚTI v objektu začalo pořádat své kurzy a školy v přírodě v roce 2021. Od té doby zde proběhlo již několik kurzů ZŠ Lyžování, jarních kurzů ZŠ Enviro a škol v přírodě. Děti se mohou seznámit s hospodářskými zvířaty přímo v areálu pozemku. V blízkém okolí je možné navštívit oboru s daňky a divokými prasaty, vrch Špičák s překrásným výhledem do okolí nebo farmu se zvířaty.
+        <br>
+        Zlatým hřebem může být výlet do nedalekého archeologického skanzenu a ekocentra Villa Nova, kam lze vyrazit vlastním autobusem přímo od chaty.
+        <br>
+        Obec Deštné v Orlických horách se nachází východně od Dobrušky. Je to nejnavštěvovanější středisko turistiky, rekreace a zimních sportů v Orlických horách. V blízkém okolí Deštného se soustředí nejatraktivnější místa Orlických hor – například přírodní rezervace Bukačka, horská Masarykova chata na Šerlichu, nejvyšší hora Orlických hor Velká Deštná (1 115 m) a v údolí Bělé Šerlišský mlýn.
+        <br>
+        CHKO Orlické hory je pak pozoruhodně zachovalý krajinný celek tvořený hřebenem Orlických hor, svahy před a za hlavním hřebenem a malebným podhůřím. Orlickozáhorskou brázdou protéká řeka Divoká Orlice. Hřeben Orlických hor láká na nádherné výhledy do českého i polského vnitrozemí. V podhůří pak objevíte mírné kopce protkané hustou sítí značených tras
+        <br>
+        pro cyklisty i pěší. Najdete tu i hrady, zámky, technické památky a vojenské pevnosti, které tvořily linii československého předválečného opevnění.
+        <br>
+        V přírodních rezervacích Bukačka, Trčkov, Sedloňovský vrch, Pod Vrchmezím a Černý důl se nacházejí fragmenty původních porostů. Jelení lázeň a U Kunštátské kaple jsou vrcholová rašeliniště se zajímavou květenou a zvířenou. Osobitá krása této oblasti je dotvářena zachovalou lidovou architekturou. V oblasti jsou 3 naučné stezky: Okolím Deštného, Zemská brána a Po hřebeni Orlických hor.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -314,17 +318,11 @@ defmodule KurzDetail do
   end
   def pramen(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>HOTEL HORNÍ PRAMEN</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Hotel Horní Pramen se nachází na kouzelném místě u lesa s dechberoucím výhledem na hory a údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
+        <br>
+        Součástí hotelu je společenská místnost, prostorný dětský koutek, venkovní hřiště a hřiště na petanque. ZŠ PRO DĚTI využívá služeb hotelu Horní Pramen od roku 2022 zejména pro své kurzy ZŠ Enviro a školy v přírodě. Zdejší divoká příroda a neopakovatelné scenérie umožňují realizovat plnohodnotný program škol v přírodě. Lze vyrazit na výlety s neopakovatelnou scenérií. Ne nadarmo je Špindlerův Mlýn nejnavštěvovanější horské středisko v Česku. Nachází se uprostřed Krkonošského národního parku ve výšce 575 –1555 m. Nejvyšším bodem obce je Luční hora, druhá nejvyšší hora České republiky. Obec leží při soutoku řeky Labe a Svatopetrského potoka, nazývaného též Dolský potok. Další zajímavá turistická místa jsou například kostel sv. Petra a Pavla, Bílý most, vodní nádrž Labská nebo zvonička na Labské.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -333,17 +331,17 @@ defmodule KurzDetail do
   end
   def plesivka(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>CHATA PLEŠIVKA</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Chata Plešivka se hodí zejména pro intimní jednotřídní pobyty. Kapacita 24 osob je ideální na školu v přírodě především pro malotřídky. Kromě malého hřiště přímo u chaty se děti vyřádí na hřišti v Abertamech jen kousek od ubytování, do lesa je to pár kroků. Pokud s sebou povezete sportovní vybavení, bude vám k dispozici uzamykatelný přístřešek na zahradě.
+        <br>
+        Plešivka je malebná tři sta let stará krušnohorská chalupa sídlící v Abertamech, městě proslulém těžbou stříbra a cínu už za dob krále Rudolfa II. V jáchymovské kronice se poprvé o Abertamech psalo roku 1529. O 50 let později je král povýšil na Hornické královské městečko. Třicetiletá válka pak sice znamenala konec těžby stříbra, ještě v 17. a 18. století ale přetrvalo dolování cínu, který se používal na výrobu nádobí.
+        <br>
+        Hornictví postupně nahrazovala výroba krajek a pletení, v 19. století pak výroba kožených rukavic, která má v Abertamech i své muzeum. Právě v 19. století začali do oblasti přicházet čím dál častěji i turisté a řada původních chalup sloužících domácím obyvatelům se přestavěla na penziony nabízející ubytování v Krušných horách. Chata Plešivka k nim patřila také.
+        <br>
+        Dnes se krásná zrekonstruovaná horská chalupa těší oblibě všech hostů, kteří do ní zavítají. Kromě komfortního ubytování v Krušných horách až pro 24 osob nabízí Chata Plešivka i výhled na horu Plešivec, která je oblíbeným centrem zimních sportů a v létě žije horskou cyklistikou.
+        <br>
+        Chalupa ani po rekonstrukci nezapírá svou bohatou historii, interiér dýchá přírodními materiály, ale nabízí přitom moderní vybavení. Stačí se jen rozhlédnout a zamířit k nejbližším zajímavostem.
         </p>
         <Vylety.duo />
         <Vylety.proc />
@@ -352,17 +350,19 @@ defmodule KurzDetail do
   end
   def jelenovska(assigns) do
     ~H"""
-        <h2>RS Máj</h2>
+        <h2>HOTEL JELENOVSKÁ</h2>
         <p>
-          RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
-           <br>
-          K dispozici je tělocvična, několik hřišť a lezecká stěna. V případě nepříznivého počasí je možné využít také dvě klubovny nebo velkou jídelnu.
-           <br>
-          V areálu je beach volejbalové hřiště, lanovka, fotbalové hřiště s brankami a několik dalších plácků na sportování. Děti se mohou těšit také na lanovku, stolní tenis a další skvělé atrakce.
-           <br>
-          Okolní příroda nabízí širé louky a lesy vybízející k dobrodružstvím v přírodě, bojovkám a venkovním hrám.
-           <br>
-          Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
+        Hotel Jelenovská se začal stavět počátkem roku 1984 a v průběhu tří let byl téměř dokončen.
+        <br>
+        Původní verze hotelu vypadala odlišně od té dnešní. Mělo se jednat o hotel ve tvaru hvězdy, která měla být z každé strany zploštělá stejně, jako to dnes můžeme vidět pouze ze dvou stran. Hotel byl původně plánovaný pro dvojnásobný počet hostů. Bohužel během stavby došlo k rozsáhlému požáru, kterému větší část nově postaveného hotelu podlehla. Za nynějšího majitele proběhla celá řada oprav (oprava obou bazénů, rekonstrukce wellness,pokojů a společenských prostor). S hotelem spolupracuje organizace ZŠ PRO DĚTI od roku 2021. Pořádáme zde kurzy ZŠ Plavání, ZŠ Lyžování, kurzy ZŠ Enviro a školy v přírodě. Školy si hotel ihned zamilovaly a je oblíbeným místem zejména pro moravské a slezské klienty.
+        <br>
+        Je k dispozici venkovní hřiště vystavěném přímo v lese u hotelu. Mokrá varianta a večerní programy mají široké možnosti v šesti multifunkčních místnostech uvnitř hotelu.
+        <br>
+        Město Valašské Klobouky, poblíž kterého se hotel nachází leží v údolí říčky Brumovky na pomezí Bílých Karpat a Vizovických vrchů v severovýchodní části Chráněné krajinné oblasti Bílé Karpaty, vyhlášené v roce 1996 za biosférickou rezervaci UNESCA. V okolí města se nachází několik velmi cenných území s výskytem bělokarpatských orchidejí, například Dobšená, Bílé Potoky, Javorůvky nebo Ploščiny. Město je přirozeným spádovým centrem jižního Valašska.
+        <br>
+        Lze navštívit také farní kostel Povýšení svatého Kříže s gotickým jádrem ze 13. století, renesanční věží a barokním interiérem, budovu Staré radnice je dnes sídlem muzea, Mariánský sloup, Červený dům nebo dochovaný renesanční pranýř.
+        <br>
+        Dominantní jsou ovšem hlavně přírodní scenérie. V okolí se nachází řada velmi význačných přírodních lokalit, jako jsou Bílé Potoky, Javorůvky nebo Ščúrnica. Na sever a západ od Valašských Klobouk se rozkládá pásmo Vizovické vrchoviny. K nejvzácnějším lokalitám patří přírodní rezervace Bílé Potoky. Jde o dochovanou původní bělokarpatskou louku s vápenatými pramenními vývěry a četnými pseudokrasovými jevy. Vzácnou květenu zastupuje tořič čmelákovitý. Přírodní rezervace Javorůvky okouzlí návštěvníky řadou skrytých studánek, ale také vzácnou květenou, zvláště orchidejovitými rostlinami. Přírodní památka Dobšena je krásná květnatá louka. Nabízí výhled na nejvyšší vrchol Bílých Karpat a vyskytuje se zde řada chráněných rostlin, ale také dříve velmi hojný jalovec. Nestátní lesní Ščúrnica je 110 letý jedlobukový porost s přirozeným zmlazením. Les je ponechán přirozenému vývoji.
         </p>
         <Vylety.duo />
         <Vylety.proc />

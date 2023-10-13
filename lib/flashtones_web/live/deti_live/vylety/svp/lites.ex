@@ -16,7 +16,6 @@ defmodule FlashtonesWeb.VyletyLitesLive do
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <SectionToggle.vylety />
       <Zustanme.zustanme />
       <Footer.footer />
     """
