@@ -116,12 +116,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/academy"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -254,12 +254,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/academy"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -392,12 +392,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -521,12 +521,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/doma"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -650,12 +650,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/enviro"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -779,12 +779,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/lyzovani"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -908,12 +908,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/plavani"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -1037,12 +1037,12 @@ defmodule MenuMobile do
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
         <a href="/zs/vylety"> Úvod </a>
-        <a href="/aktuality"> Aktuality </a>
+       <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
-        <a href="/sluzby"> Naše služby </a>
-        <a href="/zs/about"> Kdo jsme </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
+        <a href="/sluzby"> Naše služby </a>-->
+        <a href="/zs/about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
