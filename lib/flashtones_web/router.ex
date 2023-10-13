@@ -27,6 +27,7 @@ defmodule FlashtonesWeb.Router do
     live "/produkty", ProduktyLive
     live "/studio", StudioLive
     live "/zs/about", DetiAboutLive
+    live "/zs/reference", DetiReference
     live "/sluzby", SluzbyLive
     live "/hodnoceni", HodnoceniLive
     live "/zs/academy", AcademyIndexLive

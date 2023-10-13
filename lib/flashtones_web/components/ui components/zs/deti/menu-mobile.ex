@@ -110,20 +110,13 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
-        <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
-        <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
-        <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
-        <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/academy"> Úvod </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
-        <a href="/aktuality#blog"> Blog </a>
-        <a href="/faq"> Časté dotazy </a>
-        <a href="/ratings"> Hodnocení </a>
-        <a href="/sluzby"> Naše služby </a>-->
-        <a href="/about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/"><h2> Flashtones </h2></a>
+        <a href="/zs/"><h2> zš pro děti </h2></a>
+        <a href="/produkty"><h2> produkty </h2></a>
+        <a href="/studio"><h2> studio </h2></a>
+        <a class="navLink" href="https://eshop.flashtones.cz/"><h2>eshop</h2></a>
+        <a href="/about"><h2> Kdo jsme </h2></a>
+        <a href="/kontakty"><h2> Kontakty </h2></a>
       </div>
     </div>
     """

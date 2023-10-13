@@ -16,7 +16,7 @@ defmodule Kontakt do
       }
       .kontakt-main > div{
         width: 100%;
-        padding: 30px;
+        padding: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

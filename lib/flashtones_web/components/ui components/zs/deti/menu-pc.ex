@@ -116,7 +116,6 @@ defmodule MenuPc do
         <img src="/images/academy/academy-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -167,7 +166,6 @@ defmodule MenuPc do
         <img src="/images/deti/deti-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -219,7 +217,6 @@ defmodule MenuPc do
         <img src="/images/doma/doma-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -271,7 +268,6 @@ defmodule MenuPc do
         <img src="/images/enviro/enviro-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -323,7 +319,6 @@ defmodule MenuPc do
         <img src="/images/lyzovani/lyzovani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -375,7 +370,6 @@ defmodule MenuPc do
         <img src="/images/plavani/plavani-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -427,7 +421,6 @@ defmodule MenuPc do
         <img src="/images/vylety/vylety-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/faq"> Časté dotazy </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>

@@ -44,6 +44,7 @@ defmodule Zustanme do
         width: 50%;
         height:100%;
         padding: 15px;
+        position:relative;
       }
 
       .socky-icons a {
