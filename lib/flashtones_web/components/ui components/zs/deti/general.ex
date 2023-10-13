@@ -28,6 +28,15 @@ defmodule General do
       .general li{
         list-style-type: circle;
       }
+      @media (orientation: portrait){
+        .general .duo-container{
+            width: 100%;
+            flex-direction: column;
+        }
+        .general .duo-container > h3, ul{
+        width: 100%;
+      }
+      }
 
 
       @-webkit-keyframes EnviroGradient {

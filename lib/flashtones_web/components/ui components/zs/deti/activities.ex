@@ -15,6 +15,11 @@ defmodule Activities do
         padding: 30px;
         background: rgba(0, 0, 0, 0.05);
       }
+      @media (orientation: portrait){
+        .activities{
+          flex-direction: column;
+        }
+      }
     </style>
     <div class="activities">
       <div class=""><h3>Doplňkový sportovní program</h3><p>Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání. Jednotky jsou opět mírně zasazeny do příběhu.</p></div>

@@ -50,6 +50,7 @@ defmodule Kontakt do
       }
       .kontakt-main > div{
         flex-direction: column;
+        padding: 0;
       }
       .kontakt-main > div > div{
         flex-direction: column;
