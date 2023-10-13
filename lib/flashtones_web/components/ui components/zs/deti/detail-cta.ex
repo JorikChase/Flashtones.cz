@@ -34,7 +34,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -47,7 +47,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -82,7 +82,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -127,7 +127,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -140,7 +140,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -175,7 +175,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -220,7 +220,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -233,7 +233,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -268,7 +268,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>3 700 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -313,7 +313,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -326,7 +326,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -361,7 +361,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>2 850 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -406,7 +406,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -419,7 +419,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -454,7 +454,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -499,7 +499,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -512,7 +512,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -546,7 +546,7 @@ defmodule DetailCta do
     <div class="detail-cta" id="detail-cta">
       <span></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
@@ -591,7 +591,7 @@ defmodule DetailCta do
         color: #486EFF;
         font-weight: bold;
       }
-      .detail-cta button{
+      .detail-cta .cta-button{
         white-space: no-wrap;
         display: flex;
         flex-direction: row;
@@ -604,7 +604,7 @@ defmodule DetailCta do
         color: white;
 
       }
-      .detail-cta button:hover{
+      .detail-cta .cta-button:hover{
         background: #6d96ff;
       }
       .detail-cta bold{
@@ -639,7 +639,7 @@ defmodule DetailCta do
       <span></span>
       <span>Cena:<bold>4 950 Kč</bold></span>
       <br>
-      <button href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</button>
+      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
