@@ -86,11 +86,12 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center
 
       transition: all 0.5s ease;
       }
       .mobileMenuHead > img{
-        height: 30px;
+        height: 22px;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
