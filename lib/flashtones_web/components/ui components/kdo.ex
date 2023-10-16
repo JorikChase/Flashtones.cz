@@ -77,7 +77,7 @@ defmodule Kdo do
             Marcel Valouch
           </h4>
           <p>
-            Hlavní manager a zakladatel ZŠ PRO DĚTI
+            Hlavní manager a zakladatel
           </p>
         </a>
         <a href="/about/">
@@ -86,7 +86,7 @@ defmodule Kdo do
             Omar el Karib
           </h4>
           <p>
-            Hlavní manager a zakladatel ZŠ PRO DĚTI
+            Hlavní manager a zakladatel
           </p>
         </a>
       </div>
@@ -169,7 +169,7 @@ defmodule Kdo do
             Marcel Valouch
           </h4>
           <p>
-            Hlavní manager a zakladatel ZŠ PRO DĚTI
+            Hlavní manager a zakladatel
           </p>
         </a>
         <a href="/zs/about/">
@@ -178,7 +178,7 @@ defmodule Kdo do
             Omar el Karib
           </h4>
           <p>
-            Hlavní manager a zakladatel ZŠ PRO DĚTI
+            Hlavní manager a zakladatel
           </p>
         </a>
       </div>

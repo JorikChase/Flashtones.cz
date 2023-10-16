@@ -32,7 +32,7 @@ defmodule KurzNav do
       <div class="kurz-nav">
         <a href="/zs/plavani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
-          <h4>ŠKOLNÍ PLAVECKÝ KURZ</h4>
+          <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
         </a>
         <a href="/zs/plavani/city-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">

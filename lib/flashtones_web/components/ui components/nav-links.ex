@@ -6,7 +6,7 @@ defmodule Navlinks do
     <div class="navLinks">
         <div class="navLinksColumn">
           <a class="navLink" href="/zs">
-            <h3>pro děti</h3>
+            <h3>ZŠ pro děti</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>

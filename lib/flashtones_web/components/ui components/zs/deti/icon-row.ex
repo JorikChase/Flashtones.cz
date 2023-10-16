@@ -1,6 +1,86 @@
 defmodule IconRow do
   use Phoenix.Component
 
+  def iconRowDeti(assigns) do
+    ~H"""
+      <style>
+        .icon-row_component{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 30px;
+          background: #c3e8ffb0;
+        }
+        .icon-row_component > p{
+          color: var(--Text, #333);
+          font-family: Barlow;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 35px; /* 194.444% */
+        }
+        .icon-row{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          padding-top: 30px;
+        }
+        .icon-row-item{
+          display: flex;
+          width: 12%;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+        .icon-row-item > p{
+          align-self: stretch;
+          color: var(--Text, #333);
+          text-align: center;
+          font-family: Barlow;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 35px; /* 194.444% */
+        }
+        @media (orientation: portrait){
+          .icon-row{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          .icon-row-item{
+            width: 30%;
+          }
+          .icon-row-item img{
+            width: 100%;
+          }
+        }
+      </style>
+      <div class="icon-row_component">
+        <div class="icon-row">
+          <div class="icon-row-item">
+            <img src="/images/icon/boy.svg">
+            <p>Naučíme plavat 768 dětí ročně</p>
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/stars.svg">
+            <p>Průměrné hodnocení je 4,7 z 5</p>
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/pin2.svg">
+            <p>36 lokalit</p>
+          </div>
+          <div class="icon-row-item">
+            <img src="/images/icon/lektor.svg">
+            <p>67 školených instruktorů</p>
+          </div>
+        </div>
+      </div>
+    """
+  end
   def iconRowPlavani(assigns) do
     ~H"""
       <style>
