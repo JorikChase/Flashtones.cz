@@ -52,6 +52,11 @@ defmodule FlashtonesWeb.Router do
     live "/zs/lyzovani/bezky", LyzovaniDetailBezkyLive
     live "/zs/lyzovani/weekend", LyzovaniDetailWeekendLive
     live "/zs/vylety", VyletyIndexLive
+    live "/zs/enviro/svp", EnviroSvpLive
+    live "/zs/enviro/tym", EnviroTymLive
+    live "/zs/enviro/weekend", EnviroWeekendLive
+    live "/zs/enviro/city", EnviroCityLive
+    live "/zs/enviro/evp", EnviroEvpLive
 
     live "/zs/vylety/courses", VyletyCoursesLive
     live "/zs/vylety/berlin", VyletyBerlinLive

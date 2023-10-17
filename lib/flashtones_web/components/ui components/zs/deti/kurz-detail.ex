@@ -260,8 +260,8 @@ defmodule KurzDetail do
            <br>
           Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -279,8 +279,8 @@ defmodule KurzDetail do
            <br>
           Na výlet se dá vyrazit na zámek Mnichovo Hradiště, na skalní hrad Drábské světničky, romantickou zříceninu Valečov či další atraktivní místa Českého ráje (Hrubá skála, hrad Kost aj.).
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -300,8 +300,8 @@ defmodule KurzDetail do
         <br>
         Krom bohatě vybaveného sportovního skladu na Vás čeká také beachvolejbalové hřiště, dvě betonová hřiště, pingpongové stoly a ohniště. Využít se kromě prostor v areálu dají i okolní lesy a louky. V teplých měsících je možné koupání v pět minut chůzí vzdáleném lubeneckém rybníce.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -321,8 +321,8 @@ defmodule KurzDetail do
         <br>
         V přírodních rezervacích Bukačka, Trčkov, Sedloňovský vrch, Pod Vrchmezím a Černý důl se nacházejí fragmenty původních porostů. Jelení lázeň a U Kunštátské kaple jsou vrcholová rašeliniště se zajímavou květenou a zvířenou. Osobitá krása této oblasti je dotvářena zachovalou lidovou architekturou. V oblasti jsou 3 naučné stezky: Okolím Deštného, Zemská brána a Po hřebeni Orlických hor.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -334,8 +334,8 @@ defmodule KurzDetail do
         <br>
         Součástí hotelu je společenská místnost, prostorný dětský koutek, venkovní hřiště a hřiště na petanque. ZŠ PRO DĚTI využívá služeb hotelu Horní Pramen od roku 2022 zejména pro své kurzy ZŠ Enviro a školy v přírodě. Zdejší divoká příroda a neopakovatelné scenérie umožňují realizovat plnohodnotný program škol v přírodě. Lze vyrazit na výlety s neopakovatelnou scenérií. Ne nadarmo je Špindlerův Mlýn nejnavštěvovanější horské středisko v Česku. Nachází se uprostřed Krkonošského národního parku ve výšce 575 –1555 m. Nejvyšším bodem obce je Luční hora, druhá nejvyšší hora České republiky. Obec leží při soutoku řeky Labe a Svatopetrského potoka, nazývaného též Dolský potok. Další zajímavá turistická místa jsou například kostel sv. Petra a Pavla, Bílý most, vodní nádrž Labská nebo zvonička na Labské.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -353,8 +353,8 @@ defmodule KurzDetail do
         <br>
         Chalupa ani po rekonstrukci nezapírá svou bohatou historii, interiér dýchá přírodními materiály, ale nabízí přitom moderní vybavení. Stačí se jen rozhlédnout a zamířit k nejbližším zajímavostem.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -374,8 +374,8 @@ defmodule KurzDetail do
         <br>
         Dominantní jsou ovšem hlavně přírodní scenérie. V okolí se nachází řada velmi význačných přírodních lokalit, jako jsou Bílé Potoky, Javorůvky nebo Ščúrnica. Na sever a západ od Valašských Klobouk se rozkládá pásmo Vizovické vrchoviny. K nejvzácnějším lokalitám patří přírodní rezervace Bílé Potoky. Jde o dochovanou původní bělokarpatskou louku s vápenatými pramenními vývěry a četnými pseudokrasovými jevy. Vzácnou květenu zastupuje tořič čmelákovitý. Přírodní rezervace Javorůvky okouzlí návštěvníky řadou skrytých studánek, ale také vzácnou květenou, zvláště orchidejovitými rostlinami. Přírodní památka Dobšena je krásná květnatá louka. Nabízí výhled na nejvyšší vrchol Bílých Karpat a vyskytuje se zde řada chráněných rostlin, ale také dříve velmi hojný jalovec. Nestátní lesní Ščúrnica je 110 letý jedlobukový porost s přirozeným zmlazením. Les je ponechán přirozenému vývoji.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -387,8 +387,8 @@ defmodule KurzDetail do
         <br>
         Léta minulého století byla turbulentním obdobím v historii Německa a Evropy všeobecně. Berlín se stal po skončení 1. světové války jedním z největších průmyslových center Evropy.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -401,8 +401,8 @@ defmodule KurzDetail do
           <br>
         Výlet si lze rezervovat nebo zjistit podrobnosti pomocí emailového nebo telefonického kontaktu.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
     """
   end
@@ -414,9 +414,97 @@ defmodule KurzDetail do
         <br>
         Součástí Památníku Terezín jsou objekty, které lze navštívit: Malá pevnost, Muzeum ghetta, Magdeburská kasárna, krematorium a židovský hřbitov, kolumbárium, modlitebna, replika mansardy.
         </p>
-        <Vylety.duo />
-        <Vylety.proc />
+        <Duo.vylety />
+        <Duo.proc />
         <SectionToggle.vylety />
+    """
+  end
+  def enviroSvp(assigns) do
+    ~H"""
+        <h2>Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
+        do tří částí:</h2>
+        <ul>
+        <li>teoretická – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
+        </li>
+        <li>přípravná – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
+        </li>
+        <li>aplikační – instalace a samotné finální řešení úkolu.
+        </li>
+        </ul>
+        <Duo.enviroProc />
+        <Duo.enviro />
+        <SectionToggle.enviro />
+    """
+  end
+  def enviroWeekend(assigns) do
+    ~H"""
+        <h2>Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
+        do tří částí:</h2>
+        <ul>
+        <li>teoretická – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
+        </li>
+        <li>přípravná – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
+        </li>
+        <li>aplikační – instalace a samotné finální řešení úkolu.
+        </li>
+        </ul>
+        <Duo.enviroProc />
+        <Duo.enviro />
+        <SectionToggle.enviro />
+    """
+  end
+  def enviroCity(assigns) do
+    ~H"""
+        <p>
+        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
+        <br>
+        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+        <br>
+        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        <br>
+        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
+        <br>
+        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        </p>
+        <Duo.enviroProc />
+        <Duo.enviro />
+        <SectionToggle.enviro />
+    """
+  end
+  def enviroEvp(assigns) do
+    ~H"""
+        <p>
+        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
+        <br>
+        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+        <br>
+        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        <br>
+        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
+        <br>
+        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        </p>
+        <Duo.enviroProc />
+        <Duo.enviro />
+        <SectionToggle.enviro />
+    """
+  end
+  def enviroTym(assigns) do
+    ~H"""
+        <p>
+        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
+        <br>
+        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+        <br>
+        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        <br>
+        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
+        <br>
+        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        </p>
+        <Duo.enviroProc />
+        <Duo.enviro />
+        <SectionToggle.enviro />
     """
   end
 

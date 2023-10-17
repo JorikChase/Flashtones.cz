@@ -1,7 +1,7 @@
-defmodule Vylety do
+defmodule Duo do
   use Phoenix.Component
 
-  def duo(assigns) do
+  def vylety(assigns) do
     ~H"""
     <style>
       .duo{
@@ -88,6 +88,81 @@ defmodule Vylety do
         <br>
         <br>
       Náš delegát vás přivítá na přímo místě, vše vám ukáže, představí personál a vyřeší vaše individuální požadavky.
+      </p>
+      </div>
+    </div>
+    """
+  end
+  def enviro(assigns) do
+    ~H"""
+    <style>
+      .duo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+        gap: 30px;
+      }
+      .duo > div{
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.05);
+      }
+      @media (orientation: portrait){
+        .duo{
+          flex-direction: column;
+        }
+        .duo > div{
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+      }
+      }
+    </style>
+    <div class="duo">
+      <div class=""><h3>JAKÝ JE SPORTOVNÍ PROGRAM?</h3>
+      <p>
+      Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání. Jednotky jsou opět mírně zasazeny do příběhu. Jsou rozdělené do čtyř částí:
+      </p>
+      <ul>
+        <li>úvod a průpravná část – přivítání následované hrami pro zahřátí organismu a dynamickou rozcvičkou,</li>
+        <li>hlavní – vysvětlení pravidel hry a hra samotná.</li>
+        <li>relaxační – zklidnění a vydýchání.</li>
+        <li>závěrečná – hodnotící, v rámci které se děti ke hře vyjadřují, obohacují se o podněty získané během hry a přidávají nápady a alternativy pravidel.</li>
+      </ul>
+      </div>
+      <div class=""><h3>CO OBSAHUJE ZÁBAVNÍ PROGRAM?</h3>
+      <p>Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
+      </div>
+    </div>
+    """
+  end
+  def enviroProc(assigns) do
+    ~H"""
+    <style>
+      .proc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+        gap: 30px;
+      }
+      .proc > div{
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.05);
+      }
+      @media (orientation: portrait){
+        .proc{
+          flex-direction: column;
+        }
+        .proc > div{
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+      }
+      }
+    </style>
+    <div class="proc">
+      <div class="">
+      <p>
+      Hlavními tématy environmentálních bloků jsou ochrana přírody, udržitelný rozvoj a změna klimatu. Řešení jednotlivých úkolů je protnuto s příběhem dětské knihy Ostrov Socci. Ilustrované postavy z knihy dotváří celkovou vizuální identitu. Základní misí bloků je vždy simulovaná záchrana světa před zlovůlemi krutého panovníka Pepina. Páteční Enviro bojovka by měla na závěr prověřit získané znalosti z kurzu a dovést děti k cennému pokladu.
       </p>
       </div>
     </div>

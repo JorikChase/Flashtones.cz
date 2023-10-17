@@ -501,7 +501,7 @@ li{
 
 .section-toggle {
   font-weight: bold;
-  height: 45px;
+  height: auto;
   width: 30%;
   margin: 30px auto 30px auto;
   padding: 30px;

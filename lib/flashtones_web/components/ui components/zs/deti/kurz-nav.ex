@@ -86,15 +86,15 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/enviro/viden" class="kurz-item">
+        <a href="/zs/enviro/weekend" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>Víkendové příměstské tábory</h4>
         </a>
-        <a href="/zs/enviro/berlin" class="kurz-item">
+        <a href="/zs/enviro/city" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Příměstské tábory ZŠ Enviro</h4>
         </a>
-        <a href="/zs/enviro/terezin" class="kurz-item">
+        <a href="/zs/enviro/evp" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Pobytové EVP pro vzdělavatele ZŠ Enviro</h4>
         </a>
@@ -106,11 +106,11 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/svp/lites" class="kurz-item">
+        <a href="/zs/enviro/svp" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>Škola v přírodě ZŠ Enviro</h4>
         </a>
-        <a href="/zs/svp/maj" class="kurz-item">
+        <a href="/zs/enviro/tym" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>ZŠ V týmu</h4>
         </a>

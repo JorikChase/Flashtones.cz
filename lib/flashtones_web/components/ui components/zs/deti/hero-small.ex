@@ -404,5 +404,18 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def enviroSvp(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM? </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/svp.jpeg);
+     }
+    </style>
+    """
+  end
 
 end
