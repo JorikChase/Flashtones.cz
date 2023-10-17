@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.LyzovaniDetailPreSchoolLive do
+defmodule FlashtonesWeb.LyzovaniDetailBezkyLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -6,9 +6,9 @@ defmodule FlashtonesWeb.LyzovaniDetailPreSchoolLive do
       <Nav.nav />
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
-      <HeroSmall.lyzovaniPre />
+      <HeroSmall.lyzovaniBezky />
       <div class="course-container">
-      <DetailCta.lyzovani />
+      <DetailCta.lyzovaniSchool />
 
       <h2>KURZ BĚŽECKÉHO LYŽOVÁNÍ</h2>
       <p>Díky rostoucím cenám elektřiny a tímpádem i stoupajícím cenám permanentek a taktéž v souvislosti s rozvojem vzdělanosti v oblasti životního prostředí a jeho ochrany se jeví tento typ kurz ve školách jako velmi vhodná alternativa klasického školního lyžařského kurzu.
@@ -19,7 +19,7 @@ defmodule FlashtonesWeb.LyzovaniDetailPreSchoolLive do
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
-      <DetailLokace.detailLokace />
+      <DetailLokace.detailLokaceLyzovani />
       </div>
       <Rekli.rekli />
       <SectionToggle.kurzNavLyzovani />

@@ -92,28 +92,28 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def lyzovaniCity(assigns) do
+  def lyzovaniWeekend(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> MĚSTSKÝ LYŽAŘSKÝ KURZ </h2>
+      <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/lyzovani/weekend-item.jpeg);
      }
     </style>
     """
   end
-  def lyzovaniPre(assigns) do
+  def lyzovaniBezky(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> PŘEDŠKOLNÍ LYŽAŘSKÝ KURZ </h2>
+      <h2> KURZ BĚŽECKÉHO LYŽOVÁNÍ </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/lyzovani/bezky-item.jpeg);
      }
     </style>
     """
@@ -139,7 +139,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/plavani-city-school.jpeg);
      }
     </style>
     """
@@ -165,7 +165,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/predskolni-plavecky-kurz.jpeg);
      }
     </style>
     """
@@ -178,7 +178,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/plavani-school.jpeg);
      }
     </style>
     """
@@ -191,7 +191,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/plavani-saturday.jpeg);
      }
     </style>
     """

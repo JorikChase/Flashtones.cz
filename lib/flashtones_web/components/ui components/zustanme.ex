@@ -7,7 +7,7 @@ defmodule Zustanme do
       .zustanme{
         width: max-content;
         background: #f4ebd764;
-
+        flex-wrap: wrap;
         display:flex;
         flex-direction:row;
         justify-content: space-between;
@@ -41,6 +41,7 @@ defmodule Zustanme do
         flex-direction:row;
         justify-content: space-evenly;
         align-content: center;
+        flex-wrap: wrap;
         width: 50%;
         height:100%;
         padding: 15px;
@@ -56,6 +57,10 @@ defmodule Zustanme do
         width: 120px;
         height: 120px;
         fill: currentColor;
+      }
+      @media (orientation:portrait){
+        .socky-icons {
+        }
       }
     </style>
      <div class="zustanme">
@@ -75,11 +80,11 @@ defmodule Zustanme do
           <input type="submit" value="Odebírat novinky" class="button">
         </form>
       </div>
-    <div class="socky-icons">
+      <div class="socky-icons">
           <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
           <a href="###"><img src="/images/icon/yt.svg"></a>
           <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
-    </div>
+      </div>
     </div>
     """
   end

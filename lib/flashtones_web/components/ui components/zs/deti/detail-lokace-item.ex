@@ -128,5 +128,134 @@ defmodule DetailLokaceItem do
     </div>
     """
   end
+  def detailLokaceItemPlesivka(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/plesivka-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        Chata Plešivka
+        </h4>
+        <p>
+        je přes 300 let stará, zrekonstruovaná nádherná krušnohorská chalupa v obci Abertamy v nadmořské výšce okolo 900 metrů. Hornická kulturní krajina Abertamy – Horní Blatná – Boží Dar byla v roce 2019 zapsána na seznam Světového dědictví UNESCO. Chata má celkem 25 lůžek a je tedy vhodná pro jednu třídu. V rámci doplňkového programu tedy lze zažít i mnoho zajímavého mimosportovního vyžití. Chata nabízí romantický výhled na blízký moderní rodinný ski- areál Plešivec, kde probíhá výuka sjezdového lyžování. Doslova za domem je přístup k běžeckým stopám.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemRadost(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/plesivka-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        Chata Radost
+        </h4>
+        <p>
+        Leží uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Lekce probíhají v lyžařském areálu i v okolní divoké přírodě.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemRadost(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/radost-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        Chata Radost
+        </h4>
+        <p>
+        Leží uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Lekce probíhají v lyžařském areálu i v okolní divoké přírodě.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemMedved(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/medved-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        Chata u Medvěda
+        </h4>
+        <p>
+        se nachází v obci Kořenov v Jizerských horách. Chata prošla v roce 2021 rekonstrukcí a nabízí ubytování až pro 40 osob. Je vybavena sociálním zařízením u každé z osmi ložnic, společenskou místností, hospůdkou a četnými možnostmi pro trávení volného času. Lyžařské lekce probíhají na 300 m vzdálené sjezdovce, v okolní přírodě nebo v blízkém areálu Rokytnice nad Jizerou.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemMulda(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/mulda-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        Horská bouda Na Muldě
+        </h4>
+        <p>
+        se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Jde o objekt patřící FTVS UK splňující ta nejpřísnější kritéria pro výuku sjezdového lyžování. Je dobrým výchozím bodem pro pěší turistiku, včetně méně náročných výletů do blízkého okolí.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemPramen(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/pramen-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        HOTEL HORNÍ PRAMEN
+        </h4>
+        <p>
+        se nachází na kouzelném místě u lesa s dechberoucím výhledem na horya údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy
+        Krkonoš. Součástí hotelu je společenská místnost, prostorný dětský koutek, venkovní hřiště a hřiště
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemDuo(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/duo-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        HORNÍ BEČVA Hotel Duo
+        </h4>
+        <p>
+        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
+  def detailLokaceItemLugsteinhof(assigns) do
+    ~H"""
+    <div class="detail-lokace-item">
+      <img src="/images/hotely/lugsteinhof-item.jpeg">
+      <div class="detail-lokace-item-column">
+        <h4>
+        HOTEL LUGSTEINHOF
+        </h4>
+        <p>
+        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
+        </p>
+        <!--<a href="/zs/svp/jelenovska" class="button">více informací</a>-->
+      </div>
+    </div>
+    """
+  end
 
 end

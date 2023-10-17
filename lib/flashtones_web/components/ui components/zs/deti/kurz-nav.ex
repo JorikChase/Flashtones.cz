@@ -18,7 +18,7 @@ defmodule KurzNav do
           <img src="/images/icon/primestak.svg">
           <h4>Letní příměstské tábory</h4>
         </a>
-        <a href="/zs/plavani/city" class="kurz-item">
+        <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Víkendové příměstské tábory</h4>
         </a>
@@ -54,7 +54,7 @@ defmodule KurzNav do
         }
       </style>
       <div class="kurz-nav">
-        <a href="/zs/lyzovani/city-school" class="kurz-item">
+        <a href="/zs/lyzovani/weekend" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
         </a>
@@ -74,7 +74,7 @@ defmodule KurzNav do
           <img src="/images/icon/skola.svg">
           <h4>Školní lyžařský kurz</h4>
         </a>
-        <a href="/zs/lyzovani/pre-school" class="kurz-item">
+        <a href="/zs/lyzovani/bezky" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Kurz běžeckého lyžování</h4>
         </a>

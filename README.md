@@ -339,3 +339,18 @@ produkty /https://flashtones.cz/blog-post/katalog-produktu-flashtones/
 studio /https://flashtones.cz/studio/
 
 stahnout dokument v mailu pdf kazde aktivity
+
+chtel bych poprosit o ty pripominky k jednotlivym detailum kurzu a vyletu 
+Infokarty
+
+##plavani pro verejnost petra huskova
+
+zmeny od petry
+
+vikendove primestaky propagovat
+
+
+
+ikonky
+
+obrazky - milan, 

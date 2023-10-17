@@ -8,7 +8,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.lyzovaniSchool />
       <div class="course-container">
-      <DetailCta.lyzovani />
+      <DetailCta.lyzovaniSchool />
         <style>
           p{
             color: var(--Text, #333);
@@ -33,7 +33,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
-      <DetailLokace.detailLokace />
+      <DetailLokace.detailLokaceLyzovani />
       </div>
       <Rekli.rekli />
       <SectionToggle.kurzNavLyzovani />

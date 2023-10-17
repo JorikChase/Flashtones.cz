@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
+defmodule FlashtonesWeb.LyzovaniDetailWeekendLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -6,8 +6,8 @@ defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
       <Nav.nav />
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
-      <HeroSmall.lyzovaniCity />
-      <div class="course-container">
+      <HeroSmall.lyzovaniWeekend />
+      <div class="course-container lg:w-3/4">
       <DetailCta.lyzovani />
 
       <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>
@@ -15,7 +15,7 @@ defmodule FlashtonesWeb.LyzovaniDetailCitySchoolLive do
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
-      <DetailLokace.detailLokace />
+      <DetailLokace.detailLokaceLyzovani />
       </div>
       <Rekli.rekli />
       <SectionToggle.kurzNavLyzovani />

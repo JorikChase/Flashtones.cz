@@ -7,6 +7,9 @@ defmodule FlashtonesWeb.DetiReference do
     main{
       background: #dbf6f9;
     }
+    .course-container{
+      padding-top: 180px;
+    }
     </style>
       <Nav.nav />
       <MenuMobile.menuDetiMobile />

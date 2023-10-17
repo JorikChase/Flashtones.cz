@@ -23,12 +23,11 @@ defmodule KurzDetail do
           }
         </style>
         <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <p>T
-
-        ento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
-
+        <br>
+        <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
+          <br>
         Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
-
+          <br>
         </p>
         <h3>Jak to probíhá</h3>
         <p>
@@ -140,11 +139,19 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
-
-        Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
-
+        <div class="course-container lg:w-3/4">
+        <h2>PRAVIDELNÉ SOBOTNÍ KURZY PLAVÁNÍ</h2>
+        <p>bsolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Pravidelné kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.
+        <br>
+         <h4> KDE </h4>
+          Kurz probíhá v Plaveckém a sportovním areálu Radotín. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru. V případě špatného počasí máme pro mimo-bazénové aktivity zajištěno zázemí v nedaleké Sportovní hale Radotín. Pro venkovní aktivity jsou využívána okolní hřiště a areál Biotopu.
+        <br>
+          ORGANIZACE
+        <br>
+          První sezóna pravidelných kurzů plavání bude probíhat od října do ledna následujícího roku (konkrétně 7.10. 2023 až 27.1.2024). Rádi zde přivítáme malé neplavce, poloplavce i pokročilé plavce. Kurzy jsou vhodné pro děti ve věku 5-13 let.
+          Kurzy trvají vždy 45 minut a konají se každou sobotu, vždy od 9.00- 10.00 a 10.00-11:00.
+        <br>
+          Cena kurzu je 3 700 Kč a to za 10 lekcí.
         </p>
         <h3>Jak to probíhá</h3>
         <p>
@@ -158,6 +165,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def plavaniSchool(assigns) do
@@ -218,6 +226,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
+        <div class="course-container lg:w-3/4">
         <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
         Probíhají v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Olšanka na Praze 3, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem. Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
@@ -234,6 +243,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def lites(assigns) do
