@@ -313,6 +313,19 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def vyletyBerlin(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Berlín 20. století </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/berlin.jpeg);
+     }
+    </style>
+    """
+  end
   def jelenovska(assigns) do
     ~H"""
     <div class="hero-small">

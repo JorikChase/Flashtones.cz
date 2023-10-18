@@ -60,8 +60,16 @@ defmodule FlashtonesWeb.Router do
 
     live "/zs/vylety/courses", VyletyCoursesLive
     live "/zs/vylety/berlin", VyletyBerlinLive
+    live "/zs/vylety/boleslav", VyletyBoleslavLive
+    live "/zs/vylety/drazdany", VyletyDrazdanyLive
+    live "/zs/vylety/kutna-hora", VyletyKutnaHoraLive
+    live "/zs/vylety/mnichov", VyletyMnichovLive
+    live "/zs/vylety/osvetim", VyletyOsvetimLive
+    live "/zs/vylety/praha", VyletyPrahaLive
+    live "/zs/vylety/tabor", VyletyTaborLive
     live "/zs/vylety/terezin", VyletyTerezinLive
     live "/zs/vylety/viden", VyletyVidenLive
+
     live "/zs/svp/jelenovska", VyletyJelenovskaLive
     live "/zs/svp/lites", VyletyLitesLive
     live "/zs/svp/lubenec", VyletyLubenecLive

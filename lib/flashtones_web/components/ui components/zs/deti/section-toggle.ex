@@ -219,13 +219,12 @@ defmodule SectionToggle do
   end
   def vylety(assigns) do
     ~H"""
-    <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Výlety pro veřejnost</a>
         <a href="#sectionB">Školy v přírodě</a>
     </div>
 
-    <section id="sectionA" class="hidden">
+    <section id="sectionA">
       <KurzNav.vyletyVerejnost />
     </section>
     <section id="sectionB" class="hidden">

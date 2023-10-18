@@ -142,6 +142,55 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
+        <a href="/zs/vylety/berlin" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Berlín</h4>
+        </a>
+        <a href="/zs/vylety/boleslav" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Mladá Boleslav - Muzeum Škoda</h4>
+        </a>
+        <a href="/zs/vylety/drazdany" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Drážďany</h4>
+        </a>
+        <a href="/zs/vylety/kutna-hora" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Kutná Hora</h4>
+        </a>
+        <a href="/zs/vylety/mnichov" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Mnichov</h4>
+        </a>
+        <a href="/zs/vylety/osvetim" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Osvětim</h4>
+        </a>
+        <a href="/zs/vylety/praha" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Praha</h4>
+        </a>
+        <a href="/zs/vylety/tabor" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Tábor</h4>
+        </a>
+        <a href="/zs/vylety/terezin" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Terezín</h4>
+        </a>
+        <a href="/zs/vylety/viden" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Vídeň</h4>
+        </a>
+      </div>
+    """
+  end
+  def vyletySvp(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <h3 style="margin-left:30px;">ŠKOLY V PŘÍRODĚ</h3>
+      <div class="kurz-nav">
         <a href="/zs/svp/lites" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>RS Lites</h4>
