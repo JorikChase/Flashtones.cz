@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <Nav.nav />
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
-      <HeroSmall.enviroSvp />
+      <HeroSmall.enviroTym />
       <div class="course-container lg:w-3/4">
       <DetailCta.enviro />
       <KurzDetail.enviroTym />
@@ -14,6 +14,7 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
       <DetailLokace.detailLokace />
+      <KurzNav.vyletySkola />
       </div>
       <Rekli.rekli />
       <Zustanme.zustanme />

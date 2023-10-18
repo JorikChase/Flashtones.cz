@@ -501,8 +501,8 @@ li{
 
 .section-toggle {
   font-weight: bold;
-  height: auto;
-  width: 30%;
+  height: 45px;
+  max-width: 45%;
   margin: 30px auto 30px auto;
   padding: 30px;
   background: rgba(2, 3, 3, 0.1);
@@ -532,6 +532,7 @@ li{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
 }
 .section-toggle a:hover {
   background: rgba(255, 255, 255, 1);

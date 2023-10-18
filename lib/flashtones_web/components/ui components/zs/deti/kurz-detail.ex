@@ -421,8 +421,11 @@ defmodule KurzDetail do
   end
   def enviroSvp(assigns) do
     ~H"""
-        <h2>Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
-        do tří částí:</h2>
+        <h2>JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM?</h2>
+        <p>
+        Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
+        do tří částí:
+        </p>
         <ul>
         <li>teoretická – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
         </li>
@@ -438,16 +441,10 @@ defmodule KurzDetail do
   end
   def enviroWeekend(assigns) do
     ~H"""
-        <h2>Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
-        do tří částí:</h2>
-        <ul>
-        <li>teoretická – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
-        </li>
-        <li>přípravná – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
-        </li>
-        <li>aplikační – instalace a samotné finální řešení úkolu.
-        </li>
-        </ul>
+        <h2>VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY</h2>
+        <p>
+        Jsou čtyřdenní- dvouvíkendové kurzy zahrnující osm bloků zaměřených na environmentální výchovu a pestrý doplňkový program.
+        </p>
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
@@ -458,13 +455,13 @@ defmodule KurzDetail do
         <p>
         Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
         <br>
-        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+          Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
         <br>
-        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+          Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
         <br>
-        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
+          Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
         <br>
-        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+          Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
         </p>
         <Duo.enviroProc />
         <Duo.enviro />
@@ -474,15 +471,17 @@ defmodule KurzDetail do
   def enviroEvp(assigns) do
     ~H"""
         <p>
-        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
+        Jedná se o třídenní pobytovou aktivitu zaměřenou na studenty pedagogických škol a učitele základních škol. Každý z kurzů je určen pro patnácti člennou skupinu a je odborně veden našimi lektory.
         <br>
-        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+        Program přináší rozšíření obecných environmentálních znalostí studentů a pedagogů základních škol a možnosti nového způsobu předávání těchto znalostí dětem. Moderní doba s sebou nese nové potřeby agregovat vědomosti a reagovat na nové výzvy ve vztahu k životnímu prostředí a přírodě. Program se inspiruje principy globální výchovy a nabízí osvojení nového komplexního přístupu k otázkám ochrany přírody ve vztahu k moderní společnosti a individualizovanému jedinci v ní.
         <br>
-        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        Hlavní cíl projektu je dodat mladé generaci nové úhly pohledu na život v moderní společnosti a motivaci, jak se stát aktivním a odpovědným světoobčanem se vztahem k ochraně životního prostředí. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími, ale i aktivní občanskou angažovaností. S účastníky bychom rádi na partnerské bázi probírali způsob prezentace environmentálních témat, ale také je inspirovali ve způsobu komunikace těchto témat hravou a zábavnou formou při vzdělávání dětí a mládeže.
         <br>
-        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
+        Projekt má svou teoretickou i praktickou část, která umožní účastníkům vstřebat nové informace v rámci kolektivu na čerstvém horském vzduchu a společně sdílet své poznatky a aplikaci do praxe. Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
         <br>
-        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        Program je naplánován v rozsahu 12 akcí v průběhu uvedeného realizačního období. Místo realizace jsou Krušné hory, lokalita z pohledu ekologie a ochrany životního prostředí tolik příznačná.
+        <br>
+        Program bude pro své účastníky kompletně hrazený, včetně ubytování a stravy, jeho absolventi obdrží certifikát o absolvování.
         </p>
         <Duo.enviroProc />
         <Duo.enviro />
@@ -492,15 +491,7 @@ defmodule KurzDetail do
   def enviroTym(assigns) do
     ~H"""
         <p>
-        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
-        <br>
-        Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
-        <br>
-        Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
-        <br>
-        Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
-        <br>
-        Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program. Ten je rozčleněn do devadesáti minutových bloků v pořadí environmentální, sportovní a večerní zábavní. V pátek je kurz po obědě stejně jako je tomu u standardního kurzu ZŠ Enviro zakončen závěrečnou „Enviro hrou“ a předáním absolventských diplomů.
         </p>
         <Duo.enviroProc />
         <Duo.enviro />

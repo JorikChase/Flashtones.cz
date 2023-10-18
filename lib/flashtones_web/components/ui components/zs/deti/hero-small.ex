@@ -417,5 +417,55 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def enviroTym(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> ŠKOLNÍ VÝUKOVÝ A ADAPTAČNÍ TÝDEN </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/tym.jpeg);
+     }
+    </style>
+    """
+  end
+  def enviroCity(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/city.jpeg);
+     }
+    </style>
+    """
+  end
+  def enviroEvp(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/evp.jpeg);
+     }
+    </style>
+    """
+  end
+  def enviroWeekend(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/weekend.jpeg);
+     }
+    </style>
+    """
+  end
 
 end
