@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.VyletyDrazdanyLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.vyletyDrazdany />
+      <HeroSmall.drazdany />
       <div class="course-container">
       <DetailCta.vyletySkola />
       <KurzDetail.drazdany />

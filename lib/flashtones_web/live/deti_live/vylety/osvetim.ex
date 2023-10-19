@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.VyletyOsvetimLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.vyletyOsvetim />
+      <HeroSmall.osvetim />
       <div class="course-container">
       <DetailCta.vyletySkola />
       <KurzDetail.osvetim />

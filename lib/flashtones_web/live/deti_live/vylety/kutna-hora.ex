@@ -6,7 +6,7 @@ defmodule FlashtonesWeb.VyletyKutnaHoraLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.vyletyKutna />
+      <HeroSmall.kutna />
       <div class="course-container">
       <DetailCta.vyletySkola />
       <KurzDetail.kutna />

@@ -313,7 +313,33 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def vyletyBerlin(assigns) do
+  def vyletyBoleslav(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Mladá Boleslav </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/boleslav.jpeg);
+     }
+    </style>
+    """
+  end
+  def kutna(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> KUTNÁ HORA </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/kutna.jpeg);
+     }
+    </style>
+    """
+  end
+  def berlin(assigns) do
     ~H"""
     <div class="hero-small">
       <h2> Berlín 20. století </h2>
@@ -322,6 +348,19 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/vylety/berlin.jpeg);
+     }
+    </style>
+    """
+  end
+  def drazdany(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> DRÁŽĎANY </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/drazdany.jpeg);
      }
     </style>
     """
