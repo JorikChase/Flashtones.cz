@@ -354,3 +354,38 @@ vikendove primestaky propagovat
 ikonky
 
 obrazky - milan, 
+
+duo-container, dvojita kazeta
+obecne info o academy
+nahravani
+-- 2
+organizace serveru pres ftp
+-- 2
+opravy mobilni verze pro
+safari
+chrome
+edge
+-- 8
+opravy stolni verze pro
+opera
+explorer
+opera gx
+-- 2
+kurzy + detaily lokaci
+-- 4
+organizace firemnich medii
+-- 1
+deti
+-- 4 
+plavani
+-- 4 
+academy
+-- 4
+vylety
+-- 4
+enviro
+-- 4
+lyzovani
+-- 4
+doma
+-- 4

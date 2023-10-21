@@ -16,7 +16,6 @@ defmodule FlashtonesWeb.AcademyIndexLive do
       <General.academy />
       <Kdo.kdoZs />
       <Rekli.rekli />
-
       <Footer.footer />
     """
   end
