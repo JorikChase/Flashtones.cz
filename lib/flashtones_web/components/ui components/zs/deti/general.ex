@@ -488,19 +488,112 @@ defmodule General do
           50%{background-position:100% 78%}
           100%{background-position:0% 23%}
       }
+      .kazeta{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+      }
+      .kazeta > div{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+      @media (orientation:portrait){
+        .kazeta{
+            flex-direction: column;
+        }
+        .kazeta > div{
+            width: 100%;
+        }
+      .kazeta-sudan{
+        width: 100%;
+        height: 50vh;
+      }
+      .kazeta-prace{
+        width: 100%;
+        height: 50vh;
+      }
+      }
+      .kazeta-sudan{
+        background-image: url(/images/academy/academy-sudan.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+      .kazeta-prace{
+        background-image: url(/images/academy/academy-sudan.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+
     </style>
     <div class="general">
-      <div class="projekt"><h3>O PROJEKTU</h3><p>ZS ACADEMY je jedinečný koncept spojující plaveckou výuku, environmentální výchovu a sportovně-zábavní program pro děti mladšího školního věku.
-      <br>
-      Projekt ZS Academy je součástí intenzivního vzdělávacího konceptu ZŠ PRO DĚTI.</p></div>
-      <div class="program"><h3>JAK TO PROBÍHÁ</h3><p>Děti absolvují v průběhu pěti dnů celkem deset devadesátiminutových vyučovacích lekcí plavání, které jsou vždy rozděleny do tří částí:</p>
-      <ul>
-        <li>úvodní – rozcvičení a příprava na plaveckou výuku, rozvoj koordinačních schopností a uvědomování si vlastního těla</li>
-        <li>hlavní – osvojování plaveckých dovedností, zvládnutí základních plaveckých způsobů znak, prsa a kraul, seznámení se základy první pomoci, skoky do vody a potápění</li>
-        <li>závěrečná – především hry ve vodě.</li>
-      </ul>
+      <div class="projekt"><h3>O PROJEKTU</h3><p>Školící a vzdělávací centrum ZŠ Academy organizuje kurzy, školení, semináře a
+        další vzdělávací či zábavně - vzdělávací akce pro stávající i budoucí učitele, lektory,
+        trenéry a další pedagogické pracovníky. Výstupní licence, znalosti a dovednosti je
+        možné využít v různých oblastech pedagogiky – ve školách, školkách, školských
+        zařízeních, zájmových i komerčních organizacích. Veškeré naše aktivity jsou
+        otevřené pro širokou veřejnost.</p></div>
+      <div class="program"><p>Kurzy jsou akreditované Ministerstvem školství, mládeže a tělovýchovy ČR, přidělené
+        dotační tituly splňují všechny potřebné právní náležitosti. Garantujeme kvalitní tým
+        ostřílených stálých kolegů, kteří mají empatickým přístup a bohaté zkušenosti v
+        konkrétních odvětvích. Je pro nás důležité efektivní nabytí vědomostí a dovedností,
+        stejně tak je pro nás ale podstatný i způsob jejich dalšího předávání. Kromě
+        odbornosti, chceme do systému vnášet partnerský a respektující přístup a empatické
+        chování nových pedagogů směrem ke svým kolegům i k dětem. Naší snahou je
+        budovat u mladé generace lásku ke vzdělávání a trvale udržitelný pozitivní vztah
+        k aktivnímu způsobu života.</p>
       </div>
     </div>
+      <!--<div class="">
+        <a href="">Kurz instruktora sjezdového lyžování</a>
+        <a href="">Kurz instruktora běžeckého lyžování</a>
+        <a href="">Kurz Instruktor plavání 3. třídy</a>
+        <a href="">Pobytové EVP pro vzdělavatele</a>
+      </div>
+      <h3>Akce a eventy</h3>
+      <div class="kazeta">
+        <div class=""><h4>Erasmus plus</h4></div>
+        <div class=""></div>
+      </div>-->
+    <div class="course-container">
+      <h3>Zahraniční projekty</h3>
+      <div class="kazeta">
+        <div class=""><h4>Kurz ZŠ Plavání v Súdánu</h4><p>V Súdánu, stejně jako v jiných rozvojových zemích každý rok dochází k velkému množství zbytečných dětských utonutí. Chceme novým instruktorům v Súdánu předat naše „know how“, vytvořit zde podmínky pro další výuku a v důsledku toto číslo významně snížit.</p></div>
+        <div class="kazeta-sudan"></div>
+      </div>
+      <h3>Práce u nás</h3>
+      <div class="kazeta">
+        <div class=""><p>Chcete pracovat s námi? Máte kladný vztah ke sportu a vzdělávání? Máte
+            požadované vzdělání v daném oboru nebo si ho plánujete dodělat? Máte přátelský
+            vztah k dětem? Naše nové kolegy průběžně nabíráme, neváhejte nás proto
+            kontaktovat!
+            <br>
+            Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží
+            vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT
+            schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+            Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online
+            vzdělávání.
+            <br>
+            Naším mottem je bavit, vzdělávat a rozvíjet. Chceme dětem ukázat nejkratší cestu,
+            ale také je nechat samostatně hledat cesty nové. Učíme děti nenásilně nacházet
+            jejich hranice a umožňujeme jim další růst.
+            <br>
+            Podporujeme rozvoj jednotlivců i týmu. Povzbuzujeme přirozenou sebedůvěru, chuť
+            spolupracovat, vzájemný respekt, toleranci i smysl pro humor. Pomáháme dětem
+            budovat pozitivní vztahy na všech úrovních – k sobě samým, ke druhým lidem, ke
+            zvířatům, k živé a neživé přírodě i k lidským výtvorům.
+            <br>
+            Užívané hry na kurzech, názvy družstev, postavy v on-line hrách a cvičeních a
+            celkový vizuální obsah projektu ZŠ PRO DĚTI je protnut s příběhem a postavami v
+            naší publikaci Ostrov Socci.
+            <br>
+            Veškeré pobytové akce jsou v souladu se zákonem cestovní kanceláří Flashtones,
+            s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.</p>
+            </div>
+        <div class="kazeta-prace"></div>
+      </div>
+      </div>
     """
   end
 

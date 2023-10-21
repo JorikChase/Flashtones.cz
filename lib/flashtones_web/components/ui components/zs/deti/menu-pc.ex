@@ -118,6 +118,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -169,6 +170,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -221,6 +223,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -273,6 +276,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -325,6 +329,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -377,6 +382,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>
@@ -429,6 +435,7 @@ defmodule MenuPc do
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
         </div>
       </div>

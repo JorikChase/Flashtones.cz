@@ -300,6 +300,19 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def lokality(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Lokality </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
   def vyletyViden(assigns) do
     ~H"""
     <div class="hero-small">
