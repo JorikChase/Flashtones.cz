@@ -518,12 +518,14 @@ defmodule General do
       .kazeta-sudan{
         background-image: url(/images/academy/academy-sudan.jpeg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
       .kazeta-prace{
         background-image: url(/images/academy/academy-sudan.jpeg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
     </style>
