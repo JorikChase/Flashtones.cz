@@ -49,13 +49,13 @@ defmodule FlashtonesWeb.LocationsLive do
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          justify-content: space-evenly;
-          align-items: center;
+          justify-content: flex-start;
+          align-items: flex-start;
           padding: 30px;
       }
 
       .product {
-          width: 300px;
+          width: 600px;
           margin: 10px;
           padding: 15px;
           border: 1px solid #ddd;
@@ -88,6 +88,9 @@ defmodule FlashtonesWeb.LocationsLive do
       h3 {
           padding: 10px;
       }
+      .gallery h2{
+        padding-right: 30px;
+      }
 
       @media (max-width: 768px) {
           .gallery {
@@ -117,6 +120,7 @@ defmodule FlashtonesWeb.LocationsLive do
       </div>
       <div class="gallery">
           <div class="category" data-category="Plavání">
+          <h2>Plavání</h2>
               <div class="product">
                     <a href="https://energetikpec.cz/" target="_blank">
                       <img src="/images/hotely/energetik.jpg">
@@ -229,6 +233,7 @@ defmodule FlashtonesWeb.LocationsLive do
               </div>
           </div>
           <div class="category" data-category="Lyžování">
+          <h2>Lyžování</h2>
               <div class="product">
                     <a href="https://energetikpec.cz/" target="_blank">
                       <img src="/images/hotely/energetik.jpg">
@@ -352,6 +357,7 @@ defmodule FlashtonesWeb.LocationsLive do
               </div>
           </div>
           <div class="category" data-category="Enviro">
+          <h2>Enviro</h2>
           <div class="product">
                     <a href="https://energetikpec.cz/" target="_blank">
                       <img src="/images/hotely/energetik.jpg">

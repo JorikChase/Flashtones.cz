@@ -207,7 +207,7 @@ li{
   color: white;
   font-weight: bold;
   display: inline-flex;
-  padding: 10px 30px;
+  padding: 5px 30px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -513,6 +513,7 @@ li{
   align-items: center;
   justify-content: space-between;
   padding: 5px;
+  gap: 5px;
 }
 .section-toggle:hover {
   background: rgba(0, 0, 0, 0.2);
@@ -533,6 +534,23 @@ li{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+}
+@media (orientation: portrait){
+  .section-toggle {
+    font-weight: bold;
+    height: auto;
+    max-width: fit-content;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-toggle a {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    padding: 5px 15px;
+  }
 }
 .section-toggle a:hover {
   background: rgba(255, 255, 255, 1);
