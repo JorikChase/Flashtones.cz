@@ -532,5 +532,18 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def osvetim(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Osvětim </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/osvetim.jpeg);
+     }
+    </style>
+    """
+  end
 
 end

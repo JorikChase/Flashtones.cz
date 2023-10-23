@@ -474,6 +474,25 @@ defmodule KurzDetail do
         <SectionToggle.vylety />
     """
   end
+  def osvetim(assigns) do
+    ~H"""
+        <h2>Osvětim</h2>
+        <p>
+        Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a předávání vzpomínek. Dvoudenní zájezd do Osvětimi je v důsledku své brutální intenzity vhodný až pro žáky druhého stupně ZŠ a pro středoškolské studenty. Silné okamžiky jsou pro účastníky zážitkem skutečně na celý život. Zájezd zahrnuje dopravu autobusem, šestihodinovou prohlídku celého komplexu rozdělenou na dvě části, tedy Auschwitz I a Auschwitz II – Birkenau, nocleh a volitelný doplňkový program ve druhém dni.
+        <br>
+        První část prohlídky probíhá s průvodcem po Auschwitz I, kde se nachází bývalé vězeňské kasárny. Žáci nebo studenti zde navštíví expozice zaměřené na krutý život a umírání vězňů, jejich pracovní nasazení, ubytování a podmínky stravování. Na místě jsou k vidění tuny nalezených vlasů, nádobí, hračky dětí a další věci, které si vězni vzali sebou do Osvětimi, než byli zabití v plynových komorách nebo zemřeli na vyčerpání, hlad či nemoci.
+        <br>
+        Druhá část začíná po přestávce přesunem autobusem do zhruba 2,5 km vzdáleného komplexu Auschwitz II – Birkenau. Zde probíhá 2-3 hodinová prohlídka celého koncentračního a vyhlazovacího komplexu, kde jsou ke spatření zbytky plynových komor a krematorií, budova s názvem „Sauna“, kde byli vězni oholeni a potetováni. Zde se nachází taktéž výstava a bývalé odvšivovací zařízení. Na místě navštívíme také ženský tábor, „Blok smrti“ a rampu s vlakem, odkud směřovaly vlaky do tábora.
+        <br>
+        Ubytování je zajištěno v nedalekém Quest House Osvětim.
+        <br>
+        Na zpáteční cestě je dle předchozí dohody možná zastávka ve Věličce, největších solných dolech v Evropě (cena za žáka je cca 500 Kč), případně je možná komentovaná prohlídka města Krakova.
+        </p>
+        <Duo.vylety />
+        <Duo.proc />
+        <SectionToggle.vylety />
+    """
+  end
   def enviroSvp(assigns) do
     ~H"""
         <h2>JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM?</h2>

@@ -49,15 +49,16 @@ defmodule FlashtonesWeb.LocationsLive do
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          justify-content: flex-start;
+          justify-content: space-between;
           align-items: flex-start;
           padding: 30px;
       }
 
       .product {
-          width: 600px;
+          width: 30%;
           margin: 10px;
           padding: 15px;
+          background: rgba(255,255,255,0.15);
           border: 1px solid #ddd;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           transition: transform 0.2s, box-shadow 0.2s;
@@ -91,8 +92,11 @@ defmodule FlashtonesWeb.LocationsLive do
       .gallery h2{
         padding-right: 30px;
       }
-
-      @media (max-width: 768px) {
+      .gallery h4{
+        padding: 30px 0;
+        width: 30%;
+      }
+      @media (orientation:portrait) {
           .gallery {
               flex-direction: column;
               align-items: center;
