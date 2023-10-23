@@ -378,14 +378,47 @@ organizace firemnich medii
 deti
 -- 4 
 plavani
--- 4 
+-- 3
+lokality P
+-- 1
 academy
--- 4
+-- 3
 vylety
--- 4
+-- 5
 enviro
--- 4
+-- 2
+lokality Env
+-- 2
 lyzovani
--- 4
+-- 3
 doma
--- 4
+-- 1
+prace na fotogalerii
+-- 2
+contact formular
+-- 2
+nahravani a organizace medii
+-- 1
+
+
+milan posle obrazky
+
+a prosim jestli by mi kdokoli neposlal opravy, ktery by potreboval fakticky
+
+odkaz flashtones
+
+plachta jde zavrit kliknutim
+
+uvodni obrazek se meni
+
+lugsteinhof v lokality duo
+
+o nas padding 30px
+
+udelat vsechna hodnoceni rekli o nas odsazeni
+
+tlacitko posunout general studio
+
+menu posunute od osy deti
+
+dlazdice menu nejsou videt komp safari

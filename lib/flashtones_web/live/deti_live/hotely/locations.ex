@@ -138,7 +138,7 @@ defmodule FlashtonesWeb.LocationsLive do
               </div>
               <div class="product">
                     <a href="https://www.tetreviboudy.com/" target="_blank">
-                      <img src="/images/hotely/pramen-item.jpeg">
+                      <img src="/images/hotely/tetrevi-boudy.jpeg">
                         <h4>
                         HORSKÝ HOTEL TETŘEVÍ BOUDY
                         </h4>

@@ -5,9 +5,8 @@ defmodule Hero do
     ~H"""
       <div class="hero">
       <h1 id="h1ro">
-            MĚNÍME SE! <br>
-            Flashtones už nejsou jen ponožky
-        </h1>
+        Flashtones je lifestylový brand, který vás bude bavit!
+      </h1>
         <div class="relative">
           <div class="carousel">
             <img src="/images/ft/ft-main-hero.png" alt="Image 1" class="carousel-item">

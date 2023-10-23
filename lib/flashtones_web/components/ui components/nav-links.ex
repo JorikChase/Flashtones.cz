@@ -10,7 +10,7 @@ defmodule Navlinks do
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <p>
-            Přenech výchovu svých dětí na nás a užívej si života!
+            Aktivity pro školy a veřejnost.
           </p>
           <a class="navLink" href="/zs/plavani">
             <span class="navLink-thick">

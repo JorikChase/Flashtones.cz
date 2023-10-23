@@ -57,7 +57,7 @@ defmodule General do
     </style>
     <div class="general">
       <div class="projekt"><h3>Co je Flashtones Studio</h3><p>Flashtones Studio je místem smysluplného setkávání. Klademe si za cíl nabídnout kvalitní, a moderní volnočasové aktivity pro děti, mládež i dospělé.</p></div>
-      <div class="prubeh duo-container"><h3>V čem jsou naše programy specifické</h3>
+      <div class="program"><h3>V čem jsou naše programy specifické</h3>
         <ul>
           <li>Fungujeme v příjemném kompaktním prostoru v centru Prahy</li>
           <li>Klademe důraz na individuální přístup, který je zaručen prací v malých skupinkách</li>
@@ -67,7 +67,6 @@ defmodule General do
           <li>Konkurujeme televizi, sociálním sítím a počítačovým hrám a snažíme se ukazovat sílu fyzických zážitků a aktivně stráveného čas</li>
         </ul>
       </div>
-      <div class="program"><h3>ENVIRO PROGRAM</h3><p>Probíhá každý den. V devadesátiminutových zábavně-výukových blocích jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany. Vše je protnuto s příběhem dětské knihy Ostrov Socci a základní misí lekcí je vždy simulovaná záchrana světa před zlovůlemi krutého panovníka Pepina.</p></div>
     </div>
 
     <DetailFaq.studio />

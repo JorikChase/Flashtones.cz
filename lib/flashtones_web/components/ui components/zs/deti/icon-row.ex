@@ -63,19 +63,19 @@ defmodule IconRow do
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/icon/boy.svg">
-            <p>Naučíme plavat 768 dětí ročně</p>
+            <p>Našimi kurzy projde  dětí ročně</p>
           </div>
           <div class="icon-row-item">
             <img src="/images/icon/stars.svg">
-            <p>Průměrné hodnocení je 4,7 z 5</p>
+            <p>Průměrné hodnocení 5.0</p>
           </div>
           <div class="icon-row-item">
             <img src="/images/icon/pin2.svg">
-            <p>36 lokalit</p>
+            <p>37 lokalit</p>
           </div>
           <div class="icon-row-item">
             <img src="/images/icon/lektor.svg">
-            <p>67 školených instruktorů</p>
+            <p>Více než 180 zkušených instruktorů a lektorů</p>
           </div>
         </div>
       </div>

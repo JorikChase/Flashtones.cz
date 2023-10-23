@@ -219,24 +219,9 @@ defmodule About do
             <!-- Name -->
             <p class="font-bold">MILAN BROŽ</p>
             <!-- Short Description -->
-            <p>Hlavní instruktor a obchodní manažer ZŠ PRO DĚTI- Čechy</p>
+            <p>Hlavní instruktor a brand manažer ZŠ PRO DĚTI- Čechy</p>
             <!-- Longer Description (Hidden by default) -->
             <p class="hidden mt-2">Absolvent kurzu Kondiční trenér pro potřeby sportovců a sportovních klubů na Fakultě tělesné výchovy a sportu Univerzity Karlovy (2020). Certifikovaný trenér fitness – FIT Praha (2019). Student Tělesné výchovy a sportu na PF v Českých Budějovicích. Spoluzakladatel Taneční akademie Sušice. Trenér hráček Streetball Sušice U17 (2019-2020). Instruktor plavání – Sportoviště města Sušice (2018-2021), ZŠ PRO DĚTI (od 2021). Organizátor sportovních a sportovně-kulturních akcí</p>
-          </div>
-          <div
-            class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
-            onmouseover="showTooltip(event, 'Vystudovala Univerzitu Karlovu, obor Humanitní vzdělanost, kde se zamilovala do ryzí filosofie a vlídné duše profesora Jana Sokola.. V nejsledovanější soukromé televizi provětrala stojaté vody mediálního PR.. Studuje na Vysoké škole ekonomické v Praze, obor Arts Management, kde by měla jako nejstarší chovanka odpromovat na začátku roku 2023.. Lektorka ZŠ Plavání a ZŠ Enviro, marketingová manažerka ZŠ PRO DĚTI.')"
-            onmouseout="hideTooltip()"
-          >
-            <!-- Profile picture -->
-            <img src="/images/about/zs/Veronika-Kubinkova-500x438.jpg">
-            <!-- Name -->
-            <p class="font-bold">Veronika Kubínková</p>
-            <!-- Short Description -->
-            <p>Marketing manager, instruktor</p>
-            <!-- Longer Description (Hidden by default) -->
-            <p class="hidden mt-2">Vystudovala Univerzitu Karlovu, obor Humanitní vzdělanost, kde se zamilovala do ryzí filosofie a vlídné duše profesora Jana Sokola.. V nejsledovanější soukromé televizi provětrala stojaté vody mediálního PR.. Studuje na Vysoké škole ekonomické v Praze, obor Arts Management, kde by měla jako nejstarší chovanka odpromovat na začátku roku 2023.. Lektorka ZŠ Plavání a ZŠ Enviro, marketingová manažerka ZŠ PRO DĚTI.
-              </p>
           </div>
           <div
             class="col-span-1 portrait:col-span-2 profile-item p-4 rounded shadow-lg"
@@ -263,7 +248,7 @@ defmodule About do
             <!-- Name -->
             <p class="font-bold">ADRIAN ŠÍREK</p>
             <!-- Short Description -->
-            <p>Hlavní instruktor</p>
+            <p>Hlavní instruktor a brand manager</p>
             <!-- Longer Description (Hidden by default) -->
             <p class="hidden mt-2">Absolvent bakalářského studia Fakulty tělesné výchovy a sportu. Univerzity Karlovy. Instruktor ZŠ Plavání a ZŠ Lyžování. Trenérská praxe v KC Kooperativa SG Jablonec nad Nisou.. Český reprezentant v silniční cyklistice, cyklokrosu a MTB – KC Kooperativa SG Jablonec nad Nisou. Několikanásobný vícemistr ČR v běžeckém lyžování – TJ Tanvlad, Ski klub Jablonec
               </p>

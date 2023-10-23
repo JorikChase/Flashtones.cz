@@ -90,7 +90,7 @@ defmodule Kontakt do
       <br>
       <div class="">
         <div class="">
-          <h3>Flashtones s.r.o.</h3>
+          <h3>Flashtones, s.r.o.</h3>
           <p>Vrázova 1059/8, 150 00, Praha 5
             <br>
             IČO: 04275764
@@ -100,6 +100,7 @@ defmodule Kontakt do
         <div class="">
           <h3>Zš pro děti, z.s.</h3>
           <p>Vrázova 1059/8, 150 00, Praha 5
+            <br>
             <br>
             IČO: 09485015</p>
         </div>

@@ -72,8 +72,7 @@ defmodule Zustanme do
         Váš e-mail
         </span>
         <form>
-          <label for="email">@</label>
-          <input type="text" id="email" name="fname"><br>
+          <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
           <br>
@@ -81,9 +80,9 @@ defmodule Zustanme do
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com"><img src="/images/icon/insta.svg"></a>
-          <a href="###"><img src="/images/icon/yt.svg"></a>
-          <a href="https://www.facebook.com/flashtones/"><img src="/images/icon/fb.svg"></a>
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.svg"></a>
+          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
       </div>
     </div>
     """

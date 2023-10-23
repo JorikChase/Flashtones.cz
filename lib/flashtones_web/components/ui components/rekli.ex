@@ -52,10 +52,6 @@ defmodule Rekli do
             4. 1. 2023
             </small>
           </div>
-          <br>
-            <a href="/ratings" class="ratings-link button">
-            VŠECHNA HODNOCENÍ
-            </a>
         </div>
       </div>
     </div>
