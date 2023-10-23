@@ -4,79 +4,7 @@ defmodule DetailCta do
   def lyzovani(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -87,7 +15,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -97,79 +25,7 @@ defmodule DetailCta do
   def lyzovaniSchool(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
@@ -177,7 +33,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -187,79 +43,7 @@ defmodule DetailCta do
   def plavani(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -270,7 +54,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -280,79 +64,7 @@ defmodule DetailCta do
   def plavaniSkola(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
@@ -360,7 +72,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -370,79 +82,7 @@ defmodule DetailCta do
   def plavaniSaturday(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -453,7 +93,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -463,79 +103,7 @@ defmodule DetailCta do
   def plavaniSaturdayCity(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -546,7 +114,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -556,79 +124,7 @@ defmodule DetailCta do
   def plavaniCity(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -639,7 +135,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -649,87 +145,15 @@ defmodule DetailCta do
   def vyletySkola(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
-      <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
+      <a href="mailto:info@zsprodeti.cz"><img src="/images/icon/email.svg">info@zsprodeti.cz</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -739,79 +163,7 @@ defmodule DetailCta do
   def vyletyVerejnost(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
@@ -822,7 +174,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -832,79 +184,7 @@ defmodule DetailCta do
   def enviro(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        position: fixed;
-        right: 60px;
-        top: 180px;
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding: 30px;
-        transition: all 0.5s ease-in;
-        backdrop-filter: blur(5px);
-      }
-      .detail-cta span{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta a{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #486EFF;
-        font-weight: bold;
-      }
-      .detail-cta .cta-button{
-        white-space: no-wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: #486EFF;
-        font-weight: bold;
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-radius: 40px;
-        color: white;
 
-      }
-      .detail-cta .cta-button:hover{
-        background: #6d96ff;
-      }
-      .detail-cta bold{
-        color: var(--zs-plavani-main, #002FE0);
-        text-align: right;
-        font-family: Barlow;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 45px; /* 180% */
-      }
-      @media (orientation: portrait){
-        .detail-cta{
-        position: fixed;
-        right: 30px;
-        top: calc(100vh - 90px);
-        border-top: 5px solid #486EFF ;
-        background: rgba(255, 255, 255, 0.9);
-        filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 60px);
-        padding: 30px;
-        transition: all 0.5s ease-in;
-      }
-        .detail-cta:hover{
-          transform: translateY(-90%);
-      }
-      }
     </style>
     <div class="detail-cta" id="detail-cta">
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
@@ -912,7 +192,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
