@@ -434,7 +434,6 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/vylety/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>

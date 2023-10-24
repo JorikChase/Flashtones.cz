@@ -17,7 +17,7 @@ defmodule DetiGrid do
         font-size: 30px;
         text-align: center;
         filter: blur(0px);
-        width: 360px;
+        width: 100%;
         height: 180px;
         flex-shrink: 0;
         position: relative;
@@ -40,7 +40,36 @@ defmodule DetiGrid do
         font-weight: 800;
         line-height: 45px; /* 180% */
         text-transform: uppercase;
-
+      }
+      .menu-plavani{
+        background-image: url("/images/ft/menu-plavani.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu-lyzovani{
+        background-image: url("/images/ft/menu-lyzovani.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu-enviro{
+        background-image: url("/images/ft/menu-enviro.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu-vylety{
+        background-image: url("/images/ft/menu-vylety.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu-doma{
+        background-image: url("/images/ft/menu-doma.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu-academy{
+        background-image: url("/images/ft/menu-academy.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
       }
       @media (orientation: portrait){
         .deti-grid{
@@ -56,32 +85,32 @@ defmodule DetiGrid do
       }
     </style>
     <div class="deti-grid">
-      <a href="/zs/plavani" style="background-color: rgba(0, 47, 224, 1)">
+      <a href="/zs/plavani" class="menu-plavani" >
         <span>
          <h3>Plavání</h3>
         </span>
       </a>
-      <a href="/zs/lyzovani" style="background-color: rgba(0, 165, 255, 1)">
+      <a href="/zs/lyzovani" class="menu-lyzovani" >
         <span>
          <h3>Lyžování</h3>
         </span>
       </a>
-      <a href="/zs/enviro" style="background-color: rgba(92, 174, 19, 1)">
+      <a href="/zs/enviro" class="menu-enviro" >
         <span>
          <h3>Enviro</h3>
         </span>
       </a>
-      <a href="/zs/vylety" style="background-color: rgba(242, 171, 39, 1)">
+      <a href="/zs/vylety" class="menu-vylety" >
         <span>
          <h3>Výlety</h3>
         </span>
       </a>
-      <a href="/zs/doma" style="background-color: rgba(238, 75, 0, 1)">
+      <a href="/zs/doma" class="menu-doma" >
         <span>
          <h3>Domácí výuka</h3>
         </span>
       </a>
-      <a href="/zs/academy" style="background-color: rgba(242, 29, 29, 1)">
+      <a href="/zs/academy" class="menu-academy" >
         <span>
          <h3>Academy</h3>
         </span>

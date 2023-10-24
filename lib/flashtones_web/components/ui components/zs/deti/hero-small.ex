@@ -17,12 +17,12 @@ defmodule HeroSmall do
   def detiAbout(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> O nás </h2>
+      <h2> O projektu </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/deti/deti-bg.jpeg);
      }
     </style>
     """

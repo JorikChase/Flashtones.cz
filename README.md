@@ -433,8 +433,10 @@ lokality Env
 -- 2
 hlavicka prekliky
 zbyva vyletyenviro vzit z webu
-lokality switch - letni tabor lokace dole zsplavani
+lokality switch - letni tabor lokace dole zsplavani + nahodit podstranky tohodle az budou texty
 menu dlazdice
+menu klikatelne loga
+sectiontoggle highlight
 //flashtones o nas o
 //zsdeti o nas o projektu
 -- 5

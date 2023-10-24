@@ -12,7 +12,7 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
 
         padding: 30px;
@@ -20,13 +20,13 @@ defmodule Kdo do
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-content: flex-start;
       }
       .kdoText > div{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
         padding:30px;
         gap: 30px;
@@ -102,7 +102,7 @@ defmodule Kdo do
         display:flex;
         flex-direction:row;
         justify-content: flex-start;
-        align-content: center;
+        align-content: flex-start;
 
         padding: 30px;
         gap: 30px;
@@ -110,13 +110,13 @@ defmodule Kdo do
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-content: flex-start;
       }
       .kdoText > div{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
         padding:30px;
         gap: 30px;
