@@ -66,10 +66,10 @@
 /*defs*/
 h1{
   font-family: Barlow;
-  font-size: 2.8125rem;
+  font-size: 120px;
   font-style: normal;
   font-weight: 700;
-  line-height: 3.75rem; /* 133.333% */
+  line-height: 150px; /* 133.333% */
   letter-spacing: 0.14063rem;
 }
 h2{
@@ -144,12 +144,16 @@ li{
     width: auto;
     max-width: 60%;
     left: 60px;
-    padding: 30px;
+    padding: 60px;
   }
 }
 /*mobile*/
 
 @media (orientation: portrait) {
+  h1{
+    font-size: 60px;
+    line-height: 90px;
+  }
   h2{
     font-family: Barlow;
     font-size: 2.1875rem;
@@ -174,6 +178,7 @@ li{
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    padding: 30px;
   }
 }
 
