@@ -116,10 +116,9 @@ defmodule MenuPc do
         <img src="/images/academy/academy-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
-          <a href="/zs/lokality"> Lokality </a>
+          <a href="/zs/academy/about">O nás</a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -169,9 +168,10 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/about">O nás</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -221,10 +221,8 @@ defmodule MenuPc do
         <img src="/images/doma/doma-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
+          <a href="/zs/doma/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
-          <a href="/zs/lokality"> Lokality </a>
-          <a href="/zs/reference">Reference</a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -274,10 +272,10 @@ defmodule MenuPc do
         <img src="/images/enviro/enviro-logo.svg">
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/enviro/about">O nás</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -328,9 +326,10 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/lyzovani/about">O nás</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -381,9 +380,10 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/plavani/about">O nás</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -434,9 +434,10 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/kontakty"> Kontakty </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
+          <a href="/zs/vylety/about">O nás</a>
+          <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">

@@ -381,6 +381,54 @@ defmodule General do
     <Activities.enviro />
     """
   end
+  def plavani(assigns) do
+    ~H"""
+    <style>
+      .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+        background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
+        background-size: 400% 400%;
+
+        -webkit-animation: EnviroGradient 6s ease infinite;
+        -moz-animation: EnviroGradient 6s ease infinite;
+        animation: EnviroGradient 6s ease infinite;
+      }
+      @-webkit-keyframes EnviroGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
+      }
+      @-moz-keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+      @keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+    </style>
+    <div class="general">
+      <div class="projekt"><h3>O PROJEKTU</h3><p>Pořádáme školní a mimoškolní plavecké kurzy s doprovodným sportovním a zábavním programem určeným dětem mladšího školního věku.
+      <br>
+      Díky mnohaletým zkušenostem z České republiky i zahraničí se nám podařílo vytvořít unikátní koncept výuky plavání pro tuto věkovou kategorii.
+      <br>
+      Projekt ZŠ Plavání je součástí intenzivního vzdělávacího konceptu ZŠ PRO DĚTI.</p></div>
+      <div class="prubeh"><h3>JAK TO PROBÍHÁ</h3><p>S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.</p></div>
+      <div class="program"><h3>Výuka plavání</h3><p>probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (max. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:</p>
+      <ul>
+        <li>úvodní seznámení s náplní lekce a následná rozcvička</li>
+        <li>hlavní výuková část</li>
+        <li>vodní hry</li>
+      </ul>
+      </div>
+    </div>
+    """
+  end
   def vylety(assigns) do
     ~H"""
     <style>
@@ -487,45 +535,7 @@ defmodule General do
           50%{background-position:100% 78%}
           100%{background-position:0% 23%}
       }
-      .kazeta{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-      }
-      .kazeta > div{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-      }
-      @media (orientation:portrait){
-        .kazeta{
-            flex-direction: column;
-        }
-        .kazeta > div{
-            width: 100%;
-        }
-      .kazeta-sudan{
-        width: 100%;
-        height: 50vh;
-      }
-      .kazeta-prace{
-        width: 100%;
-        height: 50vh;
-      }
-      }
-      .kazeta-sudan{
-        background-image: url(/images/academy/academy-sudan.jpeg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-      }
-      .kazeta-prace{
-        background-image: url(/images/academy/academy-sudan.jpeg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-      }
+
 
     </style>
     <div class="general">
@@ -557,44 +567,7 @@ defmodule General do
         <div class=""><h4>Erasmus plus</h4></div>
         <div class=""></div>
       </div>-->
-    <div class="course-container">
-      <h3>Zahraniční projekty</h3>
-      <div class="kazeta">
-        <div class=""><h4>Kurz ZŠ Plavání v Súdánu</h4><p>V Súdánu, stejně jako v jiných rozvojových zemích každý rok dochází k velkému množství zbytečných dětských utonutí. Chceme novým instruktorům v Súdánu předat naše „know how“, vytvořit zde podmínky pro další výuku a v důsledku toto číslo významně snížit.</p></div>
-        <div class="kazeta-sudan"></div>
-      </div>
-      <h3>Práce u nás</h3>
-      <div class="kazeta">
-        <div class=""><p>Chcete pracovat s námi? Máte kladný vztah ke sportu a vzdělávání? Máte
-            požadované vzdělání v daném oboru nebo si ho plánujete dodělat? Máte přátelský
-            vztah k dětem? Naše nové kolegy průběžně nabíráme, neváhejte nás proto
-            kontaktovat!
-            <br>
-            Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží
-            vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT
-            schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
-            Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online
-            vzdělávání.
-            <br>
-            Naším mottem je bavit, vzdělávat a rozvíjet. Chceme dětem ukázat nejkratší cestu,
-            ale také je nechat samostatně hledat cesty nové. Učíme děti nenásilně nacházet
-            jejich hranice a umožňujeme jim další růst.
-            <br>
-            Podporujeme rozvoj jednotlivců i týmu. Povzbuzujeme přirozenou sebedůvěru, chuť
-            spolupracovat, vzájemný respekt, toleranci i smysl pro humor. Pomáháme dětem
-            budovat pozitivní vztahy na všech úrovních – k sobě samým, ke druhým lidem, ke
-            zvířatům, k živé a neživé přírodě i k lidským výtvorům.
-            <br>
-            Užívané hry na kurzech, názvy družstev, postavy v on-line hrách a cvičeních a
-            celkový vizuální obsah projektu ZŠ PRO DĚTI je protnut s příběhem a postavami v
-            naší publikaci Ostrov Socci.
-            <br>
-            Veškeré pobytové akce jsou v souladu se zákonem cestovní kanceláří Flashtones,
-            s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.</p>
-            </div>
-        <div class="kazeta-prace"></div>
-      </div>
-      </div>
+
     """
   end
 
