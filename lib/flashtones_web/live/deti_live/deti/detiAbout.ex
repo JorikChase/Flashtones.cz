@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.DetiAboutLive do
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
       <HeroSmall.detiAbout />
-      <About.general />
+      <About.deti />
       <Zustanme.zustanme />
       <Footer.footer />
     """

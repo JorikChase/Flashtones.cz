@@ -435,7 +435,7 @@ hlavicka prekliky
 zbyva vyletyenviro vzit z webu
 lokality switch - letni tabor lokace dole zsplavani + nahodit podstranky tohodle az budou texty
 menu dlazdice
-menu klikatelne loga
+menu klikatelne loga ale i plachta
 sectiontoggle highlight
 //flashtones o nas o
 //zsdeti o nas o projektu
