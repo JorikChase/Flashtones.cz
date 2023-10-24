@@ -66,10 +66,10 @@
 /*defs*/
 h1{
   font-family: Barlow;
-  font-size: 120px;
+  font-size: 6vh;
   font-style: normal;
   font-weight: 700;
-  line-height: 150px; /* 133.333% */
+  line-height: 7vh; /* 133.333% */
   letter-spacing: 0.14063rem;
 }
 h2{

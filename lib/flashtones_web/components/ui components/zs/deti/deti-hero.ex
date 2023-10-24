@@ -4,83 +4,82 @@ defmodule Hero do
   def ftHero(assigns) do
     ~H"""
       <div class="hero">
-  <h1 id="h1ro">
-    Boříme stereotypy
-  </h1>
-  <div class="relative">
-    <div class="carousel">
-      <video loop autoplay playsinline muted src="/images/ft/tobogan.mov" alt="Image 1" class="carousel-item">
-      </video>
-    </div>
-  </div>
-</div>
+        <h1 id="h1ro">
+          S námi je to jízda!
+        </h1>
+        <div class="relative">
+          <div class="carousel">
+            <video loop autoplay playsinline muted src="/images/ft/tobogan.mov" alt="Image 1" class="carousel-item">
+            </video>
+          </div>
+        </div>
+      </div>
 
-<style>
-  @media (orientation: portrait) {
-    .carousel {
-      aspect-ratio: auto;
-      height: 90vh;
-    }
-  }
+      <style>
+        @media (orientation: portrait) {
+          .carousel {
+            aspect-ratio: auto;
+            height: 90vh;
+          }
+        }
 
-  .carousel {
-    width: 100%;
-    aspect-ratio: 16/9;
-    overflow: hidden;
-    position: relative;
-  }
+        .carousel {
+          width: 100%;
+          aspect-ratio: 16/9;
+          overflow: hidden;
+          position: relative;
+        }
 
-  .carousel-item {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    animation: carousel-fade 5s infinite;
-  }
+        .carousel-item {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+          animation: carousel-fade 5s infinite;
+        }
 
-  @keyframes carousel-fade {
-    0%, 100% {
-      opacity: 0;
-    }
-    20%, 80% {
-      opacity: 1;
-    }
-  }
+        @keyframes carousel-fade {
+          0%, 100% {
+            opacity: 0;
+          }
+          20%, 80% {
+            opacity: 1;
+          }
+        }
 
-  .carousel-item:first-child {
-    opacity: 1;
-  }
+        .carousel-item:first-child {
+          opacity: 1;
+        }
 
-  .carousel-control {
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    font-size: 20px;
-    margin: -50px 5px 0 5px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    border-radius: 5px;
-    display: flex;
-    width: 220px;
-    height: 70px;
-    padding: 10px 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-</style>
-<script></script>
-
+        .carousel-control {
+          z-index: 2;
+          background-color: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          font-size: 20px;
+          margin: -50px 5px 0 5px;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-content: center;
+          border-radius: 5px;
+          display: flex;
+          width: 220px;
+          height: 70px;
+          padding: 10px 10px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+        }
+      </style>
+      <script></script>
     """
   end
 
