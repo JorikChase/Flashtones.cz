@@ -342,6 +342,129 @@ defmodule General do
       </div>
     """
   end
+  def flashtones(assigns) do
+    ~H"""
+    <style>
+      .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+        background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
+        background-size: 400% 400%;
+
+        -webkit-animation: EnviroGradient 6s ease infinite;
+        -moz-animation: EnviroGradient 6s ease infinite;
+        animation: EnviroGradient 6s ease infinite;
+      }
+      @-webkit-keyframes EnviroGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
+      }
+      @-moz-keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+      @keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+    </style>
+    <div class="general">
+      <div class="prubeh"><h3>O projektu</h3><p>
+      Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+      <br>
+      Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+      <br>
+      Naším mottem je bavit, vzdělávat a rozvíjet. Chceme dětem ukázat nejkratší cestu, ale také je nechat samostatně hledat cesty nové. Učíme děti nenásilně nacházet jejich hranice a umožňujeme jim další růst.
+      <br>
+      Podporujeme rozvoj jednotlivců i týmu. Povzbuzujeme přirozenou sebedůvěru, chuť spolupracovat, vzájemný respekt, toleranci i smysl pro humor. Pomáháme dětem budovat pozitivní vztahy na všech úrovních – k sobě samým, ke druhým lidem, ke zvířatům, k živé a neživé přírodě i k lidským výtvorům.
+      <br>
+      Užívané hry na kurzech, názvy družstev, postavy v on-line hrách a cvičeních a celkový vizuální obsah projektu ZŠ PRO DĚTI je protnut s příběhem a postavami v naší publikaci Ostrov Socci.
+        </p></div>
+    </div>
+    """
+  end
+  def deti(assigns) do
+    ~H"""
+    <style>
+      .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+        background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
+        background-size: 400% 400%;
+
+        -webkit-animation: EnviroGradient 6s ease infinite;
+        -moz-animation: EnviroGradient 6s ease infinite;
+        animation: EnviroGradient 6s ease infinite;
+      }
+      @-webkit-keyframes EnviroGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
+      }
+      @-moz-keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+      @keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+    </style>
+    <div class="general">
+      <div class="prubeh"><h3>O Flashtones</h3><p>
+        Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!
+        </p></div>
+    </div>
+    """
+  end
+  def enviro(assigns) do
+    ~H"""
+    <style>
+      .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+        background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
+        background-size: 400% 400%;
+
+        -webkit-animation: EnviroGradient 6s ease infinite;
+        -moz-animation: EnviroGradient 6s ease infinite;
+        animation: EnviroGradient 6s ease infinite;
+      }
+      @-webkit-keyframes EnviroGradient {
+      0%{background-position:0% 23%}
+      50%{background-position:100% 78%}
+      100%{background-position:0% 23%}
+      }
+      @-moz-keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+      @keyframes EnviroGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+      }
+    </style>
+    <div class="general">
+      <div class="projekt"><h3>O PROJEKTU</h3><p>Pořádáme školy v přírodě se zaměřením na environmentální výchovu a doprovodný sportovní a zábavní program určený dětem mladšího školního věku.</p><br><p>Projekt ZŠ Enviro je součástí intenzivního vzdělávacího konceptu ZŠ PRO DĚTI.</p></div>
+      <div class="prubeh"><h3>JAK TO PROBÍHÁ</h3><p>Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s několika organizacemi působících v oboru environmentálního vzdělávání se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.</p></div>
+      <div class="program"><h3>ENVIRO PROGRAM</h3><p>Probíhá každý den. V devadesátiminutových zábavně-výukových blocích jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany. Vše je protnuto s příběhem dětské knihy Ostrov Socci a základní misí lekcí je vždy simulovaná záchrana světa před zlovůlemi krutého panovníka Pepina.</p></div>
+    </div>
+    <Activities.enviro />
+    """
+  end
   def enviro(assigns) do
     ~H"""
     <style>

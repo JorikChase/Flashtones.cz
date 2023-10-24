@@ -117,7 +117,7 @@ defmodule KurzNav do
       </div>
     """
   end
-  def vyletyVerejnost(assigns) do
+  def vyletyPoznavaci(assigns) do
     ~H"""
       <style>
       </style>
@@ -134,21 +134,13 @@ defmodule KurzNav do
           <img src="/images/icon/skolka.svg">
           <h4>Pevnostní město Terezín</h4>
         </a>
-      </div>
-    """
-  end
-  def vyletySkola(assigns) do
-    ~H"""
-      <style>
-      </style>
-      <div class="kurz-nav">
-        <a href="/zs/vylety/berlin" class="kurz-item">
-          <img src="/images/icon/skola.svg">
-          <h4>Berlín</h4>
+        <a href="/zs/vylety/osvetim" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Osvětim</h4>
         </a>
-        <a href="/zs/vylety/boleslav" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
-          <h4>Mladá Boleslav - Muzeum Škoda</h4>
+        <a href="/zs/vylety/tabor" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Tábor</h4>
         </a>
         <a href="/zs/vylety/drazdany" class="kurz-item">
           <img src="/images/icon/skolka.svg">
@@ -162,17 +154,25 @@ defmodule KurzNav do
           <img src="/images/icon/primestak.svg">
           <h4>Mnichov</h4>
         </a>
-        <a href="/zs/vylety/osvetim" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Osvětim</h4>
+        <a href="/zs/vylety/boleslav" class="kurz-item">
+          <img src="/images/icon/primestak.svg">
+          <h4>Mladá Boleslav - Muzeum Škoda</h4>
         </a>
         <a href="/zs/vylety/praha" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Praha</h4>
         </a>
-        <a href="/zs/vylety/tabor" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Tábor</h4>
+      </div>
+    """
+  end
+  def vyletyEnviromentalni(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/zs/vylety/berlin" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>Berlín</h4>
         </a>
         <a href="/zs/vylety/terezin" class="kurz-item">
           <img src="/images/icon/skolka.svg">

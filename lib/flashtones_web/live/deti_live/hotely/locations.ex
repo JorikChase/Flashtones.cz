@@ -119,6 +119,7 @@ defmodule FlashtonesWeb.LocationsLive do
               <li class="active">Plavání</li>
               <li>Lyžování</li>
               <li>Enviro</li>
+              <li>Plavání pro veřejnost</li>
           </ul>
       </div>
       </div>
@@ -362,6 +363,190 @@ defmodule FlashtonesWeb.LocationsLive do
           </div>
           <div class="category" data-category="Enviro">
           <h2>Enviro</h2>
+          <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/energetik.jpg">
+                        <h4>
+                        Hotel Energetik
+                        </h4>
+                        <p>
+                        Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/u-kurtu.jpeg">
+                        <h4>
+                        Hotel U kurtu
+                        </h4>
+                        <p>
+                        se nachází v obci Strážné, 5 km od Vrchlabí, v srdci Krkonoš, 200 , od centrálního parkoviště, v horní části 800 metrové sjezdovky Kotva s nočním lyžováním.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/pramen-item.jpeg">
+                        <h4>
+                        HOTEL HORNÍ PRAMEN
+                        </h4>
+                        <p>
+                        se nachází na kouzelném místě u lesa s dechberoucím výhledem na horya údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš. Součástí hotelu je společenská místnost, prostorný dětský koutek, venkovní hřiště a hřiště.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/medved-item.jpeg">
+                        <h4>
+                        Chata u Medvěda
+                        </h4>
+                        <p>
+                        se nachází v obci Kořenov v Jizerských horách. Chata prošla v roce 2021 rekonstrukcí a nabízí ubytování až pro 40 osob. Je vybavena sociálním zařízením u každé z osmi ložnic, společenskou místností, hospůdkou a četnými možnostmi pro trávení volného času. Lyžařské lekce probíhají na 300 m vzdálené sjezdovce, v okolní přírodě nebo v blízkém areálu Rokytnice nad Jizerou.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/plesivka-item.jpeg">
+                        <h4>
+                        Chata Radost
+                        </h4>
+                        <p>
+                        leží uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Lekce probíhají v lyžařském areálu i v okolní divoké přírodě.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/svp/lites">
+                      <img src="/images/hotely/lites.jpeg">
+                      <h4>RS LITES</h4>
+                        <p>
+                        RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/svp/maj">
+                      <img src="/images/hotely/maj.jpeg">
+                      <h4>RS Máj</h4>
+                        <p>
+                        RS Máj je středisko, jenž se rozkládá v malebném, lesy obklopeném prostředí chráněné oblasti u městečka Plasy, které je situováno 25 km severně od Plzně.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/svp/lubenec">
+                      <img src="/images/hotely/lubenec.jpeg">
+                      <h4>RS Lubenec</h4>
+                        <p>
+                        RS Lubenec se nachází mimo civilizaci na kopci nad městečkem Lubenec, které leží na spojnici mezi Prahou (cca. 100 km) a Karlovými Vary (cca. 35 km). Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/brandys.jpeg">
+                        <h4>
+                        Sportcentrum brandýs
+                        </h4>
+                        <p>
+                        Se nachází v klidné části města Brandýs nad Labem v okrese Praha-východ. Mezi velké výhody patří blízká dostupnost od hlavního města a přitom mnoho možností k trávení času v přírodě. Kromě vyhřívaného 25m bazénu je v areálu k dispozici kongresový sál, několik venkovních hřišť, sportovní hala a tělocvična. Od roku 2018 prošel objekt rozsáhlou rekonstrukcí a byl přetvořen z původní turistické ubytovny v současný certifikovaný hotel. Kromě sportovního vyžití nabízí místo také několik zajímavých kulturně-vzdělávacích aktivit.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/duo-item.jpeg">
+                        <h4>
+                        HORNÍ BEČVA Hotel Duo
+                        </h4>
+                        <p>
+                        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/svp/jelenovska">
+                      <img src="/images/hotely/jelenovska.png">
+                        <h4>
+                        Hotel Jelenovská
+                        </h4>
+                        <p>
+                        Je usazen uprostřed překrásné chráněné krajiny Bílých Karpat v lese, kde dominantou je nenarušená příroda, klid a čistý vzduch. Plavecká výuka probíhá ve vnitřním vyhřívaném hotelovém bazénu a sportovní program na venkovním hřišti vystavěném přímo v lese u hotelu.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/plavani/hotel-fontana.png">
+                        <h4>
+                        Hotel fontána
+                        </h4>
+                        <p>
+                        Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/lugsteinhof-item.jpeg">
+                        <h4>
+                        HOTEL LUGSTEINHOF
+                        </h4>
+                        <p>
+                        se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/svp/plesivka">
+                      <img src="/images/hotely/plesivka-item.jpeg">
+                        <h4>
+                        Chata Plešivka
+                        </h4>
+                        <p>
+                        je přes 300 let stará, zrekonstruovaná nádherná krušnohorská chalupa v obci Abertamy v nadmořské výšce okolo 900 metrů. Hornická kulturní krajina Abertamy – Horní Blatná – Boží Dar byla v roce 2019 zapsána na seznam Světového dědictví UNESCO. Chata má celkem 25 lůžek a je tedy vhodná pro jednu třídu. V rámci doplňkového programu tedy lze zažít i mnoho zajímavého mimosportovního vyžití. Chata nabízí romantický výhled na blízký moderní rodinný ski- areál Plešivec, kde probíhá výuka sjezdového lyžování. Doslova za domem je přístup k běžeckým stopám.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/mozolov.jpg">
+                        <h4>
+                        Parkhotel Mozolov
+                        </h4>
+                        <p>
+                        Je relaxační areál, který se nachází v srdci krásné přírody jižních Čech, pouhých 90 kilometrů od Prahy. Výuka plavání probíhá v kompaktním a přívětivém bazénu o délce 10 m. Ostatní program se odehrává na tamních sportovištích, v lesích a samozřejmě i v nově zrekonstruované ubytovací hlavní budově.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/zviretice.jpeg">
+                        <h4>
+                        FAMOZCLUB Zvířetice
+                        </h4>
+                        <p>
+                        Je příjemné klubové zařízení, které se nachází v poklidné obci Bakov nad Jizerou. Děti a učitelé se zde mohou těšit na ubytování v šestnácti barevných a originálních apartmánech. Výuka plavání probíhá v 10m dlouhém bazénu uvnitř budovy, doplňkový program uvnitř krásného areálu i jeho zeleném okolí.
+                        </p>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="###">
+                      <img src="/images/hotely/mulda-item.jpeg">
+                        <h4>
+                        Horská bouda Na Muldě
+                        </h4>
+                        <p>
+                        se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Jde o objekt patřící FTVS UK splňující ta nejpřísnější kritéria pro výuku sjezdového lyžování. Je dobrým výchozím bodem pro pěší turistiku, včetně méně náročných výletů do blízkého okolí.
+                        </p>
+                    </a>
+              </div>
+          </div>
+          <div class="category" data-category="Plavání pro veřejnost">
+          <h2>Plavání pro veřejnost</h2>
           <div class="product">
                     <a href="###">
                       <img src="/images/hotely/energetik.jpg">

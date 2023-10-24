@@ -229,15 +229,15 @@ defmodule SectionToggle do
   def vylety(assigns) do
     ~H"""
     <div class="section-toggle">
-        <a href="#sectionA">Výlety pro veřejnost</a>
-        <a href="#sectionB">Školy v přírodě</a>
+        <a href="#sectionA">Poznávací výlety</a>
+        <a href="#sectionB">Environmentální výlety</a>
     </div>
 
     <section id="sectionA">
-      <KurzNav.vyletyVerejnost />
+      <KurzNav.vyletyPoznavaci />
     </section>
     <section id="sectionB" class="hidden">
-      <KurzNav.vyletySkola />
+      <KurzNav.vyletyEnviromentalni />
     </section>
 
     <script>

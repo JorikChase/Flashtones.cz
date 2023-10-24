@@ -60,10 +60,7 @@ defmodule Kdo do
         <h3>KDO JSME</h3>
         <div>
           <a class="button" href="/about">
-            O nás
-          </a>
-          <a class="button" href="/about#history">
-            Historie flashtones
+            O projektu
           </a>
           <a class="button" href="/about#persons">
             Naši lidé
@@ -104,10 +101,11 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
 
         padding: 30px;
+        gap: 30px;
       }
       .kdoText{
         display:flex;
@@ -152,10 +150,7 @@ defmodule Kdo do
         <h3>KDO JSME</h3>
         <div>
           <a class="button" href="/zs/about">
-            O nás
-          </a>
-          <a class="button" href="/zs/about#history">
-            Historie flashtones
+            O projektu
           </a>
           <a class="button" href="/zs/about#persons">
             Naši lidé

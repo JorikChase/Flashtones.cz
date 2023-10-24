@@ -355,6 +355,36 @@ ikonky
 
 obrazky - milan, 
 
+milan posle obrazky
+
+odkaz flashtones
+
+plachta jde zavrit kliknutim
+
+uvodni obrazek se meni
+
+menu posunute od osy deti
+
+dlazdice menu nejsou videt komp safari
+
+lokality sectiontoggle
+
+nad lokality pro skoly pro verejnost sectiontoggle
+
+hover menu rozbaleni na celym menu baru
+
+zs plavani texty general ze staryho webu
+
+o nas pro kazdej podweb general
+
+
+
+uvod a zsprodeti pc menu link
+
+
+vylety pro skoly = viden rakousko berlin terezin
+
+skoly v prirode
 duo-container, dvojita kazeta
 obecne info o academy
 nahravani
@@ -389,53 +419,22 @@ enviro
 -- 2
 lokality Env
 -- 2
-lyzovani
+//lyzovani
 -- 3
-doma
+//doma
 -- 1
-prace na fotogalerii
+//prace na fotogalerii
 -- 2
-contact formular
+//contact formular
 -- 2
-nahravani a organizace medii
+//nahravani a organizace medii
 -- 1
-kurzy plus o nas pro kazdou stranku
+//kurzy plus o nas pro kazdou stranku
 -- 2
-
-
-milan posle obrazky
-
-a prosim jestli by mi kdokoli neposlal opravy, ktery by potreboval fakticky
-
-odkaz flashtones
-
-plachta jde zavrit kliknutim
-
-uvodni obrazek se meni
-
-udelat vsechna hodnoceni rekli o nas odsazeni
-
-menu posunute od osy deti
-
-dlazdice menu nejsou videt komp safari
-
-zvirazneni a zvetsit sectionToggle 
-
-lokality sectiontoggle
-
-nad lokality pro skoly pro verejnost sectiontoggle
-
-hover menu rozbaleni na celym menu baru
-
-zs plavani texty general ze staryho webu
-
-o nas pro kazdej podweb general
-
-
-
-uvod a zsprodeti pc menu link
-
-
-vylety pro skoly = viden rakousko berlin terezin
-
-skoly v prirode
+hlavicka prekliky
+zbyva vyletyenviro vzit z webu
+lokality switch - letni tabor lokace dole zsplavani
+menu dlazdice
+//flashtones o nas o
+//zsdeti o nas o projektu
+-- 5
