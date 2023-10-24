@@ -28,15 +28,6 @@ defmodule DetailLokace do
     </style>
     <div class="detail-lokace">
     <a href="/zs/lokality" class="button"> Lokality </a>
-      <DetailLokaceItem.detailLokaceItemJelenovska />
-      <DetailLokaceItem.detailLokaceItemRadost />
-      <DetailLokaceItem.detailLokaceItemFontana />
-      <DetailLokaceItem.detailLokaceItemMedved />
-      <DetailLokaceItem.detailLokaceItemMulda />
-      <DetailLokaceItem.detailLokaceItemPramen />
-      <DetailLokaceItem.detailLokaceItemEnergetik />
-      <DetailLokaceItem.detailLokaceItemDuo />
-      <DetailLokaceItem.detailLokaceItemLugsteinhof />
     </div>
     """
   end

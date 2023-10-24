@@ -687,6 +687,94 @@ li{
   }
 
 }
+/*about*/
+
+/* Custom styles for the navigation bar */
+.nav-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.nav-item.active {
+  background-color: #DCE6E6;
+}
+
+/* Custom styles for the profile grid */
+.profile-item {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background-color: #F3F4F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.profile-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Custom styles for the tooltip */
+.tooltip {
+  position: fixed;
+  max-width: 300px;
+  padding: 8px;
+  background-color: #b5dfdf;
+  color: black;
+  border-radius: 4px;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.profile-item:hover .tooltip {
+  opacity: 1;
+}
+
+/*kazeta*/
+
+.kazeta{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.kazeta > div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media (orientation:portrait){
+  .kazeta{
+      flex-direction: column;
+  }
+  .kazeta > div{
+      width: 100%;
+  }
+.kazeta-sudan{
+  width: 100%;
+  height: 50vh;
+}
+.kazeta-prace{
+  width: 100%;
+  height: 50vh;
+}
+}
+.kazeta-sudan{
+  background-image: url(/images/academy/academy-sudan.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.kazeta-prace{
+  background-image: url(/images/academy/academy-sudan.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /*global*/
 

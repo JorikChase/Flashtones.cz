@@ -399,6 +399,8 @@ contact formular
 -- 2
 nahravani a organizace medii
 -- 1
+kurzy plus o nas pro kazdou stranku
+-- 2
 
 
 milan posle obrazky
@@ -411,14 +413,29 @@ plachta jde zavrit kliknutim
 
 uvodni obrazek se meni
 
-lugsteinhof v lokality duo
-
-o nas padding 30px
-
 udelat vsechna hodnoceni rekli o nas odsazeni
-
-tlacitko posunout general studio
 
 menu posunute od osy deti
 
 dlazdice menu nejsou videt komp safari
+
+zvirazneni a zvetsit sectionToggle 
+
+lokality sectiontoggle
+
+nad lokality pro skoly pro verejnost sectiontoggle
+
+hover menu rozbaleni na celym menu baru
+
+zs plavani texty general ze staryho webu
+
+o nas pro kazdej podweb general
+
+
+
+uvod a zsprodeti pc menu link
+
+
+vylety pro skoly = viden rakousko berlin terezin
+
+skoly v prirode

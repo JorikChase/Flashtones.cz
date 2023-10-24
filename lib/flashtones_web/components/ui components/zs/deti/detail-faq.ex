@@ -84,6 +84,8 @@ defmodule DetailFaq do
     <div class="container px-4 py-8">
 
       <div class="w-full md:w-full">
+      <SectionToggle.studio />
+      <h3 id="deti">Jaké jsou programy pro děti?</h3>
         <div class="question-box p-4 bg-white rounded shadow mb-2">
           <h3 class="font-semibold">Až vyrostu</h3>
           <p class="answer mt-2">Kdo z nás si nepředstavoval, jaké to bude, až vyrosteme? Ale co kdybychom mohli dát dětem náhled do budoucnosti již dnes? V kurzu „Až vyrostu“ nahlédnou vaše ratolesti pod pokličku svých snů a přání. Pod vedením našeho zkušeného týmu psychologů budou děti moci zkoumat své tajné touhy být astronautem, umělcem nebo třeba šéfkuchařem. Na konci kurzu se však naučí to nejdůležitější – že mohou být cokoli, co si přejí!</p>
@@ -120,7 +122,7 @@ defmodule DetailFaq do
           <h3 class="font-semibold">Dramaťák</h3>
           <p class="answer mt-2">Světla zhasínají, opona stoupá a vaše děti vstupují na scénu. V našem dramatickém kroužku se děti mohou stát kýmkoli – od statečných rytířů po veselé šašky. Pod vedením našich zkušených lektorů se děti učí sebevyjádření, komunikaci a týmové práci, zatímco zkoumají svět herectví. Tento kroužek nabízí dětem možnost objevit své skryté talenty, zlepšit sebevědomí a vyzkoušet si, jaké to je stát se hvězdou. Je úžasné sledovat, jak děti vystupují ze svých skořápek a rozkvétají na scéně!</p>
         </div>
-        <h3>Jaké jsou programy pro dospělé</h3>
+        <h3 id="dospeli">Jaké jsou programy pro dospělé?</h3>
 
 
         <p>Programy pro dospělé jsou určeny všem lidským bytostem, které nejsou v podnapilém stavu, nebo vlivem jiných omamných látek. Jaké programy nabízíme?</p>

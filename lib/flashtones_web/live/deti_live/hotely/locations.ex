@@ -126,7 +126,7 @@ defmodule FlashtonesWeb.LocationsLive do
           <div class="category" data-category="Plavání">
           <h2>Plavání</h2>
               <div class="product">
-                    <a href="https://energetikpec.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/energetik.jpg">
                         <h4>
                         Hotel Energetik
@@ -137,7 +137,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.tetreviboudy.com/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/tetrevi-boudy.jpeg">
                         <h4>
                         HORSKÝ HOTEL TETŘEVÍ BOUDY
@@ -148,7 +148,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://sportvlasim.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/vlasim.jpeg">
                         <h4>
                         SPORTHOTEL VLAŠIM
@@ -159,7 +159,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.hotel-bystre.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/bystre.jpeg">
                         <h4>
                         Hotel Bystré
@@ -170,7 +170,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.sportcentrumbrandys.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/brandys.jpeg">
                         <h4>
                         Sportcentrum brandýs
@@ -181,7 +181,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.hotel-duo.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/duo-item.jpeg">
                         <h4>
                         HORNÍ BEČVA Hotel Duo
@@ -203,7 +203,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://hotel-fontana.cz/en/" target="_blank">
+                    <a href="###">
                       <img src="/images/plavani/hotel-fontana.png">
                         <h4>
                         Hotel fontána
@@ -214,7 +214,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.rousarka-susice.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/rousarka.jpeg">
                         <h4>
                         Hotel Roušarka
@@ -225,13 +225,13 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <h4>
                         HOTEL LUGSTEINHOF
                         </h4>
                         <p>
-                        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
+                        se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
                         </p>
                     </a>
               </div>
@@ -239,7 +239,7 @@ defmodule FlashtonesWeb.LocationsLive do
           <div class="category" data-category="Lyžování">
           <h2>Lyžování</h2>
               <div class="product">
-                    <a href="https://energetikpec.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/energetik.jpg">
                         <h4>
                         Hotel Energetik
@@ -250,7 +250,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.ukurtu.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/u-kurtu.jpeg">
                         <h4>
                         Hotel U kurtu
@@ -261,7 +261,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://chata-u-medveda.hotel.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/medved-item.jpeg">
                         <h4>
                         Chata u Medvěda
@@ -272,7 +272,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.chataradost.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/plesivka-item.jpeg">
                         <h4>
                         Chata Radost
@@ -283,7 +283,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.hotel-duo.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/duo-item.jpeg">
                         <h4>
                         HORNÍ BEČVA Hotel Duo
@@ -294,7 +294,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://hotel-fontana.cz/en/" target="_blank">
+                    <a href="###">
                       <img src="/images/plavani/hotel-fontana.png">
                         <h4>
                         Hotel fontána
@@ -305,13 +305,13 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <h4>
                         HOTEL LUGSTEINHOF
                         </h4>
                         <p>
-                        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
+                        se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
                         </p>
                     </a>
               </div>
@@ -327,7 +327,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/mozolov.jpg">
                         <h4>
                         Parkhotel Mozolov
@@ -338,7 +338,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/zviretice.jpeg">
                         <h4>
                         FAMOZCLUB Zvířetice
@@ -349,7 +349,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/mulda-item.jpeg">
                         <h4>
                         Horská bouda Na Muldě
@@ -363,7 +363,7 @@ defmodule FlashtonesWeb.LocationsLive do
           <div class="category" data-category="Enviro">
           <h2>Enviro</h2>
           <div class="product">
-                    <a href="https://energetikpec.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/energetik.jpg">
                         <h4>
                         Hotel Energetik
@@ -374,7 +374,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.ukurtu.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/u-kurtu.jpeg">
                         <h4>
                         Hotel U kurtu
@@ -385,7 +385,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://en.hornipramen.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/pramen-item.jpeg">
                         <h4>
                         HOTEL HORNÍ PRAMEN
@@ -396,7 +396,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://chata-u-medveda.hotel.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/medved-item.jpeg">
                         <h4>
                         Chata u Medvěda
@@ -407,7 +407,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.chataradost.cz/" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/plesivka-item.jpeg">
                         <h4>
                         Chata Radost
@@ -445,7 +445,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.sportcentrumbrandys.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/brandys.jpeg">
                         <h4>
                         Sportcentrum brandýs
@@ -456,7 +456,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://www.hotel-duo.cz" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/duo-item.jpeg">
                         <h4>
                         HORNÍ BEČVA Hotel Duo
@@ -478,7 +478,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="https://hotel-fontana.cz/en/" target="_blank">
+                    <a href="###">
                       <img src="/images/plavani/hotel-fontana.png">
                         <h4>
                         Hotel fontána
@@ -489,13 +489,13 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <h4>
                         HOTEL LUGSTEINHOF
                         </h4>
                         <p>
-                        Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
+                        se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu. Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
                         </p>
                     </a>
               </div>
@@ -511,7 +511,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/mozolov.jpg">
                         <h4>
                         Parkhotel Mozolov
@@ -522,7 +522,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/zviretice.jpeg">
                         <h4>
                         FAMOZCLUB Zvířetice
@@ -533,7 +533,7 @@ defmodule FlashtonesWeb.LocationsLive do
                     </a>
               </div>
               <div class="product">
-                    <a href="" target="_blank">
+                    <a href="###">
                       <img src="/images/hotely/mulda-item.jpeg">
                         <h4>
                         Horská bouda Na Muldě

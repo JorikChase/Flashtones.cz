@@ -107,6 +107,15 @@ defmodule SectionToggle do
     </script>
     """
   end
+  def studio(assigns) do
+    ~H"""
+    <title>Modular Toggle Button</title>
+    <div class="section-toggle">
+        <a href="#deti">Děti</a>
+        <a href="#dospeli">Dospělí</a>
+    </div>
+    """
+  end
   def kurzNavPlavani(assigns) do
     ~H"""
     <title>Modular Toggle Button</title>
@@ -275,8 +284,8 @@ defmodule SectionToggle do
     ~H"""
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
-        <a href="#sectionA">KURZY PRO VEŘEJNOST</a>
-        <a href="#sectionB">ŠKOLY V PŘÍRODĚ</a>
+        <a href="#sectionA">PRO VEŘEJNOST</a>
+        <a href="#sectionB">PRO ŠKOLY</a>
     </div>
 
     <section id="sectionA" class="hidden">
