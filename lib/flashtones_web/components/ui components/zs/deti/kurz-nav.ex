@@ -213,7 +213,7 @@ defmodule KurzNav do
         </a>
         <a href="/zs/svp/plesivka" class="kurz-item">
           <img src="/images/icon/skolka.svg">
-          <h4>RS Plesivka</h4>
+          <h4>RS Plešivka</h4>
         </a>
         <a href="/zs/svp/jelenovska" class="kurz-item">
           <img src="/images/icon/skolka.svg">

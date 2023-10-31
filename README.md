@@ -353,37 +353,15 @@ vikendove primestaky propagovat
 
 ikonky
 
-obrazky - milan, 
-
-milan posle obrazky
-
-odkaz flashtones
-
-plachta jde zavrit kliknutim
-
-uvodni obrazek se meni
-
-menu posunute od osy deti
-
-dlazdice menu nejsou videt komp safari
-
-lokality sectiontoggle
-
-nad lokality pro skoly pro verejnost sectiontoggle
-
-hover menu rozbaleni na celym menu baru
-
-zs plavani texty general ze staryho webu
-
-o nas pro kazdej podweb general
 
 
 
-uvod a zsprodeti pc menu link
+
+
 
 
 vylety pro skoly = viden rakousko berlin terezin
-
+uvod a zsprodeti pc menu link
 skoly v prirode
 duo-container, dvojita kazeta
 obecne info o academy
@@ -440,3 +418,16 @@ sectiontoggle highlight
 //flashtones o nas o
 //zsdeti o nas o projektu
 -- 5
+obrazky - milan, 
+milan posle obrazky
+odkaz flashtones
+plachta jde zavrit kliknutim
+uvodni obrazek se meni
+menu posunute od osy deti
+dlazdice menu nejsou videt komp safari
+lokality sectiontoggle
+nad lokality pro skoly pro verejnost sectiontoggle
+hover menu rozbaleni na celym menu baru
+//zs plavani texty general ze staryho webu
+//o nas pro kazdej podweb general
+-- 6

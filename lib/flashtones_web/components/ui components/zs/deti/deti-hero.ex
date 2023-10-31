@@ -3,83 +3,107 @@ defmodule Hero do
 
   def ftHero(assigns) do
     ~H"""
-      <div class="hero">
-        <h1 id="h1ro">
-          S námi je to jízda!
-        </h1>
-        <div class="relative">
-          <div class="carousel">
-            <video loop autoplay playsinline muted src="/images/ft/tobogan.mov" alt="Image 1" class="carousel-item">
-            </video>
-          </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 id="hero-heading">Heading 1</h1>
+            <button id="hero-button" class="button" >Button 1</button>
         </div>
-      </div>
+        <div class="hero-media">
+        </div>
+    </div>
 
       <style>
-        @media (orientation: portrait) {
-          .carousel {
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-        }
+      .hero {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80vh;
+          background-color: #33333300;
+          color: #fff;
+      }
 
-        .carousel {
-          width: 100%;
-          aspect-ratio: 16/9;
+      .hero-content {
+          flex: 1;
+          padding: 60px;
+          z-index: 1;
+      }
+
+      .hero-media {
+          z-index: 0;
           overflow: hidden;
-          position: relative;
-        }
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 20vh;
+          left: 0;
+      }
 
-        .carousel-item {
+      #hero-image, #hero-video {
           width: 100%;
           height: 100%;
           object-fit: cover;
           position: absolute;
           top: 0;
           left: 0;
-          right: 0;
-          opacity: 0;
-          transition: opacity 0.3s ease-in-out;
-          animation: carousel-fade 5s infinite;
-        }
-
-        @keyframes carousel-fade {
-          0%, 100% {
-            opacity: 0;
-          }
-          20%, 80% {
-            opacity: 1;
-          }
-        }
-
-        .carousel-item:first-child {
-          opacity: 1;
-        }
-
-        .carousel-control {
-          z-index: 2;
-          background-color: rgba(0, 0, 0, 0.6);
-          color: #fff;
-          font-size: 20px;
-          margin: -50px 5px 0 5px;
-          border: none;
-          cursor: pointer;
-          transition: all 0.3s ease-in-out;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-content: center;
-          border-radius: 5px;
-          display: flex;
-          width: 220px;
-          height: 70px;
-          padding: 10px 10px;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
-        }
+          display: none;
+      }
       </style>
-      <script></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const mediaItems = [
+              { type: 'video', src: '/images/ft/tobogan.mov', heading: 'S námi je to jízda!', button: 'O nás' },
+              { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Button 2' },
+              { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Button 3' },
+              { type: 'image', src: '/images/ft/originalni-produkty.jpg', heading: 'Originální produkty vyrobené v ČR', button: 'Button 4' }
+          ];
+          let currentSlide = 0;
+
+            const heroHeading = document.getElementById("hero-heading");
+            const heroButton = document.getElementById("hero-button");
+            const heroMedia = document.querySelector(".hero-media");
+
+            function updateHeroContent(slideIndex) {
+                const mediaItem = mediaItems[slideIndex];
+                heroHeading.textContent = mediaItem.heading;
+                heroButton.textContent = mediaItem.button;
+                
+                // Create a new media element
+                const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                newMedia.src = mediaItem.src;
+                newMedia.autoplay = true;
+                newMedia.loop = true;
+                newMedia.muted = true;
+                newMedia.style.width = '100%';
+                newMedia.style.height = '100%';
+                newMedia.style.objectFit = 'cover';
+                newMedia.style.position = 'absolute';
+                newMedia.style.top = 0;
+                newMedia.style.left = 0;
+
+                // Add the new media element and apply the 'active' class for smooth transition
+                heroMedia.innerHTML = '';
+                heroMedia.appendChild(newMedia);
+                setTimeout(() => {
+                    newMedia.classList.add('active');
+                }, 0);
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % mediaItems.length;
+                heroMedia.firstChild.classList.remove('active');
+                setTimeout(() => {
+                    updateHeroContent(currentSlide);
+                }, 600); // Adjust this timeout to match your transition time
+            }
+
+            // Initially set the content
+            updateHeroContent(currentSlide);
+
+            // Start auto-switching every 5 seconds
+            setInterval(nextSlide, 5000);
+        });
+
+      </script>
     """
   end
 
