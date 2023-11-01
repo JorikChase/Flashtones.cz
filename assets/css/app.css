@@ -98,6 +98,14 @@ h4{
   line-height: 2.1875rem; /* 140% */
   text-transform: uppercase;
 }
+h5{
+  font-family: Barlow;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 140% */
+  text-transform: uppercase;
+}
 /*base*/
 html,
 body {
@@ -107,7 +115,7 @@ body {
   line-height: 35px;
 }
 *{
-  border-radius: 5px;
+  border-radius: 10px;
 }
 a:hover{
   transition: all 0.5s ease-in-out;
@@ -134,9 +142,6 @@ li{
 }
 @media (orientation: landscape) {
   #h1ro{
-    background: rgba(0, 28, 1, 0.231);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
     color: white;
     z-index: 5;
     position:absolute;
@@ -175,14 +180,33 @@ li{
     padding: 45px 30px;
     right: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     padding: 30px;
   }
 }
 
 /*components*/
+.odsazeni{
+  padding: 30px 15%!important;
+}
+.Odsazeni{
+  margin: 0 15% 30px 15%!important;
+}
+.button-row{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+@media (orientation: portrait){
+  .odsazeni{
+    padding: 30px!important;
+  }
+  .Odsazeni{
+    margin: 30px!important;
+  }
+  .button-row{
+    flex-direction: column;
+  }
+}
 .noBreak {
   white-space: no-wrap;
   display: inline-flex;
@@ -255,7 +279,7 @@ li{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 
-  background: rgba(255, 255, 255, 0.804);
+  background: rgba(255, 255, 255, 0.968);
 
   font-family: Barlow;
   font-size: 16px;
@@ -456,7 +480,7 @@ li{
  }
 
  .course-container{
-  padding: 30px;
+  padding: 30px 135px;
  }
  /*kurz nav*/
 
@@ -479,7 +503,6 @@ li{
   align-items: flex-start;
   gap: 30px;
   flex-shrink: 0;
-  border-radius: 3px;
   background: var(--White, #FFF);
 
   /* Shadow News */
@@ -506,13 +529,15 @@ li{
 
 .section-toggle {
   font-weight: bold;
-  height: 45px;
-  max-width: 45%;
+  text-transform: uppercase;
+  height: 90px;
+  max-width: 55%;
+  width: 35%;
   margin: 30px auto 30px auto;
   padding: 30px;
   background: rgba(2, 3, 3, 0.1);
   transition: all 0.5s ease;
-  border-radius: 20px;
+  border-radius: 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -527,7 +552,8 @@ li{
   font-size: 28px;
   width: 50%;
   height: 100%;
-  border-radius: 20px;
+  padding: 5px 15px;
+  border-radius: 45px;
   background: rgba(156, 199, 249, 0.1);
   transition: all 0.5s ease;
   text-align: center;
@@ -729,7 +755,6 @@ li{
   padding: 8px;
   background-color: #b5dfdf;
   color: black;
-  border-radius: 4px;
   z-index: 9999;
   pointer-events: none;
   opacity: 1;

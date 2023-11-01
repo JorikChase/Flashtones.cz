@@ -431,3 +431,17 @@ hover menu rozbaleni na celym menu baru
 //zs plavani texty general ze staryho webu
 //o nas pro kazdej podweb general
 -- 6
+###<a class="cta-button" href="/zs/plavani/rezervace">Objednat kurz</a>
+contact form
+toggleSwitch
+##detailcta if y < 1000px => position absolute
+###lokality jako list 
+##lokality na podstrankach nechat pouze kategorii podstranky + pridat jako soucasti detailu kurzu
+##highlight toggle switch
+##kurzy items description, icons in main color
+##footer pro pro deti
+###odsazeni vsude
+##nabidka kurzu tlacitko #kurzdetail
+#nadpisy spravne k fotkam
+cta 60px pod koncem headeru
+odendat ze section toggle v kurzech vzdycky bud pro skoly nebo verejnost
