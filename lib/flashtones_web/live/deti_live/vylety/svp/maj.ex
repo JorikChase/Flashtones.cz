@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyMajLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.maj />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.maj />
       <!--<h3>Další informace</h3>-->

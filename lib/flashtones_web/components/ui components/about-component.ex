@@ -6,7 +6,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -299,7 +299,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -592,7 +592,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -885,7 +885,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -1180,7 +1180,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -1473,7 +1473,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -1766,7 +1766,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
@@ -2059,7 +2059,7 @@ defmodule About do
     <style>
     </style>
 
-    <div class="course-container">
+    <div class="odsazeni">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>

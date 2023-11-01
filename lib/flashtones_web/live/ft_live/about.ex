@@ -7,8 +7,10 @@ defmodule FlashtonesWeb.AboutLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <HeroSmall.about />
+      <div class="odsazeni">
       <About.general />
       <Zustanme.zustanme />
+      </div>
       <Footer.footer />
     """
   end

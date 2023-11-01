@@ -67,12 +67,12 @@ defmodule DetailCta do
 
     </style>
     <div class="detail-cta" id="detail-cta">
-      <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
+      <a class="cta-button" href="/zs/plavani/rezervace">Objednat kurz</a>
       <p>Chci více informací o kurzu:</p>
       <br>
       <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">info@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="/images/pdf/Představení ZŠ PLAVÁNÍ.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>

@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyPlesivkaLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.plesivka />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.plesivka />
       <!--<h3>Další informace</h3>-->

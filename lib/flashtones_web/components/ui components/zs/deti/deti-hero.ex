@@ -115,7 +115,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/academy/academy.jpeg" alt="Image 1" class="carousel-item" />
+          <img src="/images/academy/academy-head.jpeg" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -171,7 +171,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -299,7 +299,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -375,7 +375,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/doma/doma.jpeg" alt="Image 1" class="carousel-item" />
+          <img src="/images/doma/doma-head.jpeg" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -427,7 +427,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -503,7 +503,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/enviro/hradek.jfif" alt="Image 1" class="carousel-item" />
+          <img src="/images/enviro/enviro-head.jpeg" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -555,7 +555,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -709,7 +709,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -837,7 +837,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;
@@ -913,7 +913,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/vylety/vylety.jpg" alt="Image 1" class="carousel-item" />
+          <img src="/images/vylety/vylety-head.jpg" alt="Image 1" class="carousel-item" />
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -965,7 +965,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          border-radius: 5px;
+          
           display: flex;
           width: 220px;
           height: 70px;

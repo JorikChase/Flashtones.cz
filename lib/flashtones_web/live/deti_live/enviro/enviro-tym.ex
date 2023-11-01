@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroTym />
-      <div class="course-container lg:w-3/4">
+      <div class="odsazeni ">
       <DetailCta.enviro />
       <KurzDetail.enviroTym />
       <!--<h3>Další informace</h3>-->

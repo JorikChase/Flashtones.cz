@@ -47,27 +47,27 @@ defmodule DetiGrid do
         background-repeat: no-repeat;
       }
       .menu-lyzovani{
-        background-image: url("/images/ft/menu-lyzovani.jpeg");
+        background-image: url("/images/lyzovani/lyzovani-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
       .menu-enviro{
-        background-image: url("/images/ft/menu-enviro.jpeg");
+        background-image: url("/images/enviro/enviro-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
       .menu-vylety{
-        background-image: url("/images/ft/menu-vylety.jpeg");
+        background-image: url("/images/vylety/vylety-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
       .menu-doma{
-        background-image: url("/images/ft/menu-doma.jpeg");
+        background-image: url("/images/doma/doma-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
       .menu-academy{
-        background-image: url("/images/ft/menu-academy.jpeg");
+        background-image: url("/images/academy/academy-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }

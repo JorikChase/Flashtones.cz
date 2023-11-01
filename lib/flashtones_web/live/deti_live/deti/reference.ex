@@ -7,14 +7,14 @@ defmodule FlashtonesWeb.DetiReference do
     main{
       background: #dbf6f9;
     }
-    .course-container{
+    .odsazeni{
       padding-top: 180px;
     }
     </style>
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <div class="course-container"><ul>
+      <div class="odsazeni"><ul>
         <li>25. základní škola Plzeň</li>
         <li>Anglofonní základní škola, z.ú.</li>
         <li>Základní škola a Mateřská škola J. Š. Baara</li>

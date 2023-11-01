@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyTaborLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.vyletyTabor />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.tabor />
       <!--<h3>Další informace</h3>-->

@@ -8,7 +8,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       <MenuPc.menuPlavaniPc />
       <HeroSmall.plavaniSaturday />
       <DetailCta.plavaniSaturday />
-      <div class="course-container">
+      <div class="odsazeni">
       <KurzDetail.plavaniSaturday />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->

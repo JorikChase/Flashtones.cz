@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyLubenecLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.lubenec />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.lubenec />
       <!--<h3>Další informace</h3>-->

@@ -5,7 +5,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--ft-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -86,7 +88,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--academy-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -140,6 +144,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
+        .pcMenu a:hover{
+          color: var(--deti-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -168,7 +175,7 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu">
       <div class="pcMenuBar" id="pcMenuBar">
-      <a href="/zs/deti">
+      <a href="/zs/">
         <img src="/images/deti/deti-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
@@ -195,7 +202,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--doma-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -248,7 +257,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--enviro-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -303,7 +314,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--lyzovani-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -359,7 +372,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--plavani-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -415,7 +430,9 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
-
+        .pcMenu a:hover{
+          color: var(--vylety-main);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;

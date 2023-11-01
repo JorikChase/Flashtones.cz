@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.lyzovaniSchool />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.lyzovaniSchool />
         <style>
           p{

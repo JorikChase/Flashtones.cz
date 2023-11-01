@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyKutnaHoraLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.kutna />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.kutna />
       <!--<h3>Další informace</h3>-->

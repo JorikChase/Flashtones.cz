@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyBoleslavLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.vyletyBoleslav />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.boleslav />
       <!--<h3>Další informace</h3>-->

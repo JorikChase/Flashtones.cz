@@ -12,7 +12,7 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: flex-start;
+        justify-content: center;
         align-content: center;
 
         padding: 30px;
@@ -40,6 +40,7 @@ defmodule Kdo do
         flex-direction:row;
         justify-content: center;
         align-content: center;
+        width: 100%;
       }
       .kdoPersons img{
         width: 270px;
@@ -55,16 +56,22 @@ defmodule Kdo do
         }
       }
     </style>
-    <div class="kdo">
+    <div class="kdo odsazeni">
       <div class="kdoText">
         <h3>KDO JSME</h3>
         <div>
+        <p>
+          Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+          Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+        </p>
+        <div class="button-row">
           <a class="button" href="/about">
             O projektu
           </a>
           <a class="button" href="/about#persons">
             Naši lidé
           </a>
+          </div>
         </div>
       </div>
       <div class="kdoPersons">
@@ -101,8 +108,8 @@ defmodule Kdo do
 
         display:flex;
         flex-direction:row;
-        justify-content: flex-start;
-        align-content: flex-start;
+        justify-content: center;
+        align-content: center;
 
         padding: 30px;
         gap: 30px;
@@ -130,6 +137,7 @@ defmodule Kdo do
         flex-direction:row;
         justify-content: center;
         align-content: center;
+        width: 100%;
       }
       .kdoPersons img{
         width: 270px;
@@ -145,16 +153,22 @@ defmodule Kdo do
         }
       }
     </style>
-    <div class="kdo">
+    <div class="kdo odsazeni">
       <div class="kdoText">
         <h3>KDO JSME</h3>
         <div>
+        <p>
+          Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+          Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+        </p>
+        <div class="button-row">
           <a class="button" href="/zs/about">
             O projektu
           </a>
           <a class="button" href="/zs/about#persons">
             Naši lidé
           </a>
+          </div>
         </div>
       </div>
       <div class="kdoPersons">

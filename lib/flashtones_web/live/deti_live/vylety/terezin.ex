@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyTerezinLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.plavaniCitySchool />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.terezin />
       <!--<h3>Další informace</h3>-->

@@ -5,16 +5,16 @@ defmodule Zustanme do
     ~H"""
     <style>
       .zustanme{
-        width: max-content;
+        width: fit-content;
         background: #f4ebd764;
         flex-wrap: wrap;
         display:flex;
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
         height: fit-content;
-        margin: 0 30px 30px 30px;
+
+        padding: 30px;
       }
       .zustanme-text{
         display:flex;
@@ -28,7 +28,7 @@ defmodule Zustanme do
       @media (orientation:portrait){
         .zustanme{
           flex-direction: column;
-          width: 100%;
+          width: fit-content;
           margin: 0;
         }
         .zustanme-text{
@@ -63,7 +63,7 @@ defmodule Zustanme do
         }
       }
     </style>
-     <div class="zustanme">
+     <div class="zustanme Odsazeni">
       <div class="zustanme-text">
         <h3>
         zůstaňme V KONTAKTU
@@ -80,9 +80,9 @@ defmodule Zustanme do
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.svg"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
           <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
+          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
+          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
       </div>
     </div>
     """

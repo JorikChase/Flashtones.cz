@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <HeroSmall.plavaniCitySchool />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.plavaniSkola />
       <KurzDetail.plavaniCitySchool />
       <!--<h3>Další informace</h3>-->

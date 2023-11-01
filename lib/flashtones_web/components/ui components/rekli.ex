@@ -11,7 +11,6 @@ defmodule Rekli do
         padding: 30px;
         text-align: justify;
         align-items: flex-start;
-        border-radius: 5px;
         margin-bottom: 30px;
         margin-left: 30px;
       }
@@ -25,12 +24,11 @@ defmodule Rekli do
         padding: 30px;
         text-align: justify;
         align-items: flex-start;
-        width: 100%;
-        margin-left: 0;
+        width: fit-content;
       }
     }
     </style>
-    <div class="rekli w-full md:w-2/3">
+    <div class="rekli w-full md:w-2/3 Odsazeni">
       <h3>
       Řekli o nás
       </h3>

@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyRadostLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.radost />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.radost />
       <!--<h3>Další informace</h3>-->

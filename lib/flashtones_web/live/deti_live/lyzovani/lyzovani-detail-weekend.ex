@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.LyzovaniDetailWeekendLive do
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.lyzovaniWeekend />
-      <div class="course-container lg:w-3/4">
+      <div class="odsazeni ">
       <DetailCta.lyzovani />
 
       <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>

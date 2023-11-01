@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.EnviroCityLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroCity />
-      <div class="course-container lg:w-3/4">
+      <div class="odsazeni ">
       <DetailCta.enviro />
       <KurzDetail.enviroCity />
       <!--<h3>Další informace</h3>-->

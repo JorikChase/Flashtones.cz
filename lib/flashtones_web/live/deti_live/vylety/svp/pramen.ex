@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyPramenLive do
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
       <HeroSmall.pramen />
-      <div class="course-container">
+      <div class="odsazeni">
       <DetailCta.vyletySkola />
       <KurzDetail.pramen />
       <!--<h3>Další informace</h3>-->

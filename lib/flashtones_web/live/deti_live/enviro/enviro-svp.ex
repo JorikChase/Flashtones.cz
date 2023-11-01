@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.EnviroSvpLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroSvp />
-      <div class="course-container lg:w-3/4">
+      <div class="odsazeni ">
       <DetailCta.enviro />
       <KurzDetail.enviroSvp />
       <!--<h3>Další informace</h3>-->

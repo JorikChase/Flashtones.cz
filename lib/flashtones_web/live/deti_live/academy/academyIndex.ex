@@ -13,7 +13,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
       <MenuPc.menuAcademyPc />
       <Hero.academyHero />
       <!--<Aktuality.aktuality />-->
-        <div class="course-container">
+        <div class="odsazeni">
       <h3>Práce u nás</h3>
       <div class="kazeta">
         <div class=""><p>Chcete pracovat s námi? Máte kladný vztah ke sportu a vzdělávání? Máte
