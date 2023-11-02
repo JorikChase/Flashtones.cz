@@ -118,6 +118,7 @@ defmodule SectionToggle do
   end
   def kurzNavPlavani(assigns) do
     ~H"""
+    <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Pro školy</a>
@@ -173,6 +174,7 @@ defmodule SectionToggle do
   end
   def kurzNavLyzovani(assigns) do
     ~H"""
+    <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Pro školy</a>
@@ -228,6 +230,7 @@ defmodule SectionToggle do
   end
   def vylety(assigns) do
     ~H"""
+    <h1>NABÍDKA NAŠICH VÝLETŮ</h1>
     <div class="section-toggle">
         <a href="#sectionA">Poznávací výlety</a>
         <a href="#sectionB">Environmentální výlety</a>
@@ -282,7 +285,7 @@ defmodule SectionToggle do
   end
   def enviro(assigns) do
     ~H"""
-    <title>Modular Toggle Button</title>
+    <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <div class="section-toggle">
         <a href="#sectionA">PRO VEŘEJNOST</a>
         <a href="#sectionB">PRO ŠKOLY</a>

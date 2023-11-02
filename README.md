@@ -445,3 +445,7 @@ toggleSwitch
 #nadpisy spravne k fotkam
 cta 60px pod koncem headeru
 odendat ze section toggle v kurzech vzdycky bud pro skoly nebo verejnost
+
+
+
+Flaticon
