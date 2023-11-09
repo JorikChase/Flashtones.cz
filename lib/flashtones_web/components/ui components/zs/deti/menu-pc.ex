@@ -293,7 +293,7 @@ defmodule MenuPc do
       </a>
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/lokality"> Lokality </a>
+          <a href="/zs/enviro/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/enviro/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
@@ -351,7 +351,7 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/lokality"> Lokality </a>
+          <a href="/zs/lyzovani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/lyzovani/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
@@ -409,7 +409,7 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/lokality"> Lokality </a>
+          <a href="/zs/plavani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/plavani/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
