@@ -74,7 +74,7 @@ defmodule FlashtonesWeb.LocationsLyzovaniLive do
           color: black;
           display: flex;
           flex-direction: row;
-          justify-content: flex-start;
+          justify-content: flex-end;
           align-items: flex-start;
           gap: 30px;
           width: 100%;
