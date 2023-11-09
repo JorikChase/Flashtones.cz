@@ -72,7 +72,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">info@zsplavani.cz</a>
-      <a href="/images/pdf/Představení ZŠ PLAVÁNÍ.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
+      <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>
@@ -93,7 +93,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>
@@ -114,7 +114,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>
@@ -135,7 +135,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>

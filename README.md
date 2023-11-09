@@ -437,18 +437,18 @@ contact form
 mailing service 
 automatic mail sending
 wedos implementations
-toggleSwitch
+//toggleSwitch
 -- 10
 
 //##detailcta if y < 1000px => position absolute
 //###lokality jako list 
 ##lokality na podstrankach nechat pouze kategorii podstranky + pridat jako soucasti detailu kurzu
-##highlight toggle switch
+//##highlight toggle switch
 ##kurzy items description, icons in main color
 ##footer pro pro deti
-###odsazeni vsude
+/?###odsazeni vsude
 ##nabidka kurzu tlacitko #kurzdetail
-#nadpisy spravne k fotkam
+//#nadpisy spravne k fotkam
 cta 60px pod koncem headeru
 odendat ze section toggle v kurzech vzdycky bud pro skoly nebo verejnost
 -- 11

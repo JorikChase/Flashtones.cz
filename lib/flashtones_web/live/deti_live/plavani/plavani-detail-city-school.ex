@@ -16,7 +16,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <SectionToggle.kurzNavPlavani />
+      <KurzNav.kurzPlavaniSkola />
       <Zustanme.zustanme />
       <Footer.footer />
     """
