@@ -14,21 +14,21 @@ defmodule Kdo do
         flex-direction:row;
         justify-content: center;
         align-content: center;
-
+        gap: 30px;
         padding: 30px;
       }
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-content: flex-start;
+        gap: 30px;
       }
       .kdoText > div{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding:30px;
         gap: 30px;
         padding-left: 0;
       }
@@ -56,43 +56,45 @@ defmodule Kdo do
         }
       }
     </style>
-    <div class="kdo odsazeni">
-      <div class="kdoText">
-        <h3>KDO JSME</h3>
-        <div>
-        <p>
-          Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
-          Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
-        </p>
-        <div class="button-row">
-          <a class="button" href="/about">
-            O projektu
-          </a>
-          <a class="button" href="/about#persons">
-            Naši lidé
-          </a>
+    <div class="odsazeni">
+      <div class="kdo">
+        <div class="kdoText">
+          <h3>KDO JSME</h3>
+          <div>
+          <p>
+            Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+            Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+          </p>
+          <div class="button-row">
+            <a class="button" href="/about">
+              O projektu
+            </a>
+            <a class="button" href="/about#persons">
+              Naši lidé
+            </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="kdoPersons">
-        <a href="/about/" style="margin-right: 30px;">
-        <img src="/images/ft/marcel.png" />
-          <h4>
-            Marcel Valouch
-          </h4>
-          <p>
-            Hlavní manager a zakladatel
-          </p>
-        </a>
-        <a href="/about/">
-        <img src="/images/ft/omar.png" />
-          <h4>
-            Omar el Karib
-          </h4>
-          <p>
-            Hlavní manager a zakladatel
-          </p>
-        </a>
+        <div class="kdoPersons">
+          <a href="/about/" style="margin-right: 30px;">
+          <img src="/images/ft/marcel.png" />
+            <h4>
+              Marcel Valouch
+            </h4>
+            <p>
+              Hlavní manager a zakladatel
+            </p>
+          </a>
+          <a href="/about/">
+          <img src="/images/ft/omar.png" />
+            <h4>
+              Omar el Karib
+            </h4>
+            <p>
+              Hlavní manager a zakladatel
+            </p>
+          </a>
+        </div>
       </div>
     </div>
     """
@@ -117,15 +119,15 @@ defmodule Kdo do
       .kdoText{
         display:flex;
         flex-direction:column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-content: flex-start;
+        gap: 30px;
       }
       .kdoText > div{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding:30px;
         gap: 30px;
         padding-left: 0;
       }
@@ -153,43 +155,45 @@ defmodule Kdo do
         }
       }
     </style>
-    <div class="kdo odsazeni">
-      <div class="kdoText">
-        <h3>KDO JSME</h3>
-        <div>
-        <p>
-          Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
-          Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
-        </p>
-        <div class="button-row">
-          <a class="button" href="/zs/about">
-            O projektu
-          </a>
-          <a class="button" href="/zs/about#persons">
-            Naši lidé
-          </a>
+    <div class="odsazeni">
+      <div class="kdo">
+        <div class="kdoText">
+          <h3>KDO JSME</h3>
+          <div>
+          <p>
+            Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
+            Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+          </p>
+          <div class="button-row">
+            <a class="button" href="/zs/about">
+              O projektu
+            </a>
+            <a class="button" href="/zs/about#persons">
+              Naši lidé
+            </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="kdoPersons">
-        <a href="/zs/about/" style="margin-right: 30px;">
-        <img src="/images/ft/marcel.png" />
-          <h4>
-            Marcel Valouch
-          </h4>
-          <p>
-            Hlavní manager a zakladatel
-          </p>
-        </a>
-        <a href="/zs/about/">
-        <img src="/images/ft/omar.png" />
-          <h4>
-            Omar el Karib
-          </h4>
-          <p>
-            Hlavní manager a zakladatel
-          </p>
-        </a>
+        <div class="kdoPersons">
+          <a href="/zs/about/" style="margin-right: 30px;">
+          <img src="/images/ft/marcel.png" />
+            <h4>
+              Marcel Valouch
+            </h4>
+            <p>
+              Hlavní manager a zakladatel
+            </p>
+          </a>
+          <a href="/zs/about/">
+          <img src="/images/ft/omar.png" />
+            <h4>
+              Omar el Karib
+            </h4>
+            <p>
+              Hlavní manager a zakladatel
+            </p>
+          </a>
+        </div>
       </div>
     </div>
     """

@@ -431,11 +431,17 @@ hover menu rozbaleni na celym menu baru
 //zs plavani texty general ze staryho webu
 //o nas pro kazdej podweb general
 -- 6
+////////////////////////////////////////////////////////////////
 ###<a class="cta-button" href="/zs/plavani/rezervace">Objednat kurz</a>
 contact form
+mailing service 
+automatic mail sending
+wedos implementations
 toggleSwitch
-##detailcta if y < 1000px => position absolute
-###lokality jako list 
+-- 10
+
+//##detailcta if y < 1000px => position absolute
+//###lokality jako list 
 ##lokality na podstrankach nechat pouze kategorii podstranky + pridat jako soucasti detailu kurzu
 ##highlight toggle switch
 ##kurzy items description, icons in main color
@@ -445,7 +451,39 @@ toggleSwitch
 #nadpisy spravne k fotkam
 cta 60px pod koncem headeru
 odendat ze section toggle v kurzech vzdycky bud pro skoly nebo verejnost
+-- 11
 
+wedos forpsi
+database management
+regiony skola jmeno prijmeni mail adresa
+-- 3
+////////////////////////////////////////////////////////////////
+priprava ai pipeline pro firmu
+#there is an ai for that
+#chatgpt premium
+#poe.com
+#trenovani s chatgpt
+#ulevit 
+hlavni instruktor
+instruktor se zdravotnickyma zkouskama
+experienced instruktor
+inexperienced instruktor
 
+geografie pro dopravu instuktoru
 
-Flaticon
+zjednodusit proces zapisu 
+/kontakt pres telefon -> posleme predstaveni
+/zapsat do excelu informace vsechny o telefonatu
+ 
+/druhy hovor pripomeneme se 
+/precetla si mail
+/konverze
+/zapis do excelu
+
+#nejvic casu zabira ukladani, zapisovani.... ne mluveni
+##prednastavit si format zapisu 
+-- 4
+// 400kc na hodinu
+optimalizace firemni procesni architektury
+-- 15
+

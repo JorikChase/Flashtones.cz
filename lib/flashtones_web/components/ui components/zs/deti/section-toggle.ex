@@ -48,7 +48,7 @@ defmodule SectionToggle do
     </style>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
-        <a href="#sectionA">Section A</a>
+        <a href="#sectionA" class="active">Section A</a>
         <a href="#sectionB">Section B</a>
     </div>
 
@@ -109,19 +109,22 @@ defmodule SectionToggle do
   end
   def studio(assigns) do
     ~H"""
+    <div class="Odsazeni">
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
-        <a href="#deti">Děti</a>
+        <a href="#deti" class="active">Děti</a>
         <a href="#dospeli">Dospělí</a>
+    </div>
     </div>
     """
   end
   def kurzNavPlavani(assigns) do
     ~H"""
+    <div class="Odsazeni">
     <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
-        <a href="#sectionA">Pro školy</a>
+        <a href="#sectionA" class="active">Pro školy</a>
         <a href="#sectionB">Pro veřejnost</a>
     </div>
 
@@ -131,7 +134,7 @@ defmodule SectionToggle do
     <section id="sectionB" class="hidden">
       <KurzNav.kurzPlavaniVerejnost />
     </section>
-
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const sectionLinks = document.querySelectorAll(".section-toggle a");
@@ -174,6 +177,7 @@ defmodule SectionToggle do
   end
   def kurzNavLyzovani(assigns) do
     ~H"""
+    <div class="Odsazeni">
     <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
@@ -187,7 +191,7 @@ defmodule SectionToggle do
     <section id="sectionB" class="hidden">
       <KurzNav.kurzLyzovaniVerejnost />
     </section>
-
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const sectionLinks = document.querySelectorAll(".section-toggle a");
@@ -230,6 +234,7 @@ defmodule SectionToggle do
   end
   def vylety(assigns) do
     ~H"""
+    <div class="Odsazeni">
     <h1>NABÍDKA NAŠICH VÝLETŮ</h1>
     <div class="section-toggle">
         <a href="#sectionA">Poznávací výlety</a>
@@ -242,7 +247,7 @@ defmodule SectionToggle do
     <section id="sectionB" class="hidden">
       <KurzNav.vyletyEnviromentalni />
     </section>
-
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const sectionLinks = document.querySelectorAll(".section-toggle a");
@@ -285,9 +290,10 @@ defmodule SectionToggle do
   end
   def enviro(assigns) do
     ~H"""
+    <div class="Odsazeni">
     <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <div class="section-toggle">
-        <a href="#sectionA">PRO VEŘEJNOST</a>
+        <a href="#sectionA" class="active">PRO VEŘEJNOST</a>
         <a href="#sectionB">PRO ŠKOLY</a>
     </div>
 
@@ -297,7 +303,7 @@ defmodule SectionToggle do
     <section id="sectionB" class="hidden">
       <KurzNav.enviroSkola />
     </section>
-
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const sectionLinks = document.querySelectorAll(".section-toggle a");

@@ -63,7 +63,7 @@ defmodule Zustanme do
         }
       }
     </style>
-     <div class="zustanme Odsazeni">
+     <div class="zustanme Odsazeni" id="zustanme">
       <div class="zustanme-text">
         <h3>
         zůstaňme V KONTAKTU

@@ -71,6 +71,7 @@ h1{
   font-weight: 700;
   line-height: 7vh; /* 133.333% */
   letter-spacing: 0.14063rem;
+  margin-bottom: 30px;  
 }
 h2{
   font-family: Barlow;
@@ -80,6 +81,7 @@ h2{
   line-height: normal;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
+  margin-bottom: 30px;  
 }
 h3{
   font-family: Barlow;
@@ -89,6 +91,7 @@ h3{
   line-height: 3.75rem; /* 200% */
   letter-spacing: 0.09375rem;
   text-transform: uppercase;
+  margin-bottom: 30px;  
 }
 h4{
   font-family: Barlow;
@@ -97,6 +100,7 @@ h4{
   font-weight: 700;
   line-height: 2.1875rem; /* 140% */
   text-transform: uppercase;
+  margin-bottom: 30px;  
 }
 h5{
   font-family: Barlow;
@@ -105,6 +109,7 @@ h5{
   font-weight: 700;
   line-height: 35px; /* 140% */
   text-transform: uppercase;
+  margin-bottom: 30px;  
 }
 /*base*/
 html,
@@ -189,7 +194,7 @@ li{
   padding: 30px 15%!important;
 }
 .Odsazeni{
-  margin: 0 15% 30px 15%!important;
+  margin: 30px 15% 30px 15%!important;
 }
 .button-row{
   display: flex;
@@ -587,7 +592,7 @@ li{
 .section-toggle a:hover {
   background: rgba(255, 255, 255, 1);
 }
-.active {
+.section-toggle .active {
   background: rgba(255, 255, 255, 1);
 }
 .hidden {

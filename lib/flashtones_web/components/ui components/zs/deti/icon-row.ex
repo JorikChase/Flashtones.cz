@@ -5,6 +5,7 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
+          margin-top: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -59,7 +60,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component odsazeni">
+      <div class="icon-row_component Odsazeni">
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/icon/boy.svg">
@@ -139,7 +140,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component odsazeni">
+      <div class="icon-row_component Odsazeni">
         <h2>Co se u nás děti naučí</h2>
         <p>Plavecký kurz si klade za cíl osvojení plaveckých dovedností a rozvoj schopností vašeho dítěte</p>
         <div class="icon-row">
@@ -229,7 +230,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component odsazeni">
+      <div class="icon-row_component Odsazeni">
         <h2>Co se u nás děti naučí</h2>
         <p>Lyžařský kurz si klade za cíl rozvoj schopností, osvojení specifických dovedností a získání pozitivního vztahu k horám a přírodě</p>
         <div class="icon-row">

@@ -6,7 +6,7 @@ defmodule Hero do
     <div class="hero">
         <div class="hero-content">
             <h1 id="hero-heading">Heading 1</h1>
-            <button id="hero-button" class="button" >Button 1</button>
+            <a id="hero-button" class="button" >Button 1</a>
         </div>
         <div class="hero-media">
         </div>
@@ -51,10 +51,10 @@ defmodule Hero do
       <script>
         document.addEventListener("DOMContentLoaded", function () {
           const mediaItems = [
-              { type: 'video', src: '/images/ft/tobogan.mov', heading: 'S námi je to jízda!', button: 'O nás' },
-              { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Button 2' },
-              { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Button 3' },
-              { type: 'image', src: '/images/ft/originalni-produkty.jpg', heading: 'Originální produkty vyrobené v ČR', button: 'Button 4' }
+              { type: 'video', src: '/images/ft/tobogan.mp4', heading: 'S námi je to jízda!', button: 'O nás', href: "#" },
+              { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Tady', href: "#zustanme"  },
+              { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Podívejte se', href: "/studio"  },
+              { type: 'image', src: '/images/ft/originalni-produkty.jpg', heading: 'Originální produkty vyrobené v ČR', button: 'Prohlédnout si', href: "/produkty"  }
           ];
           let currentSlide = 0;
 
@@ -66,7 +66,8 @@ defmodule Hero do
                 const mediaItem = mediaItems[slideIndex];
                 heroHeading.textContent = mediaItem.heading;
                 heroButton.textContent = mediaItem.button;
-                
+                heroButton.href = mediaItem.href;
+
                 // Create a new media element
                 const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
                 newMedia.src = mediaItem.src;
@@ -171,7 +172,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -299,7 +300,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -427,7 +428,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -555,7 +556,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -709,7 +710,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -837,7 +838,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
@@ -965,7 +966,7 @@ defmodule Hero do
           flex-direction:row;
           justify-content: center;
           align-content: center;
-          
+
           display: flex;
           width: 220px;
           height: 70px;
