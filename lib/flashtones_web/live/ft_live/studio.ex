@@ -7,7 +7,9 @@ defmodule FlashtonesWeb.StudioLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <HeroSmall.studio />
+      <div class="odsazeni">
       <General.studio />
+      </div>
       <Zustanme.zustanme />
       <Footer.footer />
     """
