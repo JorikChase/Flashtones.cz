@@ -120,7 +120,7 @@ defmodule SectionToggle do
   end
   def kurzNavPlavani(assigns) do
     ~H"""
-    <div class="Odsazeni">
+    <div class="Odsazeni" id="course-item">
     <h1>NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">

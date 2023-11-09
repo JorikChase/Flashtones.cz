@@ -269,6 +269,10 @@ defmodule Hero do
           aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-content: flex-start;
         }
 
         .carousel-item {
@@ -783,6 +787,7 @@ defmodule Hero do
     <div class="hero">
       <h1 id="h1ro">
       Největší plavecká škola v ČR
+          <a href="#course-item" class="button z-10 head-button">Nabídka kurzů</a>
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -801,12 +806,20 @@ defmodule Hero do
           height: 90vh;
         }
     }
-
+    .head-button{
+      font-size: 30px;
+      line-height: 35px;
+    }
         .carousel {
           width: 100%;
           aspect-ratio: 16/9;
           overflow: hidden;
           position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 0 0 0 120px;
         }
 
         .carousel-item {
