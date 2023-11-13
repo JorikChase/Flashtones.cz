@@ -13,10 +13,11 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
         <!--<h3>Další informace</h3>-->
         <DetailFaq.detailFaq />
         <h3>Místa konání</h3>
-        <DetailLokace.detailLokace />
+        <DetailLokace.detailPlavaniSkoly />
       </div>
         <Rekli.rekli />
-        <SectionToggle.kurzNavPlavani />
+
+        <KurzNav.kurzPlavaniSkola />
         <Zustanme.zustanme />
         <Footer.footer />
     """

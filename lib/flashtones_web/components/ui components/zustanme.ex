@@ -19,6 +19,7 @@ defmodule Zustanme do
         flex-direction:column;
         justify-content: space-between;
         align-content: center;
+        gap: 30px;
         width: 50%;
         background: rgba(255, 255, 255, 0.05);
       }

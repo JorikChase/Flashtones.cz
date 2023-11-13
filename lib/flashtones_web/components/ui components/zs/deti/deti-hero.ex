@@ -788,7 +788,9 @@ defmodule Hero do
     <div class="hero">
       <h1 id="h1ro">
       Největší plavecká škola v ČR
-          <a href="#course-item" class="button z-10 head-button">Nabídka kurzů</a>
+      <br>
+      <br>
+          <a href="#course-item" class="inline-button z-10 head-button">Nabídka kurzů</a>
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -810,6 +812,11 @@ defmodule Hero do
     .head-button{
       font-size: 30px;
       line-height: 35px;
+      color: white;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+      padding: 10px 25px;
+      border-radius: 25px;
     }
         .carousel {
           width: 100%;
