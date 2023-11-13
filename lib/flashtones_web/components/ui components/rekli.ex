@@ -5,17 +5,19 @@ defmodule Rekli do
     ~H"""
     <style>
       .rekli{
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.05);
         display:flex;
-        flex-direction: column;
-        padding: 30px;
+        flex-direction: row;
         text-align: justify;
         align-items: flex-start;
-        margin-bottom: 30px;
-        margin-left: 30px;
+        justify-content: space-between;
+        gap: 30px;
       }
       .ratings-link{
         align-self: flex-end;
+    }
+    .rekli h3{
+      white-space: nowrap;
     }
     @media (orientation: portrait){
       .rekli{
@@ -28,7 +30,7 @@ defmodule Rekli do
       }
     }
     </style>
-    <div class="rekli w-full md:w-2/3 Odsazeni">
+    <div class="rekli odsazeni">
       <h3>
       Řekli o nás
       </h3>

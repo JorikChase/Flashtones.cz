@@ -350,27 +350,6 @@ defmodule General do
         flex-direction: column;
         justify-content: space-evenly;
         padding: 30px;
-        background: linear-gradient(1deg, #c5f0b8, #ffffff3c);
-        background-size: 400% 400%;
-
-        -webkit-animation: EnviroGradient 6s ease infinite;
-        -moz-animation: EnviroGradient 6s ease infinite;
-        animation: EnviroGradient 6s ease infinite;
-      }
-      @-webkit-keyframes EnviroGradient {
-      0%{background-position:0% 23%}
-      50%{background-position:100% 78%}
-      100%{background-position:0% 23%}
-      }
-      @-moz-keyframes EnviroGradient {
-          0%{background-position:0% 23%}
-          50%{background-position:100% 78%}
-          100%{background-position:0% 23%}
-      }
-      @keyframes EnviroGradient {
-          0%{background-position:0% 23%}
-          50%{background-position:100% 78%}
-          100%{background-position:0% 23%}
       }
     </style>
     <div class="general">

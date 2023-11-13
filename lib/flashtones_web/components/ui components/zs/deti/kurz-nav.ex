@@ -12,14 +12,17 @@ defmodule KurzNav do
       <div class="kurz-nav">
         <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/skola.svg">
+          <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Plavání je tou správnou volbou!</p>
           <h4>Pravidelné sobotní kurzy plavání</h4>
         </a>
         <a href="/zs/plavani/summer" class="kurz-item">
           <img src="/images/icon/primestak.svg">
+          <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>
           <h4>Letní příměstské tábory</h4>
         </a>
         <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/primestak.svg">
+          <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
           <h4>Víkendové příměstské tábory</h4>
         </a>
       </div>
@@ -32,14 +35,17 @@ defmodule KurzNav do
       <div class="kurz-nav">
         <a href="/zs/plavani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
+          <p>Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou polovinu povinné plavecké výuky</p>
           <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
         </a>
         <a href="/zs/plavani/city-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
+          <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
           <h4>Příměstský školní plavecký kurz</h4>
         </a>
         <a href="/zs/plavani/pre-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
+          <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělku do středy nebo od středy do pátku.</p>
           <h4>Předškolní plavecký kurz</h4>
         </a>
       </div>

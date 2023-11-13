@@ -71,7 +71,6 @@ h1{
   font-weight: 700;
   line-height: 7vh; /* 133.333% */
   letter-spacing: 0.14063rem;
-  margin-bottom: 30px;  
 }
 h2{
   font-family: Barlow;
@@ -81,17 +80,14 @@ h2{
   line-height: normal;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
-  margin-bottom: 30px;  
 }
 h3{
   font-family: Barlow;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 3.75rem; /* 200% */
   letter-spacing: 0.09375rem;
   text-transform: uppercase;
-  margin-bottom: 30px;  
 }
 h4{
   font-family: Barlow;
@@ -100,7 +96,6 @@ h4{
   font-weight: 700;
   line-height: 2.1875rem; /* 140% */
   text-transform: uppercase;
-  margin-bottom: 30px;  
 }
 h5{
   font-family: Barlow;
@@ -109,7 +104,6 @@ h5{
   font-weight: 700;
   line-height: 35px; /* 140% */
   text-transform: uppercase;
-  margin-bottom: 30px;  
 }
 /*base*/
 html,
@@ -191,10 +185,10 @@ li{
 
 /*components*/
 .odsazeni{
-  padding: 30px 15%!important;
+  padding: 120px 10%!important;
 }
 .Odsazeni{
-  margin: 30px 15% 30px 15%!important;
+  margin: 90px 10% 90px 10%!important;
 }
 .button-row{
   display: flex;
@@ -209,11 +203,11 @@ li{
     margin: 30px!important;
   }
   .button-row{
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 .noBreak {
-  white-space: no-wrap;
+  white-space: nowrap;
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -253,6 +247,19 @@ li{
   color: rgb(241, 253, 255);
   border-radius: 25px;
   background: #dbb488;
+}
+.inline-button{
+  color: var(--deti-link);
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: all 0.5s ease;
+}
+.inline-button:hover{
+  border-radius: 25px;
 }
 /*pc menu*/
 
@@ -504,7 +511,7 @@ li{
 .kurz-item{
   display: inline-flex;
   height: fit-content;
-  width: 25vw;
+  width: 350px;
   padding: 30px;
   flex-direction: column;
   justify-content: flex-start;
@@ -678,7 +685,11 @@ li{
     transform: translateY(-90%);
 }
 }
- /*general*/
+  /*kdo jsme*/
+
+  
+
+  /*general*/
 
  .general > div{
   width: 50%;

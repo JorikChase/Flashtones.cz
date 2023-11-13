@@ -487,3 +487,20 @@ zjednodusit proces zapisu
 optimalizace firemni procesni architektury
 -- 15
 
+/////
+ft 
+plachta ikonka f
+/jednotlive slidy
+
+kruskyn:
+ - menu zs pro deti
+ - 
+ux:
+ - 
+
+ nejdrive 
+
+ /kdo jsme
+ /zustanme
+ /rekli o nas
+ /zustanme v kontaktu

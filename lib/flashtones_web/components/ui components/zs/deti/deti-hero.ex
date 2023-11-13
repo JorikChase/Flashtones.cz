@@ -6,6 +6,7 @@ defmodule Hero do
     <div class="hero">
         <div class="hero-content">
             <h1 id="hero-heading">Heading 1</h1>
+            <br>
             <a id="hero-button" class="button" >Button 1</a>
         </div>
         <div class="hero-media">

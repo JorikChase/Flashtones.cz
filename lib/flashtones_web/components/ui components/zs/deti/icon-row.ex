@@ -5,12 +5,12 @@ defmodule IconRow do
     ~H"""
       <style>
         .icon-row_component{
-          margin-top: 30px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          padding: 30px;
-          background: #c3e8ffb0;
+          background: rgba(255, 255, 255, 0.05);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          gap: 30px;
         }
         .icon-row_component > p{
           color: var(--Text, #333);
@@ -30,7 +30,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 12%;
+          width: 25%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -89,8 +89,9 @@ defmodule IconRow do
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          padding: 30px;
-          background: #c3e8ffb0;
+          background: rgba(255, 255, 255, 0.05);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          gap: 30px;
         }
         .icon-row_component > p{
           color: var(--Text, #333);
@@ -110,7 +111,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 12%;
+          width: 25%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -140,7 +141,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component Odsazeni">
+      <div class="icon-row_component odsazeni">
         <h2>Co se u nás děti naučí</h2>
         <p>Plavecký kurz si klade za cíl osvojení plaveckých dovedností a rozvoj schopností vašeho dítěte</p>
         <div class="icon-row">
@@ -179,8 +180,9 @@ defmodule IconRow do
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          padding: 30px;
-          background: #d7ffdfc3;
+          background: rgba(255, 255, 255, 0.05);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          gap: 30px;
         }
         .icon-row_component > p{
           color: var(--Text, #333);
@@ -200,7 +202,7 @@ defmodule IconRow do
         }
         .icon-row-item{
           display: flex;
-          width: 12%;
+          width: 25%;
           flex-direction: column;
           align-items: center;
           gap: 10px;
@@ -230,7 +232,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component Odsazeni">
+      <div class="icon-row_component odsazeni">
         <h2>Co se u nás děti naučí</h2>
         <p>Lyžařský kurz si klade za cíl rozvoj schopností, osvojení specifických dovedností a získání pozitivního vztahu k horám a přírodě</p>
         <div class="icon-row">
@@ -269,7 +271,9 @@ defmodule IconRow do
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          padding: 30px;
+          background: rgba(255, 255, 255, 0.05);
+
+          gap: 30px;
         }
         .icon-row_component > p{
           color: var(--Text, #333);

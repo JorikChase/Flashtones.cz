@@ -87,6 +87,7 @@ defmodule FlashtonesWeb.Router do
     live "/zs/svp/pramen", VyletyPramenLive
     live "/zs/svp/radost", VyletyRadostLive
 
+    live "/zs/mail", MailFormLive
     live "/desk", DeskLive
 
 

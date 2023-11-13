@@ -121,7 +121,7 @@ defmodule SectionToggle do
   def kurzNavPlavani(assigns) do
     ~H"""
     <div class="Odsazeni" id="course-item">
-    <h1>NABÍDKA NAŠICH KURZŮ</h1>
+    <h1 class="text-center py-8">NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA" class="active">Pro školy</a>
@@ -178,7 +178,7 @@ defmodule SectionToggle do
   def kurzNavLyzovani(assigns) do
     ~H"""
     <div class="Odsazeni">
-    <h1>NABÍDKA NAŠICH KURZŮ</h1>
+    <h1 class="text-center py-8">NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#sectionA">Pro školy</a>
@@ -235,7 +235,7 @@ defmodule SectionToggle do
   def vylety(assigns) do
     ~H"""
     <div class="Odsazeni">
-    <h1>NABÍDKA NAŠICH VÝLETŮ</h1>
+    <h1 class="text-center py-8">NABÍDKA NAŠICH VÝLETŮ</h1>
     <div class="section-toggle">
         <a href="#sectionA">Poznávací výlety</a>
         <a href="#sectionB">Environmentální výlety</a>
@@ -291,7 +291,7 @@ defmodule SectionToggle do
   def enviro(assigns) do
     ~H"""
     <div class="Odsazeni">
-    <h1>NABÍDKA NAŠICH KURZŮ</h1>
+    <h1 class="text-center py-8">NABÍDKA NAŠICH KURZŮ</h1>
     <div class="section-toggle">
         <a href="#sectionA" class="active">PRO VEŘEJNOST</a>
         <a href="#sectionB">PRO ŠKOLY</a>

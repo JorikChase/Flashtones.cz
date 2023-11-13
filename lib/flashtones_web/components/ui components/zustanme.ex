@@ -13,8 +13,6 @@ defmodule Zustanme do
         justify-content: space-between;
         align-items: center;
         height: fit-content;
-
-        padding: 30px;
       }
       .zustanme-text{
         display:flex;
@@ -22,8 +20,7 @@ defmodule Zustanme do
         justify-content: space-between;
         align-content: center;
         width: 50%;
-        background: rgba(255, 255, 255, 0.2);
-        padding: 15px;
+        background: rgba(255, 255, 255, 0.05);
       }
       @media (orientation:portrait){
         .zustanme{
@@ -63,7 +60,7 @@ defmodule Zustanme do
         }
       }
     </style>
-     <div class="zustanme Odsazeni" id="zustanme">
+     <div class="zustanme odsazeni" id="zustanme">
       <div class="zustanme-text">
         <h3>
         zůstaňme V KONTAKTU
