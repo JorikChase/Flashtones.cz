@@ -514,7 +514,6 @@ li{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
   flex-wrap: wrap;
 }
 .kurz-item{
@@ -540,6 +539,7 @@ li{
   font-style: normal;
   font-weight: 400;
   line-height: 35px; /* 194.444% */
+  
 }
 @media (orientation: portrait){
   .kurz-nav{
@@ -1007,5 +1007,5 @@ li{
 }
 
 .kurz-nav p{
-  width: auto;
+  width: 90%;
 }

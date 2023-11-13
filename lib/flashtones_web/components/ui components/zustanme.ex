@@ -64,7 +64,7 @@ defmodule Zustanme do
      <div class="zustanme odsazeni" id="zustanme">
       <div class="zustanme-text">
         <h3>
-        zůstaňme V KONTAKTU
+        ZŮSTAŇME V KONTAKTU
         </h3>
         <span>
         Váš e-mail

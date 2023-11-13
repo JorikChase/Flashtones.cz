@@ -32,25 +32,23 @@ defmodule KurzNav do
     ~H"""
       <style>
       </style>
-      <div class="odsazeni">
-      <h2>Další kurzy pro školy</h2>
       <div class="kurz-nav">
         <a href="/zs/plavani/school" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
-          <p>Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou polovinu povinné plavecké výuky</p>
+          <p>Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak polovinu povinné plavecké výuky</p>
         </a>
         <a href="/zs/plavani/city-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Příměstský školní plavecký kurz</h4>
-          <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
+          <p>Nejedná se o pobytový kurz, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
         </a>
         <a href="/zs/plavani/pre-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
-          <h4>Předškolní plavecký kurz</h4>
-          <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělku do středy nebo od středy do pátku.</p>
+          <h4>Předškolní plavecký <br>
+          kurz</h4>
+          <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let.</p>
         </a>
-      </div>
       </div>
     """
   end
