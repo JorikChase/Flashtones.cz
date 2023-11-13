@@ -8,7 +8,6 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 30px;
         background: linear-gradient(1deg, #fff7bc, #ffffff);
         background-size: 400% 400%;
 

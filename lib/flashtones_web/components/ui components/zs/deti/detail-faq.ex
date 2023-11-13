@@ -81,9 +81,9 @@ defmodule DetailFaq do
         max-height: 500px; /* Adjust the maximum height as needed */
       }
     </style>
-    <div class="container px-4 py-8">
+    <div class="container">
 
-      <div class="w-full md:w-full">
+      <div class="w-full md:w-full studio-container">
       <SectionToggle.studio />
       <h3 id="deti">Jaké jsou programy pro děti?</h3>
         <div class="question-box p-4 bg-white rounded shadow mb-2">

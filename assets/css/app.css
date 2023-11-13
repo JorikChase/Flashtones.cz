@@ -696,8 +696,16 @@ li{
 }
 }
   /*kdo jsme*/
-
   
+  /*studio-container*/
+  .studio-container{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    gap: 30px;
+  }
 
   /*general*/
 
@@ -967,9 +975,6 @@ li{
     background-size: 110%;
 }
 
-h3 {
-    padding: 10px;
-}
 .gallery h2{
   padding-right: 30px;
 }
