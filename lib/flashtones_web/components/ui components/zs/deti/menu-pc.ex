@@ -163,6 +163,7 @@ defmodule MenuPc do
           -webkit-backdrop-filter: blur(10px);
 
           transition: all 0.5s ease;
+          display: none;
         }
 
       }

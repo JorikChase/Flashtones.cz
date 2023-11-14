@@ -4,10 +4,6 @@ defmodule KurzNav do
   def kurzPlavaniVerejnost(assigns) do
     ~H"""
       <style>
-        .kurz-nav{
-          flex-direction: row;
-          justify-content: space-evenly;
-        }
       </style>
       <div class="kurz-nav">
         <a href="/zs/plavani/saturday" class="kurz-item">

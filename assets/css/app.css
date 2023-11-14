@@ -301,7 +301,7 @@ li{
   z-index: 100;
   position: fixed;
   top: 90px;
-  right: calc(60px + 7em);
+  right: calc(10%);
   left: 60px;
   height: 60px;
 
@@ -566,6 +566,8 @@ li{
 @media (orientation: portrait){
   .kurz-nav{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .kurz-item{
     width: 80%;
