@@ -247,6 +247,7 @@ defmodule Hero do
     <div class="hero">
       <h1 id="h1ro">
       Intenzivní vzdělávací koncept založený na partnerském a respektujícím přístupu k dětem
+      <br><br><a href="#static-grid" class="button-promo">Nabídka kurzů</a>
       </h1>
       <div class="relative">
         <div class="carousel">
@@ -259,8 +260,6 @@ defmodule Hero do
     </div>
 
     <style>
-
-
         .carousel {
           background-image: url("/images/deti/deti-bg.jpeg");
           width: 100%;

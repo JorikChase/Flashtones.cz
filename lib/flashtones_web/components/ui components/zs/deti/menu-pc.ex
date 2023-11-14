@@ -12,8 +12,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -95,8 +95,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -144,6 +144,10 @@ defmodule MenuPc do
     ~H"""
     <style>
       @media (orientation: landscape){
+        .pcMenuBar{
+          right: 10%;
+          border-radius: 10px;
+        }
         .pcMenu a:hover{
           color: var(--deti-main);
         }
@@ -151,8 +155,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -197,6 +201,50 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
+    <script>
+      window.onscroll = function () {
+        var cta = document.getElementById("detail-cta");
+        var menu = document.getElementById("pcMenu");
+        var menuBar = document.getElementById("pcMenuBar");
+        var menuBottom = document.getElementById("pcMenuBottom");
+        if (window.pageYOffset > 100) {
+          menu.style.top = "0";
+          menu.style.left = "0";
+          menu.style.right = "0";
+          menuBar.style.top = "0";
+          menuBar.style.left = "0";
+          menuBar.style.right = "0";
+          menuBottom.style.top = "0";
+          menuBottom.style.left = "0";
+          menuBottom.style.right = "0";
+          menu.style.borderRadius = "0";
+          menuBar.style.borderRadius = "0";
+          menuBottom.style.borderRadius = "0";
+          if(window.innerHeight < window.innerWidth){
+            cta.style.right = "30px";
+            cta.style.top = "90px";
+          }
+
+        } else {
+          menu.style.top = "60px";
+          menu.style.left = "10%";
+          menu.style.right = "10%";
+          menuBar.style.top = "60px";
+          menuBar.style.left = "10%";
+          menuBar.style.right = "10%";
+          menuBottom.style.top = "60px";
+          menuBottom.style.left = "10%";
+          menuBottom.style.right = "10%";
+          menu.style.borderRadius = "10px";
+          menuBar.style.borderRadius = "10px";
+          menuBottom.style.borderRadius = "10px";
+          if(window.innerHeight < window.innerWidth){
+          cta.style.right = "30px";
+          cta.style.top = "150px";
+          }
+        }
+      };
+    </script>
     """
   end
   def menuDomaPc(assigns) do
@@ -210,8 +258,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -265,8 +313,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -322,8 +370,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -380,8 +428,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;
@@ -438,8 +486,8 @@ defmodule MenuPc do
           z-index: 99;
           position: fixed;
           top: 90px;
-          right: 60px;
-          left: 60px;
+          right: 10%;
+          left: 10%;
           height: 60px;
 
           padding: 30px;

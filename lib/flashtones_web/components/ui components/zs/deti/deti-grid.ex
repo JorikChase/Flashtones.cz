@@ -125,8 +125,6 @@ defmodule DetiGrid do
   def staticGrid(assigns) do
     ~H"""
     <style>
-    .grid-container{
-    }
       .grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -208,7 +206,7 @@ defmodule DetiGrid do
       }
       }
     </style>
-    <div class="grid-container odsazeni">
+    <div class="grid-container odsazeni" id="static-grid">
     <div class="grid">
       <a href="/zs/plavani" class="menu-plavani" >
         <span>
