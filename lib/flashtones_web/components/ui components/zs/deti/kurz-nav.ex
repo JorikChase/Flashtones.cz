@@ -13,17 +13,20 @@ defmodule KurzNav do
         <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/skola.svg">
           <h4>Pravidelné sobotní kurzy plavání</h4>
-          <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Plavání je tou správnou volbou!</p>
+          <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/summer" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Letní příměstské tábory</h4>
           <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Víkendové příměstské tábory</h4>
           <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
       </div>
     """
@@ -37,17 +40,20 @@ defmodule KurzNav do
           <img src="/images/icon/skola.svg">
           <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
           <p>Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak polovinu povinné plavecké výuky</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/city-school" class="kurz-item">
           <img src="/images/icon/primestak.svg">
           <h4>Příměstský školní plavecký kurz</h4>
           <p>Nejedná se o pobytový kurz, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/pre-school" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>Předškolní plavecký <br>
           kurz</h4>
           <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let.</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
       </div>
     """
@@ -78,7 +84,7 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/lyzovani/school" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+          <img src="/images/lyzovani/skolni-lyzarsky-kurz.svg">
           <h4>Školní lyžařský kurz</h4>
         </a>
         <a href="/zs/lyzovani/bezky" class="kurz-item">

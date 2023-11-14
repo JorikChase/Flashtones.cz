@@ -5,7 +5,7 @@ defmodule Zustanme do
     ~H"""
     <style>
       .zustanme{
-        width: fit-content;
+        width: auto;
         background: #f4ebd764;
         flex-wrap: wrap;
         display:flex;

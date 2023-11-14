@@ -131,6 +131,7 @@ defmodule Hero do
           aspect-ratio: auto;
           height: 90vh;
         }
+
       }
 
         .hero{
@@ -249,7 +250,7 @@ defmodule Hero do
       </h1>
       <div class="relative">
         <div class="carousel">
-          <img src="/images/deti/deti-bg.jpeg" alt="Image 1" class="carousel-item" />
+          <span alt="Image 1" class="carousel-item" style=""></span>
           <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
           <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
           <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
@@ -258,14 +259,10 @@ defmodule Hero do
     </div>
 
     <style>
-    @media (orientation: portrait){
-      .carousel{
-          aspect-ratio: auto;
-          height: 90vh;
-        }
-    }
+
 
         .carousel {
+          background-image: url("/images/deti/deti-bg.jpeg");
           width: 100%;
           aspect-ratio: 16/9;
           overflow: hidden;
@@ -338,7 +335,15 @@ defmodule Hero do
         .carousel-nav > button > a{
           display: none;
         }
-      }
+      @media (orientation: portrait){
+      .carousel{
+          aspect-ratio: auto;
+          height: 90vh;
+        }
+        .carousel-item{
+          background-image: url("/images/deti/deti-bg-phone.jpeg");
+        }
+    }
     </style>
 
     <script>

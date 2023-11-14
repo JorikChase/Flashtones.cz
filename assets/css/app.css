@@ -63,6 +63,9 @@
   --vylety-hover: #A8710A;
   --vylety-checked: #785107;
 }
+.plavani-link{
+  color: var(--plavani-link);
+}
 /*defs*/
 h1{
   font-family: Barlow;
@@ -114,7 +117,7 @@ body {
   line-height: 35px;
 }
 *{
-  border-radius: 10px;
+  border-radius: 15px;
 }
 a:hover{
   transition: all 0.5s ease-in-out;
@@ -156,16 +159,22 @@ li{
 
 @media (orientation: portrait) {
   h1{
-    font-size: 60px;
-    line-height: 90px;
-  }
-  h2{
+    color: var(--White, #FFF);
     font-family: Barlow;
-    font-size: 2.1875rem;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 2.8125rem; /* 128.571% */
-    letter-spacing: 0.10938rem;
+    line-height: 35px; /* 140% */
+    letter-spacing: 1.25px;
+  }
+  h2{
+    color: var(--Text, #333);
+    font-family: Barlow;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 128.571% */
+    letter-spacing: 1.75px;
     text-transform: uppercase;
   }
   p{
@@ -258,7 +267,13 @@ li{
   background: #dbb488;
 }
 .inline-button{
-  color: var(--deti-link);
+  font-family: Barlow;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
   font-weight: bold;
   display: inline-flex;
   flex-direction: row;
@@ -518,7 +533,7 @@ li{
 }
 .kurz-item{
   display: inline-flex;
-  height: fit-content;
+  height: 455px;
   width: 400px;
   padding: 30px;
   flex-direction: column;
@@ -541,6 +556,13 @@ li{
   line-height: 35px; /* 194.444% */
   
 }
+.kurz-item img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-size: 90% 90%;
+  border-radius: 0;
+}
 @media (orientation: portrait){
   .kurz-nav{
     flex-direction: column;
@@ -552,11 +574,10 @@ li{
 /*section toggle*/
 
 .section-toggle {
+  width: 400px;
   font-weight: bold;
   text-transform: uppercase;
-  height: 90px;
-  margin: 30px auto 30px auto;
-  padding: 30px;
+  margin: 30px auto 60px auto;
   background: rgba(2, 3, 3, 0.1);
   transition: all 0.5s ease;
   border-radius: 45px;
@@ -573,7 +594,7 @@ li{
 .section-toggle a {
   font-size: 28px;
   width: 50%;
-  height: 100%;
+  height: 40px;
   padding: 5px 15px;
   border-radius: 45px;
   background: rgba(156, 199, 249, 0.1);
@@ -588,6 +609,13 @@ li{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+  /* Prepinac */
+  font-family: Barlow;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 @media (orientation: portrait){
   .section-toggle {
@@ -705,6 +733,12 @@ li{
   }
   .container{
     gap: 30px;
+  }
+
+  /*align-right*/
+
+  .align-right{
+    align-self: flex-end;
   }
 
   /*general*/

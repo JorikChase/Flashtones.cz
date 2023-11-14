@@ -12,7 +12,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
         flex-direction: column;
         justify-content: space-evenly;
         background-position: fixed;
-        background: linear-gradient(1deg, #faf0cd, #cbd0f9, #c6f9c9, #f8c6c6, #f9e3cb, #ffffff3c);
+        background: linear-gradient(1deg, #cddcfa, #cbd0f9, #c6f9f3, #c6f8ef, #cbcef9, #ffffffe4);
         background-size: 400% 400%;
 
         -webkit-animation: MainGradient 20s ease-in-out infinite;

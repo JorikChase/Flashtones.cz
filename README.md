@@ -501,6 +501,18 @@ ux:
  nejdrive 
 
  /kdo jsme
+ -- 0.5
  /zustanme
+ -- 0.5
  /rekli o nas
+ -- 0.5
  /zustanme v kontaktu
+ -- 0.5
+////////////////////////////////////////////////////////////////////////////////
+ //vice informaci v kurz itemech
+ //zmensit section toggle button
+ //opravit zakulacene rohy menu mobile
+ opravit obrazky optimalizovat
+ zsprodeti
+ velikost nadpisu na mobilu
+ //mrizka na mobilu

@@ -120,7 +120,7 @@ defmodule General do
           margin: 10px;
           padding: 15px;
           border: 1px solid #ddd;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
           transition: transform 0.2s, box-shadow 0.2s;
       }
 
@@ -136,10 +136,11 @@ defmodule General do
 
       .product-image {
           height: 200px;
-          background-image: url('product-image.jpg');
+          width: 200px;
           background-size: cover;
           background-position: center;
-          transition: background 0.3s;
+          background-repeat: no-repeat;
+          transition: background-size 0.3s;
       }
 
       .product:hover .product-image {

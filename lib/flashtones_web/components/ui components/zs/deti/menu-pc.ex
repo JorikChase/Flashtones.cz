@@ -192,7 +192,7 @@ defmodule MenuPc do
           <img src="/images/icon/menu.svg">
         </div>
         <div class="pcMenuBottomLinks">
-          <DetiGrid.detiGrid />
+
         </div>
       </div>
     </div>

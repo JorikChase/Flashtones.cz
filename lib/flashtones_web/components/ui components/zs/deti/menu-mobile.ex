@@ -30,6 +30,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -88,10 +90,13 @@ defmodule MenuMobile do
       justify-content: space-between;
       align-items: center
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenuHead > img{
         height: 22px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -149,6 +154,8 @@ defmodule MenuMobile do
 
       display: flex;
       flex-direction: column;
+
+      border-radius: 0;
 
       transition: all 0.5s ease;
       }
@@ -211,6 +218,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -289,6 +297,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -350,6 +360,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -428,6 +439,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -485,10 +498,13 @@ defmodule MenuMobile do
       flex-direction: row;
       justify-content: space-between;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -558,6 +574,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -619,6 +637,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -688,6 +707,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -749,6 +770,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -818,6 +840,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -879,6 +903,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
@@ -948,6 +973,8 @@ defmodule MenuMobile do
       display: flex;
       flex-direction: column;
 
+      border-radius: 0;
+
       transition: all 0.5s ease;
       }
       .mobileMenu > div{
@@ -1009,6 +1036,7 @@ defmodule MenuMobile do
       }
       .mobileMenuHead > img{
         height: 30px;
+        border-radius: 0;
       }
       .mobileMenu:hover > .mobileMenuHead{
         visibility: hidden;
