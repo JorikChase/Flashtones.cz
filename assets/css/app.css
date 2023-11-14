@@ -148,11 +148,9 @@ li{
     color: white;
     z-index: 5;
     position:absolute;
-    top: 180px;
     width: auto;
     max-width: 60%;
-    left: 60px;
-    padding: 60px;
+    padding: 10%;
   }
 }
 /*mobile*/

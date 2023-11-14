@@ -118,7 +118,6 @@ defmodule Nav do
         /* Button styles for toggling navigation */
         #navToggle {
           color: var(--White, #FFF);
-
           /* TopLine */
           font-family: Barlow;
           font-size: 13px;
@@ -143,6 +142,7 @@ defmodule Nav do
           height: 30px;
           padding: 5px 5px 5px 0;
           transition: transform 0.3s ease-in-out;
+          gap: 15px;
         }
         .navToggle{
           position: absolute;
@@ -150,7 +150,6 @@ defmodule Nav do
         .nav-logo{
           height: 30px;
           width: 30px;
-          margin-right: 15px;
           background-color: var(--flashtones-main, #D9B770);
 
           background-image: url(/images/ft/ft-logo.png);
@@ -178,7 +177,7 @@ defmodule Nav do
         }
     </style>
     <div class="navBg"></div>
-    <button id="navToggle"><span class="nav-logo"></span>My jsme FLASHTONES<img src="/images/icon/dropdown.svg"></button>
+    <button id="navToggle"><span class="nav-logo"></span>My jsme <img src="/images/ft/Flashtones.svg" style="border-radius: 0; height: 65%;"><img src="/images/icon/dropdown.svg"></button>
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
       <div class="navHero">

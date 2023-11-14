@@ -25,7 +25,7 @@ defmodule Hero do
 
       .hero-content {
           flex: 1;
-          padding: 60px;
+          padding: 10%;
           z-index: 1;
       }
 
