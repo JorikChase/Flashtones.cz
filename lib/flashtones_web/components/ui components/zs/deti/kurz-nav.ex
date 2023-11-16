@@ -7,19 +7,19 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/plavani/saturday" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+          <img src="/images/icon/kurz/pravidelné sobotní kurzy plavání.svg">
           <h4>Pravidelné sobotní kurzy plavání</h4>
           <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/summer" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/letní příměstský plavecký tábor.svg">
           <h4>Letní příměstské tábory</h4>
           <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/saturday" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/víkendové příměstské tábory plavání.svg">
           <h4>Víkendové příměstské tábory</h4>
           <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
@@ -39,7 +39,7 @@ defmodule KurzNav do
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/city-school" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/příměstský školní plavecký kurz.svg">
           <h4>Příměstský školní plavecký kurz</h4>
           <p>Nejedná se o pobytový kurz, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
@@ -64,7 +64,7 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/lyzovani/weekend" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+          <img src="/images/icon/kurz/víkendové kurzy snowboardingu a lyžování.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
         </a>
       </div>
@@ -80,11 +80,11 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/lyzovani/school" class="kurz-item">
-          <img src="/images/lyzovani/skolni-lyzarsky-kurz.svg">
+          <img src="/images/icon/kurz/školní lyžařský kurz.svg">
           <h4>Školní lyžařský kurz</h4>
         </a>
         <a href="/zs/lyzovani/bezky" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/kurz běžeckého lyžování.svg">
           <h4>Kurz běžeckého lyžování</h4>
         </a>
       </div>
@@ -96,11 +96,11 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/enviro/weekend" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+          <img src="/images/icon/kurz/víkendové příměstské tábory enviro.svg">
           <h4>Víkendové příměstské tábory</h4>
         </a>
         <a href="/zs/enviro/city" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/příměstské tábory zš enviro.svg">
           <h4>Příměstské tábory ZŠ Enviro</h4>
         </a>
         <a href="/zs/enviro/evp" class="kurz-item">
@@ -116,11 +116,11 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/enviro/svp" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+          <img src="/images/icon/kurz/škola v přírodě enviro.svg">
           <h4>Škola v přírodě ZŠ Enviro</h4>
         </a>
         <a href="/zs/enviro/tym" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+          <img src="/images/icon/kurz/škola v přírodě v týmu.svg">
           <h4>ZŠ V týmu</h4>
         </a>
       </div>

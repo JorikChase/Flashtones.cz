@@ -293,15 +293,15 @@ defmodule SectionToggle do
     <div class="Odsazeni">
     <h1 class="text-center py-8">NABÍDKA NAŠICH KURZŮ</h1>
     <div class="section-toggle">
-        <a href="#sectionA" class="active">PRO VEŘEJNOST</a>
-        <a href="#sectionB">PRO ŠKOLY</a>
+        <a href="#sectionA" class="active">PRO školy</a>
+        <a href="#sectionB">PRO veřejnost</a>
     </div>
 
     <section id="sectionA" class="hidden">
-      <KurzNav.enviroVerejnost />
+      <KurzNav.enviroSkola />
     </section>
     <section id="sectionB" class="hidden">
-      <KurzNav.enviroSkola />
+      <KurzNav.enviroVerejnost />
     </section>
     </div>
     <script>
