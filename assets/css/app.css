@@ -733,6 +733,24 @@ form{
     width: 80%;
   }
 }
+/*nav item*/
+
+.nav-item{
+  margin-top: 30px;
+  border-radius: 25px;
+  padding: 10px 30px;
+  color: var(--Black, #000);
+  text-align: center;
+
+  /* Prepinac */
+  font-family: Barlow;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 /*kurz cta*/
 .detail-cta{
   position: fixed;

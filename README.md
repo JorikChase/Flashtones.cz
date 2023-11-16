@@ -517,10 +517,10 @@ ux:
  zsprodeti
  velikost nadpisu na mobilu
  //mrizka na mobilu
- 	ikony
+ 	//ikony
 
-	about section toggle
-		historie
-		o spolecnosti
+	//about section toggle
+	//	historie
+	//	o spolecnosti
 
 	//footer

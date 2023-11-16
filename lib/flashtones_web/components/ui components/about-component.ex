@@ -15,7 +15,7 @@ defmodule About do
         <div class="nav-item p-4 rounded-lg" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.flashtones />
       </div>
 
@@ -308,11 +308,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.deti />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -357,7 +357,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -502,7 +502,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -601,11 +601,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.plavani />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -650,7 +650,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -795,7 +795,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -894,13 +894,13 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <p>
         Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!
         </p>
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -945,7 +945,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -1090,7 +1090,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -1189,11 +1189,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.enviro />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -1238,7 +1238,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -1383,7 +1383,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -1482,11 +1482,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.vylety />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -1531,7 +1531,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -1676,7 +1676,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -1775,11 +1775,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.doma />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -1824,7 +1824,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -1969,7 +1969,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -2068,11 +2068,11 @@ defmodule About do
         <div class="nav-item p-4 rounded" onclick="showSection(4)">O SPOLEČNOSTI</div>
       </div>
       <!-- Sections -->
-      <div id="section1" class="hidden">
+      <div id="section1" class="hidden odsazeni">
         <General.academy />
       </div>
 
-      <div id="section2" class="hidden">
+      <div id="section2" class="hidden odsazeni">
       <p>Začátek příběhu se datuje do roku 2010. Tehdy čerství absolventi Omar s Kamilem na Fakultě tělesné výchovy a sportu UK v Praze zakládají kamenný obchod s e-shopem zvaný Activejoy. Obchod se specializuje na segment netradičních sportů a také jako jeden z prvních v ČR distribuuje americkou značku sportovního oblečení Under Armour. Pod hlavičkou Activejoy začíná o pár měsíců později také s pořádáním prvních sportovních akcí.</p>
         <br>
         <p>Kamenný obchod po roce a půl fungování ukončí svou činnost a nadále zůstává pouze obchodem internetovým. Kamil rajzuje po světě a Omar, jakožto správný plavecký trenér, nechává postupně Activejoy plavat. Tou dobou již ale zrají první myšlenky na založení vlastní značky oblečení.</p>
@@ -2117,7 +2117,7 @@ defmodule About do
           Společnost Flashtones se podílí na osvětové kampani ohledně endometriózy a společně s Endotalks vytváří ponožky pro tzv. Endomerch. Vytváří „Dobroponožky“ pro festival Dobrovol, jehož výtěžek je určen na pořádání letního tábora pro děti a mladé lidi s mentálním a kombinovaným postižením a na provoz dobrovonického centra Diakonie Rolnička. Podporuje iniciativu „Ponožkové výzvy,“ která každoročně 21. března oslavuje lidskou jedinečnost a podporuje lidi s Downovým syndromem. Vyrobila 1 000 párů v žlutomodré kombinaci a zisk zasílá na pomoc Ukrajině.</p>
       </div>
 
-      <div id="section3" class="hidden">
+      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -2262,7 +2262,7 @@ defmodule About do
           </div>
         </div>
       </div>
-      <div id="section4" class="hidden">
+      <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
