@@ -8,8 +8,9 @@ defmodule IconRow do
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          background: rgba(255, 255, 255, 0.05);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+          background: var(--deti-light);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.01);
+
           gap: 30px;
         }
         .icon-row_component > p{
@@ -26,7 +27,7 @@ defmodule IconRow do
           flex-direction: row;
           justify-content: space-between;
           align-items: flex-start;
-          padding-top: 30px;
+          padding: 30px;
         }
         .icon-row-item{
           display: flex;
@@ -60,7 +61,7 @@ defmodule IconRow do
           }
         }
       </style>
-      <div class="icon-row_component Odsazeni">
+      <div class="icon-row_component odsazeni">
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/icon/boy.svg">

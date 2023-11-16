@@ -169,8 +169,8 @@ defmodule Zustanme do
         Váš e-mail
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
-          <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
+          <span class="inline-button"><input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--vylety-link);">
         </form>

@@ -3,6 +3,14 @@ defmodule Navlinks do
 
   def general(assigns) do
     ~H"""
+    <style>
+    .navLinks {
+      gap: 0;
+    }
+    .navLinksColumn {
+      gap: 0;
+    }
+    </style>
     <div class="navLinks">
         <div class="navLinksColumn">
           <a class="navLink" href="/zs">
@@ -162,19 +170,26 @@ defmodule Navlinks do
   def deti(assigns) do
     ~H"""
     <style>
-    .navLinks-wrap{
+    .footerLink{
+      display: flex;
+      flex-direction: row;
+
+    }
+    .footerLinks-wrap{
       display: flex;
       flex-direction: column;
       gap: 90px;
     }
-      .navLinks{
+      .footerLinks{
         height: auto;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         gap: 90px;
       }
-      .navLinksColumn{
+      .footerLinksColumn{
+        display: flex;
+        flex-direction: column;
         gap: 90px;
       }
       .copyright{
@@ -206,35 +221,35 @@ defmodule Navlinks do
         color: var(--academy-link);
       }
     </style>
-    <div class="navLinks-wrap odsazeni">
+    <div class="footerLinks-wrap odsazeni">
     <h2>Projekty zš pro děti</h2>
-    <div class="navLinks">
-        <div class="navLinksColumn">
-          <a class="navLink plavani-hover-link" href="/zs/plavani">
+    <div class="footerLinks">
+        <div class="footerLinksColumn">
+          <a class="footerLink plavani-hover-link" href="/zs/plavani">
             <h3>Plavání</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink vylety-hover-link" href="/zs/vylety">
+          <a class="footerLink vylety-hover-link" href="/zs/vylety">
             <h3>Výlety</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
         </div>
-        <div class="navLinksColumn">
-          <a class="navLink lyzovani-hover-link" href="/zs/lyzovani">
+        <div class="footerLinksColumn">
+          <a class="footerLink lyzovani-hover-link" href="/zs/lyzovani">
             <h3>Lyžování</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink doma-hover-link" href="/zs/doma">
+          <a class="footerLink doma-hover-link" href="/zs/doma">
             <h3>Domácí výuka</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
         </div>
-        <div class="navLinksColumn">
-          <a class="navLink enviro-hover-link" href="/zs/enviro">
+        <div class="footerLinksColumn">
+          <a class="footerLink enviro-hover-link" href="/zs/enviro">
             <h3>Enviro</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink academy-hover-link" href="/zs/academy">
+          <a class="footerLink academy-hover-link" href="/zs/academy">
             <h3>Academy</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>

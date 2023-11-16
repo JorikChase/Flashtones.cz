@@ -13,6 +13,9 @@ defmodule Rekli do
         justify-content: space-between;
         gap: 30px;
       }
+      .rekli svg {
+      border-radius: 0;
+      }
       .ratings-link{
         align-self: flex-end;
     }

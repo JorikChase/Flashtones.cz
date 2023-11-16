@@ -261,7 +261,7 @@ defmodule Hero do
 
     <style>
         .carousel {
-          background-image: url("/images/deti/deti-bg.jpeg");
+          background-image: url("/images/deti/deti-insta.jpeg");
           width: 100%;
           aspect-ratio: 16/9;
           overflow: hidden;
@@ -270,6 +270,8 @@ defmodule Hero do
           flex-direction: row;
           justify-content: center;
           align-content: flex-start;
+          background-repeat: no-repeat;
+          background-size: cover;
         }
 
         .carousel-item {

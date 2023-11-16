@@ -173,11 +173,11 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button" href="/zs/about">
+            <a class="inline-button deti-link" href="/zs/about">
               O projektu
               <img src="/images/icon/arrow-right-deti.svg">
             </a>
-            <a class="inline-button" href="/zs/about#persons">
+            <a class="inline-button deti-link" href="/zs/about#persons">
               Naši lidé
               <img src="/images/icon/arrow-right-deti.svg">
             </a>

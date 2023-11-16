@@ -524,3 +524,5 @@ ux:
 	//	o spolecnosti
 
 	//footer
+	kurz-nav texty
+	kurz nav sipky v barvach

@@ -66,6 +66,27 @@
 .plavani-link{
   color: var(--plavani-link);
 }
+.lyzovani-link{
+  color: var(--lyzovani-link);
+}
+.enviro-link{
+  color: var(--enviro-link);
+}
+.vylety-link{
+  color: var(--vylety-link);
+}
+.doma-link{
+  color: var(--doma-link);
+}
+.academy-link{
+  color: var(--academy-link);
+}
+.deti-link{
+  color: var(--deti-link);
+}
+.ft-link{
+  color: var(--ft-link);
+}
 /*defs*/
 h1{
   font-family: Barlow;
@@ -143,6 +164,11 @@ li{
   list-style: circle;
   margin-left: 30px;
 }
+input[type=text]{
+  border: var(--deti-link) 2px solid;
+  border-radius: 10px;
+  font-weight: bold;
+}
 @media (orientation: landscape) {
   #h1ro{
     color: white;
@@ -200,8 +226,15 @@ li{
 }
 
 /*components*/
+.perex{
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 145.833% */
+}
 .odsazeni{
-  padding: 120px 10%!important;
+  padding: 90px 10%!important;
 }
 .Odsazeni{
   margin: 90px 10% 90px 10%!important;
@@ -298,6 +331,7 @@ li{
   align-items: center;
   flex-shrink: 0;
   transition: all 0.5s ease;
+  gap: 15px;
 }
 .inline-button:hover{
   border-radius: 25px;
@@ -621,7 +655,7 @@ form{
   gap: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
