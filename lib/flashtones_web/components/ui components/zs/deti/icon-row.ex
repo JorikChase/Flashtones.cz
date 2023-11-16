@@ -77,7 +77,7 @@ defmodule IconRow do
           </div>
           <div class="icon-row-item">
             <img src="/images/icon/lektor.svg">
-            <p>Více než 180 zkušených instruktorů a lektorů</p>
+            <p>Více než 180 zkušených instruktorů</p>
           </div>
         </div>
       </div>

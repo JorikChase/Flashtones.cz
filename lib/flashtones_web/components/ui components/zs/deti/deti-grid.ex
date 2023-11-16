@@ -207,7 +207,7 @@ defmodule DetiGrid do
       }
     </style>
     <div class="grid-container odsazeni" id="static-grid">
-    <p class="text-center perex">Připravili jsme pro vás širokou nabídku kurzů jak pro školy, tak i pro veřejnost. Lorem ipsum dolor sit amet.</p>
+    <p class="text-center perex">Připravili jsme pro vás širokou nabídku kurzů jak pro školy, tak i pro veřejnost.</p>
     <br>
     <div class="grid">
       <a href="/zs/plavani" class="menu-plavani" >

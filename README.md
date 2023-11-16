@@ -526,3 +526,10 @@ ux:
 	//footer
 	kurz-nav texty
 	kurz nav sipky v barvach
+	kurz-item:
+	<div class="section-toggle" style="width: fit-content;">
+          <a href="#course-item" class="inline-button z-10 head-button" style="width: auto;">Nabídka kurzů</a>
+      </div>
+
+	UX:
+	
