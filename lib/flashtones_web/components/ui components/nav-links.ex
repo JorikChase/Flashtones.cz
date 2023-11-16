@@ -187,36 +187,54 @@ defmodule Navlinks do
         gap: 15px;
         border-radius: 0;
       }
+      .plavani-hover-link:hover > * {
+        color: var(--plavani-link);
+      }
+      .lyzovani-hover-link:hover > * {
+        color: var(--lyzovani-link);
+      }
+      .enviro-hover-link:hover > * {
+        color: var(--enviro-link);
+      }
+      .vylety-hover-link:hover > * {
+        color: var(--vylety-link);
+      }
+      .doma-hover-link:hover > * {
+        color: var(--doma-link);
+      }
+      .academy-hover-link:hover > * {
+        color: var(--academy-link);
+      }
     </style>
     <div class="navLinks-wrap odsazeni">
     <h2>Projekty zš pro děti</h2>
     <div class="navLinks">
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs">
+          <a class="navLink plavani-hover-link" href="/zs/plavani">
             <h3>Plavání</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/zs">
+          <a class="navLink vylety-hover-link" href="/zs/vylety">
             <h3>Výlety</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/produkty">
+          <a class="navLink lyzovani-hover-link" href="/zs/lyzovani">
             <h3>Lyžování</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/produkty">
+          <a class="navLink doma-hover-link" href="/zs/doma">
             <h3>Domácí výuka</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/studio">
+          <a class="navLink enviro-hover-link" href="/zs/enviro">
             <h3>Enviro</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
-          <a class="navLink" href="/studio">
+          <a class="navLink academy-hover-link" href="/zs/academy">
             <h3>Academy</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>

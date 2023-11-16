@@ -9,7 +9,7 @@ defmodule IconRow do
           flex-direction: column;
           align-items: flex-start;
           background: rgba(255, 255, 255, 0.05);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
           gap: 30px;
         }
         .icon-row_component > p{
@@ -90,7 +90,7 @@ defmodule IconRow do
           flex-direction: column;
           align-items: flex-start;
           background: rgba(255, 255, 255, 0.05);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
           gap: 30px;
         }
         .icon-row_component > p{
@@ -181,7 +181,7 @@ defmodule IconRow do
           flex-direction: column;
           align-items: flex-start;
           background: rgba(255, 255, 255, 0.05);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
           gap: 30px;
         }
         .icon-row_component > p{

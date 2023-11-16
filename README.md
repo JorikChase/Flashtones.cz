@@ -513,7 +513,7 @@ ux:
  //vice informaci v kurz itemech
  //zmensit section toggle button
  //opravit zakulacene rohy menu mobile
- opravit obrazky optimalizovat
+ #######opravit obrazky optimalizovat
  zsprodeti
  velikost nadpisu na mobilu
  //mrizka na mobilu
