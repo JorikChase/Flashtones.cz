@@ -110,8 +110,8 @@ defmodule FlashtonesWeb.DetiReference do
       </ul></div>
       <Kdo.kdoZs />
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.deti />
+      <Footer.deti />
     """
   end
 end

@@ -9,8 +9,8 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
       <HeroSmall.detiContacts />
       <Kontakt.main />
       <Kontakt.form />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.deti />
+      <Footer.deti />
     """
   end
 

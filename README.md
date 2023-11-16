@@ -507,6 +507,7 @@ ux:
  /rekli o nas
  -- 0.5
  /zustanme v kontaktu
+ \
  -- 0.5
 ////////////////////////////////////////////////////////////////////////////////
  //vice informaci v kurz itemech
@@ -516,3 +517,10 @@ ux:
  zsprodeti
  velikost nadpisu na mobilu
  //mrizka na mobilu
+ 	ikony
+
+	about section toggle
+		historie
+		o spolecnosti
+
+	//footer

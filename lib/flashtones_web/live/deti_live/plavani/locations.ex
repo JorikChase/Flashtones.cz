@@ -404,8 +404,8 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
         });
         </script>
       </div>
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.plavani />
+      <Footer.deti />
     """
   end
 end

@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.DetiAboutLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.detiAbout />
       <About.deti />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.deti />
+      <Footer.deti />
     """
   end
 end

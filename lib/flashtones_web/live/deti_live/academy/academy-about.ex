@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.AcademyAboutLive do
       <MenuPc.menuAcademyPc />
       <HeroSmall.detiAbout />
       <About.academy />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.academy />
+      <Footer.deti />
     """
   end
 end

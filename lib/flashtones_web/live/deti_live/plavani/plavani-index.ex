@@ -44,8 +44,8 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.plavani />
+      <Footer.deti />
     """
   end
 end

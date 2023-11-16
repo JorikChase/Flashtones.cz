@@ -17,8 +17,8 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <KurzNav.vyletySkola />
       </div>
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.enviro />
+      <Footer.deti />
     """
   end
 

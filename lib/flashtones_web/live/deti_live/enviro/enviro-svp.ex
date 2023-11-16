@@ -16,8 +16,8 @@ defmodule FlashtonesWeb.EnviroSvpLive do
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.enviro />
+      <Footer.deti />
     """
   end
 

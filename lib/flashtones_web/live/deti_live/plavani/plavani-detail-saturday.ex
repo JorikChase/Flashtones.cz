@@ -17,8 +17,8 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       </div>
       <Rekli.rekli />
       <SectionToggle.kurzNavPlavani />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.plavani />
+      <Footer.deti />
     """
   end
 

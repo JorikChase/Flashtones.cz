@@ -16,8 +16,8 @@ defmodule FlashtonesWeb.VyletyKutnaHoraLive do
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.vylety />
+      <Footer.deti />
     """
   end
 

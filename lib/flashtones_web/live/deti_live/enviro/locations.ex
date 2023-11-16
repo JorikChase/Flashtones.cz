@@ -432,8 +432,8 @@ defmodule FlashtonesWeb.LocationsEnviroLive do
         });
         </script>
       </div>
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.enviro />
+      <Footer.deti />
     """
   end
 end

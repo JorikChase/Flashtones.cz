@@ -353,8 +353,8 @@ defmodule FlashtonesWeb.LocationsLyzovaniLive do
         });
         </script>
       </div>
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.lyzovani />
+      <Footer.deti />
     """
   end
 end

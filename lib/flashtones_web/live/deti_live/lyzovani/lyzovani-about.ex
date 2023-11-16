@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.LyzovaniAboutLive do
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.detiAbout />
       <About.lyzovani />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.lyzovani />
+      <Footer.deti />
     """
   end
 end

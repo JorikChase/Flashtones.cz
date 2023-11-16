@@ -27,8 +27,8 @@ defmodule FlashtonesWeb.LyzovaniDetailBezkyLive do
       </div>
       <Rekli.rekli />
       <SectionToggle.kurzNavLyzovani />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.lyzovani />
+      <Footer.deti />
     """
   end
 

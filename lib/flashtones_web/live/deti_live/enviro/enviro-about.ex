@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.EnviroAboutLive do
       <MenuPc.menuEnviroPc />
       <HeroSmall.detiAbout />
       <About.enviro />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.enviro />
+      <Footer.deti />
     """
   end
 end

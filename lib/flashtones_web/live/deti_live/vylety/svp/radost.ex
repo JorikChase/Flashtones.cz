@@ -17,7 +17,7 @@ defmodule FlashtonesWeb.VyletyRadostLive do
       </div>
       <Rekli.rekli />
       <Zustanme.zustanme />
-      <Footer.footer />
+      <Footer.deti />
     """
   end
 

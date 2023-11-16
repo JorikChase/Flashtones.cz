@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.PlavaniAboutLive do
       <MenuPc.menuPlavaniPc />
       <HeroSmall.detiAbout />
       <About.plavani />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.plavani />
+      <Footer.deti />
     """
   end
 end

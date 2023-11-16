@@ -16,8 +16,8 @@ defmodule FlashtonesWeb.VyletyMajLive do
       <DetailLokace.detailLokace />
       </div>
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.vylety />
+      <Footer.deti />
     """
   end
 

@@ -8,8 +8,8 @@ defmodule FlashtonesWeb.VyletyAboutLive do
       <MenuPc.menuVyletyPc />
       <HeroSmall.detiAbout />
       <About.vylety />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.vylety />
+      <Footer.deti />
     """
   end
 end

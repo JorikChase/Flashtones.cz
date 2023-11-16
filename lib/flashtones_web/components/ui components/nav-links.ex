@@ -159,4 +159,74 @@ defmodule Navlinks do
       </div>
     """
   end
+  def deti(assigns) do
+    ~H"""
+    <style>
+    .navLinks-wrap{
+      display: flex;
+      flex-direction: column;
+      gap: 90px;
+    }
+      .navLinks{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 90px;
+      }
+      .navLinksColumn{
+        gap: 90px;
+      }
+      .copyright{
+        color: #D9B770;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 156.25% */
+        gap: 15px;
+        border-radius: 0;
+      }
+    </style>
+    <div class="navLinks-wrap odsazeni">
+    <h2>Projekty zš pro děti</h2>
+    <div class="navLinks">
+        <div class="navLinksColumn">
+          <a class="navLink" href="/zs">
+            <h3>Plavání</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/zs">
+            <h3>Výlety</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+        </div>
+        <div class="navLinksColumn">
+          <a class="navLink" href="/produkty">
+            <h3>Lyžování</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/produkty">
+            <h3>Domácí výuka</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+        </div>
+        <div class="navLinksColumn">
+          <a class="navLink" href="/studio">
+            <h3>Enviro</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+          <a class="navLink" href="/studio">
+            <h3>Academy</h3>
+            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+          </a>
+      </div>
+      </div>
+      <span class="noBreak copyright">
+      Copyright © 2023
+      <img src="/images/ft/Flashtones.svg" />
+      </span>
+      </div>
+    """
+  end
 end

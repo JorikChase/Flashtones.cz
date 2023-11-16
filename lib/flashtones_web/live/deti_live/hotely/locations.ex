@@ -798,8 +798,8 @@ defmodule FlashtonesWeb.LocationsLive do
         });
         </script>
       </div>
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.deti />
+      <Footer.deti />
     """
   end
 end

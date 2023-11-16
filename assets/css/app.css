@@ -508,6 +508,72 @@ li{
     margin-bottom: 30px;
   }
 }
+/*zustanme*/
+.zustanme{
+  width: auto;
+  background: #f4ebd764;
+  flex-wrap: wrap;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+.zustanme-text{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-content: center;
+  gap: 30px;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.05);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.zustanme-button{
+  align-self: flex-end;
+}
+@media (orientation:portrait){
+  .zustanme{
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+  }
+  .zustanme-text{
+  width: 100%;
+}
+}
+
+.socky-icons {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  height:100%;
+  padding: 15px;
+  position:relative;
+}
+
+.socky-icons a {
+  width: 120px;
+  height: 120px;
+  fill: currentColor;
+}
+.socky-icons a img{
+  width: 120px;
+  height: 120px;
+  fill: currentColor;
+}
+@media (orientation:portrait){
+  .socky-icons {
+  }
+}
 /* head-small*/
 
 .hero-small{

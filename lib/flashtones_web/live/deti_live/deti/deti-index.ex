@@ -44,8 +44,8 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <IconRow.iconRowDeti />
       <Kdo.kdoZs />
       <Rekli.rekli />
-      <Zustanme.zustanme />
-      <Footer.footer />
+      <Zustanme.deti />
+      <Footer.deti />
     """
   end
 end
