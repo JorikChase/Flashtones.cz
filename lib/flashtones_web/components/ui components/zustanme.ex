@@ -20,15 +20,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -52,15 +50,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--deti-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -84,15 +80,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--plavani-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -116,15 +110,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--lyzovani-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -148,15 +140,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--enviro-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -180,15 +170,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--vylety-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -212,15 +200,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--doma-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+      <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """
@@ -244,15 +230,13 @@ defmodule Zustanme do
         </b></small>
           <input type="text" id="email" name="fname" value="@"><br>
           <input type="checkbox" id="subscribe" name="subscribe" value="Agreed">
-          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label><br>
+          <label for="subscribe"> <small>Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--academy-link);">
         </form>
       </div>
       <div class="socky-icons">
-          <a href="https://www.facebook.com/flashtones/" target="_blank"><img src="/images/icon/fb.svg"></a>
-          <a href="https://www.instagram.com/flashtonescz/?ref=themilsource.com" target="_blank"><img src="/images/icon/insta.png"></a>
-          <a href="https://www.youtube.com/@zsprodeti5929" target="_blank"><img src="/images/icon/yt.svg"></a>
+          <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
     """

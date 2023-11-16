@@ -8,7 +8,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8" style="margin-top: 30px;">
+      <div class="flex justify-center mb-8 toggle-wrap" style="margin-top: 30px;">
         <div class="nav-item p-4 mr-4 rounded-lg" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded-lg" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded-lg" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -301,7 +301,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -594,7 +594,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -887,7 +887,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -1182,7 +1182,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -1475,7 +1475,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -1768,7 +1768,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
@@ -2061,7 +2061,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8">
+      <div class="flex justify-center mb-8 toggle-wrap">
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(1)">O NÁS</div>
         <div class="nav-item p-4 mr-4 rounded" onclick="showSection(2)">HISTORIE</div>
         <div class="nav-item p-4 rounded" onclick="showSection(3)">NAŠI LIDÉ</div>
