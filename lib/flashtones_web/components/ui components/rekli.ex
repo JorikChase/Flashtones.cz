@@ -12,6 +12,7 @@ defmodule Rekli do
         align-items: flex-start;
         justify-content: space-between;
         gap: 30px;
+        height: 60vh;
       }
       .rekli svg {
       border-radius: 0;
