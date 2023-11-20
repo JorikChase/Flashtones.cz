@@ -12,12 +12,12 @@ defmodule FlashtonesWeb.DetiIndexLive do
         flex-direction: column;
         justify-content: space-evenly;
         background-position: fixed;
-        background: linear-gradient(1deg, #faf0cd, #cbd0f9, #c6f9c9, #f8c6c6, #f9e3cb, #ffffff3c);
+        background: radial-gradient(circle, #cceeee, #d8e0fe, #cee8f4, #c8f6d1, #f7dec8, #f7e3bb, #f6c9c9);
         background-size: 400% 400%;
 
-        -webkit-animation: MainGradient 20s ease-in-out infinite;
-        -moz-animation: MainGradient 20s ease-in-out infinite;
-        animation: MainGradient 20s ease-in-out infinite;
+        -webkit-animation: MainGradient 30s ease-in-out infinite;
+        -moz-animation: MainGradient 30s ease-in-out infinite;
+        animation: MainGradient 30s ease-in-out infinite;
         }
         @-webkit-keyframes MainGradient {
         0%{background-position:0% 23%}
@@ -38,7 +38,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <Hero.detiHero />
+      <!--<Hero.detiHero />-->
       <DetiGrid.staticGrid />
       <!--<Aktuality.aktuality />-->
       <IconRow.iconRowDeti />
