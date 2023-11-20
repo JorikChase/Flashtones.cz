@@ -29,9 +29,6 @@ defmodule DetiGrid do
         align-items: center;
 
       }
-      .deti-grid > a:hover{
-        filter: blur(1px);
-      }
       .deti-grid > a > span > h3{
         margin: auto;
         color: var(--White, #FFF);
@@ -125,6 +122,30 @@ defmodule DetiGrid do
   def staticGrid(assigns) do
     ~H"""
     <style>
+    .grid-container{
+      background: radial-gradient(circle, #9bebeb, #9eb0f4, #a4d7ee, #a8f5b7, #f4c8a2, #edd19b, #ee9797);
+        background-size: 400% 400%;
+
+        -webkit-animation: MainGradient 30s ease-in-out infinite;
+        -moz-animation: MainGradient 30s ease-in-out infinite;
+        animation: MainGradient 30s ease-in-out infinite;
+        }
+        @-webkit-keyframes MainGradient {
+        0%{background-position:0% 23%}
+        50%{background-position:100% 78%}
+        100%{background-position:0% 23%}
+        }
+        @-moz-keyframes MainGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+        }
+        @keyframes MainGradient {
+            0%{background-position:0% 23%}
+            50%{background-position:100% 78%}
+            100%{background-position:0% 23%}
+
+    }
       .grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -132,6 +153,7 @@ defmodule DetiGrid do
         gap: 30px;
         width: 100%;
         height: 100%;
+
       }
       .grid > a{
         border: 1px solid rgba(255, 255, 255, 0.8);
@@ -149,9 +171,6 @@ defmodule DetiGrid do
         justify-content: center;
         align-items: center;
 
-      }
-      .grid > a:hover{
-        filter: blur(1px);
       }
       .grid > a > span > h3{
         margin: auto;
@@ -207,7 +226,7 @@ defmodule DetiGrid do
       }
     </style>
     <div class="grid-container odsazeni" id="static-grid">
-    <p class="text-center perex">Připravili jsme pro vás širokou nabídku kurzů jak pro školy, tak i pro veřejnost.</p>
+    <br>
     <br>
     <div class="grid">
       <a href="/zs/plavani" class="menu-plavani" >
