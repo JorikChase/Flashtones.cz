@@ -12,7 +12,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
         flex-direction: column;
         justify-content: space-evenly;
         background-position: fixed;
-        background: linear-gradient(1deg, #faf0cd, #cbd0f9, #c6f9c9, #f8c6c6, #f9e3cb, #ffffff3c);
+        background: linear-gradient(1deg, #a3caa1, #9adaa7, #c6f9c9, #daf8c6, #e0f9cb, #bbe495c9);
         background-size: 400% 400%;
 
         -webkit-animation: MainGradient 20s ease-in-out infinite;
