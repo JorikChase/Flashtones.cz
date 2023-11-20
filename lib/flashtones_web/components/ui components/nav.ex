@@ -154,7 +154,7 @@ defmodule Nav do
 
           background-image: url(/images/ft/ft-logo.png);
           background-position: center;
-          background-size: contain;
+          background-size: 45%;
           background-repeat: no-repeat;
           border-radius: 0;
         }
