@@ -145,14 +145,14 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
       <div class="produkty">
       <div class="categories produkty-nav">
           <ul>
-              <li class="active">Plavání</li>
+              <li class="active">Plavání pro školy</li>
               <li>Plavání pro veřejnost</li>
           </ul>
       </div>
       </div>
       <div class="gallery odsazeni">
-          <div class="category" data-category="Plavání">
-          <h2>Plavání</h2>
+          <div class="category" data-category="Plavání pro školy">
+          <h2>Plavání pro školy</h2>
               <div class="product">
                     <a href="###">
                       <img src="/images/hotely/energetik.jpg">
