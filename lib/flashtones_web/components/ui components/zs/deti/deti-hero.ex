@@ -131,6 +131,9 @@ defmodule Hero do
           }
 
         }
+        #h1ro{
+          color: rgb(253,78,13);
+        }
 
           .hero{
             margin-bottom: 30px;
@@ -384,9 +387,6 @@ defmodule Hero do
       <div class="relative">
         <div class="carousel">
           <img src="/images/doma/doma-head.jpeg" alt="Image 1" class="carousel-item" />
-          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
-          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
-          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
         </div>
       </div>
     </div>
@@ -398,6 +398,10 @@ defmodule Hero do
             height: 90vh;
           }
       }
+      #h1ro{
+          color: rgb(254,124,1);
+        }
+
 
           .carousel {
             width: 100%;
@@ -958,6 +962,9 @@ defmodule Hero do
             aspect-ratio: auto;
             height: 90vh;
           }
+      }
+      #h1ro{
+        color: rgb(255,194,4);
       }
 
           .carousel {
