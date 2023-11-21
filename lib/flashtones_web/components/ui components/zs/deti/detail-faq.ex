@@ -5,9 +5,31 @@ defmodule DetailFaq do
     ~H"""
     <style>
       .question-box {
+        width: 60vw;
         cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
       }
-
+      .question-box-row-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+      .self-end{
+        align-self: flex-end;
+      }
       .answer {
         max-height: 0;
         overflow: hidden;
@@ -17,32 +39,61 @@ defmodule DetailFaq do
       .active .answer {
         max-height: 500px; /* Adjust the maximum height as needed */
       }
+      .question-box img{
+        width: 45px;
+        height: 45px;
+      }
+      .container{}
     </style>
     <div class="container px-4 py-8">
 
       <div class="w-full md:w-1/2">
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/terminy.svg">Termíny kurzu</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <h3 class="font-semibold">Termíny kurzu</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/sportovni.svg">Doplňkový sportovní program</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/sportovni.svg">
+          <h3 class="font-semibold">Doplňkový sportovní program</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 2.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/zabava.svg">Zábavní program</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/zabava.svg">
+          <h3 class="font-semibold">Zábavní program</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/stravovani.svg">Stravování</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <h3 class="font-semibold">Stravování</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/bus.svg">Doprava</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/bus.svg">
+          <h3 class="font-semibold">Doprava</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/prispevek.svg">Příspěvek</h3>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row">
+          <img src="/images/icon/prispevek.svg">
+          <h3 class="font-semibold">Příspěvek</h3>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
       </div>
@@ -69,6 +120,7 @@ defmodule DetailFaq do
     <style>
       .question-box {
         cursor: pointer;
+        border-radius: 15px;
       }
 
       .answer {
@@ -197,41 +249,42 @@ defmodule DetailFaq do
     <style>
       .question-box {
         cursor: pointer;
+        border-radius: 15px;
       }
 
       .answer {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s ease-in-out;
+        border-radius: 15px;
       }
-
       .active .answer {
         max-height: 500px; /* Adjust the maximum height as needed */
       }
     </style>
 
       <div class="w-full md:w-2/3 mx-auto mb-8">
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/historie.svg">Historie obce</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/vzbavenost.svg">Občanská vybavenost</h3>
           <p class="answer mt-2">Answer to Question 2.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/pin.svg">Okolí</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/stravovani.svg">Jídlo</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/priroda.svg">Příroda</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
-        <div class="question-box p-4 bg-white rounded shadow mb-2">
+        <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/skola.svg">Výlety</h3>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>

@@ -22,6 +22,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
+        <div class="course-wrap">
         <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
         <br>
         <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
@@ -41,6 +42,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def plavaniCity(assigns) do
@@ -64,6 +66,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
+        <div class="course-wrap">
         <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
         <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
 
@@ -82,6 +85,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def plavaniPre(assigns) do
@@ -105,6 +109,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
+        <div class="course-wrap">
         <h2>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h2>
         <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělí do středy nebo od středy do pátku. Případně v pětidenní verzi. Žáci absolvují v průběhu tří dnů celkem pět šedesátiminutových vyučovacích lekcí plavání, dále se účastní tří devadesátiminutových bloků orientovaných na hry v přírodě a tradiční i netradiční hry s cílem rozvoje hrubé i jemné motoriky. Každý večer probíhá večerní zábavní program zahrnující stolní, hudební a výtvarné hry či dětskou diskotéku. Kurz lze absolvovat i v pětidenním formátu a pokud to umožňuje vzdálenost, i v příměstské podobě.</p>
         <h3>Jak to probíhá</h3>
@@ -116,6 +121,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def plavaniSaturday(assigns) do
@@ -139,7 +145,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="odsazeni ">
+        <div class="odsazeni course-wrap">
         <h2>PRAVIDELNÉ SOBOTNÍ KURZY PLAVÁNÍ</h2>
         <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Pravidelné kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.
         <br>
@@ -187,6 +193,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
+        <div class="course-wrap">
         <h2>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h2>
         <p><bold>Je unikátní formou školy v přírodě s plaváním</bold>, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou <bold>polovinu povinné plavecké výuky</bold>, která ji díky Opatření v souladu s 4 odst. zákona č. 561/2004 Sb. Školského zákona řadí mezi povinné výukové postupy. Dále se žáci účastní celkem pěti devadesátiminutových doplňkových sportovních programů a pěti stejně dlouhých zábavních večerních programů.</p>
         <h3>Jak to probíhá</h3>
@@ -201,6 +208,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        </div>
     """
   end
   def plavaniCitySummer(assigns) do
@@ -224,7 +232,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="odsazeni ">
+        <div class="odsazeni course-wrap">
         <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
         Probíhají v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Olšanka na Praze 3, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem. Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
@@ -246,6 +254,7 @@ defmodule KurzDetail do
   end
   def lites(assigns) do
     ~H"""
+      <div class="course-wrap">
         <h2>RS LITES</h2>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
@@ -261,10 +270,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+      </div>
     """
   end
   def maj(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>RS Máj</h2>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
@@ -280,10 +291,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def lubenec(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>RS LUBENEC</h2>
         <p>
         RS Lubenec se nachází mimo civilizaci na kopci nad městečkem Lubenec, které leží na spojnici mezi Prahou (cca. 100 km) a Karlovými Vary (cca. 35 km). Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
@@ -301,10 +314,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def radost(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>CHATA RADOST</h2>
         <p>
         Horská chata RADOST je rekreační areál uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Ubytování je zajištěno v hlavní budově s s třinácti pokoji s 52 lůžky a osmi dřevěných, celoročně obyvatelných chatkách. Nejbližší okolí nabízí pestré využití volného času, především díky překrásné přírodě a dechberoucím vyhlídkám. ZŠ PRO DĚTI v objektu začalo pořádat své kurzy a školy v přírodě v roce 2021. Od té doby zde proběhlo již několik kurzů ZŠ Lyžování, jarních kurzů ZŠ Enviro a škol v přírodě. Děti se mohou seznámit s hospodářskými zvířaty přímo v areálu pozemku. V blízkém okolí je možné navštívit oboru s daňky a divokými prasaty, vrch Špičák s překrásným výhledem do okolí nebo farmu se zvířaty.
@@ -322,10 +337,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def pramen(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>HOTEL HORNÍ PRAMEN</h2>
         <p>
         Hotel Horní Pramen se nachází na kouzelném místě u lesa s dechberoucím výhledem na hory a údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
@@ -335,10 +352,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def plesivka(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>CHATA PLEŠIVKA</h2>
         <p>
         Chata Plešivka se hodí zejména pro intimní jednotřídní pobyty. Kapacita 24 osob je ideální na školu v přírodě především pro malotřídky. Kromě malého hřiště přímo u chaty se děti vyřádí na hřišti v Abertamech jen kousek od ubytování, do lesa je to pár kroků. Pokud s sebou povezete sportovní vybavení, bude vám k dispozici uzamykatelný přístřešek na zahradě.
@@ -354,10 +373,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def jelenovska(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>HOTEL JELENOVSKÁ</h2>
         <p>
         Hotel Jelenovská se začal stavět počátkem roku 1984 a v průběhu tří let byl téměř dokončen.
@@ -375,10 +396,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def berlin(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>BERLÍN 20. STOLETÍ</h2>
         <p>
         Tématické výlety do Berlína jsou orientovány na historii Berlína 20. století a jsou dvoudenní.
@@ -388,10 +411,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def viden(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>VÍDEŇ – RAKOUSKO-UHERSKO</h2>
         <p>
         Tématické výlety do Vídně jsou orientovány na historii Vídně a dějin Rakouska-Uherska a jsou dvoudenní.
@@ -402,10 +427,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def terezin(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>PEVNOSTNÍ MĚSTO TEREZÍN</h2>
         <p>
         Hlavní destinací výletu je pevnostní město Terezín, které nechvalně proslulo v době 2. světové války (koncentrační tábor, židovské ghetto).
@@ -415,10 +442,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def boleslav(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>MLADÁ BOLESLAV – MUZEUM ŠKODA</h2>
         <p>
         Doprava a její rychlost změnila chod našich dějin na pořádnou jízdu. Zatímco ještě před nedávnou dobou se lidé přepravovali po zemi pěšky s plnýma rukama, poté zneužili silnější zvířata jako koně, oslíky, velbloudy, vystavěli koleje a strčili zboží do vlaků, již brzy měli poznat všechny krásy a úskalí SUVéčkového parkování v nákupních centrech a odvoz nakoupeného exotického ovoce do privátní garáže před domem. Jde o originální jednodenní zájezd vhodný pro žáky prvního, a především druhého stupně základní školy. Lze ovšem program přizpůsobit i žákům středních škol. Příběh původně dvoukolé společnosti Laurin & Klement a její následovnice Škoda Auto, je příběhem jedné z nejúspěšnějších českých firem a je poutavě propojen s informacemi o moderní historii celé České republiky. Automobilka se může pochlubit totiž již více než stodvacetiletou tradicí. Žákům lze názorně zprostředkovat některé technické informace v kontextu všech historických etap moderní doby.
@@ -428,10 +457,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def kutna(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>KUTNÁ HORA</h2>
         <p>
         Zatímco pandemie „zlaté horečky“ se šířila Amerikou v devatenáctém století, ta stříbrná přišla do našich zemí již o mnoho dříve. Jaké bylo ono ohnisko? Odpověď zní Kutná Hora. Malé město ve středních Čechách s velkým historickým významem. Tento jednodenní výlet představí žákům jedno z nejvýznamnějších středověkých královských měst našeho regionu. Význam oblasti, potažmo města, vzrostl díky těžbě a tavení stříbra koncem 13. století, přičemž zdejší oblast postupně poskytovala až třetinu produkce stříbra celé Evropy. V této době, tedy období vlády krále Václava II. vypukla v lokalitě dnešní Kutné Hory skutečná „stříbrná horečka“ a několik tisíc lidí z blízkého i dalekého okolí se sem přistěhovalo za prací a obživou. Ještě roku 1289 se o soudní pravomoc nad osadou přela města Kolín a Čáslav, ale od roku 1291 už mělo město vlastní soud a královský horní úřad. Brzy poté již Kutná Hora soupeřila s Prahou o pozici nejvýznamnějšího města a díky těžbě („kutání“) stříbrných rud a tavením stříbra se stala centrem na ražbu Pražských grošů.
@@ -449,10 +480,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def drazdany(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>DRÁŽĎANY</h2>
         <p>
         Podrážděte smysly jednodenním zájezdem do této saské metropole. Výlet je vhodný pro mladší i starší návštěvníky a jsme schopni ho přizpůsobit opravdu každé skupině. Toto město rozkládající se na Labi a jeho pohnutý osud nám umožňuje velmi komplexně pozorovat historii lidstva v této oblasti a zamýšlet se nad lidským konáním globálně. Výlet nám umožní sledovat historii Drážďan od doby kamenné, kdy v oblasti vznikala první osada, přes slavné období patnáctého století, kdy se stalo město rezidenčním městem saských kurfiřtů a králů, až po následné masivní poničení v sedmnáctém století vzniklé masivním požárem. Duch města a jeho vůle se opětovně ukazuje při vystavění nového královského města s velkolepými barokními budovami, kdy se rozvíjí v jedno z uměleckých a kulturních center střední Evropy. V moderní éře je historie Drážďan neméně zajímavá v důsledku jeho vybombardování spojeneckými vojsky za druhé světové války a rekonstrukci s novou výstavbou a opětovným rozvinutím v jeden z ekonomicky nejdynamičtějších německých regionů. V současnosti hraje město klíčovou roli v oblasti inovací a moderních technologií v rámci celé Evropy.
@@ -470,10 +503,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def osvetim(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>Osvětim</h2>
         <p>
         Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a předávání vzpomínek. Dvoudenní zájezd do Osvětimi je v důsledku své brutální intenzity vhodný až pro žáky druhého stupně ZŠ a pro středoškolské studenty. Silné okamžiky jsou pro účastníky zážitkem skutečně na celý život. Zájezd zahrnuje dopravu autobusem, šestihodinovou prohlídku celého komplexu rozdělenou na dvě části, tedy Auschwitz I a Auschwitz II – Birkenau, nocleh a volitelný doplňkový program ve druhém dni.
@@ -489,10 +524,12 @@ defmodule KurzDetail do
         <Duo.vylety />
         <Duo.proc />
         <SectionToggle.vylety />
+        </div>
     """
   end
   def enviroSvp(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM?</h2>
         <p>
         Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
@@ -509,10 +546,12 @@ defmodule KurzDetail do
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
+        </div>
     """
   end
   def enviroWeekend(assigns) do
     ~H"""
+        <div class="course-wrap">
         <h2>VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
         Jsou čtyřdenní- dvouvíkendové kurzy zahrnující osm bloků zaměřených na environmentální výchovu a pestrý doplňkový program.
@@ -520,10 +559,12 @@ defmodule KurzDetail do
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
+        </div>
     """
   end
   def enviroCity(assigns) do
     ~H"""
+    <div class="course-wrap">
         <p>
         Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
         <br>
@@ -538,10 +579,12 @@ defmodule KurzDetail do
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
+        </div>
     """
   end
   def enviroEvp(assigns) do
     ~H"""
+    <div class="course-wrap">
         <p>
         Jedná se o třídenní pobytovou aktivitu zaměřenou na studenty pedagogických škol a učitele základních škol. Každý z kurzů je určen pro patnácti člennou skupinu a je odborně veden našimi lektory.
         <br>
@@ -558,16 +601,19 @@ defmodule KurzDetail do
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
+        </div>
     """
   end
   def enviroTym(assigns) do
     ~H"""
+    <div class="course-wrap">
         <p>
         V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program. Ten je rozčleněn do devadesáti minutových bloků v pořadí environmentální, sportovní a večerní zábavní. V pátek je kurz po obědě stejně jako je tomu u standardního kurzu ZŠ Enviro zakončen závěrečnou „Enviro hrou“ a předáním absolventských diplomů.
         </p>
         <Duo.enviroProc />
         <Duo.enviro />
         <SectionToggle.enviro />
+        </div>
     """
   end
 

@@ -336,6 +336,24 @@ input[type=text]{
 .inline-button:hover{
   border-radius: 25px;
 }
+/*course*/
+
+.course-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+li::marker {
+  content:"•  ";
+  color: rgb(63, 98, 216);
+  background: rgb(63, 98, 216);
+  width: 5px;
+  height: 5px;
+  font-size: 25px;
+}
+
 /*pc menu*/
 
 .pcMenu{

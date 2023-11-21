@@ -81,13 +81,14 @@ defmodule General do
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-align: center;
+        border-radius: 45px;
       }
 
       .categories ul {
           list-style: none;
           display: flex;
           justify-content: space-between;
-          padding: 30px;
+          padding: 5px;
       }
 
       .categories li {
@@ -169,8 +170,8 @@ defmodule General do
 
       </style>
       <div class="produkty">
-      <div class="categories produkty-nav">
-          <ul>
+      <div class="categories produkty-nav Odsazeni">
+          <ul class="">
               <li class="active">Ponožky Flashtones</li>
               <li>Dashiki dámské</li>
               <li>Dashiki pánské</li>
@@ -181,7 +182,7 @@ defmodule General do
               <li>Knihy</li>
           </ul>
       </div>
-      <div class="gallery">
+      <div class="gallery odsazeni">
           <div class="category" data-category="Ponožky Flashtones">
               <div class="product">
                   <a href="https://eshop.flashtones.cz/ponozky-made-in-czech/ponozky-made-in-czech-modrotisk/">
