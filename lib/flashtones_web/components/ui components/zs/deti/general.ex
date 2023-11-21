@@ -121,13 +121,11 @@ defmodule General do
           margin: 10px;
           padding: 15px;
           border: 1px solid #ddd;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
           transition: transform 0.2s, box-shadow 0.2s;
       }
 
       .product:hover {
           transform: scale(1.05);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
       }
 
       .product a {

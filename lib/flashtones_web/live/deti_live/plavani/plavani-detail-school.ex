@@ -11,6 +11,7 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
       <div class="odsazeni">
       <KurzDetail.plavaniSchool />
         <!--<h3>Další informace</h3>-->
+        <h3>Další informace</h3>
         <DetailFaq.detailFaq />
         <h3>Místa konání</h3>
         <DetailLokace.detailPlavaniSkoly />

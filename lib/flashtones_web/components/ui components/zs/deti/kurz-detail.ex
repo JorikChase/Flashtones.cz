@@ -208,6 +208,7 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
+        <br>
         </div>
     """
   end

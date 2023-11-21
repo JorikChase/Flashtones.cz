@@ -1126,22 +1126,17 @@ form{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 30px;
 }
 
 .product {
     margin: 10px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.859);
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     width: 100%;
 }
 
 .product:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
 }
 
 .product a {

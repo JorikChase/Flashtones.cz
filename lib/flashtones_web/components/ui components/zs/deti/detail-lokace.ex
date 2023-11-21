@@ -109,20 +109,6 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <img src="/images/plavani/hotel-fontana.png">
-                        <div class="product-text">
-                        <h4>
-                        Hotel fontána
-                        </h4>
-                        <p>
-                        Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
-                        </p>
-                        </div>
-                        <a href="###" class="detail-link">Více informací</a>
-                    </a>
-              </div>
-              <div class="product">
-                    <a href="###">
                       <img src="/images/hotely/rousarka.jpeg">
                         <div class="product-text">
                         <h4>
@@ -261,20 +247,6 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <img src="/images/plavani/hotel-fontana.png">
-                        <div class="product-text">
-                        <h4>
-                        Hotel fontána
-                        </h4>
-                        <p>
-                        Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
-                        </p>
-                        </div>
-                        <a href="###" class="detail-link">Více informací</a>
-                    </a>
-              </div>
-              <div class="product">
-                    <a href="###">
                       <img src="/images/hotely/rousarka.jpeg">
                         <div class="product-text">
                         <h4>
@@ -409,20 +381,6 @@ defmodule DetailLokace do
                         <p>
                         Je usazen uprostřed překrásné chráněné krajiny Bílých Karpat v lese, kde dominantou je nenarušená příroda, klid a čistý vzduch. Plavecká výuka probíhá ve vnitřním vyhřívaném hotelovém bazénu a sportovní program na venkovním hřišti vystavěném přímo v lese u hotelu.
                         </p>
-                    </a>
-              </div>
-              <div class="product">
-                    <a href="###">
-                      <img src="/images/plavani/hotel-fontana.png">
-                        <div class="product-text">
-                        <h4>
-                        Hotel fontána
-                        </h4>
-                        <p>
-                        Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
-                        </p>
-                        </div>
-                        <a href="###" class="detail-link">Více informací</a>
                     </a>
               </div>
               <div class="product">
