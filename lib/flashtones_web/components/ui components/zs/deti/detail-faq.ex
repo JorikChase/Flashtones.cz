@@ -5,7 +5,7 @@ defmodule DetailFaq do
     ~H"""
     <style>
       .question-box {
-        width: 60vw;
+        width: 100%;
         cursor: pointer;
         border-radius: 15px;
         display: flex;
@@ -14,6 +14,7 @@ defmodule DetailFaq do
         align-items: flex-start;
       }
       .question-box-row-wrap{
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -21,15 +22,14 @@ defmodule DetailFaq do
         gap: 30px;
       }
       .question-box-row{
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         gap: 30px;
       }
-      .self-end{
-        align-self: flex-end;
-      }
+
       .answer {
         max-height: 0;
         overflow: hidden;
@@ -40,64 +40,76 @@ defmodule DetailFaq do
         max-height: 500px; /* Adjust the maximum height as needed */
       }
       .question-box img{
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
       }
-      .container{}
     </style>
-    <div class="container px-4 py-8">
-
-      <div class="w-full md:w-1/2">
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/terminy.svg">
-          <h3 class="font-semibold">Termíny kurzu</h3>
+          <p class="font-bold">Termíny kurzu</p>
+        </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/sportovni.svg">
-          <h3 class="font-semibold">Doplňkový sportovní program</h3>
+          <p class="font-bold">Doplňkový sportovní program</p>
+          </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 2.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/zabava.svg">
-          <h3 class="font-semibold">Zábavní program</h3>
+          <p class="font-bold">Zábavní program</p>
+          </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/stravovani.svg">
-          <h3 class="font-semibold">Stravování</h3>
+          <p class="font-bold">Stravování</p>
+          </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/bus.svg">
-          <h3 class="font-semibold">Doprava</h3>
+          <p class="font-bold">Doprava</p>
+          </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/prispevek.svg">
-          <h3 class="font-semibold">Příspěvek</h3>
+          <p class="font-bold">Příspěvek</p>
+          </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">Answer to Question 1.</p>
         </div>
       </div>
     </div>
+    <br>
 
     <script>
       document.querySelectorAll('.question-box').forEach(box => {

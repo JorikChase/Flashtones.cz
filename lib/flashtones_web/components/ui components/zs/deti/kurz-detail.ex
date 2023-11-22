@@ -11,7 +11,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: #333;
@@ -55,7 +54,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: #333;
@@ -98,7 +96,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: var(--Text, #333);
@@ -134,7 +131,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: #333;
@@ -182,7 +178,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: var(--Text, #333);
@@ -193,7 +188,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h2>
         <p><bold>Je unikátní formou školy v přírodě s plaváním</bold>, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou <bold>polovinu povinné plavecké výuky</bold>, která ji díky Opatření v souladu s 4 odst. zákona č. 561/2004 Sb. Školského zákona řadí mezi povinné výukové postupy. Dále se žáci účastní celkem pěti devadesátiminutových doplňkových sportovních programů a pěti stejně dlouhých zábavních večerních programů.</p>
         <h3>Jak to probíhá</h3>
@@ -208,7 +203,6 @@ defmodule KurzDetail do
           <li><bold>hlavní výuková část</bold></li>
           <li><bold>vodní hry</bold></li>
         </ul>
-        <br>
         </div>
     """
   end
@@ -222,7 +216,6 @@ defmodule KurzDetail do
             font-style: normal;
             font-weight: 400;
             line-height: 35px;
-            width: 75%;
           }
           bold{
             color: #333;
