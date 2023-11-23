@@ -14,6 +14,19 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def zsRatings(assigns) do
+    ~H"""
+    <div class="hero-small">
+      <h2> Hodnocení </h2>
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/ft/head-small.png);
+     }
+    </style>
+    """
+  end
   def detiAbout(assigns) do
     ~H"""
     <div class="hero-small">
@@ -196,7 +209,7 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def plavaniCity(assigns) do
+  def plavaniWeekend(assigns) do
     ~H"""
     <div class="hero-small">
       <h2> Víkendové příměstské tábory </h2>
