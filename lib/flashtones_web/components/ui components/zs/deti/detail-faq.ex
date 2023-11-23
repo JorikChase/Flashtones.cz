@@ -127,6 +127,198 @@ defmodule DetailFaq do
     </script>
     """
   end
+  def plavaniSaturday(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <p class="font-bold">Termíny kurzu</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/prispevek.svg">
+          <p class="font-bold">Příspěvek</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+  def plavaniWeekend(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <p class="font-bold">Termíny kurzu</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/sportovni.svg">
+          <p class="font-bold">Doplňkový sportovní program</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 2.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Stravování</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Stravování probíhá formou: dopolední svačina, polední oběd, odpolední svačina a pitný režim po celý den.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/prispevek.svg">
+          <p class="font-bold">Příspěvek</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
   def studio(assigns) do
     ~H"""
     <style>
