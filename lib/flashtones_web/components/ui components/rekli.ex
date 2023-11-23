@@ -5,7 +5,32 @@ defmodule Rekli do
     ~H"""
     <style>
         .rekli{
-          background: rgba(255, 255, 255, 0.05);
+          background: rgba(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-position: fixed;
+        background: linear-gradient(82deg, rgba(255, 255, 255, 0.2) 0%, #F7FAFA 100%);
+        background-size: 100% 100%;
+
+        -webkit-animation: MainGradient 15s ease-in-out infinite;
+        -moz-animation: MainGradient 15s ease-in-out infinite;
+        animation: MainGradient 15s ease-in-out infinite;
+        }
+        @-webkit-keyframes MainGradient {
+        0%{background-position:0% 23%}
+        50%{background-position:100% 78%}
+        100%{background-position:0% 23%}
+        }
+        @-moz-keyframes MainGradient {
+          0%{background-position:0% 23%}
+          50%{background-position:100% 78%}
+          100%{background-position:0% 23%}
+        }
+        @keyframes MainGradient {
+            0%{background-position:0% 23%}
+            50%{background-position:100% 78%}
+            100%{background-position:0% 23%}
         }
         .rekli-columns{
           display: flex;
@@ -32,14 +57,14 @@ defmodule Rekli do
           background: rgba(255,255,255,0.8);
           border: 1px solid rgba(255,255,255,1);
           width: 440px;
-          height: 35em;
         }
         .rekli-content{
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           justify-content: flex-start;
-          padding: 30px;
+          padding: 30px 0;
+          gap: 30px;
         }
         .rekli svg {
         border-radius: 0;
@@ -58,6 +83,9 @@ defmodule Rekli do
           text-align: justify;
           align-items: flex-start;
           width: fit-content;
+        }
+        .rekli-head-wrap{
+          height: auto;
         }
       }
     </style>
@@ -139,11 +167,11 @@ defmodule Rekli do
               school: "4. základní škola Heuréka, s.r.o",
           },
           {
-              text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby a případné...`,
+              text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
               school: "Základní škola Be Open, s.r.o.",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce s pedagogickým dohledem...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -151,7 +179,7 @@ defmodule Rekli do
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
-              text: "Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu si cením...",
+              text: "Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...",
               school: "ZŠ Nerudova 9, České Budějovice",
           },
       ];
@@ -179,7 +207,7 @@ defmodule Rekli do
       updateTestimonial();
 
       // Rotate testimonials every 7 seconds
-      setInterval(updateTestimonial, 30000);
+      setInterval(updateTestimonial, 20000);
     </script>
     """
   end
