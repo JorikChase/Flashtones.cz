@@ -8,14 +8,14 @@ defmodule DetailCta do
     </style>
     <div class="detail-cta" id="detail-cta">
       <span></span>
-      <span>Cena:<bold>4 950 Kč</bold></span>
+      <span>Cena dohodou</span>
       <br>
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
-      <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
+      <a href="mailto:info@zsprodeti.cz"><img src="/images/icon/email.svg">info@zsprodeti.cz</a>
+      <!--<a href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -31,7 +31,7 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <p>Chci více informací:</p>
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:info@zsprodeti.cz"><img src="/images/icon/email.svg">info@zsprodeti.cz</a>
       <a href="/images/pdf/lyzovani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
@@ -52,9 +52,9 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <!--<a href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -91,7 +91,7 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
       <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
@@ -112,7 +112,7 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
       <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
@@ -133,7 +133,7 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
       <a href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
@@ -153,7 +153,7 @@ defmodule DetailCta do
       <br>
       <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:info@zsprodeti.cz"><img src="/images/icon/email.svg">info@zsprodeti.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <!--<a href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -172,9 +172,9 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <!--<a href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -190,9 +190,9 @@ defmodule DetailCta do
       <a class="cta-button" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
+      <a href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <!--<a href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
