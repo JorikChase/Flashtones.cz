@@ -37,7 +37,7 @@ defmodule Kdo do
       .kdoPersons{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         align-content: center;
         width: 100%;
         gap: 30px;
@@ -109,7 +109,6 @@ defmodule Kdo do
     <style>
       .kdo{
         height: 120%;
-        margin-bottom: 30px;
         width: 100%;
         background-image: url(/images/ft/kdo-bg.jpg);
         background-size: cover;
@@ -143,7 +142,7 @@ defmodule Kdo do
       .kdoPersons{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         align-content: center;
         width: 100%;
         gap: 30px;
