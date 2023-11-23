@@ -9,7 +9,7 @@ defmodule FlashtonesWeb.PlavaniDetailPreSchoolLive do
       <HeroSmall.plavaniPre />
       <DetailCta.plavaniSkola />
       <KurzDetail.plavaniPre />
-      <DetailFaq.detailFaq />
+      <DetailFaq.skolniPobytovy />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailPlavaniSkoly />

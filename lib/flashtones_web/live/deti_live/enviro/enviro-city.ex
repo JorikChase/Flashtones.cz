@@ -7,14 +7,10 @@ defmodule FlashtonesWeb.EnviroCityLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroCity />
-      <div class="odsazeni ">
       <DetailCta.enviro />
       <KurzDetail.enviroCity />
-      <!--<h3>Další informace</h3>-->
-      <!--<DetailFaq.detailFaq />-->
-      <h3>Místa konání</h3>
-      <DetailLokace.detailLokace />
-      </div>
+      <!--<DetailFaq.plavaniWeekend />-->
+      <br>
       <Rekli.rekli />
       <Zustanme.enviro />
       <Footer.deti />

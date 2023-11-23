@@ -43,7 +43,7 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
       <KurzDetail.plavaniSchool />
         <!--<h3>Další informace</h3>-->
 
-        <DetailFaq.detailFaq />
+        <DetailFaq.skolniPobytovy />
 
         <DetailLokace.detailPlavaniSkoly />
         <Rekli.rekli />

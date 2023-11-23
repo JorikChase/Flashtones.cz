@@ -22,7 +22,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
         </ul>
       </div>
       <br>
-      <DetailFaq.detailFaq />
+      <DetailFaq.skolniLyzarsky />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailLokaceLyzovani />

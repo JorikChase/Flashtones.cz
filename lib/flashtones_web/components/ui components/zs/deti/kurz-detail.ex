@@ -242,7 +242,7 @@ defmodule KurzDetail do
   end
   def lites(assigns) do
     ~H"""
-      <div class="course-wrap">
+      <div class="course-wrap top">
         <h2>RS LITES</h2>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
@@ -263,7 +263,7 @@ defmodule KurzDetail do
   end
   def maj(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>RS Máj</h2>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
@@ -284,7 +284,7 @@ defmodule KurzDetail do
   end
   def lubenec(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>RS LUBENEC</h2>
         <p>
         RS Lubenec se nachází mimo civilizaci na kopci nad městečkem Lubenec, které leží na spojnici mezi Prahou (cca. 100 km) a Karlovými Vary (cca. 35 km). Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
@@ -307,7 +307,7 @@ defmodule KurzDetail do
   end
   def radost(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>CHATA RADOST</h2>
         <p>
         Horská chata RADOST je rekreační areál uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Ubytování je zajištěno v hlavní budově s s třinácti pokoji s 52 lůžky a osmi dřevěných, celoročně obyvatelných chatkách. Nejbližší okolí nabízí pestré využití volného času, především díky překrásné přírodě a dechberoucím vyhlídkám. ZŠ PRO DĚTI v objektu začalo pořádat své kurzy a školy v přírodě v roce 2021. Od té doby zde proběhlo již několik kurzů ZŠ Lyžování, jarních kurzů ZŠ Enviro a škol v přírodě. Děti se mohou seznámit s hospodářskými zvířaty přímo v areálu pozemku. V blízkém okolí je možné navštívit oboru s daňky a divokými prasaty, vrch Špičák s překrásným výhledem do okolí nebo farmu se zvířaty.
@@ -330,7 +330,7 @@ defmodule KurzDetail do
   end
   def pramen(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>HOTEL HORNÍ PRAMEN</h2>
         <p>
         Hotel Horní Pramen se nachází na kouzelném místě u lesa s dechberoucím výhledem na hory a údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
@@ -345,7 +345,7 @@ defmodule KurzDetail do
   end
   def plesivka(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>CHATA PLEŠIVKA</h2>
         <p>
         Chata Plešivka se hodí zejména pro intimní jednotřídní pobyty. Kapacita 24 osob je ideální na školu v přírodě především pro malotřídky. Kromě malého hřiště přímo u chaty se děti vyřádí na hřišti v Abertamech jen kousek od ubytování, do lesa je to pár kroků. Pokud s sebou povezete sportovní vybavení, bude vám k dispozici uzamykatelný přístřešek na zahradě.
@@ -366,7 +366,7 @@ defmodule KurzDetail do
   end
   def jelenovska(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>HOTEL JELENOVSKÁ</h2>
         <p>
         Hotel Jelenovská se začal stavět počátkem roku 1984 a v průběhu tří let byl téměř dokončen.
@@ -389,7 +389,7 @@ defmodule KurzDetail do
   end
   def berlin(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>BERLÍN 20. STOLETÍ</h2>
         <p>
         Tématické výlety do Berlína jsou orientovány na historii Berlína 20. století a jsou dvoudenní.
@@ -404,7 +404,7 @@ defmodule KurzDetail do
   end
   def viden(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>VÍDEŇ – RAKOUSKO-UHERSKO</h2>
         <p>
         Tématické výlety do Vídně jsou orientovány na historii Vídně a dějin Rakouska-Uherska a jsou dvoudenní.
@@ -420,7 +420,7 @@ defmodule KurzDetail do
   end
   def terezin(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>PEVNOSTNÍ MĚSTO TEREZÍN</h2>
         <p>
         Hlavní destinací výletu je pevnostní město Terezín, které nechvalně proslulo v době 2. světové války (koncentrační tábor, židovské ghetto).
@@ -435,7 +435,7 @@ defmodule KurzDetail do
   end
   def boleslav(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>MLADÁ BOLESLAV – MUZEUM ŠKODA</h2>
         <p>
         Doprava a její rychlost změnila chod našich dějin na pořádnou jízdu. Zatímco ještě před nedávnou dobou se lidé přepravovali po zemi pěšky s plnýma rukama, poté zneužili silnější zvířata jako koně, oslíky, velbloudy, vystavěli koleje a strčili zboží do vlaků, již brzy měli poznat všechny krásy a úskalí SUVéčkového parkování v nákupních centrech a odvoz nakoupeného exotického ovoce do privátní garáže před domem. Jde o originální jednodenní zájezd vhodný pro žáky prvního, a především druhého stupně základní školy. Lze ovšem program přizpůsobit i žákům středních škol. Příběh původně dvoukolé společnosti Laurin & Klement a její následovnice Škoda Auto, je příběhem jedné z nejúspěšnějších českých firem a je poutavě propojen s informacemi o moderní historii celé České republiky. Automobilka se může pochlubit totiž již více než stodvacetiletou tradicí. Žákům lze názorně zprostředkovat některé technické informace v kontextu všech historických etap moderní doby.
@@ -450,7 +450,7 @@ defmodule KurzDetail do
   end
   def kutna(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>KUTNÁ HORA</h2>
         <p>
         Zatímco pandemie „zlaté horečky“ se šířila Amerikou v devatenáctém století, ta stříbrná přišla do našich zemí již o mnoho dříve. Jaké bylo ono ohnisko? Odpověď zní Kutná Hora. Malé město ve středních Čechách s velkým historickým významem. Tento jednodenní výlet představí žákům jedno z nejvýznamnějších středověkých královských měst našeho regionu. Význam oblasti, potažmo města, vzrostl díky těžbě a tavení stříbra koncem 13. století, přičemž zdejší oblast postupně poskytovala až třetinu produkce stříbra celé Evropy. V této době, tedy období vlády krále Václava II. vypukla v lokalitě dnešní Kutné Hory skutečná „stříbrná horečka“ a několik tisíc lidí z blízkého i dalekého okolí se sem přistěhovalo za prací a obživou. Ještě roku 1289 se o soudní pravomoc nad osadou přela města Kolín a Čáslav, ale od roku 1291 už mělo město vlastní soud a královský horní úřad. Brzy poté již Kutná Hora soupeřila s Prahou o pozici nejvýznamnějšího města a díky těžbě („kutání“) stříbrných rud a tavením stříbra se stala centrem na ražbu Pražských grošů.
@@ -473,7 +473,7 @@ defmodule KurzDetail do
   end
   def drazdany(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>DRÁŽĎANY</h2>
         <p>
         Podrážděte smysly jednodenním zájezdem do této saské metropole. Výlet je vhodný pro mladší i starší návštěvníky a jsme schopni ho přizpůsobit opravdu každé skupině. Toto město rozkládající se na Labi a jeho pohnutý osud nám umožňuje velmi komplexně pozorovat historii lidstva v této oblasti a zamýšlet se nad lidským konáním globálně. Výlet nám umožní sledovat historii Drážďan od doby kamenné, kdy v oblasti vznikala první osada, přes slavné období patnáctého století, kdy se stalo město rezidenčním městem saských kurfiřtů a králů, až po následné masivní poničení v sedmnáctém století vzniklé masivním požárem. Duch města a jeho vůle se opětovně ukazuje při vystavění nového královského města s velkolepými barokními budovami, kdy se rozvíjí v jedno z uměleckých a kulturních center střední Evropy. V moderní éře je historie Drážďan neméně zajímavá v důsledku jeho vybombardování spojeneckými vojsky za druhé světové války a rekonstrukci s novou výstavbou a opětovným rozvinutím v jeden z ekonomicky nejdynamičtějších německých regionů. V současnosti hraje město klíčovou roli v oblasti inovací a moderních technologií v rámci celé Evropy.
@@ -496,7 +496,7 @@ defmodule KurzDetail do
   end
   def osvetim(assigns) do
     ~H"""
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>Osvětim</h2>
         <p>
         Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a předávání vzpomínek. Dvoudenní zájezd do Osvětimi je v důsledku své brutální intenzity vhodný až pro žáky druhého stupně ZŠ a pro středoškolské studenty. Silné okamžiky jsou pro účastníky zážitkem skutečně na celý život. Zájezd zahrnuje dopravu autobusem, šestihodinovou prohlídku celého komplexu rozdělenou na dvě části, tedy Auschwitz I a Auschwitz II – Birkenau, nocleh a volitelný doplňkový program ve druhém dni.
@@ -517,91 +517,79 @@ defmodule KurzDetail do
   end
   def enviroSvp(assigns) do
     ~H"""
-        <div class="course-wrap">
-        <h2>JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM?</h2>
+        <div class="course-wrap top">
+        <h2>Škola v přírodě "Enviro"</h2>
+        <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
+        <p>
+        Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
+        </p>
+        <h3>Jak to probíhá</h3>
         <p>
         Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
         do tří částí:
         </p>
         <ul>
-        <li>teoretická – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
+        <li><b>teoretická</b> – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
         </li>
-        <li>přípravná – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
+        <li><b>přípravná</b> – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
         </li>
-        <li>aplikační – instalace a samotné finální řešení úkolu.
+        <li><b>aplikační</b> – instalace a samotné finální řešení úkolu.
         </li>
         </ul>
-        <Duo.enviroProc />
-        <Duo.enviro />
-        <SectionToggle.enviro />
         </div>
+        <br>
     """
   end
   def enviroWeekend(assigns) do
     ~H"""
-        <div class="course-wrap">
-        <h2>VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY</h2>
+        <div class="course-wrap top">
+        <h2>Víkendové příměstské tábory "Enviro"</h2>
+        <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
         <p>
-        Jsou čtyřdenní- dvouvíkendové kurzy zahrnující osm bloků zaměřených na environmentální výchovu a pestrý doplňkový program.
+        Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
         </p>
-        <Duo.enviroProc />
-        <Duo.enviro />
-        <SectionToggle.enviro />
         </div>
+        <br>
     """
   end
   def enviroCity(assigns) do
     ~H"""
-    <div class="course-wrap">
+    <div class="course-wrap top">
+        <h2>Příměstské tábory "Enviro"</h2>
+        <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
         <p>
-        Pořádáním Příměstských táborů ZŠ Enviro zaměřenými na problematiku EVVO bychom rádi navázali na spolupořádaní úspěšných Letních kempů Airforce s environmentální, sportovní a hudební tématikou.
-        <br>
-          Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
-        <br>
-          Cílem Příměstských táborů ZŠ Enviro je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími. Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
-        <br>
-          Akce zahrnuje oběd, dvě svačiny a pitný režim. Jako zázemí pro konání táborů budou využity učebny či tělocvičny partnerských základních škol, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí.
-        <br>
-          Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
+        Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
         </p>
-        <Duo.enviroProc />
-        <Duo.enviro />
-        <SectionToggle.enviro />
         </div>
-    """
-  end
-  def enviroEvp(assigns) do
-    ~H"""
-    <div class="course-wrap">
-        <p>
-        Jedná se o třídenní pobytovou aktivitu zaměřenou na studenty pedagogických škol a učitele základních škol. Každý z kurzů je určen pro patnácti člennou skupinu a je odborně veden našimi lektory.
         <br>
-        Program přináší rozšíření obecných environmentálních znalostí studentů a pedagogů základních škol a možnosti nového způsobu předávání těchto znalostí dětem. Moderní doba s sebou nese nové potřeby agregovat vědomosti a reagovat na nové výzvy ve vztahu k životnímu prostředí a přírodě. Program se inspiruje principy globální výchovy a nabízí osvojení nového komplexního přístupu k otázkám ochrany přírody ve vztahu k moderní společnosti a individualizovanému jedinci v ní.
-        <br>
-        Hlavní cíl projektu je dodat mladé generaci nové úhly pohledu na život v moderní společnosti a motivaci, jak se stát aktivním a odpovědným světoobčanem se vztahem k ochraně životního prostředí. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími, ale i aktivní občanskou angažovaností. S účastníky bychom rádi na partnerské bázi probírali způsob prezentace environmentálních témat, ale také je inspirovali ve způsobu komunikace těchto témat hravou a zábavnou formou při vzdělávání dětí a mládeže.
-        <br>
-        Projekt má svou teoretickou i praktickou část, která umožní účastníkům vstřebat nové informace v rámci kolektivu na čerstvém horském vzduchu a společně sdílet své poznatky a aplikaci do praxe. Odbornými garanty jsou Mgr. Alena Bendová, jež se aktivně zabývá přímou ochranou životního prostředí pod hlavičkou české neziskové organizace Prales dětem, je garantem programů ZŠ Enviro v ZŠ PRO DĚTI, z.s. a vystudovala magisterský studijní obor Sociální a kulturní ekologie (FHS UK) a chovatel, ochránce přírody, cestovatel a dlouholetý zaměstnanec ZOO Praha a lektor DDM Praha 7 Jakub Radoš.
-        <br>
-        Program je naplánován v rozsahu 12 akcí v průběhu uvedeného realizačního období. Místo realizace jsou Krušné hory, lokalita z pohledu ekologie a ochrany životního prostředí tolik příznačná.
-        <br>
-        Program bude pro své účastníky kompletně hrazený, včetně ubytování a stravy, jeho absolventi obdrží certifikát o absolvování.
-        </p>
-        <Duo.enviroProc />
-        <Duo.enviro />
-        <SectionToggle.enviro />
-        </div>
     """
   end
   def enviroTym(assigns) do
     ~H"""
-    <div class="course-wrap">
+    <div class="course-wrap top">
+        <h2>Škola v přírodě "V týmu"</h2>
+        <b>Program V Týmu je jedinečný koncept školy v přírodě, který si klade za cíl stmelení školního kolektivu.</b>
         <p>
         V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program. Ten je rozčleněn do devadesáti minutových bloků v pořadí environmentální, sportovní a večerní zábavní. V pátek je kurz po obědě stejně jako je tomu u standardního kurzu ZŠ Enviro zakončen závěrečnou „Enviro hrou“ a předáním absolventských diplomů.
         </p>
-        <Duo.enviroProc />
-        <Duo.enviro />
-        <SectionToggle.enviro />
+        <p>
+        Do všech společných aktivit se snažíme vnášet přesah sebepoznání a budování přirozené sebedůvěry, utužování vztahů ve skupině, vzájemný respekt a spolupráci v kolektivu.
+        </p>
+        <h3>Jak to probíhá</h3>
+        <p>
+        Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků, které jsou vždy rozděleny
+        do tří částí:
+        </p>
+        <ul>
+        <li><b>teoretická</b> – děti jsou hravou formou seznámeny s příslušnou problematikou a jejími souvislostmi. Každý blok je vždy zaměřen na jednu oblast environmentální výchovy. Součástí jsou názorné ukázky a nácviky.
+        </li>
+        <li><b>přípravná</b> – v této části jsou vytvářeny či upravovány rekvizity a příslušenství pro splnění daného úkolu.
+        </li>
+        <li><b>aplikační</b> – instalace a samotné finální řešení úkolu.
+        </li>
+        </ul>
         </div>
+        <br>
     """
   end
 
