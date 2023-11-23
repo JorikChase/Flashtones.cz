@@ -377,43 +377,45 @@ ux:
  \
  -- 0.5
 ////////////////////////////////////////////////////////////////////////////////
- //vice informaci v kurz itemech
- //zmensit section toggle button
- //opravit zakulacene rohy menu mobile
- #######opravit obrazky optimalizovat
+ //vice informaci v kurz itemech - 1
+ //zmensit section toggle button - 1
+ //opravit zakulacene rohy menu mobile - 1
+ #######opravit obrazky optimalizovat - 3
  zsprodeti
  velikost nadpisu na mobilu
- //mrizka na mobilu
- 	//ikony
+ //mrizka na mobilu - 2
+ 	//ikony - 1
 
-	//about section toggle
-	//	historie
-	//	o spolecnosti
+	//about section toggle - 1
+	//	historie - 1
+	//	o spolecnosti - 1
 
-	//footer
-	kurz-nav texty
+	//footer - 1
+	kurz-nav texty - 1
 	##kurz nav sipky v barvach
 	kurz-item:
 	<div class="section-toggle" style="width: fit-content;">
           <a href="#course-item" class="inline-button z-10 head-button" style="width: auto;">Nabídka kurzů</a>
       </div>
+	  - 2
 
 	UX:
-	//- vyska hero section
-	//- grid(misto hero section)
-	- uzsi a delsi sloupecek nez dva dlouhy radky
-	- rozdelit na tretiny s 30px gap(treba reference)
-	//- rekli o nas at se nemeni vyska
-	- unifikace tridilnych sekci
-	- reference tretiny
+	//- vyska hero section -1
+	//- grid(misto hero section) -1
+	- uzsi a delsi sloupecek nez dva dlouhy radky - 1
+	- rozdelit na tretiny s 30px gap(treba reference) - 1
+	//- rekli o nas at se nemeni vyska - 2
+	//- unifikace tridilnych sekci -2
+	- reference tretiny - 2
 	- menit instruktory?(carousel?)
-	- nejdriv prakticky info, nez prijde detailni
-	- struktura detailu kurzu
-	- struktura detailu lokace
+	//- nejdriv prakticky info, nez prijde detailni
+	- struktura detailu kurzu - 3
+	//- struktura detailu lokace - 
 	- simplify texty plachta
 	- klikatelne logo plachta
+	
 ----------------------------------------------------------------
-	//- silne barevne pozadi grid
+	//- silne barevne pozadi grid - 1
 	- nezabarvene texty 
 	- on hover se snizi zabarveni
 ----------------------------------------------------------------
@@ -422,5 +424,10 @@ ux:
 	- detaily kurzu
 	- detaily lokaci
 ----------------------------------------------------------------
-	- vybarvit nadpisy
+	//- vybarvit nadpisy - 1
 	- dodelat tlacitka na hero
+
+----------------------------------------------------------------
+	- tlactiko zsprodeti na menu
+	- texty detailu kurzu
+	

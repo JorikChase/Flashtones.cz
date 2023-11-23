@@ -858,7 +858,7 @@ form{
   flex-direction: column;
   width: 300px;
   padding: 30px;
-  transition: all 0.75s ease-in-out;
+  transition: all 0.575s ease-in-out;
   backdrop-filter: blur(5px);
   z-index: 10;
 }
@@ -1202,7 +1202,7 @@ form{
   gap: 15px;
 }
 .product a img{
-  width: 270px;
+    width: 270px;
     height: 185px;
 }
 
