@@ -103,20 +103,14 @@ defmodule KurzNav do
       <div class="kurz-nav">
         <a href="/zs/enviro/weekend" class="kurz-item">
           <img src="/images/icon/kurz/víkendové příměstské tábory enviro.svg">
-          <h4>Víkendové příměstské tábory</h4>
+          <h4>Víkendové příměstské tábory "Enviro"</h4>
           <p>Jsou čtyřdenní- dvouvíkendové kurzy zahrnující osm bloků zaměřených na environmentální výchovu a pestrý doplňkový program.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/enviro/city" class="kurz-item">
           <img src="/images/icon/kurz/příměstské tábory zš enviro.svg">
-          <h4>Příměstské tábory ZŠ Enviro</h4>
+          <h4>Příměstské tábory "Enviro"</h4>
           <p>Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.</p>
-          <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
-        </a>
-        <a href="/zs/enviro/evp" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Pobytové EVP pro vzdělavatele ZŠ Enviro</h4>
-          <p>Jedná se o třídenní pobytovou aktivitu zaměřenou na studenty pedagogických škol a učitele základních škol.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
       </div>
@@ -129,13 +123,13 @@ defmodule KurzNav do
       <div class="kurz-nav">
         <a href="/zs/enviro/svp" class="kurz-item">
           <img src="/images/icon/kurz/škola v přírodě enviro.svg">
-          <h4>Škola v přírodě ZŠ Enviro</h4>
+          <h4>Škola v přírodě "Enviro"</h4>
           <p>Děti absolvují v průběhu pěti dnů celkem pět tříhodinových bloků zaměřených na environmentální výchovu.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/enviro/tym" class="kurz-item">
           <img src="/images/icon/kurz/škola v přírodě v týmu.svg">
-          <h4>ZŠ V týmu</h4>
+          <h4>Škola v přírodě "V týmu"</h4>
           <p>V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
