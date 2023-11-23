@@ -32,8 +32,8 @@ defmodule DetailCta do
       <p>Chci více informací:</p>
       <br>
       <a href="tel:+420 724 168 962"><img src="/images/icon/call.svg">+420 724 168 962</a>
-      <a href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <!--<a href="tel:+420 724 168 962"><img src="/images/icon/download.svg">PDF brožura</a>-->
+      <a href="mailto:info@zsprodeti.cz"><img src="/images/icon/email.svg">info@zsprodeti.cz</a>
+      <a href="/images/pdf/lyzovani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
     </div>
 
     <script>
