@@ -7,36 +7,27 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
       <HeroSmall.lyzovaniSchool />
-      <div class="odsazeni">
       <DetailCta.lyzovaniSchool />
-        <style>
-          p{
-            color: var(--Text, #333);
-            font-family: Barlow;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 35px;
-            width: 75%;
-          }
-          bold{
-            color: var(--Text, #333);
-            font-family: Barlow;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 35px; /* 194.444% */
-          }
-      </style>
+      <div class="course-wrap top">
       <h2>ŠKOLNÍ LYŽAŘSKÝ KURZ</h2>
-      <p>Žáci absolvují během pětidenního kurzu základy klasického, sjezdové lyžování, snowboardingu a netradičních zimních sportů. Do jednotlivých lekcí jsou zapojovány nejrůznější doplňkové hry i vzdělávací prvky. Každý večer probíhá devadesátiminutový zábavní blok.</p>
+      <b>ZŠ Lyžování je jedinečný koncept spojující lyžařský kurz, vzdělávací a zábavní program pro děti mladšího a staršího školního věku.</b>
+      <p>Spolu s několika kapacitami v oboru jsme vytvořili pětidenní kurz založený na osvědčených postupech výuky základů sjezdového a klasického lyžování, snowboardingu a netradičních zimních sportů. Klademe důraz na provedení základů těchto disciplín, stejně tak je pro nás ovšem důležitý přenos historických souvislostí v kontextu s environmentálním přesahem i bezpečným chováním člověka na horách. Děti učíme hravou formou pomocí pozitivní motivace a přirozené autority.</p>
+      <p>Nácvik dovedností probíhá na sjezdovkách, běžeckých stopách i jiných místech odpovídajících přísným kvalitativním, a hlavně bezpečnostním kritériím. Děti jsou rozřazeny do skupin vedených zkušenými instruktory. Jeden instruktor vede vždy jen jednu skupinu (max. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry mezi ním a dětmi.</p>
+      <h3>JAK TO PROBÍHÁ</h3>
+      <p>Děti absolvují v průběhu pěti dnů celkem sedm stodvacetiminutových vyučovacích lekcí zaměřených na provedení základních lyžařských technik:</p>
+      <ul>
+          <li><b>úvodní </b> – rozcvičení a příprava na výuku, rozvoj koordinačních schopností a uvědomování si vlastního těla.</li>
+          <li><b>hlavní </b> – osvojování lyžařských dovedností, zvládnutí základních oblouků a běžeckých technik, seznámení se základy první pomoci v kontextu horského prostředí.</li>
+          <li><b>závěrečná </b> – hry a zhodnocení.</li>
+        </ul>
+      </div>
+      <br>
+      <DetailFaq.detailFaq />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
-      <h3>Místa konání</h3>
       <DetailLokace.detailLokaceLyzovani />
-      </div>
+      <br>
       <Rekli.rekli />
-      <SectionToggle.kurzNavLyzovani />
       <Zustanme.lyzovani />
       <Footer.deti />
     """

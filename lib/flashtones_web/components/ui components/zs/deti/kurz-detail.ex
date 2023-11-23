@@ -21,13 +21,10 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <br>
         <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
-          <br>
         Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
-          <br>
         </p>
         <h3>Jak to probíhá</h3>
         <p>
@@ -44,7 +41,7 @@ defmodule KurzDetail do
         </div>
     """
   end
-  def plavaniCity(assigns) do
+  def plavaniWeekend(assigns) do
     ~H"""
     <style>
           p{
@@ -64,26 +61,17 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="course-wrap">
-        <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
-        <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
-
-        Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
-
-        </p>
-        <h3>Jak to probíhá</h3>
-        <p>
-          S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
-        </p>
-        <p>
-          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
-        </p>
+        <div class="course-wrap top">
+        <h2>VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY</h2>
+        <p>Sháníte pro děti smysluplnou pohybovou aktivitu? V týdnu už nemáte čas na další kroužek? Plavání s námi je tou správnou volbou! Připravili jsme pro vás Víkendové příměstské tábory s výukou plavání zaměřené na rozvoj plaveckých i všeobecných pohybových dovedností. Jedná se o dvoudenní- jednovíkendové kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program.</p>
+        <h3>KDE</h3>
+        <p>Kurz probíhá v Plaveckém a sportovním areálu Radotín. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru. V případě špatného počasí máme pro mimo-bazénové aktivity zajištěno zázemí v nedaleké Sportovní hale Radotín. Pro venkovní aktivity jsou využívána okolní hřiště a areál Biotopu.</p>
+        <h3>ORGANIZACE</h3>
         <ul>
-          <li><bold>úvodní seznámení s náplní lekce a následná rozcvička</bold></li>
-          <li><bold>hlavní výuková část</bold></li>
-          <li><bold>vodní hry</bold></li>
+          <li><bold>Děti se přivádí v děvět hodin ráno a vyzvedávají ve čtyři hodiny odpoledne.</bold></li>
         </ul>
         </div>
+        <br>
     """
   end
   def plavaniPre(assigns) do
@@ -106,7 +94,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="course-wrap">
+        <div class="course-wrap top">
         <h2>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h2>
         <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělí do středy nebo od středy do pátku. Případně v pětidenní verzi. Žáci absolvují v průběhu tří dnů celkem pět šedesátiminutových vyučovacích lekcí plavání, dále se účastní tří devadesátiminutových bloků orientovaných na hry v přírodě a tradiční i netradiční hry s cílem rozvoje hrubé i jemné motoriky. Každý večer probíhá večerní zábavní program zahrnující stolní, hudební a výtvarné hry či dětskou diskotéku. Kurz lze absolvovat i v pětidenním formátu a pokud to umožňuje vzdálenost, i v příměstské podobě.</p>
         <h3>Jak to probíhá</h3>
@@ -119,6 +107,8 @@ defmodule KurzDetail do
           <li><bold>vodní hry</bold></li>
         </ul>
         </div>
+        <br>
+        <br>
     """
   end
   def plavaniSaturday(assigns) do
@@ -141,7 +131,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="odsazeni course-wrap">
+        <div class="course-wrap top">
         <h2>PRAVIDELNÉ SOBOTNÍ KURZY PLAVÁNÍ</h2>
         <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Pravidelné kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.
         <br>
@@ -166,6 +156,8 @@ defmodule KurzDetail do
           <li><bold>vodní hry</bold></li>
         </ul>
         </div>
+        <br>
+        <br>
     """
   end
   def plavaniSchool(assigns) do
@@ -204,6 +196,7 @@ defmodule KurzDetail do
           <li><bold>vodní hry</bold></li>
         </ul>
         </div>
+        <br>
     """
   end
   def plavaniCitySummer(assigns) do
@@ -226,7 +219,7 @@ defmodule KurzDetail do
             line-height: 35px; /* 194.444% */
           }
         </style>
-        <div class="odsazeni course-wrap">
+        <div class="course-wrap top">
         <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
         Probíhají v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Olšanka na Praze 3, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem. Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
@@ -244,6 +237,7 @@ defmodule KurzDetail do
           <li><bold>vodní hry</bold></li>
         </ul>
         </div>
+        <br>
     """
   end
   def lites(assigns) do

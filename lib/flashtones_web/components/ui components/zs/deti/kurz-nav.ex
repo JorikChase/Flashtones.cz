@@ -6,12 +6,6 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/plavani/saturday" class="kurz-item">
-          <img src="/images/icon/kurz/pravidelné sobotní kurzy plavání.svg">
-          <h4>Pravidelné sobotní kurzy plavání</h4>
-          <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
-          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
-        </a>
         <a href="/zs/plavani/summer" class="kurz-item">
           <img src="/images/icon/kurz/letní příměstský plavecký tábor.svg">
           <h4>Letní příměstské tábory</h4>
@@ -19,6 +13,12 @@ defmodule KurzNav do
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
         <a href="/zs/plavani/saturday" class="kurz-item">
+          <img src="/images/icon/kurz/pravidelné sobotní kurzy plavání.svg">
+          <h4>Pravidelné sobotní kurzy plavání</h4>
+          <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
+        </a>
+        <a href="/zs/plavani/weekend" class="kurz-item">
           <img src="/images/icon/kurz/víkendové příměstské tábory plavání.svg">
           <h4>Víkendové příměstské tábory</h4>
           <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
