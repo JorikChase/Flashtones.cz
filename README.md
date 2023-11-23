@@ -430,4 +430,5 @@ ux:
 ----------------------------------------------------------------
 	- tlactiko zsprodeti na menu
 	- texty detailu kurzu
-	
+----------------------------------------------------------------
+	- smooth movement na tlacitko
