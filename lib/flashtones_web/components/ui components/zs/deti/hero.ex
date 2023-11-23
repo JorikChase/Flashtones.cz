@@ -820,14 +820,12 @@ defmodule Hero do
       }
       #h1ro{
         color: white;
-        text-shadow: 1px 1px 0px rgba(255, 250, 240, 0.3);
       }
       .head-button{
         font-size: 15px;
         line-height: 18px;
         color: white;
         background: rgba(255, 255, 255, 0.05);
-        box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
         padding: 10px 25px;
         border-radius: 25px;
       }
