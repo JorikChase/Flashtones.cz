@@ -385,7 +385,7 @@ li::marker {
 .pcMenu{
   z-index: 98;
   position: fixed;
-  top: 90px;
+  top: 60px;
   right: 60px;
   left: 60px;
   height: 60px;
@@ -395,7 +395,7 @@ li::marker {
 .pcMenuBar{
   z-index: 100;
   position: fixed;
-  top: 90px;
+  top: 60px;
   right: 15%;
   left: 10%;
   height: 60px;

@@ -11,7 +11,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -94,7 +94,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -154,7 +154,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -222,7 +222,7 @@ defmodule MenuPc do
           menuBottom.style.borderRadius = "0";
           if(window.innerHeight < window.innerWidth){
             cta.style.right = "30px";
-            cta.style.top = "90px";
+            cta.style.top = "60px";
           }
 
         } else {
@@ -257,7 +257,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -286,7 +286,7 @@ defmodule MenuPc do
         <img src="/images/doma/doma-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="/zs/doma/about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -312,7 +312,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -341,7 +341,7 @@ defmodule MenuPc do
         <img src="/images/enviro/enviro-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="/zs/enviro/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/enviro/about">O nás</a>
@@ -369,7 +369,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -398,7 +398,7 @@ defmodule MenuPc do
         <img src="/images/lyzovani/lyzovani-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lyzovani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
@@ -427,7 +427,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -456,7 +456,7 @@ defmodule MenuPc do
         <img src="/images/plavani/plavani-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/plavani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
@@ -485,7 +485,7 @@ defmodule MenuPc do
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
-          top: 90px;
+          top: 60px;
           right: 10%;
           left: 10%;
           height: 60px;
@@ -514,7 +514,7 @@ defmodule MenuPc do
         <img src="/images/vylety/vylety-logo.svg">
       </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/vylety/about">O nás</a>
