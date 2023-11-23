@@ -36,7 +36,7 @@
   --enviro-checked: #274F03;
 
   --ft-main: #d9b870c0;
-  --ft-bg: #FBF8F1;
+  --ft-bg: #fbf8f1;
   --ft-light: #F4EBD7;
   --ft-link: #CFA44A;
   --ft-hover: #C18E25;
@@ -527,7 +527,7 @@ li::marker {
   position: absolute;
   right: 0;
   top: 0;
-  width: 90px;
+  width: 75px;
   height: 60px;
   display: flex;
   flex-direction: column;
