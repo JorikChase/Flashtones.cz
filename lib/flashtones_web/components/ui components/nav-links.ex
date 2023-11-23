@@ -220,6 +220,9 @@ defmodule Navlinks do
       .academy-hover-link:hover > * {
         color: var(--academy-link);
       }
+      .footerLinks .footerLinksColumn h3{
+        margin-top: 0;
+      }
     </style>
     <div class="footerLinks-wrap odsazeni">
     <h2>Projekty zš pro děti</h2>
