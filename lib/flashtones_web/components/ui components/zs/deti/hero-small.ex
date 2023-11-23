@@ -108,12 +108,12 @@ defmodule HeroSmall do
   def lyzovaniWeekend(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/lyzovani/weekend-item.jpeg);
+      background-image: url(/images/lyzovani/vikendove.jpeg);
+      background-position: 0% 80%;
      }
     </style>
     """
@@ -121,12 +121,12 @@ defmodule HeroSmall do
   def lyzovaniBezky(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> KURZ BĚŽECKÉHO LYŽOVÁNÍ </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/lyzovani/bezky-item.jpeg);
+      background-image: url(/images/lyzovani/bezky.jpeg);
+      background-position: 50% 90%;
      }
     </style>
     """
@@ -134,12 +134,12 @@ defmodule HeroSmall do
   def lyzovaniSchool(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> ŠKOLNÍ LYŽAŘSKÝ KURZ </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/lyzovani/skolni.jpeg);
+      background-position: 0% 10%;
      }
     </style>
     """
@@ -160,12 +160,11 @@ defmodule HeroSmall do
   def plavaniSummer(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> PŘÍMĚSTSKÝ Letní Tábor </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/letni-primestsky.jpeg);
      }
     </style>
     """
@@ -173,12 +172,11 @@ defmodule HeroSmall do
   def plavaniPre(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> PŘEDŠKOLNÍ PLAVECKÝ KURZ </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/plavani/predskolni-plavecky-kurz.jpeg);
+      background-image: url(/images/plavani/predskolni.jpeg);
      }
     </style>
     """
@@ -212,12 +210,11 @@ defmodule HeroSmall do
   def plavaniWeekend(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Víkendové příměstské tábory </h2>
     </div>
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/plavani/vikendove-primestske.jpeg);
      }
     </style>
     """
@@ -485,12 +482,12 @@ defmodule HeroSmall do
   def enviroSvp(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> JAK PROBÍHÁ ENVIRONMENTÁLNÍ PROGRAM? </h2>
     </div>
 
     <style>
      .hero-small{
       background-image: url(/images/enviro/svp.jpeg);
+      background-position: 0% 40%;
      }
     </style>
     """
@@ -498,7 +495,6 @@ defmodule HeroSmall do
   def enviroTym(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> ŠKOLNÍ VÝUKOVÝ A ADAPTAČNÍ TÝDEN </h2>
     </div>
 
     <style>
