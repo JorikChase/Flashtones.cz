@@ -87,6 +87,12 @@ defmodule Rekli do
         .rekli-head-wrap{
           height: auto;
         }
+        .rekli-columns{
+          flex-direction: column;
+        }
+        .rekli-column{
+          width: 100%;
+        }
       }
     </style>
     <div class="rekli odsazeni">
