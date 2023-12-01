@@ -123,7 +123,7 @@ defmodule AboutComp do
             <div class="about-profile" style="background-image: url(/images/about/zs/Ondrej-Petiska-500x438.jpg)">
             </div>
             <!-- Name -->
-            <p class="font-bold">Ondřej Petiška</p>
+            <p class="font-bold">ONDŘEJ PETIŠKA</p>
             <!-- Short Description -->
             <p>Hlavní instruktor</p>
             <!-- Longer Description (Hidden by default) -->
@@ -203,7 +203,7 @@ defmodule AboutComp do
             </div>
             <!-- Name -->
             <p class="font-bold">
-              Zuzana Lorenco</p>
+              ZUZANA LORENCOVÁ</p>
             <!-- Short Description -->
             <p>Hlavní instruktorka</p>
             <!-- Longer Description (Hidden by default) -->

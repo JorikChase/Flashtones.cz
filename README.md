@@ -426,7 +426,7 @@ ux:
 ----------------------------------------------------------------
 	//- vybarvit nadpisy - 1
 	- dodelat tlacitka na hero
-	- rekli o nas linky
+	//- o nas linky
 	- o nas stejne velky fotky a stejny texty
 ----------------------------------------------------------------
 	//- tlactiko zsprodeti na menu
