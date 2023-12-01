@@ -233,6 +233,21 @@ br{
 }
 
 /*components*/
+  gmp-map {
+    height: 100%;
+  }
+
+  /* Optional: Makes the sample page fill the window. */
+  .map-container {
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+  }
+  @media (orientation: portrait){
+    .map-container{
+      height: 80vh;
+    }
+  }
 .center-content{
   padding: 60px 20%;
 }
@@ -249,6 +264,10 @@ br{
 }
 .odsazeni{
   padding: 60px 10%!important;
+  transition: all 0.5s ease-in-out;
+}
+.odsazeni-footer{
+  padding: 30px 10%!important;
   transition: all 0.5s ease-in-out;
 }
 .Odsazeni{
@@ -371,7 +390,33 @@ br{
   gap: 30px;
   margin: auto 35% auto 10%;
 }
-li::marker {
+.location-course-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  margin: auto 20% auto 20%;
+}
+@media(orientation: portrait){
+  .course-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto 30px auto 30px;
+  }
+  .location-course-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto 30px auto 30px;
+  }
+}
+  li::marker {
   content:"•  ";
   color: rgb(63, 98, 216);
   background: rgb(63, 98, 216);
@@ -747,7 +792,22 @@ form{
 /*section toggle*/
 
 .section-toggle {
-  width: 400px;
+  width: min-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 30px auto 60px auto;
+  background: rgba(2, 3, 3, 0.1);
+  transition: all 0.5s ease;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 30px;
+}
+.section-toggle .section-toggle-long {
+  width: 100%;
   font-weight: bold;
   text-transform: uppercase;
   margin: 30px auto 60px auto;

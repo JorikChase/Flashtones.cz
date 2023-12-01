@@ -187,30 +187,48 @@ defmodule DetiGrid do
         background-size: cover;
         background-repeat: no-repeat;
       }
+      .menu-plavani:hover{
+      transform: scale(1.05);
+      }
       .menu-lyzovani{
         background-image: url("/images/lyzovani/lyzovani-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+      }
+      .menu-lyzovani:hover{
+      transform: scale(1.05);
       }
       .menu-enviro{
         background-image: url("/images/enviro/enviro-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
+      .menu-enviro:hover{
+      transform: scale(1.05);
+      }
       .menu-vylety{
         background-image: url("/images/vylety/vylety-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+      }
+      .menu-vylety:hover{
+      transform: scale(1.05);
       }
       .menu-doma{
         background-image: url("/images/doma/doma-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
+      .menu-doma:hover{
+      transform: scale(1.05);
+      }
       .menu-academy{
         background-image: url("/images/academy/academy-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+      }
+      .menu-academy:hover{
+      transform: scale(1.05);
       }
       @media (orientation: portrait){
         .grid{

@@ -179,7 +179,7 @@ defmodule Nav do
     <div class="navBg"></div>
     <button id="navToggle"><span class="nav-logo"></span>My jsme <img src="/images/ft/Flashtones.svg" style="border-radius: 0; height: 65%;"><img src="/images/icon/dropdown.svg"></button>
     <button class="navToggle"></button>
-    <nav id="navigation" class="navigation" style="transform: translateY(-100%);">
+    <nav id="navigation" class="navigation odsazeni" style="transform: translateY(-100%);">
       <div class="navHero">
       <br>
         <h1>My jsme Flashtones</h1>

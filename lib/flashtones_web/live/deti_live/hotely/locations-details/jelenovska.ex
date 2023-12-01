@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.VyletyJelenovskaLive do
+defmodule FlashtonesWeb.LokalityJelenovskaLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do

@@ -409,26 +409,44 @@ ux:
 	- reference tretiny - 2
 	- menit instruktory?(carousel?)
 	//- nejdriv prakticky info, nez prijde detailni
-	- struktura detailu kurzu - 3
+	//- struktura detailu kurzu - 3
 	//- struktura detailu lokace - 
-	- simplify texty plachta
+	//- simplify texty plachta
 	- klikatelne logo plachta
 	
 ----------------------------------------------------------------
 	//- silne barevne pozadi grid - 1
-	- nezabarvene texty 
-	- on hover se snizi zabarveni
+	//- nezabarvene texty 
+	//- on hover se snizi zabarveni
 ----------------------------------------------------------------
 	- instruktori
 	- contact form
-	- detaily kurzu
+	//- detaily kurzu
 	- detaily lokaci
 ----------------------------------------------------------------
 	//- vybarvit nadpisy - 1
 	- dodelat tlacitka na hero
-
+	- rekli o nas linky
+	- o nas stejne velky fotky a stejny texty
 ----------------------------------------------------------------
-	- tlactiko zsprodeti na menu
-	- texty detailu kurzu
+	//- tlactiko zsprodeti na menu
+	//- texty detailu kurzu
 ----------------------------------------------------------------
 	- smooth movement na tlacitko
+	//opravy a upravy struktury textu a ikon - 8	
+----------------------------------------------------------------
+	- vysky boxu rekli
+	//- na lokality nahodit novy lokality
+	- lokace pripravit detail, //section toggle
+	- o nas sectiontoggle
+	/- mapa do lokalit
+	//- footer zmensit, pridat popisky podstranek, pridat socialni site naproti zsprodeti
+	//- odendat z plachty dlouhy texty a udelat na tri 
+	//- deti grid on hover efekt!
+----------------------------------------------------------------
+	- shoptet 
+	- lokality on load pouze jeden
+	- o nas nas tym
+	- formular kontakty
+	- flashtones o nas figma
+

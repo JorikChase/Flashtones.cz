@@ -98,6 +98,8 @@ defmodule Footer do
       padding: 30px;
       display: flex;
       flex-direction: column;
+      gap: 30px;
+      height: min-content;
       }
       footer a:hover{
       color: #cfa44a;
@@ -162,6 +164,9 @@ defmodule Footer do
       color: var(--hover, #cfa44a);
       }
       @media (orientation: portrait){
+        footer{
+          height: auto;
+        }
       .base-links{
         flex-direction: row;
         flex-wrap: wrap;
@@ -171,7 +176,7 @@ defmodule Footer do
       }
       }
     </style>
-    <footer>
+    <footer class="odsazeni-footer">
       <Navlinks.deti />
 
     </footer>

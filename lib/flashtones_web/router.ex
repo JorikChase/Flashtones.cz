@@ -81,13 +81,27 @@ defmodule FlashtonesWeb.Router do
     live "/zs/vylety/terezin", VyletyTerezinLive
     live "/zs/vylety/viden", VyletyVidenLive
 
-    live "/zs/svp/jelenovska", VyletyJelenovskaLive
-    live "/zs/svp/lites", VyletyLitesLive
-    live "/zs/svp/lubenec", VyletyLubenecLive
-    live "/zs/svp/maj", VyletyMajLive
-    live "/zs/svp/plesivka", VyletyPlesivkaLive
-    live "/zs/svp/pramen", VyletyPramenLive
-    live "/zs/svp/radost", VyletyRadostLive
+    live "/zs/lokality/jelenovska", LokalityJelenovskaLive
+    live "/zs/lokality/lites", LokalityLitesLive
+    live "/zs/lokality/lubenec", LokalityLubenecLive
+    live "/zs/lokality/maj", LokalityMajLive
+    live "/zs/lokality/plesivka", LokalityPlesivkaLive
+    live "/zs/lokality/pramen", LokalityPramenLive
+    live "/zs/lokality/radost", LokalityRadostLive
+
+    live "/zs/lokality/energetik", LokalityEnergetikLive
+    live "/zs/lokality/tetrevi-boudy", LokalityTetreviBoudyLive
+    live "/zs/lokality/vlasim", LokalityVlasimLive
+    live "/zs/lokality/bystre", LokalityBystreLive
+    live "/zs/lokality/horni-becva-duo", LokalityHorniBecvaDuoLive
+    live "/zs/lokality/rousarka", LokalityRousarkaLive
+    live "/zs/lokality/lugsteinhof", LokalityLugsteinhofLive
+
+    live "/zs/lokality/u-kurtu", LokalityUKurtuLive
+    live "/zs/lokality/u-medveda", LokalityUMedvedaLive
+    live "/zs/lokality/fontana", LokalityFontanaLive
+    live "/zs/lokality/na-mulde", LokalityNaMuldeLive
+    live "/zs/lokality/horni-pramen", LokalityHorniPramenLive
 
     live "/zs/mail", MailFormLive
     live "/desk", DeskLive

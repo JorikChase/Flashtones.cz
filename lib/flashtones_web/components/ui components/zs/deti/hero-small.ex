@@ -92,7 +92,7 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def detiLocationFontana(assigns) do
+  def fontana(assigns) do
     ~H"""
     <div class="hero-small">
       <h2> Hotel fontána blue marine resort lipno </h2>
@@ -100,7 +100,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/hotely/fontana.jpeg);
      }
     </style>
     """

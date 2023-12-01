@@ -14,7 +14,7 @@ defmodule DetailLokace do
     <div class="detail-lokace course-wrap">
     <div class="category" data-category="Plavání">
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/">
                       <img src="/images/hotely/energetik.jpg">
                         <div class="product-text">
                         <h4>
@@ -27,7 +27,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/">
                       <img src="/images/hotely/tetrevi-boudy.jpeg">
                         <div class="product-text">
                         <h4>
@@ -37,7 +37,7 @@ defmodule DetailLokace do
                         je oblíbená krkonošská horská rekreační samota na luční enklávě v nadmořské výšce 1030 m.n.m. s nádherným výhledem na Žalý a do kraje. Hotel má celkem 4 budovy s různým typem ubytování. Na všech pokojích najdete vlastní koupelnu se sprchou a fénem. Hotel nabízí jak venkovní tak vnitřní aktivity. Pro děti je připraven dětský klub a dětské hřiště, pískoviště a skluzavky.
                         </p>
                         </div>
-                        <a href="###" class="detail-link">Více informací</a>
+                        <a href="/zs/lokality/" class="detail-link">Více informací</a>
                     </a>
               </div>
               <div class="product">
@@ -97,7 +97,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="/zs/svp/jelenovska">
+                    <a href="/zs/lokality/jelenovska">
                       <img src="/images/hotely/jelenovska.png">
                         <h4>
                         Hotel Jelenovská
@@ -156,7 +156,7 @@ defmodule DetailLokace do
     </style>
     <div class="detail-lokace course-wrap">
     <div class="category" data-category="Plavání pro veřejnost">
-          <h2>Místa konání</h2>
+    <h3 class="disappear">Místa konání</h3>
 
           <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin.pdf">
@@ -246,7 +246,7 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
     <div class="category" data-category="Plavání">
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/energetik">
                       <img src="/images/hotely/energetik.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -262,7 +262,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/tetrevi-boudy">
                       <img src="/images/hotely/tetrevi-boudy.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -278,7 +278,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/vlasim">
                       <img src="/images/hotely/vlasim.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -294,7 +294,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/bystre">
                       <img src="/images/hotely/bystre.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -310,7 +310,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/brandys">
                       <img src="/images/hotely/brandys.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -326,7 +326,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/horni-becva-duo">
                       <img src="/images/hotely/duo-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -342,7 +342,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="/zs/svp/jelenovska">
+                    <a href="/zs/lokality/jelenovska">
                       <img src="/images/hotely/jelenovska.png">
                       <div class="product-text-wrap">
                         <div class="product-text">
@@ -358,7 +358,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/rousarka">
                       <img src="/images/hotely/rousarka.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -374,7 +374,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/lugsteinhof">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -410,7 +410,7 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
       <div class="category" data-category="Lyžování">
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/energetik">
                         <img src="/images/hotely/energetik.jpg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -426,7 +426,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/u-kurtu">
                         <img src="/images/hotely/u-kurtu.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -442,7 +442,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/u-medveda">
                         <img src="/images/hotely/medved-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -458,7 +458,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/radost">
                         <img src="/images/hotely/plesivka-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -474,7 +474,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/horni-becva-duo">
                         <img src="/images/hotely/duo-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -490,7 +490,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/fontana">
                         <img src="/images/plavani/hotel-fontana.png">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -506,7 +506,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/lugsteinhof">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -522,7 +522,7 @@ defmodule DetailLokace do
                     </a>
               </div>
                 <div class="product">
-                      <a href="/zs/svp/plesivka">
+                      <a href="/zs/lokality/plesivka">
                         <img src="/images/hotely/plesivka-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -538,7 +538,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/na-mulde">
                         <img src="/images/hotely/mulda-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -571,7 +571,7 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
     <div class="category" data-category="Enviro">
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/energetik">
                         <img src="/images/hotely/energetik.jpg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -587,7 +587,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/u-kurtu">
                         <img src="/images/hotely/u-kurtu.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -603,7 +603,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/horni-pramen">
                         <img src="/images/hotely/pramen-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -619,7 +619,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/u-medveda">
                         <img src="/images/hotely/medved-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -635,7 +635,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/radost">
                         <img src="/images/hotely/plesivka-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -651,7 +651,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="/zs/svp/lites">
+                      <a href="/zs/lokality/lites">
                         <img src="/images/hotely/lites.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -666,7 +666,7 @@ defmodule DetailLokace do
                 </div>
                 </div>
                 <div class="product">
-                      <a href="/zs/svp/maj">
+                      <a href="/zs/lokality/maj">
                         <img src="/images/hotely/maj.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -680,7 +680,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="/zs/svp/lubenec">
+                      <a href="/zs/lokality/lubenec">
                         <img src="/images/hotely/lubenec.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -694,7 +694,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/horni-becva-duo">
                         <img src="/images/hotely/duo-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -710,7 +710,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/fontana">
                         <img src="/images/plavani/hotel-fontana.png">
                           <div class="product-text-wrap">
                           <div class="product-text">
@@ -726,7 +726,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                    <a href="###">
+                    <a href="/zs/lokality/lugsteinhof">
                       <img src="/images/hotely/lugsteinhof-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -742,7 +742,7 @@ defmodule DetailLokace do
                     </a>
               </div>
                 <div class="product">
-                      <a href="/zs/svp/plesivka">
+                      <a href="/zs/lokality/plesivka">
                         <img src="/images/hotely/plesivka-item.jpeg">
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -758,7 +758,7 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="###">
+                      <a href="/zs/lokality/na-mulde">
                         <img src="/images/hotely/mulda-item.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">

@@ -3,81 +3,59 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
 
   def render(assigns) do
     ~H"""
-    <style>
-
-    .disappear{
-      display: none;
-    }
-    .course-wrap{
-      margin: 0;
-    }
-
-    </style>
       <Nav.nav />
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <HeroSmall.lokality />
-      <div class="produkty">
-      <div class="categories produkty-nav">
-          <ul>
-              <li class="active">Plavání pro školy</li>
-              <li>Plavání pro veřejnost</li>
-          </ul>
+
+      <style>
+      .disappear{
+        display: none;
+      }
+      .gallery{
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <div class="produkty">
+      <div class="categories produkty-nav section-toggle">
+          <a class="active">Plavání pro školy</a>
+          <a>Plavání pro veřejnost</a>
       </div>
-      </div>
-      <div class="center-content">
+    </div>
+    <div class="gallery">
       <DetailLokace.detailPlavaniSkoly />
-      </div>
-          <!-- Add more categories and products here -->
-        <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const categories = document.querySelectorAll('.categories li');
-          const categoryDivs = document.querySelectorAll('.category');
+      <DetailLokace.detailPlavaniVerejnost />
+    </div>
+    <br>
+    <!-- Add more categories and products here -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // Get all category buttons
+          const categoryButtons = document.querySelectorAll(".produkty-nav a");
 
-          // Start by showing the products in the first category by default
-          showCategoryProducts(categoryDivs[0]);
+          // Get all detail sections
+          const detailSections = document.querySelectorAll(".gallery > div");
 
-          categories.forEach(category => {
-              category.addEventListener('click', () => {
-                  categories.forEach(c => c.classList.remove('active'));
-                  category.classList.add('active');
+          // Add click event listeners to each category button
+          categoryButtons.forEach((button, index) => {
+            button.addEventListener("click", function () {
+              // Remove the 'active' class from all buttons
+              categoryButtons.forEach((btn) => btn.classList.remove("active"));
 
-                  const categoryName = category.textContent;
+              // Add the 'active' class to the clicked button
+              button.classList.add("active");
 
-                  categoryDivs.forEach(categoryDiv => {
-                      if (categoryName === categoryDiv.getAttribute('data-category')) {
-                          showCategoryProducts(categoryDiv);
-                      } else {
-                          hideCategoryProducts(categoryDiv);
-                      }
-                  });
-              });
+              // Hide all detail sections
+              detailSections.forEach((section) => (section.style.display = "none"));
+
+              // Display the corresponding detail section based on the clicked button
+              detailSections[index].style.display = "block";
+            });
           });
-
-          function showCategoryProducts(categoryDiv) {
-              categoryDiv.style.display = 'flex';
-          }
-
-          function hideCategoryProducts(categoryDiv) {
-              categoryDiv.style.display = 'none';
-          }
-
-          // Automatic image switching
-          //categoryDivs.forEach(categoryDiv => {
-          //    const productImages = categoryDiv.querySelectorAll('.product-image');
-          //    let currentImageIndex = 0;
-            //  setInterval(() => {
-           //       productImages.forEach(image => {
-           //           image.style.display = 'none';
-           //       });
-          //
-           //       currentImageIndex = (currentImageIndex + 1) % productImages.length;
-           //       productImages[currentImageIndex].style.display = 'block';
-            //  }, 3000);
-         // }
-          //);
         });
-        </script>
+      </script>
+
       <Zustanme.plavani />
       <Footer.deti />
     """

@@ -963,4 +963,154 @@ defmodule DetailFaq do
     """
   end
 
+  def fontana(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/historie.svg">
+          <p class="font-bold">Historie obce</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/vybavenost.svg">
+          <p class="font-bold">Občanská vybavenost</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/pin.svg">
+          <p class="font-bold">Okolí</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/priroda.svg">
+          <p class="font-bold">příroda</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+            snídaňový bufet
+            <br>
+            dopolední svačina
+            <br>
+            polední oběd
+            <br>
+            odpolední svačina
+            <br>
+            večeře
+            <br>
+            pitný režim po celý den
+            <br>
+            </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Jídlo</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/skola.svg">
+          <p class="font-bold">Výlety</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-ft.svg"></a>
+
+          <a href="/images/pdf/pojistovny.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Příspěvky zdravotních pojišťoven<img src="/images/icon/arrow-right-ft.svg"></a>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
 end

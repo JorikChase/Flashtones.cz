@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.VyletyLubenecLive do
+defmodule FlashtonesWeb.LokalityPlesivkaLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -6,10 +6,10 @@ defmodule FlashtonesWeb.VyletyLubenecLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.lubenec />
+      <HeroSmall.plesivka />
       <div class="odsazeni">
       <DetailCta.vyletySkola />
-      <KurzDetail.lubenec />
+      <KurzDetail.plesivka />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <h3>Místa konání</h3>
