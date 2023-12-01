@@ -419,7 +419,7 @@ ux:
 	//- nezabarvene texty 
 	//- on hover se snizi zabarveni
 ----------------------------------------------------------------
-	- instruktori
+	/- instruktori
 	- contact form
 	//- detaily kurzu
 	- detaily lokaci
@@ -437,10 +437,11 @@ ux:
 ----------------------------------------------------------------
 	- vysky boxu rekli
 	//- na lokality nahodit novy lokality
-	- lokace pripravit detail, //section toggle
+	//- lokace pripravit detail, //section toggle
 	//- o nas sectiontoggle
 	//- mapa do lokalit
-	//- footer zmensit, pridat popisky podstranek, pridat socialni site naproti zsprodeti
+	//- footer zmensit, pridat popisky podstranek, 
+	- pridat socialni site naproti zsprodeti
 	//- odendat z plachty dlouhy texty a udelat na tri 
 	//- deti grid on hover efekt!
 ----------------------------------------------------------------

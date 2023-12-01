@@ -188,6 +188,7 @@ defmodule Navlinks do
 
     }
     .footerLinks-wrap{
+      color: white;
       display: flex;
       flex-direction: column;
       gap: 30px;

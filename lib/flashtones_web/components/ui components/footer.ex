@@ -83,7 +83,7 @@ defmodule Footer do
       }
       }
     </style>
-    <footer>
+    <footer class="odsazeni">
       <Navlinks.general />
 
     </footer>
