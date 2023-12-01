@@ -791,6 +791,7 @@ form{
 }
 /*section toggle*/
 
+
 .section-toggle {
   width: min-content;
   font-weight: bold;
@@ -1002,18 +1003,11 @@ form{
   /*general*/
 
  .general > div{
-  width: 50%;
-  padding: 30px;
-  background: rgba(0, 0, 0, 0.02);
   border-radius: 15px;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
   transform: scale(1);
   transition: all 0.5s ease;
 }
 .general > div:hover{
-  padding: 30px;
-  background: rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   transform: scale(1.05);
 
@@ -1022,11 +1016,9 @@ form{
   align-self: flex-start;
 }
 .prubeh{
-  margin-top: -15px;
   align-self: center;
 }
 .program{
-  margin-top: -15px;
   align-self: flex-end;
 }
 @media (orientation: portrait){
@@ -1066,9 +1058,15 @@ form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
   border-radius: 8px;
+}
+.about-profile{
+  width: 100%;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  background-position: center;
 }
 
 .profile-item:hover {

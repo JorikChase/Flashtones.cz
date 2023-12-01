@@ -71,7 +71,7 @@ defmodule Kdo do
               O projektu
               <img src="/images/icon/arrow-right-ft.svg">
             </a>
-            <a class="inline-button" style="color: var(--ft-link);" href="/about#persons">
+            <a class="inline-button" style="color: var(--ft-link);" href="/about#lide">
               Naši lidé
               <img src="/images/icon/arrow-right-ft.svg">
             </a>
@@ -79,7 +79,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about/">
+          <a href="about#lide">
           <img src="/images/ft/marcel.png" />
           <br>
             <h4>
@@ -89,7 +89,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about/">
+          <a href="about#lide">
           <img src="/images/ft/omar.png" />
           <br>
             <h4>
@@ -176,7 +176,7 @@ defmodule Kdo do
               O projektu
               <img src="/images/icon/arrow-right-deti.svg">
             </a>
-            <a class="inline-button deti-link" href="/zs/about#persons">
+            <a class="inline-button deti-link" href="/zs/about#lide">
               Naši lidé
               <img src="/images/icon/arrow-right-deti.svg">
             </a>
@@ -184,7 +184,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about/">
+          <a href="/zs/about#lide">
           <img src="/images/ft/marcel.png" />
           <br>
             <h4>
@@ -194,7 +194,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about/">
+          <a href="/zs/about#lide">
           <img src="/images/ft/omar.png" />
           <br>
             <h4>

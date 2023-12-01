@@ -438,15 +438,15 @@ ux:
 	- vysky boxu rekli
 	//- na lokality nahodit novy lokality
 	- lokace pripravit detail, //section toggle
-	- o nas sectiontoggle
-	/- mapa do lokalit
+	//- o nas sectiontoggle
+	//- mapa do lokalit
 	//- footer zmensit, pridat popisky podstranek, pridat socialni site naproti zsprodeti
 	//- odendat z plachty dlouhy texty a udelat na tri 
 	//- deti grid on hover efekt!
 ----------------------------------------------------------------
 	- shoptet 
 	- lokality on load pouze jeden
-	- o nas nas tym
+	//- o nas nas tym
 	- formular kontakty
-	- flashtones o nas figma
+	//- flashtones o nas figma
 
