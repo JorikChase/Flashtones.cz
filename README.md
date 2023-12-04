@@ -402,17 +402,17 @@ ux:
 	UX:
 	//- vyska hero section -1
 	//- grid(misto hero section) -1
-	- uzsi a delsi sloupecek nez dva dlouhy radky - 1
-	- rozdelit na tretiny s 30px gap(treba reference) - 1
+	//- uzsi a delsi sloupecek nez dva dlouhy radky - 1
+	//- rozdelit na tretiny s 30px gap(treba reference) - 1
 	//- rekli o nas at se nemeni vyska - 2
 	//- unifikace tridilnych sekci -2
 	- reference tretiny - 2
-	- menit instruktory?(carousel?)
+	//- menit instruktory?(carousel?)
 	//- nejdriv prakticky info, nez prijde detailni
 	//- struktura detailu kurzu - 3
 	//- struktura detailu lokace - 
 	//- simplify texty plachta
-	- klikatelne logo plachta
+	/- klikatelne logo plachta
 	
 ----------------------------------------------------------------
 	//- silne barevne pozadi grid - 1
@@ -427,12 +427,12 @@ ux:
 	//- vybarvit nadpisy - 1
 	//- o nas linky
 	//- o nas stejne velky fotky a stejny texty
-	- dodelat tlacitka na hero
+	//- dodelat tlacitka na hero
 ----------------------------------------------------------------
 	//- tlactiko zsprodeti na menu
 	//- texty detailu kurzu
 ----------------------------------------------------------------
-	- smooth movement na tlacitko
+	//- smooth movement na tlacitko
 	//opravy a upravy struktury textu a ikon - 8	
 ----------------------------------------------------------------
 	//- na lokality nahodit novy lokality
@@ -448,6 +448,6 @@ ux:
 	//- flashtones o nas figma
 	//- o nas nas tym
 	- shoptet 
-	- lokality on load pouze jeden
+	/- lokality on load pouze jeden
 	//- hodnoceni page
 
