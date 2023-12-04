@@ -191,7 +191,7 @@ defmodule Navlinks do
       color: white;
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 60px;
     }
       .footerLinks{
         height: auto;
@@ -204,7 +204,26 @@ defmodule Navlinks do
         width: 400px;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 60px;
+      }
+      .footerLinkItem{
+        height: 5em;
+      }
+      .footerHeading-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+      }
+      .footer-icons img{
+        height: 60px;
       }
       .copyright{
         color: #D9B770;
@@ -244,43 +263,55 @@ defmodule Navlinks do
       }
     </style>
     <div class="footerLinks-wrap">
-    <h2>Projekty zš pro děti</h2>
+    <div class="footerHeading-wrap"><h2>Projekty zš pro děti</h2><div class="footer-icons"><img src="/images/icon/insta.svg"><img src="/images/icon/fb.svg"><img src="/images/icon/yt.svg"></div></div>
     <div class="footerLinks">
         <div class="footerLinksColumn">
+        <div class="footerLinkItem">
           <a class="footerLink plavani-hover-link" href="/zs/plavani">
             <h3>Plavání</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Největší plavecká škola v ČR</span>
+        </div>
+          <div class="footerLinkItem">
           <a class="footerLink vylety-hover-link" href="/zs/vylety">
             <h3>Výlety</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
         </div>
+        </div>
         <div class="footerLinksColumn">
+          <div class="footerLinkItem">
           <a class="footerLink lyzovani-hover-link" href="/zs/lyzovani">
             <h3>Lyžování</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
+          </div>
+          <div class="footerLinkItem">
           <a class="footerLink doma-hover-link" href="/zs/doma">
             <h3>Domácí výuka</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Jednodenní a vícedenní výlety pro školy a veřejnost</span>
         </div>
+        </div>
         <div class="footerLinksColumn">
+          <div class="footerLinkItem">
           <a class="footerLink enviro-hover-link" href="/zs/enviro">
             <h3>Enviro</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</span>
+          </div>
+          <div class="footerLinkItem">
           <a class="footerLink academy-hover-link" href="/zs/academy">
             <h3>Academy</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
           <span class="navLink-thin"> Školící centrum</span>
+      </div>
       </div>
       </div>
       <span class="noBreak copyright">
