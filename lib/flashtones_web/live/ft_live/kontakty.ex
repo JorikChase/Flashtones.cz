@@ -8,7 +8,6 @@ defmodule FlashtonesWeb.KontaktyLive do
       <MenuPc.menuFtPc />
       <HeroSmall.contacts />
       <SectionToggle.kontakt/>
-      <Zustanme.zustanme />
       <Footer.footer />
     """
   end
