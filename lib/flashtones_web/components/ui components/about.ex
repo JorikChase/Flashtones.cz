@@ -140,7 +140,7 @@ defmodule AboutComp do
             <!-- Name -->
             <p class="font-bold">PETR ČERNÝ</p>
             <!-- Short Description -->
-            <p>Hlavní instruktor a obchodní manager pro Moravu</p>
+            <p>Hlavní instruktor a obchodní manager</p>
             <!-- Longer Description (Hidden by default) -->
             <p class="hidden mt-2">Držitel certifikátu Učitel plavání.
               Držitel trenérské Licence ČSVP 3.třídy.
@@ -189,7 +189,7 @@ defmodule AboutComp do
             <!-- Name -->
             <p class="font-bold">MILAN BROŽ</p>
             <!-- Short Description -->
-            <p>Hlavní instruktor a brand manažer ZŠ PRO DĚTI- Čechy</p>
+            <p>Hlavní instruktor a brand manažer</p>
             <!-- Longer Description (Hidden by default) -->
             <p class="hidden mt-2">Absolvent kurzu Kondiční trenér pro potřeby sportovců a sportovních klubů na Fakultě tělesné výchovy a sportu Univerzity Karlovy (2020). Certifikovaný trenér fitness – FIT Praha (2019). Student Tělesné výchovy a sportu na PF v Českých Budějovicích. Spoluzakladatel Taneční akademie Sušice. Trenér hráček Streetball Sušice U17 (2019-2020). Instruktor plavání – Sportoviště města Sušice (2018-2021), ZŠ PRO DĚTI (od 2021). Organizátor sportovních a sportovně-kulturních akcí</p>
           </div>

@@ -214,6 +214,7 @@ defmodule Navlinks do
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
       }
       .footer-icons{
         display: flex;
@@ -222,8 +223,12 @@ defmodule Navlinks do
         align-items: center;
         gap: 30px;
       }
-      .footer-icons img{
+      .footer-icons a{
         height: 60px;
+        aspect-ratio: 1/1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
       }
       .copyright{
         color: #D9B770;
@@ -260,10 +265,24 @@ defmodule Navlinks do
         .footerLinksColumn{
           width: auto;
         }
+        .footerHeading-wrap{
+        display: flex;
+        flex-direction: column;
+      }
+        .footerHeading-wrap h2{
+        color: white;
+      }
       }
     </style>
     <div class="footerLinks-wrap">
-    <div class="footerHeading-wrap"><h2>Projekty zš pro děti</h2><div class="footer-icons"><img src="/images/icon/insta.svg"><img src="/images/icon/fb.svg"><img src="/images/icon/yt.svg"></div></div>
+    <div class="footerHeading-wrap"><h2>Projekty zš pro děti</h2>
+      <div class="footer-icons">
+        <a target="_blank" href="https://www.instagram.com/zsprodeti/" style="background-image: url(/images/icon/insta.svg)"></a>
+        <a target="_blank" href="https://www.facebook.com/ZSplavani/" style="background-image: url(/images/icon/fb.svg)"></a>
+        <a target="_blank" href="https://youtu.be/-gznA2rt4U0?si=R1on8imz0rQD_LZB" style="background-image: url(/images/icon/yt.svg)"></a>
+        <a target="_blank" href="https://www.google.com/search?-b-d&q=Z%C5%A0%20Pro%20d%C4%9Bti&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=6215171071575282022&lqi=Cg1axaAgUHJvIGTEm3RpWiYKDXrFoSBwcm8gZMSbdGkiDXrFoSBwcm8gZMSbdGkqBggCEAEQApIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u&ved=2ahUKEwiC54PluPbvAhUM-6QKHRxTDogQvS4wBHoECAcQHg&rlst=f#rlfi=hd:;si:6215171071575282022,l,Cg1axaAgUHJvIGTEm3RpWiYKDXrFoSBwcm8gZMSbdGkiDXrFoSBwcm8gZMSbdGkqBggCEAEQApIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u;mv:[[50.080445399999995,14.4401111],[50.0708469,14.405753599999997]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2" style="background-image: url(/images/icon/g.svg)"></a>
+      </div>
+    </div>
     <div class="footerLinks">
         <div class="footerLinksColumn">
         <div class="footerLinkItem">
@@ -316,7 +335,7 @@ defmodule Navlinks do
       </div>
       <span class="noBreak copyright">
       Copyright © 2023
-      <img src="/images/ft/Flashtones.svg" />
+      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
       </span>
       </div>
     """
