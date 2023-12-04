@@ -138,6 +138,7 @@ defmodule Kontakt do
     }
 
     </style>
+    <div class="kontakt-heading"><p>Perex lorem ipsum auctor, augue non sagittis euismod, felis purus porttitor nisl, quis rhoncus leo neque in eros. Vestibulum nunc lorem, ornare id elit ut, ven natis finibus metus.</p></div>
     <div class="kontakt-form">
     <form action="#">
       <b for="name">Jméno</b>

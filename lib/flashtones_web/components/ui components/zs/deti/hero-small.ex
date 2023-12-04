@@ -4,7 +4,6 @@ defmodule HeroSmall do
   def heroSmall(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Nadpis </h2>
     </div>
 
     <style>
@@ -17,7 +16,6 @@ defmodule HeroSmall do
   def zsRatings(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Hodnocení </h2>
     </div>
 
     <style>
@@ -30,7 +28,6 @@ defmodule HeroSmall do
   def detiAbout(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> O projektu </h2>
     </div>
 
     <style>
@@ -43,7 +40,6 @@ defmodule HeroSmall do
   def detiCourses(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Kurz </h2>
     </div>
 
     <style>
@@ -56,7 +52,6 @@ defmodule HeroSmall do
   def detiFaq(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Časté dotazy </h2>
     </div>
 
     <style>
@@ -69,7 +64,6 @@ defmodule HeroSmall do
   def detiContacts(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Kontakty </h2>
     </div>
 
     <style>
@@ -82,7 +76,6 @@ defmodule HeroSmall do
   def detiLocation(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Lokace </h2>
     </div>
 
     <style>
@@ -95,7 +88,6 @@ defmodule HeroSmall do
   def fontana(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Hotel fontána blue marine resort lipno </h2>
     </div>
 
     <style>
@@ -147,7 +139,6 @@ defmodule HeroSmall do
   def plavaniCitySchool(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> PŘÍMĚSTSKÝ PLAVECKÝ KURZ </h2>
     </div>
 
     <style>
@@ -165,6 +156,7 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/plavani/letni-primestsky.jpeg);
+      background-position: 50% 40%;
      }
     </style>
     """
@@ -177,6 +169,7 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/plavani/predskolni.jpeg);
+      background-position: 50% 45%;
      }
     </style>
     """
@@ -184,7 +177,6 @@ defmodule HeroSmall do
   def plavaniSchool(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> ŠKOLNÍ PLAVECKÝ KURZ </h2>
     </div>
 
     <style>
@@ -197,12 +189,12 @@ defmodule HeroSmall do
   def plavaniSaturday(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Pravidelné sobotní kurzy plavání </h2>
     </div>
 
     <style>
      .hero-small{
       background-image: url(/images/plavani/plavani-saturday.jpeg);
+      background-position: 50% 40%;
      }
     </style>
     """
@@ -222,7 +214,6 @@ defmodule HeroSmall do
   def about(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> O nás </h2>
     </div>
 
     <style>
@@ -235,7 +226,6 @@ defmodule HeroSmall do
   def produkty(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Produkty </h2>
     </div>
 
     <style>
@@ -248,7 +238,6 @@ defmodule HeroSmall do
   def studio(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Studio </h2>
     </div>
 
     <style>
@@ -261,7 +250,6 @@ defmodule HeroSmall do
   def aktuality(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Aktuality </h2>
     </div>
 
     <style>
@@ -274,7 +262,6 @@ defmodule HeroSmall do
   def faq(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Časté dotazy </h2>
     </div>
 
     <style>
@@ -287,7 +274,6 @@ defmodule HeroSmall do
   def contacts(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Kontakty </h2>
     </div>
 
     <style>
@@ -300,7 +286,6 @@ defmodule HeroSmall do
   def services(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> služby </h2>
     </div>
 
     <style>
@@ -313,7 +298,6 @@ defmodule HeroSmall do
   def lokality(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Lokality </h2>
     </div>
 
     <style>
@@ -326,7 +310,6 @@ defmodule HeroSmall do
   def vyletyViden(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Vídeň – Rakousko – Uhersko </h2>
     </div>
 
     <style>
@@ -339,7 +322,6 @@ defmodule HeroSmall do
   def vyletyBoleslav(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Mladá Boleslav </h2>
     </div>
 
     <style>
@@ -352,7 +334,6 @@ defmodule HeroSmall do
   def kutna(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> KUTNÁ HORA </h2>
     </div>
 
     <style>
@@ -365,7 +346,6 @@ defmodule HeroSmall do
   def berlin(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Berlín 20. století </h2>
     </div>
 
     <style>
@@ -378,7 +358,6 @@ defmodule HeroSmall do
   def drazdany(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> DRÁŽĎANY </h2>
     </div>
 
     <style>
@@ -391,7 +370,6 @@ defmodule HeroSmall do
   def jelenovska(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Jelenovská </h2>
     </div>
 
     <style>
@@ -404,7 +382,6 @@ defmodule HeroSmall do
   def lites(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Lites </h2>
     </div>
 
     <style>
@@ -417,7 +394,6 @@ defmodule HeroSmall do
   def lubenec(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Lubenec </h2>
     </div>
 
     <style>
@@ -430,7 +406,6 @@ defmodule HeroSmall do
   def maj(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Máj </h2>
     </div>
 
     <style>
@@ -443,7 +418,6 @@ defmodule HeroSmall do
   def plesivka(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Plešivka </h2>
     </div>
 
     <style>
@@ -456,7 +430,6 @@ defmodule HeroSmall do
   def pramen(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Pramen </h2>
     </div>
 
     <style>
@@ -469,7 +442,6 @@ defmodule HeroSmall do
   def radost(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Radost </h2>
     </div>
 
     <style>
@@ -500,6 +472,7 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/enviro/tym.jpeg);
+      background-position: 50% 50%;
      }
     </style>
     """
@@ -512,6 +485,7 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/enviro/city.jpeg);
+      background-position: 50% 40%;
      }
     </style>
     """
@@ -531,12 +505,12 @@ defmodule HeroSmall do
   def enviroWeekend(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY </h2>
     </div>
 
     <style>
      .hero-small{
       background-image: url(/images/enviro/weekend.jpeg);
+      background-position: 50% 38%;
      }
     </style>
     """
@@ -544,7 +518,6 @@ defmodule HeroSmall do
   def osvetim(assigns) do
     ~H"""
     <div class="hero-small">
-      <h2> Osvětim </h2>
     </div>
 
     <style>

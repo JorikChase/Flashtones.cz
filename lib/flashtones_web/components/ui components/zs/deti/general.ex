@@ -8,24 +8,6 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        background: linear-gradient(1deg, #fff7bc, #ffffff);
-        background-size: 400% 400%;
-
-        -webkit-animation: EnviroGradient 6s ease infinite;
-        -moz-animation: EnviroGradient 6s ease infinite;
-        animation: EnviroGradient 6s ease infinite;
-      }
-      .general .duo-container{
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-      .general .duo-container > h3, ul{
-        width: 50%;
-      }
-      .general li{
-        list-style-type: circle;
       }
       @media (orientation: portrait){
         .general .duo-container{
@@ -486,27 +468,6 @@ defmodule General do
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        background: linear-gradient(1deg, #f0ccb8, #ffffff3c);
-        background-size: 400% 400%;
-
-        -webkit-animation: VyletyGradient 6s ease infinite;
-        -moz-animation: VyletyGradient 6s ease infinite;
-        animation: VyletyGradient 6s ease infinite;
-      }
-      @-webkit-keyframes VyletyGradient {
-      0%{background-position:0% 23%}
-      50%{background-position:100% 78%}
-      100%{background-position:0% 23%}
-      }
-      @-moz-keyframes VyletyGradient {
-          0%{background-position:0% 23%}
-          50%{background-position:100% 78%}
-          100%{background-position:0% 23%}
-      }
-      @keyframes VyletyGradient {
-          0%{background-position:0% 23%}
-          50%{background-position:100% 78%}
-          100%{background-position:0% 23%}
       }
     </style>
     <div class="general">
