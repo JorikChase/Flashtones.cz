@@ -13,7 +13,6 @@ defmodule DetiGrid do
         height: 100%;
       }
       .deti-grid > a{
-        border: 1px solid rgba(255, 255, 255, 0.8);
         padding: 20px;
         font-size: 30px;
         text-align: center;
@@ -40,34 +39,58 @@ defmodule DetiGrid do
         text-transform: uppercase;
       }
       .menu-plavani{
-        background-image: url("/images/ft/menu-plavani.jpeg");
-        background-size: cover;
+        background-image: url("/images/plavani/plavani-head.jpg");
+        background-size: 110%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
+      }
+      .menu-plavani:hover{
+      transform: scale(1.05);
       }
       .menu-lyzovani{
         background-image: url("/images/lyzovani/lyzovani-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+      .menu-lyzovani:hover{
+      transform: scale(1.05);
       }
       .menu-enviro{
         background-image: url("/images/enviro/enviro-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
+      }
+      .menu-enviro:hover{
+      transform: scale(1.05);
       }
       .menu-vylety{
         background-image: url("/images/vylety/vylety-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
+      }
+      .menu-vylety:hover{
+      transform: scale(1.05);
       }
       .menu-doma{
         background-image: url("/images/doma/doma-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+      .menu-doma:hover{
+      transform: scale(1.05);
       }
       .menu-academy{
         background-image: url("/images/academy/academy-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+      .menu-academy:hover{
+      transform: scale(1.05);
       }
       @media (orientation: portrait){
         .deti-grid{
@@ -156,7 +179,6 @@ defmodule DetiGrid do
 
       }
       .grid > a{
-        border: 1px solid rgba(255, 255, 255, 0.8);
         padding: 20px;
         font-size: 30px;
         text-align: center;
@@ -183,33 +205,37 @@ defmodule DetiGrid do
         text-transform: uppercase;
       }
       .menu-plavani{
-        background-image: url("/images/ft/menu-plavani.jpeg");
-        background-size: cover;
+        background-image: url("/images/plavani/plavani-head.jpg");
+        background-size: 110%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
       }
       .menu-plavani:hover{
       transform: scale(1.05);
       }
       .menu-lyzovani{
         background-image: url("/images/lyzovani/lyzovani-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
       }
       .menu-lyzovani:hover{
       transform: scale(1.05);
       }
       .menu-enviro{
         background-image: url("/images/enviro/enviro-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
       }
       .menu-enviro:hover{
       transform: scale(1.05);
       }
       .menu-vylety{
         background-image: url("/images/vylety/vylety-head-small.jpg");
-        background-size: cover;
+        background-size: 120%;
         background-repeat: no-repeat;
+        background-position: 0% 0%;
       }
       .menu-vylety:hover{
       transform: scale(1.05);
@@ -218,6 +244,7 @@ defmodule DetiGrid do
         background-image: url("/images/doma/doma-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
       }
       .menu-doma:hover{
       transform: scale(1.05);
@@ -226,6 +253,7 @@ defmodule DetiGrid do
         background-image: url("/images/academy/academy-head-small.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 50% 50%;
       }
       .menu-academy:hover{
       transform: scale(1.05);

@@ -15,6 +15,13 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
       .gallery{
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .course-wrap{
+        margin: 0;
       }
     </style>
     <div class="produkty">
@@ -23,7 +30,7 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
           <a>Plavání pro veřejnost</a>
       </div>
     </div>
-    <div class="gallery">
+    <div class="gallery odsazeni top">
       <DetailLokace.detailPlavaniSkoly />
       <DetailLokace.detailPlavaniVerejnost />
     </div>

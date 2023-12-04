@@ -10,11 +10,20 @@ defmodule FlashtonesWeb.DetiReference do
     .odsazeni{
       padding-top: 180px;
     }
+    .reference{
+      display: flex;
+      flex-direction: row;
+    }
+    .reference > ul{
+      width: 50%;
+    }
     </style>
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <div class="odsazeni"><ul>
+      <br>
+      <br>
+      <div class="odsazeni reference top"><ul>
         <li>25. základní škola Plzeň</li>
         <li>Anglofonní základní škola, z.ú.</li>
         <li>Základní škola a Mateřská škola J. Š. Baara</li>
@@ -61,6 +70,8 @@ defmodule FlashtonesWeb.DetiReference do
         <li>Základní škola a mateřská škola Líšnice, okres Praha – západ</li>
         <li>Základní škola Litvínovská 600, Praha 9</li>
         <li>Základní škola, Lupáčova, Praha</li>
+          </ul>
+          <ul>
         <li>Základní škola Járy Cimrmana Lysolaje</li>
         <li>Základní škola s rozšířenou výukou jazyků Magic Hill s.r.o.</li>
         <li>Základní škola Meteorologická</li>

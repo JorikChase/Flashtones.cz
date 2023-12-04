@@ -170,11 +170,11 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka, s.r.o",
+              school: "4. základní škola Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open, s.r.o.",
+              school: "Základní škola Be Open",
           },
           {
               text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
@@ -186,7 +186,7 @@ defmodule Rekli do
           },
           {
               text: "Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...",
-              school: "ZŠ Nerudova 9, České Budějovice",
+              school: "ZŠ Nerudova 9",
           },
       ];
 

@@ -450,4 +450,5 @@ ux:
 	- shoptet 
 	/- lokality on load pouze jeden
 	//- hodnoceni page
+	- mapa na lokality
 

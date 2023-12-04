@@ -14,21 +14,26 @@ defmodule FlashtonesWeb.LocationsLive do
       .gallery{
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .course-wrap{
+        margin: 0;
       }
     </style>
     <div class="produkty">
       <div class="categories produkty-nav section-toggle">
-          <a class="active">Plavání pro školy</a>
+          <a class="active">Plavání</a>
           <a>Lyžování</a>
           <a>Enviro</a>
-          <a>Plavání pro veřejnost</a>
       </div>
     </div>
-    <div class="gallery">
+    <div class="gallery odsazeni">
       <DetailLokace.detailPlavaniSkoly />
       <DetailLokace.detailLokaceLyzovani />
       <DetailLokace.detailLokaceEnviro />
-      <DetailLokace.detailPlavaniVerejnost />
     </div>
     <br>
     <!-- Add more categories and products here -->
