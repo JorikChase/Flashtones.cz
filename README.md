@@ -420,14 +420,14 @@ ux:
 	//- on hover se snizi zabarveni
 ----------------------------------------------------------------
 	/- instruktori
-	- contact form
 	//- detaily kurzu
+	//- contact form
 	- detaily lokaci
 ----------------------------------------------------------------
 	//- vybarvit nadpisy - 1
-	- dodelat tlacitka na hero
 	//- o nas linky
-	- o nas stejne velky fotky a stejny texty
+	//- o nas stejne velky fotky a stejny texty
+	- dodelat tlacitka na hero
 ----------------------------------------------------------------
 	//- tlactiko zsprodeti na menu
 	//- texty detailu kurzu
@@ -435,19 +435,19 @@ ux:
 	- smooth movement na tlacitko
 	//opravy a upravy struktury textu a ikon - 8	
 ----------------------------------------------------------------
-	- vysky boxu rekli
 	//- na lokality nahodit novy lokality
 	//- lokace pripravit detail, //section toggle
 	//- o nas sectiontoggle
 	//- mapa do lokalit
 	//- footer zmensit, pridat popisky podstranek, 
-	- pridat socialni site naproti zsprodeti
 	//- odendat z plachty dlouhy texty a udelat na tri 
 	//- deti grid on hover efekt!
+	- vysky boxu rekli
+	//- pridat socialni site naproti zsprodeti
 ----------------------------------------------------------------
+	//- flashtones o nas figma
+	//- o nas nas tym
 	- shoptet 
 	- lokality on load pouze jeden
-	//- o nas nas tym
-	- formular kontakty
-	//- flashtones o nas figma
+	//- hodnoceni page
 
