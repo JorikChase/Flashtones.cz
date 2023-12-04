@@ -21,7 +21,7 @@ defmodule Kontakt do
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background: rgba(255, 255, 255, 0.517);
+        gap: 30px;
       }
       .kontakt-main > div > div{
         width: 100%;
@@ -30,16 +30,17 @@ defmodule Kontakt do
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        background: rgba(255, 255, 255, 0.341);
+        gap: 30px;
+        background: rgb(255, 255, 255);
       }
       .kontakt-main > div > div > *{
         width: 100%;
-        padding: 30px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        background: rgb(255, 255, 255);
+        margin: 0;
+        font-weight: bold;
       }
       .kontakt-main > div > div > * > img{
         margin-right: 30px;
@@ -60,7 +61,7 @@ defmodule Kontakt do
       }
       }
     </style>
-    <div class="container mx-auto py-8 kontakt-main">
+    <div class="kontakt-main">
       <div class="">
         <div class="">
           <h3>Pro školy</h3>
@@ -114,9 +115,46 @@ defmodule Kontakt do
 
     ~H"""
     <style>
+    #name{
+      width: 50%;
+      height: 60px;
+    }
+    #mail{
+      width: 50%;
+      height: 60px;
+    }
+    #message{
+      width: 100%;
+      height: 150px;
+    }
+    textarea{
+      border-radius: 10px;
+    }
+    textarea:hover{
+      border: solid var(--deti-hover);
+    }
+    .kontakt-form{
+
+    }
+
     </style>
-    <div class="container mx-auto py-8">
+    <div class="kontakt-form">
+    <form action="#">
+      <b for="name">Jméno</b>
+      <input type="text" id="name" name="name" value=""><br>
+      <b for="mail">E-mail:</b>
+      <input type="text" id="mail" name="mail" value="@"><br>
+      <b for="message">Zpráva</b>
+      <textarea id="message" name="message" value=""> </textarea><br>
+      <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed" required="true">
+          <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete <a href="###">zde.</a></small></label></span>
+          <br>
+      <input type="submit" class="button w-44 self-end deti-link" value="Odeslat">
+    </form>
     </div>
+    <script>
+      document.getElementById("subscribe").required = true;
+    </script>
     """
   end
 end
