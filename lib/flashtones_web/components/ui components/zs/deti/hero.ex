@@ -7,46 +7,13 @@ defmodule Hero do
       <div class="hero-content">
         <h1 id="hero-heading">Heading 1</h1>
         <br />
-        <a id="hero-button" class="button">Button 1</a>
+        <a id="hero-button" class="hero-button">Button 1</a>
       </div>
       <div class="hero-media"></div>
     </div>
 
     <style>
-      .hero {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 80vh;
-          background-color: #33333300;
-          color: #fff;
-      }
 
-      .hero-content {
-          flex: 1;
-          padding: 10%;
-          z-index: 1;
-      }
-
-      .hero-media {
-          z-index: 0;
-          overflow: hidden;
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 20vh;
-          left: 0;
-      }
-
-      #hero-image, #hero-video {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          position: absolute;
-          top: 0;
-          left: 0;
-          display: none;
-      }
     </style>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -109,973 +76,443 @@ defmodule Hero do
 
   def academyHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Školící centrum
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/academy/academy-head.jpeg" alt="Image 1" class="carousel-item" />
-          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
-          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
-          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
-        </div>
-      </div>
-    </div>
+        <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+            </div>
+            <div class="hero-media"></div>
+          </div>
 
-    <style>
-      @media (orientation: portrait){
-          .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-
-        }
-        #h1ro{
+          <style>
+        h1{
           color: rgb(253,78,13);
         }
 
-          .hero{
-            margin-bottom: 30px;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '/images/academy/academy-head.jpeg', heading: 'Školící centrum' },
+              ];
+              let currentSlide = 0;
 
-          .carousel {
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
-          }
+                const heroHeading = document.getElementById("hero-heading");
+                const heroMedia = document.querySelector(".hero-media");
 
-          .carousel-item {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.textContent = mediaItem.heading;
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
-
-      let currentSlide = 0;
-
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 
-  def detiHero(assigns) do
-    ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Intenzivní vzdělávací koncept založený na partnerském a respektujícím přístupu k dětem
-        <br /><br /><a href="#static-grid" class="button-promo">Nabídka kurzů</a>
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <span alt="Image 1" class="carousel-item" style=""></span>
-          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
-          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
-          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
-        </div>
-      </div>
-    </div>
-
-    <style>
-          .carousel {
-            background-image: url("/images/deti/deti-insta.jpeg");
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: flex-start;
-            background-repeat: no-repeat;
-            background-size: cover;
-          }
-
-          .carousel-item {
-            width: 100%;
-            height: 90vh;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
-
-          .carousel-item:first-child {
-            opacity: 1;
-          }
-
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
-
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
-
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-          .carousel-item{
-            background-image: url("/images/deti/deti-bg-phone.jpeg");
-          }
-      }
-    </style>
-
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
-
-      let currentSlide = 0;
-
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
-    """
-  end
 
   def domaHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/doma/doma-head.jpeg" alt="Image 1" class="carousel-item" />
-        </div>
-      </div>
-    </div>
 
-    <style>
-      @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-      }
-      #h1ro{
+        <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+            </div>
+            <div class="hero-media"></div>
+          </div>
+
+          <style>
+          #hero-heading{
           color: rgb(254,124,1);
-        }
-
-
-          .carousel {
-            width: 100%;
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
           }
 
-          .carousel-item {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '/images/doma/doma-head.jpeg', heading: 'Online vzdělávání<br> pomocí kvízů a her, doučování pomocí vlastního videostreamu', },
+              ];
+              let currentSlide = 0;
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-      let currentSlide = 0;
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 
   def enviroHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/enviro/enviro-head.jpeg" alt="Image 1" class="carousel-item" />
-        </div>
-      </div>
-    </div>
+      <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+              <br />
+              <a id="hero-button" class="hero-button">Button 1</a>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/enviro/enviro-head.jpeg);"></div>
+          </div>
 
-    <style>
-      @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
+          <style>
+          #hero-heading{
+            color: rgb(193,211,164);
           }
-      }
-      #h1ro{
-        color: rgb(193,211,164);
-      }
-          .carousel {
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
+          .hero-media{
+            background-size: 115%;
           }
 
-          .carousel-item {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#enviro-kurzy" },
+              ];
+              let currentSlide = 0;
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'contain';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-      let currentSlide = 0;
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 
   def lyzovaniHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Lyžařská škola nejen o obloucích
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/lyzovani/lyzovani-head.jpeg" alt="Image 1" class="carousel-item" />
-        </div>
-        <div class="carousel-nav flex justify-center mt-4">
-          <button class="carousel-control noBreak" onclick="goToSlide(0)">
-            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 1" />
-            <a>
-              veta nahore
-            </a>
-          </button>
-          <button class="carousel-control noBreak" onclick="goToSlide(1)">
-            <img src="/images/zs/Hero3.jpeg" alt="Image 2" />
-            <a>
-              veta nahore
-            </a>
-          </button>
-          <button class="carousel-control noBreak" onclick="goToSlide(2)">
-            <img src="/images/lyzovani/lyzovani.jpeg" alt="Image 3" />
-            <a>
-              veta nahore
-            </a>
-          </button>
-          <button class="carousel-control noBreak" onclick="goToSlide(3)">
-            <img src="/images/zs/Hero2.jpeg" alt="Image 4" />
-            <a>
-              veta nahore
-            </a>
-          </button>
-        </div>
-      </div>
-    </div>
+      <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+              <br />
+              <a id="hero-button" class="hero-button">Button 1</a>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/lyzovani/lyzovani-head.jpeg);"></div>
+          </div>
 
-    <style>
-      @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
+          <style>
+          #hero-heading{
+            color: rgb(0,158,226);
           }
-      }
-      #h1ro{
-        color: rgb(0,158,226);
-      }
-
-      .carousel {
-            background-image: url("/images/deti/deti-insta.jpeg");
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: flex-start;
-            background-repeat: no-repeat;
-            background-size: cover;
+          .hero-media{
+            background-position: bottom right;
           }
 
-          .carousel-item {
-            width: 100%;
-            height: 90vh;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '/images/lyzovani/lyzovani-head.jpeg', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#lyzovani-kurzy" },
+              ];
+              let currentSlide = 0;
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-      let currentSlide = 0;
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 
   def plavaniHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Největší plavecká škola v ČR 
-        <br />
-        <a href="#course-item" class="inline-button z-10 head-button">Nabídka kurzů</a>
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/plavani/plavani-head.png" alt="Image 1" class="carousel-item" />
-          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
-          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
-          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
-        </div>
-      </div>
-    </div>
+      <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+              <br />
+              <a id="hero-button" class="hero-button">Button 1</a>
+            </div>
+            <div class="hero-media"></div>
+          </div>
 
-    <style>
-      @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-      }
-      #h1ro{
-        color: white;
-      }
-      .head-button{
-        font-size: 15px;
-        line-height: 18px;
-        color: white;
-        background: rgba(255, 255, 255, 0.05);
-        padding: 10px 25px;
-        border-radius: 25px;
-      }
-      .head-button:hover{
-        color: var(--plavani-hover);
-      }
-      .carousel {
-            background-image: url("/images/deti/deti-insta.jpeg");
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: flex-start;
-            background-repeat: no-repeat;
-            background-size: cover;
+          <style>
+          #hero-heading{
+            color: white;
           }
 
-          .carousel-item {
-            width: 100%;
-            height: 90vh;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '/images/plavani/plavani-head.jpg', heading: 'Největší plavecká škola <br> v ČR', button: 'Nabídka kurzů', href: "#plavani-kurzy" },
+              ];
+              let currentSlide = 0;
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-      let currentSlide = 0;
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
-
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 
   def vyletyHero(assigns) do
     ~H"""
-    <div class="hero">
-      <h1 id="h1ro">
-        Jednodenní a vícedenní výlety pro školy a veřejnost
-      </h1>
-      <div class="relative">
-        <div class="carousel">
-          <img src="/images/vylety/vylety-head.jpg" alt="Image 1" class="carousel-item" />
-          <img src="/images/zs/Hero3.jpeg" alt="Image 2" class="carousel-item" />
-          <img src="/images/plavani/plavani-head.png" alt="Image 3" class="carousel-item" />
-          <img src="/images/zs/Hero2.jpeg" alt="Image 4" class="carousel-item" />
-        </div>
-      </div>
-    </div>
+      <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+              <br />
+              <a id="hero-button" class="hero-button">Button 1</a>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/vylety/vylety-head.jpeg);"></div>
+          </div>
 
-    <style>
-      @media (orientation: portrait){
-        .carousel{
-            aspect-ratio: auto;
-            height: 90vh;
-          }
-      }
-      #h1ro{
-        color: rgb(255,194,4);
-      }
-
-          .carousel {
-            background-image: url("/images/deti/deti-insta.jpeg");
-            height: 90vh;
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: flex-start;
-            background-repeat: no-repeat;
-            background-size: cover;
+          <style>
+          #hero-heading{
+            color: rgb(255,194,4);
           }
 
-          .carousel-item {
-            width: 100%;
-            height: 90vh;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
+          .hero-media{
+            background-position: 0% 0%;
+            background-size: 110%;
           }
 
-          .carousel-item:first-child {
-            opacity: 1;
-          }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '', heading: 'Jednodenní a vícedenní<br> výlety pro školy<br> a veřejnost', button: 'Nabídka kurzů', href: "#vylety-kurzy" },
+              ];
+              let currentSlide = 0;
 
-          .carousel-control {
-            z-index:2;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            font-size: 20px;
-            margin: -50px 5px 0 5px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-content: center;
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
 
-            display: flex;
-            width: 220px;
-            height: 70px;
-            padding: 10px 10px;
-            justify-content: center;
-            align-items: flex-start;
-          }
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
 
-          .carousel-control:hover {
-            background: rgba(0, 0, 0, 0.8);
-          }
-          .carousel-control > img {
-            position: relative;
-            border-radius: 50%;
-            width:50px;
-            height:50px;
-            margin-right: 1em;
-          }
-          .carousel-nav{
-            display: none;
-            position: absolute;
-            bottom: 10vh;
-            width: 100%;
-          }
-          .carousel-control{
-            width: fit-content;
-            height: fit-content;
-            background: transparent;
-          }
-          .carousel-nav > button > a{
-            display: none;
-          }
-        }
-    </style>
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
 
-    <script>
-      const carouselItems = document.querySelectorAll('.carousel-item');
-      const carouselControls = document.querySelectorAll('.carousel-control');
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
 
-      let currentSlide = 0;
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
 
-      function showSlide() {
-        carouselItems.forEach((item, index) => {
-          item.style.opacity = index === currentSlide ? 1 : 0;
-        });
-      }
+                // Initially set the content
+                updateHeroContent(currentSlide);
 
-      function goToSlide(slideIndex) {
-        currentSlide = slideIndex;
-        showSlide();
-      }
-
-      function nextSlide() {
-        currentSlide = (currentSlide + 1) % carouselItems.length;
-        showSlide();
-      }
-
-      function prevSlide() {
-        currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-        showSlide();
-      }
-
-      showSlide(); // Show initial slide
-    </script>
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
     """
   end
 end
