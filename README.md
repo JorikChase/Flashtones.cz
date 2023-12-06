@@ -412,7 +412,7 @@ ux:
 	//- struktura detailu kurzu - 3
 	//- struktura detailu lokace - 
 	//- simplify texty plachta
-	/- klikatelne logo plachta
+	//- klikatelne logo plachta
 	
 ----------------------------------------------------------------
 	//- silne barevne pozadi grid - 1
@@ -422,7 +422,6 @@ ux:
 	/- instruktori
 	//- detaily kurzu
 	//- contact form
-	- detaily lokaci
 ----------------------------------------------------------------
 	//- vybarvit nadpisy - 1
 	//- o nas linky
@@ -442,13 +441,28 @@ ux:
 	//- footer zmensit, pridat popisky podstranek, 
 	//- odendat z plachty dlouhy texty a udelat na tri 
 	//- deti grid on hover efekt!
-	- vysky boxu rekli
 	//- pridat socialni site naproti zsprodeti
 ----------------------------------------------------------------
 	//- flashtones o nas figma
 	//- o nas nas tym
-	- shoptet 
 	/- lokality on load pouze jeden
 	//- hodnoceni page
+----------------------------------------------------------------
+	//- cena zahrnuje, proc vyrazit s nami a volitelne do faq
+	-------------------
+	//- odendat ikony
+	//- fotka
+	-------------------
+	//- nandat vylet itemy
+	//- nandat vylet detaily
+	-------------------
+	- detaily lokaci
+	- vysky boxu rekli
+	- shoptet 
 	- mapa na lokality
-
+	- vylety herosmall
+	- instagram API
+	- texty lokace
+	- obrazky lokace
+	- optimizace lokace
+	- hero lokace

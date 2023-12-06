@@ -387,134 +387,6 @@ defmodule KurzDetail do
         </div>
     """
   end
-  def berlin(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>BERLÍN 20. STOLETÍ</h2>
-        <p>
-        Tématické výlety do Berlína jsou orientovány na historii Berlína 20. století a jsou dvoudenní.
-        <br>
-        Léta minulého století byla turbulentním obdobím v historii Německa a Evropy všeobecně. Berlín se stal po skončení 1. světové války jedním z největších průmyslových center Evropy.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def viden(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>VÍDEŇ – RAKOUSKO-UHERSKO</h2>
-        <p>
-        Tématické výlety do Vídně jsou orientovány na historii Vídně a dějin Rakouska-Uherska a jsou dvoudenní.
-        Vídeň byla srdcem rakousko-uherské monarchie v čele s Habsburky.
-          <br>
-        Výlet si lze rezervovat nebo zjistit podrobnosti pomocí emailového nebo telefonického kontaktu.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def terezin(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>PEVNOSTNÍ MĚSTO TEREZÍN</h2>
-        <p>
-        Hlavní destinací výletu je pevnostní město Terezín, které nechvalně proslulo v době 2. světové války (koncentrační tábor, židovské ghetto).
-        <br>
-        Součástí Památníku Terezín jsou objekty, které lze navštívit: Malá pevnost, Muzeum ghetta, Magdeburská kasárna, krematorium a židovský hřbitov, kolumbárium, modlitebna, replika mansardy.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def boleslav(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>MLADÁ BOLESLAV – MUZEUM ŠKODA</h2>
-        <p>
-        Doprava a její rychlost změnila chod našich dějin na pořádnou jízdu. Zatímco ještě před nedávnou dobou se lidé přepravovali po zemi pěšky s plnýma rukama, poté zneužili silnější zvířata jako koně, oslíky, velbloudy, vystavěli koleje a strčili zboží do vlaků, již brzy měli poznat všechny krásy a úskalí SUVéčkového parkování v nákupních centrech a odvoz nakoupeného exotického ovoce do privátní garáže před domem. Jde o originální jednodenní zájezd vhodný pro žáky prvního, a především druhého stupně základní školy. Lze ovšem program přizpůsobit i žákům středních škol. Příběh původně dvoukolé společnosti Laurin & Klement a její následovnice Škoda Auto, je příběhem jedné z nejúspěšnějších českých firem a je poutavě propojen s informacemi o moderní historii celé České republiky. Automobilka se může pochlubit totiž již více než stodvacetiletou tradicí. Žákům lze názorně zprostředkovat některé technické informace v kontextu všech historických etap moderní doby.
-        <br>
-        Expozice je umístěna ve velmi autentickém prostředí bývalých výrobních hal. Muzeum vystavuje zhruba 500 exponátů, kolem padesáti automobilů, několik řad bicyklů a motocyklů. Závěr návštěvy Mladé Boleslavi bude patřit prohlídce samotných výrobních provozů.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def kutna(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>KUTNÁ HORA</h2>
-        <p>
-        Zatímco pandemie „zlaté horečky“ se šířila Amerikou v devatenáctém století, ta stříbrná přišla do našich zemí již o mnoho dříve. Jaké bylo ono ohnisko? Odpověď zní Kutná Hora. Malé město ve středních Čechách s velkým historickým významem. Tento jednodenní výlet představí žákům jedno z nejvýznamnějších středověkých královských měst našeho regionu. Význam oblasti, potažmo města, vzrostl díky těžbě a tavení stříbra koncem 13. století, přičemž zdejší oblast postupně poskytovala až třetinu produkce stříbra celé Evropy. V této době, tedy období vlády krále Václava II. vypukla v lokalitě dnešní Kutné Hory skutečná „stříbrná horečka“ a několik tisíc lidí z blízkého i dalekého okolí se sem přistěhovalo za prací a obživou. Ještě roku 1289 se o soudní pravomoc nad osadou přela města Kolín a Čáslav, ale od roku 1291 už mělo město vlastní soud a královský horní úřad. Brzy poté již Kutná Hora soupeřila s Prahou o pozici nejvýznamnějšího města a díky těžbě („kutání“) stříbrných rud a tavením stříbra se stala centrem na ražbu Pražských grošů.
-        <br>
-        Bohatství kutnohorských dolů se brzy stalo základem královské moci v Čechách a hlavním zdrojem prostředků na velkolepé stavby Lucemburků po celé 14. století.
-        <br>
-        Druhý panovník rodu Lucemburků vládnoucí v českých zemích, Karel IV., se jako první český král stal císařem Svaté říše římské. Praha se následně stala vedle Říma a Paříže přední evropskou metropolí a doba panování Karla IV. bývá považována, za mohutného přispění kutnohorské těžby, za období největšího architektonického i kulturního rozkvětu Českého království vůbec.
-        <br>
-        Naši prohlídku zahájíme v unikátní kostnici v Sedlci, která je vyzdobena téměř výhradně z lidských kostí s ostatky až 40 000 zemřelých, jakožto pozůstatků morových epidemií a obětí husitských válek.
-        <br>
-        Pokračovat budeme návštěvou nově zrekonstruované katedrály Nanebevzetí Panny Marie a následně se již přesuneme do historického centra města, kde zhlédneme Morový sloup, kamennou kašnu, či Jezuitské koleje. Samozřejmě neopomeneme ani slavný chrám Svaté Barbory s prohlídkou interiéru, kde si budou moct žáci na vlastní kůži vyzkoušet vlastnoruční ražbu Pražského groše.
-        <br>
-        Návštěvu města Kutná Hora zakončíme prohlídkou středověkých stříbrných dolů. Zde se blíže seznámíme se středověkým způsobem těžby, zpracováním surového stříbra a s technologií ražby mince. Součástí prohlídkové okruhu je replika důlního díla s technickým vybavením, původní velký těžní stroj na koňský pohon i autentické středověké důlní dílo. Žáci si vyzkouší pravé hornické vybavení – helmu se svítilnou a hornickou halenu s kápí. Prohlídka bude zakončena scénickou expozicí přibližující zpracování stříbrné rudy a ražbu mince.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def drazdany(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>DRÁŽĎANY</h2>
-        <p>
-        Podrážděte smysly jednodenním zájezdem do této saské metropole. Výlet je vhodný pro mladší i starší návštěvníky a jsme schopni ho přizpůsobit opravdu každé skupině. Toto město rozkládající se na Labi a jeho pohnutý osud nám umožňuje velmi komplexně pozorovat historii lidstva v této oblasti a zamýšlet se nad lidským konáním globálně. Výlet nám umožní sledovat historii Drážďan od doby kamenné, kdy v oblasti vznikala první osada, přes slavné období patnáctého století, kdy se stalo město rezidenčním městem saských kurfiřtů a králů, až po následné masivní poničení v sedmnáctém století vzniklé masivním požárem. Duch města a jeho vůle se opětovně ukazuje při vystavění nového královského města s velkolepými barokními budovami, kdy se rozvíjí v jedno z uměleckých a kulturních center střední Evropy. V moderní éře je historie Drážďan neméně zajímavá v důsledku jeho vybombardování spojeneckými vojsky za druhé světové války a rekonstrukci s novou výstavbou a opětovným rozvinutím v jeden z ekonomicky nejdynamičtějších německých regionů. V současnosti hraje město klíčovou roli v oblasti inovací a moderních technologií v rámci celé Evropy.
-        <br>
-        Dle Spolkového úřadu pro ochranu přírody celé území Drážďan patří k velkoplošné přírodní krajině. Díky 62 procentům lesů a zeleně jsou Drážďany považovány za jedno z nejzelenějších měst v Evropě. Rozvoj města po staletí usiluje o harmonické integrování městských struktur do okolní přírody a zachování bohatství tohoto zvláštního přírodního prostředí.
-        <br>
-        Ihned po příjezdu vejdeme do samotného historického centra, projdeme přes Brühlovu terasu až ke zbytku středověkého opevnění.
-        <br>
-        Navštívíme symboly Drážďan – kostel Frauenkirche, Rezidenční zámek a Divadelní náměstí se Semperou operou. Zde navštívíme tématickou prohlídku divadelních prostor a následně si zpestříme naši návštěvu Drážďan prohlídkou „Muzea lží“ (Lügenmuseum) v Radebeulu. Zážitek plný humoru a her nám ukáže náš svět a společnost skutečně z nových perspektiv.
-        <br>
-        Poté budeme pokračovat k jedné z nejvýznamnějších barokních staveb v Německu a dominantě Drážďan Zwinger s jeho zbrojnicí a galerií starých mistrů včele s Rafaelovou Sixtinskou Madonou.
-        <br>
-        Tip: Doporučujeme s námi navštívit Drážďany v předvánočním čase. Drážďanský Striezelmarkt, založený v roce 1 434, je jedním z nejstarších a nejznámějších vánočních trhů v Evropě.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
-  def osvetim(assigns) do
-    ~H"""
-        <div class="course-wrap top">
-        <h2>Osvětim</h2>
-        <p>
-        Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a předávání vzpomínek. Dvoudenní zájezd do Osvětimi je v důsledku své brutální intenzity vhodný až pro žáky druhého stupně ZŠ a pro středoškolské studenty. Silné okamžiky jsou pro účastníky zážitkem skutečně na celý život. Zájezd zahrnuje dopravu autobusem, šestihodinovou prohlídku celého komplexu rozdělenou na dvě části, tedy Auschwitz I a Auschwitz II – Birkenau, nocleh a volitelný doplňkový program ve druhém dni.
-        <br>
-        První část prohlídky probíhá s průvodcem po Auschwitz I, kde se nachází bývalé vězeňské kasárny. Žáci nebo studenti zde navštíví expozice zaměřené na krutý život a umírání vězňů, jejich pracovní nasazení, ubytování a podmínky stravování. Na místě jsou k vidění tuny nalezených vlasů, nádobí, hračky dětí a další věci, které si vězni vzali sebou do Osvětimi, než byli zabití v plynových komorách nebo zemřeli na vyčerpání, hlad či nemoci.
-        <br>
-        Druhá část začíná po přestávce přesunem autobusem do zhruba 2,5 km vzdáleného komplexu Auschwitz II – Birkenau. Zde probíhá 2-3 hodinová prohlídka celého koncentračního a vyhlazovacího komplexu, kde jsou ke spatření zbytky plynových komor a krematorií, budova s názvem „Sauna“, kde byli vězni oholeni a potetováni. Zde se nachází taktéž výstava a bývalé odvšivovací zařízení. Na místě navštívíme také ženský tábor, „Blok smrti“ a rampu s vlakem, odkud směřovaly vlaky do tábora.
-        <br>
-        Ubytování je zajištěno v nedalekém Quest House Osvětim.
-        <br>
-        Na zpáteční cestě je dle předchozí dohody možná zastávka ve Věličce, největších solných dolech v Evropě (cena za žáka je cca 500 Kč), případně je možná komentovaná prohlídka města Krakova.
-        </p>
-        <Duo.vylety />
-        <Duo.proc />
-        <SectionToggle.vylety />
-        </div>
-    """
-  end
   def enviroSvp(assigns) do
     ~H"""
         <div class="course-wrap top">
@@ -588,6 +460,1198 @@ defmodule KurzDetail do
         <li><b>aplikační</b> – instalace a samotné finální řešení úkolu.
         </li>
         </ul>
+        </div>
+        <br>
+    """
+  end
+  def praha(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Praha </h2>
+        <p>
+        Kdo by neprahnul po návštěvě jednoho z nejkrásnější měst světa. Však i Ostrávaci a
+        Brňané měli by poznat krásy tohoto města skalnatých říčních prahů na Vltavě.
+        <br>
+        <br>
+        Podíváme se na místo, odkud přemyslovští vládci začali spravovat okolní území, kde si
+        postupně podřídili místní obyvatele a přiměli je k odvádění dávek. Ano, již tenkrát se na
+        dávky nadávalo. Mluvíme o knížecím paláci, později i dnes známém jako Pražský hrad. Již
+        Přemyslovci věděli, že Levý Hradec nemá budoucnost, na rozdíl od toho „pravého“ a
+        Prahy, a přesídlili sem svou družinu. Existence knížecího paláce přivedla do podhradí
+        řemeslníky a obchodníky a začalo se rodit jedno z nejbohatších měst Evropy. Brzy, za
+        vlády Karla IV., se měla Praha stát císařskou residencí, ba dokonce zamýšleným hlavním
+        městem Svaté říše římské. Díky ohrožení Vídně ze strany tureckých nájezdníků se stala
+        Praha sídlem císaře podruhé, to za doby habsburského císaře Rudolfa II., který se sem
+        přestěhoval s celým dvorem. Praha přežila vpád pasovských vojsk, nájezdy Švédů,
+        morovou epidemii, ostřelování pruských vojsk, dokud se po První světové válce nestala
+        hlavním městem nově vzniklého československého státu.
+        <br>
+        <br>
+        V novodobých dějinách byla Praha i nadále modernizována a rozšiřována a probíhala zde
+        poměrně masivní výstavba.
+        <br>
+        <br>
+        Gotické dominanty a barokní Prahu spolu s historizujícím stylem Národního divadla a
+        dalších staveb, v čase opepřila secesní a funkcionalistická architektura, či světově
+        unikátní kubistické stavby. Druhá světová válka naštěstí Prahu masivněji neponičila
+        mimo bombardování spojeneckých letadel při osvobozování, což dalo následně
+        vzniknout stavbám jako Tančící dům či kláštěr v Emauzích.
+        <br>
+        <br>
+        Díky čtyřicet let trvajícímu komunistickému režimu Praha sice zažila úpadek, nicméně
+        dnes je opět jednou ze světových metropolí, které stojí zato vidět.
+        <br>
+        <br>
+        Naši prohlídku začneme na václavském Václaváku, tedy u koně. Půjdeme dolů přes
+        pasáž Lucerna kolem hospody, kam chodil i sám Karel IV., projdeme Františkánskou
+        zahradu ke kostelu Paní Marie Sněžné, odkud budeme pokračovat po Národní třídě až na
+        Staré město. Zde si prohlédneme významné domy jako je Dům U Černé matky boží s
+        točitým schodištěm. Celetnou ulicí půjdeme až k Prašné bráně, Obecnímu domu až
+        přijdeme na Staroměstské náměstí. Zde zhlédneme Orloj, dům u Minuty, Ungelt, kostel
+        sv. Jakuba, židovské ghetto a jeho synagogy a židovský hřbitov. Oběd je naplánován
+        v legendární restauraci U Kata, odkud vyrazíme směrem Karlův most. Pokud nám zbydou
+        síly, projdeme Nerudovou ulicí až na Pražský hrad. Celou naši cestu budou provázet
+        poutavé příběhy a legendy staré Prahy i perličky moderního z pražského života.
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def osvetim(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Osvětim </h2>
+        <p>
+        Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování
+        nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a
+        předávání vzpomínek. Dvoudenní zájezd do Osvětimi je v důsledku své brutální intenzity
+        vhodný až pro žáky druhého stupně ZŠ a pro středoškolské studenty. Silné okamžiky
+        jsou pro účastníky zážitkem skutečně na celý život. Zájezd zahrnuje dopravu
+        autobusem, šestihodinovou prohlídku celého komplexu rozdělenou na dvě části, tedy
+        Auschwitz I a Auschwitz II – Birkenau, nocleh a volitelný doplňkový program ve druhém
+        dni.
+        <br>
+        <br>
+        První část prohlídky probíhá s průvodcem po Auschwitz I, kde se nachází bývalé
+        vězeňské kasárny. Žáci nebo studenti zde navštíví expozice zaměřené na krutý život a
+        umírání vězňů, jejich pracovní nasazení, ubytování a podmínky stravování. Na místě jsou
+        k vidění tuny nalezených vlasů, nádobí, hračky dětí a další věci, které si vězni vzali s
+
+        sebou do Osvětimi, než byli zabití v plynových komorách nebo zemřeli na vyčerpání, hlad
+        <br>
+        <br>
+        či nemoci.
+        Druhá část začíná po přestávce přesunem autobusem do zhruba 2,5 km vzdáleného
+        komplexu Auschwitz II - Birkenau. Zde probíhá 2-3 hodinová prohlídka celého
+        koncentračního a vyhlazovacího komplexu, kde jsou ke spatření zbytky plynových komor
+        a krematorií, budova s názvem "Sauna", kde byli vězni oholeni a potetováni. Zde se
+        nachází taktéž výstava a bývalé odvšivovací zařízení. Na místě navštívíme také ženský
+        <br>
+        <br>
+        tábor, "Blok smrti" a rampu s vlakem, odkud směřovaly vlaky do tábora.
+        <br>
+        <br>
+        Ubytování je zajištěno v nedalekém Quest House Osvětim
+        Na zpáteční cestě je dle předchozí dohody možná zastávka ve
+        Věličce, největších solných dolech v Evropě (cena za žáka je cca 500 Kč), případně je
+        <br>
+        <br>
+        možná komentovaná prohlídka města Krakova.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def terezin(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Terezín </h2>
+        <p>
+        Jedná se o celodenní zájezd vhodný pro žáky druhého stupně ZŠ a pro středoškolské
+        studenty. Zájezd zahrnuje dopravu autobusem a celodenní prohlídku. Mnoho lidí si pod
+        pojmem "Terezín" představí Malou pevnost. Naším cílem je tuto představu změnit a
+        rozšířit povědomí o tomto "zvláštním" prostoru. Terezín je pro své návštěvníky velmi
+        autentický. Žáci a studenti zde mohou vidět jak původní obranné prvky pevnosti z 18.
+        století, tak stopy z doby holokaustu nebo pozůstatky z doby, kdy tu působila vojenská
+        armáda.
+        <br>
+        <br>
+        Prohlídka bude zahájena v Terezíně průchodem části podzemních chodeb z doby 18.
+        století a obranného systému pevnosti. Navštívíme původní kasárna z 18. století, která
+        byla za druhé světové války proměněna ve velký koncentrační tábor. Projdeme místa,
+        kde bylo v ghettu popraviště, shromaždiště zabaveného majetku, kasárna, kam dorazil
+        první transport a dobové rytiny. Uvidíme původní půdní prostor, kde se našly nástěnné
+        malby. Bude následovat prohlídka "garáže", kterou za války proměnil jeden německý
+        rabín v nádhernou synagogu a povyprávíme si o židovských zvycích a tradicích, které se i
+        zde, během války, snažili vězni terezínského ghetta dodržovat. Navštívíme židovský
+        hřbitov, krematorium a další smutná místa, která jsou spojena s umíráním v bývalém
+        ghettu. Následně je možnost navštívit i terezínskou Sokolovnu, která sloužila jako
+        nemocnice a později byla využita k propagandistickým účelům.
+
+        <br>
+        <br>
+        Poutavá prohlídka je proložena rozborem básní, které v ghettu napsaly samy děti, je k
+        dispozici několik krátkých filmů, prezentace posledních nálezů z půd, seznámení s
+        historií Židů na českém území.
+        <br>
+        <br>
+        Na zpáteční cestě lze návštěvu Terezína skombinovat s návštěvou královského města
+        Litoměřice nebo městečka Ústěk s jeho malebnou synagogou s muzeem.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def tabor(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Tábor </h2>
+        <p>
+        Co takhle na podzimní nebo jarní Tábor?
+        Jedná se o celodenní zájezd vhodný pro žáky druhého stupně ZŠ i pro středoškolské
+        studenty.
+        <br>
+        <br>
+        Město Tábor patří mezi nejkrásnější česká města, a přesto nepatří mezi místa
+        poškozená masovou turistikou. Vyznačuje se geograficky výhodnou polohou na okraji
+        jižních a středních Čech.
+        <br>
+        <br>
+        Prohlídka začne na tzv. parkánech, výstupem na věž Kotnov s výhledem na starobylou
+        část Tábora, Klokoty a lesy v okolí řeky Lužnice. K věži Kotnov přiléhá
+        původní vrcholně gotická „Bechyňská brána“, kde je od dubna 2020
+        instalována expozice věnovaná dějinám Tábora, a to od pravěku až po třicetiletou válku.
+        <br>
+        <br>
+        Poté budeme pokračovat prohlídkou historického jádra města, s dokonale zachovalou
+        sítí křivolakých uliček v gotickém duchu, které je památkovou rezervací a skýtá mnohé
+        zajímavé příběhy, dokud nedorazíme na samotné Žižkovo náměstí.
+        <br>
+        <br>
+        Zde navštívíme Husitské muzeum, které se nalézá v budově Staré radnice na Žižkově
+        náměstí. V přízemí si prohlédneme expozici „Husité“, do níž nás uvede působivý
+        film seznamující se situací před vypuknutím husitského hnutí. Během prohlídkového
+        okruhu mohou děti vyplňovat pracovní listy. Za správnou tajenku možná dostanou i
+        nějakou malou odměnu. Pro děti jsou připraveny také tematické komiksy, tajné zásuvky
+        a vtipná kukátka. Dále si lze vyzkoušet válečnou kroužkovou košili či posedět na
+        královském trůně. Spatříme všechny husitské zbraně, zajímavý je film s názornou
+        ukázkou užití husitských zbraní. Jak vypadala středověká husitská bitva, nám přiblíží
+        rozestavěné figurky ve vitrínách či animované počítačové rekonstrukce známých bitev,
+        které mapují postup obou válčících stran. V prvním patře Husitského muzea v Táboře se
+        nachází druhý největší necírkevní gotický sál v České republice. K vidění tu jsou jezdecká
+        socha Jana Žižky z Trocnova a kamenný městský znak. Při návštěvě Tábora lze
+
+        obdivovat zbytky opevnění, zdobené fasády renesančních domů či kašny na náměstích.
+        Zajímavosti jsou ukryty ovšem i v podzemí. Proto navštívíme také přes půl kilometru
+        podzemního labyrintu.
+        <br>
+        <br>
+        Na Žižkově náměstí navštívíme Muzeum čokolády a marcipánu, které nám ukáže historii
+        pěstování kakaa, historické obaly, nádobí na pití čokolády. K vidění je 63 marcipánových
+        modelů pohádek, marcipánové Žižkovo náměstí, pohádkový sklep s čerty, kteří vaří
+        čokoládu. V muzeu se připravuje vánoční expozice Betlémů a perníková chaloupka.
+        Všechny děti si mohou vymodelovat svoji marcipánovou figurku, nebo si odlít figurku z
+        čokolády.
+        <br>
+        <br>
+        Na zpáteční cestě lze provést zastávku na zřícenině gotického hradu, tzv. Kozím hrádku,
+        kde pobýval samotný Jan Hus.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def drazdany(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Drážďany </h2>
+        <p>
+        Podrážděte smysly jednodenním zájezdem do této saské metropole. Výlet je vhodný pro
+        mladší i starší návštěvníky a jsme schopni ho přizpůsobit opravdu každé skupině. Toto
+        město rozkládající se na Labi a jeho pohnutý osud nám umožňuje velmi komplexně
+        pozorovat historii lidstva v této oblasti a zamýšlet se nad lidským konáním globálně.
+        Výlet nám umožní sledovat historii Drážďan od doby kamenné, kdy v oblasti vznikala
+        první osada, přes slavné období patnáctého století, kdy se stalo město rezidenčním
+        městem saských kurfiřtů a králů, až po následné masivní poničení v sedmnáctém století
+        vzniklé masivním požárem. Duch města a jeho vůle se opětovně ukazuje při vystavění
+        nového královského města s velkolepými barokními budovami, kdy se rozvíjí v jedno z
+        uměleckých a kulturních center střední Evropy. V moderní éře je historie Drážďan
+        neméně zajímavá v důsledku jeho vybombardování spojeneckými vojsky za druhé
+        světové války a rekonstrukci s novou výstavbou a opětovným rozvinutím v jeden
+        z ekonomicky nejdynamičtějších německých regionů. V současnosti hraje město
+        klíčovou roli v oblasti inovací a moderních technologií v rámci celé Evropy.
+        <br>
+        <br>
+        Dle Spolkového úřadu pro ochranu přírody celé území Drážďan patří k velkoplošné
+        přírodní krajině. Díky 62 procentům lesů a zeleně jsou Drážďany považovány za jedno
+        z nejzelenějších měst v Evropě. Rozvoj města po staletí usiluje o harmonické integrování
+        městských struktur do okolní přírody a zachování bohatství tohoto zvláštního přírodního
+        prostředí.
+        <br>
+        <br>
+        Ihned po příjezdu vejdeme do samotného historického centra, projdeme přes Brühlovu
+        terasu až ke zbytku středověkého opevnění.
+        <br>
+        <br>
+
+        Navštívíme symboly Drážďan - kostel Frauenkirche, Rezidenční zámek a Divadelní
+        náměstí se Semperou operou. Zde navštívíme tématickou prohlídku divadelních prostor
+        a následně si zpestříme naši návštěvu Drážďan prohlídkou „Muzea lží“ (Lügenmuseum) v
+        Radebeulu. Zážitek plný humoru a her nám ukáže náš svět a společnost skutečně
+        z nových perspektiv.
+        <br>
+        <br>
+        Poté budeme pokračovat k jedné z nejvýznamnějších barokních staveb v Německu
+        a dominantě Drážďan Zwinger s jeho zbrojnicí a galerií starých mistrů včele s Rafaelovou
+        Sixtinskou Madonou.
+        <br>
+        <br>
+        Tip: Doporučujeme s námi navštívit Drážďany v předvánočním čase. Drážďanský
+        Striezelmarkt, založený v roce 1 434, je jedním z nejstarších a nejznámějších vánočních
+        trhů v Evropě.
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def berlin(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Berlín </h2>
+        <p>
+        Žádná jiná světová metropole nenabízí takovou ucelenou a názornou ukázku moderních
+        dějin jako Berlín. Tato dvoudenní návštěva německého hlavního města a největší
+        evropské metropole zprostředkuje žákům druhého stupně základní školy a
+        středoškolákům skutečně autentický vhled do historie. Existence města je prvně
+        doložena již ve 13. století. Tehdy se zde křížily dvě důležité obchodní stezky. V 15. století
+        se stalo hlavním městem Braniborského markrabství (1417–1701) a Pruského
+        království (1701–1918). Jeho váha však vzrostla zejména od roku 1871, kdy se stalo hlavním
+        městem Německé říše (1871–1918). Do poloviny dvacátého století udrželo město pozici
+        nejdůležitějšího německého města a stalo se smutným centrem zvěrstev 20. století, a
+        to jak za Výmarské republiky (1918–1933), tak za Třetí říše (1933–1945).
+        <br>
+        <br>
+        Po osvobození města a vítězství spojenců, bylo město rozděleno do čtyř
+        sektorů (sovětský, francouzský, britský a americký). Vznik dvou samostatných států
+        SRN a NDR a rozdělení města do dvou částí, se stalo symbolem studené války. Východní
+        část města se stala hlavním městem NDR (kterou ovšem západní mocnosti neuznávaly),
+        Západní Berlín byl politicky spojen se Spolkovou republikou Německo.
+        <br>
+        <br>
+        V roce 1961 začala Německá demokratická republika stavět Berlínskou zeď kolem
+        Západního Berlína, aby zabránila emigraci východních Němců do západního Německa.
+        Její pád v roce 1989 se stal dalším symbolem, tentokrát pádu celého komunismu v
+        Evropě. Po sjednocení Německa roku 1990 se město Berlín stalo opět celoněmeckou
+        metropolí, přesídlil sem parlament a v současnosti je z něj světové centrum kultury,
+        politiky, médií a vědy, ale také světový dopravní uzel železniční a letecké dopravy.
+        <br>
+        <br>
+
+        Při naší návštěvě Berlína neopomeneme známou lokalitu Ostrov muzeí, kde se krom pěti
+        slavných muzeí nachází i Berlínská katedrála, dále zhlédneme Braniborskou bránu,
+        třídu Unter den Linden, Postupimské náměstí, Židovský památník, Vítězný
+        sloup, navštívíme East Side Gallery, Alexanderplatz i nedaleko stojící berlínský televizní
+        vysílač, nejvyšší stavbu v Německu. Nezapomeneme ani na Moderní berlínské bytové
+        stavby vystavěné po roce 1990.
+        <br>
+        <br>
+        Při naší návštěvě Berlína neskončíme ale pouze u těžkých témat. Asi jednu třetinu
+        rozlohy města totiž tvoří lesy, parky, zahrady, řeky, kanály a jezera, takže se dosyta
+        inspirujeme i v přírodovědné oblasti v rámci berlínské městské zeleně.
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def mnichov(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Mnichov </h2>
+        <p>
+        Tato bavorská metropole sehrála několikrát zásadní roli v historii nejen střední Evropy a
+        určitě stojí za to ji vidět. Jednodenní a volitelně i dvoudenní výlet je vhodný pro žáky
+        druhého stupně a středoškolské studenty.
+    <br>
+    <br>
+        První zmínka o Mnichovu pochází z roku 1158. To když bavorský a saský vévoda Jindřich
+        Lev nechal poblíž kláštera benediktínských mnichů zvaným Petersbergl postavit most
+        přes řeku Isar. Při té příležitosti ovšem nechal zničit severnější most biskupa
+        z Freisingu u Oberföhringu, aby vydělal na prosperujícím obchodu se solí do Augsburku.
+        Dobrý nápad? Ne tak docela. Roku 1180 byl Jindřich Lev uvržen císařem do říšské klatby
+        a byl mu zkonfiskován veškerý majetek včetně Bavorského vévodství. Poté bylo
+        toto říšské léno včetně Mnichova uděleno Wittelsbachům. Díky řemeslům, obchodu a
+        kolonizaci pustých lesů v okolí se Mnichov rychle rozrůstal a v letech 1214 -1217 obdržel
+        městská práva.
+    <br>
+    <br>
+        V roce 1255 došlo k rozdělení rodu Wittelsbachů na větev falckou a bavorskou. Bavorská
+        větev poté přesídlila přímo do Mnichova, kde žila až do konce první světové války. Město
+        si vystavělo druhé hradby, původní vévodský hrad a začaly se stavět paláce, z nichž
+        některé existují dodnes. Roku 1314 byl vévoda Ludvík IV. Bavor zvolen římským králem a
+        roku 1328 korunován na římského císaře a Mnichov se stává důležitou evropskou
+        metropolí.
+    <br>
+    <br>
+    <br>
+    <br>
+        V období pozdní gotiky a renesance zažilo město velký kulturní rozkvět. Za vlády Viléma
+        IV. a Albrechta V. se z něho stalo centrum renesance, manýrismu, ale
+        také protireformace.
+    <br>
+    <br>
+        Podobně jak Praha, přežil Mnichov vpád švédského vojska, a přes ztrátu až třetiny
+        obyvatelstva během morové epidemie se nadechl v další budoucí rozvoj. Za vlády
+        kurfiřta Ferdinanda Marii a jeho manželky Henrietty Adelaidy Savojské se otevřel
+        italskému baroku, to když manželé pozvali italské architekty a stavitele.
+    <br>
+    <br>
+        Koncem 18. století nastal opět velký rozkvět města, poté, co se bavorský
+        vévoda Maxmilián IV. Josef zásluhou napoleonské Francie stal bavorským
+        králem Maximiliánem I.
+    <br>
+    <br>
+        Za vlády krále Ludvíka I. (1825–1848) se Mnichov stal významným evropským centrem
+        umění a věd. Klasicistní architekti Leo von Klenze a Friedrich von Gärtner dali podobu
+        dnešní Ludwigstraße s vítězným obloukem na jedné straně a s lodžií podle florentského
+        vzoru na druhé. Univerzitní komplexem a kulturní centrum kolem náměstí Königsplatz se
+        stavbami ve stylu řecké antiky jsou od té doby další dominantou města. Ludvíkům
+        syn Maxmilián II. nechal vystavět mj. Maximilianstraße, která je dnes jednou
+        z nejexkluzivnějších a nejdražších nákupních ulic kontinentu. Za regentské vlády bratra
+        Maxmiliána II., prince Luitpolda, zažil Mnichov další ekonomický a zejména kulturní
+        rozmach s čtvrtí Schwabing, kde v této době žila řada významných spisovatelů a malířů.
+    <br>
+    <br>
+        Po První světové válce se Mnichov stal baštou pravice, extrémních nacionalistických
+        nálad a místem odporu proti sociálně demokratické vládě Výmarské republiky.
+        Postupně se město stalo centrem národně - socialistického hnutí, odkud byl 9.
+        listopadu 1938 zorganizován Hitlerem a NSDAP celoněmecký pogrom na Židy,
+        tzv. Křišťálová noc, při němž bylo po celém Německu zničeno přes 1000 synagog a
+        vyrabováno přes 7000 židovských obchodů.
+    <br>
+    <br>
+        Na okraji náměstí Königsplatz došlo v roce 1938 k podpisu tzv. mnichovské dohody,
+        která znamenala postoupení pohraničních území Československa Německu, jakož
+        prvním z dílčích cílů k ovládnutí celé Evropy. Mnichovská dohoda se stala příkladem
+        politiky ústupků, appeasementu neboli politiky ustupování agresivní straně.
+    <br>
+    <br>
+        Dalším významným milníkem města se stalo pořádání Dvacátých Olympijských her
+        v roce 1972. Nejvýraznější vzpomínkou na hry se bohužel stala událost, známá jako
+        Mnichovský masakr, při které skupina palestinských teroristů unesla a zavraždila
+        jedenáct izraelských sportovců. Stavba původního Olympijského parku se stala
+        světovým architektonickým unikátem, stejně jako jeho pozdější extenze, stadion Allianz
+        arena klubu Bayern Mnichov, který je jedním z nejluxusnějších fotbalových stadionů na
+        světě.
+    <br>
+    <br>
+        Při naší návštěvě Mnichova si prohlédneme hlavní stadiony a haly XVII. letních
+        olympijských her s unikátní prosklenou střechou a 291 metrů vysokou olympijskou věží s
+        vyhlídkovým ochozem.
+    <br>
+    <br>
+        V historickém centru Mnichova budeme obdivovat dominantu města Frauenkirche s
+        typickými cibulovitými kopulemi. Na náměstí Marienplatz naší pozornosti neunikne
+        menší Stará radnice, i novogotická Nová radnice s proslulým orlojem a zvonkohrou. Pěší
+
+        zóny nás dovedou ke středověké městské bráně Karlstor či rozsáhlé královské
+        rezidenci, ze které vládli Bavorsku Wittelsbachové. Nevynecháme moderní Hlavní
+        synagogu ani neoklasicistní Národní divadlo. Na závěr výletu ochutnáme na proslulém
+        trhu Viktualinmarkt s bavorskými specialitami některou z tradičních dobrot.
+    <br>
+    <br>
+        V případě dvoudenního výletu je možné ubytování přímo ve městě a druhý den prohlídka
+        dalších volitelných mnichovských památek. Na zpáteční cestě je možné zajistit
+        návštěvu v Dachau s komentovanou prohlídkou koncentračního tábora nebo výlet
+        zakončit lehčími tématy na známém „disneyovském“ zámku
+        Neuschwanstein postaveným Ludvíkem II. Bavorským.
+    <br>
+    <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def kutnaHora(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Kutná Hora </h2>
+        <p>
+        Zatímco pandemie „zlaté horečky“ se šířila Amerikou v devatenáctém století, ta stříbrná
+        přišla do našich zemí již o mnoho dříve. Jaké bylo ono ohnisko? Odpověď zní Kutná Hora.
+        Malé město ve středních Čechách s velkým historickým významem. Tento jednodenní
+        výlet představí žákům jedno z nejvýznamnějších středověkých královských měst našeho
+        regionu. Význam oblasti, potažmo města, vzrostl díky těžbě a tavení stříbra koncem
+        13. století, přičemž zdejší oblast postupně poskytovala až třetinu produkce stříbra celé
+        Evropy. V této době, tedy období vlády krále Václava II. vypukla v lokalitě dnešní Kutné
+        Hory skutečná „stříbrná horečka“ a několik tisíc lidí z blízkého i dalekého okolí se sem
+        přistěhovalo za prací a obživou. Ještě roku 1289 se o soudní pravomoc nad osadou přela
+        města Kolín a Čáslav, ale od roku 1291 už mělo město vlastní soud a královský horní úřad.
+        Brzy poté již Kutná Hora soupeřila s Prahou o pozici nejvýznamnějšího města a díky
+        těžbě („kutání“) stříbrných rud a tavením stříbra se stala centrem na ražbu Pražských
+        grošů.
+    <br>
+    <br>
+        Bohatství kutnohorských dolů se brzy stalo základem královské moci v Čechách a
+        hlavním zdrojem prostředků na velkolepé stavby Lucemburků po celé 14. století.
+    <br>
+    <br>
+        Druhý panovník rodu Lucemburků vládnoucí v českých zemích, Karel IV., se jako první
+        český král stal císařem Svaté říše římské. Praha se následně stala
+        vedle Říma a Paříže přední evropskou metropolí a doba panování Karla IV. bývá
+        považována, za mohutného přispění kutnohorské těžby, za období největšího
+        architektonického i kulturního rozkvětu Českého království vůbec.
+    <br>
+    <br>
+        Naši prohlídku zahájíme v unikátní kostnici v Sedlci, která je vyzdobena téměř výhradně
+        z lidských kostí s ostatky až 40 000 zemřelých, jakožto pozůstatků morových epidemií a
+        obětí husitských válek.
+    <br>
+    <br>
+
+        Pokračovat budeme návštěvou nově zrekonstruované katedrály Nanebevzetí Panny
+        Marie a následně se již přesuneme do historického centra města, kde zhlédneme
+        Morový sloup, kamennou kašnu, či Jezuitské koleje. Samozřejmě neopomeneme ani
+        slavný chrám Svaté Barbory s prohlídkou interiéru, kde si budou moct žáci na vlastní
+        kůži vyzkoušet vlastnoruční ražbu Pražského groše.
+    <br>
+    <br>
+        Návštěvu města Kutná Hora zakončíme prohlídkou středověkých stříbrných dolů. Zde se
+        blíže seznámíme se středověkým způsobem těžby, zpracováním surového stříbra a s
+        technologií ražby mince. Součástí prohlídkové okruhu je replika důlního díla s
+        technickým vybavením, původní velký těžní stroj na koňský pohon i autentické
+        středověké důlní dílo. Žáci si vyzkouší pravé hornické vybavení – helmu se svítilnou a
+        hornickou halenu s kápí. Prohlídka bude zakončena scénickou expozicí přibližující
+        zpracování stříbrné rudy a ražbu mince.
+    <br>
+    <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def mladaBoleslav(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Mladá Boleslav - Muzeum Škoda </h2>
+        <p>
+        Doprava a její rychlost změnila chod našich dějin na pořádnou jízdu. Zatímco ještě před
+        nedávnou dobou se lidé přepravovali po zemi pěšky s plnýma rukama, poté zneužili
+        silnější zvířata jako koně, oslíky, velbloudy, vystavěli koleje a strčili zboží do vlaků, již
+        brzy měli poznat všechny krásy a úskalí SUVéčkového parkování v nákupních centrech a
+        odvoz nakoupeného exotického ovoce do privátní garáže před domem. Jde o originální
+        jednodenní zájezd vhodný pro žáky prvního, a především druhého stupně základní školy.
+        Lze ovšem program přizpůsobit i žákům středních škol. Příběh původně dvoukolé
+        společnosti Laurin & Klement a její následovnice Škoda Auto, je příběhem jedné
+        z nejúspěšnějších českých firem a je poutavě propojen s informacemi o moderní historii
+        celé České republiky. Automobilka se může pochlubit totiž již více než stodvacetiletou
+        tradicí. Žákům lze názorně zprostředkovat některé technické informace v kontextu
+        všech historických etap moderní doby.
+    <br>
+    <br>
+        Expozice je umístěna ve velmi autentickém prostředí bývalých výrobních hal. Muzeum
+        vystavuje zhruba 500 exponátů, kolem padesáti automobilů, několik řad bicyklů a
+        motocyklů. Závěr návštěvy Mladé Boleslavi bude patřit prohlídce samotných výrobních
+        provozů.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def vyletyPriroda(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Záchranná stanice Aves Brandýsek</h2>
+        <p>Každý živočišný druh hraje důležitou roli v našem ekosystému, pomáhá udržovat
+          rovnováhu v přírodě a zachovat různorodou krásu a inspiraci pro příští generace. Kdo
+
+          jiný, než právě děti by měl pocítit důležitost biodiverzity a důsledky nerespektujícího
+          chování lidí k jiným živým bytostem. Tento jednodenní výlet dá dětem nahlédnout do
+          tématu ochrany živočichů v praxi. Pro žáky všech věkových kategorií je ihned po
+          nástupu do autobusu připraven krátký tematický film, kde se dozví o všech úskalích
+          ochrany zvířat a jak můžou k ochraně sami přispět. Díky promítání a následné diskuzi
+          s delegátem bude již samotná cesta pro děti naučná a zajímavá.
+          <br>
+          <br>
+          Na místě žáci setkají s handicapovanými zvířaty, exoty i původními českými plemeny
+          domácích zvířat. Záchrannou stanicí AVES projde ročně kolem 1 000 živočichů a valná
+          většina jejich zranění je způsobena lidskou činností. Nejčastěji se jedná o střet s auty
+          nebo nárazy do jiných dopravních prostředků a jiných překážek, postřelení, otrava, pády
+          do jímek či výkopů apod. K nejčastějším zvířatům na stanici patří sovy a dravci a v jarních
+          měsících mláďata. Mimo živočichů z volné přírody se na stanici dostávají i zmíněná
+          exotická zvířata, která buď svým utekla svým majitelům, nebo je zvířata přestala bavit.
+          Cílem je živočichy vyléčit a vrátit do přírody, což je samozřejmě ne vždy možné.
+          <br>
+          <br>
+          Na zpáteční cestě nás čeká zábavný kvíz, žáci následně hodnotí své zážitky z výletu a
+          diskutují témata s naším odborným delegátem, případně učiteli.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def staniceHrachov(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Záchranná stanice Hrachov</h2>
+        <p>Vezmeme vás na na výlet do jedné z nejmodernějších záchranných stanic s ekocentrem
+          v České republice, záchranné stanice Hrachov u Sedlčan. Jde o jedinečné místo, kde se
+          vášeň pro ochranu přírody a péči o volně žijící živočichy snoubí s inovativním přístupem
+          a osvětovou činností.
+          <br>
+          <br>
+          Cestou autobusem do Hrachova nás čeká zábavný odborný program, takže nám cesta
+          uteče a připraví nás na budoucí zážitek.
+          <br>
+          <br>
+          Záchranná stanice Hrachov představuje nejen bezpečný přístav pro zraněná, nemocná
+          či osiřelá zvířata, ale také inspirativní zážitek pro dětské návštěvníky všech věkových
+          kategorií.
+          <br>
+          <br>
+          Na vlastní kůži zažijeme jedinečný pohled do zákulisí záchranné stanice, kde budeme
+          uvidíme zvířata v různých stadiích rehabilitace a přípravy na návrat do volné přírody.
+          <br>
+          <br>
+          Děti uslyší mnohé inspirativní příběhy o záchraně, rehabilitaci a úspěšných návratech
+          zvířat do přirozeného prostředí. Dozví se, co dělat, pokud naleznou v přírodě zraněné
+          zvíře a jak mu nejlépe pomoci.
+          <br>
+          <br>
+          Na zpáteční cestě budeme diskutovat s naším odborným lektorem veškeré zážitky a
+          poznatky. Čeká nás i zábavný kvíz.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def centrumJaromer(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Záchranné centrum Jaroměř</h2>
+        <p>Návštěva Záchranného centra Jaroměř nám umožní vidět problematiku ochrany
+            živočišných druhů v ČR z jiné perspektivy. Zážitek ze záchranné stanice Jaroměř nabízí
+            příležitost, jak prohloubit povědomí o ochraně přírody a péči o volně žijící živočichy.
+          <br>
+          <br>
+          Již cestou nás čeká zábavný odborný program, aby cesta ubíhala a děti jsme patřičněnaladili.
+          <br>
+          <br>
+          Po našem příjezdu si podrobně prohlédneme stanici, získáme přehled o záchranných a rehabilitačních procesech, které zde probíhají a nahlédneme do zákulisí péče o zvířata.
+          <br>
+          <br>
+          Následně se setkáme se samotnými zvířaty-různými druhy ptáků, savců a dalších zvířat,
+          které se ve stanici aktuálně nacházejí, budeme mít příležitost zapojit se do krmení a na
+          závěr se seznámíme i s údržbou prostoru. Následně podnikneme procházku po okolní
+          přírodě a budeme pozorovat volně žijící zvířata v jejich přirozeném prostředí. Najdeme si
+          čas i na obchod se suvenýry, kde budeme mít možnost podpořit činnost stanice
+          drobným nákupem.
+          <br>
+          <br>
+          Na zpáteční cestě nás čeká zábavný kvíz, žáci následně hodnotí své zážitky z výletu a diskutují témata s naším odborným delegátem, případně učiteli.
+          <br>
+          <br>
+        </p>
+        </div>
+    """
+  end
+  def ekocentrumHuslik(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Ekocentrum Huslík</h2>
+        <p>Tento výlet nabízí několik variant programu pro menší i větší děti, může však být i
+          zajímavou exkurzí pro středoškolské studenty.
+        <br>
+        <br>
+          Pojeďte s námi na výlet do inovativního a inspirativního Ekocentra Huslík, kde se setkává
+          ekologie, udržitelnost, zábava a vzdělávání. Okusíme svět zelených technologií,
+          ekologických projektů a udržitelného životního stylu.
+        <br>
+        <br>
+          Areál Ekocentra Huslík je spojen se záchrannou stanicí a rozkládá se téměř na 100 000
+          m2. Najdeme v něm nejen skvěle vybavenou hlavní budovu bývalé hájovny, ale i
+          didaktické hřiště pro děti s výukovými prvky, ohniště, tůně, naučné stezky, vyvýšené
+          záhony, výběhy s hospodářskými zvířaty, venkovní prostory zahrnující expozici
+          handicapovaných živočichů, dřevěný přístřešek s posezením i pecí a přírodní areál
+          uzpůsobený pro vzdělávání.
+        <br>
+        <br>
+          Dozvíme se, kdo bydlí v úlu a jaká je včelí životní náplň, vyzkoušíme si včelařské
+          kombinézy a klobouky, složíme si model úlu a ochutnáme včelí produkty.
+        <br>
+        <br>
+          Uvidíme krávy, kozy, ovečky a prasátka, vyzkoušíme si krmení i dojení čerstvého mléka,
+          ochutnáme místní domácí mléčné produkty, alternativně si zkusíme vlastnoručně
+          vyrobit čerstvý sýr, který si dovezeme domů jako suvenýr.
+        <br>
+        <br>
+          Při prohlídce areálu se dozvíme, co dělat, když najdeme zraněné zvíře a jak mu pomoci či
+          jaké tajemství skrývá lužní les.
+        <br>
+        <br>
+
+          Objevíme širokou škálu ekologických a udržitelných technologií, které dětem pomohou
+          lépe pochopit význam ochrany životního prostředí a udržitelnosti v každodenním životě.
+          V případě zájmu okusíme zajímavý program s tématy recyklace, obnovitelná energie,
+          úspora vody aj. Projdeme po krásných ekologických zahradách a venkovních
+          prostorech, které slouží jako ukázka udržitelného zahradničení a péče o krajinu.
+        <br>
+        <br>
+          Na zpáteční cestě se budeme moci zastavit v Poděbradech na kolonádě napít se ze
+          zdejších minerálních vod a okusit tradiční lázeňské oplatky. Samozřejmostí je diskuze
+          s naším odborným lektorem a zábavný kvíz během cesty zpět.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def ekocentrumHulice(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Ekocentrum Hulice</h2>
+        <p>
+        Jedná se o jednodenní zájezd pro všechny zvídavé děti mladšího i staršího školního
+        věku.
+        <br>
+        <br>
+        Voda tvoří až dvě třetiny Země a až 60 % lidských těl. Nedostatek vody je původcem
+        migrace za vodou, hladomoru, válek, půdních erozí, vymírání fauny a flory, množení
+        kůrovce a mnoha dalších negativních jevů. Přesto je informovanost v oblasti vodstva
+        stále nedostatečná.
+        <br>
+        <br>
+        Téma vody prostupuje mnoha našimi aktivitami a je platformou pro jeden z našich
+        největších kurzů, kurz ZŠ Plavání. Je pro nás vítaným oživením, moci žákům představit
+        tento živel i z trochu jiného úhlu než z pohledu výuky plavání a vodní záchrany.
+        <br>
+        <br>
+        V hulickém Vodním domě lze najít o vodě v tematických expozicích takřka vše.
+        Navštívíme Vodní mikrosvět, Podvodní makrosvět, expozici Pitná voda a koloběh,
+        Mokřadní život a Výlet do historie. Celá výstava je plná zvukových kulis, interaktivních
+        exponátů a herních prvků. Děti mohou sledovat mikroskopem vodní mikroorganismy i
+        sledovat ryby na dně expoziční nádrže.
+        <br>
+        <br>
+        Ve Včelím světě se děti pomocí moderních technologií seznámí se životem včel a poznají
+        všechny včelí produkty. Na závěr projdou velký včelí úl, kde zažijí na vlastní uši zvuky úlu,
+        pomocí LCD displejů si prohlédnou anatomii včel a zahrají si kvíz. Poslední atrakcí je
+        výroba vlastní svíčky z včelího vosku, kterou si děti odnesou na památku.
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def ekocentrumVlasim(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Podblanické ekocentrum Vlašim</h2>
+        <p>
+        Cílem našeho jednodenního výletu do Vlašimi je vytvořit u dětí povědomí o udržitelnější a
+        ekologicky šetrnějším chování a hravou formou jim poskytnout informace a podporu,
+        která jim umožní aktivně se zapojit do ochrany životního prostředí. Výlet je připravený
+        pro jednotlivé věkové kategorie, takže rádi přivítáme mladší i starší návštěvníky. Již
+        cestou budou žáci připraveni naším odborným delegátem na to, co je čeká.
+        <br>
+        <br>
+        Navštívíme nejprve místní záchrannou stanici, která pomáhá zraněným a jinak
+        handicapovaným volně žijícím živočichům a dává jim druhou šanci pro život na svobodě.
+        Žáci poznají, jak se pečuje o osiřelá mláďata savců a ptáků, jak se organizují záchranné
+        transfery živočichů či jak se zajišťuje bezpečný přechod obojživelníků při jarní migraci
+        na rušných silničních komunikacích.
+        <br>
+        <br>
+        Samozřejmě si děti prohlédnou zblízka mnohé živočichy a poslechnou jejich jednotlivé
+        příběhy.
+        <br>
+        <br>
+        V Domě přírod Blaníku uvidí expozici věnovanou přírodním, geologickým a kulturně
+        historickým zajímavostem Podblanicka. Blíže poznají některé typy přírodních stanovišť v
+        oblasti, rostliny, které zde rostou a živočichy, kteří zde žijí. Zajímavou formou se naši
+        návštěvníci seznámí s legendou o blanických rytířích – průvodcem jim zde bude maskot
+        Domu přírody Blaníku, blanický rytíř. Dům přírody nabídne jak hravé prvky pro děti, tak
+        hlubší informace o regionu v kontextu historie a legend.
+        <br>
+        <br>
+        Vodní dům následně zábavnou formou poinformuje děti o významu vody pro přírodu i
+        člověka na příkladu evropsky významné lokality Želivka a vodní nádrže Švihov. Jeho
+        vnitřní expozice nás provede postupně pěti přehlednými sekcemi, jeho atrium pak
+        zadrnká na hravou strunu všech dětí nejrůznějšími vodními atrakcemi.
+        <br>
+        <br>
+        Na zpáteční cestě budeme diskutovat s naším odborným lektorem veškeré zážitky a
+        poznatky. Čeká nás i zábavný kvíz.
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def kurzRemesel(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Kurz ZŠ Řemesel</h2>
+        <p>
+        Je dvoudenní kurz, který si klade za cíl zprostředkovat žákům nevšední zážitky z manuálních
+        prací a okusit kouzlo tradičních i netradičních řemesel. Kurz je vhodný pro všechny žáky
+        základních škol, zejména pro menší třídní kolektivy z důvodu tmelení kolektivu. Máme za to, že ne
+        všechny děti se v životě najdou ve studiu, manažerských pozicích apod. a právě zde, na tomto
+        kurzu, mohou okusit některé alternativy své budoucí profese.
+        <br>
+        <br>
+        První den navštívíme Centrum řemesel v Botanicus poblíž Lysé nad Labem. Jedná se o
+        „středověké městečko,“ kde si prohlédneme ukázky nejrůznějších řemesel, vyzkoušíme si výrobu
+        provazů, papíru, rýžování zlata, kovařinu, řezbářství či kamenickou a drátenickou činnost.
+        Bočními východy přes můstky se dostaneme do zahrad, kde mohou žáci prozkoumat nádherné
+        botanické zahrady a přírodní stezky a seznámit se s rozmanitostí zdejších rostlin a živočichů.
+        Okusíme místní bludiště, nebo se pokocháme záhony koření, bylin, stromů, vinicí,
+        včelími úly. Samozřejmě strávíme čas i s místními zvířaty jako jsou kozy a ovce.
+        <br>
+        <br>
+        Zajímavá bude i navštěva lékárny plné nejrůznějších bylinek, kde si děti vyrobí voňavé bylinkové
+        mýdlo, ve svíčkárně si poté vyzkoušíme, jak se vyrábí svíčka.
+        <br>
+        <br>
+        Oběd absolvujeme v Hodovně a poté se autobusem přesuneme na ubikaci, kde si žáci sami uvaří
+        z předem připravených surovin. Po večeři žáky čeká večerní zábavní program, na kterém jim je
+        představen jejich projekt. Žáci se dle svých preferencí rozdělují do skupin dle typů výrobků.
+        Ještě tentýž večer začínají s přípravami projektu, který je během druhého dne realizován a
+        v odpoledních hodinách dokončován a bude jim zároveň sloužit jako památka na tento
+        nezapomenutelný výlet.
+        <br>
+        <br>
+        Snídaně i oběd připravují taktéž samotní žáci, což je pro ně další zajímavou tmelící aktivitou.
+        <br>
+        <br>
+        Ubytování a strava je v RS Lites
+        <br>
+        <br>
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def motylariumVotice(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Motýlárium Votice</h2>
+        <p>Zažijte s dětmi jedinečný výlet do Motýlária Votice, kde se křídla přírody setkávají s
+          kouzlem barev a elegance! Ojedinělý projekt Ochrany fauny ČR proměnil staré skleníky
+          v moderní interaktivní místo.
+          <br>
+          <br>
+          Motýli, oblíbení to zástupci hmyzu z naší přírody bohužel stále rychleji mizí. Při návštěvě
+          Motýlária Votice se dozvíme, proč tomu tak je, a jak každý z nás může pomoci zlepšit
+          životní podmínky motýlům, ale i nám lidem. Děti i učitelé zažijí doslova pestré aktivity a
+          spolu s námi zažijí fascinující svět motýlů ve vzácném a jedinečném prostředí, které
+          překonává hranice mezi realitou a snem.
+          <br>
+          <br>
+          Cestou nás čekají zábavné a naučné aktivity, takže nám bude cesta hezky ubíhat.
+          <br>
+          <br>
+
+          V samotném Motýláriu zhlédneme nádherné expozice s tisíci motýlů létajících v krásné
+          tropické zahradě plné exotických rostlin a květin, navštívíme motýlí laboratoř, kde
+          budeme sledovat vývoj životního cyklu motýlů, od kukly až po dospělého motýla.
+          <br>
+          <br>
+          Budeme si moci pořídit fotografie s okouzlující momenty s motýly, kteří přistávají na
+          květinách i rukách návštěvníků. Užijeme si klidnou atmosféru tropické zahrady, kde si
+          odpočineme obklopeni krásou přírody a harmonií motýlích křídel.
+          <br>
+          <br>
+          Na závěr navštívíme dárkový obchod plný motýlích suvenýrů a originálních dárků.
+          <br>
+          <br>
+
+          Cestou zpět probereme naše zážitky s naším odborným lektorem.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def vyletyPriroda(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: var(--Text, #333);
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>Záchranná stanice Aves Brandýsek</h2>
+        <p>Každý živočišný druh hraje důležitou roli v našem ekosystému, pomáhá udržovat
+          rovnováhu v přírodě a zachovat různorodou krásu a inspiraci pro příští generace. Kdo
+          jiný, než právě děti by měl pocítit důležitost biodiverzity a důsledky nerespektujícího
+          chování lidí k jiným živým bytostem. Tento jednodenní výlet dá dětem nahlédnout do
+          tématu ochrany živočichů v praxi. Pro žáky všech věkových kategorií je ihned po
+          nástupu do autobusu připraven krátký tematický film, kde se dozví o všech úskalích
+          ochrany zvířat a jak můžou k ochraně sami přispět. Díky promítání a následné diskuzi
+          s delegátem bude již samotná cesta pro děti naučná a zajímavá.
+          <br>
+          <br>
+          Na místě žáci setkají s handicapovanými zvířaty, exoty i původními českými plemeny
+          domácích zvířat. Záchrannou stanicí AVES projde ročně kolem 1 000 živočichů a valná
+          většina jejich zranění je způsobena lidskou činností. Nejčastěji se jedná o střet s auty
+          nebo nárazy do jiných dopravních prostředků a jiných překážek, postřelení, otrava, pády
+          do jímek či výkopů apod. K nejčastějším zvířatům na stanici patří sovy a dravci a v jarních
+          měsících mláďata. Mimo živočichů z volné přírody se na stanici dostávají i zmíněná
+          exotická zvířata, která buď svým utekla svým majitelům, nebo je zvířata přestala bavit.
+          Cílem je živočichy vyléčit a vrátit do přírody, což je samozřejmě ne vždy možné.
+          <br>
+          <br>
+          Na zpáteční cestě nás čeká zábavný kvíz, žáci následně hodnotí své zážitky z výletu a
+          diskutují témata s naším odborným delegátem, případně učiteli.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def enviroSSTym(assigns) do
+    ~H"""
+    <div class="course-wrap top">
+        <h2>Škola v přírodě "V týmu"</h2>
+        <p>
+          Adaptační kurz "V Týmu" jsme vytvořili v těsné spolupráci s odborníky z Fakulty tělesné
+          výchovy a sportu Univerzity Karlovy, specialisty v oblasti environmentálních studií a
+          přední českou psycholožkou. Naším cílem je podnítit pozitivní atmosféru ve třídě a
+          vzbudit ve studentech chuť učit se a vzájemně se obohacovat. Kurz je unikátní
+          kombinací atraktivního zábavně-vzdělávacího obsahu a outdoorových i indoorových
+
+          aktivit specificky navržených pro potřeby a zájmy středoškoláků. Environmentálně-
+          vzdělávací program přirozeně přechází ve sportovně-zážitkový program a následné
+
+          večerní zábavní aktivity.
+        </p>
+        <p>
+        Do všech společných aktivit se snažíme vnášet přesah sebepoznání a budování přirozené sebedůvěry, utužování vztahů ve skupině, vzájemný respekt a spolupráci v kolektivu.
+        </p>
         </div>
         <br>
     """

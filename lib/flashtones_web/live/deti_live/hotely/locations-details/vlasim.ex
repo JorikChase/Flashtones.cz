@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityVlasimLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.vlasim />
+      <LocationDetail.vlasim />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.vlasim />
         <Zustanme.plavani />
         <Footer.deti />
     """

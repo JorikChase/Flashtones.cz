@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityLugsteinhofLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.lugsteinhof />
+      <LocationDetail.lugsteinhof />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.lugsteinhof />
         <Zustanme.plavani />
         <Footer.deti />
     """

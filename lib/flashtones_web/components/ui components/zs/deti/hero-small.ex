@@ -85,6 +85,67 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def agri(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/agri/agri.jpg);
+     }
+    </style>
+    """
+  end
+  def astra(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/astra/astra.jpg);
+     }
+    </style>
+    """
+  end
+  def brandys(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/brandys/brandys.jpg);
+     }
+    </style>
+    """
+  end
+  def bystre(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/bystre/bystre.jpg);
+     }
+    </style>
+    """
+  end
+  def energetik(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/energetik/energetik.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
   def fontana(assigns) do
     ~H"""
     <div class="hero-small">
@@ -92,7 +153,187 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/fontana.jpeg);
+      background-image: url(/images/hotely/fontana/fontana.jpg);
+     }
+    </style>
+    """
+  end
+  def horniBecva(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/horni-becva/horni-becva.jpg);
+     }
+    </style>
+    """
+  end
+  def jelenovska(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/jelenovska/jelenovska.jpg);
+     }
+    </style>
+    """
+  end
+  def lites(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lites/lites.jpg);
+     }
+    </style>
+    """
+  end
+  def lubenec(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lubenec/lubenec.jpg);
+     }
+    </style>
+    """
+  end
+  def lugsteinhof(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg);
+     }
+    </style>
+    """
+  end
+  def maj(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/maj/maj.jpg);
+     }
+    </style>
+    """
+  end
+  def naMulde(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/na-mulde/na-mulde.jpg);
+     }
+    </style>
+    """
+  end
+  def plesivka(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/plesivka/plesivka.jpg);
+     }
+    </style>
+    """
+  end
+  def pramen(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/horni-pramen/horni-pramen.jpg);
+     }
+    </style>
+    """
+  end
+  def radost(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/radost/radost.jpeg);
+     }
+    </style>
+    """
+  end
+  def rousarka(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/rousarka/rousarka.jpg);
+     }
+    </style>
+    """
+  end
+  def tetreviBoudy(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg);
+     }
+    </style>
+    """
+  end
+  def uKurtu(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/u-kurtu/u-kurtu.jpg);
+     }
+    </style>
+    """
+  end
+  def uMedveda(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/u-medveda/u-medveda.jpg);
+     }
+    </style>
+    """
+  end
+  def vlasim(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/vlasim/vlasim.jpg);
      }
     </style>
     """
@@ -307,42 +548,6 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def vyletyViden(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def vyletyBoleslav(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/vylety/boleslav.jpeg);
-     }
-    </style>
-    """
-  end
-  def kutna(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/vylety/kutna.jpeg);
-     }
-    </style>
-    """
-  end
   def berlin(assigns) do
     ~H"""
     <div class="hero-small">
@@ -350,7 +555,47 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/vylety/berlin.jpeg);
+      background-image: url(/images/vylety/berlin/berlin-head.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def terezin(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/terezin/terezin-head.jpg);
+      background-position: 50% 65%;
+     }
+    </style>
+    """
+  end
+  def osvetim(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/osvetim/osvetim-head.jpg);
+      background-position: 50% 50%;
+     }
+    </style>
+    """
+  end
+  def tabor(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/tabor/tabor-head.webp);
+      background-position: 50% 70%;
      }
     </style>
     """
@@ -362,7 +607,60 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/vylety/drazdany.jpeg);
+      background-image: url(/images/vylety/drazdany/drazdany-head.jpg);
+      background-position: 50% 30%;
+     }
+    </style>
+    """
+  end
+  def kutnaHora(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/kutna-hora/kutna-hora-head.jpg);
+      background-position: 50% 50%;
+     }
+    </style>
+    """
+  end
+  def mnichov(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/mnichov/mnichov-head.jpg);
+      background-position: 50% 50%;
+     }
+    </style>
+    """
+  end
+  def mladaBoleslav(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.jpg);
+      background-position: 50% 50%;
+     }
+    </style>
+    """
+  end
+  def praha(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/praha/praha-head.jpg);
+      background-position: 50% 35%;
      }
     </style>
     """
@@ -473,6 +771,19 @@ defmodule HeroSmall do
      .hero-small{
       background-image: url(/images/enviro/tym.jpeg);
       background-position: 50% 50%;
+     }
+    </style>
+    """
+  end
+  def enviroSSTym(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/enviro/enviro-ss-tym-head.jpeg);
+      background-position: 50% 45%;
      }
     </style>
     """

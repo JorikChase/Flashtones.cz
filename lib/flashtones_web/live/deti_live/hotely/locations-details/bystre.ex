@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityBystreLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.bystre />
+      <LocationDetail.bystre />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.bystre />
         <Zustanme.plavani />
         <Footer.deti />
     """

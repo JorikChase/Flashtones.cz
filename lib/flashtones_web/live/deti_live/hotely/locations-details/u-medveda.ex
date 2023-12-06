@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityUMedvedaLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.uMedveda />
+      <LocationDetail.uMedveda />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.uMedveda />
         <Zustanme.plavani />
         <Footer.deti />
     """

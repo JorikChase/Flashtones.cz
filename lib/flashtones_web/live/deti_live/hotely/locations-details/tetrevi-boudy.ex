@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityTetreviBoudyLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.tetreviBoudy />
+      <LocationDetail.tetreviBoudy />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.tetreviBoudy />
         <Zustanme.plavani />
         <Footer.deti />
     """

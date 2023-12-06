@@ -61,8 +61,17 @@ defmodule FlashtonesWeb.Router do
     live "/zs/lyzovani/bezky", LyzovaniDetailBezkyLive
     live "/zs/lyzovani/weekend", LyzovaniDetailWeekendLive
     live "/zs/vylety", VyletyIndexLive
+    live "/zs/vylety/priroda/aves-brandysek", VyletyAvesBrandysekLive
+    live "/zs/vylety/priroda/centrum-jaromer", VyletyCentrumJaromerLive
+    live "/zs/vylety/priroda/ekocentrum-huslik", VyletyEkocentrumHuslikLive
+    live "/zs/vylety/priroda/ekocentrum-hulice", VyletyEkocentrumHuliceLive
+    live "/zs/vylety/priroda/stanice-hrachov", VyletyStaniceHrachovLive
+    live "/zs/vylety/priroda/motylarium-votice", VyletyMotylariumVoticeLive
+    live "/zs/vylety/priroda/ekocentrum-vlasim", VyletyEkocentrumVlasimLive
+    live "/zs/vylety/priroda/kurz-remesel", VyletyKurzRemeselLive
     live "/zs/enviro/svp", EnviroSvpLive
     live "/zs/enviro/tym", EnviroTymLive
+    live "/zs/enviro/ss-tym", EnviroSSTymLive
     live "/zs/enviro/weekend", EnviroWeekendLive
     live "/zs/enviro/city", EnviroCityLive
     live "/zs/enviro/evp", EnviroEvpLive

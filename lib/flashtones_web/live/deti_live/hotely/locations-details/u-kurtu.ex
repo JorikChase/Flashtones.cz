@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityUKurtuLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.uKurtu />
+      <LocationDetail.uKurtu />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.uKurtu />
         <Zustanme.plavani />
         <Footer.deti />
     """

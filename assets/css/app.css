@@ -147,6 +147,7 @@ body {
   border-radius: 15px;
   transition: all 0.5s ease-in-out;
 }
+
 a:hover{
   transition: all 0.5s ease-in-out;
 }
@@ -247,6 +248,18 @@ br{
 }
 
 /*components*/
+.vylet-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  height: 210px;
+  width: 420px;
+  color: white;
+  background-size: cover;
+}
   gmp-map {
     height: 100%;
   }
@@ -640,9 +653,7 @@ br{
   .detail-lokace-item-column{
     padding: 0;
   }
-  .detail-lokace-item img{
-    margin-bottom: 30px;
-  }
+  
 }
 /*zustanme*/
 .zustanme{
@@ -989,7 +1000,6 @@ form{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #486EFF;
   font-weight: bold;
 }
 .detail-cta a{
@@ -1324,7 +1334,9 @@ form{
     width: 270px;
     height: 185px;
 }
-
+@media (orientation: portrait){
+  
+}
 .product-image {
     
     background-image: url('product-image.jpg');
@@ -1358,14 +1370,15 @@ form{
     }
 
     .product {
-        width: 90%;
+        width: 100%;
+        height: 405px;
     }
     .product a{
       flex-direction: column;
     }
     .product a img{
-      max-width: 100%;
-      width: 100%;
+        width: 270px;
+        height: 185px;
     }
 }
 

@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.VyletyBoleslavLive do
+defmodule FlashtonesWeb.VyletyAvesBrandysekLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -17,9 +17,9 @@ defmodule FlashtonesWeb.VyletyBoleslavLive do
       <Nav.nav />
       <MenuMobile.menuVyletyMobile />
       <MenuPc.menuVyletyPc />
-      <HeroSmall.mladaBoleslav />
+      <HeroSmall.avesBrandysek />
       <DetailCta.vyletyPriroda />
-      <KurzDetail.mladaBoleslav />
+      <KurzDetail.vyletyPriroda />
         <!--<h3>Další informace</h3>-->
 
         <DetailFaq.vyletyPriroda />
@@ -30,7 +30,5 @@ defmodule FlashtonesWeb.VyletyBoleslavLive do
         <Footer.deti />
     """
   end
-
-
 
 end

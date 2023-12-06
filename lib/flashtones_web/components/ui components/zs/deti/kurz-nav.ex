@@ -133,6 +133,17 @@ defmodule KurzNav do
           <p>V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
         </a>
+        <a href="/zs/enviro/ss-tym" class="kurz-item">
+          <img src="/images/icon/kurz/škola v přírodě v týmu.svg">
+          <h4>"V týmu" pro střední školy</h4>
+          <p>
+            Program "V týmu" je inovativní přístup k adaptačním kurzům,
+            speciálně přizpůsobený pro střední školy s cílem podpořit
+            týmového ducha, sociální kohezi mezi studenty a
+            environmentální osvětu
+          </p>
+          <span class="inline-button align-right enviro-link">Více informací<img src="/images/plavani/arrow-right.svg"></span>
+        </a>
       </div>
     """
   end
@@ -141,44 +152,31 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/vylety/viden" class="kurz-item">
-          <img src="/images/icon/skola.svg">
-          <h4>Vídeň – Rakousko – Uhersko</h4>
-        </a>
-        <a href="/zs/vylety/berlin" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+        <a href="/zs/vylety/berlin" class="vylet-item" style="background-image: url(/images/vylety/berlin/berlin-head.jpg)">
           <h4>Berlín 20. století</h4>
         </a>
-        <a href="/zs/vylety/terezin" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+        <a href="/zs/vylety/terezin" class="vylet-item" style="background-image: url(/images/vylety/terezin/terezin-head.jpg)">
           <h4>Pevnostní město Terezín</h4>
         </a>
-        <a href="/zs/vylety/osvetim" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+        <a href="/zs/vylety/osvetim" class="vylet-item" style="background-image: url(/images/vylety/osvetim/osvetim-head.jpg)">
           <h4>Osvětim</h4>
         </a>
-        <a href="/zs/vylety/tabor" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+        <a href="/zs/vylety/tabor" class="vylet-item" style="background-image: url(/images/vylety/tabor/tabor-head.webp)">
           <h4>Tábor</h4>
         </a>
-        <a href="/zs/vylety/drazdany" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+        <a href="/zs/vylety/drazdany" class="vylet-item" style="background-image: url(/images/vylety/drazdany/drazdany-head.jpg)">
           <h4>Drážďany</h4>
         </a>
-        <a href="/zs/vylety/kutna-hora" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+        <a href="/zs/vylety/kutna-hora" class="vylet-item" style="background-image: url(/images/vylety/kutna-hora/kutna-hora-head.jpg)">
           <h4>Kutná Hora</h4>
         </a>
-        <a href="/zs/vylety/mnichov" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+        <a href="/zs/vylety/mnichov" class="vylet-item" style="background-image: url(/images/vylety/mnichov/mnichov-head.jpg)">
           <h4>Mnichov</h4>
         </a>
-        <a href="/zs/vylety/boleslav" class="kurz-item">
-          <img src="/images/icon/primestak.svg">
+        <a href="/zs/vylety/boleslav" class="vylet-item" style="background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.jpg)">
           <h4>Mladá Boleslav - Muzeum Škoda</h4>
         </a>
-        <a href="/zs/vylety/praha" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
+        <a href="/zs/vylety/praha" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
           <h4>Praha</h4>
         </a>
       </div>
@@ -189,17 +187,29 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/vylety/berlin" class="kurz-item">
-          <img src="/images/icon/skola.svg">
-          <h4>Berlín</h4>
+        <a href="/zs/vylety/priroda/aves-brandysek" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Záchranná stanice Aves Brandýsek</h4>
         </a>
-        <a href="/zs/vylety/terezin" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Terezín</h4>
+        <a href="/zs/vylety/priroda/centrum-jaromer" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Záchranné centrum Jaroměř</h4>
         </a>
-        <a href="/zs/vylety/viden" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Vídeň</h4>
+        <a href="/zs/vylety/priroda/ekocentrum-huslik" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Ekocentrum Huslík</h4>
+        </a>
+        <a href="/zs/vylety/priroda/ekocentrum-hulice" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Ekocentrum Hulice</h4>
+        </a>
+        <a href="/zs/vylety/priroda/stanice-hrachov" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Záchranná stanice Hrachov</h4>
+        </a>
+        <a href="/zs/vylety/priroda/motylarium-votice" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Motýlárium Votice</h4>
+        </a>
+        <a href="/zs/vylety/priroda/ekocentrum-vlasim" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Podblanické ekocentrum Vlašim</h4>
+        </a>
+        <a href="/zs/vylety/priroda/kurz-remesel" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+          <h4>Kurz ZŠ Řemesel</h4>
         </a>
       </div>
     """

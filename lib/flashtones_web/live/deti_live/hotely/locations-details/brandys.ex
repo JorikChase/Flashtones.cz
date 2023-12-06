@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityBrandysLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.brandys />
+      <LocationDetail.brandys />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.brandys />
         <Zustanme.plavani />
         <Footer.deti />
     """

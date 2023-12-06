@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityNaMuldeLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.naMulde />
+      <LocationDetail.naMulde />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.naMulde />
         <Zustanme.plavani />
         <Footer.deti />
     """

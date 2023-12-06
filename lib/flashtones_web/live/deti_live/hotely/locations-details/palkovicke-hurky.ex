@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.LokalityEnergetikLive do
+defmodule FlashtonesWeb.LokalityPalkovickeHurkyLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityEnergetikLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.energetik />
-      <LocationDetail.energetik />
+      <HeroSmall.palkovickeHurky />
+      <LocationDetail.palkovickeHurky />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.energetik />
+        <Mapa.palkovickeHurky />
         <Zustanme.plavani />
         <Footer.deti />
     """

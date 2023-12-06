@@ -39,6 +39,15 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
       <!--<Hero.detiHero />-->
+        <style>
+        /*
+        *:hover{
+          transform: scale(1.005);
+        }
+        body, main, .max-w-full{
+          transform: scale(1)!important;
+        }*/
+      </style>
       <DetiGrid.staticGrid />
       <!--<Aktuality.aktuality />-->
       <IconRow.iconRowDeti />

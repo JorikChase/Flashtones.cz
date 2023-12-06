@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityHorniBecvaDuoLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.horniBecva />
+      <LocationDetail.horniBecva />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.horniBecva />
         <Zustanme.plavani />
         <Footer.deti />
     """

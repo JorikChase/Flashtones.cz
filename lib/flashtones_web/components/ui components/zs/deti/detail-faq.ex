@@ -150,6 +150,165 @@ defmodule DetailFaq do
     </script>
     """
   end
+  def sSTym(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <p class="font-bold">Termíny kurzu</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/sportovni.svg">
+          <p class="font-bold">Doplňkový sportovní program</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Sportovně-zážitkový program je zaměřen na uvědomování si vlastního těla, ukázky
+
+          možností pro rozvoj fyzické kondice a nejrůznější outdoorové aktivity. Zahrnuje team-
+          buildingové hry, orientační běh, nácvik dovedností pro přežití v přírodě aj. To vše za
+
+          účelem rozvíjet u studentů důležité životní dovednosti.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/zabava.svg">
+          <p class="font-bold">Zábavní program</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Večerní programy jsou designovány tak, aby hravou formou rozvíjely kreativitu a
+          umožňovaly studentům vyjádřit se prostřednictvím umění, hudby či divadla. Jednotlivé
+          aktivity vytváří prostor k relaxaci v neformálním a podporujícím prostředí, a přitom živí
+          spolupráci, týmového ducha a pocit sounáležitosti mezi studenty.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Stravování</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+            snídaňový bufet
+            <br>
+            dopolední svačina
+            <br>
+            polední oběd
+            <br>
+            odpolední svačina
+            <br>
+            večeře
+            <br>
+            pitný režim po celý den
+            <br>
+            </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/bus.svg">
+          <p class="font-bold">Doprava</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/prispevek.svg">
+          <p class="font-bold">Jak zlevnit kurz?</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-ft.svg"></a>
+
+          <a href="/images/pdf/pojistovny.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Příspěvky zdravotních pojišťoven<img src="/images/icon/arrow-right-ft.svg"></a>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
   def skolniPobytovy(assigns) do
     ~H"""
     <style>
@@ -1025,7 +1184,14 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">
+          První písemný záznam pochází z roku 1198. V roce 1856 vypukl
+          ve Frymburku obrovský požár, při kterém bylo zcela zničeno
+          historické náměstí. Požáru padlo za oběť 54 domů a čtyři lidské
+          životy. Po napuštění lipenské přehrady v roce 1959 se Frymburk
+          a okolní krajina podstatně změnily a postupem času získaly ráz
+          rekreačního střediska.
+          </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -1035,7 +1201,17 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání.</p>
+          <div class="answer mt-2">
+            <b>Obchody</b>
+            <p>Supermarket COOP (Frymburk 83)</p>
+            <b>Lékárna</b>
+            <p>Lékárna Lipno (Lipno nad Vltavou 81)</p>
+            <b>Nemocnice</b>
+            <p>Lékařská služba první pomoci – Horní Planá (Náměstí 54, 382 26 Horní Planá)</p>
+            <p>Nemocnice Český Krumlov (Nemocniční 429, Český Krumlov)</p>
+            <b>Pošta</b>
+            <p>Česká pošta (Frymburk 178)</p>
+          </div>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -1045,13 +1221,384 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
+          <div class="answer mt-2">
+            <p>Muzeum Frymburk (Frymburk 5)</p>
+            <p>Svět pod hladinou Lipno (Frymburk 140) - expozice akvárií
+              (více než 30) a artefaktů, přibližující podvodní život v
+              Čechách I v tropech</p>
+            <p>Bobová dráha Lipně nad Vltavou</p>
+            <p>Stezka korunami stromů na kopci Kramolín</p>
+            <p>Bruslařská dráha z Frymburku do Lipna nad Vltavou (měří 11 km)</p>
+            <p>Papilonia – svět motýlů (Lipno nad Vltavou 86)</p>
+          </div>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/priroda.svg">
-          <p class="font-bold">příroda</p>
+          <p class="font-bold">Příroda</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
+          1959. S rozlohou 48,7 km2 je největší vodní plochou na území ČR.
+          Na nádrži se nachází několik menších ostrovů. Největší z nich je
+          Hadí ostrov, starousedlíky přezdívaný Tajvan, který byl vyhlášen
+          chráněnou přírodní rezervací a vstup na něj je zakázán. Další
+          z ostrovů – Králičí ostrov – byl častým cílem rodin s dětmi,
+          protože na něm od jara do zimy volně žili králíci a morčata.
+          Avšak kvůli neukázněnosti návštěvníků musela být všechna zvířata
+          převezena do bezpečí.
+            <br>
+            <br>
+            Národní park Šumava zajišťuje ochranu přirozených přírodních
+            procesů v souladu s celosvětovým posláním národních parků a
+            zároveň poskytuje dostatek prostoru pro aktivní ochranu druhové
+            a genetické rozmanitosti. Na území Šumavy se vyskytuje celá
+            řada významných a vzácných druhů rostlin a živočichů. Tato
+            druhová pestrost je umožněna širokým spektrem nejrůznějších
+            stanovišť – od údolních niv až po horské smrčiny.
+            <br>
+            <br>
+            </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Jídlo</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
+          sklářské knedlíky z bramborového nebo žemlového základu,
+          slaniny a kysaného zelí
+          <br>
+          <br>
+          kynuté knedlíky plněné ovocem nebo tvarohem, škubánky a
+          šlejšky, které se dělají jak na sladko, tak na slano
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/skola.svg">
+          <p class="font-bold">Výlety</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+        <div class="answer mt-2">
+            <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
+            <p>Hotel Fontána -> Cyklopřevoz Hrdoňov Sv. Tomáš -> 4,8 km, 1,5 hod. -> Vítkův Kámen</p>
+          </div>
+          </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+  def uMedveda(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/historie.svg">
+          <p class="font-bold">Historie obce</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Obec Kořenov vznikla v roce 1960 sloučením obcí Polubný,
+          Příchovice (i s osadou Rejdice) a Jizerka. Nejstarší částí obce
+          jsou Rejdice, které byly založeny již v roce 1577.
+          Původní obyvatelstvo bylo převážně německé, po vysídlení
+          Němců se do opuštěných chalup nastěhovali Češi a množství
+          objektů začalo sloužit k rekreačním účelům.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/vybavenost.svg">
+          <p class="font-bold">Občanská vybavenost</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <div class="answer mt-2">
+            <b>Obchody</b>
+            <p>Konzum Kořenov (Kořenov 227)</p>
+            <p>Vaše pekárna (Krkonošská 27/6, 46861 Desná)</p>
+            <b>Lékárna</b>
+            <p>Lékárna Desná (Krkonošská 630, 46861 Desná II) 6,3 km, 10 min autem</p>
+            <b>Nemocnice</b>
+            <p>Nemocnice Tanvald (Nemocniční 287, 46841 Tanvald) 12 km, 8 min autem</p>
+            <b>Pošta</b>
+            <p>Pošta Kořenov (Kořenov 480, 46849 Kořenov)</p>
+            <b>Čerpací stanice</b>
+            <p>MOL (Krkonošská 917, 46861 Desná III)</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/pin.svg">
+          <p class="font-bold">Okolí</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <div class="answer mt-2">
+          <p>rozhledna Štěpánka</p>
+            <p>evangelická kaple v Tesařově</p>
+            <p>kostel sv. Jana Křtitele na Polubném</p>
+            <p>ozubnicová železniční trať s nejprudším železničním stoupáním v Česku (až 58 promile) a s pěkným viaduktem přes řeku Jizeru</p>
+            <p>kamenný most u soutoku Mumlavy a Jizery z roku 1852-5</p>
+            <p>expozice lehkého opevnění na pomezí Jizerských hor a Krkonoš</p>
+            <p>Farma Příchovice (možnost zajít se podívat na telata. denně 15-18 hod.)</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/priroda.svg">
+          <p class="font-bold">Příroda</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Jizerské hory jsou nejsevernějším pohořím Česka. Pohoří bylo
+          nazváno podle řeky Jizery, která pramení na svazích Smrku, což
+          je nejvyšší hora české části hor.
+            <br>
+            <br>
+          V české části hor se nalézá 15 tisícovek a většina z nich je
+          zakončena výraznými skalními útvary. Mají také poměrně hluboká
+          sedla – 7 z nich má prominenci (převýšení od sedla) okolo 100 m
+          a více.
+            <br>
+            <br>
+          Pro Jizerské hory jsou charakteristické zarovnané povrchy ve
+          vrcholových oblastech tvořící tak vysoko položené náhorní
+          plošiny, z nichž se zvedají žulové vrcholky a na nichž jsou
+          mělké deprese obsahující četná rašeliniště.
+            <br>
+            <br>
+          Podoba a rozmanitost přírody Jizerských hor je do značné míry
+          určena jejich žulovým podložím. Na rozdíl od
+          sousedních Krkonoš chybí v Jizerských horách přirozené alpinské
+          a subalpinské vegetační pásmo.
+            <br>
+            <br>
+            </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Jídlo</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Tradiční surovinou Jizerských hor byli brambory, které místní
+          rozlišovali dle rozličných názvů. Na brambory vařené ve slupce
+          se osvědčily „flekáče“ a „žampiony“, „popelky“ a rozmarýny“ měly
+          nejlepší chuť a jedly se obvykle jen v neděli a o velkých
+          svátcích. Na hanušky se vařily z „červeňáků“ a „růžových“,
+          kucmoch ze žlutých „okurčat“. Asi nejoblíbenější krajovou
+          specialitou Pojizeří byl bramborový pokrm zvaný camprat.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/skola.svg">
+          <p class="font-bold">Výlety</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+        <div class="answer mt-2">
+            <p>Chata U Medvěda -> 3,5 km, 1.21 hod. -> Rozhledna Štěpánka</p>
+            <p>Chata U Medvěda -> 3,5 km, 1.21 hod. -> Hvězda</p>
+            <p>Chata U Medvěda -> 4,4 km, 1.37 hod. -> Maják Járy Cimrmana</p>
+            <p>Chata U Medvěda -> 9,6 km, 3.37 hod. -> Čertova hora</p>
+            <p>Chata U Medvěda -> 16,0 km, 5.20 hod. -> Jelení stráň (Věžní skály)</p>
+          </div>
+          </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def vyletyPriroda(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <p class="font-bold">Termíny výletů</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Answer to Question 1.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/sportovni.svg">
+          <p class="font-bold">Minimální počet účastníků</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">40 žáků</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/zabava.svg">
+          <p class="font-bold">Cena zahrnuje </p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Povinné pojištění CK, vstupy, služby průvodce (v CZ).</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Stravování</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
@@ -1073,8 +1620,8 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani.svg">
-          <p class="font-bold">Jídlo</p>
+          <img src="/images/icon/bus.svg">
+          <p class="font-bold">Doprava</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
@@ -1083,8 +1630,8 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola.svg">
-          <p class="font-bold">Výlety</p>
+          <img src="/images/icon/prispevek.svg">
+          <p class="font-bold">Jak zlevnit výlet?</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>

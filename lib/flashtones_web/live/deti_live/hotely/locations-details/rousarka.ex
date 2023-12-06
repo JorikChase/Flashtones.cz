@@ -38,12 +38,12 @@ defmodule FlashtonesWeb.LokalityRousarkaLive do
       <Nav.nav />
       <MenuMobile.menuDetiMobile />
       <MenuPc.menuDetiPc />
-      <HeroSmall.fontana />
-      <LocationDetail.fontana />
+      <HeroSmall.rousarka />
+      <LocationDetail.rousarka />
         <DetailFaq.fontana />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.fontana />
+        <Mapa.rousarka />
         <Zustanme.plavani />
         <Footer.deti />
     """
