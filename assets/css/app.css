@@ -100,6 +100,9 @@ h1{
   line-height: 7vh; /* 133.333% */
   letter-spacing: 0.14063rem;
 }
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover{
+  transform: scale(1.02);
+}
 h2{
   margin-top: 30px;
   font-family: Barlow;
@@ -149,16 +152,13 @@ body {
 }
 
 a:hover{
-  transition: all 0.5s ease-in-out;
-}
-a:hover{
-  color: #D9B770;
-}
-a:hover > * {
-  transition: all 0.5s ease-in-out;
+  transform: scale(1.02);
+  filter: contrast(115%);
+  -webkit-filter: contrast(115%);
 }
 a:hover > * {
-  color: #D9B770;
+  filter: contrast(105%);
+  -webkit-filter: contrast(105%);
 }
 p{
   color: var(--Text, #333);
@@ -167,6 +167,12 @@ p{
   font-style: normal;
   font-weight: 400;
   line-height: 35px; /* 194.444% */
+}
+p:hover{
+  transform: scale(1.02);
+}
+img:hover{
+  transform: scale(1.02);
 }
 li{
   list-style: circle;
@@ -681,11 +687,17 @@ form{
   display: flex;
   flex-direction: column;
 }
+form:hover{
+  transform: scale(1.02);
+}
 /*form input{
   border:#002FE0 5px solid;
 }*/
 .zustanme-button{
   align-self: flex-end;
+}
+.zustanme-button:hover{
+  transform: scale(1.02);
 }
 @media (orientation:portrait){
   .zustanme{
