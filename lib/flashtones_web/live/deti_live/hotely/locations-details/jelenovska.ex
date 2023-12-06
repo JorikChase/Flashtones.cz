@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityJelenovskaLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.jelenovska />
         <LocationDetail.jelenovska />
-          <DetailFaq.fontana />
+          <DetailFaq.jelenovska />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.jelenovska />

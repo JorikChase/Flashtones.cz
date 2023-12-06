@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityUMedvedaLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.uMedveda />
       <LocationDetail.uMedveda />
-        <DetailFaq.fontana />
+        <DetailFaq.uMedveda />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.uMedveda />

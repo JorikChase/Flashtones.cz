@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityNaMuldeLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.naMulde />
       <LocationDetail.naMulde />
-        <DetailFaq.fontana />
+        <DetailFaq.naMulde />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.naMulde />

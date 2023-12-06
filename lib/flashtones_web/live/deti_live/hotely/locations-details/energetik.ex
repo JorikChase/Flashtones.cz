@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityEnergetikLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.energetik />
       <LocationDetail.energetik />
-        <DetailFaq.fontana />
+        <DetailFaq.energetik />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.energetik />

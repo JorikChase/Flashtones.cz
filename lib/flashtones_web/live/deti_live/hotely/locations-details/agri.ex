@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityAgriLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.agri />
       <LocationDetail.agri />
-        <DetailFaq.fontana />
+        <DetailFaq.agri />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.agri />

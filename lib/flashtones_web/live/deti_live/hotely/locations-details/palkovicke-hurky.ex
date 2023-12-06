@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityPalkovickeHurkyLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.palkovickeHurky />
       <LocationDetail.palkovickeHurky />
-        <DetailFaq.fontana />
+        <DetailFaq.palkovickeHurky />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.palkovickeHurky />

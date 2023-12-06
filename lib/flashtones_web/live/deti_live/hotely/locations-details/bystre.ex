@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityBystreLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.bystre />
       <LocationDetail.bystre />
-        <DetailFaq.fontana />
+        <DetailFaq.bystre />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.bystre />

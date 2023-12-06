@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityAstraLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.astra />
       <LocationDetail.astra />
-        <DetailFaq.fontana />
+        <DetailFaq.astra />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.astra />

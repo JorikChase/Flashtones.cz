@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityTetreviBoudyLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.tetreviBoudy />
       <LocationDetail.tetreviBoudy />
-        <DetailFaq.fontana />
+        <DetailFaq.tetreviBoudy />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.tetreviBoudy />

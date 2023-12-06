@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.LokalityPramenLive do
+defmodule FlashtonesWeb.LokalityHorniPramenLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityPramenLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.pramen />
         <LocationDetail.pramen />
-          <DetailFaq.fontana />
+          <DetailFaq.pramen />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.pramen />

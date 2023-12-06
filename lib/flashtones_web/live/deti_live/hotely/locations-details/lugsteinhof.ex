@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityLugsteinhofLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.lugsteinhof />
       <LocationDetail.lugsteinhof />
-        <DetailFaq.fontana />
+        <DetailFaq.lugsteinhof />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.lugsteinhof />

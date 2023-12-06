@@ -101,7 +101,9 @@ defmodule FlashtonesWeb.Router do
     live "/zs/lokality/energetik", LokalityEnergetikLive
     live "/zs/lokality/tetrevi-boudy", LokalityTetreviBoudyLive
     live "/zs/lokality/vlasim", LokalityVlasimLive
+    live "/zs/lokality/vysocina", LokalityVysocinaLive
     live "/zs/lokality/bystre", LokalityBystreLive
+    live "/zs/lokality/brandys", LokalityBrandysLive
     live "/zs/lokality/horni-becva-duo", LokalityHorniBecvaDuoLive
     live "/zs/lokality/rousarka", LokalityRousarkaLive
     live "/zs/lokality/lugsteinhof", LokalityLugsteinhofLive

@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityRadostLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.radost />
         <LocationDetail.radost />
-          <DetailFaq.fontana />
+          <DetailFaq.radost />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.radost />

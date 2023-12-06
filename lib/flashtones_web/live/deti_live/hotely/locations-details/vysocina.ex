@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityVysocinaLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.vysocina />
       <LocationDetail.vysocina />
-        <DetailFaq.fontana />
+        <DetailFaq.vysocina />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.vysocina />

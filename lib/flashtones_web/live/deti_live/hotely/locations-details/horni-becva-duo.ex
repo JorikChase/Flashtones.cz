@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityHorniBecvaDuoLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.horniBecva />
       <LocationDetail.horniBecva />
-        <DetailFaq.fontana />
+        <DetailFaq.horniBecva />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.horniBecva />

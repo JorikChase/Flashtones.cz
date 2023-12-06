@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityRousarkaLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.rousarka />
       <LocationDetail.rousarka />
-        <DetailFaq.fontana />
+        <DetailFaq.rousarka />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.rousarka />

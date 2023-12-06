@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityPlesivkaLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.plesivka />
         <LocationDetail.plesivka />
-          <DetailFaq.fontana />
+          <DetailFaq.plesivka />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.plesivka />

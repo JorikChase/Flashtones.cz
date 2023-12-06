@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityLitesLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.lites />
         <LocationDetail.lites />
-          <DetailFaq.fontana />
+          <DetailFaq.lites />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.lites />

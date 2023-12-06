@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityVlasimLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.vlasim />
       <LocationDetail.vlasim />
-        <DetailFaq.fontana />
+        <DetailFaq.vlasim />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.vlasim />

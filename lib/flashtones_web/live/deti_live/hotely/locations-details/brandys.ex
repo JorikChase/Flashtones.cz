@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityBrandysLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.brandys />
       <LocationDetail.brandys />
-        <DetailFaq.fontana />
+        <DetailFaq.brandys />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.brandys />

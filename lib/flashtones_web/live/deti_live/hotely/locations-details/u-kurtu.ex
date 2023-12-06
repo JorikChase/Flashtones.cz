@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityUKurtuLive do
       <MenuPc.menuDetiPc />
       <HeroSmall.uKurtu />
       <LocationDetail.uKurtu />
-        <DetailFaq.fontana />
+        <DetailFaq.uKurtu />
         <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
         <Mapa.uKurtu />

@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityMajLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.maj />
         <LocationDetail.maj />
-          <DetailFaq.fontana />
+          <DetailFaq.maj />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.maj />

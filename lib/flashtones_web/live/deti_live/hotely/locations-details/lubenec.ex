@@ -40,7 +40,7 @@ defmodule FlashtonesWeb.LokalityLubenecLive do
         <MenuPc.menuDetiPc />
         <HeroSmall.lubenec />
         <LocationDetail.lubenec />
-          <DetailFaq.fontana />
+          <DetailFaq.lubenec />
           <!--<Lokace.galerie />-->
           <!--<Lokace.kurzy />-->
           <Mapa.lubenec />

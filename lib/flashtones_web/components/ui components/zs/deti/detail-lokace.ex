@@ -311,7 +311,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="/zs/lokality/brandys">
-                      <img src="/images/hotely/brandys.jpeg">
+                      <img src="/images/hotely/brandys/brandys.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -327,7 +327,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="/zs/lokality/horni-becva-duo">
-                      <img src="/images/hotely/duo-item.jpeg">
+                      <img src="/images/hotely/hotel-duo/hotel-duo.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -375,7 +375,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="/zs/lokality/lugsteinhof">
-                      <img src="/images/hotely/lugsteinhof-item.jpeg">
+                      <img src="/images/hotely/lugsteinhof/lugsteinhof.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -443,7 +443,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-medveda">
-                        <img src="/images/hotely/medved-item.jpeg">
+                        <img src="/images/hotely/u-medveda/u-medveda.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -507,7 +507,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                     <a href="/zs/lokality/lugsteinhof">
-                      <img src="/images/hotely/lugsteinhof-item.jpeg">
+                      <img src="/images/hotely/lugsteinhof/lugsteinhof.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -622,7 +622,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-medveda">
-                        <img src="/images/hotely/medved-item.jpeg">
+                        <img src="/images/hotely/u-medveda/u-medveda.jpeg">
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>

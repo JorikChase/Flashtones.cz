@@ -339,7 +339,7 @@ defmodule LocationDetail do
         <p>Fontána Blue Marine Resort se nachází v malebné oblasti na břehu Lipna 750 m nad mořem. Místo je zárukou čistého horského vzduchu. Hotel je tvořen centrální budovou a několika ubytovacími budovami čítajícími 94 pokojů a 6 apartmánů s balkónem nebo terasou.
         V těsné blízkosti je písečná pláž, sportoviště, cyklotrajekt a marina. K dispozici je vnitřní bazén se sluneční terasou, whirpool, finská sauna, infra sauny, tělocvična na volejbal i basketbal, dětská herna a venkovní hřiště s trampolínami.
         Nejbližší místo s částečnou občanskou vybaveností je město Frymburk (8 km od hotelu – cca 10 min autem).</p>
-        <img src="/images/hotely/fontana.jpeg">
+        <img src="/images/hotely/fontana/fontana.jpeg">
         <h3>FONTÁNA A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Fontána vznikla v roce 2020. Od tohoto roku zde probíhají kurzy ZŠ Enviro pro pátou až sedmou třídu a kurzy ZŠ Plavání. Výuka plavání při kurzech ZŠ Plavání probíhá ve 12 m dlouhém vyhřívaném bazénu uvnitř objektu hlavní budovy. Hotel Fontána je vhodný pro výuku plavání dětí od předškolního věku až po pátou třídu ZŠ. Bazén je z didaktického pohledu velmi příjemný a kompaktní. Nevzbuzuje v dětech stres a zároveň je dostatečně dlouhý pro výuku dvou skupin dětí ve stejném čase, tedy 20 až 24 dětí.
@@ -381,7 +381,7 @@ defmodule LocationDetail do
         Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova
         pod Radhoštěm a 500 metrů od autobusové zastávky.
         </p>
-        <img src="/images/hotely/horni-becva/horni-becva.jpg">
+        <img src="/images/hotely/hotel-duo/hotel-duo.jpg">
         <h3>HOTEL DUO A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Duo funguje od podzimu roku 2023. Je nám potěšením mít
@@ -729,7 +729,7 @@ defmodule LocationDetail do
         malé dětské hřiště. Poblíž chalupy je dětské hřiště, rozlehlá
         louka a les.
         </p>
-        <img src="/images/hotely/plesivka/plesivka.jpg">
+        <img src="/images/hotely/plesivka/plesivka.jpeg">
         <h3>PLEŠIVKA A ZŠ PRO DĚTI</h3>
         <p>
         Krušné hory, a tedy i chata Plešivka, jsou pro nás úplnou
@@ -774,7 +774,7 @@ defmodule LocationDetail do
         společenská místnost, prostorný dětský koutek, venkovní hřiště a
         hřiště na petanque.
         </p>
-        <img src="/images/hotely/pramen/pramen.jpg">
+        <img src="/images/hotely/horni-pramen/horni-pramen.jpg">
         <h3>HORNÍ PRAMEN A ZŠ PRO DĚTI</h3>
         <p>
         ZŠ PRO DĚTI využívá služeb hotelu Horní Pramen od roku 2022 zejména
@@ -820,7 +820,7 @@ defmodule LocationDetail do
         využití volného času, především díky překrásné přírodě a
         dechberoucím vyhlídkám.
         </p>
-        <img src="/images/hotely/radost/radost.jpg">
+        <img src="/images/hotely/radost/radost.jpeg">
         <h3>RADOST A ZŠ PRO DĚTI</h3>
         <p>
         ZŠ PRO DĚTI v objektu začalo pořádat své kurzy v roce 2021. Od
@@ -1012,7 +1012,7 @@ defmodule LocationDetail do
         Penzion leží přímo uprostřed sjezdovky s denním i nočním lyžováním. V centru obce
         Strážné je dětské hřiště s prolézačkami a houpačkou.
         </p>
-        <img src="/images/hotely/u-kurtu/u-kurtu.jpg">
+        <img src="/images/hotely/u-kurtu/u-kurtu.jpeg">
         <h3>U KURTU A ZŠ PRO DĚTI</h3>
         <p>
         Do penzionu jezdí naše školní skupiny od roku 2021 a penzion si všechny školy
@@ -1054,7 +1054,7 @@ defmodule LocationDetail do
           společenskou místností, hospůdkou a četnými možnostmi pro
           trávení volného času.
         </p>
-        <img src="/images/hotely/u-medveda/u-medveda.jpg">
+        <img src="/images/hotely/u-medveda/u-medveda.jpeg">
         <h3>U MEDVĚDA A ZŠ PRO DĚTI</h3>
         <p>
           V Chatě U Medvěda jsme začali pořádat kurzy ZŠ Lyžování ihned

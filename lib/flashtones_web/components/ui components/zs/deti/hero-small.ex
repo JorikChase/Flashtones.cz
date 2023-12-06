@@ -165,7 +165,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/horni-becva/horni-becva.jpg);
+      background-image: url(/images/hotely/hotel-duo/hotel-duo.jpg);
      }
     </style>
     """
@@ -249,7 +249,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/plesivka/plesivka.jpg);
+      background-image: url(/images/hotely/plesivka/plesivka.jpeg);
      }
     </style>
     """
@@ -298,6 +298,7 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg);
+      background-position: 50% 40%;
      }
     </style>
     """
@@ -309,7 +310,8 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/u-kurtu/u-kurtu.jpg);
+      background-image: url(/images/hotely/u-kurtu/u-kurtu.jpeg);
+      background-position: 50% 50%;
      }
     </style>
     """
@@ -321,7 +323,8 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/u-medveda/u-medveda.jpg);
+      background-image: url(/images/hotely/u-medveda/u-medveda.jpeg);
+      background-position: 50% 50%;
      }
     </style>
     """
