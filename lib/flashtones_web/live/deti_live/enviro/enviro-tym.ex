@@ -14,7 +14,7 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <DetailFaq.detailFaq />
       <DetailLokace.detailLokaceEnviro />
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliEnviro />
       <Zustanme.enviro />
       <Footer.deti />
     """

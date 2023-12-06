@@ -44,7 +44,7 @@ defmodule FlashtonesWeb.IndexLive do
       <Hero.ftHero />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoFt />
-      <Rekli.rekli />
+      <Rekli.rekliVylety />
       <Zustanme.zustanme />
       <Footer.footer />
     """

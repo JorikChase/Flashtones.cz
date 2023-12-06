@@ -14,7 +14,7 @@ defmodule FlashtonesWeb.PlavaniDetailSummerLive do
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailPlavaniVerejnost />
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliPlavani />
       <Zustanme.plavani />
       <Footer.deti />
     """

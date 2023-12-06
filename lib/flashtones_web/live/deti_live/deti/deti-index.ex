@@ -52,7 +52,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <!--<Aktuality.aktuality />-->
       <IconRow.iconRowDeti />
       <Kdo.kdoZs />
-      <Rekli.rekli />
+      <Rekli.rekliDeti />
       <Zustanme.deti />
       <Footer.deti />
     """

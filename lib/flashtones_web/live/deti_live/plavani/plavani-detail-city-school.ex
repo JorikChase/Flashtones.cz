@@ -60,7 +60,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
                         Se nachází v klidné části města Brandýs nad Labem v okrese Praha-východ. Mezi velké výhody patří blízká dostupnost od hlavního města a přitom mnoho možností k trávení času v přírodě.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -68,7 +68,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
               </div>
               <br>
               <br>
-      <Rekli.rekli />
+      <Rekli.rekliPlavani />
       <Zustanme.plavani />
       <Footer.deti />
     """

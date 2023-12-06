@@ -13,7 +13,7 @@ defmodule FlashtonesWeb.PlavaniDetailPreSchoolLive do
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailPlavaniSkoly />
-      <Rekli.rekli />
+      <Rekli.rekliPlavani />
       <Zustanme.plavani />
       <Footer.deti />
     """

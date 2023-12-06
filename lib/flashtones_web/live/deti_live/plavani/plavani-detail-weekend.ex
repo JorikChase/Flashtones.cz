@@ -13,7 +13,7 @@ defmodule FlashtonesWeb.PlavaniDetailWeekendLive do
       <!--<DetailFaq.detailFaq />-->
       <DetailFaq.plavaniWeekend />
       <DetailLokace.detailPlavaniVerejnost />
-      <Rekli.rekli />
+      <Rekli.rekliPlavani />
       <Zustanme.plavani />
       <Footer.deti />
     """

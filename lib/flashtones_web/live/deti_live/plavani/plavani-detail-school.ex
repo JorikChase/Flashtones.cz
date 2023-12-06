@@ -46,7 +46,7 @@ defmodule FlashtonesWeb.PlavaniDetailSchoolLive do
         <DetailFaq.skolniPobytovy />
 
         <DetailLokace.detailPlavaniSkoly />
-        <Rekli.rekli />
+        <Rekli.rekliPlavani />
 
         <Zustanme.plavani />
         <Footer.deti />

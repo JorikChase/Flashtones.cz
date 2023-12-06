@@ -462,7 +462,10 @@ ux:
 	- mapa na lokality
 	- vylety herosmall
 	- instagram API
-	- texty lokace
-	- obrazky lokace
-	- optimizace lokace
-	- hero lokace
+	//- texty lokace - 2
+	//- obrazky lokace - 2
+	//- optimizace lokace - 2
+	//- hero lokace - 2
+	- rs dodelat
+	- na mulde dodelat
+	- sipky, uvozovky

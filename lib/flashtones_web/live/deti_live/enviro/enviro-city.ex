@@ -11,7 +11,7 @@ defmodule FlashtonesWeb.EnviroCityLive do
       <KurzDetail.enviroCity />
       <!--<DetailFaq.plavaniWeekend />-->
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliEnviro />
       <Zustanme.enviro />
       <Footer.deti />
     """

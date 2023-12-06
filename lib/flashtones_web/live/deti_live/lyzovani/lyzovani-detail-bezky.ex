@@ -26,7 +26,7 @@ defmodule FlashtonesWeb.LyzovaniDetailBezkyLive do
       <br>
       <DetailLokace.detailLokaceLyzovani />
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliLyzovani />
       <Zustanme.lyzovani />
       <Footer.deti />
     """

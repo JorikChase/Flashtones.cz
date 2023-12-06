@@ -18,7 +18,7 @@ defmodule FlashtonesWeb.DomaIndexLive do
       <General.doma />
       </div>
       <Kdo.kdoZs />
-      <Rekli.rekli />
+      <Rekli.rekliDoma />
       <Zustanme.doma />
       <Footer.deti />
     """

@@ -24,7 +24,7 @@ defmodule FlashtonesWeb.VyletyStaniceHrachovLive do
 
         <DetailFaq.vyletyPriroda />
 
-        <Rekli.rekli />
+        <Rekli.rekliVylety />
 
         <Zustanme.plavani />
         <Footer.deti />

@@ -14,7 +14,7 @@ defmodule FlashtonesWeb.EnviroSSTymLive do
       <DetailFaq.sSTym />
       <DetailLokace.detailLokaceEnviro />
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliEnviro />
       <Zustanme.enviro />
       <Footer.deti />
     """

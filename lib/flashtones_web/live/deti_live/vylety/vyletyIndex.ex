@@ -15,7 +15,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
       <SectionToggle.vylety />
       <!--<Aktuality.aktuality />-->
       <Kdo.kdoZs />
-      <Rekli.rekli />
+      <Rekli.rekliVylety />
       <Zustanme.vylety />
       <Footer.deti />
     """

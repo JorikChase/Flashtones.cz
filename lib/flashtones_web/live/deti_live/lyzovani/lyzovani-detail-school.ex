@@ -27,7 +27,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailLokaceLyzovani />
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliLyzovani />
       <Zustanme.lyzovani />
       <Footer.deti />
     """

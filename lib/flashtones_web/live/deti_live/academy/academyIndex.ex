@@ -47,7 +47,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
       </div>
       </div>
       <Kdo.kdoZs />
-      <Rekli.rekli />
+      <Rekli.rekliAcademy />
       <Footer.deti />
     """
   end
