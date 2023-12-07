@@ -25,44 +25,101 @@ defmodule FlashtonesWeb.LocationsLive do
     </style>
     <div class="produkty">
       <div class="categories produkty-nav section-toggle">
-          <a class="active">Plavání</a>
-          <a>Lyžování</a>
-          <a>Enviro</a>
+          <a onclick="showSection(1)">Plavání</a>
+          <a onclick="showSection(2)">Lyžování</a>
+          <a onclick="showSection(3)">Enviro</a>
       </div>
     </div>
     <div class="gallery odsazeni">
+    <div id="section1" class="hidden">
       <DetailLokace.detailPlavaniSkoly />
+    </div>
+    <div id="section2" class="hidden">
       <DetailLokace.detailLokaceLyzovani />
+    </div>
+    <div id="section3" class="hidden">
       <DetailLokace.detailLokaceEnviro />
+    </div>
     </div>
     <br>
     <!-- Add more categories and products here -->
       <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          // Get all category buttons
-          const categoryButtons = document.querySelectorAll(".produkty-nav a");
-
-          // Get all detail sections
-          const detailSections = document.querySelectorAll(".gallery > div");
-
-          // Add click event listeners to each category button
-          categoryButtons.forEach((button, index) => {
-            button.addEventListener("click", function () {
-              // Remove the 'active' class from all buttons
-              categoryButtons.forEach((btn) => btn.classList.remove("active"));
-
-              // Add the 'active' class to the clicked button
-              button.classList.add("active");
-
-              // Hide all detail sections
-              detailSections.forEach((section) => (section.style.display = "none"));
-
-              // Display the corresponding detail section based on the clicked button
-              detailSections[index].style.display = "block";
-            });
-          });
+      // Function to show/hide sections
+      function showSection(sectionNumber) {
+        const sections = document.querySelectorAll('[id^="section"]');
+        sections.forEach((section) => {
+          section.classList.toggle('hidden', !section.id.includes(sectionNumber));
         });
-      </script>
+
+        // Highlight the selected navigation item
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach((item, index) => {
+          item.classList.toggle('active', index === sectionNumber - 1);
+        });
+      }
+
+      // Function to show tooltip on hover
+      function showTooltip(event, description) {
+        const tooltip = document.createElement('div');
+        tooltip.classList.add('tooltip');
+        tooltip.textContent = description;
+        document.body.appendChild(tooltip);
+
+        positionTooltip(event, tooltip);
+      }
+
+      // Function to position tooltip next to the cursor
+      function positionTooltip(event, tooltip) {
+        const x = event.clientX + 10;
+        const y = event.clientY + 10;
+        tooltip.style.left = `${x}px`;
+        tooltip.style.top = `${y}px`;
+      }
+
+      // Function to remove tooltip on mouseout
+      function hideTooltip() {
+        const tooltip = document.querySelector('.tooltip');
+        if (tooltip) {
+          tooltip.remove();
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        // Call showSection with section number based on the URL hash
+        const hash = window.location.hash.substring(1);
+        const sectionNumber = getSectionNumber(hash) || 1;
+        showSection(sectionNumber);
+
+        const navToggle = document.getElementById('navToggle');
+        const navigation = document.getElementById('navigation');
+
+        navToggle.addEventListener('click', function () {
+          // Toggle the active class to change the button content and icon
+          navToggle.classList.toggle('active');
+
+          // Toggle the visibility of the navigation component
+          if (navigation.style.transform === 'translateX(100%)') {
+            navigation.style.transform = 'translateX(0)';
+          } else {
+            navigation.style.transform = 'translateX(100%)';
+          }
+        });
+      });
+
+      // Function to get section number based on the URL hash
+      function getSectionNumber(hash) {
+        switch (hash) {
+          case 'plavani':
+            return 1;
+          case 'lyzovani':
+            return 2;
+          case 'enviro':
+            return 3;
+          default:
+            return null;
+        }
+      }
+    </script>
     <Zustanme.deti />
     <Footer.deti />
     """

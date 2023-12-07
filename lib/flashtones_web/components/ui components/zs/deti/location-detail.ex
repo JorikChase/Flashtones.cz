@@ -649,12 +649,12 @@ defmodule LocationDetail do
         </style>
         <div class="location-course-wrap top">
         <p>
-        ------------------------------------------
+        Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Je dobrým výchozím bodem pro lyžování, pěší turistiku i cykloturistiku, včetně méně náročných výletů do blízkého okolí.
         </p>
-        <img src="/images/hotely/fontana.jpeg">
-        <h3>------------------------------------</h3>
+        <img src="/images/hotely/na-mulde/na-mulde.jpg">
+        <h3>MULDA A ZŠ PRO DĚTI</h3>
         <p>
-        -----------------------------------------
+        Chata je vhodná pro rekreace jednotlivců i větších skupin, pobyty škol a školek v přírodě, kurzy, školení, soustředění a další akce. Maximální kapacita chaty je 44 osob. V přízemí chaty je situována stylová jídelna s kapacitou 44 osob a menší společenská místnost s barem, krbem a televizí. K pobytům nabízíme také stravování formou polopenze, plné penze, pouze snídaní nebo pouze večeří. V zimním obodobí (od prosince do konce března) je chata plně obsazena kurzovní výukou fakulty. Nabízíme silvestrovské pobyty pro veřejnost.
         </p>
         </div>
         <br>
@@ -1165,7 +1165,7 @@ defmodule LocationDetail do
         streetball, tenisový kurt, ohniště a další. V zimě lze využít
         lyžařské sjezdovky a běžkařské trasy, které se nachází nedaleko.
         </p>
-        <img src="/images/hotely/fontana.jpeg">
+        <img src="/images/hotely/vysocina/vysocina.jpeg">
         <h3>PENZION NA VYSOČINĚ A ZŠ PRO DĚTI</h3>
         <p>
         zde kurzy ZŠ Plavání i ZŠ Enviro. Penzion vyniká svou rodinnou

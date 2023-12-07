@@ -5168,6 +5168,140 @@ defmodule DetailFaq do
     </script>
     """
   end
+  def vysocina(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/historie.svg">
+          <p class="font-bold">Historie obce</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Nejstarší písemná zmínka o vsi pochází z roku 1437, kdy císař
+          Zikmund daroval své druhé manželce Barboře Celské věnem panství
+          Svojanov, k němuž náležely i Hartmanice.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/vybavenost.svg">
+          <p class="font-bold">Občanská vybavenost</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <div class="answer mt-2">
+            <b>Obchody</b>
+            <p>COOP TIP (nám. Na podkově 74, 56992 Bystré)</p>
+            <b>Nemocnice</b>
+            <p>Svitavská nemocnice (Kollárova 643/7, 56802 Svitavy-předměstí)</p>
+            <b>Pošta</b>
+            <p>Pošta Bystré u Poličky (nám. Na podkově 6, 56992 Bystré)</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/pin.svg">
+          <p class="font-bold">Okolí</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <div class="answer mt-2">
+            <p>hrady Svojanov, Pernštejn</p>
+            <p>zámky Lysice, Litomyšl</p>
+            <p>Město Polička – historické hradby, rodiště B. Martinů</p>
+            <p>Litomyšl jako známé město zapsané v UNESCO, rodiště B. Smetany</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani.svg">
+          <p class="font-bold">Jídlo</p>
+          </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Mezi nejznámější typická jídla Vysočiny patří Jihlavská
+            kyselka, Horácká houbová polévka, bramborové škubánky,
+            bramborové placky se škvarky, Podhorácké mládě a Kapr po
+            pacovsku.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
 
   def vyletyPriroda(assigns) do
     ~H"""
@@ -5226,40 +5360,40 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy-vylety.svg">
           <p class="font-bold">Termíny výletů</p>
         </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Na dohodě</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/people-vylety.svg">
           <p class="font-bold">Minimální počet účastníků</p>
           </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
           <p class="answer mt-2">40 žáků</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/zabava.svg">
+          <img src="/images/icon/info-vylety.svg">
           <p class="font-bold">Cena zahrnuje </p>
           </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
           <p class="answer mt-2">Povinné pojištění CK, vstupy, služby průvodce (v CZ).</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani.svg">
+          <img src="/images/icon/stravovani-vylety.svg">
           <p class="font-bold">Stravování</p>
           </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
           <p class="answer mt-2">
             snídaňový bufet
@@ -5279,20 +5413,20 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/bus.svg">
+          <img src="/images/icon/bus-vylety.svg">
           <p class="font-bold">Doprava</p>
           </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
           <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/prispevek.svg">
+          <img src="/images/icon/prispevek-vylety.svg">
           <p class="font-bold">Jak zlevnit výlet?</p>
           </div>
-        <img src="/images/icon/plus.svg" class="self-end">
+        <img src="/images/icon/plus-vylety.svg" class="self-end">
         </div>
           <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-vylety.svg"></a>
 

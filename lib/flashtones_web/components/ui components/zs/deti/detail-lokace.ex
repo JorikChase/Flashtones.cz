@@ -246,6 +246,38 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
     <div class="category" data-category="Plavání">
               <div class="product">
+                    <a href="/zs/lokality/agri">
+                      <img src="/images/hotely/agri/agri.jpg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Agri
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Agri se nachází v Soběšicích a nabízí krásnou zahradu, lounge, terasu a restauraci. Tento 3hvězdičkový hotel má krytý bazén o rozměrech 11 x 6 m, dětský klub a Wi-Fi ve všech prostorách. Pokoje vlastní koupelnu, ložní prádlo a ručníky.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/lokality/astra">
+                      <img src="/images/hotely/astra/astra.jpg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Astra
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Astra je situovaný svou polohou 15 minut od letiště Václava Havla, ihned vedle autobusové zastávky a s parkováním zdarma v hotelovém objektu. To z hotelu Astra dělá skvěle dostupné místo pro poklidné ubytování dál od okolního ruchu.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
                     <a href="/zs/lokality/energetik">
                       <img src="/images/hotely/energetik/energetik.jpg">
                         <div class="product-text-wrap">
@@ -389,6 +421,22 @@ defmodule DetailLokace do
                         </div>
                     </a>
               </div>
+              <div class="product">
+                    <a href="/zs/lokality/vysocina">
+                      <img src="/images/hotely/vysocina/vysocina.jpeg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        PENZION NA VYSOČINĚ
+                        </h4>
+                        <p class="font-normal">
+                        Penzion na Vysočině se nachází v Hartmanicích, v klidném prostředí a krásné přírodě na pomezí Vysočiny, Pardubického a Jihomoravského kraje. Ubytování nabízí 60 lůžek v 18 pokojích.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
+              </div>
           </div>
     </div>
     <br>
@@ -435,6 +483,22 @@ defmodule DetailLokace do
                           </h4>
                           <p>
                           Se nachází v obci Strážné, 5 km od Vrchlabí, v srdci Krkonoš, 200 , od centrálního parkoviště, v horní části 800 metrové sjezdovky Kotva s nočním lyžováním.
+                          </p>
+                          </div>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                          </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/zs/lokality/na-mulde">
+                        <img src="/images/hotely/na-mulde/na-mulde.jpg">
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Na Muldě
+                          </h4>
+                          <p>
+                          Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m.
                           </p>
                           </div>
                           <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
@@ -572,6 +636,38 @@ defmodule DetailLokace do
     <div class="detail-lokace course-wrap">
     <h3 class="disappear">Místa konání</h3>
     <div class="category" data-category="Enviro">
+    <div class="product">
+                    <a href="/zs/lokality/agri">
+                      <img src="/images/hotely/agri/agri.jpg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Agri
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Agri se nachází v Soběšicích a nabízí krásnou zahradu, lounge, terasu a restauraci. Tento 3hvězdičkový hotel má krytý bazén o rozměrech 11 x 6 m, dětský klub a Wi-Fi ve všech prostorách. Pokoje vlastní koupelnu, ložní prádlo a ručníky.
+                        </p>
+                        </div>
+                        <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/zs/lokality/astra">
+                      <img src="/images/hotely/astra/astra.jpg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Astra
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Astra je situovaný svou polohou 15 minut od letiště Václava Havla, ihned vedle autobusové zastávky a s parkováním zdarma v hotelovém objektu. To z hotelu Astra dělá skvěle dostupné místo pro poklidné ubytování dál od okolního ruchu.
+                        </p>
+                        </div>
+                        <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
                 <div class="product">
                       <a href="/zs/lokality/energetik">
                         <img src="/images/hotely/energetik/energetik.jpg">
@@ -743,6 +839,22 @@ defmodule DetailLokace do
                         </div>
                     </a>
               </div>
+                <div class="product">
+                      <a href="/zs/lokality/palkovicke-hurky">
+                        <img src="/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg">
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                          <h4>
+                          RS HŮRKY
+                          </h4>
+                          <p>
+                          Jedná se o objekt zasazený do panenské přírody Moravskoslezských Beskyd, který je díky své poloze a širokým možnostem pro trávení volného času i organizované zábavy oblíbeným místem pro ozdravné pobyty.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                          </div>
+                      </a>
+                </div>
                 <div class="product">
                       <a href="/zs/lokality/plesivka">
                         <img src="/images/hotely/plesivka/plesivka.jpeg">

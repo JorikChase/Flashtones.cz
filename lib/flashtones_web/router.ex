@@ -90,11 +90,14 @@ defmodule FlashtonesWeb.Router do
     live "/zs/vylety/terezin", VyletyTerezinLive
     live "/zs/vylety/viden", VyletyVidenLive
 
+    live "/zs/lokality/agri", LokalityAgriLive
+    live "/zs/lokality/astra", LokalityAstraLive
     live "/zs/lokality/jelenovska", LokalityJelenovskaLive
     live "/zs/lokality/lites", LokalityLitesLive
     live "/zs/lokality/lubenec", LokalityLubenecLive
     live "/zs/lokality/maj", LokalityMajLive
     live "/zs/lokality/plesivka", LokalityPlesivkaLive
+    live "/zs/lokality/palkovicke-hurky", LokalityPalkovickeHurkyLive
     live "/zs/lokality/pramen", LokalityPramenLive
     live "/zs/lokality/radost", LokalityRadostLive
 

@@ -101,7 +101,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg"></a>
+      <a href="/zs/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -317,7 +317,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-ft.svg"></a>
+      <a href="/zs/ratings" class="inline-button ft-link">Všechna hodnocení<img src="/images/icon/arrow-right-ft.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -533,7 +533,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg"></a>
+      <a href="/zs/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -749,7 +749,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-plavani.svg"></a>
+      <a href="/zs/ratings" class="inline-button plavani-link">Všechna hodnocení<img src="/images/icon/arrow-right-plavani.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -965,7 +965,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-lyzovani.svg"></a>
+      <a href="/zs/ratings" class="inline-button lyzovani-link">Všechna hodnocení<img src="/images/icon/arrow-right-lyzovani.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1181,7 +1181,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-enviro.svg"></a>
+      <a href="/zs/ratings" class="inline-button enviro-link">Všechna hodnocení<img src="/images/icon/arrow-right-enviro.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1397,7 +1397,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-vylety.svg"></a>
+      <a href="/zs/ratings" class="inline-button vylety-link">Všechna hodnocení<img src="/images/icon/arrow-right-vylety.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1613,7 +1613,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-doma.svg"></a>
+      <a href="/zs/ratings" class="inline-button doma-link">Všechna hodnocení<img src="/images/icon/arrow-right-doma.svg"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1829,7 +1829,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button">Všechna hodnocení<img src="/images/icon/arrow-right-academy.svg"></a>
+      <a href="/zs/ratings" class="inline-button academy-link">Všechna hodnocení<img src="/images/icon/arrow-right-academy.svg"></a>
       </div>
       <div class="rekli-column">
       <span>

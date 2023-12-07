@@ -185,30 +185,33 @@ defmodule KurzNav do
   def vyletyEnviromentalni(assigns) do
     ~H"""
       <style>
+      h4{
+        text-align: center;
+      }
       </style>
       <div class="kurz-nav">
-        <a href="/zs/vylety/priroda/aves-brandysek" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/aves-brandysek" class="vylet-item" style="background-image: url(/images/vylety/brandysek.jpeg)">
           <h4>Záchranná stanice Aves Brandýsek</h4>
         </a>
-        <a href="/zs/vylety/priroda/centrum-jaromer" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/centrum-jaromer" class="vylet-item" style="background-image: url(/images/vylety/jaromer.jpg)">
           <h4>Záchranné centrum Jaroměř</h4>
         </a>
-        <a href="/zs/vylety/priroda/ekocentrum-huslik" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/ekocentrum-huslik" class="vylet-item" style="background-image: url(/images/vylety/huslik.jpg)">
           <h4>Ekocentrum Huslík</h4>
         </a>
-        <a href="/zs/vylety/priroda/ekocentrum-hulice" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/ekocentrum-hulice" class="vylet-item" style="background-image: url(/images/vylety/hulice.jpeg)">
           <h4>Ekocentrum Hulice</h4>
         </a>
-        <a href="/zs/vylety/priroda/stanice-hrachov" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/stanice-hrachov" class="vylet-item" style="background-image: url(/images/vylety/hrachov.jpg)">
           <h4>Záchranná stanice Hrachov</h4>
         </a>
-        <a href="/zs/vylety/priroda/motylarium-votice" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/motylarium-votice" class="vylet-item" style="background-image: url(/images/vylety/votice.jpg)">
           <h4>Motýlárium Votice</h4>
         </a>
-        <a href="/zs/vylety/priroda/ekocentrum-vlasim" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/ekocentrum-vlasim" class="vylet-item" style="background-image: url(/images/vylety/vlasim.jpeg)">
           <h4>Podblanické ekocentrum Vlašim</h4>
         </a>
-        <a href="/zs/vylety/priroda/kurz-remesel" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
+        <a href="/zs/vylety/priroda/kurz-remesel" class="vylet-item" style="background-image: url(/images/vylety/remesla.jpeg)">
           <h4>Kurz ZŠ Řemesel</h4>
         </a>
       </div>

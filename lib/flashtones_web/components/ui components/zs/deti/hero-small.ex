@@ -242,6 +242,18 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def palkovickeHurky(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg);
+     }
+    </style>
+    """
+  end
   def plesivka(assigns) do
     ~H"""
     <div class="hero-small">
@@ -337,6 +349,18 @@ defmodule HeroSmall do
     <style>
      .hero-small{
       background-image: url(/images/hotely/vlasim/vlasim.jpg);
+     }
+    </style>
+    """
+  end
+  def vysocina(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/vysocina/vysocina.jpeg);
      }
     </style>
     """
