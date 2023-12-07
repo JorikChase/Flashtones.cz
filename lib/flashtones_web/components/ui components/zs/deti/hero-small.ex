@@ -575,6 +575,110 @@ defmodule HeroSmall do
     </style>
     """
   end
+  def avesBrandysek(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/brandysek.jpeg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def centrumJaromer(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/jaromer.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def ekocentrumHulice(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/hulice.jpeg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def ekocentrumHuslik(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/huslik.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def ekocentrumVlasim(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/vlasim.jpeg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def kurzRemesel(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/remesla.jpeg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def motylariumVotice(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/votice.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
+  def staniceHrachov(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/vylety/hrachov.jpg);
+      background-position: 50% 20%;
+     }
+    </style>
+    """
+  end
   def berlin(assigns) do
     ~H"""
     <div class="hero-small">
