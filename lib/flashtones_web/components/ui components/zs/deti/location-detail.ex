@@ -615,7 +615,7 @@ defmodule LocationDetail do
         <p>
         Středisko se nachází v prostředí chráněné oblasti u městečka Plasy, 25 km severně od Plzně.
         </p>
-        <img src="/images/hotely/maj/maj.jpg">
+        <img src="/images/hotely/maj/maj.webp">
         <h3>RS MÁJ A ZŠ PRO DĚTI</h3>
         <p>
         Jedná se o objekt, který je naším partnerem od roku 2023. Je

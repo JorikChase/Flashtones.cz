@@ -2545,37 +2545,38 @@ defmodule DetailFaq do
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/historie.svg">
-          <p class="font-bold">Historie obce</p>
+          <p class="font-bold">Ubytování</p>
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">
-          První písemný záznam pochází z roku 1198. V roce 1856 vypukl
-          ve Frymburku obrovský požár, při kterém bylo zcela zničeno
-          historické náměstí. Požáru padlo za oběť 54 domů a čtyři lidské
-          životy. Po napuštění lipenské přehrady v roce 1959 se Frymburk
-          a okolní krajina podstatně změnily a postupem času získaly ráz
-          rekreačního střediska.
+          V rekreačním středisku jsou k dispozici 3 druhy ubytování.
+          <br>
+          V hlavní budově se nachází 22 převážně 6–7lůžkových pokojů se
+          sociálním zařízení na každém patře.
+          <br>
+          Dalším typem ubytování je 6 řadových zděných domků. Každý domek má
+          vlastní vchod, kapacitu 20 lůžek a vlastní sociální zařízení pro
+          každý z nich.
           </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/vybavenost.svg">
-          <p class="font-bold">Občanská vybavenost</p>
+          <p class="font-bold">Vybavení</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <div class="answer mt-2">
-            <b>Obchody</b>
-            <p>Supermarket COOP (Frymburk 83)</p>
-            <b>Lékárna</b>
-            <p>Lékárna Lipno (Lipno nad Vltavou 81)</p>
-            <b>Nemocnice</b>
-            <p>Lékařská služba první pomoci – Horní Planá (Náměstí 54, 382 26 Horní Planá)</p>
-            <p>Nemocnice Český Krumlov (Nemocniční 429, Český Krumlov)</p>
-            <b>Pošta</b>
-            <p>Česká pošta (Frymburk 178)</p>
+            <b>Tělocvična</b>
+            <br>
+            <b>Několik hřišť</b>
+            <br>
+            <b>Lezecká stěna</b>
+            <br>
+            <b>Plavecký bazén</b>
+            <br>
           </div>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
@@ -2606,44 +2607,23 @@ defmodule DetailFaq do
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">
-          Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
-          1959. S rozlohou 48,7 km2 je největší vodní plochou na území ČR.
-          Na nádrži se nachází několik menších ostrovů. Největší z nich je
-          Hadí ostrov, starousedlíky přezdívaný Tajvan, který byl vyhlášen
-          chráněnou přírodní rezervací a vstup na něj je zakázán. Další
-          z ostrovů – Králičí ostrov – byl častým cílem rodin s dětmi,
-          protože na něm od jara do zimy volně žili králíci a morčata.
-          Avšak kvůli neukázněnosti návštěvníků musela být všechna zvířata
-          převezena do bezpečí.
+          Drábské světničky patří mezi nejvyhledávanější místa Českého ráje, a
+          to především kvůli dalekému výhledu do okolní krajiny. Vnitřní okruh
+          hradem je dlouhodobě uzavřen. Průchod areálem po červené značce a
+          prohlídka okolí s přirozenými skalními vyhlídkami je nadále možná.
+          Bývalá skalní pevnost Drábské světničky se vypínala na okraji
+          plošiny skalního masivu u čedičového vrchu Mužský nedaleko Mnichova
+          Hradiště.
             <br>
             <br>
-            Národní park Šumava zajišťuje ochranu přirozených přírodních
-            procesů v souladu s celosvětovým posláním národních parků a
-            zároveň poskytuje dostatek prostoru pro aktivní ochranu druhové
-            a genetické rozmanitosti. Na území Šumavy se vyskytuje celá
-            řada významných a vzácných druhů rostlin a živočichů. Tato
-            druhová pestrost je umožněna širokým spektrem nejrůznějších
-            stanovišť – od údolních niv až po horské smrčiny.
+          Hrad Valečov najdete čtyři kilometry na východ od města Mnichovo
+          Hradiště v Českém ráji. Valečov leží v nadmořské výšce 330 m přesně
+          nad obcí Boseň, na okraji skalního vrchu Mužský. Z původního
+          středověkého hradu se dochovala jenom zřícenina, která je chráněna
+          jako kulturní památka České republiky.
             <br>
             <br>
             </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/stravovani.svg">
-          <p class="font-bold">Jídlo</p>
-          </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
-          sklářské knedlíky z bramborového nebo žemlového základu,
-          slaniny a kysaného zelí
-          <br>
-          <br>
-          kynuté knedlíky plněné ovocem nebo tvarohem, škubánky a
-          šlejšky, které se dělají jak na sladko, tak na slano
-          </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -2654,8 +2634,9 @@ defmodule DetailFaq do
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
         <div class="answer mt-2">
-            <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
-            <p>Hotel Fontána -> Cyklopřevoz Hrdoňov Sv. Tomáš -> 4,8 km, 1,5 hod. -> Vítkův Kámen</p>
+            <p>Zámek Mnichovo Hradiště</p>
+            <p>Drábské světničky</p>
+            <p>Zřícenina Valečov</p>
           </div>
           </div>
       </div>
@@ -2735,23 +2716,6 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/historie.svg">
-          <p class="font-bold">Historie obce</p>
-        </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          První písemný záznam pochází z roku 1198. V roce 1856 vypukl
-          ve Frymburku obrovský požár, při kterém bylo zcela zničeno
-          historické náměstí. Požáru padlo za oběť 54 domů a čtyři lidské
-          životy. Po napuštění lipenské přehrady v roce 1959 se Frymburk
-          a okolní krajina podstatně změnily a postupem času získaly ráz
-          rekreačního střediska.
-          </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
           <img src="/images/icon/vybavenost.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
@@ -2759,65 +2723,10 @@ defmodule DetailFaq do
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
-            <p>Supermarket COOP (Frymburk 83)</p>
+            <p>Potraviny Lubenec</p>
             <b>Lékárna</b>
-            <p>Lékárna Lipno (Lipno nad Vltavou 81)</p>
-            <b>Nemocnice</b>
-            <p>Lékařská služba první pomoci – Horní Planá (Náměstí 54, 382 26 Horní Planá)</p>
-            <p>Nemocnice Český Krumlov (Nemocniční 429, Český Krumlov)</p>
-            <b>Pošta</b>
-            <p>Česká pošta (Frymburk 178)</p>
+            <p>Karlovarská 146, 439 83 Lubenec</p>
           </div>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/pin.svg">
-          <p class="font-bold">Okolí</p>
-          </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <div class="answer mt-2">
-            <p>Muzeum Frymburk (Frymburk 5)</p>
-            <p>Svět pod hladinou Lipno (Frymburk 140) - expozice akvárií
-              (více než 30) a artefaktů, přibližující podvodní život v
-              Čechách I v tropech</p>
-            <p>Bobová dráha Lipně nad Vltavou</p>
-            <p>Stezka korunami stromů na kopci Kramolín</p>
-            <p>Bruslařská dráha z Frymburku do Lipna nad Vltavou (měří 11 km)</p>
-            <p>Papilonia – svět motýlů (Lipno nad Vltavou 86)</p>
-          </div>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/priroda.svg">
-          <p class="font-bold">Příroda</p>
-          </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
-          1959. S rozlohou 48,7 km2 je největší vodní plochou na území ČR.
-          Na nádrži se nachází několik menších ostrovů. Největší z nich je
-          Hadí ostrov, starousedlíky přezdívaný Tajvan, který byl vyhlášen
-          chráněnou přírodní rezervací a vstup na něj je zakázán. Další
-          z ostrovů – Králičí ostrov – byl častým cílem rodin s dětmi,
-          protože na něm od jara do zimy volně žili králíci a morčata.
-          Avšak kvůli neukázněnosti návštěvníků musela být všechna zvířata
-          převezena do bezpečí.
-            <br>
-            <br>
-            Národní park Šumava zajišťuje ochranu přirozených přírodních
-            procesů v souladu s celosvětovým posláním národních parků a
-            zároveň poskytuje dostatek prostoru pro aktivní ochranu druhové
-            a genetické rozmanitosti. Na území Šumavy se vyskytuje celá
-            řada významných a vzácných druhů rostlin a živočichů. Tato
-            druhová pestrost je umožněna širokým spektrem nejrůznějších
-            stanovišť – od údolních niv až po horské smrčiny.
-            <br>
-            <br>
-            </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -2827,13 +2736,9 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
-          sklářské knedlíky z bramborového nebo žemlového základu,
-          slaniny a kysaného zelí
-          <br>
-          <br>
-          kynuté knedlíky plněné ovocem nebo tvarohem, škubánky a
-          šlejšky, které se dělají jak na sladko, tak na slano
+          <p class="answer mt-2">Stravování je zajištěno v prostorné jídelně s kapacitou
+          120 míst, v mimosezónním období vytápěné. V létě je
+          k dispozici i venkovní jídelna s kapacitou 100 míst.
           </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
@@ -2845,8 +2750,8 @@ defmodule DetailFaq do
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
         <div class="answer mt-2">
-            <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
-            <p>Hotel Fontána -> Cyklopřevoz Hrdoňov Sv. Tomáš -> 4,8 km, 1,5 hod. -> Vítkův Kámen</p>
+            <p>Rozhledna Vohlice</p>
+            <p>Mlýnce a Libyně</p>
           </div>
           </div>
       </div>
@@ -3047,23 +2952,6 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/historie.svg">
-          <p class="font-bold">Historie obce</p>
-        </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          První písemný záznam pochází z roku 1198. V roce 1856 vypukl
-          ve Frymburku obrovský požár, při kterém bylo zcela zničeno
-          historické náměstí. Požáru padlo za oběť 54 domů a čtyři lidské
-          životy. Po napuštění lipenské přehrady v roce 1959 se Frymburk
-          a okolní krajina podstatně změnily a postupem času získaly ráz
-          rekreačního střediska.
-          </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
           <img src="/images/icon/vybavenost.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
@@ -3071,14 +2959,9 @@ defmodule DetailFaq do
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
-            <p>Supermarket COOP (Frymburk 83)</p>
+            <p>COOP družstvo Plasy</p>
             <b>Lékárna</b>
-            <p>Lékárna Lipno (Lipno nad Vltavou 81)</p>
-            <b>Nemocnice</b>
-            <p>Lékařská služba první pomoci – Horní Planá (Náměstí 54, 382 26 Horní Planá)</p>
-            <p>Nemocnice Český Krumlov (Nemocniční 429, Český Krumlov)</p>
-            <b>Pošta</b>
-            <p>Česká pošta (Frymburk 178)</p>
+            <p>Lékárna Pilulka</p>
           </div>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
@@ -3090,14 +2973,21 @@ defmodule DetailFaq do
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <div class="answer mt-2">
-            <p>Muzeum Frymburk (Frymburk 5)</p>
-            <p>Svět pod hladinou Lipno (Frymburk 140) - expozice akvárií
-              (více než 30) a artefaktů, přibližující podvodní život v
-              Čechách I v tropech</p>
-            <p>Bobová dráha Lipně nad Vltavou</p>
-            <p>Stezka korunami stromů na kopci Kramolín</p>
-            <p>Bruslařská dráha z Frymburku do Lipna nad Vltavou (měří 11 km)</p>
-            <p>Papilonia – svět motýlů (Lipno nad Vltavou 86)</p>
+            <p>Město Plasy jsou nejbližší město k RS (cca 2800 obyvatel)</p>
+            <br>
+            <p>řeka Střela – brod je 3 minuty chůze od areálu</p>
+            <br>
+            <p>Prostorná jídelna</p>
+            <br>
+            <p>Vstupní vestibul s krbem</p>
+            <br>
+            <p>Klubovna</p>
+            <br>
+            <p>dalšími prostory ke sdružování jsou celkem 3 učebny,
+            které jsou součástí hlavní budovy. Najdete v nich základní
+            vybavení pro výuku či školení, tj. tabule, lavice, stoly, ale
+            také jsou vybaveny televizí a možností propojení s PC. V
+            případě potřeby můžeme zajistit i přenosný dataprojektor.</p>
           </div>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
@@ -3109,44 +2999,22 @@ defmodule DetailFaq do
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
           <p class="answer mt-2">
-          Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
-          1959. S rozlohou 48,7 km2 je největší vodní plochou na území ČR.
-          Na nádrži se nachází několik menších ostrovů. Největší z nich je
-          Hadí ostrov, starousedlíky přezdívaný Tajvan, který byl vyhlášen
-          chráněnou přírodní rezervací a vstup na něj je zakázán. Další
-          z ostrovů – Králičí ostrov – byl častým cílem rodin s dětmi,
-          protože na něm od jara do zimy volně žili králíci a morčata.
-          Avšak kvůli neukázněnosti návštěvníků musela být všechna zvířata
-          převezena do bezpečí.
+          Veřejná rekreační vodní plocha Plasy – nové přírodní
+          koupaliště se nachází 10 minut chůze od areálu, válet se
+          můžete na písčité i travnaté pláži, součástí je dětské
+          hřiště a sportovní zázemí.
             <br>
             <br>
-            Národní park Šumava zajišťuje ochranu přirozených přírodních
-            procesů v souladu s celosvětovým posláním národních parků a
-            zároveň poskytuje dostatek prostoru pro aktivní ochranu druhové
-            a genetické rozmanitosti. Na území Šumavy se vyskytuje celá
-            řada významných a vzácných druhů rostlin a živočichů. Tato
-            druhová pestrost je umožněna širokým spektrem nejrůznějších
-            stanovišť – od údolních niv až po horské smrčiny.
+            Řeka Střela – brod je 3 minuty chůze od areálu
+            <br>
+            <br>
+            Žebnický vodopád
+            <br>
+            <br>
+            Naučná stezka Ludvíka Očenáška
             <br>
             <br>
             </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/stravovani.svg">
-          <p class="font-bold">Jídlo</p>
-          </div>
-        <img src="/images/icon/plus.svg" class="self-end">
-        </div>
-          <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
-          sklářské knedlíky z bramborového nebo žemlového základu,
-          slaniny a kysaného zelí
-          <br>
-          <br>
-          kynuté knedlíky plněné ovocem nebo tvarohem, škubánky a
-          šlejšky, které se dělají jak na sladko, tak na slano
-          </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -3156,10 +3024,15 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-        <div class="answer mt-2">
-            <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
-            <p>Hotel Fontána -> Cyklopřevoz Hrdoňov Sv. Tomáš -> 4,8 km, 1,5 hod. -> Vítkův Kámen</p>
-          </div>
+        <p class="answer mt-2">
+            ZOO Plasy
+            <br>
+            <br>
+            Žebnický vodopád
+            <br>
+            <br>
+            Naučná stezka Ludvíka Očenáška
+            </p>
           </div>
       </div>
     </div>

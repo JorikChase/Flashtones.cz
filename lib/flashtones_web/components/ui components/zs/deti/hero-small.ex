@@ -225,7 +225,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/hotely/maj/maj.jpg);
+      background-image: url(/images/hotely/maj/maj.webp);
      }
     </style>
     """

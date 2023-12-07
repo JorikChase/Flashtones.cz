@@ -459,10 +459,7 @@ ux:
 	//- obrazky lokace - 2
 	//- optimizace lokace - 2
 	//- hero lokace - 2
-============================================================================
-	(- zeptat se romana na hry)
-	(- barvy  lokace)
-	(- vysky boxu rekli)
+=============================================================================================
 	//- lokality on load pouze jeden
 	//- mapa na lokality
 	//- na mulde /dodelat
@@ -472,10 +469,13 @@ ux:
 	//- barvy cta
 	//- mapy embed
 	//- //L mulda, //P vysočina, //E palkovicke husrky,// P E agri,// P E astra
-	/- detaily lokaci
-	/- opravit faq
-	- vylety herosmall
-	- instagram API
-	- rs dodelat
+	//- vylety herosmall
+	//- opravit faq
+	//- detaily lokaci
+	//- rs dodelat
+	(- zeptat se romana na hry)
+	(- barvy  lokace)
+	(- vysky boxu rekli)
 	- shoptet 
 	- optimalizovat obrazky
+	- instagram API
