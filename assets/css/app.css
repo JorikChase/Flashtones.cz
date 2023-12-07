@@ -100,9 +100,6 @@ h1{
   line-height: 7vh; /* 133.333% */
   letter-spacing: 0.14063rem;
 }
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover{
-  transform: scale(1.02);
-}
 h2{
   margin-top: 30px;
   font-family: Barlow;
@@ -153,8 +150,6 @@ body {
 
 a:hover{
   transform: scale(1.02);
-  filter: contrast(115%);
-  -webkit-filter: contrast(115%);
 }
 a:hover > * {
   filter: contrast(105%);
@@ -168,11 +163,10 @@ p{
   font-weight: 400;
   line-height: 35px; /* 194.444% */
 }
-p:hover{
-  transform: scale(1.02);
-}
 img:hover{
   transform: scale(1.02);
+  filter: contrast(111%);
+  -webkit-filter: contrast(111%);
 }
 li{
   list-style: circle;
@@ -196,6 +190,7 @@ br{
 }
 .head-button:hover{
   color: var(--plavani-hover);
+  transform: scale(1.02);
 }
 @media (orientation: landscape) {
   #h1ro{
@@ -254,6 +249,9 @@ br{
 }
 
 /*components*/
+.question-box-row img{
+  border-radius: 0;
+}
 .vylet-item{
   display: flex;
   flex-direction: row;
@@ -385,6 +383,7 @@ br{
 }
 .button:hover{
   color: rgb(241, 253, 255);
+  transform: scale(1.02);
   border-radius: 25px;
   background: #dbb488;
 }
@@ -407,6 +406,7 @@ br{
 }
 .inline-button:hover{
   border-radius: 25px;
+  transform: scale(1.02);
 }
 /*course*/
 .top{
@@ -783,6 +783,9 @@ form:hover{
   border: 2px solid var(--White, #FFF);
   background: var(--Black-30, rgba(0, 0, 0, 0.30));
 }
+.hero-button:hover{
+  transform: scale(1.05);
+}
 #hero-image, #hero-video {
   width: 100%;
   height: 100%;
@@ -996,7 +999,7 @@ form:hover{
   position: fixed;
   right: 10%;
   top: 440px;
-  border-top: 5px solid #486EFF ;
+  border-top: 5px solid ;
   background: rgba(255, 255, 255, 0.9);
   filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
   display: flex;
@@ -1019,7 +1022,7 @@ form:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #486EFF;
+  align-items: center;
   font-weight: bold;
 }
 .detail-cta .cta-button{
@@ -1038,14 +1041,10 @@ form:hover{
 .detail-cta .cta-button:hover{
   background: #6d96ff;
 }
-.detail-cta bold{
-  color: var(--zs-plavani-main, #002FE0);
-  text-align: right;
-  font-family: Barlow;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 45px; /* 180% */
+.detail-cta img{
+  aspect-ratio: 1/1;
+  height: 25px;
+  border-radius: 0;
 }
 @media (orientation: portrait){
   .detail-cta{
@@ -1331,7 +1330,6 @@ form:hover{
   gap: 10px;
 }
 .product .detail-link{
-  color: var(--plavani-link);
   font-weight: bold;
   text-align: end;
   display: inline-flex;
@@ -1364,8 +1362,6 @@ form:hover{
 
 .gallery h2{
   padding-right: 30px;
-}
-.gallery h4{
 }
 @media (orientation:portrait) {
     .gallery {

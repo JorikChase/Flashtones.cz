@@ -409,63 +409,69 @@ ux:
 	- reference tretiny - 2
 	//- menit instruktory?(carousel?)
 	//- nejdriv prakticky info, nez prijde detailni
+============================================================================
 	//- struktura detailu kurzu - 3
 	//- struktura detailu lokace - 
-	//- simplify texty plachta
-	//- klikatelne logo plachta
+	//- simplify texty plachta -1
+	//- klikatelne logo plachta - 
 	
 ----------------------------------------------------------------
 	//- silne barevne pozadi grid - 1
-	//- nezabarvene texty 
-	//- on hover se snizi zabarveni
+	//- nezabarvene texty - 
+	//- on hover se snizi zabarveni -
 ----------------------------------------------------------------
-	/- instruktori
-	//- detaily kurzu
+	/- instruktori -
+	//- detaily kurzu - 2
 	//- contact form
 ----------------------------------------------------------------
 	//- vybarvit nadpisy - 1
-	//- o nas linky
-	//- o nas stejne velky fotky a stejny texty
-	//- dodelat tlacitka na hero
+	//- o nas linky - 1
+	//- o nas stejne velky fotky a stejny texty - 1
+	//- dodelat tlacitka na hero - 2
 ----------------------------------------------------------------
-	//- tlactiko zsprodeti na menu
-	//- texty detailu kurzu
+	//- tlactiko zsprodeti na menu - 
+	//- texty detailu kurzu -1
 ----------------------------------------------------------------
-	//- smooth movement na tlacitko
-	//opravy a upravy struktury textu a ikon - 8	
+	//- smooth movement na tlacitko 2
+	//- opravy a upravy struktury textu a ikon - 8	
 ----------------------------------------------------------------
-	//- na lokality nahodit novy lokality
-	//- lokace pripravit detail, //section toggle
-	//- o nas sectiontoggle
-	//- mapa do lokalit
-	//- footer zmensit, pridat popisky podstranek, 
-	//- odendat z plachty dlouhy texty a udelat na tri 
-	//- deti grid on hover efekt!
-	//- pridat socialni site naproti zsprodeti
+	//- na lokality nahodit novy lokality - 2
+	//- lokace pripravit detail, //section toggle - 3
+	//- o nas sectiontoggle - 1
+	//- mapa do lokalit - 3
+	//- footer zmensit, pridat popisky podstranek,  - 2
+	//- odendat z plachty dlouhy texty a udelat na tri  - 1
+	//- deti grid on hover efekt! - 1
+	//- pridat socialni site naproti zsprodeti - 
 ----------------------------------------------------------------
-	//- flashtones o nas figma
-	//- o nas nas tym
-	/- lokality on load pouze jeden
-	//- hodnoceni page
+	//- flashtones o nas figma - 1
+	//- o nas nas tym - 1
+	//- hodnoceni page - 2
 ----------------------------------------------------------------
-	//- cena zahrnuje, proc vyrazit s nami a volitelne do faq
+	//- cena zahrnuje, proc vyrazit s nami a volitelne do faq - 2
 	-------------------
-	//- odendat ikony
-	//- fotka
+	//- odendat ikony - 
+	//- fotka - 1
 	-------------------
-	//- nandat vylet itemy
-	//- nandat vylet detaily
-	-------------------
-	- detaily lokaci
-	- vysky boxu rekli
-	- shoptet 
-	- mapa na lokality
-	- vylety herosmall
-	- instagram API
+	//- nandat vylet itemy - 1
+	//- nandat vylet detaily - 3
 	//- texty lokace - 2
 	//- obrazky lokace - 2
 	//- optimizace lokace - 2
 	//- hero lokace - 2
+	-------------------
+	(- zeptat se romana na hry)
+	(- barvy  lokace)
+	(- vysky boxu rekli)
+	/- lokality on load pouze jeden
+	- detaily lokaci
+	- shoptet 
+	- mapa na lokality
+	- vylety herosmall
+	- instagram API
 	- rs dodelat
 	- na mulde dodelat
-	- sipky, uvozovky
+	//- //sipky, //uvozovky
+	/- opravit faq
+	//- barvy ikon
+	//- barvy cta

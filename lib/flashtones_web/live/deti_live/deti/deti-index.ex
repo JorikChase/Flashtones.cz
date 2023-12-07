@@ -51,7 +51,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
       <DetiGrid.staticGrid />
       <!--<Aktuality.aktuality />-->
       <IconRow.iconRowDeti />
-      <Kdo.kdoZs />
+      <Kdo.zs />
       <Rekli.rekliDeti />
       <Zustanme.deti />
       <Footer.deti />

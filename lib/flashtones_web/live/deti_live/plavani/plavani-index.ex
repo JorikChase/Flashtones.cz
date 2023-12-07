@@ -42,7 +42,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <SectionToggle.kurzNavPlavani />
       <IconRow.iconRowPlavani />
       <!--<Aktuality.aktuality />-->
-      <Kdo.kdoZs />
+      <Kdo.plavani />
       <Rekli.rekliPlavani />
       <Zustanme.plavani />
       <Footer.deti />

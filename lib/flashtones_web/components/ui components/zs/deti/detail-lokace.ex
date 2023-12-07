@@ -168,7 +168,7 @@ defmodule DetailLokace do
                         </h4>
                         <p class="font-normal">Součástí budovy je i tělocvična pro míčové a teambuildingové hry využívaná v případě špatného počasí. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                         </div>
-                        <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -182,7 +182,7 @@ defmodule DetailLokace do
                         </h4>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.</p>
                         </div>
-                        <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -196,7 +196,7 @@ defmodule DetailLokace do
                         </h4>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,3metru. Směrem k druhému konci stoupá nerezové dno na 1,1 metru.</p>
                         </div>
-                        <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -210,7 +210,7 @@ defmodule DetailLokace do
                         </h4>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 17 x 8.5 m, příjemně teplou vodou a neopakovatelným výhledem na Prahu. Je ideální pro výuku dětských plavců i neplavců. </p>
                         </div>
-                        <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -224,7 +224,7 @@ defmodule DetailLokace do
                         </h4>
                         <p class="font-normal">Centrum zahrnuje bazén o délce 25 metrů s třemi plaveckými drahami se startovacími bloky.</p>
                         </div>
-                        <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -257,7 +257,7 @@ defmodule DetailLokace do
                         Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                     </div>
                     </a>
               </div>
@@ -273,7 +273,7 @@ defmodule DetailLokace do
                         Je oblíbená krkonošská horská rekreační samota na luční enklávě v nadmořské výšce 1030 m.n.m. s nádherným výhledem na Žalý a do kraje. Hotel nabízí jak venkovní tak vnitřní aktivity.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -289,7 +289,7 @@ defmodule DetailLokace do
                         Leží v klidném prostředí nedaleko centra města Vlašim, které je vzdálené od Prahy jen 60 km. Sporthotel je součástí sportcentra, které poskytuje komplexní služby pro jednotlivce i organizované skupiny v oblasti sportu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -305,7 +305,7 @@ defmodule DetailLokace do
                         Má unikátní polohu v srdci Vysočiny. Jedná se o rodinný hotel vybudovaný z komplexu historických budov, který vyniká útulným ubytováním, bazénem se slanou vodou vhodnou i pro alergiky.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -321,7 +321,7 @@ defmodule DetailLokace do
                         Se nachází v klidné části města Brandýs nad Labem v okrese Praha-východ. Mezi velké výhody patří blízká dostupnost od hlavního města a přitom mnoho možností k trávení času v přírodě.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -337,7 +337,7 @@ defmodule DetailLokace do
                         Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -353,7 +353,7 @@ defmodule DetailLokace do
                         Je usazen uprostřed překrásné chráněné krajiny Bílých Karpat v lese, kde dominantou je nenarušená příroda, klid a čistý vzduch. Plavecká výuka probíhá ve vnitřním vyhřívaném hotelovém bazénu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -369,7 +369,7 @@ defmodule DetailLokace do
                         Hotel Roušarka leží v malebném městě Sušici na okraji Šumavy. Hodiny plavání probíhají v moderním bazénu nově vystaveného sportovního areálu přímo vedle hotelu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -385,7 +385,7 @@ defmodule DetailLokace do
                         Se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -421,7 +421,7 @@ defmodule DetailLokace do
                           Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -437,7 +437,7 @@ defmodule DetailLokace do
                           Se nachází v obci Strážné, 5 km od Vrchlabí, v srdci Krkonoš, 200 , od centrálního parkoviště, v horní části 800 metrové sjezdovky Kotva s nočním lyžováním.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -453,7 +453,7 @@ defmodule DetailLokace do
                           Se nachází v obci Kořenov v Jizerských horách. Chata prošla v roce 2021 rekonstrukcí a nabízí ubytování až pro 40 osob. Lyžařské lekce probíhají na 300 m vzdálené sjezdovce.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -469,7 +469,7 @@ defmodule DetailLokace do
                           leží uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Lekce probíhají v lyžařském areálu i v okolní divoké přírodě.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -485,7 +485,7 @@ defmodule DetailLokace do
                           Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -501,7 +501,7 @@ defmodule DetailLokace do
                           Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -517,7 +517,7 @@ defmodule DetailLokace do
                         Se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -533,7 +533,7 @@ defmodule DetailLokace do
                           je přes 300 let stará, zrekonstruovaná nádherná krušnohorská chalupa v obci Abertamy v nadmořské výšce okolo 900 metrů. Chata nabízí romantický výhled na blízký ski-areál Plešivec.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -549,7 +549,7 @@ defmodule DetailLokace do
                           se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Jde o objekt patřící FTVS UK.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -584,7 +584,7 @@ defmodule DetailLokace do
                           Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -600,7 +600,7 @@ defmodule DetailLokace do
                           Se nachází v obci Strážné, 5 km od Vrchlabí, v srdci Krkonoš, 200 , od centrálního parkoviště, v horní části 800 metrové sjezdovky Kotva s nočním lyžováním.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -616,7 +616,7 @@ defmodule DetailLokace do
                           Se nachází na kouzelném místě u lesa s dechberoucím výhledem na horya údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -632,7 +632,7 @@ defmodule DetailLokace do
                           Se nachází v obci Kořenov v Jizerských horách. Chata prošla v roce 2021 rekonstrukcí a nabízí ubytování až pro 40 osob. Lyžařské lekce probíhají na 300 m vzdálené sjezdovce.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -648,7 +648,7 @@ defmodule DetailLokace do
                           leží uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Lekce probíhají v lyžařském areálu i v okolní divoké přírodě.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -662,7 +662,7 @@ defmodule DetailLokace do
                           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak i standartní školy v přírodě.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -677,7 +677,7 @@ defmodule DetailLokace do
                           RS Máj je středisko, jenž se rozkládá v malebném, lesy obklopeném prostředí chráněné oblasti u městečka Plasy, které je situováno 25 km severně od Plzně.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -691,7 +691,7 @@ defmodule DetailLokace do
                           Nachází se mimo civilizaci na kopci nad městečkem Lubenec. Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
                           </p>
                           </div>
-                            <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -707,7 +707,7 @@ defmodule DetailLokace do
                           Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -723,7 +723,7 @@ defmodule DetailLokace do
                           Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -739,7 +739,7 @@ defmodule DetailLokace do
                         Se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu.
                         </p>
                         </div>
-                        <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                        <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -755,7 +755,7 @@ defmodule DetailLokace do
                           je přes 300 let stará, zrekonstruovaná nádherná krušnohorská chalupa v obci Abertamy v nadmořské výšce okolo 900 metrů. Chata nabízí romantický výhled na blízký ski-areál Plešivec.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>
@@ -771,7 +771,7 @@ defmodule DetailLokace do
                           se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Jde o objekt patřící FTVS UK.
                           </p>
                           </div>
-                          <b class="detail-link self-end">Více informací<img src="/images/icon/arrow-right-deti.svg" class="button-image"></b>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
                 </div>

@@ -41,7 +41,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
       <Hero.enviroHero />
       <!--<Aktuality.aktuality />-->
       <SectionToggle.enviro />
-      <Kdo.kdoZs />
+      <Kdo.enviro />
       <Rekli.rekliEnviro />
       <Zustanme.enviro />
       <Footer.deti />

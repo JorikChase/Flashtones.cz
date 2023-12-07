@@ -11,7 +11,7 @@ defmodule FlashtonesWeb.EnviroTymLive do
       <KurzDetail.enviroTym />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
-      <DetailFaq.detailFaq />
+      <DetailFaq.enviro />
       <DetailLokace.detailLokaceEnviro />
       <br>
       <Rekli.rekliEnviro />

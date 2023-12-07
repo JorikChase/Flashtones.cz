@@ -9,7 +9,7 @@ defmodule FlashtonesWeb.EnviroSvpLive do
       <HeroSmall.enviroSvp />
       <DetailCta.enviro />
       <KurzDetail.enviroSvp />
-      <DetailFaq.detailFaq />
+      <DetailFaq.enviro />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
       <DetailLokace.detailLokaceEnviro />

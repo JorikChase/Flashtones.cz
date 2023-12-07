@@ -46,7 +46,7 @@ defmodule FlashtonesWeb.AcademyIndexLive do
         <div class="kazeta-prace"></div>
       </div>
       </div>
-      <Kdo.kdoZs />
+      <Kdo.academy />
       <Rekli.rekliAcademy />
       <Footer.deti />
     """

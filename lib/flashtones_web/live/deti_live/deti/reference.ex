@@ -119,7 +119,7 @@ defmodule FlashtonesWeb.DetiReference do
         <li>Základní škola Zvole, příspěvková organizace</li>
         <li>Základní škola a Mateřská škola Ždírec nad Doubravou</li>
       </ul></div>
-      <Kdo.kdoZs />
+      <Kdo.zs />
       <Rekli.rekliDeti />
       <Zustanme.deti />
       <Footer.deti />
