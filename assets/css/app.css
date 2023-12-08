@@ -517,9 +517,10 @@ br{
   height: 540px;
 
   background: rgba(255, 255, 255, 0.161);
+  background: rgba(0, 0, 0, 0)!important;
 
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .pcMenuBottomLinks{
   padding-top: 60px;
@@ -620,10 +621,6 @@ br{
   margin: auto;
   width: 30px;
   height: 30px;
-  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-          filter: invert(100%);
-  -webkit-filter: brightness(2); /* safari 6.0 - 9.0 */
-          filter: brightness(2);
 }
 .pcMenuBottomBurger:hover{
   opacity: 0;
