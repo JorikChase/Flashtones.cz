@@ -473,13 +473,14 @@ ux:
 	//- opravit faq
 	//- detaily lokaci
 	//- rs dodelat
+	//- optimalizovat obrazky
 	(- zeptat se romana na hry)
 	(- vysky boxu rekli)
 	(- menu na detailech lokalit, pridat hashtag do url, kdyz se na detail lokality jde z plavani atp...)
 	- shoptet 
-	- optimalizovat obrazky
 	- instagram API
 	- barvy pozadi vsude
-	- section Toggle v lokalitach aby drzel vybranou moznost
-	- studio dodat obazky
-	- na lokallitach je nav pojebany
+	- section toggle na about
+	//- section Toggle v lokalitach aby drzel vybranou moznost
+	//- studio dodat obazky
+	//- na lokalitach je nav pojebany

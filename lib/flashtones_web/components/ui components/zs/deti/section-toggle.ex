@@ -1,5 +1,66 @@
 defmodule SectionToggle do
-  use Phoenix.Component
+    use Phoenix.Component
+
+    def lokality(assigns) do
+      ~H"""
+      <div class="Odsazeni" id="course-item">
+      <title>lokality</title>
+      <div class="section-toggle">
+          <a href="#sectionA" class="active">Plavání</a>
+          <a href="#sectionB">Lyžování</a>
+          <a href="#sectionC">Enviro</a>
+      </div>
+
+      <section id="sectionA" class="hidden">
+      <DetailLokace.detailPlavaniSkoly />
+      </section>
+      <section id="sectionB" class="hidden">
+            <DetailLokace.detailLokaceLyzovani />
+      </section>
+      <section id="sectionC" class="hidden">
+            <DetailLokace.detailLokaceEnviro />
+      </section>
+      </div>
+      <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              const sectionLinks = document.querySelectorAll(".section-toggle a");
+              const sections = document.querySelectorAll("section");
+
+              function showSection(sectionId) {
+                  sections.forEach(section => {
+                      if (section.id === sectionId) {
+                          section.classList.remove("hidden");
+                      } else {
+                          section.classList.add("hidden");
+                      }
+                  });
+              }
+
+              sectionLinks.forEach(link => {
+                  link.addEventListener("click", function(e) {
+                      e.preventDefault();
+                      sectionLinks.forEach(link => link.classList.remove("active"));
+                      e.target.classList.add("active");
+                      showSection(e.target.getAttribute("href").substr(1));
+                  });
+              });
+
+              const hash = window.location.hash;
+              if (hash) {
+                  showSection(hash.substr(1));
+                  sectionLinks.forEach(link => {
+                      if (link.getAttribute("href") === hash) {
+                          link.classList.add("active");
+                      }
+                  });
+              } else {
+                  showSection("sectionA");
+                  sectionLinks[0].classList.add("active");
+              }
+          });
+      </script>
+      """
+    end
 
   def sectionToggle(assigns) do
     ~H"""
@@ -133,6 +194,62 @@ defmodule SectionToggle do
     </section>
     <section id="sectionB" class="hidden">
       <KurzNav.kurzPlavaniVerejnost />
+    </section>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sectionLinks = document.querySelectorAll(".section-toggle a");
+            const sections = document.querySelectorAll("section");
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    if (section.id === sectionId) {
+                        section.classList.remove("hidden");
+                    } else {
+                        section.classList.add("hidden");
+                    }
+                });
+            }
+
+            sectionLinks.forEach(link => {
+                link.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    sectionLinks.forEach(link => link.classList.remove("active"));
+                    e.target.classList.add("active");
+                    showSection(e.target.getAttribute("href").substr(1));
+                });
+            });
+
+            const hash = window.location.hash;
+            if (hash) {
+                showSection(hash.substr(1));
+                sectionLinks.forEach(link => {
+                    if (link.getAttribute("href") === hash) {
+                        link.classList.add("active");
+                    }
+                });
+            } else {
+                showSection("sectionA");
+                sectionLinks[0].classList.add("active");
+            }
+        });
+    </script>
+    """
+  end
+  def lokalityPlavani(assigns) do
+    ~H"""
+    <div class="Odsazeni" id="course-item">
+    <title>lokality</title>
+    <div class="section-toggle">
+        <a href="#sectionA" class="active">Pro školy</a>
+        <a href="#sectionB">Pro veřejnost</a>
+    </div>
+
+    <section id="sectionA" class="hidden">
+        <DetailLokace.detailPlavaniSkoly />
+    </section>
+    <section id="sectionB" class="hidden">
+        <DetailLokace.detailPlavaniVerejnost />
     </section>
     </div>
     <script>

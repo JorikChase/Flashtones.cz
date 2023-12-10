@@ -116,7 +116,7 @@ defmodule About do
     <div class="">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
-        <a class="" onclick="showSection(1)">O NÁS</a>
+        <a class="active" onclick="showSection(1)">O NÁS</a>
         <a class="" onclick="showSection(2)">HISTORIE</a>
         <a class="" onclick="showSection(3)">NAŠI LIDÉ</a>
         <a class="" onclick="showSection(4)">O SPOLEČNOSTI</a>

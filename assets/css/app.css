@@ -4,6 +4,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 /*var*/
+*{
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
 :root {
   --white: rgba(232, 237, 239, 1);
 
@@ -143,11 +147,6 @@ body {
   font-family: Barlow;
   line-height: 35px;
 }
-*{
-  border-radius: 15px;
-  transition: all 0.5s ease-in-out;
-}
-
 a:hover{
   transform: scale(1.02);
 }
@@ -908,6 +907,7 @@ form:hover{
 }
 .section-toggle:hover {
   background: rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
 }
 .section-toggle a {
   font-size: 28px;
@@ -954,6 +954,7 @@ form:hover{
 }
 .section-toggle a:hover {
   background: rgba(255, 255, 255, 1);
+  transform: scale(1);
 }
 .section-toggle .active {
   background: rgba(255, 255, 255, 1);
