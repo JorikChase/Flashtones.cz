@@ -460,27 +460,28 @@ ux:
 	//- optimizace lokace - 2
 	//- hero lokace - 2
 =============================================================================================
-	//- lokality on load pouze jeden
-	//- mapa na lokality
-	//- na mulde /dodelat
-	//- sipky, 
-	//- uvozovky
-	//- barvy ikon
-	//- barvy cta
-	//- mapy embed
-	//- //L mulda, //P vysočina, //E palkovicke husrky,// P E agri,// P E astra
-	//- vylety herosmall
-	//- opravit faq
-	//- detaily lokaci
-	//- rs dodelat
-	//- optimalizovat obrazky
-	(- zeptat se romana na hry)
+	//- lokality on load pouze jeden - 1
+	//- mapa na lokality - 4
+	//- na mulde /dodelat - 1
+	//- sipky, - 1
+	//- uvozovky - 1
+	//- barvy ikon - 1
+	//- barvy cta - 1
+	//- mapy embed - 1
+	//- //L mulda, //P vysočina, //E palkovicke husrky,// P E agri,// P E astra - 1
+	//- vylety herosmall - 2
+	//- opravit faq - 2
+	//- detaily lokaci - 2
+	//- rs dodelat - 2
+	//- optimalizovat obrazky - 1
+	//- section Toggle v lokalitach aby drzel vybranou moznost - 1
+	//- studio dodat obrazky - 1
+	//- na lokalitach je nav pojebany - 1
+	//- opravene cta - 4
+	//- section toggle na about - 6
+	//- barvy pozadi vsude - 2
 	(- vysky boxu rekli)
 	(- menu na detailech lokalit, pridat hashtag do url, kdyz se na detail lokality jde z plavani atp...)
+	(- zeptat se romana na hry)
 	- shoptet 
 	- instagram API
-	- barvy pozadi vsude
-	- section toggle na about
-	//- section Toggle v lokalitach aby drzel vybranou moznost
-	//- studio dodat obazky
-	//- na lokalitach je nav pojebany

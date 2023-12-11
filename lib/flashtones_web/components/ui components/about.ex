@@ -49,7 +49,6 @@ defmodule AboutComp do
   end
   def spolecnost(assigns) do
     ~H"""
-        <div id="section4" class="hidden odsazeni">
       <p>Veškeré produkty jsou vyrobené v České republice. Snižujeme dopad na životní prostředí a klademe důraz na kvalitu materiálů i zpracování. Minimalizujeme využívání plastů.</p><br>
         <p>
         Všechny pobytové akce jsou v souladu se zákonem o spojených službách poskytovány cestovní kanceláří Flashtones, s.r.o. Neziskové a dobrovolnické projekty zajišťuje ZŠ PRO DĚTI, z.s.
@@ -69,12 +68,10 @@ defmodule AboutComp do
         </h4>
         <br>
         <IconRow.iconRowPartneri />
-      </div>
       """
   end
   def lide(assigns) do
     ~H"""
-      <div id="section3" class="hidden odsazeni">
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -226,7 +223,6 @@ defmodule AboutComp do
               </p>
           </div>
         </div>
-      </div>
       """
   end
 end

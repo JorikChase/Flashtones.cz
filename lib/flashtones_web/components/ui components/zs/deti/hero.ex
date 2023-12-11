@@ -217,9 +217,9 @@ defmodule Hero do
     ~H"""
       <div class="hero">
             <div class="hero-content">
-              <h1 id="hero-heading">Heading 1</h1>
+              <h1 id="hero-heading">Školy v přírodě <br> s environmentální <br> a tmelící tématikou</h1>
               <br />
-              <a id="hero-button" class="hero-button">Button 1</a>
+              <a id="hero-button" href="#enviro-kurzy" class="hero-button">Nabídka kurzů</a>
             </div>
             <div class="hero-media" style="background-image: url(/images/enviro/enviro-head.jpeg);"></div>
           </div>
@@ -236,7 +236,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#enviro-kurzy" },
+                  { type: 'image', src: '/images/enviro/enviro-head.jpeg', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#enviro-kurzy" },
               ];
               let currentSlide = 0;
 
@@ -270,20 +270,21 @@ defmodule Hero do
                         newMedia.classList.add('active');
                     }, 0);
                 }
-
                 function nextSlide() {
                     currentSlide = (currentSlide + 1) % mediaItems.length;
                     heroMedia.firstChild.classList.remove('active');
+            /*
                     setTimeout(() => {
                         updateHeroContent(currentSlide);
                     }, 600); // Adjust this timeout to match your transition time
+            */
                 }
 
                 // Initially set the content
-                updateHeroContent(currentSlide);
-
+                //updateHeroContent(currentSlide);
+                //nextSlide();
                 // Start auto-switching every 5 seconds
-                setInterval(nextSlide, 5000);
+                //setInterval(nextSlide, 5000);
             });
           </script>
     """

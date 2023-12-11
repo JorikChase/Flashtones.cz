@@ -248,6 +248,9 @@ br{
 }
 
 /*components*/
+.active {
+  background: rgba(255, 255, 255, 1);
+}
 .question-box-row img{
   border-radius: 0;
 }

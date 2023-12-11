@@ -120,7 +120,7 @@ defmodule MenuMobile do
         <a href="/produkty"><h2> produkty </h2></a>
         <a href="/studio"><h2> studio </h2></a>
         <a class="navLink" href="https://eshop.flashtones.cz/"><h2>eshop</h2></a>
-        <a href="/about"><h2> Kdo jsme </h2></a>
+        <a href="/about#about"><h2> Kdo jsme </h2></a>
         <a href="/kontakty"><h2> Kontakty </h2></a>
       </div>
     </div>
@@ -262,7 +262,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -404,7 +404,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -539,7 +539,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -672,7 +672,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -805,7 +805,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -938,7 +938,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>
@@ -1071,7 +1071,7 @@ defmodule MenuMobile do
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about"> Kdo jsme </a>
+        <a href="/zs/about#about"> Kdo jsme </a>
         <a href="/kontakty"> Kontakty </a>
       </div>
     </div>

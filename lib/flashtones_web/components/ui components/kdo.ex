@@ -67,7 +67,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button" style="color: var(--ft-link);" href="/about">
+            <a class="inline-button" style="color: var(--ft-link);" href="/about#about">
               O projektu
               <img src="/images/icon/arrow-right-ft.svg">
             </a>
@@ -172,7 +172,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button deti-link" href="/zs/about">
+            <a class="inline-button deti-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-deti.svg">
             </a>
@@ -277,7 +277,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button plavani-link" href="/zs/about">
+            <a class="inline-button plavani-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-plavani.svg">
             </a>
@@ -382,7 +382,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button lyzovani-link" href="/zs/about">
+            <a class="inline-button lyzovani-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-lyzovani.svg">
             </a>
@@ -487,7 +487,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button enviro-link" href="/zs/about">
+            <a class="inline-button enviro-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-enviro.svg">
             </a>
@@ -592,7 +592,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button vylety-link" href="/zs/about">
+            <a class="inline-button vylety-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-vylety.svg">
             </a>
@@ -697,7 +697,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button doma-link" href="/zs/about">
+            <a class="inline-button doma-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-doma.svg">
             </a>
@@ -802,7 +802,7 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button academy-link" href="/zs/about">
+            <a class="inline-button academy-link" href="/zs/about#about">
               O projektu
               <img src="/images/icon/arrow-right-academy.svg">
             </a>

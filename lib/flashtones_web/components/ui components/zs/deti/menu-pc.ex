@@ -96,7 +96,7 @@ defmodule MenuPc do
         </div>
         <div class="pcMenuBottomLinks">
           <a class="pcMenuBottomLink" href="/"> Úvod </a>
-          <a class="pcMenuBottomLink" href="/about"> Kdo jsme </a>
+          <a class="pcMenuBottomLink" href="/about#about"> Kdo jsme </a>
           <a class="pcMenuBottomLink" href="/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -112,9 +112,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -129,16 +132,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -155,7 +158,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -205,7 +208,7 @@ defmodule MenuPc do
         </a>
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
-          <a href="/zs/academy/about">O nás</a>
+          <a href="/zs/academy/about#about">O nás</a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -230,9 +233,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -247,16 +253,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -273,7 +279,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -331,7 +337,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
-          <a href="/zs/about">O nás</a>
+          <a href="/zs/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -348,6 +354,10 @@ defmodule MenuPc do
         var menu = document.getElementById("pcMenu");
         var menuBar = document.getElementById("pcMenuBar");
         var menuBottom = document.getElementById("pcMenuBottom");
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
         if (window.pageYOffset > 100) {
           menu.style.top = "0";
           menu.style.left = "0";
@@ -361,7 +371,7 @@ defmodule MenuPc do
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
           menuBottom.style.borderRadius = "0";
-          if(window.innerHeight < window.innerWidth){
+          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
             cta.style.right = "30px";
             cta.style.top = "60px";
           }
@@ -379,7 +389,8 @@ defmodule MenuPc do
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
           menuBottom.style.borderRadius = "10px";
-          if(window.innerHeight < window.innerWidth){
+          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "30px";
           cta.style.top = "150px";
           }
@@ -429,7 +440,7 @@ defmodule MenuPc do
         </a>
         <div class="pcMenuBarLinks">
           <a href="/zs/"> ZŠ PRO DĚTI</a>
-          <a href="/zs/doma/about">O nás</a>
+          <a href="/zs/doma/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -453,9 +464,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -470,16 +484,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -496,7 +510,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -548,7 +562,7 @@ defmodule MenuPc do
           <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="/zs/enviro/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
-          <a href="/zs/enviro/about">O nás</a>
+          <a href="/zs/enviro/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -572,9 +586,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -589,16 +606,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -615,7 +632,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -668,7 +685,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lyzovani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
-          <a href="/zs/lyzovani/about">O nás</a>
+          <a href="/zs/lyzovani/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -692,9 +709,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -709,16 +729,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -735,7 +755,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -788,7 +808,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/plavani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
-          <a href="/zs/plavani/about">O nás</a>
+          <a href="/zs/plavani/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -812,9 +832,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -829,16 +852,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -855,7 +878,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
@@ -907,7 +930,7 @@ defmodule MenuPc do
           <a href="/zs/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/reference">Reference</a>
-          <a href="/zs/vylety/about">O nás</a>
+          <a href="/zs/vylety/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -931,9 +954,12 @@ defmodule MenuPc do
 
       const body = document.body;
       const html = document.documentElement;
+        const plavani = window.location.pathname.includes("/plavani/");
+        const lyzovani = window.location.pathname.includes("/lyzovani/");
+        const enviro = window.location.pathname.includes("/enviro/");
+        const vylety = window.location.pathname.includes("/vylety/");
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
-      console.log(height)
 
       if (window.pageYOffset > 410) {
         menu.style.top = "0";
@@ -948,16 +974,16 @@ defmodule MenuPc do
         menu.style.borderRadius = "0";
         menuBar.style.borderRadius = "0";
         menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          console.log("ju");
           cta.style.right = "10%";
           cta.style.top = "90px";
           cta.style.position = "fixed";
         }
-        console.log(distanceToBottom);
-        if(distanceToBottom < ctaEnd){
+        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
           cta.style.opacity = "0";
           cta.style.visibility = "hidden";
-        } else {
+        } else if(plavani || lyzovani || enviro || vylety){
           cta.style.opacity = "1";
           cta.style.visibility = "visible";
         }
@@ -974,7 +1000,7 @@ defmodule MenuPc do
         menu.style.borderRadius = "10px";
         menuBar.style.borderRadius = "10px";
         menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth){
+        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
         cta.style.right = "10%";
         cta.style.top = "440px";
         }
