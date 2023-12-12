@@ -3,6 +3,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
 
   def render(assigns) do
     ~H"""
+     <link rel="canonical" href="https://www.zsvylety.cz">
       <style>
         main{
           background: #f8f0e4;

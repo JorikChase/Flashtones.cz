@@ -18,7 +18,7 @@ defmodule Hero do
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const mediaItems = [
-            { type: 'video', src: '/images/ft/tobogan.mp4', heading: 'S námi je to jízda!', button: 'O nás', href: "#" },
+            { type: 'video', src: '/images/ft/tobogan.mp4', heading: 'S námi je to jízda!', button: 'O nás', href: "/about#about" },
             { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Tady', href: "#zustanme"  },
             { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Podívejte se', href: "/studio"  },
             { type: 'image', src: '/images/ft/originalni-produkty.jpg', heading: 'Originální produkty vyrobené v ČR', button: 'Prohlédnout si', href: "/produkty"  }
@@ -219,10 +219,11 @@ defmodule Hero do
             <div class="hero-content">
               <h1 id="hero-heading">Školy v přírodě <br> s environmentální <br> a tmelící tématikou</h1>
               <br />
-              <a id="hero-button" href="#enviro-kurzy" class="hero-button">Nabídka kurzů</a>
+              <a id="hero-button" href="#course-marker" class="hero-button">Nabídka kurzů</a>
             </div>
             <div class="hero-media" style="background-image: url(/images/enviro/enviro-head.jpeg);"></div>
           </div>
+          <span id="course-marker"></span>
 
           <style>
           #hero-heading{
@@ -231,12 +232,17 @@ defmodule Hero do
           .hero-media{
             background-size: 115%;
           }
+          @media(orientation: portrait){
+          .hero{
+            height: auto;
+          }
+          }
 
           </style>
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/enviro/enviro-head.jpeg', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#enviro-kurzy" },
+                  { type: 'image', src: '/images/enviro/enviro-head.jpeg', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#course-marker" },
               ];
               let currentSlide = 0;
 
@@ -300,6 +306,7 @@ defmodule Hero do
             </div>
             <div class="hero-media" style="background-image: url(/images/lyzovani/lyzovani-head.jpeg);"></div>
           </div>
+          <span id="course-marker"></span>
 
           <style>
           #hero-heading{
@@ -313,7 +320,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/lyzovani/lyzovani-head.jpeg', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#lyzovani-kurzy" },
+                  { type: 'image', src: '/images/lyzovani/lyzovani-head.jpeg', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#course-marker" },
               ];
               let currentSlide = 0;
 
@@ -376,6 +383,7 @@ defmodule Hero do
             </div>
             <div class="hero-media"></div>
           </div>
+          <span id="course-marker"></span>
 
           <style>
           #hero-heading{
@@ -386,7 +394,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/plavani/plavani-head.jpg', heading: 'Největší plavecká škola <br> v ČR', button: 'Nabídka kurzů', href: "#plavani-kurzy" },
+                  { type: 'image', src: '/images/plavani/plavani-head.jpg', heading: 'Největší plavecká škola <br> v ČR', button: 'Nabídka kurzů', href: "#course-marker" },
               ];
               let currentSlide = 0;
 
@@ -449,6 +457,7 @@ defmodule Hero do
             </div>
             <div class="hero-media" style="background-image: url(/images/vylety/vylety-head.jpeg);"></div>
           </div>
+          <span id="course-marker"></span>
 
           <style>
           #hero-heading{
@@ -464,7 +473,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '', heading: 'Jednodenní a vícedenní<br> výlety pro školy<br> a veřejnost', button: 'Nabídka kurzů', href: "#vylety-kurzy" },
+                  { type: 'image', src: '', heading: 'Jednodenní a vícedenní<br> výlety pro školy<br> a veřejnost', button: 'Nabídka kurzů', href: "#course-marker" },
               ];
               let currentSlide = 0;
 

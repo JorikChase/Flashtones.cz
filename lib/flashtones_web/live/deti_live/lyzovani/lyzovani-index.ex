@@ -3,6 +3,7 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
 
   def render(assigns) do
     ~H"""
+     <link rel="canonical" href="https://www.zslyzovani.cz">
       <style>
         main{
           background: #e4edf8;

@@ -65,6 +65,8 @@ defmodule Nav do
         .navHero{
           display: flex;
           flex-direction: column;
+          gap: 30px;
+          padding: 30px 0;
         }
         .navHero button{
           border-radius: 30px;
@@ -181,15 +183,12 @@ defmodule Nav do
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation odsazeni" style="transform: translateY(-100%);">
       <div class="navHero">
-      <br>
         <h1>My jsme Flashtones</h1>
-        <br>
         <a href="/" >
           <button class="button">
             navštívit hlavní web
           </button>
         </a>
-        <br>
       </div>
       <Navlinks.general />
     </nav>

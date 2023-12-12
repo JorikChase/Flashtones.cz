@@ -34,6 +34,15 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
+        .icon-phone{
+          background-image: url(/images/icon/call-deti.svg);
+        }
+        .icon-mail{
+          background-image: url(/images/icon/email-deti.svg);
+        }
+        #deti-submit{
+          background-color: var(--deti-link)!important;
+        }
       </style>
       <Nav.nav />
       <MenuMobile.menuDetiMobile />

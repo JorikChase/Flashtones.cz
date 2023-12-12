@@ -170,14 +170,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -386,14 +386,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -602,14 +602,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -818,14 +818,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -1034,14 +1034,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -1250,14 +1250,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -1466,14 +1466,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -1682,14 +1682,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {
@@ -1898,14 +1898,14 @@ defmodule Rekli do
       const testimonials = [
           {
               text: "Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...",
-              school: "4. základní škola Heuréka",
+              school: "4. ZŠ Heuréka",
           },
           {
               text: `Na základě zpětné vazby od rodičů chceme touto cestou ještě jednou poděkovat za vydařený týden. Děti oceňují především pestrý program, který zahrnoval jak sportovní, tak kreativní činnosti. Děti také měly v instruktory důvěru a nebylo pro ně obtížné komunikovat své potřeby...`,
-              school: "Základní škola Be Open",
+              school: "ZŠ Be Open",
           },
           {
-              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům a spolupráce...",
+              text: "Dovolte mi, abych touto cestou poděkovala týmu Petra Černého za výborně provedený adaptační kurz s výukou plavání.<br>Naše škole je poměrně specifická díky tomu, že se zabýváme převážně výukou žáků – cizinců. Profesionalita, vstřícnost jmenovaného týmu vůči našim žákům...",
               school: "ZŠ a JŠ Věda",
           },
           {

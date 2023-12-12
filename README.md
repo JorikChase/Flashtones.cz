@@ -480,8 +480,16 @@ ux:
 	//- opravene cta - 4
 	//- section toggle na about - 6
 	//- barvy pozadi vsude - 2
-	(- vysky boxu rekli)
-	(- menu na detailech lokalit, pridat hashtag do url, kdyz se na detail lokality jde z plavani atp...)
+	//- meta tags, canonical tags, page scanning - 1
+	//- firefox : kontakt desktop odsazeni, plachta
+	//- lokality sirka obrazku
+	//- vysky boxu rekli
+	//- hero tlacitko odkaz na span s id kurzy vyska 90vh
+	//- ikony kontakt barvy podle subsite
+	//- tlacitko do barev kontakt
 	(- zeptat se romana na hry)
-	- shoptet 
-	- instagram API
+	/- shoptet 
+	/- instagram API
+	/- mail script
+	- dodat text kontakty
+

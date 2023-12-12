@@ -3,6 +3,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
 
   def render(assigns) do
     ~H"""
+     <link rel="canonical" href="https://www.zsenviro.cz">
     <style>
       main{
         background: #e5f8e4;

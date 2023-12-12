@@ -13,6 +13,7 @@ defmodule Kontakt do
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
       }
       .kontakt-main > div{
         width: 100%;
@@ -39,6 +40,7 @@ defmodule Kontakt do
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
+        gap:15px;
         margin: 0;
         font-weight: bold;
       }
@@ -66,29 +68,27 @@ defmodule Kontakt do
         <div class="">
           <h3>Pro školy</h3>
           <a href="tel:+420 606 589 786">
-            <img src="/images/icon/call.svg">
+            <div class="kontakt-icon icon-phone"></div>
             +420 606 589 786
           </a>
           <a href="mailto:info@zsplavani.cz">
-            <img src="/images/icon/email.svg">
+            <div class="kontakt-icon icon-mail"></div>
             info@zsplavani.cz
           </a>
         </div>
         <div class="">
           <h3>Pro veřejnost</h3>
           <a href="tel:+420 724 168 962">
-            <img src="/images/icon/call.svg">
+            <div class="kontakt-icon icon-phone"></div>
             +420 724 168 962
           </a>
           <a href="mailto:petra@zsplavani.cz">
-            <img src="/images/icon/email.svg">
+            <div class="kontakt-icon icon-mail"></div>
             petra@zsplavani.cz
           </a>
         </div>
       </div>
-      <br>
       <h2>Fakturační údaje</h2>
-      <br>
       <div class="">
         <div class="">
           <h3>Flashtones, s.r.o.</h3>
@@ -150,7 +150,7 @@ defmodule Kontakt do
       <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed" required="true">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete <a href="###">zde.</a></small></label></span>
           <br>
-      <input type="submit" class="button w-44 self-end deti-link" value="Odeslat">
+      <input type="submit" class="button w-44 self-end deti-link" id="deti-submit" value="Odeslat">
     </form>
     </div>
     <script>

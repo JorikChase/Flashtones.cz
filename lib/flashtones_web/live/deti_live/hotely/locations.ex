@@ -4,9 +4,9 @@ defmodule FlashtonesWeb.LocationsLive do
   def render(assigns) do
     ~H"""
     <style>
-    main{
-      background: #dbf6f9;
-    }
+      main{
+        background: #dbf6f9;
+      }
       .app-bg{
         display: flex;
         flex-direction: column;
@@ -34,7 +34,7 @@ defmodule FlashtonesWeb.LocationsLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
+    </style>
     <Nav.nav />
     <MenuMobile.menuDetiMobile />
     <MenuPc.menuDetiPc />
@@ -56,8 +56,6 @@ defmodule FlashtonesWeb.LocationsLive do
       }
     </style>
     <SectionToggle.lokality />
-
-    <!-- Add more categories and products here -->
     <Zustanme.deti />
     <Footer.deti />
     """

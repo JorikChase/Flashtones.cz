@@ -3,6 +3,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
 
   def render(assigns) do
     ~H"""
+     <link rel="canonical" href="https://www.zsplavani.cz">
       <style>
         main{
           background: #e4e9f8;
