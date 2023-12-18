@@ -796,90 +796,6 @@ defmodule HeroSmall do
     </style>
     """
   end
-  def jelenovska(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def lites(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def lubenec(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def maj(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def plesivka(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def pramen(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
-  def radost(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/ft/head-small.png);
-     }
-    </style>
-    """
-  end
   def enviroSvp(assigns) do
     ~H"""
     <div class="hero-small">
@@ -953,18 +869,6 @@ defmodule HeroSmall do
      .hero-small{
       background-image: url(/images/enviro/weekend.jpeg);
       background-position: 50% 38%;
-     }
-    </style>
-    """
-  end
-  def osvetim(assigns) do
-    ~H"""
-    <div class="hero-small">
-    </div>
-
-    <style>
-     .hero-small{
-      background-image: url(/images/vylety/osvetim.jpeg);
      }
     </style>
     """

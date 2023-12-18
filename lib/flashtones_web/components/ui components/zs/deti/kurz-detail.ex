@@ -1584,55 +1584,6 @@ defmodule KurzDetail do
         <br>
     """
   end
-  def vyletyPriroda(assigns) do
-    ~H"""
-    <style>
-          p{
-            color: var(--Text, #333);
-            font-family: Barlow;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 35px;
-          }
-          bold{
-            color: var(--Text, #333);
-            font-family: Barlow;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 35px; /* 194.444% */
-          }
-        </style>
-        <div class="course-wrap top">
-        <h2>Záchranná stanice Aves Brandýsek</h2>
-        <p>Každý živočišný druh hraje důležitou roli v našem ekosystému, pomáhá udržovat
-          rovnováhu v přírodě a zachovat různorodou krásu a inspiraci pro příští generace. Kdo
-          jiný, než právě děti by měl pocítit důležitost biodiverzity a důsledky nerespektujícího
-          chování lidí k jiným živým bytostem. Tento jednodenní výlet dá dětem nahlédnout do
-          tématu ochrany živočichů v praxi. Pro žáky všech věkových kategorií je ihned po
-          nástupu do autobusu připraven krátký tematický film, kde se dozví o všech úskalích
-          ochrany zvířat a jak můžou k ochraně sami přispět. Díky promítání a následné diskuzi
-          s delegátem bude již samotná cesta pro děti naučná a zajímavá.
-          <br>
-          <br>
-          Na místě žáci setkají s handicapovanými zvířaty, exoty i původními českými plemeny
-          domácích zvířat. Záchrannou stanicí AVES projde ročně kolem 1 000 živočichů a valná
-          většina jejich zranění je způsobena lidskou činností. Nejčastěji se jedná o střet s auty
-          nebo nárazy do jiných dopravních prostředků a jiných překážek, postřelení, otrava, pády
-          do jímek či výkopů apod. K nejčastějším zvířatům na stanici patří sovy a dravci a v jarních
-          měsících mláďata. Mimo živočichů z volné přírody se na stanici dostávají i zmíněná
-          exotická zvířata, která buď svým utekla svým majitelům, nebo je zvířata přestala bavit.
-          Cílem je živočichy vyléčit a vrátit do přírody, což je samozřejmě ne vždy možné.
-          <br>
-          <br>
-          Na zpáteční cestě nás čeká zábavný kvíz, žáci následně hodnotí své zážitky z výletu a
-          diskutují témata s naším odborným delegátem, případně učiteli.
-        </p>
-        </div>
-        <br>
-    """
-  end
   def enviroSSTym(assigns) do
     ~H"""
     <div class="course-wrap top">

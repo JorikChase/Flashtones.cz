@@ -18,6 +18,12 @@ defmodule Navlinks do
       margin: 0;
     }
     @media (orientation: portrait){
+      .in-line{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+      }
         .navLinksColumn{
           width: auto;
         }
@@ -25,7 +31,7 @@ defmodule Navlinks do
     </style>
     <div class="navLinks">
         <div class="navLinksColumn">
-          <a class="navLink" href="/zs">
+          <a class="navLink in-line" href="/zs">
             <h3>ZŠ pro děti</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
@@ -64,7 +70,7 @@ defmodule Navlinks do
           </a>
         </div>
         <div class="navLinksColumn">
-          <a class="navLink" href="/produkty">
+          <a class="navLink in-line" href="/produkty">
             <h3>PRODUKTY</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
@@ -121,7 +127,7 @@ defmodule Navlinks do
 
 
         <div class="navLinksColumn">
-          <a class="navLink" href="/studio">
+          <a class="navLink in-line" href="/studio">
             <h3>STUDIO</h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
@@ -138,7 +144,7 @@ defmodule Navlinks do
             Programy pro dospělé<!--:<span class="navLink-thin"> Užitečné a zábavné volnočasové aktivity pro dospělé</span>-->
             </span>
           </a>
-          <a class="navLink" href="https://dobrilo.cz/">
+          <a class="navLink in-line" href="https://dobrilo.cz/">
             <h3>DOBRILO </h3>
             <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
           </a>
