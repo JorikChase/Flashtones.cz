@@ -52,8 +52,8 @@ defmodule DetailCta do
       <a class="cta-button" style="background: var(--plavani-main)" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
-      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
+      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call-plavani.svg">+420 606 589 786</a>
+      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email-plavani.svg">petra@zsplavani.cz</a>
       <!--<a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
@@ -70,9 +70,9 @@ defmodule DetailCta do
       <a class="cta-button" style="background: var(--plavani-main)" href="/zs/plavani/rezervace">Objednat kurz</a>
       <p>Chci více informací:</p>
       <br>
-      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
-      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">info@zsplavani.cz</a>
-      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
+      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call-plavani.svg">+420 606 589 786</a>
+      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email-plavani.svg">info@zsplavani.cz</a>
+      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download-plavani.svg">PDF brožura</a>
     </div>
 
     <script>
@@ -91,9 +91,9 @@ defmodule DetailCta do
       <a class="cta-button" style="background: var(--plavani-main)" href="https://rezervace.zsprodeti.cz/kurz-1/termin/list">Objednat kurz</a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br>
-      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
-      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
+      <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call-plavani.svg">+420 606 589 786</a>
+      <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email-plavani.svg">petra@zsplavani.cz</a>
+      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download-plavani.svg">PDF brožura</a>
     </div>
 
     <script>

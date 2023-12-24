@@ -481,15 +481,61 @@ ux:
 	//- section toggle na about - 6
 	//- barvy pozadi vsude - 2
 	//- meta tags, canonical tags, page scanning - 1
+=============================================================================================
 	//- firefox : kontakt desktop odsazeni, plachta
 	//- lokality sirka obrazku
 	//- vysky boxu rekli
 	//- hero tlacitko odkaz na span s id kurzy vyska 90vh
 	//- ikony kontakt barvy podle subsite
 	//- tlacitko do barev kontakt
+	
 	(- zeptat se romana na hry)
+	(- kazdy kontakty)
+	
 	/- shoptet 
 	/- instagram API
 	/- mail script
 	- dodat text kontakty
 
+=============================================================================================
+Počítačová verze 
+
+- [ ] Vyměnit úvodní fotky u lokalit 
+- [x] Instagram 
+- [x] Kontaktní formulář 
+- [x] Ke kontaktům přidat čísla a maily na Čechy a Morava 
+- [x] Odlišit barevně “nabidka našich kurzů a co se znáš děti naučí?”
+- [x] Naše aktivity - úvod 
+- [x] Doplnit fotku u výletu Mladá Boleslav-nacita se pomalu ale je tam-optimalizovat
+- [x] Odkaz na facebook (přesměrovat na ZŠ PRO DĚTI)
+- [x] Instruktoři - když si na ně naje’deš chybí jejich info 
+- [x] Lokality - špatné barvy ikon v FAG - změnit na zelenou “zs pro děti” - 
+- [x] Víkendové příměstské tábory enviro - špatné barvy uvozovek 
+- [x] Odebrat rámeček pod “zustanme v kontaktu”
+- [x] Vyměnit fotku u primestskeho školního kurzu (Brandýs nad Labem) je na disku 
+- [x] Plavecké kurzy pro veřejnost - špatné barvy ikon “telefon a e-mail”
+- [x] Patička (proházené nadpisy a popisy)
+- [x] Doplnit počet dětí “našimi kurzy projde přes 8000 děti ročně
+🫣
+(Predate zsprodeti)
+- [x] aktualita|blog
+- [x] figma datum
+- [x] Stejne vysoké tedy grid
+- [x] Pod sebe obrazek a text
+- [x] Bold text
+- [x] Odendat ramecky
+
+Web - flashtones
+- [x] Dole patička - CO NÁS BAVÍ
+                               - ikony soc. sítě
+                               - popisky ZŠ pro děti 
+                               - studio zkrátit, Dobrilo -            zkrátit 
+- [x] Plachta flashtones - předělat 
+- [x] Cookies - nejsou potřeba, to dela elixir pasivně ze se nemusí schraňovat tato data
+
+Mobilní verze 
+
+- [ ] Nadpisy detailu lokalit
+- [x] V kurzech jsou lokality na mobilu pojebane vysky itemu
+email = MailerProject.UserEmail.welcome(%{name: "14", email: "info@zsplavani.cz"})
+MailerProject.Mailer.deliver(email)

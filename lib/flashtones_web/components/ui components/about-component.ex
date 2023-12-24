@@ -5,7 +5,7 @@ defmodule About do
     ~H"""
       <div class="">
         <!-- Navigation Bar -->
-        <div class="flex justify-center mb-8 section-toggle">
+        <div class="flex justify-center mb-8 section-toggle section-toggle-long">
           <a class="" href="#about">O NÁS</a>
           <a class="" href="#historie">HISTORIE</a>
           <a class="" href="#lide">NAŠI LIDÉ</a>
@@ -76,7 +76,7 @@ defmodule About do
 
     <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8 section-toggle">
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
         <a class="" href="#about">O NÁS</a>
         <a class="" href="#historie">HISTORIE</a>
         <a class="" href="#lide">NAŠI LIDÉ</a>

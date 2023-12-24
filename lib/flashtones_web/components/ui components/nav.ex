@@ -183,8 +183,10 @@ defmodule Nav do
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation odsazeni" style="transform: translateY(-100%);">
       <div class="navHero">
-        <h1>My jsme Flashtones</h1>
+        <h1 class="noBreak" style="margin: 0; display: flex; flex-direction: row; align-items: center;">My jsme <div style="background-image: url(/images/ft/Flashtones.svg); background-position: 60% 60%; background-size: contain; background-repeat: no-repeat; border-radius: 0; height: 2em; width: 8em; margin-left: 10px;"></div></h1>
         <a href="/" >
+        <p>Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!</p>
+        <br>
           <button class="button">
             navštívit hlavní web
           </button>

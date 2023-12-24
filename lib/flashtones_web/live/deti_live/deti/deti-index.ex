@@ -49,9 +49,11 @@ defmodule FlashtonesWeb.DetiIndexLive do
           transform: scale(1)!important;
         }*/
       </style>
+      <Hero.deti />
       <DetiGrid.staticGrid />
       <!--<Aktuality.aktuality />-->
       <IconRow.iconRowDeti />
+      <Instagram.feed />
       <Kdo.zs />
       <Rekli.rekliDeti />
       <Zustanme.deti />

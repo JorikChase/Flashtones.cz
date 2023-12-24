@@ -74,6 +74,79 @@ defmodule Hero do
     """
   end
 
+  def deti(assigns) do
+    ~H"""
+      <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Heading 1</h1>
+              <br />
+              <a id="hero-button" class="hero-button">Button 1</a>
+            </div>
+            <div class="hero-media"></div>
+          </div>
+          <span id="course-marker"></span>
+
+          <style>
+          #hero-heading{
+            color: white;
+          }
+
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const mediaItems = [
+                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce pro základní školy i pro veřejnost.', button: 'Naše aktivity', href: "#course-marker" },
+              ];
+              let currentSlide = 0;
+
+                const heroHeading = document.getElementById("hero-heading");
+                const heroButton = document.getElementById("hero-button");
+                const heroMedia = document.querySelector(".hero-media");
+
+                function updateHeroContent(slideIndex) {
+                    const mediaItem = mediaItems[slideIndex];
+                    heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
+
+                    // Create a new media element
+                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
+                    newMedia.src = mediaItem.src;
+                    newMedia.autoplay = true;
+                    newMedia.loop = true;
+                    newMedia.muted = true;
+                    newMedia.style.width = '100%';
+                    newMedia.style.height = '100%';
+                    newMedia.style.objectFit = 'cover';
+                    newMedia.style.position = 'absolute';
+                    newMedia.style.top = 0;
+                    newMedia.style.left = 0;
+
+                    // Add the new media element and apply the 'active' class for smooth transition
+                    heroMedia.innerHTML = '';
+                    heroMedia.appendChild(newMedia);
+                    setTimeout(() => {
+                        newMedia.classList.add('active');
+                    }, 0);
+                }
+
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % mediaItems.length;
+                    heroMedia.firstChild.classList.remove('active');
+                    setTimeout(() => {
+                        updateHeroContent(currentSlide);
+                    }, 600); // Adjust this timeout to match your transition time
+                }
+
+                // Initially set the content
+                updateHeroContent(currentSlide);
+
+                // Start auto-switching every 5 seconds
+                setInterval(nextSlide, 5000);
+            });
+          </script>
+    """
+  end
   def academyHero(assigns) do
     ~H"""
         <div class="hero">
@@ -451,9 +524,9 @@ defmodule Hero do
     ~H"""
       <div class="hero">
             <div class="hero-content">
-              <h1 id="hero-heading">Heading 1</h1>
+              <h1 id="hero-heading">Jednodenní a vícedenní<br> výlety pro školy<br> a veřejnost</h1>
               <br />
-              <a id="hero-button" class="hero-button">Button 1</a>
+              <a id="hero-button" class="hero-button" href="#course-marker">Nabídka kurzů</a>
             </div>
             <div class="hero-media" style="background-image: url(/images/vylety/vylety-head.jpeg);"></div>
           </div>
@@ -470,59 +543,6 @@ defmodule Hero do
           }
 
           </style>
-          <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const mediaItems = [
-                  { type: 'image', src: '', heading: 'Jednodenní a vícedenní<br> výlety pro školy<br> a veřejnost', button: 'Nabídka kurzů', href: "#course-marker" },
-              ];
-              let currentSlide = 0;
-
-                const heroHeading = document.getElementById("hero-heading");
-                const heroButton = document.getElementById("hero-button");
-                const heroMedia = document.querySelector(".hero-media");
-
-                function updateHeroContent(slideIndex) {
-                    const mediaItem = mediaItems[slideIndex];
-                    heroHeading.innerHTML = mediaItem.heading;
-                    heroButton.textContent = mediaItem.button;
-                    heroButton.href = mediaItem.href;
-
-                    // Create a new media element
-                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-                    newMedia.src = mediaItem.src;
-                    newMedia.autoplay = true;
-                    newMedia.loop = true;
-                    newMedia.muted = true;
-                    newMedia.style.width = '100%';
-                    newMedia.style.height = '100%';
-                    newMedia.style.objectFit = 'cover';
-                    newMedia.style.position = 'absolute';
-                    newMedia.style.top = 0;
-                    newMedia.style.left = 0;
-
-                    // Add the new media element and apply the 'active' class for smooth transition
-                    heroMedia.innerHTML = '';
-                    heroMedia.appendChild(newMedia);
-                    setTimeout(() => {
-                        newMedia.classList.add('active');
-                    }, 0);
-                }
-
-                function nextSlide() {
-                    currentSlide = (currentSlide + 1) % mediaItems.length;
-                    heroMedia.firstChild.classList.remove('active');
-                    setTimeout(() => {
-                        updateHeroContent(currentSlide);
-                    }, 600); // Adjust this timeout to match your transition time
-                }
-
-                // Initially set the content
-                updateHeroContent(currentSlide);
-
-                // Start auto-switching every 5 seconds
-                setInterval(nextSlide, 5000);
-            });
-          </script>
     """
   end
 end

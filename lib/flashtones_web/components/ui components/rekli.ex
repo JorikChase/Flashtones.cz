@@ -82,16 +82,18 @@ defmodule Rekli do
           padding: 30px;
           text-align: justify;
           align-items: flex-start;
-          width: fit-content;
+          width: 100%;
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
         }
         .rekli-column{
           width: 100%;
+          height: auto;
         }
       }
     </style>
@@ -302,6 +304,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -518,6 +521,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -734,6 +738,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -950,6 +955,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -1166,6 +1172,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -1382,6 +1389,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -1598,6 +1606,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;
@@ -1814,6 +1823,7 @@ defmodule Rekli do
         }
         .rekli-head-wrap{
           height: auto;
+          width: 100%;
         }
         .rekli-columns{
           flex-direction: column;

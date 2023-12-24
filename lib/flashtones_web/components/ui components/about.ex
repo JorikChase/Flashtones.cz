@@ -70,8 +70,14 @@ defmodule AboutComp do
         <IconRow.iconRowPartneri />
       """
   end
+  @spec lide(any()) :: Phoenix.LiveView.Rendered.t()
   def lide(assigns) do
     ~H"""
+        <style>
+          .tooltip{
+            width: auto;
+          }
+        </style>
         <div class="grid grid-cols-4 grid-rows-8 gap-4 mt-4">
           <!-- Profile Item 1 -->
           <div
@@ -223,6 +229,58 @@ defmodule AboutComp do
               </p>
           </div>
         </div>
+        <script>
+          // Function to show/hide sections
+          function showSection(sectionNumber) {
+            const sections = document.querySelectorAll('[id^="section"]');
+            sections.forEach((section) => {
+              section.classList.toggle('hidden', !section.id.includes(sectionNumber));
+            });
+            // Highlight the selected navigation item
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach((item, index) => {
+              item.classList.toggle('active', index === sectionNumber - 1);
+            });
+          }
+          // Function to show tooltip on hover
+          function showTooltip(event, description) {
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('tooltip');
+            tooltip.textContent = description;
+            document.body.appendChild(tooltip);
+            positionTooltip(event, tooltip);
+          }
+          // Function to position tooltip next to the cursor
+          function positionTooltip(event, tooltip) {
+            const x = event.clientX + 10;
+            const y = event.clientY + 10;
+            tooltip.style.left = `${x}px`;
+            tooltip.style.top = `${y}px`;
+          }
+          // Function to remove tooltip on mouseout
+          function hideTooltip() {
+            const tooltip = document.querySelector('.tooltip');
+            if (tooltip) {
+              tooltip.remove();
+            }
+          }
+          document.addEventListener('DOMContentLoaded', function () {
+                // Call showSection with section number 1 to select the first section by default
+                showSection(1);
+                const navToggle = document.getElementById('navToggle');
+                const navigation = document.getElementById('navigation');
+                navToggle.addEventListener('click', function () {
+                    // Toggle the active class to change the button content and icon
+                    navToggle.classList.toggle('active');
+                    // Toggle the visibility of the navigation component
+                    if (navigation.style.transform === 'translateX(100%)') {
+                        navigation.style.transform = 'translateX(0)';
+                    } else {
+                        navigation.style.transform = 'translateX(100%)';
+                    }
+                });
+            });
+        </script>
       """
   end
 end

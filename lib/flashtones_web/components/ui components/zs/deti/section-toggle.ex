@@ -5,7 +5,7 @@ defmodule SectionToggle do
       ~H"""
       <div class="Odsazeni" id="course-item">
       <title>lokality</title>
-      <div class="section-toggle">
+      <div class="section-toggle section-toggle-long">
           <a href="#sectionA" class="active">Plavání</a>
           <a href="#sectionB">Lyžování</a>
           <a href="#sectionC">Enviro</a>

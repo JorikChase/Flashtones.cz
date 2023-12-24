@@ -54,10 +54,11 @@ defmodule IconRow do
             justify-content: center;
           }
           .icon-row-item{
-            width: 30%;
+            width: 50%;
+            padding-bottom: 30px;
           }
           .icon-row-item img{
-            width: 100%;
+            width: 90%;
           }
         }
       </style>
@@ -65,7 +66,7 @@ defmodule IconRow do
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/icon/boy.svg">
-            <p>Našimi kurzy projde  dětí ročně</p>
+            <p>Našimi kurzy projde přes 8000 dětí ročně</p>
           </div>
           <div class="icon-row-item">
             <img src="/images/icon/stars.svg">
@@ -90,7 +91,7 @@ defmodule IconRow do
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          background: rgba(255, 255, 255, 0.05);
+          background: var(--plavani-light)!important;
           box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
           gap: 30px;
         }
@@ -135,10 +136,11 @@ defmodule IconRow do
             justify-content: center;
           }
           .icon-row-item{
-            width: 30%;
+            width: 50%;
+            padding-bottom: 30px;
           }
           .icon-row-item img{
-            width: 100%;
+            width: 90%;
           }
         }
       </style>
@@ -226,10 +228,11 @@ defmodule IconRow do
             justify-content: center;
           }
           .icon-row-item{
-            width: 30%;
+            width: 40%;
+            padding-bottom: 30px;
           }
           .icon-row-item img{
-            width: 100%;
+            width: 90%;
           }
         }
       </style>
@@ -320,11 +323,11 @@ defmodule IconRow do
             width: 30%;
           }
           .icon-row-item img{
-            width: 100%;
+            width: 90%;
           }
         }
       </style>
-      <div class="icon-row_component odsazeni">
+      <div class="icon-row_component">
         <div class="icon-row">
           <div class="icon-row-item">
             <img src="/images/icon/decathlon.jpeg">

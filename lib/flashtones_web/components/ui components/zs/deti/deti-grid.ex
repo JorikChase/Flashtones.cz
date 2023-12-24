@@ -272,8 +272,7 @@ defmodule DetiGrid do
       }
     </style>
     <div class="grid-container odsazeni" id="static-grid">
-    <br>
-    <br>
+    <h2 style="text-align: center;">Naše aktivity</h2>
     <div class="grid">
       <a href="/zs/plavani" class="menu-plavani" >
         <span>

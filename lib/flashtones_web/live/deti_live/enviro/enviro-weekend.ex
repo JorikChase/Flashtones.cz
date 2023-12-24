@@ -43,7 +43,7 @@ defmodule FlashtonesWeb.EnviroWeekendLive do
       <KurzDetail.enviroWeekend />
       <!--<DetailFaq.plavaniWeekend />-->
       <br>
-      <Rekli.rekli />
+      <Rekli.rekliEnviro />
       <Zustanme.enviro />
       <Footer.deti />
     """

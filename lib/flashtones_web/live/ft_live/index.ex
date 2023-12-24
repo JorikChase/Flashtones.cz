@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.IndexLive do
   def render(assigns) do
 
     ~H"""
-    <!--<Instagram.feed />-->
+
      <link rel="canonical" href="https://www.flashtones.cz">
       <style>
       .app-bg{
@@ -40,6 +40,7 @@ defmodule FlashtonesWeb.IndexLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <Hero.ftHero />
+      <!--<Instagram.feed />-->
       <!--<Aktuality.aktuality />-->
       <Kdo.ft />
       <Rekli.rekliVylety />

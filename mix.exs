@@ -19,7 +19,7 @@ defmodule Flashtones.MixProject do
   def application do
     [
       mod: {Flashtones.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :swoosh]
     ]
   end
 
@@ -43,13 +43,15 @@ defmodule Flashtones.MixProject do
       {:phoenix_live_dashboard, "~> 0.8.0"},
       {:esbuild, "~> 0.7", runtime: Mix.env() == :dev},
       {:tailwind, "~> 0.2.0", runtime: Mix.env() == :dev},
-      {:swoosh, "~> 1.3"},
       {:finch, "~> 0.13"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:swoosh, "~> 1.6"},
+      {:gen_smtp, "~> 1.0"},
+      {:hackney, "~> 1.17"}
     ]
   end
 

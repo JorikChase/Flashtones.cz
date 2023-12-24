@@ -136,9 +136,6 @@ defmodule Kdo do
         gap: 30px;
         padding-left: 0;
       }
-      .kdoText a{
-        padding-right: 30px;
-      }
       .kdoPersons{
         display: flex;
         flex-direction: row;
@@ -240,9 +237,6 @@ defmodule Kdo do
         align-items: flex-start;
         gap: 30px;
         padding-left: 0;
-      }
-      .kdoText a{
-        padding-right: 30px;
       }
       .kdoPersons{
         display: flex;
@@ -346,9 +340,6 @@ defmodule Kdo do
         gap: 30px;
         padding-left: 0;
       }
-      .kdoText a{
-        padding-right: 30px;
-      }
       .kdoPersons{
         display: flex;
         flex-direction: row;
@@ -450,9 +441,6 @@ defmodule Kdo do
         align-items: flex-start;
         gap: 30px;
         padding-left: 0;
-      }
-      .kdoText a{
-        padding-right: 30px;
       }
       .kdoPersons{
         display: flex;
@@ -556,9 +544,6 @@ defmodule Kdo do
         gap: 30px;
         padding-left: 0;
       }
-      .kdoText a{
-        padding-right: 30px;
-      }
       .kdoPersons{
         display: flex;
         flex-direction: row;
@@ -661,9 +646,6 @@ defmodule Kdo do
         gap: 30px;
         padding-left: 0;
       }
-      .kdoText a{
-        padding-right: 30px;
-      }
       .kdoPersons{
         display: flex;
         flex-direction: row;
@@ -765,9 +747,6 @@ defmodule Kdo do
         align-items: flex-start;
         gap: 30px;
         padding-left: 0;
-      }
-      .kdoText a{
-        padding-right: 30px;
       }
       .kdoPersons{
         display: flex;

@@ -50,7 +50,7 @@ defmodule FlashtonesWeb.PlavaniDetailCitySchoolLive do
         <div class="category" data-category="Plavání">
           <div class="product">
                     <a href="###">
-                      <img src="/images/hotely/brandys.jpeg">
+                      <img src="/images/hotely/brandys/brandys.jpg">
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>

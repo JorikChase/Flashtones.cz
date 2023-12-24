@@ -698,7 +698,6 @@ br{
   align-content: center;
   gap: 30px;
   width: 50%;
-  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
 }
 form{
   display: flex;
@@ -890,7 +889,8 @@ form:hover{
     align-items: center;
   }
   .kurz-item{
-    width: 80%;
+    width: 100%;
+    height: auto;
   }
 }
 /*section toggle*/
@@ -985,7 +985,13 @@ form:hover{
 }
 @media (orientation: portrait){
   .section-toggle{
-    width: 80%;
+    width: auto;
+    border-radius: 25px;
+  }
+  .section-toggle-long{
+    flex-direction: column!important;
+    border-radius: 15px;
+
   }
 }
 /*nav item*/
@@ -1365,7 +1371,9 @@ form:hover{
     height: 185px;
 }
 @media (orientation: portrait){
-  
+  .product{
+    height: auto!important;
+  }
 }
 .product-image {
     

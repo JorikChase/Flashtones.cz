@@ -1,8 +1,16 @@
 defmodule Kontakt do
   use Phoenix.Component
 
+  #  command = "php"
+  #  script_path = "../../../../assets/mail.php"
+  #  args = ["arg1", "arg2"]
+  #
+  #  {:ok, result} = System.cmd(command, [script_path | args])
+  #
+  #  IO.puts(result)
+
+
   def main(assigns) do
-    # instagram_token = assigns.instagram_token
 
     ~H"""
     <style>
@@ -47,6 +55,15 @@ defmodule Kontakt do
       .kontakt-main > div > div > * > img{
         margin-right: 30px;
       }
+      .kontakt-sub-responsive{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+      }
+      .noBreak{
+        align-items: center;
+        gap: 15px;
+      }
       @media (orientation: portrait){
         .kontakt-main{
           flex-direction: column;
@@ -60,22 +77,58 @@ defmodule Kontakt do
       }
       .kontakt-main > div > div > *{
         flex-direction: row;
+        align-items: flex-start;
+      }
+      .kontakt-sub-responsive{
+        display: flex;
+        flex-direction: column!important;
+      }
+      .noBreak{
+        align-items: flex-start;
+        gap: 15px;
+        flex-direction: row!important;
       }
       }
     </style>
     <div class="kontakt-main">
+    <h2>Kontakty</h2>
       <div class="">
         <div class="">
-          <h3>Pro školy</h3>
-          <a href="tel:+420 606 589 786">
+          <h3>Pro školy - Čechy</h3>
+          <div class="kontakt-sub-responsive">
+          <a href="tel:+420 608 628 881" class="noBreak">
             <div class="kontakt-icon icon-phone"></div>
-            +420 606 589 786
+            +420 608 628 881
           </a>
-          <a href="mailto:info@zsplavani.cz">
+          <a href="mailto:petr@zsprodeti.cz" class="noBreak">
             <div class="kontakt-icon icon-mail"></div>
-            info@zsplavani.cz
+            petr@zsprodeti.cz
+          </a>
+          </div>
+          <div class="kontakt-sub-responsive">
+          <a href="tel:+420 776 742 201" class="noBreak">
+            <div class="kontakt-icon icon-phone"></div>
+            +420 776 742 201
+          </a>
+          <a href="mailto:marika@zsprodeti.cz" class="noBreak">
+            <div class="kontakt-icon icon-mail"></div>
+            marika@zsprodeti.cz
+          </a>
+          </div>
+        </div>
+        <div class="">
+          <h3>Pro školy - Morava</h3>
+          <a href="tel:+420 733 219 223">
+            <div class="kontakt-icon icon-phone"></div>
+            +420 733 219 223
+          </a>
+          <a href="mailto:ondra@zsprodeti.cz">
+            <div class="kontakt-icon icon-mail"></div>
+            ondra@zsprodeti.cz
           </a>
         </div>
+      </div>
+      <div>
         <div class="">
           <h3>Pro veřejnost</h3>
           <a href="tel:+420 724 168 962">
@@ -87,7 +140,18 @@ defmodule Kontakt do
             petra@zsplavani.cz
           </a>
         </div>
-      </div>
+        <div class="">
+          <h3>Externí spolupráce</h3>
+          <a href="tel:+420 606 589 786">
+            <div class="kontakt-icon icon-phone"></div>
+            +420 606 589 786
+          </a>
+          <a href="mailto:info@zsprodeti.cz">
+            <div class="kontakt-icon icon-mail"></div>
+            info@zsprodeti.cz
+          </a>
+        </div>
+        </div>
       <h2>Fakturační údaje</h2>
       <div class="">
         <div class="">
@@ -136,17 +200,26 @@ defmodule Kontakt do
     .kontakt-form{
 
     }
+    @media(orientation: portrait){
+      #name{
+        width: 100%;
+      }
+      #mail{
+        width: 100%;
+      }
+    }
 
     </style>
-    <div class="kontakt-heading"><p>Perex lorem ipsum auctor, augue non sagittis euismod, felis purus porttitor nisl, quis rhoncus leo neque in eros. Vestibulum nunc lorem, ornare id elit ut, ven natis finibus metus.</p></div>
+    <div class="kontakt-heading"><p>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?</p></div>
+    <br>
     <div class="kontakt-form">
     <form action="#">
       <b for="name">Jméno</b>
-      <input type="text" id="name" name="name" value=""><br>
+      <input type="text" id="name" name="name" phx-click><br>
       <b for="mail">E-mail:</b>
       <input type="text" id="mail" name="mail" value="@"><br>
       <b for="message">Zpráva</b>
-      <textarea id="message" name="message" value=""> </textarea><br>
+      <textarea id="message" name="message"> </textarea><br>
       <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed" required="true">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete <a href="###">zde.</a></small></label></span>
           <br>
@@ -154,6 +227,19 @@ defmodule Kontakt do
     </form>
     </div>
     <script>
+      document.getElementById("name").required = true;
+      mail = document.getElementById("mail")
+      mail.required = true;
+      function spam(mail)
+      {
+        mail.count += 1;
+        if(mail.count < 2){
+          mail.deliver();
+        } else {
+          return;
+        }
+      }
+      document.getElementById("message").required = true;
       document.getElementById("subscribe").required = true;
     </script>
     """
