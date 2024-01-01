@@ -38,7 +38,7 @@ defmodule FlashtonesWeb.LocationsLyzovaniLive do
       <Nav.nav />
       <MenuMobile.menuLyzovaniMobile />
       <MenuPc.menuLyzovaniPc />
-      <HeroSmall.lokality />
+      <HeroSmall.lokalityLyzovani />
       <style>
       .disappear{
         display: none;

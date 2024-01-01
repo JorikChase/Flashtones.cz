@@ -490,22 +490,6 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
-                      <a href="/zs/lokality/na-mulde">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/na-mulde/na-mulde.jpg)"></div>
-                          <div class="product-text-wrap">
-                          <div class="product-text">
-                          <h4>
-                          Na Muldě
-                          </h4>
-                          <p>
-                          Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m.
-                          </p>
-                          </div>
-                          <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
-                          </div>
-                      </a>
-                </div>
-                <div class="product">
                       <a href="/zs/lokality/u-medveda">
                         <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/u-medveda/u-medveda.jpeg)"></div>
                           <div class="product-text-wrap">

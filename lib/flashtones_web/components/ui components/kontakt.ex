@@ -10,13 +10,130 @@ defmodule Kontakt do
   #  IO.puts(result)
 
 
+  def flashtones(assigns) do
+
+    ~H"""
+    <style>
+      .kontakt-main{
+        width: 100%;
+        padding: 0 0 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .kontakt-main > div{
+        width: 50%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .kontakt-main > div > div{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+        background: rgb(255, 255, 255);
+      }
+      .kontakt-main > div > div > *{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap:15px;
+        margin: 0;
+        font-weight: bold;
+      }
+      .kontakt-main > div > div > * > img{
+        margin-right: 30px;
+      }
+      .kontakt-sub-responsive{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+      }
+      .noBreak{
+        align-items: center;
+        gap: 15px;
+      }
+      .icon-phone{
+        background-image: url(/images/icon/call.svg);
+      }
+      .icon-mail{
+        background-image: url(/images/icon/email.svg);
+      }
+      @media (orientation: portrait){
+        .kontakt-main{
+          flex-direction: column;
+      }
+      .kontakt-main > div{
+        flex-direction: column;
+        padding: 0;
+      }
+      .kontakt-main > div > div{
+        flex-direction: column;
+      }
+      .kontakt-main > div > div > *{
+        flex-direction: row;
+        align-items: flex-start;
+      }
+      .kontakt-sub-responsive{
+        display: flex;
+        flex-direction: column!important;
+      }
+      .noBreak{
+        align-items: flex-start;
+        gap: 15px;
+        flex-direction: row!important;
+      }
+      }
+    </style>
+    <div class="kontakt-main">
+    <h2>Kontaktujte nás</h2>
+      <div class="">
+      </div>
+      <div>
+        <div class="">
+          <a href="tel:+420 606 589 786">
+            <div class="kontakt-icon icon-phone"></div>
+            +420 606 589 786
+          </a>
+          <a href="mailto:info@flashtones.cz">
+            <div class="kontakt-icon icon-mail"></div>
+            info@flashtones.cz
+          </a>
+        </div>
+        </div>
+      <h2>Fakturační údaje</h2>
+      <div class="">
+        <div class="">
+          <h3>Flashtones, s.r.o.</h3>
+          <p>Vrázova 1059/8, 150 00, Praha 5
+            <br>
+            IČO: 04275764
+            <br>
+            DIČ: CZ04275764</p>
+        </div>
+      </div>
+      <button></button>
+    </div>
+    """
+  end
   def main(assigns) do
 
     ~H"""
     <style>
       .kontakt-main{
         width: 100%;
-        padding: 30px;
+        padding: 0 0 30px 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -210,7 +327,7 @@ defmodule Kontakt do
     }
 
     </style>
-    <div class="kontakt-heading"><p>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?</p></div>
+    <div class="kontakt-heading"><h3>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?</h3><br><h4>NAPIŠTE NÁM</h4></div>
     <br>
     <div class="kontakt-form">
     <form action="#">

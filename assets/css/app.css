@@ -125,7 +125,7 @@ h3{
 }
 h4{
   font-family: Barlow;
-  font-size: 1.5625rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.1875rem; /* 140% */
@@ -205,9 +205,9 @@ br{
 
 @media (orientation: portrait) {
   h1{
-    color: var(--White, #FFF);
+    margin: 0;
     font-family: Barlow;
-    font-size: 25px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px; /* 140% */
@@ -290,6 +290,9 @@ br{
   @media (orientation: portrait){
     .map-container{
       height: 80vh;
+    }
+    .vylet-item{
+      width: 100%;
     }
   }
 .center-content{
@@ -464,8 +467,16 @@ br{
 }
   li::marker {
   content:"•  ";
-  color: rgb(63, 98, 216);
-  background: rgb(63, 98, 216);
+  color: var(--deti-link);
+  background: var(--deti-link);
+  width: 5px;
+  height: 5px;
+  font-size: 25px;
+}
+  .program li::marker {
+  content:"•  ";
+  color: var(--ft-link);
+  background: var(--ft-link);
   width: 5px;
   height: 5px;
   font-size: 25px;
@@ -718,8 +729,13 @@ form:hover{
 @media (orientation:portrait){
   .zustanme{
     flex-direction: column;
-    width: fit-content;
+    align-items: center;
+    width: 100%;
     margin: 0;
+  }
+  .zustanme-text{
+    margin: 0;
+    padding: 0;
   }
   .zustanme-text{
   width: 100%;
@@ -900,7 +916,7 @@ form:hover{
   width: min-content;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 30px auto 60px auto;
+  margin: 30px auto 30px auto;
   background: rgba(2, 3, 3, 0.1);
   transition: all 0.5s ease;
   border-radius: 25px;
@@ -1075,14 +1091,14 @@ form:hover{
   .detail-cta{
   position: fixed;
   right: 30px;
-  top: calc(100vh - 90px);
+  top: calc(100vh - 100px);
   border-top: 5px solid #486EFF ;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.698);
   filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));
   display: flex;
   flex-direction: column;
   width: calc(100% - 60px);
-  padding: 30px;
+  padding: 15px;
   transition: all 0.5s ease-in;
 }
   .detail-cta:hover{
@@ -1116,7 +1132,7 @@ form:hover{
 }
 .general > div:hover{
   border-radius: 20px;
-  transform: scale(1.05);
+  transform: scale(1.02);
 
 }
 .projekt{

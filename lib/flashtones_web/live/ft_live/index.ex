@@ -40,8 +40,7 @@ defmodule FlashtonesWeb.IndexLive do
       <MenuMobile.menuFtMobile />
       <MenuPc.menuFtPc />
       <Hero.ftHero />
-      <!--<Instagram.feed />-->
-      <!--<Aktuality.aktuality />-->
+      <Instagram.flashtones />
       <Kdo.ft />
       <Rekli.rekliVylety />
       <Zustanme.zustanme />

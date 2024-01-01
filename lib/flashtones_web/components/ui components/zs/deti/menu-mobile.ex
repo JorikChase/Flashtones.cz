@@ -263,7 +263,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -405,7 +405,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -540,7 +540,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -673,7 +673,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -806,7 +806,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -939,7 +939,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """
@@ -1072,7 +1072,7 @@ defmodule MenuMobile do
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
         <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/kontakty"> Kontakty </a>
+        <a href="/zs/kontakty"> Kontakty </a>
       </div>
     </div>
     """

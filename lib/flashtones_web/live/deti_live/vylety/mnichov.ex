@@ -53,7 +53,7 @@ defmodule FlashtonesWeb.VyletyMnichovLive do
 
         <Rekli.rekli />
 
-        <Zustanme.plavani />
+        <Zustanme.vylety />
         <Footer.deti />
     """
   end

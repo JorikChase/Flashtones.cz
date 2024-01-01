@@ -53,7 +53,7 @@ defmodule FlashtonesWeb.VyletyTaborLive do
 
         <Rekli.rekli />
 
-        <Zustanme.plavani />
+        <Zustanme.vylety />
         <Footer.deti />
     """
   end

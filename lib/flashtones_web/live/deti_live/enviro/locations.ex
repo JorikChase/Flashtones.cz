@@ -38,7 +38,7 @@ defmodule FlashtonesWeb.LocationsEnviroLive do
     <Nav.nav />
     <MenuMobile.menuEnviroMobile />
     <MenuPc.menuEnviroPc />
-    <HeroSmall.lokality />
+    <HeroSmall.lokalityEnviro />
 
     <style>
       .disappear{

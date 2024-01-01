@@ -42,6 +42,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
       <Hero.enviroHero />
       <!--<Aktuality.aktuality />-->
       <SectionToggle.enviro />
+      <Instagram.deti />
       <Kdo.enviro />
       <Rekli.rekliEnviro />
       <Zustanme.enviro />

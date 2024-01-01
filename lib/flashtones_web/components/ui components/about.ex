@@ -70,7 +70,6 @@ defmodule AboutComp do
         <IconRow.iconRowPartneri />
       """
   end
-  @spec lide(any()) :: Phoenix.LiveView.Rendered.t()
   def lide(assigns) do
     ~H"""
         <style>
@@ -264,22 +263,6 @@ defmodule AboutComp do
               tooltip.remove();
             }
           }
-          document.addEventListener('DOMContentLoaded', function () {
-                // Call showSection with section number 1 to select the first section by default
-                showSection(1);
-                const navToggle = document.getElementById('navToggle');
-                const navigation = document.getElementById('navigation');
-                navToggle.addEventListener('click', function () {
-                    // Toggle the active class to change the button content and icon
-                    navToggle.classList.toggle('active');
-                    // Toggle the visibility of the navigation component
-                    if (navigation.style.transform === 'translateX(100%)') {
-                        navigation.style.transform = 'translateX(0)';
-                    } else {
-                        navigation.style.transform = 'translateX(100%)';
-                    }
-                });
-            });
         </script>
       """
   end

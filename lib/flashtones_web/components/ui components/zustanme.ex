@@ -12,7 +12,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -42,7 +42,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -72,7 +72,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -102,7 +102,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -132,7 +132,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -162,7 +162,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -192,7 +192,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>
@@ -222,7 +222,7 @@ defmodule Zustanme do
         ZŮSTAŇME V KONTAKTU
         </h3>
         <p>
-        Mauris tempus libero sed ex luctus faucibus. Mauris lacinia, augue at commodo aliquam, ipsum augue rutrum velit, sed sagittis lorem ligula nec justo.
+        Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
         <form>
         <small><b>

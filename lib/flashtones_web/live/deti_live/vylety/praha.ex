@@ -53,7 +53,7 @@ defmodule FlashtonesWeb.VyletyPrahaLive do
 
         <Rekli.rekliVylety />
 
-        <Zustanme.plavani />
+        <Zustanme.vylety />
         <Footer.deti />
     """
   end

@@ -13,12 +13,14 @@ defmodule FlashtonesWeb.DetiReference do
     .reference{
       display: flex;
       flex-direction: row;
+      align-items: center;
     }
     .reference > ul{
       width: 50%;
     }
-    </style>
-    <style>
+    .reference li:hover{
+      transform: scale(1.02);
+    }
     main{
       background: #dbf6f9;
     }
@@ -48,6 +50,14 @@ defmodule FlashtonesWeb.DetiReference do
             0%{background-position:0% 23%}
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
+        }
+        @media(orientation: portrait){
+          .reference{
+            flex-direction: column;
+          }
+          .reference ul{
+            width: 100%;
+          }
         }
       </style>
       <Nav.nav />

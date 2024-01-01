@@ -72,7 +72,7 @@ defmodule FlashtonesWeb.KontaktyLive do
             <MenuMobile.menuFtMobile />
             <MenuPc.menuFtPc />
             <HeroSmall.contacts />
-            <SectionToggle.kontakt/>
+            <SectionToggle.kontaktFt/>
 
             <Footer.footer />
       """

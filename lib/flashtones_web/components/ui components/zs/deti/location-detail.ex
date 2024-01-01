@@ -22,6 +22,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HOTEL AGRI</h3>
         <p>
         Hotel Agri se nachází v Soběšicích a nabízí krásnou zahradu, lounge, terasu a
         restauraci. Tento 3hvězdičkový hotel má krytý bazén o rozměrech 11 x 6 m, dětský
@@ -67,6 +68,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HOTEL ASTRA</h3>
         <p>
         Hotel Astra je situovaný svou polohou 15 minut od letiště
         Václava Havla, ihned vedle autobusové zastávky a s parkováním
@@ -132,6 +134,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>SPORTCENTRUM BRANDÝS</h3>
         <p>
         Sportcentrum Brandýs se nachází v klidné části města Brandýs nad
         Labem. Místo je skvěle dostupné jak z Prahy, tak z okolních obcí.
@@ -194,6 +197,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HOTEL BYSTRÉ</h3>
         <p>
         Hotel Bystré má unikátní polohu v srdci Vysočiny. Jedná se o
         rodinný hotel vybudovaný z komplexu historických budov, který
@@ -261,6 +265,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>ENERGETIK</h3>
         <p>
         Poloha hotelu je zcela jedinečná. Hotel Energetik leží
         v Krkonošském národním parku. Boční výhled na Sněžku a Studniční
@@ -289,6 +294,7 @@ defmodule LocationDetail do
         v korunách stromů.
         </p>
         <img src="/images/hotely/energetik/energetik.jpg">
+
         <h3>ENERGETIK A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce hotelu Energetik a ZŠ PRO DĚTI funguje od roku 2019.
@@ -336,10 +342,12 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>FONTÁNA</h3>
         <p>Fontána Blue Marine Resort se nachází v malebné oblasti na břehu Lipna 750 m nad mořem. Místo je zárukou čistého horského vzduchu. Hotel je tvořen centrální budovou a několika ubytovacími budovami čítajícími 94 pokojů a 6 apartmánů s balkónem nebo terasou.
         V těsné blízkosti je písečná pláž, sportoviště, cyklotrajekt a marina. K dispozici je vnitřní bazén se sluneční terasou, whirpool, finská sauna, infra sauny, tělocvična na volejbal i basketbal, dětská herna a venkovní hřiště s trampolínami.
         Nejbližší místo s částečnou občanskou vybaveností je město Frymburk (8 km od hotelu – cca 10 min autem).</p>
         <img src="/images/hotely/fontana/fontana.jpeg">
+
         <h3>FONTÁNA A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Fontána vznikla v roce 2020. Od tohoto roku zde probíhají kurzy ZŠ Enviro pro pátou až sedmou třídu a kurzy ZŠ Plavání. Výuka plavání při kurzech ZŠ Plavání probíhá ve 12 m dlouhém vyhřívaném bazénu uvnitř objektu hlavní budovy. Hotel Fontána je vhodný pro výuku plavání dětí od předškolního věku až po pátou třídu ZŠ. Bazén je z didaktického pohledu velmi příjemný a kompaktní. Nevzbuzuje v dětech stres a zároveň je dostatečně dlouhý pro výuku dvou skupin dětí ve stejném čase, tedy 20 až 24 dětí.
@@ -370,6 +378,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HOTEL DUO</h3>
         <p>
         Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy, a svým
         hostům nabízí venkovní bazén a lázně s krytým bazénem, saunou, vířivkou,
@@ -382,6 +391,7 @@ defmodule LocationDetail do
         pod Radhoštěm a 500 metrů od autobusové zastávky.
         </p>
         <img src="/images/hotely/hotel-duo/hotel-duo.jpg">
+
         <h3>HOTEL DUO A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Duo funguje od podzimu roku 2023. Je nám potěšením mít
@@ -419,6 +429,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>JELENOVSKÁ</h3>
         <p>
         Hotel Jelenovská se začal stavět počátkem roku 1984 a v průběhu
         tří let byl téměř dokončen. Původní verze hotelu vypadala odlišně
@@ -431,6 +442,7 @@ defmodule LocationDetail do
         bazénů, rekonstrukce wellness, pokojů a společenských prostor).
         </p>
         <img src="/images/hotely/jelenovska/jelenovska.jpg">
+
         <h3>JELENOVSKÁ A ZŠ PRO DĚTI</h3>
         <p>
         S hotelem spolupracuje organizace ZŠ PRO DĚTI od roku 2021.
@@ -475,11 +487,13 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>RS LITES</h3>
         <p>
         Středisko Lites leží na hranici Českého ráje a Geoparku
         Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště.
         </p>
         <img src="/images/hotely/lites/lites.jpg">
+
         <h3>RS LITES A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s agenturou Haul a jejím majitelem Ing. Hanušem
@@ -525,12 +539,14 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>RS LUBENEC</h3>
         <p>
         Středisko se nachází na okraji lesa, na polosamotě, nad
         obcí Lubenec (cca 35 km od Karlových Varů a 15 km od
         Podbořan.)
         </p>
         <img src="/images/hotely/lubenec/lubenec.jpg">
+
         <h3>RS LUBENEC A ZŠ PRO DĚTI</h3>
         <p>
         Tento areál je naším partnerem od roku 2023. Je ideální pro
@@ -562,6 +578,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>LUGSTEINHOF</h3>
         <p>
           Hotel Lugsteinhof se pyšně tyčí v malebné oblasti Saska, na německé straně
           Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu.
@@ -569,6 +586,7 @@ defmodule LocationDetail do
           outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
         </p>
         <img src="/images/hotely/lugsteinhof/lugsteinhof.jpg">
+
         <h3>LUGSTEINHOF A ZŠ PRO DĚTI</h3>
         <p>
         Do hotelu jezdí naše školní skupiny od roku 2023. Hotel si okamžitě získal pozornost
@@ -612,10 +630,12 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>RS MÁJ</h3>
         <p>
         Středisko se nachází v prostředí chráněné oblasti u městečka Plasy, 25 km severně od Plzně.
         </p>
         <img src="/images/hotely/maj/maj.webp">
+
         <h3>RS MÁJ A ZŠ PRO DĚTI</h3>
         <p>
         Jedná se o objekt, který je naším partnerem od roku 2023. Je
@@ -648,10 +668,12 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>MULDA</h3>
         <p>
         Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Je dobrým výchozím bodem pro lyžování, pěší turistiku i cykloturistiku, včetně méně náročných výletů do blízkého okolí.
         </p>
         <img src="/images/hotely/na-mulde/na-mulde.jpg">
+
         <h3>MULDA A ZŠ PRO DĚTI</h3>
         <p>
         Chata je vhodná pro rekreace jednotlivců i větších skupin, pobyty škol a školek v přírodě, kurzy, školení, soustředění a další akce. Maximální kapacita chaty je 44 osob. V přízemí chaty je situována stylová jídelna s kapacitou 44 osob a menší společenská místnost s barem, krbem a televizí. K pobytům nabízíme také stravování formou polopenze, plné penze, pouze snídaní nebo pouze večeří. V zimním obodobí (od prosince do konce března) je chata plně obsazena kurzovní výukou fakulty. Nabízíme silvestrovské pobyty pro veřejnost.
@@ -681,11 +703,13 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>RS HŮRKY</h3>
         <p>
         Rekreační středisko Palkovické Hůrky se nachází 12 km
         jižně od Frýdku – Místku, v katastru obce Palkovice.
         </p>
         <img src="/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg">
+
         <h3>RS HŮRKY A ZŠ PRO DĚTI</h3>
         <p>
         Jedná se o objekt zasazený do panenské přírody Moravskoslezských
@@ -720,6 +744,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>PLEŠIVKA</h3>
         <p>
         Chata Plešivka je přes 300 let stará, zrekonstruovaná nádherná
         krušnohorská chalupa v obci Abertamy v nadmořské výšce okolo 900
@@ -730,6 +755,7 @@ defmodule LocationDetail do
         louka a les.
         </p>
         <img src="/images/hotely/plesivka/plesivka.jpeg">
+
         <h3>PLEŠIVKA A ZŠ PRO DĚTI</h3>
         <p>
         Krušné hory, a tedy i chata Plešivka, jsou pro nás úplnou
@@ -767,6 +793,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HORNÍ PRAMEN</h3>
         <p>
         Hotel Horní Pramen se nachází na kouzelném místě u lesa s dechberoucím
         výhledem na hory a údolí Špindlerova Mlýna. Místo vyniká fantastickou
@@ -775,6 +802,7 @@ defmodule LocationDetail do
         hřiště na petanque.
         </p>
         <img src="/images/hotely/horni-pramen/horni-pramen.jpg">
+
         <h3>HORNÍ PRAMEN A ZŠ PRO DĚTI</h3>
         <p>
         ZŠ PRO DĚTI využívá služeb hotelu Horní Pramen od roku 2022 zejména
@@ -812,6 +840,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>RADOST</h3>
         <p>
         Horská chata RADOST je rekreační areál uprostřed čisté přírody
         nedaleko lyžařského střediska Deštné v Orlických horách.
@@ -821,6 +850,7 @@ defmodule LocationDetail do
         dechberoucím vyhlídkám.
         </p>
         <img src="/images/hotely/radost/radost.jpeg">
+
         <h3>RADOST A ZŠ PRO DĚTI</h3>
         <p>
         ZŠ PRO DĚTI v objektu začalo pořádat své kurzy v roce 2021. Od
@@ -860,6 +890,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>SUŠICE</h3>
         <p>
         Historie budovy s číslem popisným 28 sahá až do přelomu 16. a
         17. století. V minulosti měla budova mnoho názvů: Taraškovský
@@ -871,6 +902,7 @@ defmodule LocationDetail do
         město Sušice. Budova se nachází v chráněné památkové zóně.
         </p>
         <img src="/images/hotely/rousarka/rousarka.jpg">
+
         <h3>SUŠICE A ZŠ PRO DĚTI</h3>
         <p>
         Partnerství s městem Sušice započalo v roce 2018 v rámci kurzů
@@ -920,6 +952,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>HOTEL TETŘEVÍ BOUDY</h3>
         <p>
         Hotel leží v horském historickém městysi Černý Důl přímo v
         chráněné oblasti pohoří Krkonoše, které disponuje sportovním
@@ -950,6 +983,7 @@ defmodule LocationDetail do
         grilování, možnost krmení ovcí a koz.
         </p>
         <img src="/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg">
+
         <h3>HOTEL TETŘEVÍ BOUDY A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Tetřeví boudy započíná v roce 2023 a
@@ -996,6 +1030,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>U KURTU</h3>
         <p>
         Penzion U Kurtu se nachází v obci Strážné, 5 km od Vrchlabí, v srdci Krkonoš, 200 ,
         od centrálního parkoviště, v horní části 800 metrové sjezdovky Kotva s nočním
@@ -1013,6 +1048,7 @@ defmodule LocationDetail do
         Strážné je dětské hřiště s prolézačkami a houpačkou.
         </p>
         <img src="/images/hotely/u-kurtu/u-kurtu.jpeg">
+
         <h3>U KURTU A ZŠ PRO DĚTI</h3>
         <p>
         Do penzionu jezdí naše školní skupiny od roku 2021 a penzion si všechny školy
@@ -1048,6 +1084,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>U MEDVĚDA</h3>
         <p>Chata U Medvěda se nachází v obci Kořenov v Jizerských horách.
           Chata prošla v roce 2021 rekonstrukcí a nabízí ubytování až pro
           40 osob. Je vybavena sociálním zařízením u každé z osmi ložnic,
@@ -1055,6 +1092,7 @@ defmodule LocationDetail do
           trávení volného času.
         </p>
         <img src="/images/hotely/u-medveda/u-medveda.jpeg">
+
         <h3>U MEDVĚDA A ZŠ PRO DĚTI</h3>
         <p>
           V Chatě U Medvěda jsme začali pořádat kurzy ZŠ Lyžování ihned
@@ -1097,12 +1135,14 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>SPORTHOTEL VLAŠIM</h3>
         <p>
         Budova hotelu se nachází v samotném srdci města Vlašimi.
         Návštěvníkům nabízí ubytování, stravování a služby spojené
         s regenerací a sportovním vyžitím.
         </p>
         <img src="/images/hotely/vlasim/vlasim.jpeg">
+
         <h3>SPORTHOTEL VLAŠIM A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce se Sporthotelem Vlašim započíná v roce 2023 a pořádáme
@@ -1146,6 +1186,7 @@ defmodule LocationDetail do
           }
         </style>
         <div class="location-course-wrap top">
+        <h3>PENZION NA VYSOČINĚ</h3>
         <p>
         Penzion na Vysočině se nachází v Hartmanicích, v klidném
         prostředí a krásné přírodě na pomezí Vysočiny, Pardubického a
@@ -1166,6 +1207,7 @@ defmodule LocationDetail do
         lyžařské sjezdovky a běžkařské trasy, které se nachází nedaleko.
         </p>
         <img src="/images/hotely/vysocina/vysocina.jpeg">
+
         <h3>PENZION NA VYSOČINĚ A ZŠ PRO DĚTI</h3>
         <p>
         zde kurzy ZŠ Plavání i ZŠ Enviro. Penzion vyniká svou rodinnou

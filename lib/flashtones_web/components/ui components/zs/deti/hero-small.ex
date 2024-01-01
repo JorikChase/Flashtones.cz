@@ -498,7 +498,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/produkty/flashtones-na-miru.jpeg);
      }
     </style>
     """
@@ -546,7 +546,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/ft/contact-hero.jpeg);
      }
     </style>
     """
@@ -570,7 +570,43 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/ft/head-small.png);
+      background-image: url(/images/hotely/lokality-enviro.jpg);
+     }
+    </style>
+    """
+  end
+  def lokalityEnviro(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lokality-enviro.jpg);
+     }
+    </style>
+    """
+  end
+  def lokalityPlavani(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lokality-plavani.jpg);
+     }
+    </style>
+    """
+  end
+  def lokalityLyzovani(assigns) do
+    ~H"""
+    <div class="hero-small">
+    </div>
+
+    <style>
+     .hero-small{
+      background-image: url(/images/hotely/lokality-lyzovani.jpg);
      }
     </style>
     """

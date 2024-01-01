@@ -15,6 +15,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
       <Hero.vyletyHero />
       <SectionToggle.vylety />
       <!--<Aktuality.aktuality />-->
+        <Instagram.deti />
       <Kdo.vylety />
       <Rekli.rekliVylety />
       <Zustanme.vylety />

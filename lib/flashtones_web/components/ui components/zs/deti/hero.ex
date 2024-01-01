@@ -11,6 +11,7 @@ defmodule Hero do
       </div>
       <div class="hero-media"></div>
     </div>
+    <span id="course-marker"></span>
 
     <style>
 
@@ -19,7 +20,7 @@ defmodule Hero do
       document.addEventListener("DOMContentLoaded", function () {
         const mediaItems = [
             { type: 'video', src: '/images/ft/tobogan.mp4', heading: 'S námi je to jízda!', button: 'O nás', href: "/about#about" },
-            { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Tady', href: "#zustanme"  },
+            { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Tady', href: "#course-marker"  },
             { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Podívejte se', href: "/studio"  },
             { type: 'image', src: '/images/ft/originalni-produkty.jpg', heading: 'Originální produkty vyrobené v ČR', button: 'Prohlédnout si', href: "/produkty"  }
         ];
@@ -90,12 +91,23 @@ defmodule Hero do
           #hero-heading{
             color: white;
           }
-
+          .hero-media{
+            transform: scaleY(-1);
+            background-position: center bottom;
+            filter: saturate(0.9);
+            filter: brightness(0.9);
+            filter: contrast(0.7);
+          }
+          @media(orientation: portrait){
+            .hero-media{
+              background-position: center!important;
+            }
+          }
           </style>
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce pro základní školy i pro veřejnost.', button: 'Naše aktivity', href: "#course-marker" },
+                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce pro základní školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
               ];
               let currentSlide = 0;
 
@@ -307,7 +319,11 @@ defmodule Hero do
           }
           @media(orientation: portrait){
           .hero{
-            height: auto;
+          }
+          @media(orientation: portrait){
+            .hero-media{
+              background-size: cover;
+            }
           }
           }
 
@@ -383,7 +399,7 @@ defmodule Hero do
 
           <style>
           #hero-heading{
-            color: rgb(0,158,226);
+            color: #0853b6;
           }
           .hero-media{
             background-position: bottom right;
@@ -540,6 +556,11 @@ defmodule Hero do
           .hero-media{
             background-position: 0% 0%;
             background-size: 110%;
+          }
+          @media(orientation: portrait){
+            .hero-media{
+              background-size: cover;
+            }
           }
 
           </style>

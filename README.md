@@ -500,42 +500,67 @@ ux:
 =============================================================================================
 Počítačová verze 
 
-- [ ] Vyměnit úvodní fotky u lokalit 
-- [x] Instagram 
-- [x] Kontaktní formulář 
-- [x] Ke kontaktům přidat čísla a maily na Čechy a Morava 
-- [x] Odlišit barevně “nabidka našich kurzů a co se znáš děti naučí?”
-- [x] Naše aktivity - úvod 
-- [x] Doplnit fotku u výletu Mladá Boleslav-nacita se pomalu ale je tam-optimalizovat
-- [x] Odkaz na facebook (přesměrovat na ZŠ PRO DĚTI)
-- [x] Instruktoři - když si na ně naje’deš chybí jejich info 
-- [x] Lokality - špatné barvy ikon v FAG - změnit na zelenou “zs pro děti” - 
-- [x] Víkendové příměstské tábory enviro - špatné barvy uvozovek 
-- [x] Odebrat rámeček pod “zustanme v kontaktu”
+- [x] Názvy lokality - 2
+- [x] Změna barvy pozadí  - lokality Zs plavani - 1
+- [x] Enviro kurzy - PDF brozura - 0.5
+- [x] Maybee změnit úvodní fotku zs pro děti kvůli čitelnosti - 0.5
+- [x] Výlety - vymazat PDF brozura 
+- [x] Lokality - ikony změnit barvu - 1
+- [x] Vyměnit úvodní fotky u lokalit - 1
+- [x] Nahrát jiné faq na příměstské tábory - 1
+- [x] Instagram  - 5
+- [x] Toggle - výlety - nechat jen environmentalni a poznávací bez “výlety” 
+- [x] Kontaktní formulář - 2
+- [x] Ke kontaktům přidat čísla a maily na Čechy a Morava - 1
+- [x] Odlišit barevně “nabidka našich kurzů a co se znáš děti naučí?” - 0.5
+- [x] Naše aktivity - úvod - 0.5
+- [x] Doplnit fotku u výletu Mladá Boleslav-nacita se pomalu ale je tam-optimalizovat -0.5
+- [x] Odkaz na facebook (přesměrovat na ZŠ PRO DĚTI) - 0.5
+- [x] Instruktoři - když si na ně naje’deš chybí jejich info - 1
+- [x] Lokality - špatné barvy ikon v FAG - změnit na zelenou “zs pro děti” - 2
+- [x] Víkendové příměstské tábory enviro - špatné barvy uvozovek - 0.5
+- [x] Odebrat rámeček pod “zustanme v kontaktu” - 0.5
 - [x] Vyměnit fotku u primestskeho školního kurzu (Brandýs nad Labem) je na disku 
-- [x] Plavecké kurzy pro veřejnost - špatné barvy ikon “telefon a e-mail”
-- [x] Patička (proházené nadpisy a popisy)
+- [x] Plavecké kurzy pro veřejnost - špatné barvy ikon “telefon a e-mail” - 0.5
+- [x] Patička (proházené nadpisy a popisy) - 3
 - [x] Doplnit počet dětí “našimi kurzy projde přes 8000 děti ročně
 🫣
 (Predate zsprodeti)
-- [x] aktualita|blog
+- [x] aktualita|blog - 2
 - [x] figma datum
-- [x] Stejne vysoké tedy grid
-- [x] Pod sebe obrazek a text
+- [x] Stejne vysoké tedy grid - 1
+- [x] Pod sebe obrazek a text - 0.5
 - [x] Bold text
-- [x] Odendat ramecky
+- [x] Odendat ramecky - 0.5
 
 Web - flashtones
-- [x] Dole patička - CO NÁS BAVÍ
+- [x] Dole patička - CO NÁS BAVÍ - 3
                                - ikony soc. sítě
                                - popisky ZŠ pro děti 
                                - studio zkrátit, Dobrilo -            zkrátit 
-- [x] Plachta flashtones - předělat 
+- [x] dat odkazy na item v shop rovnou, - 1
+- [x] Instagram - 1
+- [x] Jiné kontakty než na zs pro děti info@flashtones.cz - 0.5
+- [x] Plachta bug v o nas - 1
+- [x] Paticka - chybí soc. Sítě - 1
+- [x] Paticka - chybí nadpis či nás baví
+- [x] Studio upravit vyjede text on hover, real toggle - 1
+- [x] Produkty upravit - toggle gone, - 1
+- [x] seradit spravne
+- [x] Plachta flashtones - předělat - 1
 - [x] Cookies - nejsou potřeba, to dela elixir pasivně ze se nemusí schraňovat tato data
+- [x] item post aktuality - 1
 
 Mobilní verze 
 
-- [ ] Nadpisy detailu lokalit
-- [x] V kurzech jsou lokality na mobilu pojebane vysky itemu
+- [x] Nadpisy detailu lokalit - 1
+- [x] V kurzech jsou lokality na mobilu pojebane vysky itemu - 1
+- [x] responsive safari - 1
+- [x] responsive chrome - 1
+- [x] responsive edge - 1
+- [x] responsive small display - 1
+- [x] responsive ultrawide display - 1
+
+== 47 hodin
 email = MailerProject.UserEmail.welcome(%{name: "14", email: "info@zsplavani.cz"})
 MailerProject.Mailer.deliver(email)

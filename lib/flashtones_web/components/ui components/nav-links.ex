@@ -7,12 +7,13 @@ defmodule Navlinks do
       .plachta-links {
         display: flex;
         flex-direction: row;
-        align-items: space-between;
+        justify-content: space-between;
+        align-items: flex-start;
         gap: 30px;
         color: white;
       }
       .plachta-links p{
-        color: var(--Gray-3, #828282);
+        color: rgb(200, 200, 200);
         font-family: Barlow;
         font-size: 16px;
         font-style: normal;
@@ -22,9 +23,9 @@ defmodule Navlinks do
       .plachta-column {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 33%;
         gap: 15px;
-        justify-content: space-between;
+        justify-content: flex-start;
       }
       .plachta-link-item {
         display: flex;
@@ -38,6 +39,7 @@ defmodule Navlinks do
       }
       .plachta-link-item-heading h3{
         margin: 0;
+        padding: 0;
       }
       .plachta-link-line {
         display: flex;
@@ -78,60 +80,59 @@ defmodule Navlinks do
       <div class="plachta-column">
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
-            <h3>pro děti</h3>
-            <img src="/images/icon/arrow right.svg" />
+            <h3 class="deti-link">pro děti</h3>
+            <img src="/images/icon/arrow-right-deti.svg" />
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
         <a href="/zs/plavani" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick plavani-link">Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-plavani.svg"
         /></a>
         <a href="/zs/enviro" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Enviro:</span>Školy v přírodě<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick enviro-link">Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-enviro.svg"
         /></a>
         <a href="/zs/lyzovani" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick lyzovani-link">Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-lyzovani.svg"
         /></a>
         <a href="/zs/doma" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Doma:</span>Online vzdělávání<img
-            src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick doma-link">Doma:</span>Online vzdělávání<img
+            src="/images/icon/arrow-right-doma.svg"
         /></a>
         <a href="/zs/vylety" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Výlety:</span>Jednodenní a vícedenní výlety<img
-            src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick vylety-link">Výlety:</span>Jednodenní a vícedenní výlety<img
+            src="/images/icon/arrow-right-vylety.svg"
         /></a>
         <a href="/zs/academy" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Academy:</span>Školící centrum<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick academy-link">Academy:</span>Školící centrum<img src="/images/icon/arrow-right-academy.svg"
         /></a>
       </div>
       <div class="plachta-column">
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
             <h3>oblečení</h3>
-            <img src="/images/icon/arrow right.svg" />
+            <img src="/images/icon/arrow-right-white.svg" />
           </div>
           <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
         </div>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Šátky:</span>Designové šátky i
-          ubrusy<img src="/images/icon/arrow right.svg"
+          ubrusy<img src="/images/icon/arrow-right-white.svg"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky a
-          náušnice<img src="/images/icon/arrow right.svg"
+          ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky...<img src="/images/icon/arrow-right-white.svg"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
-            src="/images/icon/arrow right.svg"
+            src="/images/icon/arrow-right-white.svg"
         /></a>
       </div>
       <div class="plachta-column">
@@ -139,7 +140,7 @@ defmodule Navlinks do
           <a href="/studio">
           <div class="plachta-link-item-heading">
             <h3>studio</h3>
-            <img src="/images/icon/arrow right.svg" />
+            <img src="/images/icon/arrow-right-white.svg" />
           </div>
           <p>
             Flashtones Studio je místem smysluplného setkávání. Klademe si za
@@ -152,9 +153,9 @@ defmodule Navlinks do
           <a href="###">
           <div class="plachta-link-item-heading">
             <h3>dobrilo</h3>
-            <img src="/images/icon/arrow right.svg" />
+            <img src="/images/icon/arrow-right-white.svg" />
           </div>
-          <p>Online doučování a vzdělávání pomocí vlastního videostreamu</p>
+          <p>Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</p>
           </a>
         </div>
       </div>
@@ -178,7 +179,7 @@ defmodule Navlinks do
       .footerLinks{
         height: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
         gap: 30px;
       }
@@ -272,85 +273,96 @@ defmodule Navlinks do
         <a target="_blank" href="https://www.youtube.com/@flashtones4130" style="background-image: url(/images/icon/yt.svg)"></a>
       </div>
     </div>
-    <div class="footerLinks">
-    <div class="footerLinksColumn">
-        <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link" href="/produkty">
-            <h3>PRODUKTY</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Podívejte se na naše pestrobarevné oblečení a doplňky </span>
-        </div>
-        <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link" href="/studio">
-            <h3>STUDIO</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Prozkoumejte naše nové studio</span>
-        </div>
-        <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link" target="_blank" href="http://dobrilo.cz/">
-            <h3>DOBRILO</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Naše virtuální škola a městečko</span>
-        </div>
-
-
-      </div>
-        <div class="footerLinksColumn">
-        <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link" href="/zs/plavani">
-            <h3>Plavání</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Největší plavecká škola v ČR</span>
-        </div>
-        <div class="footerLinkItem">
-          <a class="footerLink lyzovani-hover-link" href="/zs/lyzovani">
-            <h3>Lyžování</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
+    <div class="plachta-links">
+      <div class="plachta-column">
+        <div class="plachta-link-item">
+          <div class="plachta-link-item-heading">
+            <h3>pro děti</h3>
+            <img src="/images/icon/arrow-right-white.svg" />
           </div>
-          <div class="footerLinkItem">
-          <a class="footerLink enviro-hover-link" href="/zs/enviro">
-            <h3>Enviro</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
+          <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
+        </div>
+        <a href="/zs/plavani" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/zs/enviro" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/zs/lyzovani" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/zs/doma" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Doma:</span>Online vzdělávání<img
+            src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/zs/vylety" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Výlety:</span>Jednodenní a vícedenní výlety<img
+            src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/zs/academy" class="plachta-link-line"
+          ><span class="plachta-link-thick">ZŠ Academy:</span>Školící centrum<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+      </div>
+      <div class="plachta-column">
+        <div class="plachta-link-item">
+          <div class="plachta-link-item-heading">
+            <h3>oblečení</h3>
+            <img src="/images/icon/arrow-right-white.svg" />
           </div>
+          <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
         </div>
-        <div class="footerLinksColumn">
-        <div class="footerLinkItem">
-          <a class="footerLink vylety-hover-link" href="/zs/vylety">
-            <h3>Výlety</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin">Jednodenní a vícedenní výlety pro školy a veřejnost</span>
-        </div>
-          <div class="footerLinkItem">
-          <a class="footerLink doma-hover-link" href="/zs/doma">
-            <h3>Domácí výuka</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin">Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</span>
-        </div>
-        <div class="footerLinkItem">
-          <a class="footerLink academy-hover-link" href="/zs/academy">
-            <h3>Academy</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
-          </a>
-          <span class="navLink-thin"> Školící centrum</span>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Šátky:</span>Designové šátky i
+          ubrusy<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky a
+          náušnice<img src="/images/icon/arrow-right-white.svg"
+        /></a>
+        <a href="/produkty" class="plachta-link-line"
+          ><span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
+            src="/images/icon/arrow-right-white.svg"
+        /></a>
       </div>
+      <div class="plachta-column">
+        <div class="plachta-link-item">
+          <a href="/studio">
+          <div class="plachta-link-item-heading">
+            <h3>studio</h3>
+            <img src="/images/icon/arrow-right-white.svg" />
+          </div>
+          <p>
+            Flashtones Studio je místem smysluplného setkávání. Klademe si za
+            cíl nabídnout kvalitní, a moderní volnočasové aktivity pro děti,
+            mládež i dospělé.
+          </p>
+          </a>
         </div>
-
+        <div class="plachta-link-item">
+          <a href="###">
+          <div class="plachta-link-item-heading">
+            <h3>dobrilo</h3>
+            <img src="/images/icon/arrow-right-white.svg" />
+          </div>
+          <p>Online doučování a vzdělávání pomocí vlastního videostreamu</p>
+          </a>
+        </div>
       </div>
-      <span class="noBreak copyright">
+    </div>
+    <span class="noBreak copyright">
       Copyright © 2023
       <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
       </span>
-      </div>
+    </div>
     """
   end
   def deti(assigns) do
@@ -467,48 +479,48 @@ defmodule Navlinks do
     <div class="footerLinks">
         <div class="footerLinksColumn">
         <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link" href="/zs/plavani">
+          <a class="footerLink plavani-hover-link plavani-link" href="/zs/plavani">
             <h3>Plavání</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-plavani.svg" />
           </a>
           <span class="navLink-thin"> Největší plavecká škola v ČR</span>
         </div>
           <div class="footerLinkItem">
-          <a class="footerLink vylety-hover-link" href="/zs/vylety">
+          <a class="footerLink vylety-hover-link vylety-link" href="/zs/vylety">
             <h3>Výlety</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
           </a>
           <span class="navLink-thin">Jednodenní a vícedenní výlety pro školy a veřejnost</span>
         </div>
         </div>
         <div class="footerLinksColumn">
           <div class="footerLinkItem">
-          <a class="footerLink lyzovani-hover-link" href="/zs/lyzovani">
+          <a class="footerLink lyzovani-hover-link lyzovani-link" href="/zs/lyzovani">
             <h3>Lyžování</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-lyzovani.svg" />
           </a>
           <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
           </div>
           <div class="footerLinkItem">
-          <a class="footerLink doma-hover-link" href="/zs/doma">
+          <a class="footerLink doma-hover-link doma-link" href="/zs/doma">
             <h3>Domácí výuka</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-doma.svg" />
           </a>
           <span class="navLink-thin">Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</span>
         </div>
         </div>
         <div class="footerLinksColumn">
           <div class="footerLinkItem">
-          <a class="footerLink enviro-hover-link" href="/zs/enviro">
+          <a class="footerLink enviro-hover-link enviro-link" href="/zs/enviro">
             <h3>Enviro</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-enviro.svg" />
           </a>
           <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
           </div>
           <div class="footerLinkItem">
-          <a class="footerLink academy-hover-link" href="/zs/academy">
+          <a class="footerLink academy-hover-link academy-link" href="/zs/academy">
             <h3>Academy</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow right.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-academy.svg" />
           </a>
           <span class="navLink-thin"> Školící centrum</span>
       </div>

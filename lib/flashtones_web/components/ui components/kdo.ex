@@ -552,6 +552,9 @@ defmodule Kdo do
         width: 100%;
         gap: 30px;
       }
+      .kdoPersons h4{
+        text-align: left;
+      }
       .kdoPersons img{
         width: 270px;
 

@@ -10,13 +10,6 @@ defmodule General do
         justify-content: space-evenly;
       }
       @media (orientation: portrait){
-        .general .duo-container{
-            width: 100%;
-            flex-direction: column;
-        }
-        .general .duo-container > h3, ul{
-        width: 100%;
-      }
       }
 
 
@@ -57,52 +50,10 @@ defmodule General do
   def produkty(assigns) do
     ~H"""
       <style>
-      .categories {
-        position: relative;
-        background-color: #33333318;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        text-align: center;
-        border-radius: 45px;
-      }
-
-      .categories ul {
-          list-style: none;
-          display: flex;
-          justify-content: space-between;
-          padding: 5px;
-      }
-
-      .categories li {
-          padding: 10px 20px;
-          cursor: pointer;
-      }
-
-      .categories li.active {
-          background-color: #ffffffe7;
-      }
-
-      .gallery {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          align-items: center;
-      }
-      .category {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          align-items: center;
-          padding: 30px;
-      }
 
       .product {
           width: 300px;
           margin: 10px;
-          padding: 15px;
-          border: 1px solid #ddd;
           transition: transform 0.2s, box-shadow 0.2s;
       }
 
@@ -113,12 +64,16 @@ defmodule General do
       .product a {
           text-decoration: none;
           color: black;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 5px;
       }
 
       .product-image {
+          width: 100%;
           height: 200px;
-          width: 200px;
-          background-size: cover;
+          background-size: 100%;
           background-position: center;
           background-repeat: no-repeat;
           transition: background-size 0.3s;
@@ -137,12 +92,6 @@ defmodule General do
               flex-direction: column;
               align-items: center;
           }
-          .category {
-              flex-direction: column;
-              align-items: center;
-              width: 100%;
-          }
-
           .product {
               width: 90%;
           }
@@ -150,20 +99,7 @@ defmodule General do
 
       </style>
       <div class="produkty">
-      <div class="categories produkty-nav Odsazeni">
-          <ul class="">
-              <li class="active">Ponožky Flashtones</li>
-              <li>Dashiki dámské</li>
-              <li>Dashiki pánské</li>
-              <li>Šátky Flashtones</li>
-              <li>Náramky Flashtones</li>
-              <li>Náhrdelníky Flashtones</li>
-              <li>Náušnice Flashtones</li>
-              <li>Knihy</li>
-          </ul>
-      </div>
       <div class="gallery odsazeni">
-          <div class="category" data-category="Ponožky Flashtones">
               <div class="product">
                   <a href="https://eshop.flashtones.cz/ponozky-made-in-czech/ponozky-made-in-czech-modrotisk/">
                       <div class="product-image" style="background-image: url('/images/produkty/ponozky-modrotisk.jpeg')"></div>
@@ -171,104 +107,96 @@ defmodule General do
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/ponozky/ponozky-made-in-czech/">
                       <div class="product-image" style="background-image: url('/images/produkty/ponozky-cibulak.jpeg')"></div>
                       <h4>Ponožky Cibulák</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/ponozky/ponozky-made-in-czech/">
+                  <a href="https://eshop.flashtones.cz/ponozky/strana-2/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-na-miru.jpeg')"></div>
                       <h4>Flashtones na míru</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/vzory/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-shapes.jpeg')"></div>
                       <h4>Flashtones Shapes</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/flashtones-legends-2/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-legends.jpeg')"></div>
                       <h4>Flashtones „Legends“</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/jednobarevne/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-one.jpeg')"></div>
                       <h4>Flashtones One</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/mysterybox/">
                       <div class="product-image" style="background-image: url('/images/produkty/flashtones-mystery-box.jpeg')"></div>
                       <h4>Flashtones Mysterybox</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Dashiki dámské">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/damske-dashiki/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-damske.jpeg')"></div>
                       <h4>Dashiki dámské šaty</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Dashiki pánské">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/panske-dashiki/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kalhoty.jpeg')"></div>
                       <h4>Dashiki kalhoty pánské</h4>
                   </a>
               </div>
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/panske-dashiki/">
                       <div class="product-image" style="background-image: url('/images/produkty/dashiki-panske-kosile.jpeg')"></div>
                       <h4>Dashiki pánské košile</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Šátky Flashtones">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/satky-flashtones-chitenge/">
                       <div class="product-image" style="background-image: url('/images/produkty/satky.jpeg')"></div>
                       <h4>Šátky</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Náramky Flashtones">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/naramky-flashtones/naramky-flashtones-made-in-czech/">
                       <div class="product-image" style="background-image: url('/images/produkty/naramky.jpeg')"></div>
                       <h4>Náramky</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Náhrdelníky Flashtones">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/nahrdelniky-flashtones/nahrdelniky-flashtones-made-in-czech/">
                       <div class="product-image" style="background-image: url('/images/produkty/nahrdelniky.jpeg')"></div>
                       <h4>Náhrdelníky</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Náušnice Flashtones">
+
               <div class="product">
-                  <a href="https://eshop.flashtones.cz/">
+                  <a href="https://eshop.flashtones.cz/nausnice-flashtones/nausnice-made-in-czech/">
                       <div class="product-image" style="background-image: url('/images/produkty/nausnice.jpeg')"></div>
                       <h4>Náušnice</h4>
                   </a>
               </div>
-          </div>
-          <div class="category" data-category="Knihy">
+
               <div class="product">
                   <a href="https://eshop.flashtones.cz/kniha-ostrov-socci/kniha-ostrov-socci/">
                       <div class="product-image" style="background-image: url('/images/produkty/kniha-socci.jpeg')"></div>
                       <h4>Ostrov Socci</h4>
                   </a>
               </div>
-          </div>
           <!-- Add more categories and products here -->
         </div>
         <script>

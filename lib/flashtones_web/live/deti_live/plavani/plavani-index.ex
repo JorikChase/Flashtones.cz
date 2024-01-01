@@ -43,6 +43,7 @@ defmodule FlashtonesWeb.PlavaniIndexLive do
       <SectionToggle.kurzNavPlavani />
       <IconRow.iconRowPlavani />
       <!--<Aktuality.aktuality />-->
+        <Instagram.deti />
       <Kdo.plavani />
       <Rekli.rekliPlavani />
       <Zustanme.plavani />

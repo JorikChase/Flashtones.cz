@@ -43,6 +43,7 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
       <SectionToggle.kurzNavLyzovani />
       <IconRow.iconRowLyzovani />
       <!--<Aktuality.aktuality />-->
+        <Instagram.deti />
       <Kdo.lyzovani />
       <Rekli.rekliLyzovani />
       <Zustanme.lyzovani />
