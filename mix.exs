@@ -19,7 +19,7 @@ defmodule Flashtones.MixProject do
   def application do
     [
       mod: {Flashtones.Application, []},
-      extra_applications: [:logger, :runtime_tools, :swoosh]
+      extra_applications: [:logger, :runtime_tools]
     ]
   end
 
@@ -49,7 +49,6 @@ defmodule Flashtones.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:swoosh, "~> 1.6"},
       {:gen_smtp, "~> 1.0"},
       {:hackney, "~> 1.17"}
     ]
