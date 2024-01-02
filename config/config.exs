@@ -28,19 +28,19 @@ config :flashtones, FlashtonesWeb.Endpoint,
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
 
-config :api_client, false
-
-#config :flashtones, Flashtones.Mailer,
-#  adapter: Swoosh.Adapters.SMTP,
-#  relay: "wes1-smtp.wedos.net",
-#  username: System.get_env("SMTP_USERNAME"),
-#  password: System.get_env("SMTP_PASSWORD"),
-#  ssl: true,
-#  tls: :always,
-#  auth: :always,
-#  port: 1025,
-#  retries: 2,
-#  no_mx_lookups: false
+# config :swoosh, :api_client, false
+#
+# config :flashtones, Flashtones.Mailer,
+#   adapter: Swoosh.Adapters.SMTP,
+#   relay: "wes1-smtp.wedos.net",
+#   username: System.get_env("SMTP_USERNAME"),
+#   password: System.get_env("SMTP_PASSWORD"),
+#   ssl: true,
+#   tls: :always,
+#   auth: :always,
+#   port: 1025,
+#   retries: 2,
+#   no_mx_lookups: false
 
 # Configure esbuild (the version is required)
 config :esbuild,
