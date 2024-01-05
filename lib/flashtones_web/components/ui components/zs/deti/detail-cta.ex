@@ -214,7 +214,7 @@ defmodule DetailCta do
       <br>
       <a class="plavani-link" href="tel:+420 606 589 786"><img src="/images/icon/call.svg">+420 606 589 786</a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz"><img src="/images/icon/email.svg">petra@zsplavani.cz</a>
-      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>
+      <!--<a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
 
     <script>
@@ -413,7 +413,7 @@ defmodule DetailCta do
       <br>
       <a class="enviro-link" href="tel:+420 606 589 786"><img src="/images/icon/call-enviro.svg">+420 606 589 786</a>
       <a class="enviro-link" href="mailto:info@zsprodeti.cz"><img src="/images/icon/email-enviro.svg">info@zsprodeti.cz</a>
-      <a class="enviro-link" target="_blank" href="/images/pdf/enviro.pdf"><img src="/images/icon/download-enviro.svg">PDF brožura</a>
+      <a class="enviro-link" target="_blank" href="/images/pdf/enviro-ss.pdf"><img src="/images/icon/download-enviro.svg">PDF brožura</a>
     </div>
 
     <script>

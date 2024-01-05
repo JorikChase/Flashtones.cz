@@ -63,8 +63,7 @@ defmodule Kdo do
           <h3>KDO JSME</h3>
           <div>
           <p>
-            Jsme mladá společnost, která si klade za cíl přinést do vzdělávacího systému svěží vítr. Chceme pomoci tam, kde jsme jako externí subjekt působící mimo MŠMT schopni a zároveň tam, kde si myslíme, že má systém největší mezery.
-            Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
+          Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!
           </p>
           <div class="button-row">
             <a class="inline-button" style="color: var(--ft-link);" href="/about#about">

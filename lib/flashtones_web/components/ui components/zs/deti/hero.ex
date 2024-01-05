@@ -107,7 +107,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce pro základní školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
+                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro základní školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
               ];
               let currentSlide = 0;
 
