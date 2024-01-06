@@ -11,7 +11,7 @@ defmodule Flashtones.Application do
       # Start the Telemetry supervisor
       FlashtonesWeb.Telemetry,
       # Start the Ecto repository
-      #Flashtones.Repo,
+      Flashtones.Repo,
       # Start the PubSub system
       {Phoenix.PubSub, name: Flashtones.PubSub},
       # Start Finch
