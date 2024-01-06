@@ -1,7 +1,5 @@
 import Config
 
-config :flashtones, KEYFILE: "/etc/letsencrypt/live/www.zsenviro.cz/privkey.pem"
-config :flashtones, CERTFILE: "/etc/letsencrypt/live/www.zsenviro.cz/fullchain.pem"
 # config/runtime.exs is executed for all environments, including
 # during releases. It is executed after compilation and before the
 # system starts, so it is typically used to load production configuration

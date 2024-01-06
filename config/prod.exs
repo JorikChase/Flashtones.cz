@@ -14,8 +14,8 @@ config :flashtones, FlashtonesWeb.Endpoint,
           port: 443,
           cipher_suite: :strong,
           otp_app: :flashtones,
-          keyfile: System.get_env("KEYFILE"),
-          certfile: System.get_env("CERTFILE")
+          keyfile: "/etc/letsencrypt/live/www.zsenviro.cz/fullchain.pem",
+          certfile: "/etc/letsencrypt/live/www.zsenviro.cz/privkey.pem"
           # OPTIONAL Key for intermediate certificates:
           # cacertfile: System.get_env("CACERTFILE")
         ]
