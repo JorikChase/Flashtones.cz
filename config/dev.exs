@@ -20,14 +20,20 @@ config :flashtones, FlashtonesWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
   https: [
-          port: 443,
-          cipher_suite: :strong,
-          otp_app: :flashtones,
-          keyfile: System.get_env("KEYFILE"),
-          certfile: System.get_env("CERTFILE")
-          # OPTIONAL Key for intermediate certificates:
-          # cacertfile: System.get_env("CACERTFILE")
-        ],
+    port: 8080,
+    cipher_suite: :strong,
+    keyfile: "/etc/letsencrypt/live/www.zsenviro.cz/privkey.pem",
+    certfile: "/etc/letsencrypt/live/www.zsenviro.cz/fullchain.pem"
+  ],
+  # https: [
+  #         port: 443,
+  #         cipher_suite: :strong,
+  #         otp_app: :flashtones,
+  #         keyfile: System.get_env("KEYFILE"),
+  #         certfile: System.get_env("CERTFILE")
+  #         # OPTIONAL Key for intermediate certificates:
+  #         # cacertfile: System.get_env("CACERTFILE")
+  #       ],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
