@@ -931,7 +931,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-deti.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Kurzy se konají od začátku února do konce června 2024.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
