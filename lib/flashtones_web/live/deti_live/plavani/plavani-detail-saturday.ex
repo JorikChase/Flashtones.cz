@@ -48,7 +48,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
           <div class="category" data-category="Plavání pro veřejnost">
               <h2>Místo konání</h2>
                   <div class="product">
-                        <a target="_blank" href="/images/pdf/plavani-verejnost/radotin.pdf">
+                        <a target="_blank" href="/images/pdf/plavani-saturday-radotin.pdf">
                           <img src="/images/hotely/radotin.jpg">
                             <div class="product-text-wrap">
                             <div class="product-text">
@@ -57,7 +57,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
                             </h4>
                             <p class="font-normal">Plavecký a sportovní areál Radotín na adrese: K Lázním 9, Praha 5, 153 00. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.</p>
                             </div>
-                            <b class="detail-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                            <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
                             </div>
                         </a>
                   </div>
@@ -75,6 +75,20 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
                         </div>
                     </a>
               </div>
+              </div>
+              <div class="product">
+                    <a target="_blank" href="/images/pdf/plavani-saturday-prazacka.pdf">
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/prazacka.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Plavecný bazén Pražačka
+                        </h4>
+                        <p class="font-normal">K plavání využíváme krytý bazén s rozměry 17 x 8.5 m, příjemně teplou vodou a neopakovatelným výhledem na Prahu. Je ideální pro výuku dětských plavců i neplavců. </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
               </div>
         </div>
         <br>

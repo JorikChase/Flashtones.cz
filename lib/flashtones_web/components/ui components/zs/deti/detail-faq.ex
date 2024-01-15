@@ -63,7 +63,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-deti.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -212,7 +212,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-enviro.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -361,7 +361,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-enviro.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -520,7 +520,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -669,7 +669,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -929,9 +929,9 @@ defmodule DetailFaq do
           <img src="/images/icon/terminy.svg">
           <p class="font-bold">Termíny kurzu</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Kurzy se konají od začátku února do konce června 2024.</p>
+          <p class="answer mt-2">Kurzy se konají od začátku února do konce června 2024</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -939,7 +939,7 @@ defmodule DetailFaq do
           <img src="/images/icon/prispevek.svg">
           <p class="font-bold">Jak zlevnit kurz?</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
           <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-plavani.svg"></a>
 
@@ -1017,7 +1017,7 @@ defmodule DetailFaq do
           <img src="/images/icon/terminy.svg">
           <p class="font-bold">Termíny kurzu</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
           <p class="answer mt-2">červenec - srpen</p>
         </div>
@@ -1027,7 +1027,7 @@ defmodule DetailFaq do
           <img src="/images/icon/sportovni.svg">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
           <p class="answer mt-2">Kromě plavání je na každý kurz připraven pestrý doprovodný program. Děti se
             mohou těšit na teambuildingové hry, tanec či sportovní hry. V odpočinkovém
@@ -1038,10 +1038,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-plavani.svg">
           <p class="font-bold">Stravování</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
           <p class="answer mt-2">
           Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z polévky a hlavního jídla. Svačiny se podávají přímo v prostorách areálu.
@@ -1053,7 +1053,7 @@ defmodule DetailFaq do
           <img src="/images/icon/prispevek.svg">
           <p class="font-bold">Jak zlevnit kurz?</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
           <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-plavani.svg"></a>
 
@@ -1079,6 +1079,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+  #####################################
   def studio(assigns) do
     ~H"""
     <style>
@@ -1151,7 +1152,7 @@ defmodule DetailFaq do
       <div class="w-full md:w-2/3 mx-auto mb-8">
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/historie-deti.svg">Historie obce</h3>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/vzbavenost.svg">Občanská vybavenost</h3>
@@ -1159,19 +1160,19 @@ defmodule DetailFaq do
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/pin-deti.svg">Okolí</h3>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/stravovani-deti.svg">Jídlo</h3>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/priroda-deti.svg">Příroda</h3>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
           <h3 class="font-semibold"><img src="/images/icon/skola-deti.svg">Výlety</h3>
-          <p class="answer mt-2">Answer to Question 1.</p>
+          <p class="answer mt-2">Jaro a podzim</p>
         </div>
       </div>
 

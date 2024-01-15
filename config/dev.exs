@@ -1,14 +1,14 @@
 import Config
 
 # Configure your database
-config :flashtones, Flashtones.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "flashtones_dev",
-  stacktrace: true,
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+# config :flashtones, Flashtones.Repo,
+#   username: "postgres",
+#   password: "postgres",
+#   hostname: "localhost",
+#   database: "flashtones_dev",
+#   stacktrace: true,
+#   show_sensitive_data_on_connection_error: true,
+#   pool_size: 10
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
@@ -19,7 +19,21 @@ config :flashtones, Flashtones.Repo,
 config :flashtones, FlashtonesWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
-  http: [ip: {127, 0, 0, 1}, port: 4000],
+  https: [
+    port: 8080,
+    cipher_suite: :strong,
+    keyfile: "/etc/letsencrypt/live/www.zsenviro.cz/privkey.pem",
+    certfile: "/etc/letsencrypt/live/www.zsenviro.cz/fullchain.pem"
+  ],
+  # https: [
+  #         port: 443,
+  #         cipher_suite: :strong,
+  #         otp_app: :flashtones,
+  #         keyfile: System.get_env("KEYFILE"),
+  #         certfile: System.get_env("CERTFILE")
+  #         # OPTIONAL Key for intermediate certificates:
+  #         # cacertfile: System.get_env("CACERTFILE")
+  #       ],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,

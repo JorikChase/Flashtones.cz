@@ -1588,7 +1588,7 @@ defmodule KurzDetail do
   def enviroSSTym(assigns) do
     ~H"""
     <div class="course-wrap top">
-        <h2>Škola v přírodě "V týmu"</h2>
+        <h2>Adaptační kurz "V Týmu"</h2>
         <p>
           Adaptační kurz "V Týmu" jsme vytvořili v těsné spolupráci s odborníky z Fakulty tělesné
           výchovy a sportu Univerzity Karlovy, specialisty v oblasti environmentálních studií a
