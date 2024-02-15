@@ -239,9 +239,9 @@ defmodule Kontakt do
             <div class="kontakt-icon icon-phone"></div>
             +420 733 219 223
           </a>
-          <a href="mailto:ondra@zsprodeti.cz">
+          <a href="mailto:ondrej@zsprodeti.cz">
             <div class="kontakt-icon icon-mail"></div>
-            ondra@zsprodeti.cz
+            ondrej@zsprodeti.cz
           </a>
         </div>
       </div>

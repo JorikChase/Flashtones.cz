@@ -101,10 +101,16 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/enviro/weekend" class="kurz-item">
+        <a href="/zs/enviro/summer" class="kurz-item">
           <img src="/images/icon/kurz/weekend-enviro.svg">
-          <h4>Víkendové příměstské tábory "Enviro"</h4>
-          <p>Jsou čtyřdenní- dvouvíkendové kurzy zahrnující osm bloků zaměřených na environmentální výchovu a pestrý doplňkový program.</p>
+          <h4>Letní pobytové tábory ZŠ PRO DĚTI</h4>
+          <p>Představují ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.</p>
+          <span class="inline-button align-right enviro-link">Více informací<img src="/images/icon/arrow-right-enviro.svg"></span>
+        </a>
+        <a href="/zs/enviro/summer-city" class="kurz-item">
+          <img src="/images/icon/kurz/weekend-enviro.svg">
+          <h4>Letní příměstské tábory V týmu</h4>
+          <p>Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity.</p>
           <span class="inline-button align-right enviro-link">Více informací<img src="/images/icon/arrow-right-enviro.svg"></span>
         </a>
         <a href="/zs/enviro/city" class="kurz-item">
@@ -173,7 +179,7 @@ defmodule KurzNav do
         <a href="/zs/vylety/mnichov" class="vylet-item" style="background-image: url(/images/vylety/mnichov/mnichov-head.jpg)">
           <h4>Mnichov</h4>
         </a>
-        <a href="/zs/vylety/boleslav" class="vylet-item" style="background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.jpg)">
+        <a href="/zs/vylety/boleslav" class="vylet-item" style="background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.JPG)">
           <h4>Mladá Boleslav - Muzeum Škoda</h4>
         </a>
         <a href="/zs/vylety/praha" class="vylet-item" style="background-image: url(/images/vylety/praha/praha-head.jpg)">
@@ -257,22 +263,22 @@ defmodule KurzNav do
   def blog(assigns) do
     ~H"""
       <style>
+      .kurz-item{
+        height: auto;
+      }
       </style>
-      <div class="kurz-nav">
-        <a href="/images/blog/sablony.pdf" target="_blank" class="kurz-item">
-          <img src="/images/icon/skola.svg">
+      <div class="kurz-nav odsazeni">
+        <a href="/zs/blog/sablony" class="kurz-item">
           <h4>NEVÍTE SI RADY JAK Z ŠABLON UHRADIT NAŠE ŠKOLNÍ KURZY?</h4>
-          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
+          <span class="inline-button align-right deti-link">Více informací<img src="/images/icon/arrow-right-deti.svg"></span>
         </a>
-        <a href="/images/blog/shrnuti-23.pdf" target="_blank" class="kurz-item">
-          <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg">
+        <a href="/zs/blog/shrnuti-23" class="kurz-item">
           <h4>Ohlédnutí za rokem 2023</h4>
-          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
+          <span class="inline-button align-right deti-link">Více informací<img src="/images/icon/arrow-right-deti.svg"></span>
         </a>
-        <a href="/images/blog/socci.pdf" target="_blank" class="kurz-item">
-          <img src="/images/icon/skolka.svg">
-          <h4>Co je tedy Socci?</h4>
-          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
+        <a href="/zs/blog/socci" class="kurz-item">
+          <h4>Ostrov Socci</h4>
+          <span class="inline-button align-right deti-link">Více informací<img src="/images/icon/arrow-right-deti.svg"></span>
         </a>
       </div>
     """

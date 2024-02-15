@@ -670,3 +670,98 @@ MailerProject.Mailer.deliver(email)
 	zsplavani
 
 	bezpecnostni kontrola externi - 10
+	=================================================================================================
+
+	Caddy routing: 25
+	Wedos DNS fixes: 40
+	Loopback: 5
+	Black box: 5
+	Deployment docs: 5
+	
+	---frontend---
+
+	    - [x] Cta vyjet tlačítko potom objednat
+    - [x] Zsprodeti harmonika 
+        - [x] Fotogalerie odkaz menu
+        - [x] Reference odkaz menu
+        - [x] Presunout flashtones odkaz dolu
+    - [x] Odendat hero bottom again
+- [ ] Plavani
+- [x] Vikendove primestske tabory
+    - [x] V pripade zajmu nas kontaktujte
+    - [x] Odendat organizace a faq component
+    - [x] Mista konané pouze prazacka a Radotín bez instrukci a faq
+    - [x] Predate odkaz mail s možnosti kontaktu
+    - [x] Misto toho individuální 
+- [ ] Pravidelne sobotni 
+    - [ ] Zacatek druhé stránky recenze
+    - [x] Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín a nově i v bazénu Pražačka na Praze 3 - do kde
+    - [x] Odendat jak zlevnit kurz
+    - [x] Odendat vetu za cca 10 deti
+    - [x] Kazda lekce trvá 50 minut
+    - [x] Rádi zde přivítáme malé neplavce, poloplavce i pokročilé plavce. Kurzy jsou vhodné pro děti ve věku 5-13 let. Kurzy trvají vždy 50 minut a konají se každou sobotu, vždy od 9.00- 10.00 na prazacce a 10.00-11:00 v radotine. - přesunout do jak to probíhá do druhého odstavce
+    - [x] Jmeno sobotní kurzy plavání vyměnit i v textu
+    - [x] Pdf brozura odstranit
+    - [x] 5550
+- [x] Letni tabory
+    - [x] Konaji se od července do srpna 2024
+    - [x] Odendat jak zlevnit kurz
+    - [x] Jak zlevnit svp odendat
+    - [x] stravovani, v případě, že mate speciální požadavek na stravování, uveďte jej prosím při registraci
+    - [x] Platebni podmínky 
+    - [x] 5250
+- [x] Prepojit odkazy na kurzy plavání ze starého webu
+
+---konec frontend---
+Backend celkem: 80
+Frontend celkem: 5
+=== 85 hodin ==============================================================================
+
+    - [x] Title kazdy podstranky - 1
+        - [x] https://dev.to/mnishiguchi/page-title-for-phoenix-liveview-347b
+    - [x] Favicon : - 3
+        - [x] Dynamic favicons are super handy for notices and status indicators!
+        - [x] send(self(), {"newfav", "blue"})
+        - [x] When it’s time to update the favicon, send a message to your LiveView:
+        - [x] end
+        - [x]   {:noreply, push_event(socket, "newfav", %{color: newcolor})}
+        - [x] def handle_info({"newfav", newcolor}, socket) do 
+        - [x] Then add an event handler to mypage_live.ex
+        - [x] }) 
+        - [x]   fabtag.href = `/images/favicon-${color}.ico`
+        - [x]   var fabtag = document.getElementById('favicon') 
+        - [x]   var color = e.detail.color 
+        - [x] window.addEventListener("phx:newfav", (e) => {
+        - [x] Add an event listener in app.js
+        - [x] <link id="favicon" rel="icon" type="image/x-icon" href="/images/favicon-black.ico"/>
+        - [x] V prohlížeči nahoře v kartách, nadpis flashtones.. ikdyz jsem na zsprodeti.cz
+        - [x] In layouts/root_live.html.heex, put a favicon tag in your head section.
+        - [x] /priv/images/favicon-green.ico
+        - [x] /priv/images/favicon-red.ico
+        - [x] /priv/images/favicon-blue.ico
+        - [x] /priv/images/favicon-black.ico
+        - [x] First, have a collection of favicon images that follow a regular file naming convention.
+- [x] Zs to ft link - 1
+    - [x] ————————————
+- [x] Ft to zs link
+- [x] Flashtones - studio upravit (zavoláme) - 3
+- [x] ZŠ Výlety - mladá Boleslav nenacita se fotka - 1
+- [x] ZS ENVIRO - kurzy pro školy - špatná PDF brožura 
+- [x] Blog vyskakuje v jiném okně +predelat vzhled (zavoláme)
+Mobilní verze 
+- [x] Enviro kurz - 1
+- [x] Projektace, koncept art metaverse, technologicky pruzkum - 10
+- [x] Shoptet platebni brana - 3
+- [x] Enviro kurz
+- [x] Header na všech stránkách (potřeba vycentrovat fotka) - 3
+    - [x] Reload photo right /images/mobile/kurz-head-mobile.webp
+    - [x] U všech podstránek duplicate a oriznout
+    - [x] Left on mobile
+- [x] Při rozkliku hamburgery je potřeba přidat tlačítko “X” aby se z hamburgery dalo dostat zpět - 3
+    - [x] Pridelat nad to element
+- [x] Toggle u lokalit a u “o nás” musí byt věděl sebe ne pod sebou 
+- [x] Do nabídky (když si rozklikneš hamburger - místo “úvod” dát ZŠ PRO DĚTI 
+- [x] Hover box objednání kurzu (změnit) všude.. nefunguje, zkusit podle figmy (klikneš a vyjede) - 1
+- [x] Mezera mezi header a nabídka kurzu  u všech podstránek.. to stejné flashtones - 1
+
+###celkem 31 hodin

@@ -1,23 +1,23 @@
-defmodule FlashtonesWeb.EnviroWeekendLive do
+defmodule FlashtonesWeb.BlogShrnutiLive do
   use FlashtonesWeb, :live_view
 
   def render(assigns) do
     ~H"""
     <style>
-      main{
-        background: #e5f8e4;
-      }
+    main{
+      background: #dbf6f9;
+    }
       .app-bg{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         background-position: fixed;
-        background: linear-gradient(1deg, #a3caa1, #9adaa7, #c6f9c9, #daf8c6, #e0f9cb, #bbe495c9);
+        background: radial-gradient(circle, #cceeee, #d8e0fe, #cee8f4, #c8f6d1, #f7dec8, #f7e3bb, #f6c9c9);
         background-size: 400% 400%;
 
-        -webkit-animation: MainGradient 20s ease-in-out infinite;
-        -moz-animation: MainGradient 20s ease-in-out infinite;
-        animation: MainGradient 20s ease-in-out infinite;
+        -webkit-animation: MainGradient 30s ease-in-out infinite;
+        -moz-animation: MainGradient 30s ease-in-out infinite;
+        animation: MainGradient 30s ease-in-out infinite;
         }
         @-webkit-keyframes MainGradient {
         0%{background-position:0% 23%}
@@ -36,19 +36,13 @@ defmodule FlashtonesWeb.EnviroWeekendLive do
         }
       </style>
       <Nav.nav />
-      <MenuMobile.menuEnviroMobile />
-      <MenuPc.menuEnviroPc />
-      <HeroSmall.enviroWeekend />
-      <DetailCta.enviro />
-      <KurzDetail.enviroWeekend />
-      <!--<DetailFaq.plavaniWeekend />-->
-      <br>
-      <Rekli.rekliEnviro />
-      <Zustanme.enviro />
-      <Footer.deti />
+      <MenuMobile.menuFtMobile />
+      <MenuPc.menuFtPc />
+      <HeroSmall.zsRatings />
+      <Blog.shrnuti />
+
+      <Zustanme.zustanme />
+      <Footer.footer />
     """
   end
-
-
-
 end

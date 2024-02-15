@@ -198,19 +198,21 @@ defmodule SectionToggle do
             position: relative;
             width: 100%;
             background-position: center;
-            background-size: 80%;
+            background-size: 95%;
             background-repeat: no-repeat;
             filter: brightness(1.1);
-
         }
         .question-box-answer{
-
             padding: 15px 15px 45px 15px;
-            height: 100%;
+            height: 500px;
         }
         @media(orientation: portrait){
             .question-box-answer{
                 aspect-ratio: auto!important;
+                height: 100%;
+            }
+            .question-box-img{
+                background-size: 80%;
             }
         }
         .question-box-answer:hover{

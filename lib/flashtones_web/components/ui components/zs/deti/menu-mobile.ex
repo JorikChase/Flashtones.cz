@@ -67,13 +67,19 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 22px;
+        padding: 0;
+        border-radius: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -106,26 +112,41 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/ft/Flashtones.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/ft/Flashtones.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/ft/Flashtones.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/ft/Flashtones.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/"><h2> Flashtones </h2></a>
-        <a href="/zs/"><h2> zš pro děti </h2></a>
-        <a href="/produkty"><h2> produkty </h2></a>
-        <a href="/studio"><h2> studio </h2></a>
-        <a class="navLink" href="https://eshop.flashtones.cz/"><h2>eshop</h2></a>
-        <a href="/about#about"><h2> Kdo jsme </h2></a>
-        <a href="/kontakty"><h2> Kontakty </h2></a>
+        <a href="/">
+          <h2>Flashtones</h2>
+        </a>
+        <a href="/zs/">
+          <h2>zš pro děti</h2>
+        </a>
+        <a href="/produkty">
+          <h2>produkty</h2>
+        </a>
+        <a href="/studio">
+          <h2>studio</h2>
+        </a>
+        <a class="navLink" href="https://eshop.flashtones.cz/">
+          <h2>eshop</h2>
+        </a>
+        <a href="/about#about">
+          <h2>Kdo jsme</h2>
+        </a>
+        <a href="/kontakty">
+          <h2>Kontakty</h2>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuAcademyMobile(assigns) do
     ~H"""
     <style>
@@ -192,13 +213,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -240,37 +271,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/academy/academy-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/academy/academy-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/academy/academy-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/academy/academy-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/academy"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuDetiMobile(assigns) do
     ~H"""
     <style>
@@ -337,13 +383,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -385,37 +441,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/deti/deti-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/deti/deti-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/deti/deti-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/deti/deti-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuDomaMobile(assigns) do
     ~H"""
     <style>
@@ -523,37 +594,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/deti/deti-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/deti/deti-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/doma/doma-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/doma/doma-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/doma"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuEnviroMobile(assigns) do
     ~H"""
     <style>
@@ -620,13 +706,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -659,37 +755,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/enviro/enviro-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/enviro/enviro-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/enviro/enviro-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/enviro/enviro-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/enviro"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuLyzovaniMobile(assigns) do
     ~H"""
     <style>
@@ -756,13 +867,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -795,37 +916,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/lyzovani/lyzovani-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/lyzovani/lyzovani-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/lyzovani/lyzovani-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/lyzovani/lyzovani-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/lyzovani"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuPlavaniMobile(assigns) do
     ~H"""
     <style>
@@ -892,13 +1028,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -931,37 +1077,52 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/plavani/plavani-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/plavani/plavani-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/plavani/plavani-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/plavani/plavani-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/plavani"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """
   end
+
   def menuVyletyMobile(assigns) do
     ~H"""
     <style>
@@ -1028,13 +1189,23 @@ defmodule MenuMobile do
       top: 0;
       left: 0;
       right: 0;
-      height: 0;
-      padding: 0;
+      height: 60px;
+      padding: 15px 30px 15px 30px;
 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-content: center;
+      border-radius: 0;
+      }
+      .mobileMenuToggle img{
+        height: 30px;
+        padding: 0;
+        border-radius: 0;
+      }
+      .mobileMenuToggle :hover{
+        visibility: hidden;
+        opacity: 0;
       }
       .mobileMenuHead{
       z-index: 100;
@@ -1067,33 +1238,47 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/vylety/vylety-logo.svg">
-      <img src="/images/icon/x.svg">
+      <img src="/images/vylety/vylety-logo.svg" />
+      <img src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
-    <span class="mobileMenuHead">
-      <img src="/images/vylety/vylety-logo.svg">
-      <img src="/images/icon/menu.svg">
-    </span>
+      <span class="mobileMenuHead">
+        <img src="/images/vylety/vylety-logo.svg" />
+        <img src="/images/icon/menu.svg" />
+      </span>
       <div>
-        <a href="/zs/vylety"><h4> Úvod</h4> </a>
+        <a href="https://zsprodeti.cz/zs">
+          <h4>ZŠ PRO DĚTI</h4>
+        </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-       <!-- <a href="/aktuality"> Aktuality </a>
+        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
-        <a href="/zs/lokality"> <h4>Lokality </h4></a>
-        <a href="/zs/reference"><h4>Reference</h4></a>
-        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
-        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
-        <a href="/"><h4>Flashtones </h4></a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/">
+          <h4>Fotogalerie</h4>
+        </a>
+        <a href="/zs/lokality">
+          <h4>Lokality</h4>
+        </a>
+        <a href="/zs/reference">
+          <h4>Reference</h4>
+        </a>
+        <a href="/zs/about#about">
+          <h4>Kdo jsme</h4>
+        </a>
+        <a href="/zs/kontakty">
+          <h4>Kontakty</h4>
+        </a>
+        <a href="https://flashtones.cz/">
+          <h4>Flashtones</h4>
+        </a>
       </div>
     </div>
     """

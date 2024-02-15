@@ -410,13 +410,68 @@ defmodule KurzDetail do
         <br>
     """
   end
-  def enviroWeekend(assigns) do
+  def enviroSummerCity(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>Víkendové příměstské tábory "Enviro"</h2>
-        <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
+        <h2>Letní příměstský tábor V týmu</h2>
         <p>
-        Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
+        Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící
+        aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního
+        věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti,
+        síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro
+        rozvoj pozitivních vztahů v dětském kolektivu.
+        </p>
+        <p>
+        V úvodních a průpravná částech se věnujeme zahřátí
+        organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel
+        probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a
+        následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a
+        přidáváme nápady a alternativy pravidel.
+        </p>
+        <p>
+        Další aktivity jsou zaměřeny na doplňkový zábavní program,
+        hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a
+        výtvarných schopností. Všechny připravené programy mají ovšem jako hlavní cíl posílení sociálních
+        vazeb, tolerance, prevenci šikany a zlepšení celkového klimatu uvnitř třídy.
+        </p>
+        </div>
+        <br>
+    """
+  end
+  def enviroSummer(assigns) do
+    ~H"""
+        <div class="course-wrap top">
+        <h2>Letní pobytové tábory ZŠ PRO DĚTI</h2>
+        <p>
+        Letní pobytové tábory ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konajkí se vždy od pondělí do
+        pátku ve všech prázdninových týdnech. Představují ideální prázdninové dobrodružství pro děti, které
+        chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Tábory se konají v
+        nádherném přírodním areálu českého středohoří, což dětem nabízí jedinečnou příležitost
+        prozkoumat krásy české přírody a užít si čerstvý vzduch daleko od městského shonu.
+        </p>
+        <p>
+        Ubytování je zajištěno v unikátním rezortu penzionu Kystra, který je znám svým přátelským a
+        bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního
+        bazénu. Penzion poskytuje pohodlné a moderně vybavené pokoje, které jsou ideální pro dětské
+        skupiny, a zároveň zaručuje vysoký standard péče a bezpečnosti.
+        </p>
+        <p>
+        Program tábora je navržen tak, aby podporoval sportovních dovedností, týmového ducha, kreativitu
+        a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací
+        workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k
+        dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní
+        hry a další zábavné aktivity.
+        </p>
+        <p>
+        Tábory ZŠ PRO DĚTI klade velký důraz na rozvoj sociálních dovedností a podporu zdravého životního
+        stylu. Díky široké nabídce aktivit a her v přírodě se děti nejen naučí nové dovednosti, ale také si
+        vyzkouší, jak je důležité spolupracovat a respektovat jeden druhého.
+        </p>
+        <p>
+        V neposlední řadě, letní pobytové tábory nabízejí dětem příležitost odpočinout si od elektroniky a
+        strávit čas aktivně venku, což je v dnešní digitální době neocenitelná zkušenost. S kombinací
+        úžasného prostředí, skvělého programu a profesionálního týmu vedoucích se jedná o perfektní místo
+        pro nezapomenutelné letní prázdniny.
         </p>
         </div>
         <br>

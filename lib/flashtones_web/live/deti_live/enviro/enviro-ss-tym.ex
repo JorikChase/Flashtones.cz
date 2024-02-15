@@ -1,6 +1,9 @@
 defmodule FlashtonesWeb.EnviroSSTymLive do
   use FlashtonesWeb, :live_view
-
+  def mount(_params, _session, socket) do
+    socket = assign(socket, page_title: "ZŠ ENVIRO")
+    {:ok, socket}
+  end
   def render(assigns) do
     ~H"""
     <style>
@@ -39,7 +42,7 @@ defmodule FlashtonesWeb.EnviroSSTymLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroSSTym />
-      <DetailCta.enviro />
+      <DetailCta.enviroSSTym />
       <KurzDetail.enviroSSTym />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->

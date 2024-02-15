@@ -68,7 +68,7 @@ defmodule MenuPc do
           <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> zš pro děti </a>
+          <a href="https://zsprodeti.cz/zs"> zš pro děti </a>
           <a href="/produkty"> produkty </a>
           <a href="/studio"> studio </a>
           <a href="/blog"> Blog </a>
@@ -103,7 +103,8 @@ defmodule MenuPc do
     </div>
     <script>
       window.onload = function() {
-      if(window.location.href === "https://www.zsprodeti.cz/"){window.location.href = "https://www.zsprodeti.cz/zs/"};
+      if(window.location.href === "https://www.zsprodeti.cz/"){window.location.href = "https://zsprodeti.cz/zs/"};
+      if(window.location.href === "https://zsprodeti.cz/"){window.location.href = "https://zsprodeti.cz/zs/"};
       };
         window.onscroll = function () {
         var cta = document.getElementById("detail-cta");
@@ -122,7 +123,7 @@ defmodule MenuPc do
         const height = Math.max(body.scrollHeight, body.offsetHeight,
           html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-        if (window.pageYOffset > 410) {
+        if (window.pageYOffset > 100) {
           menu.style.top = "0";
           menu.style.left = "0";
           menu.style.right = "0";
@@ -210,7 +211,7 @@ defmodule MenuPc do
           <img src="/images/academy/academy-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="https://zsprodeti.cz/zs"> Úvod </a>
           <a href="/zs/academy/about#about">O nás</a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/kontakty"> Kontakty </a>
@@ -243,7 +244,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";
@@ -332,11 +333,11 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/">
+        <a href="https://zsprodeti.cz/zs">
           <img src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> Úvod </a>
+          <a href="https://zsprodeti.cz/zs"> Úvod </a>
           <a href="/zs/blog"> Blog </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
@@ -446,7 +447,7 @@ defmodule MenuPc do
           <img src="/images/doma/doma-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
           <a href="/zs/doma/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
@@ -478,7 +479,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";
@@ -566,7 +567,7 @@ defmodule MenuPc do
           <img src="/images/enviro/enviro-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
           <a href="/zs/enviro/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/enviro/about#about">O nás</a>
@@ -600,7 +601,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";
@@ -688,7 +689,7 @@ defmodule MenuPc do
           <img src="/images/lyzovani/lyzovani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lyzovani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
@@ -723,7 +724,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";
@@ -811,7 +812,7 @@ defmodule MenuPc do
           <img src="/images/plavani/plavani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/plavani/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
@@ -846,7 +847,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";
@@ -934,7 +935,7 @@ defmodule MenuPc do
           <img src="/images/vylety/vylety-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/reference">Reference</a>
           <a href="/zs/vylety/about#about">O nás</a>
@@ -968,7 +969,7 @@ defmodule MenuPc do
       const height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-      if (window.pageYOffset > 410) {
+      if (window.pageYOffset > 100) {
         menu.style.top = "0";
         menu.style.left = "0";
         menu.style.right = "0";

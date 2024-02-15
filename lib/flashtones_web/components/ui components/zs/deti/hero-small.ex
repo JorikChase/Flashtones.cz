@@ -813,7 +813,7 @@ defmodule HeroSmall do
 
     <style>
      .hero-small{
-      background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.jpg);
+      background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.JPG);
       background-position: 50% 50%;
      }
     </style>

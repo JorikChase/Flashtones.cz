@@ -50,7 +50,8 @@ defmodule Flashtones.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:gen_smtp, "~> 1.0"},
-      {:hackney, "~> 1.17"}
+      {:hackney, "~> 1.17"},
+      {:phoenix_live_favicon, "~> 0.2.0"}
     ]
   end
 

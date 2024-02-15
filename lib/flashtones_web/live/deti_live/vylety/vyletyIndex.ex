@@ -1,6 +1,9 @@
 defmodule FlashtonesWeb.VyletyIndexLive do
   use FlashtonesWeb, :live_view
-
+  def mount(_params, _session, socket) do
+    socket = assign(socket, page_title: "ZŠ VÝLETY")
+    {:ok, socket}
+  end
   def render(assigns) do
     ~H"""
      <link rel="canonical" href="https://www.zsvylety.cz">

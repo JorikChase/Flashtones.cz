@@ -1,6 +1,9 @@
 defmodule FlashtonesWeb.PlavaniDetailSummerLive do
   use FlashtonesWeb, :live_view
-
+  def mount(_params, _session, socket) do
+    socket = assign(socket, page_title: "ZŠ PLAVÁNÍ")
+    {:ok, socket}
+  end
   def render(assigns) do
     ~H"""
     <style>

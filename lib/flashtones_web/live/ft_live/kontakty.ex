@@ -29,6 +29,10 @@ defmodule FlashtonesWeb.KontaktyLive do
     #    end
     #  end
     #end
+    def mount(_params, _session, socket) do
+      socket = assign(socket, page_title: "FLASHTONES")
+      {:ok, socket}
+    end
     def render(assigns) do
       ~L"""
         <style>

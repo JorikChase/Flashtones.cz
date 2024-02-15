@@ -231,10 +231,10 @@ defmodule Instagram do
         </a>
         </div>
         <div class="self-end aktuality-links">
-        <a href="https://instagram.com/zsprodeti" target="_blank" class="aktuality-link noBreak">
+        <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
           více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" />
         </a>
-        <a href="/zs/blog" target="_blank" class="aktuality-link noBreak">
+        <a href="/zs/blog" class="aktuality-link noBreak">
           náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" />
         </a>
         </div>
