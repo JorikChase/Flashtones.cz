@@ -443,14 +443,14 @@ defmodule SectionToggle do
     <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
     <title>Modular Toggle Button</title>
     <div class="section-toggle">
-        <a href="#sectionA" class="active">Pro školy</a>
-        <a href="#sectionB">Pro veřejnost</a>
+        <a href="#skoly">Pro školy</a>
+        <a href="#verejnost">Pro veřejnost</a>
     </div>
 
-    <section id="sectionA" class="hidden">
+    <section id="skoly" class="hidden">
       <KurzNav.kurzPlavaniSkola />
     </section>
-    <section id="sectionB" class="hidden">
+    <section id="verejnost" class="hidden">
       <KurzNav.kurzPlavaniVerejnost />
     </section>
     </div>
@@ -487,7 +487,7 @@ defmodule SectionToggle do
                     }
                 });
             } else {
-                showSection("sectionA");
+                showSection("skoly");
                 sectionLinks[0].classList.add("active");
             }
         });

@@ -452,11 +452,27 @@ defmodule Hero do
 
   def plavaniHero(assigns) do
     ~H"""
+      <style>
+      .hero-button-wrap{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .hero-button{
+        height: 3em;
+        padding: 5px 15px;
+      }
+      </style>
       <div class="hero">
             <div class="hero-content">
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
-              <a id="hero-button" class="hero-button" href="#course-marker">Nabídka kurzů</a>
+              <div class="hero-button-wrap">
+              <a id="hero-button" class="hero-button" href="https://zsplavani.cz/zs/plavani#skoly">ŠKOLY</a>
+              <a id="hero-button" class="hero-button" href="https://zsplavani.cz/zs/plavani#verejnost">VEŘEJNOST</a>
+              </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
           </div>

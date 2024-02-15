@@ -1057,7 +1057,7 @@ form:hover {
   font-weight: bold;
   text-transform: uppercase;
   margin: 30px auto 30px auto;
-  background: rgba(2, 3, 3, 0.1);
+  background: rgb(255, 255, 255);
   transition: all 0.5s ease;
   border-radius: 25px;
   display: flex;
@@ -1073,7 +1073,7 @@ form:hover {
   font-weight: bold;
   text-transform: uppercase;
   margin: 30px auto 60px auto;
-  background: rgba(2, 3, 3, 0.1);
+  background: rgb(255, 255, 255);
   transition: all 0.5s ease;
   border-radius: 25px;
   display: flex;
@@ -1085,7 +1085,7 @@ form:hover {
 }
 
 .section-toggle:hover {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255);
   transform: scale(1.04);
 }
 
@@ -1095,7 +1095,7 @@ form:hover {
   height: 40px;
   padding: 5px 15px;
   border-radius: 45px;
-  background: rgba(156, 199, 249, 0.1);
+  background: rgba(201, 222, 242, 0.038);
   transition: all 0.5s ease;
   text-align: center;
   vertical-align: middle;
@@ -1108,11 +1108,13 @@ form:hover {
   align-items: center;
   white-space: nowrap;
   /* Prepinac */
-  font-family: Barlow;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+font-family: Barlow;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
   text-transform: uppercase;
 }
 
@@ -1136,12 +1138,12 @@ form:hover {
 }
 
 .section-toggle a:hover {
-  background: rgba(255, 255, 255, 1);
+  background: #e6eff9;
   transform: scale(1);
 }
 
 .section-toggle .active {
-  background: rgba(255, 255, 255, 1);
+  background: #E6EAF9;
 }
 
 .hidden {
