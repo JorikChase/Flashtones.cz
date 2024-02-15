@@ -249,21 +249,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/academy"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/academy"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -391,21 +394,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -526,21 +532,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/doma"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/doma"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -659,21 +668,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/enviro"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/enviro"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -792,21 +804,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/lyzovani"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/lyzovani"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -925,21 +940,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/plavani"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/plavani"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """
@@ -1058,21 +1076,24 @@ defmodule MenuMobile do
       <img src="/images/icon/menu.svg">
     </span>
       <div>
-        <a href="/"><h4> Flashtones </h4></a>
+        <a href="/zs/vylety"><h4> Úvod</h4> </a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/zs/vylety" class="zs-menu-vylety"> Výlety </a>
         <a href="/zs/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/zs/academy" class="zs-menu-academy"> Academy </a>
-        <a href="/zs/vylety"> Úvod </a>
        <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
         <a href="/faq"> Časté dotazy </a>
         <a href="/ratings"> Hodnocení </a>
         <a href="/sluzby"> Naše služby </a>-->
-        <a href="/zs/about#about"> Kdo jsme </a>
-        <a href="/zs/kontakty"> Kontakty </a>
+        <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> <h4>Fotogalerie</h4> </a>
+        <a href="/zs/lokality"> <h4>Lokality </h4></a>
+        <a href="/zs/reference"><h4>Reference</h4></a>
+        <a href="/zs/about#about"> <h4> Kdo jsme </h4></a>
+        <a href="/zs/kontakty"> <h4>Kontakty </h4></a>
+        <a href="/"><h4>Flashtones </h4></a>
       </div>
     </div>
     """

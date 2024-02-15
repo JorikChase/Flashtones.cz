@@ -564,3 +564,109 @@ Mobilní verze
 == 47 hodin
 email = MailerProject.UserEmail.welcome(%{name: "14", email: "info@zsplavani.cz"})
 MailerProject.Mailer.deliver(email)
+
+===============================================================
+- [x] ——————— - 1
+- [x] Content detailu kurzu podle mailu peti
+- [x] Ss-tym cta form link
+- [x] Sobotni barva odkazu pdf
+- [x] ——————- - 4
+- [x] Fotky na web je zsenvirovtypu pro ostatní skoly
+- [x] Adaptacni kurz v tymu
+- [x] Header ZŠ pro děti - šlo by úvodní popisek dat na 3 řádky? po “akce” další odstavec 
+- [x] U plaveckých kurzů pro veřejnost - špatné barvy ikon v FAQ
+- [x] Sobotní kurzy plavání.. jak jsem říkal o odstranění tlačítka “informace a FAQ” hrozně se omlouvám.. nechal bych to tam akorát k tomu přiřadil jiná PDF přímo pro sobotní kurzy.. jsou v mailu od Péti (v příloze)
+- [x] FLASHTONES - KDO JSME - změnit text - viz O PROJEKTU - o flashtones 
+- [x] Odendat Saturday pdf link plavco
+- [x] Obrazek deti
+- [x] Nenacitaji se mi ikony v nabídce našich kurzů
+- [x] ——————— - 10
+- [x] Flashtones i zs pro děti - dodat datum|aktualita k aktualitám
+- [x] Spravne odsadit v sem jsou naše programy studio
+- [x] Cta mobile invisible element hover
+- [x] Nadpis zs lyzovani
+- [x] Hero mobile
+- [x] Barvy pointu —flashtones-main
+- [x] Mezera pod hero
+- [x] Odsazeni nadpisu plachta
+- [x] Tri itemy vedle sebe
+- [x] Nabidka kurzu bile pismo mobile
+- [x] Bile sipky do footeru, barevne deti
+- [x] Zustanme mobile odsazeni
+- [x] Text zustanme
+- [x] Plachta links flex start flex wrap- wrap
+- [x] Objednání kurzu - mobilní verze upravit 
+- [x] Header - mobilní verze upravit 
+- [x] Vilely mobile
+- [x] Po kliknutí objednat kurz - rovnou nasměrovat na kontaktní formulář.. ne na kontakty 
+--------------- - 5
+- [x] Barvy šipek - flashtones 
+- [x] Studio objednat dolu
+- [x] Kontakty mobilní verze upravit 
+- [x] Mobilní verze zs pro děti odkazuje na kontakty flashtones 
+- [x] Kontakt obrazek
+- [x] Studio tlacitko objednat
+- [x] Studio items
+- [x] Kontakt odsazeni
+- [x] Form odkaz cta
+- [x] ZŠ VÝLETY - přidat představení PDF 
+- [x] ZŠ výlety - FAQ- stravování - vyplnit toto (dle individuálních požadavků)
+- [x] Detaily výletů - zůstaňme v kontaktu - modré tlačítko odebírat novinky 
+- [x] ZŠ Výlety - kdo jsme - Marcel a Omar špatně odsazeno
+- [x] ZŠ enviro - detaily kurzu - špatný mail - nechat info@zsprodeti.cz
+- [x] ZŠ lyžování - header nečitelný možná nechat bílý 
+- [x] Flashtones - footer dobrilo posunout hned pod studio a klidně u dobírka nechat delší text.. zkopírovat header ZŠ DOMA 
+- [x] Flashtones - header - sledujte nás na našich sítích odkazuje špatně 
+- [x] Kurzy ZŠ LYŽOVÁNÍ - je tam 2x chata Mulda ( zkontrolovat jestli všude 1x)
+--------------- - 5
+- [x] Header - ZŠ PRO DĚTI - vymazat tečku 
+    - [x] Konaji se od července do srpna 2024
+    - [x] Odendat jak zlevnit kurz
+    - [x] Jak zlevnit svp odendat
+    - [x] stravovani, v případě, že mate speciální požadavek na stravování, uveďte jej prosím při registraci
+    - [x] Platebni podmínky 
+    - [x] 5250
+    - [x] Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín a nově i v bazénu Pražačka na Praze 3 - do kde
+    - [x] Odendat jak zlevnit kurz
+    - [x] Odendat vetu za cca 10 deti
+    - [x] Kazda lekce trvá 50 minut
+    - [x] Rádi zde přivítáme malé neplavce, poloplavce i pokročilé plavce. Kurzy jsou vhodné pro děti ve věku 5-13 let. Kurzy trvají vždy 50 minut a konají se každou sobotu, vždy od 9.00- 10.00 na prazacce a 10.00-11:00 v radotine. - přesunout do jak to probíhá do druhého odstavce
+    - [x] Jmeno sobotní kurzy plavání vyměnit i v textu
+    - [x] Pdf brozura odstranit
+    - [x] 5550
+    - [x] V pripade zajmu nas kontaktujte
+    - [x] Odendat organizace a faq component
+    - [x] Mista konané pouze prazacka a Radotín bez instrukci a faq
+    - [x] Predate odkaz mail s možnosti kontaktu
+    - [x] Misto toho individuální 
+	    - [x] Zsprodeti harmonika 
+        - [x] Fotogalerie odkaz menu
+        - [x] Reference odkaz menu
+        - [x] Presunout flashtones odkaz dolu
+    - [x] Odendat hero bottom again
+
+	--------
+	server: - 20 h
+	operacni system
+	sprava rozhrani
+	deployment: - 20 h
+	git
+	asdf
+	caddy
+	certbot
+	elixir
+
+	security: - 20 h
+	ports
+	loopback
+
+	hosting: - 10
+	administrace
+
+	domain: - 10
+	zsprodeti
+	zsenviro
+	flashtones
+	zsplavani
+
+	bezpecnostni kontrola externi - 10

@@ -50,13 +50,19 @@ defmodule FlashtonesWeb.Router do
     live "/zs/enviro/courses", EnviroCoursesLive
     live "/zs/lyzovani", LyzovaniIndexLive
     live "/zs/lyzovani/courses", LyzovaniCoursesLive
+
     live "/zs/plavani", PlavaniIndexLive
     live "/zs/plavani/school", PlavaniDetailSchoolLive
     live "/zs/plavani/pre-school", PlavaniDetailPreSchoolLive
     live "/zs/plavani/city-school", PlavaniDetailCitySchoolLive
     live "/zs/plavani/saturday", PlavaniDetailSaturdayLive
+    live "/services/pravidelne-kurzy-plavani/", PlavaniDetailSaturdayLive
     live "/zs/plavani/summer", PlavaniDetailSummerLive
+    live "/services/letni-primestske-tabory/", PlavaniDetailSummerLive
+    live "/services/letni-tabor/", PlavaniDetailSummerLive
     live "/zs/plavani/weekend", PlavaniDetailWeekendLive
+    live "/services/vikendove-primestske-tabory-plavani/", PlavaniDetailWeekendLive
+
     live "/zs/lyzovani/school", LyzovaniDetailSchoolLive
     live "/zs/lyzovani/bezky", LyzovaniDetailBezkyLive
     live "/zs/lyzovani/weekend", LyzovaniDetailWeekendLive
@@ -119,6 +125,8 @@ defmodule FlashtonesWeb.Router do
 
     live "/zs/mail", MailFormLive
     live "/desk", DeskLive
+    live "/blog", BlogFtLive
+    live "/zs/blog", BlogLive
 
 
   end

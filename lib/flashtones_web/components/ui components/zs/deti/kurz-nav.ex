@@ -14,13 +14,13 @@ defmodule KurzNav do
         </a>
         <a href="/zs/plavani/saturday" class="kurz-item">
           <img src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg">
-          <h4>Pravidelné sobotní kurzy plavání</h4>
+          <h4>Sobotní kurzy plavání</h4>
           <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
         </a>
         <a href="/zs/plavani/weekend" class="kurz-item">
           <img src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg">
-          <h4>Víkendové příměstské tábory</h4>
+          <h4>Individuální lekce</h4>
           <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
         </a>
@@ -64,7 +64,7 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/lyzovani/weekend" class="kurz-item">
-          <img src="/images/icon/kurz/víkendové kurzy snowboardingu a lyžování.svg">
+          <img src="/images/icon/kurz/weekend-lyzovani-snowboarding.svg">
           <h4>Víkendové kurzy lyžování a snowboardingu</h4>
           <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let.</p>
           <span class="inline-button align-right lyzovani-link">Více informací<img src="/images/icon/arrow-right-lyzovani.svg"></span>
@@ -82,13 +82,13 @@ defmodule KurzNav do
       </style>
       <div class="kurz-nav">
         <a href="/zs/lyzovani/school" class="kurz-item">
-          <img src="/images/icon/kurz/školní lyžařský kurz.svg">
+          <img src="/images/icon/kurz/skolni-lyzarsky-kurz.svg">
           <h4>Školní lyžařský kurz</h4>
           <p>Žáci absolvují během pětidenního kurzu základy klasického, sjezdové lyžování, snowboardingu a netradičních zimních sportů.</p>
           <span class="inline-button align-right lyzovani-link">Více informací<img src="/images/icon/arrow-right-lyzovani.svg"></span>
         </a>
         <a href="/zs/lyzovani/bezky" class="kurz-item">
-          <img src="/images/icon/kurz/kurz běžeckého lyžování.svg">
+          <img src="/images/icon/kurz/kurz-bezeckeho-lyzovani.svg">
           <h4>Kurz běžeckého lyžování</h4>
           <p>Žáci provedou během pětidenního kurzu základy běžeckého lyžování. Na kurzu je věnován dostatečný čas jak klasickému stylu, tak technice bruslení.</p>
           <span class="inline-button align-right lyzovani-link">Více informací<img src="/images/icon/arrow-right-lyzovani.svg"></span>
@@ -250,6 +250,29 @@ defmodule KurzNav do
         <a href="/zs/svp/jelenovska" class="kurz-item">
           <img src="/images/icon/skolka.svg">
           <h4>RS Jelenovska</h4>
+        </a>
+      </div>
+    """
+  end
+  def blog(assigns) do
+    ~H"""
+      <style>
+      </style>
+      <div class="kurz-nav">
+        <a href="/images/blog/sablony.pdf" target="_blank" class="kurz-item">
+          <img src="/images/icon/skola.svg">
+          <h4>NEVÍTE SI RADY JAK Z ŠABLON UHRADIT NAŠE ŠKOLNÍ KURZY?</h4>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
+        </a>
+        <a href="/images/blog/shrnuti-23.pdf" target="_blank" class="kurz-item">
+          <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg">
+          <h4>Ohlédnutí za rokem 2023</h4>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
+        </a>
+        <a href="/images/blog/socci.pdf" target="_blank" class="kurz-item">
+          <img src="/images/icon/skolka.svg">
+          <h4>Co je tedy Socci?</h4>
+          <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
         </a>
       </div>
     """

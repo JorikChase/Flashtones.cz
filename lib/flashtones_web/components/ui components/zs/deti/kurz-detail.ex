@@ -62,14 +62,11 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>VÍKENDOVÉ PŘÍMĚSTSKÉ TÁBORY</h2>
-        <p>Sháníte pro děti smysluplnou pohybovou aktivitu? V týdnu už nemáte čas na další kroužek? Plavání s námi je tou správnou volbou! Připravili jsme pro vás Víkendové příměstské tábory s výukou plavání zaměřené na rozvoj plaveckých i všeobecných pohybových dovedností. Jedná se o dvoudenní- jednovíkendové kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program.</p>
-        <h3>KDE</h3>
-        <p>Kurz probíhá v Plaveckém a sportovním areálu Radotín. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru. V případě špatného počasí máme pro mimo-bazénové aktivity zajištěno zázemí v nedaleké Sportovní hale Radotín. Pro venkovní aktivity jsou využívána okolní hřiště a areál Biotopu.</p>
-        <h3>ORGANIZACE</h3>
-        <ul>
-          <li><bold>Děti se přivádí v děvět hodin ráno a vyzvedávají ve čtyři hodiny odpoledne.</bold></li>
-        </ul>
+        <h2>INDIVIDUÁLNÍ KURZY</h2>
+        <p>Nachystali jsme pro Vás novinku- individuální výuku plavání pro Vaše děti. Pokud chcete, aby se vaše děcko co nejvíce zdokonalilo v plavání, pokud chcete
+        v učení postupovat jen a jen dle potřeb a tempa vašeho dítěte, Individuální lekce ZŠ Plavání jsou tu pro vás. Kurzy jsou určené jednomu až dvěma dětem
+        ve věku 4-15 let. Aktuálně budou možny v Radotíně a na Pražačce každou sobotu dopoledne. Pro více informací nás kontaktujte na
+        mailu: <a href="malto:petra@zsplavani.cz" class="button-inline"> petra@zsplavani.cz </a> nebo volejte <a href="tel:724 168 962" class="button-inline"> 724 168 962</a>.</p>
         </div>
         <br>
     """
@@ -132,23 +129,23 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>PRAVIDELNÉ SOBOTNÍ KURZY PLAVÁNÍ</h2>
-        <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Pravidelné kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.
+        <h2>SOBOTNÍ KURZY PLAVÁNÍ</h2>
+        <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Sobotní kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.</p>
         <br>
          <h3> KDE </h3>
-          Kurz probíhá v Plaveckém a sportovním areálu Radotín. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru. V případě špatného počasí máme pro mimo-bazénové aktivity zajištěno zázemí v nedaleké Sportovní hale Radotín. Pro venkovní aktivity jsou využívána okolní hřiště a areál Biotopu.
+         <p>Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín a nově i v bazénu Pražačka na Praze 3.</p>
         <br>
-          ORGANIZACE
+        <h3>Organizace</h3>
+        <p>Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 15ti lekcí a docházíte podle vlastní potřeby.
+        Kurzy jsou otevřené pro děti ve věku 5-13 let v úrovních neplavec, poloplavec a plavec.
+        Cena kurzu je 5 550 Kč a to za 15 lekcí. Kurzy se konají od začátku února do konce června 2024.</p>
         <br>
-          První sezóna pravidelných kurzů plavání bude probíhat od října do ledna následujícího roku (konkrétně 7.10. 2023 až 27.1.2024). Rádi zde přivítáme malé neplavce, poloplavce i pokročilé plavce. Kurzy jsou vhodné pro děti ve věku 5-13 let.
-          Kurzy trvají vždy 45 minut a konají se každou sobotu, vždy od 9.00- 10.00 a 10.00-11:00.
-        </p>
         <h3>Jak to probíhá</h3>
         <p>
           S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
         </p>
         <p>
-          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
+          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí). Každá lekce trvá 50 minut a je strukturována do tří částí:
         </p>
         <ul>
           <li><bold>úvodní seznámení s náplní lekce a následná rozcvička</bold></li>
@@ -222,14 +219,15 @@ defmodule KurzDetail do
         <div class="course-wrap top">
         <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
-        Probíhají v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Olšanka na Praze 3, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem. Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
+        Budou v roce 2024 probíhat v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem.
+        Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
         </p>
         <h3>Jak to probíhá</h3>
         <p>
           S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
         </p>
         <p>
-          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
+          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 60 minut a je strukturována do tří částí:
         </p>
         <ul>
           <li><bold>úvodní seznámení s náplní lekce a následná rozcvička</bold></li>

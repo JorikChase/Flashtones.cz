@@ -49,7 +49,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
               <h2>Místo konání</h2>
                   <div class="product">
                         <a target="_blank" href="/images/pdf/plavani-saturday-radotin.pdf">
-                          <img src="/images/hotely/radotin.jpg">
+                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/radotin.jpg)"></div>
                             <div class="product-text-wrap">
                             <div class="product-text">
                             <h4>

@@ -245,6 +245,9 @@ br{
     left: 0;
     padding: 30px;
   }
+  .hero-media{
+    bottom: 15vh!important;
+  }
 }
 
 /*components*/

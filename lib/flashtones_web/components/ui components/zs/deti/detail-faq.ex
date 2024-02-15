@@ -933,18 +933,6 @@ defmodule DetailFaq do
         </div>
           <p class="answer mt-2">Kurzy se konají od začátku února do konce června 2024</p>
         </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/prispevek.svg">
-          <p class="font-bold">Jak zlevnit kurz?</p>
-          </div>
-        <img src="/images/icon/plus-plavani.svg" class="self-end">
-        </div>
-          <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-plavani.svg"></a>
-
-          <a href="/images/pdf/pojistovny.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Příspěvky zdravotních pojišťoven<img src="/images/icon/arrow-right-plavani.svg"></a>
-        </div>
       </div>
     </div>
     <br>
@@ -1019,7 +1007,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">červenec - srpen</p>
+          <p class="answer mt-2">Konají se od července do srpna 2024.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -1045,19 +1033,9 @@ defmodule DetailFaq do
         </div>
           <p class="answer mt-2">
           Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z polévky a hlavního jídla. Svačiny se podávají přímo v prostorách areálu.
+          <br>
+          V případě, že mate speciální požadavek na stravování, uveďte jej prosím při registraci
           </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/prispevek.svg">
-          <p class="font-bold">Jak zlevnit kurz?</p>
-          </div>
-        <img src="/images/icon/plus-plavani.svg" class="self-end">
-        </div>
-          <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-plavani.svg"></a>
-
-          <a href="/images/pdf/pojistovny.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Příspěvky zdravotních pojišťoven<img src="/images/icon/arrow-right-plavani.svg"></a>
         </div>
       </div>
     </div>

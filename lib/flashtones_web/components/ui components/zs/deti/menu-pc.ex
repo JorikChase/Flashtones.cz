@@ -20,7 +20,6 @@ defmodule MenuPc do
 
           background: var(--ft-main);
 
-
           backdrop-filter: blur(0)!important;
           -webkit-backdrop-filter: blur(0)!important;
 
@@ -72,6 +71,7 @@ defmodule MenuPc do
           <a href="/zs/"> zš pro děti </a>
           <a href="/produkty"> produkty </a>
           <a href="/studio"> studio </a>
+          <a href="/blog"> Blog </a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -102,68 +102,71 @@ defmodule MenuPc do
       </div>
     </div>
     <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 410) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "50%";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "50%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
+      window.onload = function() {
+      if(window.location.href === "https://www.zsprodeti.cz/"){window.location.href = "https://www.zsprodeti.cz/zs/"};
       };
+        window.onscroll = function () {
+        var cta = document.getElementById("detail-cta");
+        var menu = document.getElementById("pcMenu");
+        var menuBar = document.getElementById("pcMenuBar");
+        var menuBottom = document.getElementById("pcMenuBottom");
+        var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+        var ctaEnd = 1984;
+
+        const body = document.body;
+        const html = document.documentElement;
+          const plavani = window.location.pathname.includes("/plavani/");
+          const lyzovani = window.location.pathname.includes("/lyzovani/");
+          const enviro = window.location.pathname.includes("/enviro/");
+          const vylety = window.location.pathname.includes("/vylety/");
+        const height = Math.max(body.scrollHeight, body.offsetHeight,
+          html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+        if (window.pageYOffset > 410) {
+          menu.style.top = "0";
+          menu.style.left = "0";
+          menu.style.right = "0";
+          menuBar.style.top = "0";
+          menuBar.style.left = "0";
+          menuBar.style.right = "10%";
+          menuBottom.style.top = "0";
+          menuBottom.style.left = "50%";
+          menuBottom.style.right = "0";
+          menu.style.borderRadius = "0";
+          menuBar.style.borderRadius = "0";
+          menuBottom.style.borderRadius = "0";
+          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+            console.log("ju");
+            cta.style.right = "10%";
+            cta.style.top = "90px";
+            cta.style.position = "fixed";
+          }
+          if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
+            cta.style.opacity = "0";
+            cta.style.visibility = "hidden";
+          } else if(plavani || lyzovani || enviro || vylety){
+            cta.style.opacity = "1";
+            cta.style.visibility = "visible";
+          }
+        } else {
+          menu.style.top = "60px";
+          menu.style.left = "10%";
+          menu.style.right = "10%";
+          menuBar.style.top = "60px";
+          menuBar.style.left = "10%";
+          menuBar.style.right = "15%";
+          menuBottom.style.top = "60px";
+          menuBottom.style.left = "50%";
+          menuBottom.style.right = "10%";
+          menu.style.borderRadius = "10px";
+          menuBar.style.borderRadius = "10px";
+          menuBottom.style.borderRadius = "10px";
+          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+          cta.style.right = "10%";
+          cta.style.top = "440px";
+          }
+        }
+        };
     </script>
     """
   end
@@ -334,6 +337,7 @@ defmodule MenuPc do
         </a>
         <div class="pcMenuBarLinks">
           <a href="/zs/"> Úvod </a>
+          <a href="/zs/blog"> Blog </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
           <a href="/zs/reference">Reference</a>
@@ -349,53 +353,56 @@ defmodule MenuPc do
       </div>
     </div>
     <script>
-      window.onscroll = function () {
-        var cta = document.getElementById("detail-cta");
-        var menu = document.getElementById("pcMenu");
-        var menuBar = document.getElementById("pcMenuBar");
-        var menuBottom = document.getElementById("pcMenuBottom");
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-        if (window.pageYOffset > 100) {
-          menu.style.top = "0";
-          menu.style.left = "0";
-          menu.style.right = "0";
-          menuBar.style.top = "0";
-          menuBar.style.left = "0";
-          menuBar.style.right = "0";
-          menuBottom.style.top = "0";
-          menuBottom.style.left = "0";
-          menuBottom.style.right = "0";
-          menu.style.borderRadius = "0";
-          menuBar.style.borderRadius = "0";
-          menuBottom.style.borderRadius = "0";
-          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-            cta.style.right = "30px";
-            cta.style.top = "60px";
-          }
-
-        } else {
-          menu.style.top = "60px";
-          menu.style.left = "10%";
-          menu.style.right = "10%";
-          menuBar.style.top = "60px";
-          menuBar.style.left = "10%";
-          menuBar.style.right = "10%";
-          menuBottom.style.top = "60px";
-          menuBottom.style.left = "10%";
-          menuBottom.style.right = "10%";
-          menu.style.borderRadius = "10px";
-          menuBar.style.borderRadius = "10px";
-          menuBottom.style.borderRadius = "10px";
-          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "30px";
-          cta.style.top = "150px";
-          }
-        }
+      window.onload = function() {
+      if(window.location.href === "https://www.flashtones.cz/zs/"){window.location.href = "https://www.zsprodeti.cz/zs/"};
       };
+      window.onscroll = function () {
+          var cta = document.getElementById("detail-cta");
+          var menu = document.getElementById("pcMenu");
+          var menuBar = document.getElementById("pcMenuBar");
+          var menuBottom = document.getElementById("pcMenuBottom");
+          const plavani = window.location.pathname.includes("/plavani/");
+          const lyzovani = window.location.pathname.includes("/lyzovani/");
+          const enviro = window.location.pathname.includes("/enviro/");
+          const vylety = window.location.pathname.includes("/vylety/");
+          if (window.pageYOffset > 100) {
+            menu.style.top = "0";
+            menu.style.left = "0";
+            menu.style.right = "0";
+            menuBar.style.top = "0";
+            menuBar.style.left = "0";
+            menuBar.style.right = "0";
+            menuBottom.style.top = "0";
+            menuBottom.style.left = "0";
+            menuBottom.style.right = "0";
+            menu.style.borderRadius = "0";
+            menuBar.style.borderRadius = "0";
+            menuBottom.style.borderRadius = "0";
+            if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+              cta.style.right = "30px";
+              cta.style.top = "60px";
+            }
+
+          } else {
+            menu.style.top = "60px";
+            menu.style.left = "10%";
+            menu.style.right = "10%";
+            menuBar.style.top = "60px";
+            menuBar.style.left = "10%";
+            menuBar.style.right = "10%";
+            menuBottom.style.top = "60px";
+            menuBottom.style.left = "10%";
+            menuBottom.style.right = "10%";
+            menu.style.borderRadius = "10px";
+            menuBar.style.borderRadius = "10px";
+            menuBottom.style.borderRadius = "10px";
+            if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+            console.log("ju");
+            cta.style.right = "30px";
+            cta.style.top = "150px";
+            }
+          }
+        };
     </script>
     """
   end
