@@ -159,8 +159,22 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
 
           <div class="product">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/suchdol.pdf">
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/suchdol.jpeg)" id="suchdol"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Plavecný bazén Suchdol
+                        </h4>
+                        <p class="font-normal">Kurzy probíhají v Sportcentrum Suchdol na univerzitě ČZU. Bazén má rozměry 25x13 metrů. Má pozvolný sestup, který začíná hloubkou 1,2m a končí hloubkou 1,8 m. Součástí budovy je i tělocvična.</p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
+              </div>
+          <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hloubetin.webp" id="hloubetin)"></div>
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hloubetin.webp)" id="hloubetin"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
