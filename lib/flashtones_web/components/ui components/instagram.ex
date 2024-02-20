@@ -85,36 +85,36 @@ defmodule Instagram do
       <h2 class="instagram-odsazeni-nadpis">Objevujte svět Flashtones</h2>
     <div class="instagram odsazeni">
       <div class="instagram-row">
-        <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
+        <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/ft1.jpeg);">
+          <div class="instagram-img" style="background-image: url(/images/ig/ft-1.gif);">
           </div>
             <b class="instagram-odsazeni">
-            🎄 Příprava vánočních dárků na..
+            Kromě našich originálních produktů se začínáme vě..
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
-          <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
+          <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" style="background-image: url(/images/ig/ft2.jpeg);">
+            <div class="instagram-img" style="background-image: url(/images/ig/ft-2.jpeg);">
             </div>
             <b class="instagram-odsazeni">
-            Slova hledat těžko. Vyjadřujeme upřímnou soustrast..
+            Naskladnili jsme oblíbené kšiltovky s potiskem psa..
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
-          <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
+          <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" style="background-image: url(/images/ig/ft3.jpeg);">
+            <div class="instagram-img" style="background-image: url(/images/ig/ft-3.jpeg);">
             </div>
             <b class="instagram-odsazeni">
-            🎄 Vánoce jsou za dveřmi a ty..
+            Ano, naskakujeme na vlnu upcyklingu, přijde nám to..
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
           </div>
         <div class="self-end aktuality-links">
-          <a href="https://instagram.com/zsprodeti" target="_blank" class="aktuality-link noBreak vylety-link">
+          <a href="https://instagram.com/flashtonescz/" target="_blank" class="aktuality-link noBreak vylety-link">
             více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
           </a>
           <a href="/zs/blog" target="_blank" class="aktuality-link noBreak vylety-link">
@@ -204,28 +204,28 @@ defmodule Instagram do
     <div class="instagram odsazeni">
       <div class="instagram-row">
       <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-        <div class="instagram-img" style="background-image: url(/images/ig/1.jpeg);">
+        <div class="instagram-img" style="background-image: url(/images/ig/zs-1.gif);">
         </div>
           <b class="instagram-odsazeni">
-            🎄❤️🏊‍♀️ Pokud bys chtěl voucher, piš na: petra@zsplavani.cz ❗️
+          Pokračujeme v naší oblíbené videosérii pro instruktory..
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/ft2.jpeg);">
+          <div class="instagram-img" style="background-image: url(/images/ig/ft-2.jpeg);">
           </div>
           <b class="instagram-odsazeni">
-          Slova hledat těžko. Vyjadřujeme upřímnou soustrast..
+          Naskladnili jsme oblíbené kšiltovky s potiskem psa..
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/3.jpeg);">
+          <div class="instagram-img" style="background-image: url(/images/ig/zs-3.gif);">
           </div>
           <b class="instagram-odsazeni">
-          Přiblížil se konec roku a my..
+          Zásobník cviků číslo 4! V akci naše Evička 🙂 ⛷️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
