@@ -28,6 +28,8 @@ config :flashtones, FlashtonesWeb.Endpoint,
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
 
+config :flashtones, Flashtones.Mailer, adapter: Swoosh.Adapters.Brevo, api_key: "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"
+
 # config :swoosh, :api_client, false
 #
 # config :flashtones, Flashtones.Mailer,

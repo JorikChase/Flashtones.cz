@@ -1,34 +1,6 @@
 defmodule FlashtonesWeb.KontaktyLive do
   use FlashtonesWeb, :live_view
-    #def handle_event("submit", %{assigns: assigns}) do
-    #  # Extract form data from the LiveView's 'params' map
-    #  form_data = assigns.params
-    #  # Check if the subscription checkbox is selected
-    #  if is_nil(form_data["subscribe"]) or form_data["subscribe"] != "Agreed" do
-    #    # Notify the user to agree to the subscription terms
-    #    #render(assigns, %{message: "Please agree to the subscription terms before submitting."})
-    #  else
-    #    # Construct the email data using the extracted form data and the recipient email address
-    #    email_data = %{
-    #      name: form_data["name"],
-    #      email: form_data["mail"],
-    #      subject: form_data["subject"],
-    #      message: form_data["message"]
-    #    }
-    #    # Create an HTTP client using Phoenix's 'Phoenix.HTTP' module
-    #    http = Phoenix.HTTP.new()
-    #    # Send the email request to the 'mail.php' script
-    #    response = http.post("mail.php", email_data)
-    #    # Handle the response from 'mail.php'
-    #    if response.status == 200 do
-    #      # Update the LiveView's template with success message
-    #      #render(assigns, %{message: "Your message has been sent."})
-    #    else
-    #      # Update the LiveView's template with error message
-    #      #render(assigns, %{message: "Error sending email: #{response.body}"})
-    #    end
-    #  end
-    #end
+  import Swoosh.Email
     def mount(_params, _session, socket) do
       socket = assign(socket, page_title: "FLASHTONES")
       {:ok, socket}
@@ -80,6 +52,17 @@ defmodule FlashtonesWeb.KontaktyLive do
 
             <Footer.footer />
       """
+    end
+    def handle_event("send_email", _params, socket) do
+      new()
+      |> from("testsandbox@seznam.cz")
+      |> to("jorikchase@gmail.com")
+      |> subject("Hello, Wally!")
+      |> text_body("Hello")
+      |> put_provider_option(:id, 1)
+      |> Flashtones.Mailer.deliver()
+
+      {:noreply, socket}
     end
 
 end

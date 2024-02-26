@@ -764,4 +764,17 @@ Mobilní verze
 - [x] Hover box objednání kurzu (změnit) všude.. nefunguje, zkusit podle figmy (klikneš a vyjede) - 1
 - [x] Mezera mezi header a nabídka kurzu  u všech podstránek.. to stejné flashtones - 1
 
-###celkem 31 hodin
+### celkem 31 hodin
+
+implementace kampani do blogu
+tituly podstranek
+suchdol
+tvorba ikon pro stranky - dohromady ^ 14
+r&d financnich procesu - 10
+tvorba dema dobrilo - 25
+harmonogram dobrilo
+priprava storyboard komiksu
+priprava moodboard + navrhy levelu
+r&d registracni system dobrilo - dohromady ^ 10
+
+### celkem 59 hodin

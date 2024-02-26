@@ -17,6 +17,8 @@ defmodule FlashtonesWeb.Router do
   scope "/", FlashtonesWeb do
     pipe_through :browser
 
+    live "/mail", Mail
+
     live "/", IndexLive
     live "/aktuality", AktualityLive
     live "/faq", FaqLive
@@ -154,7 +156,7 @@ defmodule FlashtonesWeb.Router do
       pipe_through :browser
 
       live_dashboard "/dashboard", metrics: FlashtonesWeb.Telemetry
-    # forward "/mailbox", Plug.Swoosh.MailboxPreview
+      forward "/mailbox", Plug.Swoosh.MailboxPreview
     end
   end
 end

@@ -332,7 +332,7 @@ defmodule Kontakt do
     <div class="kontakt-form">
     <form action="#">
       <b for="name">Jméno</b>
-      <input type="text" id="name" name="name" phx-click><br>
+      <input type="text" id="name" name="name"><br>
       <b for="mail">E-mail:</b>
       <input type="text" id="mail" name="mail" value="@"><br>
       <b for="message">Zpráva</b>
@@ -340,7 +340,7 @@ defmodule Kontakt do
       <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed" required="true">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete <a href="###">zde.</a></small></label></span>
           <br>
-      <input type="submit" class="button w-44 self-end deti-link" id="deti-submit" value="Odeslat">
+      <input type="submit" class="button w-44 self-end deti-link" id="deti-submit" value="Odeslat" phx-click="send_email">
     </form>
     </div>
     <script>
