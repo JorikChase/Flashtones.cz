@@ -8,6 +8,7 @@ import Config
 config :flashtones, FlashtonesWeb.Endpoint, cache_static_manifest: "priv/static/cache_manifest.json"
 
 config :flashtones, FlashtonesWeb.Endpoint,
+  debug_errors: false,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
   http: [ip: {127, 0, 0, 1}, port: 4000]
