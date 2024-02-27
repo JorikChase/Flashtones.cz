@@ -615,7 +615,7 @@ defmodule SectionToggle do
         <a href="#form">Napište nám</a>
     </div>
 
-    <section id="sectionA" class="hidden">
+    <section id="sectionA" class="">
       <Kontakt.main />
     </section>
     <section id="form" class="hidden">
