@@ -31,7 +31,7 @@ config :flashtones, FlashtonesWeb.Endpoint,
   #       ],
   check_origin: false,
   code_reloader: true,
-  debug_errors: true,
+  debug_errors: false,
   secret_key_base: "Uw2I+B2xjpGyNN9IdDq/0EiTkrT4KYJGxjpBI5eoAdkK4o3BB7pdXFIGdNjzFZlY",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
