@@ -158,7 +158,9 @@ h5 {
   /* 140% */
   text-transform: uppercase;
 }
-
+#client-error{
+  z-index: -10;
+}
 /*base*/
 html,
 body {
