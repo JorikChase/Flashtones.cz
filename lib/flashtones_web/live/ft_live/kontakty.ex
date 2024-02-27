@@ -1,12 +1,13 @@
 defmodule FlashtonesWeb.KontaktyLive do
   use FlashtonesWeb, :live_view
+
   import Swoosh.Email
     def mount(_params, _session, socket) do
       socket = assign(socket, page_title: "FLASHTONES")
       {:ok, socket}
     end
     def render(assigns) do
-      ~L"""
+      ~H"""
         <style>
           .app-bg{
             display: flex;
@@ -42,8 +43,6 @@ defmodule FlashtonesWeb.KontaktyLive do
               background-image: url(/images/icon/email.svg);
             }
           </style>
-      """
-      ~H"""
             <Nav.nav />
             <MenuMobile.menuFtMobile />
             <MenuPc.menuFtPc />
@@ -53,16 +52,21 @@ defmodule FlashtonesWeb.KontaktyLive do
             <Footer.footer />
       """
     end
-    def handle_event("send_email", _params, socket) do
+    def handle_event("send_email", %{"client_name" => client_name, "client_email" => client_email, "client_message" => client_message}, socket) do
       new()
-      |> from("testsandbox@seznam.cz")
-      |> to("jorikchase@gmail.com")
-      |> subject("Hello, Wally!")
-      |> text_body("Hello")
-      |> put_provider_option(:id, 1)
+      |> from("kontaktni.formular@zsprodeti.cz")
+      |> to("info@flashtones.cz")
+      |> subject("Formulář #{client_name}")
+      |> text_body("
+          zpráva |__
+          #{client_message}
+          ‾‾
+          |_      _
+          adresa |#{client_email}|
+          |‾      ‾
+          ")
       |> Flashtones.Mailer.deliver()
 
       {:noreply, socket}
     end
-
 end

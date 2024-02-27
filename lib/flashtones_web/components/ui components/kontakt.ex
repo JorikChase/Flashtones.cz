@@ -296,69 +296,97 @@ defmodule Kontakt do
 
     ~H"""
     <style>
-    #name{
-      width: 50%;
-      height: 60px;
-    }
-    #mail{
-      width: 50%;
-      height: 60px;
-    }
-    #message{
-      width: 100%;
-      height: 150px;
-    }
-    textarea{
-      border-radius: 10px;
-    }
-    textarea:hover{
-      border: solid var(--deti-hover);
-    }
-    .kontakt-form{
+      #client_name {
+        width: 50%;
+        height: 60px;
+      }
 
-    }
-    @media(orientation: portrait){
-      #name{
+      #client_email {
+        width: 50%;
+        height: 60px;
+      }
+
+      #client_message {
+        width: 100%;
+        height: 150px;
+      }
+
+      textarea {
+        border-radius: 10px;
+      }
+
+      textarea:hover {
+        border: solid var(--deti-hover);
+      }
+
+      .kontakt-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         width: 100%;
       }
-      #mail{
-        width: 100%;
-      }
-    }
 
-    </style>
-    <div class="kontakt-heading"><h3>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?</h3><br><h4>NAPIŠTE NÁM</h4></div>
-    <br>
-    <div class="kontakt-form">
-    <form action="#">
-      <b for="name">Jméno</b>
-      <input type="text" id="name" name="name"><br>
-      <b for="mail">E-mail:</b>
-      <input type="text" id="mail" name="mail" value="@"><br>
-      <b for="message">Zpráva</b>
-      <textarea id="message" name="message"> </textarea><br>
-      <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed" required="true">
-          <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete <a href="###">zde.</a></small></label></span>
-          <br>
-      <input type="submit" class="button w-44 self-end deti-link" id="deti-submit" value="Odeslat" phx-click="send_email">
-    </form>
-    </div>
-    <script>
-      document.getElementById("name").required = true;
-      mail = document.getElementById("mail")
-      mail.required = true;
-      function spam(mail)
-      {
-        mail.count += 1;
-        if(mail.count < 2){
-          mail.deliver();
-        } else {
-          return;
+      @media (orientation: portrait) {
+        #client_name {
+          width: 100%;
+        }
+
+        #client_email {
+          width: 100%;
         }
       }
-      document.getElementById("message").required = true;
+    </style>
+    <div class="kontakt-heading">
+      <h3>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?<br><br>NAPIŠTE NÁM</h3>
+    </div>
+    <br>
+    <div class="">
+      <form phx-submit="send_email" class="kontakt-form" id="contact-form">
+        <label for="client_name">
+          <h4>Celé jméno</h4>
+        </label>
+        <input type="text" id="client_name" name="client_name"><br>
+        <label for="client_email">
+          <h4>Váš email</h4>
+        </label>
+        <input type="text" id="client_email" name="client_email" value="@"><br>
+        <label for="client_message">
+          <h4>Vaše zpráva</h4>
+        </label>
+        <textarea id="client_message" name="client_message"></textarea><br>
+        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"><b>' Souhlasím se zpracováním osobních údajů</b></label><br>
+
+        <button type="submit" class="button" id="submit-btn" disabled>Odeslat</button>
+      </form>
+    </div>
+    <script>
+      document.getElementById("client_name").required = true;
+      document.getElementById("client_email").required = true;
+      document.getElementById("client_message").required = true;
       document.getElementById("subscribe").required = true;
+
+      const form = document.getElementById('contact-form');
+      const submitButton = document.getElementById('submit-btn');
+      const checkbox = document.getElementById('subscribe');
+
+      form.addEventListener('input', function () {
+        if (form.checkValidity() && checkbox.checked) {
+          submitButton.disabled = false;
+        } else {
+          submitButton.disabled = true;
+        }
+      });
+
+      checkbox.addEventListener('change', function () {
+        if (form.checkValidity() && checkbox.checked) {
+          submitButton.disabled = false;
+        } else {
+          submitButton.disabled = true;
+        }
+      });
     </script>
+
     """
   end
 end

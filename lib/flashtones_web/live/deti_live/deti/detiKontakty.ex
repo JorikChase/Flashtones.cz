@@ -1,6 +1,7 @@
 defmodule FlashtonesWeb.ZsKontaktyLive do
   use FlashtonesWeb, :live_view
 
+  import Swoosh.Email
   def render(assigns) do
     ~H"""
     <style>
@@ -51,6 +52,23 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
       <SectionToggle.kontakt />
       <Footer.deti />
     """
+  end
+  def handle_event("send_email", %{"client_name" => client_name, "client_email" => client_email, "client_message" => client_message}, socket) do
+    new()
+    |> from("kontaktni.formular@zsprodeti.cz")
+    |> to("info@zsprodeti.cz")
+    |> subject("Formulář #{client_name}")
+    |> text_body("
+        zpráva |__
+        #{client_message}
+        ‾‾
+        |_      _
+        adresa |#{client_email}|
+        |‾      ‾
+        ")
+    |> Flashtones.Mailer.deliver()
+
+    {:noreply, socket}
   end
 
 end
