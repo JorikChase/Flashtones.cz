@@ -5,11 +5,11 @@ defmodule Hero do
     ~H"""
     <div class="hero">
       <div class="hero-content">
-        <h1 id="hero-heading">Heading 1</h1>
+        <h1 id="hero-heading">S námi je to jízda!</h1>
         <br />
-        <a id="hero-button" class="hero-button">Button 1</a>
+        <a id="hero-button" class="hero-button" href="/about#about">O nás</a>
       </div>
-      <div class="hero-media"></div>
+      <div class="hero-media" style="background-image: url(/images/ft/pirat.jpg);"></div>
     </div>
     <span id="course-marker"></span>
 
@@ -83,11 +83,11 @@ defmodule Hero do
     ~H"""
       <div class="hero">
             <div class="hero-content">
-              <h1 id="hero-heading">Heading 1</h1>
+              <h1 id="hero-heading">Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost</h1>
               <br />
-              <a id="hero-button" class="hero-button">Button 1</a>
+              <a id="hero-button" class="hero-button">Naše aktivity</a>
             </div>
-            <div class="hero-media"></div>
+            <div class="hero-media" style="background-image: url(/images/deti/deti-bg.jpeg);"></div>
           </div>
           <span id="course-marker"></span>
 
