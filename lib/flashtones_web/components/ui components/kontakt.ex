@@ -342,7 +342,7 @@ defmodule Kontakt do
     </div>
     <br>
     <div class="">
-      <form phx-submit="send_email" class="kontakt-form" id="contact-form">
+      <form phx-submit="send_email" class="kontakt-form" id="email_form">
         <label for="client_name">
           <h4>Celé jméno</h4>
         </label>
@@ -361,30 +361,44 @@ defmodule Kontakt do
       </form>
     </div>
     <script>
-      document.getElementById("client_name").required = true;
-      document.getElementById("client_email").required = true;
-      document.getElementById("client_message").required = true;
-      document.getElementById("subscribe").required = true;
-
-      const form = document.getElementById('contact-form');
+      document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('email_form');
       const submitButton = document.getElementById('submit-btn');
-      const checkbox = document.getElementById('subscribe');
 
-      form.addEventListener('input', function () {
-        if (form.checkValidity() && checkbox.checked) {
-          submitButton.disabled = false;
+      form.addEventListener('input', function() {
+        const clientName = document.getElementById('client_name').value.trim();
+        const clientEmail = document.getElementById('client_email').value.trim();
+        const clientMessage = document.getElementById('client_message').value.trim();
+        const agreeChecked = document.getElementById('subscribe').checked;
+
+        if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
+          submitButton.removeAttribute('disabled');
         } else {
-          submitButton.disabled = true;
+          submitButton.setAttribute('disabled', 'disabled');
         }
       });
 
-      checkbox.addEventListener('change', function () {
-        if (form.checkValidity() && checkbox.checked) {
-          submitButton.disabled = false;
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+
+        // Checking if all fields are filled in
+        const clientName = document.getElementById('client_name').value.trim();
+        const clientEmail = document.getElementById('client_email').value.trim();
+        const clientMessage = document.getElementById('client_message').value.trim();
+        const agreeChecked = document.getElementById('subscribe').checked;
+
+        if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
+          // Alert that the form is submitted
+          alert('Odesláno');
+
+          // Disable the submit button again
+          submitButton.setAttribute('disabled', 'disabled');
         } else {
-          submitButton.disabled = true;
+          // If the form is not valid, prevent submission
+          alert('Prosím, vyplňte všechna políčka a souhlas se zpracováním osobních údajů.');
         }
       });
+    });
     </script>
 
     """

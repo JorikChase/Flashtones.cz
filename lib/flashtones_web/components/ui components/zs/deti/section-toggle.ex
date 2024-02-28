@@ -441,13 +441,12 @@ defmodule SectionToggle do
     ~H"""
     <div class="Odsazeni" id="course-item">
     <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
-    <title>Modular Toggle Button</title>
     <div class="section-toggle">
         <a href="#skoly">Pro školy</a>
         <a href="#verejnost">Pro veřejnost</a>
     </div>
 
-    <section id="skoly" class="hidden">
+    <section id="skoly" class="">
       <KurzNav.kurzPlavaniSkola />
     </section>
     <section id="verejnost" class="hidden">
@@ -484,6 +483,7 @@ defmodule SectionToggle do
                 sectionLinks.forEach(link => {
                     if (link.getAttribute("href") === hash) {
                         link.classList.add("active");
+                        link.classList.remove("hidden");
                     }
                 });
             } else {
