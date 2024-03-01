@@ -471,7 +471,7 @@ defmodule Hero do
               <br />
               <div class="hero-button-wrap">
               <a id="hero-button" class="hero-button" href="https://zsplavani.cz/zs/plavani#skoly">ŠKOLY</a>
-              <a id="hero-button" class="hero-button" href="https://zsplavani.cz/zs/plavani#verejnost">VEŘEJNOST</a>
+              <a id="hero-button-verejnost" class="hero-button" href="https://zsplavani.cz/zs/plavani#verejnost">VEŘEJNOST</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
