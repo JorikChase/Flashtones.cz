@@ -3,7 +3,7 @@ defmodule About do
 
   def general(assigns) do
     ~H"""
-      <div class="">
+      <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
         <!-- Navigation Bar -->
         <div class="flex justify-center mb-8 section-toggle section-toggle-long">
           <a class="" href="#about">O NÁS</a>
@@ -12,7 +12,7 @@ defmodule About do
           <a class="" href="#spolecnost">O SPOLEČNOSTI</a>
         </div>
         <!-- Sections -->
-        <section id="about" class="odsazeni">
+        <section id="about" class="hidden odsazeni">
           <General.flashtones />
         </section>
 
@@ -61,7 +61,7 @@ defmodule About do
                     }
                 });
             } else {
-                showSection("sectionA");
+                showSection("about");
                 sectionLinks[0].classList.add("active");
             }
         });
@@ -71,10 +71,7 @@ defmodule About do
 
   def deti(assigns) do
     ~H"""
-    <style>
-    </style>
-
-    <div class="">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
         <a class="" href="#about">O NÁS</a>
@@ -83,7 +80,7 @@ defmodule About do
         <a class="" href="#spolecnost">O SPOLEČNOSTI</a>
       </div>
       <!-- Sections -->
-      <section id="about" class="odsazeni">
+      <section id="about" class="hidden odsazeni">
         <General.deti />
       </section>
 
@@ -99,50 +96,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def plavani(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -167,50 +126,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def lyzovani(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -278,7 +199,7 @@ defmodule About do
 
   def enviro(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -346,7 +267,7 @@ defmodule About do
 
   def vylety(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -414,7 +335,7 @@ defmodule About do
 
   def doma(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -482,7 +403,7 @@ defmodule About do
 
   def academy(assigns) do
     ~H"""
-    <div class="">
+    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
