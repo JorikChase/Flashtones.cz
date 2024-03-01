@@ -337,7 +337,7 @@ defmodule MenuPc do
           <img src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> Úvod </a>
+          <a href="/zs/aktivity"> Aktivity </a>
           <a href="/zs/blog"> Blog </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
