@@ -3,7 +3,7 @@ defmodule SectionToggle do
 
     def lokality(assigns) do
       ~H"""
-      <div class="Odsazeni" id="course-item">
+      <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <title>lokality</title>
       <div class="section-toggle section-toggle-long">
           <a href="#sectionA" class="active">Plavání</a>
@@ -11,7 +11,7 @@ defmodule SectionToggle do
           <a href="#sectionC">Enviro</a>
       </div>
 
-      <section id="sectionA" class="hidden">
+      <section id="sectionA" class="">
       <DetailLokace.detailPlavaniSkoly />
       </section>
       <section id="sectionB" class="hidden">
@@ -241,13 +241,13 @@ defmodule SectionToggle do
             bottom: 15px;
         }
     </style>
-    <div class="studio" id="course-item">
+    <div class="studio" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
     <div class="section-toggle">
         <a href="#sectionA" class="active">Pro děti</a>
         <a href="#sectionB">Pro dospělé</a>
     </div>
 
-    <section id="sectionA" class="hidden">
+    <section id="sectionA" class="">
     <h3 id="deti">Jaké jsou programy pro děti?</h3>
       <br>
         <br>
@@ -439,64 +439,25 @@ defmodule SectionToggle do
   end
   def kurzNavPlavani(assigns) do
     ~H"""
-    <div class="Odsazeni" id="course-item">
-    <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
-    <div class="section-toggle">
-        <a href="#skoly">Pro školy</a>
-        <a href="#verejnost">Pro veřejnost</a>
+    <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+        <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
+        <div class="section-toggle">
+            <a href="#skoly">Pro školy</a>
+            <a href="#verejnost">Pro veřejnost</a>
+        </div>
+        <section id="skoly" class="">
+            <KurzNav.kurzPlavaniSkola />
+        </section>
+        <section id="verejnost" class="">
+            <KurzNav.kurzPlavaniVerejnost />
+        </section>
     </div>
 
-    <section id="skoly" class="">
-      <KurzNav.kurzPlavaniSkola />
-    </section>
-    <section id="verejnost" class="hidden">
-      <KurzNav.kurzPlavaniVerejnost />
-    </section>
-    </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const sectionLinks = document.querySelectorAll(".section-toggle a");
-            const sections = document.querySelectorAll("section");
-
-            function showSection(sectionId) {
-                sections.forEach(section => {
-                    if (section.id === sectionId) {
-                        section.classList.remove("hidden");
-                    } else {
-                        section.classList.add("hidden");
-                    }
-                });
-            }
-
-            sectionLinks.forEach(link => {
-                link.addEventListener("click", function(e) {
-                    e.preventDefault();
-                    sectionLinks.forEach(link => link.classList.remove("active"));
-                    e.target.classList.add("active");
-                    showSection(e.target.getAttribute("href").substr(1));
-                });
-            });
-
-            const hash = window.location.hash;
-            if (hash) {
-                showSection(hash.substr(1));
-                sectionLinks.forEach(link => {
-                    if (link.getAttribute("href") === hash) {
-                        link.classList.add("active");
-                        link.classList.remove("hidden");
-                    }
-                });
-            } else {
-                showSection("skoly");
-                sectionLinks[0].classList.add("active");
-            }
-        });
-    </script>
     """
   end
   def lokalityPlavani(assigns) do
     ~H"""
-    <div class="Odsazeni" id="course-item">
+    <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
     <title>lokality</title>
     <div class="section-toggle">
         <a href="#sectionA" class="active">Pro školy</a>
@@ -782,7 +743,7 @@ defmodule SectionToggle do
         <a href="#sectionB">PRO veřejnost</a>
     </div>
 
-    <section id="sectionA" class="hidden">
+    <section id="sectionA" class="">
       <KurzNav.enviroSkola />
     </section>
     <section id="sectionB" class="hidden">
