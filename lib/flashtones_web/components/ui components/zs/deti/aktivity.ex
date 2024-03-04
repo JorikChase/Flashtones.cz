@@ -3,9 +3,9 @@ defmodule Aktivity do
 
   def skoly(assigns) do
     ~H"""
-    <h2>Aktivity pro školy</h2>
+    <h2 id="skoly">Aktivity pro školy</h2>
     <br>
-    <div class="kurz-nav">
+    <div class="kurz-nav" >
           <a href="/zs/plavani/school" class="kurz-item">
             <img src="/images/icon/skola.svg">
             <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
@@ -71,9 +71,9 @@ defmodule Aktivity do
         flex-wrap: wrap;
       }
     </style>
-    <h2>Aktivity pro veřejnost</h2>
+    <h2 id="verejnost">Aktivity pro veřejnost</h2>
     <br>
-      <div class="kurz-nav kurz-nav-verejnost">
+      <div class="kurz-nav kurz-nav-verejnost" >
         <a href="/zs/plavani/summer" class="kurz-item">
           <img src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg">
           <h4>Letní příměstské tábory</h4>

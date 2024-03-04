@@ -296,37 +296,53 @@ defmodule MenuPc do
   def menuDetiPc(assigns) do
     ~H"""
     <style>
-      @media (orientation: landscape){
-        .pcMenuBar{
+      @media (orientation: landscape) {
+        .pcMenuBar {
           right: 10%;
           border-radius: 10px;
         }
-        .pcMenu a:hover{
+
+        .pcMenu a:hover {
           color: var(--deti-main);
         }
-        .pcMenuBottom{
-          z-index: 99;
-          position: fixed;
-          top: 60px;
-          right: 10%;
-          left: 10%;
-          height: 60px;
 
-          padding: 30px;
-
-          background: var(--deti-main);
-
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-
+        .pcMenuBottom {
+          z-index: 101;
+          position: absolute;
+          top: calc(100% + 10px); /* Position it below the link */
+          padding: 10px;
+          background: rgba(240, 240, 240, 0.98);
           transition: all 0.5s ease;
           display: none;
+          visibility: hidden;
+          opacity: 0;
         }
 
+        .pcMenuBottom.active {
+          display: block;
+          height: auto;
+          visibility: visible;
+          opacity: 1;
+        }
+
+        .pcMenuBottom div {
+        }
+
+        .pcMenuBottom div a {
+          color: black;
+          font-weight: bold;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+
+        .pcMenuBottom div a:hover {
+          color: rgb(0, 0, 0);
+        }
       }
-      @media (orientation: portrait){
-        .pcMenu{
-          display:none;
+
+      @media (orientation: portrait) {
+        .pcMenu {
+          display: none;
         }
       }
     </style>
@@ -337,7 +353,7 @@ defmodule MenuPc do
           <img src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/aktivity"> Aktivity </a>
+          <a href="/zs/aktivity" class="aktivita-link"> Aktivity </a>
           <a href="/zs/blog"> Blog </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
@@ -347,64 +363,54 @@ defmodule MenuPc do
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
-        <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
-        </div>
-        <div class="pcMenuBottomLinks"></div>
+        <div><a href="/zs/aktivity#skoly"> školy </a></div>
+        <div><a href="/zs/aktivity#verejnost"> veřejnost </a></div>
       </div>
     </div>
+
     <script>
       window.onload = function() {
-      if(window.location.href === "https://www.flashtones.cz/zs/"){window.location.href = "https://www.zsprodeti.cz/zs/"};
+        if (window.location.href === "https://www.flashtones.cz/zs/") {
+          window.location.href = "https://www.zsprodeti.cz/zs/";
+        }
       };
-      window.onscroll = function () {
-          var cta = document.getElementById("detail-cta");
-          var menu = document.getElementById("pcMenu");
-          var menuBar = document.getElementById("pcMenuBar");
-          var menuBottom = document.getElementById("pcMenuBottom");
-          const plavani = window.location.pathname.includes("/plavani/");
-          const lyzovani = window.location.pathname.includes("/lyzovani/");
-          const enviro = window.location.pathname.includes("/enviro/");
-          const vylety = window.location.pathname.includes("/vylety/");
-          if (window.pageYOffset > 100) {
-            menu.style.top = "0";
-            menu.style.left = "0";
-            menu.style.right = "0";
-            menuBar.style.top = "0";
-            menuBar.style.left = "0";
-            menuBar.style.right = "0";
-            menuBottom.style.top = "0";
-            menuBottom.style.left = "0";
-            menuBottom.style.right = "0";
-            menu.style.borderRadius = "0";
-            menuBar.style.borderRadius = "0";
-            menuBottom.style.borderRadius = "0";
-            if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-              cta.style.right = "30px";
-              cta.style.top = "60px";
-            }
 
-          } else {
-            menu.style.top = "60px";
-            menu.style.left = "10%";
-            menu.style.right = "10%";
-            menuBar.style.top = "60px";
-            menuBar.style.left = "10%";
-            menuBar.style.right = "10%";
-            menuBottom.style.top = "60px";
-            menuBottom.style.left = "10%";
-            menuBottom.style.right = "10%";
-            menu.style.borderRadius = "10px";
-            menuBar.style.borderRadius = "10px";
-            menuBottom.style.borderRadius = "10px";
-            if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-            console.log("ju");
-            cta.style.right = "30px";
-            cta.style.top = "150px";
-            }
+      document.addEventListener("DOMContentLoaded", function() {
+        var aktivitaLink = document.querySelector(".aktivita-link");
+        var submenu = document.getElementById("pcMenuBottom");
+
+        aktivitaLink.addEventListener("mouseover", function() {
+          positionSubmenu();
+          submenu.classList.add("active");
+        });
+
+        // Keep the submenu open when hovering over it
+        submenu.addEventListener("mouseover", function() {
+          submenu.classList.add("active");
+        });
+
+        // Remove active class from submenu when mouse leaves it
+        submenu.addEventListener("mouseout", function() {
+          submenu.classList.remove("active");
+        });
+
+        aktivitaLink.addEventListener("mouseout", function(event) {
+          // Check if the mouse is leaving the link and submenu
+          if (!event.relatedTarget || !submenu.contains(event.relatedTarget)) {
+            submenu.classList.remove("active");
           }
-        };
+        });
+
+        function positionSubmenu() {
+          var aktivitaLinkRect = aktivitaLink.getBoundingClientRect();
+          submenu.style.left = aktivitaLinkRect.left - 60 + "px";
+          submenu.style.top = aktivitaLinkRect.top - 75 + "px";
+        }
+      });
     </script>
+
+
+
     """
   end
 
