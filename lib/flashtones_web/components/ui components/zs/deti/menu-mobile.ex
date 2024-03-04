@@ -453,6 +453,7 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/zs">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
+        <a href="/zs/aktivity" class=""><h4>Aktivity</h4></a>
         <a href="/zs/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/zs/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/zs/enviro" class="zs-menu-enviro"> Enviro </a>
