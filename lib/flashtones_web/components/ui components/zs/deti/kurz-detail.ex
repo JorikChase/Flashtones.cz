@@ -219,20 +219,34 @@ defmodule KurzDetail do
         <div class="course-wrap top">
         <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
         <p>
-        Budou v roce 2024 probíhat v plaveckém a sportovním areálu Hloubětín, v plaveckém bazénu a sportovním areálu Biotopu Radotín, v bazénu Pražačka na Praze 3 a SPORTCENTRU v Brandýse nad Labem.
-        Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
-        </p>
-        <h3>Jak to probíhá</h3>
-        <p>
-          S využítím <bold>nových pedagogických metod</bold> a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+          S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
         </p>
         <p>
-          <bold>Výuka plavání</bold> probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 60 minut a je strukturována do tří částí:
+        Výuka plavání probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 60 minut a je strukturována do tří částí:
         </p>
         <ul>
-          <li><bold>úvodní seznámení s náplní lekce a následná rozcvička</bold></li>
-          <li><bold>hlavní výuková část</bold></li>
-          <li><bold>vodní hry</bold></li>
+          <li><b>úvodní seznámení s náplní lekce a následná rozcvička</b></li>
+          <li><b>hlavní výuková část</b></li>
+          <li><b>vodní hry</b></li>
+        </ul>
+        <h3>Jak to probíhá</h3>
+        <p>
+        Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků a doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
+        </p>
+        <p>
+        Jsou vhodné pro <b>děti ve věku 5-13 let</b>. Rádi mezi nás přivítáme úplné <b>začátečníky i pokročilé plavce</b> .
+        </p>
+        <p>
+        <b>Aktuálně nabízíme naše tábory v těchto lokalitách:</b>
+        </p>
+        <ul>
+          <li><b>Hloubětín - Praha 9</b></li>
+          <li><b>Radotín - Praha 13</b></li>
+          <li><b>Žižkov - Praha 3</b></li>
+          <li><b>Bubeneč - Praha 7</b></li>
+          <li><b>Suchdol - Praha 6</b></li>
+          <li><b>Brandýs nad Labem</b></li>
+          <li><b>Beroun</b></li>
         </ul>
         </div>
         <br>
