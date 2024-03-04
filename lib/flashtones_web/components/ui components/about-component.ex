@@ -3,7 +3,7 @@ defmodule About do
 
   def general(assigns) do
     ~H"""
-      <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+      <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
         <!-- Navigation Bar -->
         <div class="flex justify-center mb-8 section-toggle section-toggle-long">
           <a class="" href="#about">O NÁS</a>
@@ -101,7 +101,7 @@ defmodule About do
 
   def plavani(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -131,7 +131,7 @@ defmodule About do
 
   def lyzovani(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -156,50 +156,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def enviro(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -224,50 +186,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def vylety(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -292,50 +216,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def doma(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -360,50 +246,12 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 
   def academy(assigns) do
     ~H"""
-    <div class=""id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle">
         <a class="" href="#about">O NÁS</a>
@@ -428,44 +276,6 @@ defmodule About do
       </section>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const sectionLinks = document.querySelectorAll(".section-toggle a");
-          const sections = document.querySelectorAll("section");
-
-          function showSection(sectionId) {
-              sections.forEach(section => {
-                  if (section.id === sectionId) {
-                      section.classList.remove("hidden");
-                  } else {
-                      section.classList.add("hidden");
-                  }
-              });
-          }
-
-          sectionLinks.forEach(link => {
-              link.addEventListener("click", function(e) {
-                  e.preventDefault();
-                  sectionLinks.forEach(link => link.classList.remove("active"));
-                  e.target.classList.add("active");
-                  showSection(e.target.getAttribute("href").substr(1));
-              });
-          });
-
-          const hash = window.location.hash;
-          if (hash) {
-              showSection(hash.substr(1));
-              sectionLinks.forEach(link => {
-                  if (link.getAttribute("href") === hash) {
-                      link.classList.add("active");
-                  }
-              });
-          } else {
-              showSection("sectionA");
-              sectionLinks[0].classList.add("active");
-          }
-      });
-      </script>
     """
   end
 end
