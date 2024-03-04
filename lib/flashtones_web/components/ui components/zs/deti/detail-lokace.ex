@@ -159,6 +159,34 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
 
           <div class="product">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/beroun.pdf">
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/beroun.jpeg)" id="beroun"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        TIPSPORT LAGUNA BEROUN
+                        </h4>
+                        <p class="font-normal">K plavání využíváme krytý bazén s šesti 25metrovými drahami, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru.</p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
+              </div>
+          <div class="product">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/vystaviste.pdf">
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vystaviste.jpeg)" id="vystaviste"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        PRAHA - VÝSTAVIŠTĚ
+                        </h4>
+                        <p class="font-normal">K plavání využíváme krytý bazén s rozměry 25 m x 12,5 m s příjemně teplou vodou. Bazén má šest plaveckých drah, na jejich začátku jsou startovní bloky, pod kterými je hloubka 3,8 metrů.</p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
+              </div>
+          <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/suchdol.pdf">
                       <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/suchdol.jpeg)" id="suchdol"></div>
                         <div class="product-text-wrap">
