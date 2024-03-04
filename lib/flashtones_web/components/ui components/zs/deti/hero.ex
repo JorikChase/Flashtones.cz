@@ -462,7 +462,9 @@ defmodule Hero do
         align-items: center;
       }
       .hero-button{
-        padding: 5px 15px;
+        padding: 15px 30px;
+        margin-right: 1em;
+        height: auto;
       }
       </style>
       <div class="hero">
