@@ -13,7 +13,7 @@ defmodule DetailCta do
         style="background: var(--lyzovani-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">Cena dohodou</span>
@@ -63,7 +63,7 @@ defmodule DetailCta do
         style="background: var(--lyzovani-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+      nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -135,7 +135,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -189,7 +189,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+      nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -239,7 +239,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-16/termin/list"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -291,7 +291,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -344,7 +344,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -439,7 +439,7 @@ defmodule DetailCta do
         style="background: var(--vylety-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+      nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -599,7 +599,7 @@ defmodule DetailCta do
         style="background: var(--enviro-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -648,7 +648,7 @@ defmodule DetailCta do
         style="background: var(--enviro-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -697,7 +697,7 @@ defmodule DetailCta do
         style="background: var(--enviro-main)"
         href="/zs/kontakty#form"
       >
-        Objednat kurz
+        termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />

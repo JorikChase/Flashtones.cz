@@ -462,7 +462,6 @@ defmodule Hero do
         align-items: center;
       }
       .hero-button{
-        height: 3em;
         padding: 5px 15px;
       }
       </style>

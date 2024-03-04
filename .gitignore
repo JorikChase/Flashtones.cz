@@ -35,8 +35,8 @@ flashtones-*.tar
 npm-debug.log
 /assets/node_modules/
 
-/config/config.exs
-/config/production.exs
-/config/runtime.exs
-/config/prod.exs
-/config/dev.exs
+config/config.exs
+config/production.exs
+config/runtime.exs
+config/prod.exs
+config/dev.exs
