@@ -85,6 +85,7 @@ defmodule Hero do
             <div class="hero-content">
               <h1 id="hero-heading">Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost</h1>
               <br />
+              <br />
               <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
             </div>
             <div class="hero-media" style="background-image: url(/images/deti/deti-bg.jpeg);"></div>

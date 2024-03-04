@@ -925,6 +925,7 @@ form:hover {
   border-radius: 30px;
   color: white;
   font-weight: bold;
+  font-size: 4vh;
   border-radius: 30px;
   border: 2px solid var(--White, #FFF);
   background: var(--Black-30, rgba(0, 0, 0, 0.30));
