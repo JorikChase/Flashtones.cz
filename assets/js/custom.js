@@ -41,3 +41,139 @@ export const ToggleSwitch = {
         start();
     }
   }
+export const ModularMenu = {
+    mounted() {
+        function modulate() {
+            window.onscroll = function () {
+                var cta = document.getElementById("detail-cta");
+                var menu = document.getElementById("pcMenu");
+                var menuBar = document.getElementById("pcMenuBar");
+                var menuBottom = document.getElementById("pcMenuBottom");
+                var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+                var ctaEnd = 1984;
+          
+                const body = document.body;
+                const html = document.documentElement;
+                  const plavani = window.location.pathname.includes("/plavani/");
+                  const lyzovani = window.location.pathname.includes("/lyzovani/");
+                  const enviro = window.location.pathname.includes("/enviro/");
+                  const vylety = window.location.pathname.includes("/vylety/");
+                const height = Math.max(body.scrollHeight, body.offsetHeight,
+                  html.clientHeight, html.scrollHeight, html.offsetHeight);
+          
+                if (window.scrollY > 100) {
+                  menu.style.top = "0";
+                  menu.style.left = "0";
+                  menu.style.right = "0";
+                  menuBar.style.top = "0";
+                  menuBar.style.left = "0";
+                  menuBar.style.right = "0";
+                  menuBottom.style.top = "0";
+                  menuBottom.style.left = "0";
+                  menuBottom.style.right = "0";
+                  menu.style.borderRadius = "0";
+                  menuBar.style.borderRadius = "0";
+                  menuBottom.style.borderRadius = "0";
+                  if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+                    console.log("ju");
+                    cta.style.right = "10%";
+                    cta.style.top = "90px";
+                    cta.style.position = "fixed";
+                  }
+                  if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
+                    cta.style.opacity = "0";
+                    cta.style.visibility = "hidden";
+                  } else if(plavani || lyzovani || enviro || vylety){
+                    cta.style.opacity = "1";
+                    cta.style.visibility = "visible";
+                  }
+                } else {
+                  menu.style.top = "60px";
+                  menu.style.left = "10%";
+                  menu.style.right = "10%";
+                  menuBar.style.top = "60px";
+                  menuBar.style.left = "10%";
+                  menuBar.style.right = "15%";
+                  menuBottom.style.top = "60px";
+                  menuBottom.style.left = "10%";
+                  menuBottom.style.right = "10%";
+                  menu.style.borderRadius = "10px";
+                  menuBar.style.borderRadius = "10px";
+                  menuBottom.style.borderRadius = "10px";
+                  if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+                  cta.style.right = "10%";
+                  cta.style.top = "440px";
+                  }
+                }
+                };
+            }
+            modulate();
+  }}
+export const ModularMenuRight = {
+    mounted() {
+        function modulate() {
+            window.onscroll = function () {
+                var cta = document.getElementById("detail-cta");
+                var menu = document.getElementById("pcMenu");
+                var menuBar = document.getElementById("pcMenuBar");
+                var menuBottom = document.getElementById("pcMenuBottom");
+                var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+                var ctaEnd = 1984;
+          
+                const body = document.body;
+                const html = document.documentElement;
+                  const plavani = window.location.pathname.includes("/plavani/");
+                  const lyzovani = window.location.pathname.includes("/lyzovani/");
+                  const enviro = window.location.pathname.includes("/enviro/");
+                  const vylety = window.location.pathname.includes("/vylety/");
+                const height = Math.max(body.scrollHeight, body.offsetHeight,
+                  html.clientHeight, html.scrollHeight, html.offsetHeight);
+          
+                if (window.pageYOffset > 100) {
+                  menu.style.top = "0";
+                  menu.style.left = "0";
+                  menu.style.right = "0";
+                  menuBar.style.top = "0";
+                  menuBar.style.left = "0";
+                  menuBar.style.right = "10%";
+                  menuBottom.style.top = "0";
+                  menuBottom.style.left = "0";
+                  menuBottom.style.right = "0";
+                  menu.style.borderRadius = "0";
+                  menuBar.style.borderRadius = "0";
+                  menuBottom.style.borderRadius = "0";
+                  if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+                    console.log("ju");
+                    cta.style.right = "10%";
+                    cta.style.top = "90px";
+                    cta.style.position = "fixed";
+                  }
+                  if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
+                    cta.style.opacity = "0";
+                    cta.style.visibility = "hidden";
+                  } else if(plavani || lyzovani || enviro || vylety){
+                    cta.style.opacity = "1";
+                    cta.style.visibility = "visible";
+                  }
+                } else {
+                  menu.style.top = "60px";
+                  menu.style.left = "10%";
+                  menu.style.right = "10%";
+                  menuBar.style.top = "60px";
+                  menuBar.style.left = "10%";
+                  menuBar.style.right = "15%";
+                  menuBottom.style.top = "60px";
+                  menuBottom.style.left = "10%";
+                  menuBottom.style.right = "10%";
+                  menu.style.borderRadius = "10px";
+                  menuBar.style.borderRadius = "10px";
+                  menuBottom.style.borderRadius = "10px";
+                  if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
+                  cta.style.right = "10%";
+                  cta.style.top = "440px";
+                  }
+                }
+                };
+            }
+            modulate();
+  }}

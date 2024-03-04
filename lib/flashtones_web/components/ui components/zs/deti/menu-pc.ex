@@ -62,7 +62,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="./">
           <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
@@ -101,74 +101,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onload = function() {
-      if(window.location.href === "https://www.zsprodeti.cz/"){window.location.href = "https://zsprodeti.cz/zs/"};
-      if(window.location.href === "https://zsprodeti.cz/"){window.location.href = "https://zsprodeti.cz/zs/"};
-      };
-        window.onscroll = function () {
-        var cta = document.getElementById("detail-cta");
-        var menu = document.getElementById("pcMenu");
-        var menuBar = document.getElementById("pcMenuBar");
-        var menuBottom = document.getElementById("pcMenuBottom");
-        var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-        var ctaEnd = 1984;
-
-        const body = document.body;
-        const html = document.documentElement;
-          const plavani = window.location.pathname.includes("/plavani/");
-          const lyzovani = window.location.pathname.includes("/lyzovani/");
-          const enviro = window.location.pathname.includes("/enviro/");
-          const vylety = window.location.pathname.includes("/vylety/");
-        const height = Math.max(body.scrollHeight, body.offsetHeight,
-          html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-        if (window.pageYOffset > 100) {
-          menu.style.top = "0";
-          menu.style.left = "0";
-          menu.style.right = "0";
-          menuBar.style.top = "0";
-          menuBar.style.left = "0";
-          menuBar.style.right = "10%";
-          menuBottom.style.top = "0";
-          menuBottom.style.left = "50%";
-          menuBottom.style.right = "0";
-          menu.style.borderRadius = "0";
-          menuBar.style.borderRadius = "0";
-          menuBottom.style.borderRadius = "0";
-          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-            console.log("ju");
-            cta.style.right = "10%";
-            cta.style.top = "90px";
-            cta.style.position = "fixed";
-          }
-          if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-            cta.style.opacity = "0";
-            cta.style.visibility = "hidden";
-          } else if(plavani || lyzovani || enviro || vylety){
-            cta.style.opacity = "1";
-            cta.style.visibility = "visible";
-          }
-        } else {
-          menu.style.top = "60px";
-          menu.style.left = "10%";
-          menu.style.right = "10%";
-          menuBar.style.top = "60px";
-          menuBar.style.left = "10%";
-          menuBar.style.right = "15%";
-          menuBottom.style.top = "60px";
-          menuBottom.style.left = "50%";
-          menuBottom.style.right = "10%";
-          menu.style.borderRadius = "10px";
-          menuBar.style.borderRadius = "10px";
-          menuBottom.style.borderRadius = "10px";
-          if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          cta.style.right = "10%";
-          cta.style.top = "440px";
-          }
-        }
-        };
-    </script>
     """
   end
 
@@ -205,7 +137,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/academy">
           <img src="/images/academy/academy-logo.svg" />
@@ -226,70 +158,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 
@@ -347,7 +215,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="https://zsprodeti.cz/zs">
           <img src="/images/deti/deti-logo.svg" />
@@ -369,12 +237,6 @@ defmodule MenuPc do
     </div>
 
     <script>
-      window.onload = function() {
-        if (window.location.href === "https://www.flashtones.cz/zs/") {
-          window.location.href = "https://www.zsprodeti.cz/zs/";
-        }
-      };
-
       document.addEventListener("DOMContentLoaded", function() {
         var aktivitaLink = document.querySelector(".aktivita-link");
         var submenu = document.getElementById("pcMenuBottom");
@@ -405,9 +267,17 @@ defmodule MenuPc do
           var aktivitaLinkRect = aktivitaLink.getBoundingClientRect();
           submenu.style.left = aktivitaLinkRect.left - 60 + "px";
           submenu.style.top = aktivitaLinkRect.top - 75 + "px";
+          submenu.style.width = "150px"; // Set the width of the submenu
+          if (window.scrollY > 100){
+            submenu.style.left = aktivitaLinkRect.left + "px";
+            submenu.style.top = aktivitaLinkRect.top + "px";
+            submenu.style.width = "150px"; // Set the width of the submenu
+            submenu.style.borderRadius = "15px";
+          }
         }
       });
     </script>
+
 
 
 
@@ -447,7 +317,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/doma">
           <img src="/images/doma/doma-logo.svg" />
@@ -467,70 +337,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 
@@ -567,7 +373,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/enviro">
           <img src="/images/enviro/enviro-logo.svg" />
@@ -589,70 +395,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 
@@ -689,7 +431,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/lyzovani">
           <img src="/images/lyzovani/lyzovani-logo.svg" />
@@ -712,70 +454,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 
@@ -812,7 +490,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/plavani">
           <img src="/images/plavani/plavani-logo.svg" />
@@ -835,70 +513,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 
@@ -935,7 +549,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu">
+    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/vylety">
           <img src="/images/vylety/vylety-logo.svg" />
@@ -957,70 +571,6 @@ defmodule MenuPc do
         </div>
       </div>
     </div>
-    <script>
-      window.onscroll = function () {
-      var cta = document.getElementById("detail-cta");
-      var menu = document.getElementById("pcMenu");
-      var menuBar = document.getElementById("pcMenuBar");
-      var menuBottom = document.getElementById("pcMenuBottom");
-      var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-      var ctaEnd = 1984;
-
-      const body = document.body;
-      const html = document.documentElement;
-        const plavani = window.location.pathname.includes("/plavani/");
-        const lyzovani = window.location.pathname.includes("/lyzovani/");
-        const enviro = window.location.pathname.includes("/enviro/");
-        const vylety = window.location.pathname.includes("/vylety/");
-      const height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-      if (window.pageYOffset > 100) {
-        menu.style.top = "0";
-        menu.style.left = "0";
-        menu.style.right = "0";
-        menuBar.style.top = "0";
-        menuBar.style.left = "0";
-        menuBar.style.right = "10%";
-        menuBottom.style.top = "0";
-        menuBottom.style.left = "0";
-        menuBottom.style.right = "0";
-        menu.style.borderRadius = "0";
-        menuBar.style.borderRadius = "0";
-        menuBottom.style.borderRadius = "0";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-          console.log("ju");
-          cta.style.right = "10%";
-          cta.style.top = "90px";
-          cta.style.position = "fixed";
-        }
-        if(distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)){
-          cta.style.opacity = "0";
-          cta.style.visibility = "hidden";
-        } else if(plavani || lyzovani || enviro || vylety){
-          cta.style.opacity = "1";
-          cta.style.visibility = "visible";
-        }
-      } else {
-        menu.style.top = "60px";
-        menu.style.left = "10%";
-        menu.style.right = "10%";
-        menuBar.style.top = "60px";
-        menuBar.style.left = "10%";
-        menuBar.style.right = "15%";
-        menuBottom.style.top = "60px";
-        menuBottom.style.left = "10%";
-        menuBottom.style.right = "10%";
-        menu.style.borderRadius = "10px";
-        menuBar.style.borderRadius = "10px";
-        menuBottom.style.borderRadius = "10px";
-        if(window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)){
-        cta.style.right = "10%";
-        cta.style.top = "440px";
-        }
-      }
-      };
-    </script>
     """
   end
 end

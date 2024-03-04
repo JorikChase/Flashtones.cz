@@ -24,8 +24,12 @@ import topbar from "../vendor/topbar"
 import "phoenix_live_head"
 
 import {ToggleSwitch} from "./custom.js"
+import {ModularMenu} from "./custom.js"
+import {ModularMenuRight} from "./custom.js"
 let Hooks = {}
 Hooks.ToggleSwitch = ToggleSwitch
+Hooks.ModularMenu = ModularMenu
+Hooks.ModularMenuRight = ModularMenuRight
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 let liveSocket = new LiveSocket("/live", Socket, {params: {_csrf_token: csrfToken}, hooks: Hooks})
