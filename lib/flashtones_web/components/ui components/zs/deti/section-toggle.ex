@@ -445,7 +445,7 @@ defmodule SectionToggle do
             <a href="#skoly">Pro školy</a>
             <a href="#verejnost">Pro veřejnost</a>
         </div>
-        <section id="skoly" class="hidden">
+        <section id="skoly" class="">
             <KurzNav.kurzPlavaniSkola />
         </section>
         <section id="verejnost" class="hidden">
