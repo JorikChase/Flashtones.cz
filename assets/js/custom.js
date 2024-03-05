@@ -105,14 +105,7 @@ export const ModularMenu = {
           }
         }
       };
-      zs = "zsprodeti.cz"
-      ww = "www.zsprodeti.cz"
-      zsl = "zsprodeti.cz/"
-      wwl = "www.zsprodeti.cz/"
-      if (zs | ww | zsl | wwl){
-        window.location.href = "zsprodeti.cz/zs";
-        console.log("if functional");
-      };
+      
         console.log("pes");
         var aktivitaLink = document.querySelector(".aktivita-link");
         var submenu = document.getElementById("pcMenuBottom");
@@ -220,6 +213,13 @@ export const ModularMenuRight = {
             cta.style.top = "440px";
           }
         }
+      };
+      zs = "zsprodeti.cz"
+      ww = "www.zsprodeti.cz"
+      zsl = "zsprodeti.cz/"
+      wwl = "www.zsprodeti.cz/"
+      if (window.location.href = zs || ww || zsl || wwl){
+        window.location.href = "/zs/";
       };
     }
     modulate();
