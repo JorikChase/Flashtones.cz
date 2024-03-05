@@ -213,11 +213,18 @@ export const ModularMenuRight = {
           }
         }
       };
+      const plavani = window.location.pathname.includes("/plavani/");
+      const lyzovani = window.location.pathname.includes("/lyzovani/");
+      const enviro = window.location.pathname.includes("/enviro/");
+      const vylety = window.location.pathname.includes("/vylety/");
+      const doma = window.location.pathname.includes("/doma/");
+      const academy = window.location.pathname.includes("/academy/");
       zs = "zsprodeti.cz"
       ww = "www.zsprodeti.cz"
       zsl = "zsprodeti.cz/"
       wwl = "www.zsprodeti.cz/"
-      if (window.location.href = zs || ww || zsl || wwl){
+      if (window.location.href = zs || ww || zsl || wwl && !(plavani || lyzovani || enviro || vylety)
+      ){
         window.location.href = "/zs/";
       };
     }
