@@ -9,6 +9,7 @@ defmodule FlashtonesWeb.Router do
     plug :protect_from_forgery
     plug :put_secure_browser_headers
     plug :put_user_token
+
   end
 
   defp put_user_token(conn, _) do
@@ -168,6 +169,7 @@ defmodule FlashtonesWeb.Router do
 
       live_dashboard "/dashboard", metrics: FlashtonesWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview
+      redirect "/zsprodeti.cz", to: "/zs"
     end
   end
 end

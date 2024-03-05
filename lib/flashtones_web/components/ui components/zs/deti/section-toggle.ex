@@ -555,7 +555,6 @@ defmodule SectionToggle do
       <section id="skoly" class="">
         <KurzNav.kurzPlavaniSkola />
       </section>
-      <br>
       <section id="verejnost" class="">
         <KurzNav.kurzPlavaniVerejnost />
       </section>
