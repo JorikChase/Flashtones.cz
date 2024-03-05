@@ -227,11 +227,11 @@ export const ModularMenuRight = {
       if (plavani || lyzovani || enviro || vylety || doma || academy){
         notIndex = false;
         console.log(" |||| ");
+        if (window.location.href = zs || ww || zsl || wwl && notIndex)
+        {
+          window.location.href = "/zs/";
+        };
       }
-      if (window.location.href = zs || ww || zsl || wwl && notIndex)
-      {
-        window.location.href = "/zs/";
-      };
     }
     modulate();
   }
