@@ -58,8 +58,7 @@ export const ModularMenu = {
         const lyzovani = window.location.pathname.includes("/lyzovani/");
         const enviro = window.location.pathname.includes("/enviro/");
         const vylety = window.location.pathname.includes("/vylety/");
-        const height = Math.max(body.scrollHeight, body.offsetHeight,
-          html.clientHeight, html.scrollHeight, html.offsetHeight);
+        const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
         if (window.scrollY > 100) {
           menu.style.top = "0";
@@ -106,7 +105,14 @@ export const ModularMenu = {
           }
         }
       };
-      document.addEventListener("DOMContentLoaded", function () {
+      zs = "zsprodeti.cz"
+      ww = "www.zsprodeti.cz"
+      zsl = "zsprodeti.cz/"
+      wwl = "www.zsprodeti.cz/"
+      if (zs | ww | zsl | wwl){
+        window.location.href = "zsprodeti.cz/zs";
+      };
+        console.log("pes");
         var aktivitaLink = document.querySelector(".aktivita-link");
         var submenu = document.getElementById("pcMenuBottom");
 
@@ -144,7 +150,7 @@ export const ModularMenu = {
             submenu.style.borderRadius = "15px";
           }
         }
-      });
+      ;
     }
     modulate();
   }
@@ -216,5 +222,53 @@ export const ModularMenuRight = {
       };
     }
     modulate();
+  }
+}
+export const ScrollingCarousel = {
+  mounted() {
+    function scroll() {
+      document.addEventListener("DOMContentLoaded", function() {
+        const kurzCarousels = document.querySelectorAll('.kurz-carousel');
+        
+        kurzCarousels.forEach(carousel => {
+          const kurzNav = carousel.querySelector('.kurz-nav');
+          const kurzItems = carousel.querySelectorAll('.kurz-item');
+          const itemWidth = kurzItems[0].offsetWidth + 30; // Considering 30px gap
+          let currentIndex = 0;
+          const isPortrait = () => {return window.innerHeight > window.innerWidth;};
+          const isLandscape = () => {return window.innerWidth > window.innerHeight;};
+          const isMobile = () => {return window.innerWidth <= 768 && isPortrait();};
+
+          // Function to auto-scroll the carousel
+          function autoScroll() {
+            currentIndex = (currentIndex + 1) % (kurzItems.length - 4);
+            kurzNav.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+          }
+
+          // Set interval for auto-scrolling
+          if (isLandscape()) {setInterval(autoScroll, 5000);};
+
+          const prevBtn = carousel.querySelector('.prev-btn');
+          const nextBtn = carousel.querySelector('.next-btn');
+
+          // Event listeners for previous and next buttons
+          prevBtn.addEventListener('click', function() {
+            if (currentIndex > 0) {
+              currentIndex--;
+              kurzNav.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+            }
+          });
+
+          nextBtn.addEventListener('click', function() {
+            if (currentIndex < kurzItems.length - 1) {
+              currentIndex++;
+              kurzNav.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+            }
+          });
+        });
+      });
+
+    }
+    scroll();
   }
 }

@@ -26,10 +26,12 @@ import "phoenix_live_head"
 import {ToggleSwitch} from "./custom.js"
 import {ModularMenu} from "./custom.js"
 import {ModularMenuRight} from "./custom.js"
+import {ScrollingCarousel} from "./custom.js"
 let Hooks = {}
 Hooks.ToggleSwitch = ToggleSwitch
 Hooks.ModularMenu = ModularMenu
 Hooks.ModularMenuRight = ModularMenuRight
+Hooks.ScrollingCarousel = ScrollingCarousel
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 

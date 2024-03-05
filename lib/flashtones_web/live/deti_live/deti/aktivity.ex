@@ -69,7 +69,7 @@ defmodule FlashtonesWeb.AktivityLive do
             visibility: hidden;
           }
         }
-        
+
         .prev-btn,
         .next-btn {
           background-color: transparent;
@@ -96,13 +96,13 @@ defmodule FlashtonesWeb.AktivityLive do
         <Aktivity.skoly />
         <Aktivity.verejnost />
       </div>
-      
+
       <Zustanme.deti />
       <Footer.deti />
       <script>
         document.addEventListener("DOMContentLoaded", function() {
           const kurzCarousels = document.querySelectorAll('.kurz-carousel');
-          
+
           kurzCarousels.forEach(carousel => {
             const kurzNav = carousel.querySelector('.kurz-nav');
             const kurzItems = carousel.querySelectorAll('.kurz-item');
