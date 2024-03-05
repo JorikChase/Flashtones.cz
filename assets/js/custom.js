@@ -223,8 +223,13 @@ export const ModularMenuRight = {
       ww = "www.zsprodeti.cz"
       zsl = "zsprodeti.cz/"
       wwl = "www.zsprodeti.cz/"
-      if (window.location.href = zs || ww || zsl || wwl && !(plavani || lyzovani || enviro || vylety)
-      ){
+      let notIndex = true;
+      if (plavani || lyzovani || enviro || vylety || doma || academy){
+        notIndex = false;
+        console.log(" |||| ");
+      }
+      if (window.location.href = zs || ww || zsl || wwl && notIndex)
+      {
         window.location.href = "/zs/";
       };
     }
