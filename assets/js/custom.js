@@ -213,30 +213,7 @@ export const ModularMenuRight = {
           }
         }
       };
-      let plavani = window.location.pathname.includes("/plavani");
-      let lyzovani = window.location.pathname.includes("/lyzovani");
-      let enviro = window.location.pathname.includes("/enviro");
-      let vylety = window.location.pathname.includes("/vylety");
-      let doma = window.location.pathname.includes("/doma");
-      let academy = window.location.pathname.includes("/academy");
-      let aktivity = window.location.pathname.includes("/aktivity");
-      let blog = window.location.pathname.includes("/blog");
-      let lokality = window.location.pathname.includes("/lokality");
-      let reference = window.location.pathname.includes("/reference");
-      let about = window.location.pathname.includes("/about");
-      let kontakty = window.location.pathname.includes("/kontakty");
-      zs = "zsprodeti.cz"
-      ww = "www.zsprodeti.cz"
-      zsl = "zsprodeti.cz/"
-      wwl = "www.zsprodeti.cz/"
-      if (window.location.href = zs || ww || zsl || wwl)
-      {
-        if (plavani || lyzovani || enviro || vylety || doma || academy || aktivity || blog || lokality || reference || about || kontakty){
-          console.log(" |||| ");
-        } else {
-          window.location.href = "/zs/";
-        }
-      };
+      
     }
     modulate();
   }
