@@ -169,7 +169,7 @@ defmodule FlashtonesWeb.Router do
 
       live_dashboard "/dashboard", metrics: FlashtonesWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview
-      redirect "/zsprodeti.cz", to: "/zs"
+      redirect "zsprodeti.cz", to: "/zs"
     end
   end
 end
