@@ -213,18 +213,18 @@ export const ModularMenuRight = {
           }
         }
       };
-      const plavani = window.location.pathname.includes("/plavani");
-      const lyzovani = window.location.pathname.includes("/lyzovani");
-      const enviro = window.location.pathname.includes("/enviro");
-      const vylety = window.location.pathname.includes("/vylety");
-      const doma = window.location.pathname.includes("/doma");
-      const academy = window.location.pathname.includes("/academy");
-      const aktivity = window.location.pathname.includes("/aktivity");
-      const blog = window.location.pathname.includes("/blog");
-      const lokality = window.location.pathname.includes("/lokality");
-      const reference = window.location.pathname.includes("/reference");
-      const about = window.location.pathname.includes("/about");
-      const kontakty = window.location.pathname.includes("/kontakty");
+      let plavani = window.location.pathname.includes("/plavani");
+      let lyzovani = window.location.pathname.includes("/lyzovani");
+      let enviro = window.location.pathname.includes("/enviro");
+      let vylety = window.location.pathname.includes("/vylety");
+      let doma = window.location.pathname.includes("/doma");
+      let academy = window.location.pathname.includes("/academy");
+      let aktivity = window.location.pathname.includes("/aktivity");
+      let blog = window.location.pathname.includes("/blog");
+      let lokality = window.location.pathname.includes("/lokality");
+      let reference = window.location.pathname.includes("/reference");
+      let about = window.location.pathname.includes("/about");
+      let kontakty = window.location.pathname.includes("/kontakty");
       zs = "zsprodeti.cz"
       ww = "www.zsprodeti.cz"
       zsl = "zsprodeti.cz/"
