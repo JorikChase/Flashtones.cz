@@ -1,7 +1,7 @@
 defmodule FlashtonesWeb.IndexLive do
   use FlashtonesWeb, :live_view
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "FLASHTONES")
+    socket = assign(socket, page_title: "ZŠ PRO DĚTI")
     socket =
       socket
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")

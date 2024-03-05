@@ -106,7 +106,6 @@ export const ModularMenu = {
         }
       };
       
-        console.log("pes");
         var aktivitaLink = document.querySelector(".aktivita-link");
         var submenu = document.getElementById("pcMenuBottom");
 
