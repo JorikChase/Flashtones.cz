@@ -111,6 +111,7 @@ export const ModularMenu = {
       wwl = "www.zsprodeti.cz/"
       if (zs | ww | zsl | wwl){
         window.location.href = "zsprodeti.cz/zs";
+        console.log("if functional");
       };
         console.log("pes");
         var aktivitaLink = document.querySelector(".aktivita-link");
