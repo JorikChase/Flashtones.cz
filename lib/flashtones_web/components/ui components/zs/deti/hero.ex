@@ -7,75 +7,95 @@ defmodule Hero do
       <div class="hero-content">
         <h1 id="hero-heading">S námi je to jízda!</h1>
         <br />
+        <br />
         <a id="hero-button" class="hero-button" href="/about#about">O nás</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/ft/pirat.jpg);"></div>
+      <div class="hero-media" style="background-image: url(/images/ft/tobogan.gif);"></div>
     </div>
     <span id="course-marker"></span>
 
     <style>
-    .hero-media{
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-    }
+      .hero {
+        position: relative;
+        height: 80vh;
+        overflow: hidden;
+      }
+
+      .hero-media {
+        transition: background-image 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: left;
+        color: white;
+        padding: 120px 10%;
+      }
+
     </style>
+
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const mediaItems = [
-            { type: 'video', src: '/images/ft/tobogan.mp4', heading: 'S námi je to jízda!', button: 'O nás', href: "/about#about" },
-            { type: 'image', src: '/images/ft/pirat.jpg', heading: 'Sledujte nás na našich sítích!', button: 'Tady', href: "#course-marker"  },
-            { type: 'image', src: '/images/ft/studio.jpg', heading: 'Otevřeli jsme Flashtones Studio!', button: 'Podívejte se', href: "/studio"  },
-            { type: 'image', src: '/images/ft/originalni-produkty.JPG', heading: 'Originální produkty vyrobené v ČR', button: 'Prohlédnout si', href: "/produkty"  }
+      function flashtonesHero() {
+        const slides = [
+          {
+            image: '/images/ft/pirat.jpg',
+            heading: 'Sledujte nás na našich sítích!',
+            button: 'Tady',
+            href: '#course-marker'
+          },
+          {
+            image: '/images/ft/studio.jpg',
+            heading: 'Otevřeli jsme Flashtones Studio!',
+            button: 'Podívejte se',
+            href: '/studio'
+          },
+          {
+            image: '/images/ft/tobogan.gif',
+            heading: 'S námi je to jízda!',
+            button: 'O nás',
+            href: '/about#about'
+          },
+          {
+            image: '/images/ft/originalni-produkty.JPG',
+            heading: 'Originální produkty vyrobené v ČR',
+            button: 'Prohlédnout si',
+            href: '/produkty'
+          }
         ];
-        let currentSlide = 0;
 
-          const heroHeading = document.getElementById("hero-heading");
-          const heroButton = document.getElementById("hero-button");
-          const heroMedia = document.querySelector(".hero-media");
+        let currentSlideIndex = 0;
+        const heroMedia = document.querySelector(".hero-media");
+        const heroHeading = document.getElementById("hero-heading");
+        const heroButton = document.getElementById("hero-button");
 
-          function updateHeroContent(slideIndex) {
-              const mediaItem = mediaItems[slideIndex];
-              heroHeading.textContent = mediaItem.heading;
-              heroButton.textContent = mediaItem.button;
-              heroButton.href = mediaItem.href;
+        function showSlide(index) {
+          const slide = slides[index];
+          heroMedia.style.backgroundImage = `url(${slide.image})`;
+          heroHeading.textContent = slide.heading;
+          heroButton.textContent = slide.button;
+          heroButton.href = slide.href;
+        }
 
-              // Create a new media element
-              const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-              newMedia.src = mediaItem.src;
-              newMedia.autoplay = true;
-              newMedia.loop = true;
-              newMedia.muted = true;
-              newMedia.style.width = '100%';
-              newMedia.style.height = '100%';
-              newMedia.style.objectFit = 'cover';
-              newMedia.style.position = 'absolute';
-              newMedia.style.top = 0;
-              newMedia.style.left = 0;
+        function nextSlide() {
+          currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+          showSlide(currentSlideIndex);
+        }
 
-              // Add the new media element and apply the 'active' class for smooth transition
-              heroMedia.innerHTML = '';
-              heroMedia.appendChild(newMedia);
-              setTimeout(() => {
-                  newMedia.classList.add('active');
-              }, 0);
-          }
+        setInterval(nextSlide, 5000);
+        showSlide(currentSlideIndex);
+      }
 
-          function nextSlide() {
-              currentSlide = (currentSlide + 1) % mediaItems.length;
-              heroMedia.firstChild.classList.remove('active');
-              setTimeout(() => {
-                  updateHeroContent(currentSlide);
-              }, 600); // Adjust this timeout to match your transition time
-          }
-
-          // Initially set the content
-          updateHeroContent(currentSlide);
-
-          // Start auto-switching every 5 seconds
-          setInterval(nextSlide, 5000);
-      });
+      flashtonesHero();
     </script>
+
     """
   end
 
