@@ -1,6 +1,7 @@
 defmodule FlashtonesWeb.Router do
   use FlashtonesWeb, :router
 
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -169,7 +170,6 @@ defmodule FlashtonesWeb.Router do
 
       live_dashboard "/dashboard", metrics: FlashtonesWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview
-      redirect "zsprodeti.cz", to: "/zs"
     end
   end
 end
