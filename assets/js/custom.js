@@ -213,9 +213,9 @@ export const ModularMenuRight = {
           }
         }
       };
-      if (window.location.href === "https://zsprodeti.cz/") {
-          window.location.replace("https://zsprodeti.cz/zs/");
-        }
+      //if (window.location.href === "https://zsprodeti.cz/") {
+      //    window.location.replace("https://zsprodeti.cz/zs/");
+      //  }
     }
     modulate();
   }
