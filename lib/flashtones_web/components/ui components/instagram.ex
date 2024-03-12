@@ -204,28 +204,28 @@ defmodule Instagram do
     <div class="instagram odsazeni">
       <div class="instagram-row">
       <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-        <div class="instagram-img" style="background-image: url(/images/ig/zs-1.gif);">
+        <div class="instagram-img" style="background-image: url(/images/ig/11-3-1.gif);">
         </div>
           <b class="instagram-odsazeni">
-          Pokračujeme v naší oblíbené videosérii pro instruktory..
+          Blížíme se do finále. Další video ze série ZŠ Lyžování..
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/ft-2.jpeg);">
+          <div class="instagram-img" style="background-image: url(/images/ig/zs-2.jpg);">
           </div>
           <b class="instagram-odsazeni">
-          Naskladnili jsme oblíbené kšiltovky s potiskem psa..
+          🇨🇿První workshop na novém místě!! Ve spolupráci se..
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/zs-3.gif);">
+          <div class="instagram-img" style="background-image: url(/images/ig/11-3-3.gif);">
           </div>
           <b class="instagram-odsazeni">
-          Zásobník cviků číslo 4! V akci naše Evička 🙂 ⛷️
+          Když je někde potřeba zasáhnout a udělat si třeba..
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>

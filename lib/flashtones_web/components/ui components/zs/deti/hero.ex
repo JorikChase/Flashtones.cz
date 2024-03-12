@@ -123,6 +123,17 @@ defmodule Hero do
             filter: brightness(0.9);
             filter: contrast(0.7);
           }
+          .hero-button{
+            transition: all 0.5s ease-in-out;
+            background: rgba(0, 0, 0, 0.5);
+            transform: scale(1);
+          }
+          .hero-button:hover{
+            transform: scale(1.2);
+            border: #bbeded 2px solid;
+            background: rgba(0, 0, 0, 0.7);
+            color: #bbeded;
+          }
           @media(orientation: portrait){
             .hero-media{
               background-position: center!important;

@@ -42,7 +42,7 @@ defmodule FlashtonesWeb.EnviroSvpLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroSvp />
-      <DetailCta.enviro />
+      <DetailCta.enviroSvp />
       <KurzDetail.enviroSvp />
       <DetailFaq.enviro />
       <!--<h3>Další informace</h3>-->

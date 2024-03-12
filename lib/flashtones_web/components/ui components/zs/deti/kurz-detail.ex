@@ -236,18 +236,6 @@ defmodule KurzDetail do
         <p>
         Jsou vhodné pro <b>děti ve věku 5-13 let</b>. Rádi mezi nás přivítáme úplné <b>začátečníky i pokročilé plavce</b> .
         </p>
-        <p>
-        <b>Aktuálně nabízíme naše tábory v těchto lokalitách:</b>
-        </p>
-        <ul>
-          <li><b>Hloubětín - Praha 9</b></li>
-          <li><b>Radotín - Praha 13</b></li>
-          <li><b>Žižkov - Praha 3</b></li>
-          <li><b>Bubeneč - Praha 7</b></li>
-          <li><b>Suchdol - Praha 6</b></li>
-          <li><b>Brandýs nad Labem</b></li>
-          <li><b>Beroun</b></li>
-        </ul>
         </div>
         <br>
     """
