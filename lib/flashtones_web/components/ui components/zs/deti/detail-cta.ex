@@ -490,7 +490,7 @@ defmodule DetailCta do
         style="background: var(--vylety-main)"
         href="/zs/kontakty#form"
       >
-        Objednat výlet
+      nezávazně objednat
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -545,7 +545,7 @@ defmodule DetailCta do
         style="background: var(--vylety-main)"
         href="/zs/kontakty#form"
       >
-        Objednat výlet
+      nezávazně objednat
       </a>
       <span></span>
       <span class="text-gray-900">
