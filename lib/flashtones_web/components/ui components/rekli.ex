@@ -118,10 +118,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -148,10 +148,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -335,10 +335,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -365,10 +365,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -552,10 +552,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -582,10 +582,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -769,10 +769,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -799,10 +799,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -986,10 +986,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1016,10 +1016,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1420,10 +1420,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1450,10 +1450,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1637,10 +1637,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1667,10 +1667,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1854,10 +1854,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
@@ -1884,10 +1884,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          4. 1. 2023
+          ZŠ NERUDOVA 9
         </h5>
         <p class="testimonial-text-b">
-          Kurz nás velice mile překvapil. Děti byly z plavání nadšené. Byla moc příjemná motivace žáků lektory i jejich přístup. Uměli vhodně odhadnout rozložení hodiny. I při průběžném výcviku bývají žáci po 1,5 hodině unaveni, pokud mají výcvik v ranních hodinách, těžko se s nimi následně pracuje. Intenzivní výuku u nás zvládli žáci od 2 třídy.
+          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
         </p>
         </div>
       <span class="self-end">
