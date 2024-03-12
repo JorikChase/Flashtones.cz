@@ -148,10 +148,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -183,7 +183,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -365,10 +365,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -400,7 +400,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -582,10 +582,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -617,7 +617,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -799,10 +799,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -834,7 +834,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -1016,10 +1016,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -1051,7 +1051,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -1450,10 +1450,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -1485,7 +1485,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -1667,10 +1667,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -1702,7 +1702,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
@@ -1884,10 +1884,10 @@ defmodule Rekli do
       </span>
       <div class="rekli-content">
         <h5 class="testimonial-school-b">
-          ZŠ NERUDOVA 9
+        4. ZŠ Heuréka
         </h5>
         <p class="testimonial-text-b">
-          Nejprve bych chtěla moc a moc poděkovat za vynikající plaveckou školu v přírodě, kterou jsme s Vaší agenturou absolvovali minulý týden v Hrdoňově. Byli jsme velice spokojeni, výuka i lektoři plavání jsou lidé na svém místě, děti dokázali motivovat i nadchnout a skvěle to s nimi uměli. Opravdu...
+        Ráda bych Vám za děti i kolegy poděkovala za skvěle odvedenou práci, kterou vysoce ceníme. Vaši lektoři byli velmi profesionální v přístupu k dětem a zároveň otevřeni ke zpětné vazbě od učitelů, což je nevídané. Rádi s Vámi budeme spolupracovat i v dalších letech a předávat pozitivní reference...
         </p>
         </div>
       <span class="self-end">
@@ -1919,7 +1919,7 @@ defmodule Rekli do
               school: "ZŠ a JŠ Věda",
           },
           {
-              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo, všechno vyšlo...",
+              text: "Jsme od pátku odpoledne zpět doma a prožívám super euforii z celého pobytu. Už během příjezdu jsme hodně ocenili nápomoc instruktorů se zavazadly. Perfektně se o nás hned od začátku postarali a po zbytek pobytu tomu nebylo jinak. Opravu velká paráda. Fakt se nám moc na Jelenovské líbilo...",
               school: "ZŠ MONTESSORI KYJOV",
           },
           {
