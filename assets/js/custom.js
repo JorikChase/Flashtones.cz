@@ -48,7 +48,6 @@ export const ModularMenu = {
         var cta = document.getElementById("detail-cta");
         var menu = document.getElementById("pcMenu");
         var menuBar = document.getElementById("pcMenuBar");
-        var menuBottom = document.getElementById("pcMenuBottom");
         var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
         var ctaEnd = 1984;
 
@@ -67,12 +66,8 @@ export const ModularMenu = {
           menuBar.style.top = "0";
           menuBar.style.left = "0";
           menuBar.style.right = "0";
-          menuBottom.style.top = "0";
-          menuBottom.style.left = "0";
-          menuBottom.style.right = "0";
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
-          menuBottom.style.borderRadius = "0";
           if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
             console.log("ju");
             cta.style.right = "10%";
@@ -93,12 +88,8 @@ export const ModularMenu = {
           menuBar.style.top = "60px";
           menuBar.style.left = "10%";
           menuBar.style.right = "15%";
-          menuBottom.style.top = "60px";
-          menuBottom.style.left = "10%";
-          menuBottom.style.right = "10%";
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
-          menuBottom.style.borderRadius = "10px";
           if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
             cta.style.right = "10%";
             cta.style.top = "440px";

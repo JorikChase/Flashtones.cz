@@ -129,6 +129,7 @@ defmodule Hero do
             transform: scale(1);
           }
           .hero-button:hover{
+            font-size: 4.1vh;
             transform: scale(1.2);
             background: rgba(0, 0, 0, 0.7);
           }
@@ -495,14 +496,22 @@ defmodule Hero do
         margin-right: 1em;
         height: auto;
       }
+      @media (orientation: portrait) {
+        .hero-button-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
       </style>
       <div class="hero">
             <div class="hero-content">
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
               <div class="hero-button-wrap">
-              <a id="hero-button" class="hero-button" href="https://zsplavani.cz/zs/plavani#skoly">ŠKOLY</a>
-              <a id="hero-button-verejnost" class="hero-button" href="https://zsplavani.cz/zs/plavani#verejnost">VEŘEJNOST</a>
+              <a id="hero-button" class="hero-button" href="https://zsprodeti.cz/zs/plavani#skoly">ŠKOLY</a>
+              <br>
+              <br>
+              <a id="hero-button" class="hero-button" href="https://zsprodeti.cz/zs/plavani#verejnost">VEŘEJNOST</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
@@ -515,64 +524,6 @@ defmodule Hero do
           }
 
           </style>
-          <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const mediaItems = [
-                  { type: 'image', src: '/images/plavani/plavani-head.jpg', heading: 'Největší plavecká škola <br> v ČR', button: 'Nabídka kurzů', href: "#course-marker" },
-                  { type: 'image', src: '/images/mobile/plavani-head-mobile.webp', heading: 'Největší plavecká škola <br> v ČR', button: 'Nabídka kurzů', href: "#course-marker" },
-              ];
-              let currentSlide = 0;
-
-                const heroHeading = document.getElementById("hero-heading");
-                const heroButton = document.getElementById("hero-button");
-                const heroMedia = document.querySelector(".hero-media");
-                if(window.innerHeight > window.innerWidth){
-                heroMedia.style.backgroundImage = 'url("/images/mobile/plavani-head-mobile.webp")';
-              	heroMedia.style.backgroundPosition = "right top";
-	      };
-
-                function updateHeroContent(slideIndex) {
-                    const mediaItem = mediaItems[slideIndex];
-                    heroHeading.innerHTML = mediaItem.heading;
-                    heroButton.textContent = mediaItem.button;
-                    heroButton.href = mediaItem.href;
-
-                    // Create a new media element
-                   // const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-                    newMedia.src = mediaItem.src;
-                    newMedia.autoplay = true;
-                    newMedia.loop = true;
-                    newMedia.muted = true;
-                    newMedia.style.width = '100%';
-                    newMedia.style.height = '100%';
-                    newMedia.style.objectFit = 'cover';
-                    newMedia.style.position = 'absolute';
-                    newMedia.style.top = 0;
-                    newMedia.style.left = 0;
-
-                    // Add the new media element and apply the 'active' class for smooth transition
-                   // heroMedia.innerHTML = '';
-                   // heroMedia.appendChild(newMedia);
-                   // setTimeout(() => {
-                   //     newMedia.classList.add('active');
-                   // }, 0);
-                }
-
-                /*function nextSlide() {
-                    currentSlide = (currentSlide + 1) % mediaItems.length;
-                    heroMedia.firstChild.classList.remove('active');
-                    setTimeout(() => {
-                        updateHeroContent(currentSlide);
-                    }, 600); // Adjust this timeout to match your transition time
-                }*/
-
-                // Initially set the content
-                //updateHeroContent(currentSlide);
-
-                // Start auto-switching every 5 seconds
-                // setInterval(nextSlide, 5000);
-            });
-          </script>
     """
   end
 

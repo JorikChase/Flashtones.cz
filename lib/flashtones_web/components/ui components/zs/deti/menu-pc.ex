@@ -330,8 +330,8 @@ defmodule MenuPc do
 
           /* Mini, Bottom Dropdown Items */
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly {
-              background-color: rgba(50, 50, 50, 0.9);
-              color: white;
+              background-color: rgba(250, 250, 250, 0.9);
+              color: black;
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a {
               align-items: center;
@@ -361,8 +361,8 @@ defmodule MenuPc do
 
 
           .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
-              background-color: rgba(50, 50, 50, 0.9);
-              color: white;
+              background-color: rgba(250, 250, 250, 0.9);
+              color: black;
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a {
               align-items: center;
