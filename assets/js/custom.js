@@ -106,44 +106,6 @@ export const ModularMenu = {
         }
       };
       
-        var aktivitaLink = document.querySelector(".aktivita-link");
-        var submenu = document.getElementById("pcMenuBottom");
-
-        aktivitaLink.addEventListener("mouseover", function () {
-          positionSubmenu();
-          submenu.classList.add("active");
-        });
-
-        // Keep the submenu open when hovering over it
-        submenu.addEventListener("mouseover", function () {
-          submenu.classList.add("active");
-        });
-
-        // Remove active class from submenu when mouse leaves it
-        submenu.addEventListener("mouseout", function () {
-          submenu.classList.remove("active");
-        });
-
-        aktivitaLink.addEventListener("mouseout", function (event) {
-          // Check if the mouse is leaving the link and submenu
-          if (!event.relatedTarget || !submenu.contains(event.relatedTarget)) {
-            submenu.classList.remove("active");
-          }
-        });
-
-        function positionSubmenu() {
-          var aktivitaLinkRect = aktivitaLink.getBoundingClientRect();
-          submenu.style.left = aktivitaLinkRect.left - 60 + "px";
-          submenu.style.top = aktivitaLinkRect.top - 75 + "px";
-          submenu.style.width = "150px"; // Set the width of the submenu
-          if (window.scrollY > 100) {
-            submenu.style.left = aktivitaLinkRect.left + "px";
-            submenu.style.top = aktivitaLinkRect.top + "px";
-            submenu.style.width = "150px"; // Set the width of the submenu
-            submenu.style.borderRadius = "15px";
-          }
-        }
-      ;
     }
     modulate();
   }
