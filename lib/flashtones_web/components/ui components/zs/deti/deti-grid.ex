@@ -40,7 +40,7 @@ defmodule DetiGrid do
       }
       .menu-plavani{
         background-image: url("/images/plavani/plavani-head.jpg");
-        background-size: 110%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: 0% 0%;
       }
