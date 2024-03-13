@@ -164,56 +164,229 @@ defmodule MenuPc do
   def menuDetiPc(assigns) do
     ~H"""
     <style>
-      @media (orientation: landscape) {
-        .pcMenuBar {
-          right: 10%;
-          border-radius: 10px;
+        @media (orientation: landscape) {
+          .pcMenuBar {
+            right: 10%;
+            border-radius: 10px;
+          }
+
+          .pcMenu a:hover {
+            color: var(--deti-main);
+          }
+
+          .pcMenuBottom {
+            z-index: 101;
+            position: absolute;
+            top: calc(100% + 10px); /* Position it below the link */
+            padding: 10px;
+            background: rgba(240, 240, 240, 0.98);
+            transition: all 0.5s ease;
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+          }
+
+          .pcMenuBottom.active {
+            display: block;
+            height: auto;
+            visibility: visible;
+            opacity: 1;
+            background: rgba(255,255,255,0.98)!important;
+          }
+
+          .pcMenuBottom div {
+          }
+
+          .pcMenuBottom div a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+
+          .pcMenuBottom div a:hover {
+            color: rgb(0, 0, 0);
+          }
         }
 
-        .pcMenu a:hover {
-          color: var(--deti-main);
+        @media (orientation: portrait) {
+          .pcMenu {
+            display: none;
+          }
         }
+          .pcMenuBarLinks { width: 100% }
 
-        .pcMenuBottom {
-          z-index: 101;
-          position: absolute;
-          top: calc(100% + 10px); /* Position it below the link */
-          padding: 10px;
-          background: rgba(240, 240, 240, 0.98);
-          transition: all 0.5s ease;
-          display: none;
-          visibility: hidden;
-          opacity: 0;
-        }
+          .pcMenuBarLinks ul {
+            text-align: center;
+          }
+          .pcMenuBarLinks ul .aktivity-main-switch {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+          }
+          .pcMenuBarLinks ul li {
+            display: inline-block;
+            font-weight: 700;
+            position: relative;
+          }
+          .aktivity-switch-button{
+            margin-bottom: 15px;
+            font-size: 22px;
+              background-color: white;
+          }
+          /* Main Dropdown */
+          .pcMenuBarLinks ul li > div.dropdown {
+              border-radius: 10px;
+              left: -9999px;
+              opacity: 0;
+              padding: 30px 0;
+              position: absolute;
+              transition: opacity .3s ease-in-out;
+              visibility: hidden;
+              display: flex;
+              flex-direction: row;
+              gap: 15px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown:before {
+              background: rgba(255, 255, 255, 0.2);
+              border-radius: 2px 0 0 0;
+              content:'';
+              height: 18px;
+              left: calc(50% - 9px);
+              position: absolute;
+              top: 15px;
+              transform: rotate(45deg);
+              width: 18px;
+          }
+          .pcMenuBarLinks ul li:hover > div.dropdown,
+          .pcMenuBarLinks ul li:focus-within > div.dropdown {
+              left: 50%;
+              opacity: 1;
+              transform: translateX(-50%);
+              visibility: visible;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul {
+              padding: 10px 0;
+              text-align: left;
+              backdrop-filter: blur(5px);
+              -webkit-backdrop-filter: blur(5px);
+              display: flex;
+              flex-direction: row;
 
-        .pcMenuBottom.active {
-          display: block;
-          height: auto;
-          visibility: visible;
-          opacity: 1;
-          background: rgba(255,255,255,0.98)!important;
-        }
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li > ul {
+              background-color: rgba(255, 255, 255, 0.8);
+              padding: 10px 0;
+              text-align: left;
+              backdrop-filter: blur(5px);
+              -webkit-backdrop-filter: blur(5px);
+              display: flex;
+              flex-direction: column;
 
-        .pcMenuBottom div {
-        }
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li a,
+          .pcMenuBarLinks ul li > div.dropdown ul li a:visited {
+              color: currentColor;
+              display: inline-block;
+              padding: 20px 20px 20px 100px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li a:hover h3,
+          .pcMenuBarLinks ul li > div.dropdown ul li a:hover span { opacity: 0.7; }
+          .pcMenuBarLinks ul li > div.dropdown ul li a{
+              position: relative;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li{
+              margin: 0;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li a h3{
+              margin: 0;
 
-        .pcMenuBottom div a {
-          color: black;
-          font-weight: bold;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li a:before {
+              content: '';
+              height: 45px;
+              left: 20px;
+              position: absolute;
+              top: calc(50% - 22px);
+              width: 45px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul li h3 {
+              font-size: 18px;
+              margin-bottom: 8px;
+              text-transform: uppercase;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li span {
+              color: grey;
+              font-size: 15px;
+              font-weight: 400;
+          }
 
-        .pcMenuBottom div a:hover {
-          color: rgb(0, 0, 0);
-        }
-      }
+          /* Mini, Bottom Dropdown Items */
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly {
+              background-color: rgba(50, 50, 50, 0.9);
+              color: white;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a {
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              justify-content: space-between;
+              padding-left: 70px;
+              width: 300px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a h3 {
+              margin-bottom: 0;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:before {
+              left: 25px;
+              height: 30px;
+              top: calc(50%-20px);
+              width: 30px;
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(1) a:before { background-image: url("/images/icon/skola.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(4) a:before { background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
 
-      @media (orientation: portrait) {
-        .pcMenu {
-          display: none;
-        }
-      }
+
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
+              background-color: rgba(50, 50, 50, 0.9);
+              color: white;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a {
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              justify-content: space-between;
+              padding-left: 70px;
+              width: 300px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a h3 {
+              margin-bottom: 0;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:before {
+              left: 25px;
+              height: 30px;
+              top: calc(50%-20px);
+              width: 30px;
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg"); }
     </style>
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenu">
@@ -222,7 +395,63 @@ defmodule MenuPc do
           <img src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="/zs/aktivity" class="aktivita-link"> Aktivity </a>
+          <ul>
+              <li><a href="#">Aktivity</a>
+                  <div class="dropdown">
+                      <ul class="aktivity-main-switch">
+                          <li>
+                              <a class="aktivity-switch-button" href="/zs/aktivity#skoly">
+                                  <h3>Pro školy</h3>
+                              </a>
+                          <ul class="mini-skoly">
+                              <li>
+                                  <a href="/zs/plavani/school">
+                                      <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/plavani/city-school">
+                                      <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/plavani/pre-school">
+                                      <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/lyzovani/school">
+                                      <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
+                                  </a>
+                              </li>
+                          </ul>
+                          </li>
+                          <li>
+                              <a class="aktivity-switch-button" href="/zs/aktivity#verejnost">
+                                  <h3>Pro veřejnost</h3>
+                              </a>
+                          <ul class="mini-verejnost">
+                              <li>
+                                  <a href="/zs/plavani/summer">
+                                      <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/plavani/saturday">
+                                      <h3>SOBOTNÍ KURZY PLAVÁNÍ</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/plavani/weekend">
+                                      <h3>INDIVIDUÁLNÍ KURZY</h3>
+                                  </a>
+                              </li>
+                          </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
           <a href="/zs/blog"> Blog </a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/zs/lokality"> Lokality </a>
@@ -230,10 +459,6 @@ defmodule MenuPc do
           <a href="/zs/about#about">O nás</a>
           <a href="/zs/kontakty"> Kontakty </a>
         </div>
-      </div>
-      <div class="pcMenuBottom" id="pcMenuBottom">
-        <div><a href="/zs/aktivity#skoly"> školy </a></div>
-        <div><a href="/zs/aktivity#verejnost"> veřejnost </a></div>
       </div>
     </div>
     """
