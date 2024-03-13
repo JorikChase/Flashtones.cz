@@ -355,9 +355,9 @@ defmodule Kontakt do
           <h4>Vaše zpráva</h4>
         </label>
         <textarea id="client_message" name="client_message"></textarea><br>
-        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"><b>' Souhlasím se zpracováním osobních údajů</b></label><br>
+        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"><b> Souhlasím se zpracováním osobních údajů</b></label><br>
 
-        <button type="submit" class="button" id="submit-btn" disabled>Odeslat</button>
+        <button type="submit" class="button" style="background: var(--deti-link);" id="submit-btn" disabled>Odeslat</button>
       </form>
     </div>
     <script>
