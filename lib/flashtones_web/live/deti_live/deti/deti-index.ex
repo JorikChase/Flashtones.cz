@@ -2,7 +2,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "ZS PRO DĚTI")
+    socket = assign(socket, page_title: "ZŠ PRO DĚTI")
     {:ok, socket}
   end
 
