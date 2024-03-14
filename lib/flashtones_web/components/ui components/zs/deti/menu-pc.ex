@@ -232,7 +232,21 @@ defmodule MenuPc do
           .aktivity-switch-button{
             margin-bottom: 15px;
             font-size: 22px;
-              background-color: white;
+              background-color: var(--deti-light);
+              padding: 20px!important;
+
+          }
+          .aktivity-switch-button:before{
+            content: none!important;
+            height: 0;
+            left: 20px;
+            position: absolute;
+            top: calc(50% - 18px);
+            width: 45px;
+            background-repeat: no-repeat;
+          }
+          div.dropdown > ul > li:hover{
+            transform: scale(1.02);
           }
           /* Main Dropdown */
           .pcMenuBarLinks ul li > div.dropdown {
@@ -262,6 +276,7 @@ defmodule MenuPc do
           .pcMenuBarLinks ul li:focus-within > div.dropdown {
               left: 50%;
               opacity: 1;
+              transform: scaleY(1);
               transform: translateX(-50%);
               visibility: visible;
           }
@@ -286,7 +301,7 @@ defmodule MenuPc do
           .pcMenuBarLinks ul li > div.dropdown ul li a:visited {
               color: currentColor;
               display: inline-block;
-              padding: 20px 20px 20px 100px;
+              padding: 16px 15px 16px 100px;
           }
           .pcMenuBarLinks ul li > div.dropdown ul li a:hover h3,
           .pcMenuBarLinks ul li > div.dropdown ul li a:hover span { opacity: 0.7; }
@@ -302,7 +317,7 @@ defmodule MenuPc do
           }
           .pcMenuBarLinks ul li > div.dropdown ul li a h3{
               margin: 0;
-
+              font-weight: 700;
           }
           .pcMenuBarLinks ul li > div.dropdown ul li a h3:hover{
               color: black;
@@ -313,14 +328,15 @@ defmodule MenuPc do
               height: 45px;
               left: 20px;
               position: absolute;
-              top: calc(50% - 22px);
+              top: calc(50% - 18px);
               width: 45px;
+              background-repeat: no-repeat;
           }
           .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
           .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
           .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
           .pcMenuBarLinks ul li > div.dropdown ul li h3 {
-              font-size: 18px;
+              font-size: 16px;
               margin-bottom: 8px;
               text-transform: uppercase;
           }
@@ -362,9 +378,12 @@ defmodule MenuPc do
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(1) a:before { background-image: url("/images/icon/skola.svg"); }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg"); }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(3) a:before { background-image: url("/images/icon/skolka.svg"); }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(4) a:before { background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg"); }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before { background-image: url("/images/icon/kurz/svp-enviro.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(6) a:before { background-image: url("/images/icon/kurz/svt-enviro.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(7) a:before { background-image: url("/images/icon/friendship.svg"); }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(8) a:before { background-image: url("/images/icon/hiking.svg"); }
 
 
           .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
@@ -408,7 +427,7 @@ defmodule MenuPc do
         </a>
         <div class="pcMenuBarLinks">
           <ul>
-              <li><a href="#">Aktivity</a>
+              <li><a style="font-weight: 800;" href="#">Aktivity</a>
                   <div class="dropdown">
                       <ul class="aktivity-main-switch">
                           <li>
@@ -434,6 +453,26 @@ defmodule MenuPc do
                               <li>
                                   <a href="/zs/lyzovani/school">
                                       <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/enviro/svp">
+                                      <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/enviro/tym">
+                                      <h3>ŠKOLA V PŘÍRODĚ "V TÝMU"</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/enviro/ss-tym">
+                                      <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/vylety">
+                                      <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
                                   </a>
                               </li>
                           </ul>
