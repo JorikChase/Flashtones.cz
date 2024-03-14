@@ -2,6 +2,9 @@ defmodule FlashtonesWeb.EnviroSummerCityLive do
   use FlashtonesWeb, :live_view
   def mount(_params, _session, socket) do
     socket = assign(socket, page_title: "ZŠ ENVIRO")
+    socket =
+      socket
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "enviro")
     {:ok, socket}
   end
   def render(assigns) do

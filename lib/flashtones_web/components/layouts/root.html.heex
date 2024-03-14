@@ -8,8 +8,8 @@
     <.live_title>
       <%= assigns[:page_title] || "ZŠ PRO DĚTI" %>
     </.live_title>
-    <link rel="icon" type="image/png" href="/images/favicon/deti/icon.png" data-dynamic-href="images/favicon/{subfolder}/icon.png">
-    <link rel="icon" type="image/png" href="/images/favicon/deti/icon-32.png">
+    <link rel="icon" type="image/png" data-dynamic-href="/images/favicon/{dynamic}/icon.png" href="/images/favicon/deti/icon.png" >
+    <link rel="icon" type="image/png" data-dynamic-href="/images/favicon/{dynamic}/icon.png" href="/images/favicon/deti/icon.png" >
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
     <script>window.userToken = "<%= assigns[:user_token] %>";</script>
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>

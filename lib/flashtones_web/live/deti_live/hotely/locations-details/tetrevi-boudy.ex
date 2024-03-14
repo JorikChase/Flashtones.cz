@@ -1,6 +1,14 @@
 defmodule FlashtonesWeb.LokalityTetreviBoudyLive do
   use FlashtonesWeb, :live_view
 
+  def mount(_params, _session, socket) do
+    socket = assign(socket, page_title: "Lokalita")
+    socket =
+      socket
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+    {:ok, socket}
+  end
+
   def render(assigns) do
     ~H"""
     <style>

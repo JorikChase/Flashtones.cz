@@ -3,6 +3,9 @@ defmodule FlashtonesWeb.DetiIndexLive do
 
   def mount(_params, _session, socket) do
     socket = assign(socket, page_title: "ZŠ PRO DĚTI")
+    socket =
+      socket
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
     {:ok, socket}
   end
 
