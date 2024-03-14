@@ -163,25 +163,51 @@ defmodule DetailLokace do
         padding: 2px 10px;
         background: var(--ft-link);
       }
+      @media (orientation: portrait){
+        #hloubetin{
+        width: 100%!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+        .cost-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+      }
     </style>
     <div class="detail-lokace course-wrap">
     <div class="category" data-category="Plavání pro veřejnost">
     <h3 class="disappear">Místa konání</h3>
 
           <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/beroun.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/beroun.jpeg)" id="beroun"></div>
-                        <div class="product-text-wrap">
-                        <div class="product-text">
-                        <span class="cost-wrap"><h4>
-                        TIPSPORT LAGUNA BEROUN
-                        </h4><b>5 250 <side>Kč</side></b></span>
-                        <p class="font-normal">K plavání využíváme krytý bazén s šesti 25metrovými drahami, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru.</p>
-                        </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
-                        </div>
-                    </a>
+            <a target="_blank" href="/images/pdf/plavani-verejnost/sareza.pdf">
+              <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/sareza.jpeg)" id="sareza"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <span class="cost-wrap"><h4>
+                Poruba|Sareza Ostrava
+                </h4><b>4 550 <side>Kč</side></b></span>
+                <p class="font-normal">K plavání využíváme krytý bazén s rozměry 50 x 21 m s příjemně teplou vodou. Pro úplné začátečníky využíváme dětský bazén s hloubkou 64 cm.</p>
+                </div>
+                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
               </div>
+            </a>
+          </div>
+          <div class="product">
+            <a target="_blank" href="/images/pdf/plavani-verejnost/beroun.pdf">
+              <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/beroun.jpeg)" id="beroun"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <span class="cost-wrap"><h4>
+                TIPSPORT LAGUNA BEROUN
+                </h4><b>5 250 <side>Kč</side></b></span>
+                <p class="font-normal">K plavání využíváme krytý bazén s šesti 25metrovými drahami, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru.</p>
+                </div>
+                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+              </div>
+            </a>
+          </div>
           <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/vystaviste.pdf">
                       <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vystaviste.jpeg)" id="vystaviste"></div>
