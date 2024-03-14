@@ -490,10 +490,10 @@ defmodule Hero do
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
       }
       .hero-button{
         padding: 2vh 2.5vh;
-        margin-right: 1em;
         height: auto;
       }
       @media (orientation: portrait) {
@@ -509,9 +509,7 @@ defmodule Hero do
               <br />
               <div class="hero-button-wrap">
               <a id="hero-button" class="hero-button" href="https://zsprodeti.cz/zs/plavani#skoly">ŠKOLY</a>
-              <br>
-              <br>
-              <a id="hero-button" class="hero-button" href="https://zsprodeti.cz/zs/plavani#verejnost">VEŘEJNOST</a>
+              <a id="hero-button-verejnost" class="hero-button" href="https://zsprodeti.cz/zs/plavani#verejnost">VEŘEJNOST</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
