@@ -268,15 +268,13 @@ defmodule MenuPc do
           .pcMenuBarLinks ul li > div.dropdown ul {
               padding: 10px 0;
               text-align: left;
-              backdrop-filter: blur(5px);
-              -webkit-backdrop-filter: blur(5px);
               display: flex;
               flex-direction: row;
 
           }
           .pcMenuBarLinks ul li > div.dropdown ul li > ul {
               background-color: rgba(255, 255, 255, 0.8);
-              padding: 10px 0;
+              padding: 0;
               text-align: left;
               backdrop-filter: blur(5px);
               -webkit-backdrop-filter: blur(5px);
@@ -304,6 +302,10 @@ defmodule MenuPc do
           }
           .pcMenuBarLinks ul li > div.dropdown ul li a h3{
               margin: 0;
+
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul li a h3:hover{
+              color: black;
 
           }
           .pcMenuBarLinks ul li > div.dropdown ul li a:before {
@@ -341,6 +343,11 @@ defmodule MenuPc do
               padding-left: 70px;
               width: 300px;
           }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:hover {
+              transform: scale(1.05);
+              background: rgba(255, 255, 255, 0.98);
+              color: black;
+          }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a h3 {
               margin-bottom: 0;
           }
@@ -371,6 +378,11 @@ defmodule MenuPc do
               justify-content: space-between;
               padding-left: 70px;
               width: 300px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.98);
+            color: black;
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a h3 {
               margin-bottom: 0;
