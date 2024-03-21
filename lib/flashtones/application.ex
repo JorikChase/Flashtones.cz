@@ -8,6 +8,7 @@ defmodule Flashtones.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      FlashtonesWeb.Periodically,
       # Start the Telemetry supervisor
       FlashtonesWeb.Telemetry,
       # Start the Ecto repository

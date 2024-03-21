@@ -40,7 +40,6 @@ defmodule Flashtones.MixProject do
       {:phoenix_html, "~> 3.3"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.19.0"},
-      {:floki, ">= 0.30.0", only: :test},
       {:phoenix_live_dashboard, "~> 0.8.0"},
       {:esbuild, "~> 0.7", runtime: Mix.env() == :dev},
       {:tailwind, "~> 0.2.0", runtime: Mix.env() == :dev},
@@ -53,7 +52,9 @@ defmodule Flashtones.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:gen_smtp, "~> 1.1"},
       {:hackney, "~> 1.20"},
-      {:phoenix_live_favicon, "~> 0.2.0"}
+      {:phoenix_live_favicon, "~> 0.2.0"},
+      {:httpoison, "~> 2.2"},
+      {:floki, "~> 0.36.1"}
     ]
   end
 

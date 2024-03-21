@@ -778,3 +778,20 @@ priprava moodboard + navrhy levelu
 r&d registracni system dobrilo - dohromady ^ 10
 
 ### celkem 59 hodin
+- [x] Posouvat aktivity
+- [x] Oprava objednacího policka
+- [x] Lokality v plavani tri
+    - [x] Pro koho jsou kurzy určene
+    - [x] Beroun 
+    - [x] Vystaviste
+- [x] Text
+    - [x] Uplne zacatecniky I pokrocile ztucnene
+    - [x] Tri tecky tune jako 
+    - [x] Ztucnene 5 - 13 let 
+	- [x] Deadlines
+- [x] Hodinovy odhad
+
+oprava kontaktniho formulare: 
+presmerovani stranky: 30
+frontend: 15
+### celkem: 45
