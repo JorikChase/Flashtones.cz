@@ -52,7 +52,7 @@ defmodule FlashtonesWeb.KontaktyLive do
             <Footer.footer />
       """
     end
-    def handle_event("send_email", %{"client_name" => client_name, "client_email" => client_email, "client_message" => client_message}, socket) do
+    def handle_event("send_email", %{"client_name" => client_name, "client_email" => client_email, "client_number" => client_number, "client_message" => client_message}, socket) do
       new()
       |> from("kontaktni.formular@info.cz")
       |> to("jorikchase@gmail.com")
@@ -65,6 +65,10 @@ defmodule FlashtonesWeb.KontaktyLive do
           adresa
 
           #{client_email}
+
+          telefon
+
+          #{client_number}
 
           ")
       |> Flashtones.Mailer.deliver()

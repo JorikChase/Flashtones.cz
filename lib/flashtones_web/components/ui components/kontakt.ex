@@ -346,16 +346,20 @@ defmodule Kontakt do
         <label for="client_name">
           <h4>Celé jméno</h4>
         </label>
-        <input type="text" id="client_name" name="client_name"><br>
+        <input type="text" id="client_name" name="client_name" required><br>
         <label for="client_email">
           <h4>Váš email</h4>
         </label>
-        <input type="text" id="client_email" name="client_email" value="@"><br>
+        <input type="text" id="client_email" name="client_email" required><br>
+        <label for="client_number">
+          <h4>Vaše číslo</h4>
+        </label>
+        <input type="text" id="client_number" name="client_number" required><br>
         <label for="client_message">
           <h4>Vaše zpráva</h4>
         </label>
-        <textarea id="client_message" name="client_message"></textarea><br>
-        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"><b> Souhlasím se zpracováním osobních údajů</b></label><br>
+        <textarea id="client_message" name="client_message" required></textarea><br>
+        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe" required><b> Souhlasím se zpracováním osobních údajů</b></label><br>
 
         <button type="submit" class="button" style="background: var(--deti-link);" id="submit-btn" disabled>Odeslat</button>
       </form>
