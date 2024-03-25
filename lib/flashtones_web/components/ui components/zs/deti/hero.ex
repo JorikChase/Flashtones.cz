@@ -201,89 +201,86 @@ defmodule Hero do
   end
   def academyHero(assigns) do
     ~H"""
-        <div class="hero">
-            <div class="hero-content">
-              <h1 id="hero-heading">Heading 1</h1>
-            </div>
-            <div class="hero-media"></div>
-          </div>
 
           <style>
-        h1{
-          color: rgb(253,78,13);
-        }
-
+          #hero-heading{
+            color: white;
+          }
+          .hero-media{
+            background-size: cover;
+            background-position: center top;
+            filter: saturate(0.9);
+            filter: brightness(0.9);
+            filter: contrast(0.7);
+          }
+          .hero-button{
+            transition: all 0.5s ease-in-out;
+            background: rgba(0, 0, 0, 0.5);
+            transform: scale(1);
+          }
+          .hero-button:hover{
+            font-size: 4.1vh;
+            transform: scale(1.2);
+            background: rgba(0, 0, 0, 0.7);
+          }
+          @media(orientation: portrait){
+            .hero-media{
+              background-position: center top;
+              bottom: unset;
+              height: 80vh;
+            }
+          }
           </style>
-          <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const mediaItems = [
-                  { type: 'image', src: '/images/academy/academy-head.jpeg', heading: 'Školící centrum' },
-              ];
-              let currentSlide = 0;
-
-                const heroHeading = document.getElementById("hero-heading");
-                const heroMedia = document.querySelector(".hero-media");
-
-                function updateHeroContent(slideIndex) {
-                    const mediaItem = mediaItems[slideIndex];
-                    heroHeading.textContent = mediaItem.heading;
-
-                    // Create a new media element
-                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-                    newMedia.src = mediaItem.src;
-                    newMedia.autoplay = true;
-                    newMedia.loop = true;
-                    newMedia.muted = true;
-                    newMedia.style.width = '100%';
-                    newMedia.style.height = '100%';
-                    newMedia.style.objectFit = 'cover';
-                    newMedia.style.position = 'absolute';
-                    newMedia.style.top = 0;
-                    newMedia.style.left = 0;
-
-                    // Add the new media element and apply the 'active' class for smooth transition
-                    heroMedia.innerHTML = '';
-                    heroMedia.appendChild(newMedia);
-                    setTimeout(() => {
-                        newMedia.classList.add('active');
-                    }, 0);
-                }
-
-                function nextSlide() {
-                    currentSlide = (currentSlide + 1) % mediaItems.length;
-                    heroMedia.firstChild.classList.remove('active');
-                    setTimeout(() => {
-                        updateHeroContent(currentSlide);
-                    }, 600); // Adjust this timeout to match your transition time
-                }
-
-                // Initially set the content
-                updateHeroContent(currentSlide);
-
-                // Start auto-switching every 5 seconds
-                //setInterval(nextSlide, 5000);
-            });
-          </script>
+    <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Školící centrum</h1>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/academy/academy-head.jpeg);"></div>
+          </div>
+          <span id="course-marker"></span>
     """
   end
 
 
   def domaHero(assigns) do
     ~H"""
-
-        <div class="hero">
-            <div class="hero-content">
-              <h1 id="hero-heading">Heading 1</h1>
-            </div>
-            <div class="hero-media"></div>
-          </div>
-
-          <style>
+    <style>
           #hero-heading{
-          color: rgb(254,124,1);
+            color: white;
           }
-
+          .hero-media{
+            background-position: center top;
+            filter: saturate(0.9);
+            filter: brightness(0.9);
+            filter: contrast(0.7);
+          }
+          .hero-button{
+            transition: all 0.5s ease-in-out;
+            background: rgba(0, 0, 0, 0.5);
+            transform: scale(1);
+          }
+          .hero-button:hover{
+            font-size: 4.1vh;
+            transform: scale(1.2);
+            background: rgba(0, 0, 0, 0.7);
+          }
+          @media(orientation: portrait){
+            .hero-media{
+              background-position: right top;
+              bottom: unset;
+              height: 80vh;
+            }
+          }
           </style>
+          <div class="hero">
+            <div class="hero-content">
+              <h1 id="hero-heading">Online vzdělávání<br> pomocí kvízů a her, doučování pomocí vlastního videostreamu</h1>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/doma/doma-head.jpeg);"></div>
+          </div>
+          <span id="course-marker"></span>
+
+
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
@@ -299,6 +296,8 @@ defmodule Hero do
                 function updateHeroContent(slideIndex) {
                     const mediaItem = mediaItems[slideIndex];
                     heroHeading.innerHTML = mediaItem.heading;
+                    heroButton.textContent = mediaItem.button;
+                    heroButton.href = mediaItem.href;
 
                     // Create a new media element
                     const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
