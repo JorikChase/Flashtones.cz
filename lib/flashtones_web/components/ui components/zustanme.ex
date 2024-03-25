@@ -14,15 +14,15 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
-          <input type="submit" value="Odebírat novinky" class="button zustanme-button">
+          <input type="submit" value="Odebírat novinky" class="button zustanme-button" onclick='alert("Děkujeme!")'>
         </form>
       </div>
       <div class="socky-icons">
@@ -44,12 +44,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--deti-link);">
@@ -74,12 +74,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--plavani-link);">
@@ -104,12 +104,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--lyzovani-link);">
@@ -134,12 +134,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--enviro-link);">
@@ -164,12 +164,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=""><span class="inline -button"><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=""><span class="inline -button"><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small>Přihlášením k odběru class="" uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--vylety-link);">
@@ -194,12 +194,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--doma-link);">
@@ -224,12 +224,12 @@ defmodule Zustanme do
         <p>
         Přidejte se k nám! Zanechte nám svůj email a buďte první, kdo se dozví o našich nových akcích a nabídkách.
         </p>
-        <form>
+        <form onsubmit='return alert("Děkujeme!")'>
         <small><b>
         Váš e-mail
         </b></small>
-          <input type="text" id="email" name="fname" value="@"><br>
-          <span class=" "><input type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
+          <input required type="text" id="email" name="fname" value=""><br>
+          <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
           <input type="submit" value="Odebírat novinky" class="button zustanme-button" style="background-color: var(--academy-link);">
