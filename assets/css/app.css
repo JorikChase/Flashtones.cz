@@ -579,7 +579,7 @@ li::marker {
   position: fixed;
   top: 60px;
   right: 15%;
-  left: 10%;
+  left: 5%;
   height: 60px;
 
   padding: 1em 1.5em;
@@ -731,7 +731,7 @@ li::marker {
   position: absolute;
   right: 0;
   top: 0;
-  width: 75px;
+  width: 5%;
   height: 60px;
   display: flex;
   flex-direction: column;
