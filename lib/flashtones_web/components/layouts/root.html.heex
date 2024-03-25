@@ -13,6 +13,14 @@
     <script>window.userToken = "<%= assigns[:user_token] %>";</script>
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNPYJNC3KY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag () {dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LNPYJNC3KY');
+    </script>
   </head>
   <body class="antialiased">
     <%= @inner_content %>
