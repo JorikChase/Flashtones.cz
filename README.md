@@ -795,3 +795,87 @@ oprava kontaktniho formulare:
 presmerovani stranky: 30
 frontend: 15
 ### celkem: 45
+
+    - [x] zsprodeti
+        - [x] Ted ft
+    - [x] Zsenviro
+        - [x] Ted nic
+    - [x] Zslyzovani
+        - [x] Ted nic
+    - [x] Doma
+        - [x] Nic
+    - [x] Academy
+        - [x] Nic
+    - [x] Zsvylety
+        - [x] Ted nic
+    - [x] Zsplavani
+        - [x] Ted nic
+
+	// 5
+
+- [x] Opravit uvadni obrázek
+    - [x] Doma
+    - [x] Academy
+- [x] zsprodeti + subsites
+    - [x] Odendat blog
+    - [x] Mezi kontakty a o nas dat eshop
+
+	// 2.5
+	
+- [x] Enviro pridat fotogalerie
+- [x] Matous delegat
+- [x] Import dat z rezervacaku
+    - [x] zavolat tomu typkovi
+        - [x] Spusteni na miniserveru 
+            - [x] Floating ip
+        - [x] Cookie session ukazuje přihlášení
+        - [x] Url na export
+    - [x] Automatizovat export rezervacaku do tabulky na google drive
+	
+	// 37
+
+- [x] jinak rozdělené blog
+- [x] Aktivity barvy zmrdu
+    - [x] Pridat odkazy
+- [x] Pridat ostravu mezi lokace
+- [x] Update aktuality
+- [x] Aktivity 
+    - [x] skoly
+        - [x] Kurzy odkazy
+    - [x] ￼
+    - [x] Verejnost
+        - [x] Kurzy odkazy
+    - [x] Menu stripe
+	
+	// 10
+
+- [x] Bylo by super mít znáčky jednotlivých ZŠ i flashtones u domén nahoře v kartách v prohlížeči 
+- [x] Button na zsdeti
+    - [x] Zvetsovat
+- [x] Mista konani letni primestsky pridat cena 5250 kc odendat to z cta
+- [x] vylety nezávazné objednat cta
+
+	// 5.5
+
+- [x] Seznam posunout listing
+- [x] Roman kvůli kontakty z fotogalerie
+- [x] Mailer form
+    - [x] Udelat oboje povinné 
+    - [x] Pridat kolonku číslo 
+    - [x] Mail necessary
+- [x] Vymenit kurzy
+- [x] Nahodit google ad kampan
+
+	// 10
+
+- [x] Poslat na infozsplavani sablonu
+- [x] Zsdoma 
+    - [x] Odkazy
+    - [x] Mapping
+    - [x] Scan
+- [x] Tlactika pod sebou minimalne na mobilu
+    - [x] Alert pri prihlaseni odberu
+	
+	// 15
+
+### celkem 85 hodin
