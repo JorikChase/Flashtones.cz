@@ -553,6 +553,12 @@ defmodule MenuPc do
         .pcMenu a:hover{
           color: var(--doma-main);
         }
+        .pcMenu{
+          background: rgba(0, 0, 0, 0);
+        }
+        .pcMenuBar{
+          background: rgba(0, 0, 0, 0);
+        }
         .pcMenuBottom{
           z-index: 99;
           position: fixed;
@@ -563,12 +569,16 @@ defmodule MenuPc do
 
           padding: 30px;
 
-          background: var(--doma-main);
+          background: rgba(0, 0, 0, 0);
 
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(2px);
+          -webkit-backdrop-filter: blur(2px);
 
           transition: all 0.5s ease;
+        }
+        .pcMenuBottom:hover{
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
         }
 
       }

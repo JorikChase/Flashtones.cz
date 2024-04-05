@@ -654,7 +654,11 @@ defmodule Kdo do
         justify-content: flex-end;
         align-content: center;
         width: 100%;
+        height: 100%;
         gap: 30px;
+      }
+      .kdoPersons a{
+        height: 100%;
       }
       .kdoPersons img{
         width: 270px;

@@ -546,7 +546,7 @@ defmodule SectionToggle do
 
   def kurzNavPlavani(assigns) do
     ~H"""
-    <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitchPlavani">
       <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
       <div class="section-toggle">
         <a href="#skoly">Pro školy</a>

@@ -245,96 +245,121 @@ defmodule Hero do
   def domaHero(assigns) do
     ~H"""
     <style>
-          #hero-heading{
-            color: white;
-          }
-          .hero-media{
-            background-position: center top;
-            filter: saturate(0.9);
-            filter: brightness(0.9);
-            filter: contrast(0.7);
-          }
-          .hero-button{
-            transition: all 0.5s ease-in-out;
-            background: rgba(0, 0, 0, 0.5);
-            transform: scale(1);
-          }
-          .hero-button:hover{
-            font-size: 4.1vh;
-            transform: scale(1.2);
-            background: rgba(0, 0, 0, 0.7);
-          }
-          @media(orientation: portrait){
-            .hero-media{
-              background-position: right top;
-              bottom: unset;
-              height: 80vh;
-            }
-          }
-          </style>
-          <div class="hero">
-            <div class="hero-content">
-              <h1 id="hero-heading">Online vzdělávání<br> pomocí kvízů a her, doučování pomocí vlastního videostreamu</h1>
-            </div>
-            <div class="hero-media" style="background-image: url(/images/doma/doma-head.jpeg);"></div>
-          </div>
-          <span id="course-marker"></span>
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .socci-map-wrap{
+        margin-top: 30px;
+        width: 100%;
+        height: 60vh;
+        background-color: #bee3e6; /* Light ocean-like pale blue */
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+      }
+      .socci-map-wrap:hover{
+        height: 90vh;
+      }
+      .socci-map-wrap a{
+        visibility: hidden;
+        opacity: 0;
+        font-weight: bold;
+      }
+      .socci-map-wrap:hover a{
+        visibility: visible;
+        opacity: 1;
+      }
+      #map-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #map-container > div {
+        position: absolute;
+        inset: 0;
 
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: none;
+      }
+      #layer5 > a {
+        font-size: 30px;
+        padding: 0.1em 0.3em;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+      }
+      #layer5 > a:hover {
+        transform: scale(1.1);
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+      .plavani{
+        top: 42%;
+        left: 35%;
+        color: var(--plavani-main);
+      }
+      .lyzovani{
+        top: 22%;
+        left: 30%;
+        color: var(--lyzovani-main);
+      }
+      .enviro{
+        top: 28%;
+        left: 52%;
+        color: var(--enviro-main);
+      }
+      img {
+        display: block;
+        height: 100%;
+        width: auto;
+      }
+    </style>
+    <div class="socci-map-wrap" id="SocciMap" phx-hook="SocciMap">
+    <div id="map-container">
+      <div id="layer4" data-speed="0.5">
+        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-base.png?v=1710253236452" alt="Background Layer">
+      </div>
+      <div id="layer3" data-speed="1">
+        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-base.png?v=1710276098582" alt="cloud Layer">
+      </div>
+      <div id="layer2" data-speed="1.5">
+        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-3.png?v=1710276095863" alt="cloud Layer">
+      </div>
+      <div id="layer1" data-speed="2">
+        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062" alt="cloud Layer">
+      </div>
+      <div id="layer5" data-speed="0.5">
+        <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>
+        <a class="plavani" href="https://zsplavani.cz">Plavání</a>
+        <a class="enviro" href="https://zsenviro.cz">Enviro</a>
+      </div>
+    </div>
+    </div>
 
-          <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const mediaItems = [
-                  { type: 'image', src: '/images/doma/doma-head.jpeg', heading: 'Online vzdělávání<br> pomocí kvízů a her, doučování pomocí vlastního videostreamu', },
-                  { type: 'image', src: '/images/mobile/doma-head-mobile.webp', heading: 'Online vzdělávání<br> pomocí kvízů a her, doučování pomocí vlastního videostreamu', },
-              ];
-              let currentSlide = 0;
+    <script>
+      document.addEventListener('mousemove', parallax);
 
-                const heroHeading = document.getElementById("hero-heading");
-                const heroButton = document.getElementById("hero-button");
-                const heroMedia = document.querySelector(".hero-media");
+      function parallax(e) {
+        let layers = document.querySelectorAll('#map-container > div');
 
-                function updateHeroContent(slideIndex) {
-                    const mediaItem = mediaItems[slideIndex];
-                    heroHeading.innerHTML = mediaItem.heading;
-                    heroButton.textContent = mediaItem.button;
-                    heroButton.href = mediaItem.href;
+        layers.forEach(layer => {
+          const speed = parseFloat(layer.getAttribute('data-speed'));
+          const x = (e.clientX - window.innerWidth / 2) * speed / 100;
+          const y = (e.clientY - window.innerHeight / 2) * speed / 100;
 
-                    // Create a new media element
-                    const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-                    newMedia.src = mediaItem.src;
-                    newMedia.autoplay = true;
-                    newMedia.loop = true;
-                    newMedia.muted = true;
-                    newMedia.style.width = '100%';
-                    newMedia.style.height = '100%';
-                    newMedia.style.objectFit = 'cover';
-                    newMedia.style.position = 'absolute';
-                    newMedia.style.top = 0;
-                    newMedia.style.left = 0;
-
-                    // Add the new media element and apply the 'active' class for smooth transition
-                    heroMedia.innerHTML = '';
-                    heroMedia.appendChild(newMedia);
-                    setTimeout(() => {
-                        newMedia.classList.add('active');
-                    }, 0);
-                }
-
-                function nextSlide() {
-                    currentSlide = (currentSlide + 1) % mediaItems.length;
-                    heroMedia.firstChild.classList.remove('active');
-                    setTimeout(() => {
-                        updateHeroContent(currentSlide);
-                    }, 600); // Adjust this timeout to match your transition time
-                }
-
-                // Initially set the content
-                updateHeroContent(currentSlide);
-
-                // Start auto-switching every 5 seconds
-                //setInterval(nextSlide, 5000);
-            });
-          </script>
+          layer.style.transform = `translate(${x}px, ${y}px)`;
+          console.log(`translate(${x}vw, ${y}vh)`);
+        });
+      }
+    </script>
     """
   end
 
@@ -493,7 +518,13 @@ defmodule Hero do
       }
       .hero-button{
         padding: 2vh 2.5vh;
-        height: auto;
+        height: auto;}
+      .section-toggle-plavani{
+        background-color: rgba(255, 255, 255, 0.05);
+        margin: 15px 5px;
+      }
+      .section-toggle-plavani:hover{
+        background-color: rgba(0, 0, 0, 0);
       }
       @media (orientation: portrait) {
         .hero-button-wrap{
@@ -503,12 +534,12 @@ defmodule Hero do
       }
       </style>
       <div class="hero">
-            <div class="hero-content">
+            <div class="hero-content" id="plavani-switch">
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
-              <div class="hero-button-wrap">
-              <a id="hero-button" class="hero-button" href="https://zsprodeti.cz/zs/plavani#skoly">ŠKOLY</a>
-              <a id="hero-button-verejnost" class="hero-button" href="https://zsprodeti.cz/zs/plavani#verejnost">VEŘEJNOST</a>
+              <div class="section-toggle section-toggle-plavani">
+              <a href="#skoly">Pro školy</a>
+              <a href="#verejnost">Pro veřejnost</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
