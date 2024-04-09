@@ -139,6 +139,38 @@ defmodule DetailLokace do
     </div>
     """
   end
+  def detailLokaceSummer(assigns) do
+    ~H"""
+    <style>
+      .detail-lokace{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    </style>
+    <div class="detail-lokace course-wrap">
+    <div class="category" data-category="Plavání">
+    <div class="product">
+                    <a href="/zs/lokality/energetik">
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Energetik
+                        </h4>
+                        <p class="font-normal">
+                        Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+          </div>
+    </div>
+    """
+  end
   def detailPlavaniVerejnost(assigns) do
     ~H"""
     <style>

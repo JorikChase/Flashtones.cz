@@ -74,7 +74,7 @@ defmodule Aktivity do
     <h2 id="verejnost">Aktivity pro veřejnost</h2>
     <br>
       <div class="kurz-nav kurz-nav-verejnost" >
-        <a href="/zs/plavani/summer" class="kurz-item">
+        <a href="/zs/plavani/city-summer" class="kurz-item">
           <img src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg">
           <h4>Letní příměstské tábory</h4>
           <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>

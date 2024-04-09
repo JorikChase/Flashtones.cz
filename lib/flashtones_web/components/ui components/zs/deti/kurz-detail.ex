@@ -196,6 +196,45 @@ defmodule KurzDetail do
         <br>
     """
   end
+  def plavaniSummer(assigns) do
+    ~H"""
+    <style>
+          p{
+            color: #333;
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+          }
+          bold{
+            color: #333;
+            font-family: Barlow;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px; /* 194.444% */
+          }
+        </style>
+        <div class="course-wrap top">
+        <h2>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h2>
+        <p>
+        Letní pobytové tábory s výukou plavání jsou určeny dětem ve věku 7-13 let. Představují ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Tábory se konají od pondělí do pátku a děti jsou ubytovány v hotelu s jedinečnou polohou. Hotel Energetik leží v Krkonošském národním parku.
+        </p>
+        <p>
+        Program tábora je navržen tak, aby podporoval rozvoj sportovních dovedností jednotlivců i týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity.
+        </p>
+        <p>
+        Celkově děti za tábor absolvují sedm 90ti minutových plaveckých lekcí.
+        </p>
+        <p>
+        Výuka plavání probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého tábora z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi.
+        </p>
+        </div>
+        <DetailFaq.plavaniSummer />
+        <br>
+    """
+  end
   def plavaniCitySummer(assigns) do
     ~H"""
     <style>

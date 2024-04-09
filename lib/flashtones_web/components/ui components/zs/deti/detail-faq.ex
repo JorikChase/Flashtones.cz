@@ -150,6 +150,143 @@ defmodule DetailFaq do
     </script>
     """
   end
+  def plavaniSummer(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg">
+          <p class="font-bold">Termíny kurzu</p>
+        </div>
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">5.-9.8.2024</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/sportovni.svg">
+          <p class="font-bold">Doplňkový sportovní program</p>
+          </div>
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Mimo plavání se děti můžou těšit na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání. Jeden den se také bude pořádat výstup na Sněžku.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/zabava.svg">
+          <p class="font-bold">Zábavní program</p>
+          </div>
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Každý večer pak máme připravené stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností. Jeden večer proběhne diskotéka a závěrečná bojovka.</p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/stravovani-plavani.svg">
+          <p class="font-bold">Stravování</p>
+          </div>
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">
+            snídaňový bufet
+            <br>
+            dopolední svačina
+            <br>
+            polední oběd
+            <br>
+            odpolední svačina
+            <br>
+            večeře
+            <br>
+            pitný režim po celý den
+            <br>
+            </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/bus.svg">
+          <p class="font-bold">Doprava</p>
+          </div>
+        <img src="/images/icon/plus-plavani.svg" class="self-end">
+        </div>
+          <p class="answer mt-2">Doprava je v ceně a je zajištěna naším smluvním dopravcem. Vyjíždí se vždy z Prahy a je možno se domluvit na zastávkách v Jaroměři, Hradci Králové, Pardubicích a Trutnově. Na místo taktéž v případě zájmu můžete využít vlastní dopravu.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
   def enviro(assigns) do
     ~H"""
     <style>

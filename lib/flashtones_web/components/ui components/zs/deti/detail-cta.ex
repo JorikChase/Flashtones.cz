@@ -188,6 +188,58 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
       >
+      OBJEDNAT TÁBOR
+      </a>
+      <span></span>
+      <span class="text-gray-900">
+        Cena:<bold>6 900 Kč</bold>
+      </span>
+      <!--<p>Chci více informací o kurzu:</p>-->
+      <a class="plavani-link" href="tel:+420 724 168 962">
+        <img src="/images/icon/call-plavani.svg" />+420 724 168 962
+      </a>
+      <a class="plavani-link" href="mailto:petra@zsplavani.cz">
+        <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+      </a>
+      <a class="plavani-link" href="/images/pdf/plavani-verejnost/plavani-letni-pobytovy.pdf" target="_blank">
+        <img src="/images/icon/download-plavani.svg" />PDF brožura
+      </a>
+    </div>
+    <script>
+      let buttonCta = document.querySelector(".cta-button");
+      let clickCount = 0;
+
+      if (window.innerWidth < window.innerHeight) {
+      // Disable link on first click
+      buttonCta.addEventListener("click", () => {
+        clickCount++;
+        if (clickCount === 1) {
+          console.log("First click - disabling link");
+          // Prevent default action
+          event.preventDefault();
+        } else if (clickCount === 2) {
+          console.log("Second click - activating link");
+          // Reset click count
+          clickCount = 0;
+          // Enable the link
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-1/termin/list";
+        }
+        });
+        }
+    </script>
+    """
+  end
+  def plavaniCitySummer(assigns) do
+    ~H"""
+    <style>
+    </style>
+    <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
+      <a
+        class="cta-button"
+        onClick="ctaClick"
+        style="background: var(--plavani-main)"
+        href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
+      >
         termíny a lokality
       </a>
       <span></span>
@@ -197,9 +249,6 @@ defmodule DetailCta do
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
-      </a>
-      <a class="plavani-link" href="/images/pdf/platebni-podminky.pdf" target="_blank">
-        <img src="/images/icon/download-plavani.svg" />PDF brožura
       </a>
     </div>
     <script>

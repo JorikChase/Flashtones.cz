@@ -500,6 +500,11 @@ defmodule MenuPc do
                           <ul class="mini-verejnost">
                               <li>
                                   <a href="/zs/plavani/summer">
+                                      <h3>LETNÍ POBYTOVÉ TÁBORY</h3>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="/zs/plavani/city-summer">
                                       <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
                                   </a>
                               </li>
