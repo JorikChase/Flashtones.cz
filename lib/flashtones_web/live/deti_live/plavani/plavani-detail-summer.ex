@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.PlavaniDetailCitySummerLive do
+defmodule FlashtonesWeb.PlavaniDetailSummerLive do
   use FlashtonesWeb, :live_view
   def mount(_params, _session, socket) do
     socket = assign(socket, page_title: "ZŠ PLAVÁNÍ")
@@ -45,11 +45,11 @@ defmodule FlashtonesWeb.PlavaniDetailCitySummerLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <HeroSmall.plavaniSummer />
-      <DetailCta.plavaniCitySummer />
-      <KurzDetail.plavaniCitySummer />
+      <DetailCta.plavaniSummer />
+      <KurzDetail.plavaniSummer />
       <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
-      <DetailLokace.detailPlavaniVerejnost />
+      <DetailLokace.detailLokaceSummer />
       <br>
       <Rekli.rekliPlavani />
       <Zustanme.plavani />
