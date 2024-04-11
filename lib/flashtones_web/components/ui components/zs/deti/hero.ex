@@ -245,6 +245,17 @@ defmodule Hero do
   def domaHero(assigns) do
     ~H"""
     <style>
+      @keyframes rotate {
+        0% {
+          transform: rotate(-30deg);
+        }
+        50% {
+          transform: rotate(0deg); /* Rotate left */
+        }
+        100% {
+          transform: rotate(30deg); /* Rotate right */
+        }
+      }
       body, html {
         margin: 0;
         padding: 0;
@@ -262,12 +273,12 @@ defmodule Hero do
       .socci-map-wrap:hover{
         height: 90vh;
       }
-      .socci-map-wrap a{
+      .socci-map-wrap a, #layer6 img{
         visibility: hidden;
         opacity: 0;
         font-weight: bold;
       }
-      .socci-map-wrap:hover a{
+      .socci-map-wrap:hover a, #layer6:hover img{
         visibility: visible;
         opacity: 1;
       }
@@ -288,6 +299,9 @@ defmodule Hero do
         align-items: center;
         transition: none;
       }
+      #layer3 {
+        pointer-event:none;
+      }
       #layer5 > a {
         font-size: 30px;
         padding: 0.1em 0.3em;
@@ -300,6 +314,19 @@ defmodule Hero do
       #layer5 > a:hover {
         transform: scale(1.1);
         background-color: rgba(255, 255, 255, 0.7);
+      }
+      #layer6{
+        pointer-event:none;
+      }
+      #layer6 > img {
+        width: 3%;
+        height: auto;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+        animation: rotate linear infinite;
+      }
+      #layer6 > img:hover, .scaled2x {
+        transform: scale(2);
       }
       .plavani{
         top: 42%;
@@ -315,6 +342,51 @@ defmodule Hero do
         top: 28%;
         left: 52%;
         color: var(--enviro-main);
+      }
+      .brouk{
+        top: 55%;
+        left: 60%;
+        animation-duration: 2s;
+      }
+      .had{
+        top: 85%;
+        left: 35%;
+      }
+      .hlemyzd{
+        top: 70%;
+        left: 50%;
+      }
+      .kudlanka{
+        top: 15%;
+        left: 45%;
+      }
+      .lumberjack{
+        top: 75%;
+        left: 60%;
+      }
+      .pavouk{
+        top: 88%;
+        left: 55%;
+      }
+      .silak{
+        top: 75%;
+        left: 35%;
+      }
+      .starec{
+        top: 60%;
+        left: 45%;
+      }
+      .stir{
+        top: 12%;
+        left: 63%;
+      }
+      .stonozka{
+        top: 80%;
+        left: 45%;
+      }
+      .vetvicka{
+        top: 18%;
+        left: 55%;
       }
       img {
         display: block;
@@ -336,11 +408,25 @@ defmodule Hero do
       <div id="layer1" data-speed="2">
         <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062" alt="cloud Layer">
       </div>
-      <div id="layer5" data-speed="0.5">
+      <div id="layer6" data-speed="0.5">
+        <img class="brouk" src="/images/socci/brouk.PNG">
+        <img class="had" src="/images/socci/had.PNG">
+        <img class="hlemyzd" src="/images/socci/hlemyzd.PNG">
+        <img class="kudlanka" src="/images/socci/kudlanka.PNG">
+        <img class="lumberjack" src="/images/socci/lumberjack.PNG">
+        <img class="pavouk" src="/images/socci/pavouk.PNG">
+        <img class="silak" src="/images/socci/silak.PNG">
+        <img class="starec" src="/images/socci/starec.PNG">
+        <img class="stir" src="/images/socci/stir.PNG">
+        <img class="stonozka" src="/images/socci/stonozka.PNG">
+        <img class="vetvicka" src="/images/socci/vetvicka.PNG">
+      </div>
+      <!--<div id="layer5" data-speed="0.5">
         <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>
         <a class="plavani" href="https://zsplavani.cz">Plavání</a>
         <a class="enviro" href="https://zsenviro.cz">Enviro</a>
-      </div>
+      </div>-->
+
     </div>
     </div>
 
@@ -356,10 +442,23 @@ defmodule Hero do
           const y = (e.clientY - window.innerHeight / 2) * speed / 100;
 
           layer.style.transform = `translate(${x}px, ${y}px)`;
-          console.log(`translate(${x}vw, ${y}vh)`);
         });
+
+        // Rotate images on layer6 randomly
+        // rotateImagesOnLayer6();
       }
+
+      /*function rotateImagesOnLayer6() {
+        let images = document.querySelectorAll('#layer6 > img');
+
+        images.forEach(image => {
+          // Generate a random rotation value between -10 and 10 degrees
+          const rotation = Math.random() * 20 - 10;
+          image.style.transform = `rotate(${rotation}deg)`;
+        });
+      }*/
     </script>
+
     """
   end
 
