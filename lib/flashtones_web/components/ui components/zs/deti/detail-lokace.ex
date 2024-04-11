@@ -269,8 +269,8 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hloubetin.webp); display: flex; justify-content: center; align-items: center;" id="hloubetin">
-                      <span style="padding: 30% 0; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;">rekonstrukce UZAVŘEN</span>
+                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hloubetin.webp); display: flex; justify-content: center; align-items: center; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
+                      <span style="">rekonstrukce UZAVŘEN</span>
                       </div>
                         <div class="product-text-wrap">
                         <div class="product-text">
