@@ -12,7 +12,7 @@ defmodule FlashtonesWeb.Periodically do
   end
 
   def handle_info(:work, state) do
-    login_url = "https://zsprodeti-dev.dev.npx.cz/account/login"
+    login_url = "https://rezervace.zsprodeti.cz/admin/rezervace"
 
     # IO.puts("2: I am here")
 
@@ -29,7 +29,7 @@ defmodule FlashtonesWeb.Periodically do
     form_data = [
       {"csrf", csrf_var},
       {"email", "export-zs"},
-      {"password", "ExportRezervaci5786"}
+      {"password", "yanZDvu3XGJW37rdjyAmNQHN"}
     ]
 
     # IO.puts("4: I am here")
@@ -58,7 +58,7 @@ defmodule FlashtonesWeb.Periodically do
 
         :timer.sleep(500)
 
-        case HTTPoison.get("https://zsprodeti-dev.dev.npx.cz/admin/rezervace.csv", %{},
+        case HTTPoison.get("https://rezervace.zsprodeti.cz/admin/rezervace.csv", %{},
                hackney: [
                  cookie: [
                    "CscSession=#{processed_signed_csrf_var}; CscIntlClientTimezone=Europe%2FBerlin; CscIntlLocale=cs-CZ"
