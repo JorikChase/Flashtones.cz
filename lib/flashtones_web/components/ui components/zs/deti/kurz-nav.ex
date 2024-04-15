@@ -6,13 +6,13 @@ defmodule KurzNav do
       <style>
       </style>
       <div class="kurz-nav">
-        <a href="/zs/plavani/summer" class="kurz-item">
+        <a href="/zs/plavani/summer-camp" class="kurz-item">
           <img src="/images/icon/priroda.svg">
           <h4>Letní pobytové tábory</h4>
           <p>Jsou ideálním prázdninovým dobrodružstvím pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg"></span>
         </a>
-        <a href="/zs/plavani/city-summer" class="kurz-item">
+        <a href="/zs/plavani/summer" class="kurz-item">
           <img src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg">
           <h4>Letní příměstské tábory</h4>
           <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>

@@ -499,12 +499,12 @@ defmodule MenuPc do
                               </a>
                           <ul class="mini-verejnost">
                               <li>
-                                  <a href="/zs/plavani/summer">
+                                  <a href="/zs/plavani/summer-camp">
                                       <h3>LETNÍ POBYTOVÉ TÁBORY</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/city-summer">
+                                  <a href="/zs/plavani/summer">
                                       <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
                                   </a>
                               </li>
