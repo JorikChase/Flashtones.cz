@@ -222,7 +222,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-1/termin/list";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new";
         }
         });
         }
