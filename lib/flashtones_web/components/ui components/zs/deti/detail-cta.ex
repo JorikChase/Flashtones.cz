@@ -186,7 +186,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
+        href="https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new"
       >
       OBJEDNAT TÁBOR
       </a>
