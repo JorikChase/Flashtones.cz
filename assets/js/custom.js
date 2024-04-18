@@ -1,3 +1,14 @@
+export const Synchronize = {
+  mounted() {
+    function synchronize() {
+      const skolyA = document.getElementById("skolyA");
+      const skolyB = document.getElementById("skolyB");
+      const verejnostA = document.getElementById("verejnostA");
+      const verejnostB = document.getElementById("verejnostB");
+    };
+    synchronize()
+    }
+  }
 export const ToggleSwitchPlavani = {
   mounted() {
     function start() {
@@ -85,11 +96,11 @@ export const ModularMenu = {
   mounted() {
     function modulate() {
       window.onscroll = function () {
-        var cta = document.getElementById("detail-cta");
-        var menu = document.getElementById("pcMenu");
-        var menuBar = document.getElementById("pcMenuBar");
-        var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-        var ctaEnd = 1984;
+        let cta = document.getElementById("detail-cta");
+        let menu = document.getElementById("pcMenu");
+        let menuBar = document.getElementById("pcMenuBar");
+        let distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+        let ctaEnd = 1984;
 
         const body = document.body;
         const html = document.documentElement;
@@ -145,12 +156,12 @@ export const ModularMenuRight = {
   mounted() {
     function modulate() {
       window.onscroll = function () {
-        var cta = document.getElementById("detail-cta");
-        var menu = document.getElementById("pcMenu");
-        var menuBar = document.getElementById("pcMenuBar");
-        var menuBottom = document.getElementById("pcMenuBottom");
-        var distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
-        var ctaEnd = 1984;
+        let cta = document.getElementById("detail-cta");
+        let menu = document.getElementById("pcMenu");
+        let menuBar = document.getElementById("pcMenuBar");
+        let menuBottom = document.getElementById("pcMenuBottom");
+        let distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+        let ctaEnd = 1984;
 
         const body = document.body;
         const html = document.documentElement;

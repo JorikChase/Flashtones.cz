@@ -24,6 +24,7 @@ import {LiveSocket} from "phoenix_live_view"
 import topbar from "../vendor/topbar"
 import "phoenix_live_head"
 
+import {Synchronize} from "./custom.js"
 import {ToggleSwitchPlavani} from "./custom.js"
 import {ToggleSwitch} from "./custom.js"
 import {ModularMenu} from "./custom.js"
@@ -31,6 +32,7 @@ import {ModularMenuRight} from "./custom.js"
 import {ScrollingCarousel} from "./custom.js"
 import {SocciMap} from "./custom.js"
 let Hooks = {}
+Hooks.Synchronize = Synchronize
 Hooks.ToggleSwitchPlavani = ToggleSwitchPlavani
 Hooks.ToggleSwitch = ToggleSwitch
 Hooks.ModularMenu = ModularMenu

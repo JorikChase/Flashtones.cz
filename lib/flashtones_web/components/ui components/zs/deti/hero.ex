@@ -273,12 +273,13 @@ defmodule Hero do
       .socci-map-wrap:hover{
         height: 90vh;
       }
-      .socci-map-wrap a, #layer6 img{
+      .socci-map-wrap #layer6 img{
         visibility: hidden;
         opacity: 0;
         font-weight: bold;
+        transition: all 0.5s ease-in-out;
       }
-      .socci-map-wrap:hover a, #layer6:hover img{
+      .socci-map-wrap:hover #layer6 img{
         visibility: visible;
         opacity: 1;
       }
@@ -299,9 +300,6 @@ defmodule Hero do
         align-items: center;
         transition: none;
       }
-      #layer3 {
-        pointer-event:none;
-      }
       #layer5 > a {
         font-size: 30px;
         padding: 0.1em 0.3em;
@@ -316,17 +314,19 @@ defmodule Hero do
         background-color: rgba(255, 255, 255, 0.7);
       }
       #layer6{
-        pointer-event:none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
       }
-      #layer6 > img {
+      #layer6 > a{
+      }
+      #layer6 > a > img {
         width: 3%;
         height: auto;
         position: absolute;
         transition: all 0.5s ease-in-out;
         animation: rotate linear infinite;
-      }
-      #layer6 > img:hover, .scaled2x {
-        transform: scale(2);
+        pointer-events: none;
       }
       .plavani{
         top: 42%;
@@ -409,17 +409,17 @@ defmodule Hero do
         <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062" alt="cloud Layer">
       </div>
       <div id="layer6" data-speed="0.5">
-        <img class="brouk" src="/images/socci/brouk.PNG">
-        <img class="had" src="/images/socci/had.PNG">
-        <img class="hlemyzd" src="/images/socci/hlemyzd.PNG">
-        <img class="kudlanka" src="/images/socci/kudlanka.PNG">
-        <img class="lumberjack" src="/images/socci/lumberjack.PNG">
-        <img class="pavouk" src="/images/socci/pavouk.PNG">
-        <img class="silak" src="/images/socci/silak.PNG">
-        <img class="starec" src="/images/socci/starec.PNG">
-        <img class="stir" src="/images/socci/stir.PNG">
-        <img class="stonozka" src="/images/socci/stonozka.PNG">
-        <img class="vetvicka" src="/images/socci/vetvicka.PNG">
+        <a href="###"><img class="brouk" src="/images/socci/brouk.PNG"></a>
+        <a href="###"><img class="had" src="/images/socci/had.PNG"></a>
+        <a href="###"><img class="hlemyzd" src="/images/socci/hlemyzd.PNG"></a>
+        <a href="###"><img class="kudlanka" src="/images/socci/kudlanka.PNG"></a>
+        <a href="###"><img class="lumberjack" src="/images/socci/lumberjack.PNG"></a>
+        <a href="###"><img class="pavouk" src="/images/socci/pavouk.PNG"></a>
+        <a href="###"><img class="silak" src="/images/socci/silak.PNG"></a>
+        <a href="###"><img class="starec" src="/images/socci/starec.PNG"></a>
+        <a href="###"><img class="stir" src="/images/socci/stir.PNG"></a>
+        <a href="###"><img class="stonozka" src="/images/socci/stonozka.PNG"></a>
+        <a href="###"><img class="vetvicka" src="/images/socci/vetvicka.PNG"></a>
       </div>
       <!--<div id="layer5" data-speed="0.5">
         <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>
@@ -633,12 +633,12 @@ defmodule Hero do
       }
       </style>
       <div class="hero">
-            <div class="hero-content" id="plavani-switch">
+            <div class="hero-content" id="plavani-switch" >
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
-              <div class="section-toggle section-toggle-plavani">
-              <a href="#skoly">Pro školy</a>
-              <a href="#verejnost">Pro veřejnost</a>
+              <div class="section-toggle section-toggle-plavani" onClick="clicker();">
+              <a href="#skoly" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
+              <a href="#verejnost" id="verejnostA">Pro veřejnost</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
@@ -651,6 +651,34 @@ defmodule Hero do
           }
 
           </style>
+          <script>
+          function clicker() {
+            if (skolyA.classList.contains("active")) {
+              console.log("skolyA");
+              skolyB.classList.add("active");
+              verejnostA.classList.remove("active");
+              verejnostB.classList.remove("active");
+            }
+            if (verejnostA.classList.contains("active")) {
+              console.log("verejnostB");
+              verejnostB.classList.add("active");
+              skolyA.classList.remove("active");
+              skolyB.classList.remove("active");
+            }
+            if (skolyB.classList.contains("active")) {
+              console.log("skolyB");
+              skolyA.classList.add("active");
+              verejnostA.classList.remove("active");
+              verejnostB.classList.remove("active");
+            }
+            if (verejnostB.classList.contains("active")) {
+              console.log("verejnostB");
+              verejnostA.classList.add("active");
+              skolyA.classList.remove("active");
+              skolyB.classList.remove("active");
+            }
+          };
+          </script>
     """
   end
 
