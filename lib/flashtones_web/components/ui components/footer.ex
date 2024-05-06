@@ -107,7 +107,7 @@ defmodule Footer do
       }
       }
     </style>
-    <footer class="footerLinks-wrap odsazeni-footer">
+    <footer class="footerLinks-wrap odsazeni-footer" style="border-radius: 15px 15px 0 0;">
     <div class="footerHeading-wrap"><h2 style="margin: 0;">CO NÁS BAVÍ</h2>
       <div class="footer-icons">
         <a target="_blank" href="https://www.instagram.com/flashtonescz/" style="background-image: url(/images/icon/insta.svg)"></a>
@@ -210,7 +210,7 @@ defmodule Footer do
       }
       }
     </style>
-    <footer class="odsazeni-footer">
+    <footer class="odsazeni-footer" style="border-radius: 15px 15px 0 0;">
       <Navlinks.deti />
 
     </footer>
