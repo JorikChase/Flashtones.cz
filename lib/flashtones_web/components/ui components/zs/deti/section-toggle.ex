@@ -263,7 +263,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -279,7 +279,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -295,7 +295,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -311,7 +311,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -327,7 +327,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -343,7 +343,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -359,7 +359,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -375,7 +375,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -391,7 +391,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -414,7 +414,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -430,7 +430,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -446,7 +446,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -462,7 +462,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -478,7 +478,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>
@@ -494,7 +494,7 @@ defmodule SectionToggle do
                     href="/kontakty#form"
                     class="inline-button flashtones-link self-right"
                   >
-                    Objednat <img src="/images/icon/arrow right.svg" />
+                    Objednat <img src="/images/icon/arrow right.svg" alt="Šipka" />
                   </a>
                 </p>
               </div>

@@ -15,7 +15,7 @@ defmodule DetailLokace do
     <div class="category" data-category="Plavání">
               <div class="product">
                     <a href="/zs/lokality/">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik.jpg)"></div>
                         <div class="product-text">
                         <h4>
                         Hotel Energetik
@@ -28,7 +28,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="/zs/lokality/">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/tetrevi-boudy.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/tetrevi-boudy.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         HORSKÝ HOTEL TETŘEVÍ BOUDY
@@ -42,7 +42,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vlasim.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/vlasim.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         SPORTHOTEL VLAŠIM
@@ -56,7 +56,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/bystre.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bystre.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         Hotel Bystré
@@ -70,7 +70,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/brandys.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/brandys.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         Sportcentrum brandýs
@@ -84,7 +84,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         HORNÍ BEČVA Hotel Duo
@@ -98,7 +98,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="/zs/lokality/jelenovska">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/jelenovska.png)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/jelenovska.png)"></div>
                         <h4>
                         Hotel Jelenovská
                         </h4>
@@ -109,7 +109,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/rousarka.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/rousarka.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         Hotel Roušarka
@@ -123,7 +123,7 @@ defmodule DetailLokace do
               </div>
               <div class="product">
                     <a href="###">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lugsteinhof-item.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lugsteinhof-item.jpeg)"></div>
                         <div class="product-text">
                         <h4>
                         HOTEL LUGSTEINHOF
@@ -153,7 +153,7 @@ defmodule DetailLokace do
     <div class="category" data-category="Plavání">
     <div class="product">
                     <a href="/zs/lokality/energetik">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -163,7 +163,7 @@ defmodule DetailLokace do
                         Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
               </div>
@@ -213,7 +213,7 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
           <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/prazacka.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/prazacka.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/prazacka.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -221,13 +221,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 17 x 8.5 m, příjemně teplou vodou a neopakovatelným výhledem na Prahu. Je ideální pro výuku dětských plavců i neplavců. </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/vystaviste.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vystaviste.jpeg)" id="vystaviste"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/vystaviste.jpeg)" id="vystaviste"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -235,13 +235,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 25 m x 12,5 m s příjemně teplou vodou. Bazén má šest plaveckých drah, na jejich začátku jsou startovní bloky, pod kterými je hloubka 3,8 metrů.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/suchdol.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/suchdol.jpeg)" id="suchdol"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/suchdol.jpeg)" id="suchdol"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -249,13 +249,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">Kurzy probíhají v Sportcentrum Suchdol na univerzitě ČZU. Bazén má rozměry 25x13 metrů. Má pozvolný sestup, který začíná hloubkou 1,2m a končí hloubkou 1,8 m. Součástí budovy je i tělocvična.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/radotin.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/radotin.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/radotin.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -263,13 +263,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hloubetin.webp); display: flex; justify-content: center; align-items: center; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/hloubetin.webp); display: flex; justify-content: center; align-items: center; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
                       <span style="">rekonstrukce UZAVŘEN</span>
                       </div>
                         <div class="product-text-wrap">
@@ -279,13 +279,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">Součástí budovy je i tělocvična pro míčové a teambuildingové hry využívaná v případě špatného počasí. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/beroun.pdf">
-              <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/beroun.jpeg)" id="beroun"></div>
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/beroun.jpeg)" id="beroun"></div>
                 <div class="product-text-wrap">
                 <div class="product-text">
                 <span class="cost-wrap"><h4>
@@ -293,13 +293,13 @@ defmodule DetailLokace do
                 </h4><b>5 250 <side>Kč</side></b></span>
                 <p class="font-normal">K plavání využíváme krytý bazén s šesti 25metrovými drahami, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru.</p>
                 </div>
-                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
               </div>
             </a>
           </div>
           <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/brandys.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/brandys.webp)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/brandys.webp)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -307,13 +307,13 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">Centrum zahrnuje bazén o délce 25 metrů s třemi plaveckými drahami se startovacími bloky.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
           <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/sareza.pdf">
-              <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/sareza.jpeg)" id="sareza"></div>
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.jpeg)" id="sareza"></div>
                 <div class="product-text-wrap">
                 <div class="product-text">
                 <span class="cost-wrap"><h4>
@@ -321,14 +321,14 @@ defmodule DetailLokace do
                 </h4><b>4 550 <side>Kč</side></b></span>
                 <p class="font-normal">K plavání využíváme krytý bazén s rozměry 50 x 21 m s příjemně teplou vodou. Pro úplné začátečníky využíváme dětský bazén s hloubkou 64 cm.</p>
                 </div>
-                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
               </div>
             </a>
           </div>
 
               <div class="product">
                     <a target="_blank" href="/images/pdf/plavani-verejnost/olsanka.pdf">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/olsanka.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/olsanka.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
@@ -336,7 +336,7 @@ defmodule DetailLokace do
                         </h4><b>5 250 <side>Kč</side></b></span>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,3metru. Směrem k druhému konci stoupá nerezové dno na 1,1 metru.</p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -360,7 +360,7 @@ defmodule DetailLokace do
     <div class="category" data-category="Plavání">
               <div class="product">
                     <a href="/zs/lokality/agri">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/agri/agri.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/agri/agri.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -370,13 +370,13 @@ defmodule DetailLokace do
                         Hotel Agri se nachází v Soběšicích a nabízí krásnou zahradu, lounge, terasu a restauraci. Tento 3hvězdičkový hotel má krytý bazén o rozměrech 11 x 6 m, dětský klub a Wi-Fi ve všech prostorách. Pokoje vlastní koupelnu, ložní prádlo a ručníky.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/astra">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/astra/astra.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/astra/astra.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -386,13 +386,13 @@ defmodule DetailLokace do
                         Hotel Astra je situovaný svou polohou 15 minut od letiště Václava Havla, ihned vedle autobusové zastávky a s parkováním zdarma v hotelovém objektu. To z hotelu Astra dělá skvěle dostupné místo pro poklidné ubytování dál od okolního ruchu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/energetik">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -402,13 +402,13 @@ defmodule DetailLokace do
                         Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch. Hodiny plavání probíhají ve vyhřívaném krytém hotelovém bazénu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/tetrevi-boudy">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/tetrevi-boudy.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/tetrevi-boudy.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -418,13 +418,13 @@ defmodule DetailLokace do
                         Je oblíbená krkonošská horská rekreační samota na luční enklávě v nadmořské výšce 1030 m.n.m. s nádherným výhledem na Žalý a do kraje. Hotel nabízí jak venkovní tak vnitřní aktivity.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/vlasim">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vlasim/vlasim.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/vlasim/vlasim.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -434,13 +434,13 @@ defmodule DetailLokace do
                         Leží v klidném prostředí nedaleko centra města Vlašim, které je vzdálené od Prahy jen 60 km. Sporthotel je součástí sportcentra, které poskytuje komplexní služby pro jednotlivce i organizované skupiny v oblasti sportu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/bystre">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/bystre.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bystre.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -450,13 +450,13 @@ defmodule DetailLokace do
                         Má unikátní polohu v srdci Vysočiny. Jedná se o rodinný hotel vybudovaný z komplexu historických budov, který vyniká útulným ubytováním, bazénem se slanou vodou vhodnou i pro alergiky.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/brandys">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/brandys/brandys.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/brandys/brandys.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -466,13 +466,13 @@ defmodule DetailLokace do
                         Se nachází v klidné části města Brandýs nad Labem v okrese Praha-východ. Mezi velké výhody patří blízká dostupnost od hlavního města a přitom mnoho možností k trávení času v přírodě.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/horni-becva-duo">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/hotel-duo/hotel-duo.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/hotel-duo/hotel-duo.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -482,13 +482,13 @@ defmodule DetailLokace do
                         Hotel Duo se nachází v klidné části Beskyd, 3 km od centra Horní Bečvy. Lyžařská střediska Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova pod Radhoštěm.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/jelenovska">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/jelenovska/jelenovska.png)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/jelenovska/jelenovska.png)"></div>
                       <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -498,13 +498,13 @@ defmodule DetailLokace do
                         Je usazen uprostřed překrásné chráněné krajiny Bílých Karpat v lese, kde dominantou je nenarušená příroda, klid a čistý vzduch. Plavecká výuka probíhá ve vnitřním vyhřívaném hotelovém bazénu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/rousarka">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/rousarka.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/rousarka.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -514,13 +514,13 @@ defmodule DetailLokace do
                         Hotel Roušarka leží v malebném městě Sušici na okraji Šumavy. Hodiny plavání probíhají v moderním bazénu nově vystaveného sportovního areálu přímo vedle hotelu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/lugsteinhof">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -530,13 +530,13 @@ defmodule DetailLokace do
                         Se pyšně tyčí v malebné oblasti Saska, na německé straně Krušných hor, poblíž obce Cínovec a nabízí vskutku krásný výhled na okolní krajinu.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
               <div class="product">
                     <a href="/zs/lokality/vysocina">
-                      <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/vysocina/vysocina.jpeg)"></div>
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/vysocina/vysocina.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>
@@ -546,7 +546,7 @@ defmodule DetailLokace do
                         Penzion na Vysočině se nachází v Hartmanicích, v klidném prostředí a krásné přírodě na pomezí Vysočiny, Pardubického a Jihomoravského kraje. Ubytování nabízí 60 lůžek v 18 pokojích.
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
               </div>
@@ -572,7 +572,7 @@ defmodule DetailLokace do
       <div class="category" data-category="Lyžování">
                 <div class="product">
                       <a href="/zs/lokality/energetik">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -588,7 +588,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-kurtu">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/u-kurtu.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/u-kurtu.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -604,7 +604,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-medveda">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/u-medveda/u-medveda.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/u-medveda/u-medveda.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -620,7 +620,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/radost">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/radost/radost.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/radost/radost.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -636,7 +636,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/horni-becva-duo">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -652,7 +652,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/fontana">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/fontana/fontana.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/fontana/fontana.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -668,7 +668,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/lugsteinhof">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -684,7 +684,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/plesivka">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                           <h4>
@@ -700,7 +700,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/na-mulde">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/na-mulde/na-mulde.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/na-mulde/na-mulde.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -735,7 +735,7 @@ defmodule DetailLokace do
     <div class="category" data-category="Enviro">
                 <div class="product">
                       <a href="/zs/lokality/agri">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/agri/agri.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/agri/agri.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -751,7 +751,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/astra">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/astra/astra.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/astra/astra.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -767,7 +767,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/energetik">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -783,7 +783,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-kurtu">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/u-kurtu.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/u-kurtu.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -799,7 +799,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/horni-pramen">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/pramen-item.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/pramen-item.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -815,7 +815,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/u-medveda">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/u-medveda/u-medveda.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/u-medveda/u-medveda.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -831,7 +831,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/radost">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -847,7 +847,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/lites">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lites.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lites.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>RS LITES</h4>
@@ -862,7 +862,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/maj">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/maj.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/maj.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>RS Máj</h4>
@@ -876,7 +876,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/lubenec">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lubenec.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lubenec.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <h4>RS Lubenec</h4>
@@ -890,7 +890,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/horni-becva-duo">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/duo-item.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -906,7 +906,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/fontana">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/fontana/fontana.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/fontana/fontana.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -922,7 +922,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/lugsteinhof">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/lugsteinhof-item.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lugsteinhof-item.jpeg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>
@@ -938,7 +938,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/palkovicke-hurky">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                           <h4>
@@ -954,7 +954,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/plesivka">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.jpeg)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
                           <h4>
@@ -970,7 +970,7 @@ defmodule DetailLokace do
                 </div>
                 <div class="product">
                       <a href="/zs/lokality/na-mulde">
-                        <div class="detail-lokace-item-img" style="background-image: url(/images/hotely/na-mulde/na-mulde.jpg)"></div>
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/na-mulde/na-mulde.jpg)"></div>
                           <div class="product-text-wrap">
                           <div class="product-text">
                           <h4>

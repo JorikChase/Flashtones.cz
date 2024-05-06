@@ -112,13 +112,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/ft/Flashtones.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/ft/Flashtones.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/ft/Flashtones.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/ft/Flashtones.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="/">
@@ -271,13 +271,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/academy/academy-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/academy/academy-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/academy/academy-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/academy/academy-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -441,13 +441,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/deti/deti-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/deti/deti-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/deti/deti-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/deti/deti-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -595,13 +595,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/deti/deti-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/deti/deti-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/doma/doma-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/doma/doma-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -756,13 +756,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/enviro/enviro-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/enviro/enviro-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/enviro/enviro-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/enviro/enviro-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -917,13 +917,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/lyzovani/lyzovani-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/lyzovani/lyzovani-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/lyzovani/lyzovani-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/lyzovani/lyzovani-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -1078,13 +1078,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/plavani/plavani-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/plavani/plavani-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/plavani/plavani-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/plavani/plavani-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">
@@ -1239,13 +1239,13 @@ defmodule MenuMobile do
     </style>
 
     <div class="mobileMenuToggle">
-      <img src="/images/vylety/vylety-logo.svg" />
-      <img src="/images/icon/x.svg" />
+      <img alt="Ikona mobilni menu" src="/images/vylety/vylety-logo.svg" />
+      <img alt="Ikona mobilni menu" src="/images/icon/x.svg" />
     </div>
     <div class="mobileMenu">
       <span class="mobileMenuHead">
-        <img src="/images/vylety/vylety-logo.svg" />
-        <img src="/images/icon/menu.svg" />
+        <img alt="Ikona mobilni menu" src="/images/vylety/vylety-logo.svg" />
+        <img alt="Ikona mobilni menu" src="/images/icon/menu.svg" />
       </span>
       <div>
         <a href="https://zsprodeti.cz/zs">

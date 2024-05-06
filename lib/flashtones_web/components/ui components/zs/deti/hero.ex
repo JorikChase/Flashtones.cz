@@ -397,29 +397,29 @@ defmodule Hero do
     <div class="socci-map-wrap" id="SocciMap" phx-hook="SocciMap">
     <div id="map-container">
       <div id="layer4" data-speed="0.5">
-        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-base.png?v=1710253236452" alt="Background Layer">
+        <img alt="Zviratko" src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-base.png?v=1710253236452" alt="Background Layer">
       </div>
       <div id="layer3" data-speed="1">
-        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-base.png?v=1710276098582" alt="cloud Layer">
+        <img alt="Zviratko" src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-base.png?v=1710276098582" alt="cloud Layer">
       </div>
       <div id="layer2" data-speed="1.5">
-        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-3.png?v=1710276095863" alt="cloud Layer">
+        <img alt="Zviratko" src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-3.png?v=1710276095863" alt="cloud Layer">
       </div>
       <div id="layer1" data-speed="2">
-        <img src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062" alt="cloud Layer">
+        <img alt="Zviratko" src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062" alt="cloud Layer">
       </div>
       <div id="layer6" data-speed="0.5">
-        <a href="###"><img class="brouk" src="/images/socci/brouk.PNG"></a>
-        <a href="###"><img class="had" src="/images/socci/had.PNG"></a>
-        <a href="###"><img class="hlemyzd" src="/images/socci/hlemyzd.PNG"></a>
-        <a href="###"><img class="kudlanka" src="/images/socci/kudlanka.PNG"></a>
-        <a href="###"><img class="lumberjack" src="/images/socci/lumberjack.PNG"></a>
-        <a href="###"><img class="pavouk" src="/images/socci/pavouk.PNG"></a>
-        <a href="###"><img class="silak" src="/images/socci/silak.PNG"></a>
-        <a href="###"><img class="starec" src="/images/socci/starec.PNG"></a>
-        <a href="###"><img class="stir" src="/images/socci/stir.PNG"></a>
-        <a href="###"><img class="stonozka" src="/images/socci/stonozka.PNG"></a>
-        <a href="###"><img class="vetvicka" src="/images/socci/vetvicka.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="brouk" src="/images/socci/brouk.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="had" src="/images/socci/had.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="hlemyzd" src="/images/socci/hlemyzd.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="kudlanka" src="/images/socci/kudlanka.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="lumberjack" src="/images/socci/lumberjack.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="pavouk" src="/images/socci/pavouk.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="silak" src="/images/socci/silak.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="starec" src="/images/socci/starec.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="stir" src="/images/socci/stir.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="stonozka" src="/images/socci/stonozka.PNG"></a>
+        <a href="###"><img alt="Zviratko" class="vetvicka" src="/images/socci/vetvicka.PNG"></a>
       </div>
       <!--<div id="layer5" data-speed="0.5">
         <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>

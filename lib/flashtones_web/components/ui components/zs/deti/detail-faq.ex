@@ -58,40 +58,40 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/zabava.svg">
+          <img src="/images/icon/zabava.svg" alt="zabava">
           <p class="font-bold">Zábavní program</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Stravování</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
             snídaňový bufet
@@ -114,7 +114,7 @@ defmodule DetailFaq do
           <img src="/images/icon/bus.svg">
           <p class="font-bold">Doprava</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
         </div>
@@ -124,7 +124,7 @@ defmodule DetailFaq do
           <img src="/images/icon/prispevek.svg">
           <p class="font-bold">Jak zlevnit kurz?</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-ft.svg"></a>
 
@@ -207,7 +207,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -217,7 +217,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -227,7 +227,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/zabava.svg">
+          <img src="/images/icon/zabava.svg" alt="zabava">
           <p class="font-bold">Zábavní program</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -652,7 +652,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
@@ -662,7 +662,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
@@ -672,7 +672,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/zabava.svg">
+          <img src="/images/icon/zabava.svg" alt="zabava">
           <p class="font-bold">Zábavní program</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
@@ -801,7 +801,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
@@ -811,7 +811,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
         <img src="/images/icon/plus.svg" class="self-end">
@@ -1063,7 +1063,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -1139,7 +1139,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/terminy.svg">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -1149,7 +1149,7 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/sportovni.svg">
+          <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
@@ -1278,7 +1278,7 @@ defmodule DetailFaq do
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/stravovani-deti.svg">Jídlo</h3>
+          <h3 class="font-semibold"><img src="/images/icon/stravovani-deti.svg" alt="stravovani">Jídlo</h3>
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
@@ -1286,7 +1286,7 @@ defmodule DetailFaq do
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
-          <h3 class="font-semibold"><img src="/images/icon/skola-deti.svg">Výlety</h3>
+          <h3 class="font-semibold"><img src="/images/icon/skola-deti.svg" alt="Vylety">Výlety</h3>
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
       </div>
@@ -1368,7 +1368,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           První písemnou zmínku o původní osadě najdeme v Kronice české od
@@ -1390,7 +1390,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -1410,7 +1410,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Víceúčelové hřiště</p>
@@ -1425,7 +1425,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Bystré leží ve Svratecko-křetínském trojúhelníku, kde díky
@@ -1449,10 +1449,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Mezi nejznámější typická jídla Vysočiny patří Jihlavská kyselka, Horácká houbová polévka, Bramborové škubánky, Bramborové placky se škvarky, Podhorácké mládě a Kapr po pacovsku.
           </p>
@@ -1460,10 +1460,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Hotel Bystré -> 10 km, 3.00 hod. -> vodní nádrž Vír</p>
@@ -1552,7 +1552,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           První písemná zmínka z přelomu 13. a 14. století mluví o Brandýse
@@ -1576,7 +1576,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -1595,7 +1595,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>zámek Brandýs nad Labem</p>
@@ -1615,7 +1615,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Z brandýské strany vystupují příkré svahy k terase Polabské
@@ -1637,10 +1637,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Sportcentrum Brandýs -> 7 km, 1.50 hod. -> Zřícenina hradu Jenštejn</p>
@@ -1729,7 +1729,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Nejdříve osídlenou částí dnešní Pece pod Sněžkou byla hornická
@@ -1754,7 +1754,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -1773,7 +1773,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
             Krkonoše jsou nejvyšší pohoří Česka. Nejvyšší horou Krkonoš i
@@ -1800,10 +1800,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Krkonoše byly historicky chudším krajem, čemuž odpovídají také tradiční pokrmy z dostupných surovin.</b>
           Krkonošské kyselo – základem je chlebový kvásek, který neustále kyne, a polévky tak v hrnci kouzelně přibývá
@@ -1824,10 +1824,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Energetik -> 8,3 km, 3.50 hod. -> Sněžka vrchol</p>
@@ -1916,7 +1916,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Obec</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           K obci Soběšice náleží administrativně osady Panské Mlýny a Parýzek. Osadou
@@ -1933,7 +1933,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -1948,7 +1948,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           V Soběšickém háji naleznete zajímavá seskupení obrovských kamenů, nezvykle
@@ -1976,10 +1976,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Klostermannova rozhledna (8km)</p>
@@ -2067,7 +2067,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Srby vznikly na konci 18. stol., jejich význam vzrostl při
@@ -2088,7 +2088,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -2104,7 +2104,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>
@@ -2121,7 +2121,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Soustava rybníků, která tvoří přírodní ekosystém na
@@ -2137,10 +2137,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Vodní park Čabárna (12 km)</p>
@@ -2229,7 +2229,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Obec</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Horní Bečva je horská obec v okrese Vsetín ve Zlínském kraji. Obec leží
@@ -2244,7 +2244,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -2263,7 +2263,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
             Přehradní nádrž s rozlohou 5 ha
@@ -2284,10 +2284,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -2301,10 +2301,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Jurkovičova rozhledna (výlet na 1 hod.)</p>
@@ -2392,7 +2392,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Z roku 1341 pochází první zmínka o obci Klobúk, založené Ješkem
@@ -2418,7 +2418,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -2438,7 +2438,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>
@@ -2464,10 +2464,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Valašsko je hornatý kraj s málo úrodnou půdou. Na svazích Beskyd
@@ -2492,10 +2492,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Horský hotel Jelenovská -> 5,9 km, 2.50 hod. -> Rozhledna Královec</p>
@@ -2584,7 +2584,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Ubytování</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           V rekreačním středisku jsou k dispozici 3 druhy ubytování.
@@ -2603,7 +2603,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Vybavení</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Tělocvična</b>
@@ -2622,7 +2622,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Muzeum Frymburk (Frymburk 5)</p>
@@ -2641,7 +2641,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Drábské světničky patří mezi nejvyhledávanější místa Českého ráje, a
@@ -2665,10 +2665,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Zámek Mnichovo Hradiště</p>
@@ -2756,7 +2756,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -2768,10 +2768,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Stravování je zajištěno v prostorné jídelně s kapacitou
           120 míst, v mimosezónním období vytápěné. V létě je
@@ -2781,10 +2781,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Rozhledna Vohlice</p>
@@ -2871,7 +2871,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Obec</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Obec Altenberg a okolí nabízejí krásnou přírodu a řadu možností pro rekreační aktivity a výlety.
@@ -2883,7 +2883,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -2897,10 +2897,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Hornické muzeum Altenberg</p>
@@ -2992,7 +2992,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3007,7 +3007,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Město Plasy jsou nejbližší město k RS (cca 2800 obyvatel)</p>
@@ -3033,7 +3033,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Veřejná rekreační vodní plocha Plasy – nové přírodní
@@ -3056,10 +3056,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <p class="answer mt-2">
             ZOO Plasy
@@ -3151,7 +3151,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           První písemný záznam pochází z roku 1198. V roce 1856 vypukl
@@ -3168,7 +3168,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3188,7 +3188,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Muzeum Frymburk (Frymburk 5)</p>
@@ -3207,7 +3207,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
@@ -3235,10 +3235,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -3252,10 +3252,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
@@ -3342,7 +3342,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3359,7 +3359,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Muzeum Frymburk (Frymburk 5)</p>
@@ -3378,7 +3378,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
@@ -3406,10 +3406,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -3423,10 +3423,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
@@ -3513,7 +3513,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           První písemná zmínka o Abertamech pochází z roku 1529 a je
@@ -3541,7 +3541,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3560,7 +3560,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Abertamy se nacházejí v Karlovarském kraji nedaleko státní
@@ -3575,7 +3575,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Krušné hory jsou pohoří podél česko-německé hranice na
@@ -3595,10 +3595,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Vydatná, rozmanitá a jednoduchá – tak lze charakterizovat
           krušnohorskou kuchyni. Kvůli hospodářské situaci se na talíř
@@ -3615,10 +3615,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Chata Plešivka -> 13 km, 4 hod. -> Boží Dar</p>
@@ -3707,7 +3707,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Nejstarší dochovaný záznam o Špindlerově Mlýně pochází z počátku 16.
@@ -3721,7 +3721,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3740,7 +3740,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>kostel sv. Petra a Pavla</p>
@@ -3755,7 +3755,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Krkonoše jsou nejvyšší pohoří Česka. Nejvyšší horou Krkonoš i celého
@@ -3772,10 +3772,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -3792,10 +3792,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Horní Pramen -> 7 km, 3.00 hod. -> Luční bouda</p>
@@ -3885,7 +3885,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Obec byla založena hluboko v lesích a patřila cysterciákům z
@@ -3904,7 +3904,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -3923,7 +3923,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Podle dávných vyprávění našich předků v Orlických horách přebývá
@@ -3946,7 +3946,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           V blízkém okolí Deštného se soustředí nejatraktivnější místa
@@ -3982,10 +3982,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           V oblastech Orlických hor se tradičně pěstovalo proso
@@ -4000,10 +4000,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Horská chata Radost -> 10 km, 3.50 hod. -> Rozhledna Velká Deštná</p>
@@ -4093,7 +4093,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Někdy na přelomu doby halštatské a laténské v 5. století př. n.
@@ -4116,7 +4116,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -4135,7 +4135,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Po městě často běhal duch rytíře z Rumelskirchenu a děsil měšťany
@@ -4153,7 +4153,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Region Šumava se rozkládá v horské oblasti severozápadní Šumavy
@@ -4188,10 +4188,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -4205,10 +4205,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Roušarka -> 13,5 km, 3.50 hod. -> zřícenina Rabí</p>
@@ -4299,7 +4299,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Obec</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Obec Strážné je horská obec a rekreační středisko, které se nachází v okrese Trutnov, kraj Královéhradecký.
@@ -4311,7 +4311,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -4328,7 +4328,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Dominantou části Strážné je katolický kostel sv. Josefa z roku 1931.</p>
@@ -4339,10 +4339,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>1.3 km. Ski areál Herlíkovice. Lyžování</p>
@@ -4434,7 +4434,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           První písemný záznam pochází z roku 1198. V roce 1856 vypukl
@@ -4451,7 +4451,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -4471,7 +4471,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Muzeum Frymburk (Frymburk 5)</p>
@@ -4490,7 +4490,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Lipno je vodní dílo vybudované na řece Vltavě v letech 1952–
@@ -4518,10 +4518,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2"><b>Šumava je kraj knedlíků</b>
           sklářské knedlíky z bramborového nebo žemlového základu,
@@ -4535,10 +4535,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Hotel Fontána -> 7 km, 2 hod. -> vyhlídka nad Frymburkem (Křížová cesta, Kaple Panny Marie Bolestné)</p>
@@ -4626,7 +4626,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Pec vznikla jako třetí část Velké Úpy až později. První
@@ -4642,7 +4642,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -4657,7 +4657,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>PEC POD SNĚŽKOU (vzdálenost 2,1km od hotelu)</b>
@@ -4674,7 +4674,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
             Sněžka je nejvyšší horou České republiky. Je to významná
@@ -4706,10 +4706,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <b>Sněžka</b><br>
@@ -4798,7 +4798,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Obec</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Obec Kořenov vznikla v roce 1960 sloučením obcí Polubný,
@@ -4815,7 +4815,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -4837,7 +4837,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
           <p>rozhledna Štěpánka</p>
@@ -4855,7 +4855,7 @@ defmodule DetailFaq do
           <img src="/images/icon/priroda-deti.svg">
           <p class="font-bold">Příroda</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Jizerské hory jsou nejsevernějším pohořím Česka. Pohoří bylo
@@ -4886,10 +4886,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Tradiční surovinou Jizerských hor byly brambory, které místní
           rozlišovali dle rozličných názvů. Na brambory vařené ve slupce
@@ -4902,10 +4902,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/skola-deti.svg">
+          <img src="/images/icon/skola-deti.svg" alt="Vylety">
           <p class="font-bold">Výlety</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <div class="answer mt-2">
             <p>Chata U Medvěda -> 3,5 km, 1.21 hod. -> Rozhledna Štěpánka</p>
@@ -4996,7 +4996,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           V roce 1895 bylo město napojeno na železniční síť. V roce 1914 byla
@@ -5030,7 +5030,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -5046,7 +5046,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>Zámecký park Vlašim</p>
@@ -5138,7 +5138,7 @@ defmodule DetailFaq do
           <img src="/images/icon/historie-deti.svg">
           <p class="font-bold">Historie obce</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Nejstarší písemná zmínka o vsi pochází z roku 1437, kdy císař
@@ -5152,7 +5152,7 @@ defmodule DetailFaq do
           <img src="/images/icon/vybavenost-deti.svg">
           <p class="font-bold">Občanská vybavenost</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <b>Obchody</b>
@@ -5169,7 +5169,7 @@ defmodule DetailFaq do
           <img src="/images/icon/pin-deti.svg">
           <p class="font-bold">Okolí</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <div class="answer mt-2">
             <p>hrady Svojanov, Pernštejn</p>
@@ -5181,10 +5181,10 @@ defmodule DetailFaq do
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg">
+          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
           <p class="font-bold">Jídlo</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" class="self-end">
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Mezi nejznámější typická jídla Vysočiny patří Jihlavská
             kyselka, Horácká houbová polévka, bramborové škubánky,

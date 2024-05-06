@@ -20,10 +20,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="lyzovani-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-lyzovani.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-lyzovani.svg" />+420 606 589 786
       </a>
       <a class="lyzovani-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-lyzovani.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-lyzovani.svg" />info@zsprodeti.cz
       </a>
       <!--<a class="lyzovani-link" href="tel:+420 606 589 786"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
@@ -68,10 +68,10 @@ defmodule DetailCta do
       <p>Chci více informací:</p>
       <br />
       <a class="lyzovani-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-lyzovani.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-lyzovani.svg" />+420 606 589 786
       </a>
       <a class="lyzovani-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-lyzovani.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-lyzovani.svg" />info@zsprodeti.cz
       </a>
       <a class="lyzovani-link" href="/images/pdf/lyzovani.pdf" target="_blank">
         <img src="/images/icon/download-lyzovani.svg" />PDF brožura
@@ -144,10 +144,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="plavani-link" href="tel:+420 724 168 962">
-        <img src="/images/icon/call-plavani.svg" />+420 724 168 962
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
       <a class="plavani-link" href="/images/pdf/platebni-podminky.pdf" target="_blank">
         <img src="/images/icon/download-plavani.svg" />PDF brožura
@@ -196,10 +196,10 @@ defmodule DetailCta do
       </span>
       <!--<p>Chci více informací o kurzu:</p>-->
       <a class="plavani-link" href="tel:+420 724 168 962">
-        <img src="/images/icon/call-plavani.svg" />+420 724 168 962
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
       <a class="plavani-link" href="/images/pdf/plavani-verejnost/plavani-letni-pobytovy.pdf" target="_blank">
         <img src="/images/icon/download-plavani.svg" />PDF brožura
@@ -245,10 +245,10 @@ defmodule DetailCta do
       <span></span>
       <!--<p>Chci více informací o kurzu:</p>-->
       <a class="plavani-link" href="tel:+420 724 168 962">
-        <img src="/images/icon/call-plavani.svg" />+420 724 168 962
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
     </div>
     <script>
@@ -292,10 +292,10 @@ defmodule DetailCta do
       <p>Chci více informací:</p>
       <br />
       <a class="plavani-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-plavani.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 606 589 786
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email-plavani.svg" />info@zsplavani.cz
+        <img alt="email" src="/images/icon/email-plavani.svg" />info@zsplavani.cz
       </a>
       <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank">
         <img src="/images/icon/download-plavani.svg" />PDF brožura
@@ -346,10 +346,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="plavani-link" href="tel:+420 724 168 962">
-        <img src="/images/icon/call-plavani.svg" />+420 724 168 962
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
     </div>
     <script>
@@ -398,10 +398,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="plavani-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call.svg" />+420 606 589 786
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email.svg" />petra@zsplavani.cz
       </a>
       <!--<a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank"><img src="/images/icon/download.svg">PDF brožura</a>-->
     </div>
@@ -451,10 +451,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="plavani-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call.svg" />+420 606 589 786
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
-        <img src="/images/icon/email.svg" />petra@zsplavani.cz
+        <img alt="email" src="/images/icon/email.svg" />petra@zsplavani.cz
       </a>
       <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank">
         <img src="/images/icon/download.svg" />PDF brožura
@@ -542,10 +542,10 @@ defmodule DetailCta do
       <p>Chci více informací:</p>
       <br />
       <a class="vylety-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-vylety.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-vylety.svg" />+420 606 589 786
       </a>
       <a class="vylety-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
       </a>
       <a class="vylety-link" href="/images/pdf/vylety.pdf" target="_blank">
         <img src="/images/icon/download-vylety.svg" />PDF brožura
@@ -597,10 +597,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="vylety-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-vylety.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-vylety.svg" />+420 606 589 786
       </a>
       <a class="vylety-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
       </a>
       <a class="vylety-link" href="/images/pdf/vylety.pdf" target="_blank">
         <img src="/images/icon/download-vylety.svg" />PDF brožura
@@ -652,10 +652,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="vylety-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-vylety.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-vylety.svg" />+420 606 589 786
       </a>
       <a class="vylety-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-vylety.svg" />info@zsprodeti.cz
       </a>
       <a class="vylety-link" href="/images/pdf/vylety.pdf" target="_blank">
         <img src="/images/icon/download-vylety.svg" />PDF brožura
@@ -702,10 +702,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="enviro-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-enviro.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 606 589 786
       </a>
       <a class="enviro-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
       </a>
       <a class="enviro-link" target="_blank" href="/images/pdf/enviro.pdf">
         <img src="/images/icon/download-enviro.svg" />PDF brožura
@@ -751,10 +751,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="enviro-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-enviro.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 606 589 786
       </a>
       <a class="enviro-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
       </a>
       <a class="enviro-link" target="_blank" href="/images/pdf/enviro-tym.pdf">
         <img src="/images/icon/download-enviro.svg" />PDF brožura
@@ -800,10 +800,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="enviro-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-enviro.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 606 589 786
       </a>
       <a class="enviro-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
       </a>
       <a class="enviro-link" target="_blank" href="/images/pdf/enviro-tym.pdf">
         <img src="/images/icon/download-enviro.svg" />PDF brožura
@@ -849,10 +849,10 @@ defmodule DetailCta do
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="enviro-link" href="tel:+420 606 589 786">
-        <img src="/images/icon/call-enviro.svg" />+420 606 589 786
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 606 589 786
       </a>
       <a class="enviro-link" href="mailto:info@zsprodeti.cz">
-        <img src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
+        <img alt="email" src="/images/icon/email-enviro.svg" />info@zsprodeti.cz
       </a>
       <a class="enviro-link" target="_blank" href="/images/pdf/enviro-ss.pdf">
         <img src="/images/icon/download-enviro.svg" />PDF brožura

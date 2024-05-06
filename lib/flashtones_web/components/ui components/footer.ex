@@ -118,7 +118,7 @@ defmodule Footer do
       <Navlinks.general />
       <span class="noBreak copyright">
       Copyright © 2023
-      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
+      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" alt="Logo Flashtones"/>
       </span>
     </footer>
     """

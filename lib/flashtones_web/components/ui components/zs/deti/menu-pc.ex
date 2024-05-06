@@ -65,7 +65,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="./">
-          <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
+          <img alt="Ikona menu" src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> zš pro děti </a>
@@ -92,7 +92,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <a class="pcMenuBottomLink" href="/"> Úvod </a>
@@ -140,7 +140,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/academy">
-          <img src="/images/academy/academy-logo.svg" />
+          <img alt="Ikona menu" src="/images/academy/academy-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> Úvod </a>
@@ -167,7 +167,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />
@@ -439,7 +439,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="https://zsprodeti.cz/zs">
-          <img src="/images/deti/deti-logo.svg" />
+          <img alt="Ikona menu" src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <ul>
@@ -597,7 +597,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/doma">
-          <img src="/images/doma/doma-logo.svg" />
+          <img alt="Ikona menu" src="/images/doma/doma-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
@@ -623,7 +623,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />
@@ -669,7 +669,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/enviro">
-          <img src="/images/enviro/enviro-logo.svg" />
+          <img alt="Ikona menu" src="/images/enviro/enviro-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
@@ -698,7 +698,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />
@@ -744,7 +744,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/lyzovani">
-          <img src="/images/lyzovani/lyzovani-logo.svg" />
+          <img alt="Ikona menu" src="/images/lyzovani/lyzovani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
@@ -773,7 +773,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />
@@ -819,7 +819,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/plavani">
-          <img src="/images/plavani/plavani-logo.svg" />
+          <img alt="Ikona menu" src="/images/plavani/plavani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
@@ -848,7 +848,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />
@@ -894,7 +894,7 @@ defmodule MenuPc do
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="/zs/vylety">
-          <img src="/images/vylety/vylety-logo.svg" />
+          <img alt="Ikona menu" src="/images/vylety/vylety-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
@@ -922,7 +922,7 @@ defmodule MenuPc do
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
         <div class="pcMenuBottomBurger">
-          <img src="/images/icon/menu.svg" />
+          <img alt="Ikona menu" src="/images/icon/menu.svg" />
         </div>
         <div class="pcMenuBottomLinks">
           <DetiGrid.detiGrid />

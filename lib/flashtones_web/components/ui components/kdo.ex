@@ -66,20 +66,20 @@ defmodule Kdo do
           Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!
           </p>
           <div class="button-row">
-            <a class="inline-button" style="color: var(--ft-link);" href="/about#about">
+            <a class="inline-button" style="color: var(--ft-link);" href="/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-ft.svg">
+              <img src="/images/icon/arrow-right-ft.svg" alt="Šipka">
             </a>
-            <a class="inline-button" style="color: var(--ft-link);" href="/about#lide">
+            <a class="inline-button" style="color: var(--ft-link);" href="/about#lide" aria-label="Nasi lide">
               Naši lidé
-              <img src="/images/icon/arrow-right-ft.svg">
+              <img src="/images/icon/arrow-right-ft.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
           <a href="about#lide">
-          <img src="/images/ft/marcel.png" />
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -89,7 +89,7 @@ defmodule Kdo do
             </p>
           </a>
           <a href="about#lide">
-          <img src="/images/ft/omar.png" />
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -168,20 +168,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button deti-link" href="/zs/about#about">
+            <a class="inline-button deti-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-deti.svg">
+              <img src="/images/icon/arrow-right-deti.svg" alt="Šipka">
             </a>
-            <a class="inline-button deti-link" href="/zs/about#lide">
+            <a class="inline-button deti-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-deti.svg">
+              <img src="/images/icon/arrow-right-deti.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Nasi lide">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -190,8 +190,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -270,20 +270,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button plavani-link" href="/zs/about#about">
+            <a class="inline-button plavani-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-plavani.svg">
+              <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka">
             </a>
-            <a class="inline-button plavani-link" href="/zs/about#lide">
+            <a class="inline-button plavani-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-plavani.svg">
+              <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -292,8 +292,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -372,20 +372,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button lyzovani-link" href="/zs/about#about">
+            <a class="inline-button lyzovani-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-lyzovani.svg">
+              <img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka">
             </a>
-            <a class="inline-button lyzovani-link" href="/zs/about#lide">
+            <a class="inline-button lyzovani-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-lyzovani.svg">
+              <img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -394,8 +394,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -474,20 +474,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button enviro-link" href="/zs/about#about">
+            <a class="inline-button enviro-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-enviro.svg">
+              <img src="/images/icon/arrow-right-enviro.svg" alt="Šipka">
             </a>
-            <a class="inline-button enviro-link" href="/zs/about#lide">
+            <a class="inline-button enviro-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-enviro.svg">
+              <img src="/images/icon/arrow-right-enviro.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -496,8 +496,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -579,20 +579,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button vylety-link" href="/zs/about#about">
+            <a class="inline-button vylety-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-vylety.svg">
+              <img src="/images/icon/arrow-right-vylety.svg" alt="Šipka">
             </a>
-            <a class="inline-button vylety-link" href="/zs/about#lide">
+            <a class="inline-button vylety-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-vylety.svg">
+              <img src="/images/icon/arrow-right-vylety.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -601,8 +601,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -685,20 +685,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button doma-link" href="/zs/about#about">
+            <a class="inline-button doma-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-doma.svg">
+              <img src="/images/icon/arrow-right-doma.svg" alt="Šipka">
             </a>
-            <a class="inline-button doma-link" href="/zs/about#lide">
+            <a class="inline-button doma-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-doma.svg">
+              <img src="/images/icon/arrow-right-doma.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -707,8 +707,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib
@@ -787,20 +787,20 @@ defmodule Kdo do
             Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
           </p>
           <div class="button-row">
-            <a class="inline-button academy-link" href="/zs/about#about">
+            <a class="inline-button academy-link" href="/zs/about#about" aria-label="O nas">
               O projektu
-              <img src="/images/icon/arrow-right-academy.svg">
+              <img src="/images/icon/arrow-right-academy.svg" alt="Šipka">
             </a>
-            <a class="inline-button academy-link" href="/zs/about#lide">
+            <a class="inline-button academy-link" href="/zs/about#lide" aria-label="Name">
               Naši lidé
-              <img src="/images/icon/arrow-right-academy.svg">
+              <img src="/images/icon/arrow-right-academy.svg" alt="Šipka">
             </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/zs/about#lide">
-          <img src="/images/ft/marcel.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
           <br>
             <h4>
               Marcel Valouch
@@ -809,8 +809,8 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/zs/about#lide">
-          <img src="/images/ft/omar.png" />
+          <a href="/zs/about#lide" aria-label="Name">
+          <img src="/images/ft/omar.png" alt="Omar el Karib" />
           <br>
             <h4>
               Omar el Karib

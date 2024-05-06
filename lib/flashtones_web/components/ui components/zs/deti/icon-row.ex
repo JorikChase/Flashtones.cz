@@ -65,19 +65,19 @@ defmodule IconRow do
       <div class="icon-row_component odsazeni">
         <div class="icon-row">
           <div class="icon-row-item">
-            <img src="/images/icon/boy.svg">
+            <img alt="Zakladni info logo" src="/images/icon/boy.svg">
             <p>Našimi kurzy projde přes 8000 dětí ročně</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/stars.svg">
+            <img alt="Zakladni info logo" src="/images/icon/stars.svg">
             <p>Průměrné hodnocení 5.0</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/pin2.svg">
+            <img alt="Zakladni info logo" src="/images/icon/pin2.svg">
             <p>37 lokalit</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/lektor.svg">
+            <img alt="Zakladni info logo" src="/images/icon/lektor.svg">
             <p>Více než 180 zkušených instruktorů</p>
           </div>
         </div>
@@ -149,27 +149,27 @@ defmodule IconRow do
         <p>Plavecký kurz si klade za cíl osvojení plaveckých dovedností a rozvoj schopností vašeho dítěte</p>
         <div class="icon-row">
           <div class="icon-row-item">
-            <img src="/images/icon/ploutve.svg">
+            <img alt="Zakladni info logo" src="/images/icon/ploutve.svg">
             <p>Plavání s pomůckami i bez nich</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/plavani.svg">
+            <img alt="Zakladni info logo" src="/images/icon/plavani.svg">
             <p>Zvládnutí základních plaveckých způsobů znak, prsa, kraul, motýlek</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/kruh.svg">
+            <img alt="Zakladni info logo" src="/images/icon/kruh.svg">
             <p>Základy první pomoci a vodní záchrany</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/skoky.svg">
+            <img alt="Zakladni info logo" src="/images/icon/skoky.svg">
             <p>Skoky do vody</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/potapeni.svg">
+            <img alt="Zakladni info logo" src="/images/icon/potapeni.svg">
             <p>Základy potápění</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/diplom.svg">
+            <img alt="Zakladni info logo" src="/images/icon/diplom.svg">
             <p>Kurz je zakončen předáním mokrého vysvědčení pro každého účastníka</p>
           </div>
         </div>
@@ -241,27 +241,27 @@ defmodule IconRow do
         <p>Lyžařský kurz si klade za cíl rozvoj schopností, osvojení specifických dovedností a získání pozitivního vztahu k horám a přírodě</p>
         <div class="icon-row">
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-lyze.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-lyze.png">
             <p>Základní postoje</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-dolu.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-dolu.png">
             <p>Volná mobilita</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-diagonal.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-diagonal.png">
             <p>Oblouk s přívratem vyšší lyží</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-speed.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-speed.png">
             <p>Základní oblouk</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-carving.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-carving.png">
             <p>Carvingový oblouk</p>
           </div>
           <div class="icon-row-item">
-            <img src="/images/lyzovani/lyzovani-snih.png">
+            <img alt="Zakladni info logo" src="/images/lyzovani/lyzovani-snih.png">
             <p>Jízda v hlubokém sněhu</p>
           </div>
         </div>
@@ -330,16 +330,16 @@ defmodule IconRow do
       <div class="icon-row_component">
         <div class="icon-row">
           <div class="icon-row-item">
-            <img src="/images/icon/decathlon.jpeg">
+            <img alt="Zakladni info logo" src="/images/icon/decathlon.jpeg">
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/generali.png">
+            <img alt="Zakladni info logo" src="/images/icon/generali.png">
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/msmt.jpg">
+            <img alt="Zakladni info logo" src="/images/icon/msmt.jpg">
           </div>
           <div class="icon-row-item">
-            <img src="/images/icon/slavia.jpeg">
+            <img alt="Zakladni info logo" src="/images/icon/slavia.jpeg">
           </div>
         </div>
       </div>

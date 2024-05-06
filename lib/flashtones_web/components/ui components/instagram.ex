@@ -87,7 +87,7 @@ defmodule Instagram do
       <div class="instagram-row">
         <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/ft-1.gif);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-1.gif);">
           </div>
             <b class="instagram-odsazeni">
             Kromě našich originálních produktů se začínáme vě..
@@ -96,7 +96,7 @@ defmodule Instagram do
           </a>
           <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" style="background-image: url(/images/ig/ft-2.jpeg);">
+            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-2.jpeg);">
             </div>
             <b class="instagram-odsazeni">
             Naskladnili jsme oblíbené kšiltovky s potiskem psa..
@@ -105,7 +105,7 @@ defmodule Instagram do
           </a>
           <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" style="background-image: url(/images/ig/ft-3.jpeg);">
+            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-3.jpeg);">
             </div>
             <b class="instagram-odsazeni">
             Ano, naskakujeme na vlnu upcyklingu, přijde nám to..
@@ -204,7 +204,7 @@ defmodule Instagram do
     <div class="instagram odsazeni">
       <div class="instagram-row">
       <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-        <div class="instagram-img" style="background-image: url(/images/ig/11-3-1.gif);">
+        <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/11-3-1.gif);">
         </div>
           <b class="instagram-odsazeni">
           Blížíme se do finále. Další video ze série ZŠ Lyžování..
@@ -213,7 +213,7 @@ defmodule Instagram do
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/zs-2.jpg);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-2.jpg);">
           </div>
           <b class="instagram-odsazeni">
           🇨🇿První workshop na novém místě!! Ve spolupráci se..
@@ -222,7 +222,7 @@ defmodule Instagram do
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" style="background-image: url(/images/ig/11-3-3.gif);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/11-3-3.gif);">
           </div>
           <b class="instagram-odsazeni">
           Když je někde potřeba zasáhnout a udělat si třeba..
@@ -232,10 +232,10 @@ defmodule Instagram do
         </div>
         <div class="self-end aktuality-links">
         <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
-          více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" />
+          více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka"/>
         </a>
         <a href="/zs/blog" class="aktuality-link noBreak">
-          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" />
+          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka"/>
         </a>
         </div>
     </div>

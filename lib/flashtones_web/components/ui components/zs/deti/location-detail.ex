@@ -34,7 +34,7 @@ defmodule LocationDetail do
         a využít jako samostatná lůžka. Apartmány mají k dispozic rozkládací sofa pro 1-2
         hosty.
         </p>
-        <img src="/images/hotely/agri/agri.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/agri/agri.jpg">
         <h3>HOTEL AGRI A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Agri započala od roku 2023. Hotel je díky své poloze vhodný
@@ -88,7 +88,7 @@ defmodule LocationDetail do
         <br>
         Adresa: Srby 184, Tuchlovice u Kladna
         </p>
-        <img src="/images/hotely/astra/astra.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/astra/astra.jpg">
         <h3>HOTEL ASTRA A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Astra započíná v roce 2023 a pořádáme zde
@@ -155,7 +155,7 @@ defmodule LocationDetail do
         prvního oficiálního srazu fotbalové reprezentace samostatné
         České republiky.
         </p>
-        <img src="/images/hotely/brandys/brandys.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/brandys/brandys.jpg">
         <h3>SPORTCENTRUM A ZŠ PRO DĚTI</h3>
         <p>
         Spolupráce s hotelem Sportcentrum Brandýs započala v roce 2022.
@@ -222,7 +222,7 @@ defmodule LocationDetail do
         starají o provoz, ochrannou ruku nad projektem drží stále pan
         majitel.
         </p>
-        <img src="/images/hotely/bystre/bystre.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/bystre/bystre.jpg">
         <h3>HOTEL BYSTRÉ A ZŠ PRO DĚTI</h3>
         <p>
         Jedná se o jednoho z našich nejnovějších partnerů a my jsme hrdí,
@@ -293,7 +293,7 @@ defmodule LocationDetail do
         hotely, obchody. V Jánských Lázních lze navštívit Stezku
         v korunách stromů.
         </p>
-        <img src="/images/hotely/energetik/energetik.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/energetik/energetik.jpg">
 
         <h3>ENERGETIK A ZŠ PRO DĚTI</h3>
         <p>
@@ -346,7 +346,7 @@ defmodule LocationDetail do
         <p>Fontána Blue Marine Resort se nachází v malebné oblasti na břehu Lipna 750 m nad mořem. Místo je zárukou čistého horského vzduchu. Hotel je tvořen centrální budovou a několika ubytovacími budovami čítajícími 94 pokojů a 6 apartmánů s balkónem nebo terasou.
         V těsné blízkosti je písečná pláž, sportoviště, cyklotrajekt a marina. K dispozici je vnitřní bazén se sluneční terasou, whirpool, finská sauna, infra sauny, tělocvična na volejbal i basketbal, dětská herna a venkovní hřiště s trampolínami.
         Nejbližší místo s částečnou občanskou vybaveností je město Frymburk (8 km od hotelu – cca 10 min autem).</p>
-        <img src="/images/hotely/fontana/fontana.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/fontana/fontana.jpeg">
 
         <h3>FONTÁNA A ZŠ PRO DĚTI</h3>
         <p>
@@ -390,7 +390,7 @@ defmodule LocationDetail do
         Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova
         pod Radhoštěm a 500 metrů od autobusové zastávky.
         </p>
-        <img src="/images/hotely/hotel-duo/hotel-duo.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/hotel-duo/hotel-duo.jpg">
 
         <h3>HOTEL DUO A ZŠ PRO DĚTI</h3>
         <p>
@@ -441,7 +441,7 @@ defmodule LocationDetail do
         Za nynějšího majitele proběhla celá řada oprav (oprava obou
         bazénů, rekonstrukce wellness, pokojů a společenských prostor).
         </p>
-        <img src="/images/hotely/jelenovska/jelenovska.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/jelenovska/jelenovska.jpg">
 
         <h3>JELENOVSKÁ A ZŠ PRO DĚTI</h3>
         <p>
@@ -492,7 +492,7 @@ defmodule LocationDetail do
         Středisko Lites leží na hranici Českého ráje a Geoparku
         Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště.
         </p>
-        <img src="/images/hotely/lites/lites.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/lites/lites.jpg">
 
         <h3>RS LITES A ZŠ PRO DĚTI</h3>
         <p>
@@ -545,7 +545,7 @@ defmodule LocationDetail do
         obcí Lubenec (cca 35 km od Karlových Varů a 15 km od
         Podbořan.)
         </p>
-        <img src="/images/hotely/lubenec/lubenec.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/lubenec/lubenec.jpg">
 
         <h3>RS LUBENEC A ZŠ PRO DĚTI</h3>
         <p>
@@ -585,7 +585,7 @@ defmodule LocationDetail do
           Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu
           outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
         </p>
-        <img src="/images/hotely/lugsteinhof/lugsteinhof.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/lugsteinhof/lugsteinhof.jpg">
 
         <h3>LUGSTEINHOF A ZŠ PRO DĚTI</h3>
         <p>
@@ -634,7 +634,7 @@ defmodule LocationDetail do
         <p>
         Středisko se nachází v prostředí chráněné oblasti u městečka Plasy, 25 km severně od Plzně.
         </p>
-        <img src="/images/hotely/maj/maj.webp">
+        <img alt="Foto hotelu" src="/images/hotely/maj/maj.webp">
 
         <h3>RS MÁJ A ZŠ PRO DĚTI</h3>
         <p>
@@ -672,7 +672,7 @@ defmodule LocationDetail do
         <p>
         Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Je dobrým výchozím bodem pro lyžování, pěší turistiku i cykloturistiku, včetně méně náročných výletů do blízkého okolí.
         </p>
-        <img src="/images/hotely/na-mulde/na-mulde.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/na-mulde/na-mulde.jpg">
 
         <h3>MULDA A ZŠ PRO DĚTI</h3>
         <p>
@@ -708,7 +708,7 @@ defmodule LocationDetail do
         Rekreační středisko Palkovické Hůrky se nachází 12 km
         jižně od Frýdku – Místku, v katastru obce Palkovice.
         </p>
-        <img src="/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg">
 
         <h3>RS HŮRKY A ZŠ PRO DĚTI</h3>
         <p>
@@ -754,7 +754,7 @@ defmodule LocationDetail do
         malé dětské hřiště. Poblíž chalupy je dětské hřiště, rozlehlá
         louka a les.
         </p>
-        <img src="/images/hotely/plesivka/plesivka.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/plesivka/plesivka.jpeg">
 
         <h3>PLEŠIVKA A ZŠ PRO DĚTI</h3>
         <p>
@@ -801,7 +801,7 @@ defmodule LocationDetail do
         společenská místnost, prostorný dětský koutek, venkovní hřiště a
         hřiště na petanque.
         </p>
-        <img src="/images/hotely/horni-pramen/horni-pramen.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/horni-pramen/horni-pramen.jpg">
 
         <h3>HORNÍ PRAMEN A ZŠ PRO DĚTI</h3>
         <p>
@@ -849,7 +849,7 @@ defmodule LocationDetail do
         využití volného času, především díky překrásné přírodě a
         dechberoucím vyhlídkám.
         </p>
-        <img src="/images/hotely/radost/radost.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/radost/radost.jpeg">
 
         <h3>RADOST A ZŠ PRO DĚTI</h3>
         <p>
@@ -901,7 +901,7 @@ defmodule LocationDetail do
         k dispozici 12 pokojů s 50 lůžky. V současnosti je majitelem
         město Sušice. Budova se nachází v chráněné památkové zóně.
         </p>
-        <img src="/images/hotely/rousarka/rousarka.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/rousarka/rousarka.jpg">
 
         <h3>SUŠICE A ZŠ PRO DĚTI</h3>
         <p>
@@ -982,7 +982,7 @@ defmodule LocationDetail do
         gumy pro dívky, půjčovna kol a koloběžek, trekových holí,
         grilování, možnost krmení ovcí a koz.
         </p>
-        <img src="/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg">
+        <img alt="Foto hotelu" src="/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg">
 
         <h3>HOTEL TETŘEVÍ BOUDY A ZŠ PRO DĚTI</h3>
         <p>
@@ -1047,7 +1047,7 @@ defmodule LocationDetail do
         Penzion leží přímo uprostřed sjezdovky s denním i nočním lyžováním. V centru obce
         Strážné je dětské hřiště s prolézačkami a houpačkou.
         </p>
-        <img src="/images/hotely/u-kurtu/u-kurtu.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/u-kurtu/u-kurtu.jpeg">
 
         <h3>U KURTU A ZŠ PRO DĚTI</h3>
         <p>
@@ -1091,7 +1091,7 @@ defmodule LocationDetail do
           společenskou místností, hospůdkou a četnými možnostmi pro
           trávení volného času.
         </p>
-        <img src="/images/hotely/u-medveda/u-medveda.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/u-medveda/u-medveda.jpeg">
 
         <h3>U MEDVĚDA A ZŠ PRO DĚTI</h3>
         <p>
@@ -1141,7 +1141,7 @@ defmodule LocationDetail do
         Návštěvníkům nabízí ubytování, stravování a služby spojené
         s regenerací a sportovním vyžitím.
         </p>
-        <img src="/images/hotely/vlasim/vlasim.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/vlasim/vlasim.jpeg">
 
         <h3>SPORTHOTEL VLAŠIM A ZŠ PRO DĚTI</h3>
         <p>
@@ -1206,7 +1206,7 @@ defmodule LocationDetail do
         streetball, tenisový kurt, ohniště a další. V zimě lze využít
         lyžařské sjezdovky a běžkařské trasy, které se nachází nedaleko.
         </p>
-        <img src="/images/hotely/vysocina/vysocina.jpeg">
+        <img alt="Foto hotelu" src="/images/hotely/vysocina/vysocina.jpeg">
 
         <h3>PENZION NA VYSOČINĚ A ZŠ PRO DĚTI</h3>
         <p>

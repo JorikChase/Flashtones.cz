@@ -81,58 +81,58 @@ defmodule Navlinks do
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
             <h3 class="deti-link">pro děti</h3>
-            <img src="/images/icon/arrow-right-deti.svg" />
+            <img src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
         <a href="/zs/plavani" class="plachta-link-line"
-          ><span class="plachta-link-thick plavani-link">Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-plavani.svg"
+          ><span class="plachta-link-thick plavani-link">Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"
         /></a>
         <a href="/zs/enviro" class="plachta-link-line"
-          ><span class="plachta-link-thick enviro-link">Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-enviro.svg"
+          ><span class="plachta-link-thick enviro-link">Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka"
         /></a>
         <a href="/zs/lyzovani" class="plachta-link-line"
-          ><span class="plachta-link-thick lyzovani-link">Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-lyzovani.svg"
+          ><span class="plachta-link-thick lyzovani-link">Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka"
         /></a>
         <a href="/zs/doma" class="plachta-link-line"
           ><span class="plachta-link-thick doma-link">Doma:</span>Online vzdělávání<img
-            src="/images/icon/arrow-right-doma.svg"
+            src="/images/icon/arrow-right-doma.svg" alt="Šipka"
         /></a>
         <a href="/zs/vylety" class="plachta-link-line"
           ><span class="plachta-link-thick vylety-link">Výlety:</span>Jednodenní a vícedenní výlety<img
-            src="/images/icon/arrow-right-vylety.svg"
+            src="/images/icon/arrow-right-vylety.svg" alt="Šipka"
         /></a>
         <a href="/zs/academy" class="plachta-link-line"
-          ><span class="plachta-link-thick academy-link">Academy:</span>Školící centrum<img src="/images/icon/arrow-right-academy.svg"
+          ><span class="plachta-link-thick academy-link">Academy:</span>Školící centrum<img src="/images/icon/arrow-right-academy.svg" alt="Šipka"
         /></a>
       </div>
       <div class="plachta-column">
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
             <h3>oblečení</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
         </div>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Šátky:</span>Designové šátky i
-          ubrusy<img src="/images/icon/arrow-right-white.svg"
+          ubrusy<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky...<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky...<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
-            src="/images/icon/arrow-right-white.svg"
+            src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
       </div>
       <div class="plachta-column">
@@ -140,7 +140,7 @@ defmodule Navlinks do
           <a href="/studio">
           <div class="plachta-link-item-heading">
             <h3>studio</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>
             Flashtones Studio je místem smysluplného setkávání. Klademe si za
@@ -153,7 +153,7 @@ defmodule Navlinks do
           <a href="###">
           <div class="plachta-link-item-heading">
             <h3>dobrilo</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</p>
           </a>
@@ -278,59 +278,59 @@ defmodule Navlinks do
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
             <h3>pro děti</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
         <a href="/zs/plavani" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/zs/enviro" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">ZŠ Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/zs/lyzovani" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">ZŠ Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/zs/doma" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Doma:</span>Online vzdělávání<img
-            src="/images/icon/arrow-right-white.svg"
+            src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/zs/vylety" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Výlety:</span>Jednodenní a vícedenní výlety<img
-            src="/images/icon/arrow-right-white.svg"
+            src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/zs/academy" class="plachta-link-line"
-          ><span class="plachta-link-thick">ZŠ Academy:</span>Školící centrum<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">ZŠ Academy:</span>Školící centrum<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
       </div>
       <div class="plachta-column">
         <div class="plachta-link-item">
           <div class="plachta-link-item-heading">
             <h3>oblečení</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
         </div>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Šátky:</span>Designové šátky i
-          ubrusy<img src="/images/icon/arrow-right-white.svg"
+          ubrusy<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
-          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg"
+          ><span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky a
-          náušnice<img src="/images/icon/arrow-right-white.svg"
+          náušnice<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
         <a href="/produkty" class="plachta-link-line"
           ><span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
-            src="/images/icon/arrow-right-white.svg"
+            src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
       </div>
       <div class="plachta-column">
@@ -338,7 +338,7 @@ defmodule Navlinks do
           <a href="/studio">
           <div class="plachta-link-item-heading">
             <h3>studio</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>
             Flashtones Studio je místem smysluplného setkávání. Klademe si za
@@ -351,7 +351,7 @@ defmodule Navlinks do
           <a href="###">
           <div class="plachta-link-item-heading">
             <h3>dobrilo</h3>
-            <img src="/images/icon/arrow-right-white.svg" />
+            <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </div>
           <p>Online doučování a vzdělávání pomocí vlastního videostreamu</p>
           </a>
@@ -360,7 +360,7 @@ defmodule Navlinks do
     </div>
     <span class="noBreak copyright">
       Copyright © 2023
-      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
+      <img src="/images/ft/Flashtones.svg" alt="Šipka" style="border-radius: 0;" />
       </span>
     </div>
     """
@@ -481,14 +481,14 @@ defmodule Navlinks do
         <div class="footerLinkItem">
           <a class="footerLink plavani-hover-link plavani-link" href="/zs/plavani">
             <h3>Plavání</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-plavani.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Největší plavecká škola v ČR</span>
         </div>
           <div class="footerLinkItem">
           <a class="footerLink vylety-hover-link vylety-link" href="/zs/vylety">
             <h3>Výlety</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin">Jednodenní a vícedenní výlety pro školy a veřejnost</span>
         </div>
@@ -497,14 +497,14 @@ defmodule Navlinks do
           <div class="footerLinkItem">
           <a class="footerLink lyzovani-hover-link lyzovani-link" href="/zs/lyzovani">
             <h3>Lyžování</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-lyzovani.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
           </div>
           <div class="footerLinkItem">
           <a class="footerLink doma-hover-link doma-link" href="/zs/doma">
             <h3>Domácí výuka</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-doma.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-doma.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin">Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</span>
         </div>
@@ -513,14 +513,14 @@ defmodule Navlinks do
           <div class="footerLinkItem">
           <a class="footerLink enviro-hover-link enviro-link" href="/zs/enviro">
             <h3>Enviro</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-enviro.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-enviro.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
           </div>
           <div class="footerLinkItem">
           <a class="footerLink academy-hover-link academy-link" href="/zs/academy">
             <h3>Academy</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-academy.svg" />
+            <img class="navLink-arrow" src="/images/icon/arrow-right-academy.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Školící centrum</span>
       </div>
@@ -528,7 +528,7 @@ defmodule Navlinks do
       </div>
       <span class="noBreak copyright">
       Copyright © 2023
-      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
+      <img src="/images/ft/Flashtones.svg" alt="Šipka" style="border-radius: 0;" />
       </span>
       </div>
     """
