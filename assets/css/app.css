@@ -293,7 +293,11 @@ br {
 }
 
 /*components*/
-
+.center{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .kontakt-icon {
   height: 30px;
   aspect-ratio: 1/1;

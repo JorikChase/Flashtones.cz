@@ -46,7 +46,11 @@ defmodule FlashtonesWeb.PlavaniIndexSkolyLive do
       <MenuMobile.menuPlavaniMobile />
       <MenuPc.menuPlavaniPc />
       <Hero.plavaniHeroDetail />
-      <div class="odsazeni">
+      <div class="odsazeni center">
+        <div class="section-toggle" onClick="clicker();">
+          <a href="/zs/plavani#course-marker" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
+          <a href="/zs/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+        </div>
       <KurzNav.kurzPlavaniSkola />
       </div>
       <IconRow.iconRowPlavani />
