@@ -108,7 +108,7 @@ defmodule Hero do
               <br />
               <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
             </div>
-            <div class="hero-media" style="background-image: url(/images/deti/deti-bg.jpeg);"></div>
+            <div class="hero-media" style="background-image: url(/images/deti/deti-bg.webp);"></div>
           </div>
           <span id="course-marker"></span>
 
@@ -146,7 +146,7 @@ defmodule Hero do
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const mediaItems = [
-                  { type: 'image', src: '/images/deti/deti-bg.jpeg', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
+                  { type: 'image', src: '/images/deti/deti-bg.webp', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
                   { type: 'image', src: '/images/mobile/deti-bg-mobile.webp', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
               ];
               let currentSlide = 0;
