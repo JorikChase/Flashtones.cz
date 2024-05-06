@@ -66,6 +66,8 @@ defmodule FlashtonesWeb.Router do
     live "/zs/lyzovani/courses", LyzovaniCoursesLive
 
     live "/zs/plavani", PlavaniIndexLive
+    live "/zs/plavani/verejnost", PlavaniIndexVerejnostLive
+    live "/zs/plavani/skoly", PlavaniIndexSkolyLive
     live "/zs/plavani/school", PlavaniDetailSchoolLive
     live "/zs/plavani/pre-school", PlavaniDetailPreSchoolLive
     live "/zs/plavani/city-school", PlavaniDetailCitySchoolLive

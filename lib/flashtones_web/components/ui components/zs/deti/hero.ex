@@ -681,6 +681,83 @@ defmodule Hero do
           </script>
     """
   end
+  def plavaniHeroDetail(assigns) do
+    ~H"""
+      <style>
+      .hero-button-wrap{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .hero-button{
+        padding: 2vh 2.5vh;
+        height: auto;}
+      .section-toggle-plavani{
+        background-color: rgba(255, 255, 255, 0.05);
+        margin: 15px 5px;
+      }
+      .section-toggle-plavani:hover{
+        background-color: rgba(0, 0, 0, 0);
+      }
+      @media (orientation: portrait) {
+        .hero-button-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      </style>
+      <div class="hero">
+            <div class="hero-content" id="plavani-switch" >
+              <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
+              <br />
+              <div class="section-toggle section-toggle-plavani" onClick="clicker();">
+              <a href="/zs/plavani/skoly" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
+              <a href="/zs/plavani/verejnost" id="verejnostA">Pro veřejnost</a>
+              </div>
+            </div>
+            <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
+          </div>
+          <span id="course-marker"></span>
+
+          <style>
+          #hero-heading{
+            color: white;
+          }
+
+          </style>
+          <script>
+          function clicker() {
+            if (skolyA.classList.contains("active")) {
+              console.log("skolyA");
+              skolyB.classList.add("active");
+              verejnostA.classList.remove("active");
+              verejnostB.classList.remove("active");
+            }
+            if (verejnostA.classList.contains("active")) {
+              console.log("verejnostB");
+              verejnostB.classList.add("active");
+              skolyA.classList.remove("active");
+              skolyB.classList.remove("active");
+            }
+            if (skolyB.classList.contains("active")) {
+              console.log("skolyB");
+              skolyA.classList.add("active");
+              verejnostA.classList.remove("active");
+              verejnostB.classList.remove("active");
+            }
+            if (verejnostB.classList.contains("active")) {
+              console.log("verejnostB");
+              verejnostA.classList.add("active");
+              skolyA.classList.remove("active");
+              skolyB.classList.remove("active");
+            }
+          };
+          </script>
+    """
+  end
 
   def vyletyHero(assigns) do
     ~H"""
