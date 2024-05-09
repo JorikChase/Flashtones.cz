@@ -85,24 +85,24 @@ defmodule Navlinks do
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
-        <a href="/zs/plavani" class="plachta-link-line"
+        <a href="/plavani" class="plachta-link-line"
           ><span class="plachta-link-thick plavani-link">Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"
         /></a>
-        <a href="/zs/enviro" class="plachta-link-line"
+        <a href="/enviro" class="plachta-link-line"
           ><span class="plachta-link-thick enviro-link">Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka"
         /></a>
-        <a href="/zs/lyzovani" class="plachta-link-line"
+        <a href="/lyzovani" class="plachta-link-line"
           ><span class="plachta-link-thick lyzovani-link">Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka"
         /></a>
-        <a href="/zs/doma" class="plachta-link-line"
+        <a href="/doma" class="plachta-link-line"
           ><span class="plachta-link-thick doma-link">Doma:</span>Online vzdělávání<img
             src="/images/icon/arrow-right-doma.svg" alt="Šipka"
         /></a>
-        <a href="/zs/vylety" class="plachta-link-line"
+        <a href="/vylety" class="plachta-link-line"
           ><span class="plachta-link-thick vylety-link">Výlety:</span>Jednodenní a vícedenní výlety<img
             src="/images/icon/arrow-right-vylety.svg" alt="Šipka"
         /></a>
-        <a href="/zs/academy" class="plachta-link-line"
+        <a href="/academy" class="plachta-link-line"
           ><span class="plachta-link-thick academy-link">Academy:</span>Školící centrum<img src="/images/icon/arrow-right-academy.svg" alt="Šipka"
         /></a>
       </div>
@@ -282,24 +282,24 @@ defmodule Navlinks do
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
-        <a href="/zs/plavani" class="plachta-link-line"
+        <a href="/plavani" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
-        <a href="/zs/enviro" class="plachta-link-line"
+        <a href="/enviro" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Enviro:</span>Školy v přírodě<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
-        <a href="/zs/lyzovani" class="plachta-link-line"
+        <a href="/lyzovani" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Lyžování:</span>Lyžařská škola<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
-        <a href="/zs/doma" class="plachta-link-line"
+        <a href="/doma" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Doma:</span>Online vzdělávání<img
             src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
-        <a href="/zs/vylety" class="plachta-link-line"
+        <a href="/vylety" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Výlety:</span>Jednodenní a vícedenní výlety<img
             src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
-        <a href="/zs/academy" class="plachta-link-line"
+        <a href="/academy" class="plachta-link-line"
           ><span class="plachta-link-thick">ZŠ Academy:</span>Školící centrum<img src="/images/icon/arrow-right-white.svg" alt="Šipka"
         /></a>
       </div>
@@ -479,14 +479,14 @@ defmodule Navlinks do
     <div class="footerLinks">
         <div class="footerLinksColumn">
         <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link plavani-link" href="/zs/plavani">
+          <a class="footerLink plavani-hover-link plavani-link" href="/plavani">
             <h3>Plavání</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Největší plavecká škola v ČR</span>
         </div>
           <div class="footerLinkItem">
-          <a class="footerLink vylety-hover-link vylety-link" href="/zs/vylety">
+          <a class="footerLink vylety-hover-link vylety-link" href="/vylety">
             <h3>Výlety</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" alt="Šipka" />
           </a>
@@ -495,14 +495,14 @@ defmodule Navlinks do
         </div>
         <div class="footerLinksColumn">
           <div class="footerLinkItem">
-          <a class="footerLink lyzovani-hover-link lyzovani-link" href="/zs/lyzovani">
+          <a class="footerLink lyzovani-hover-link lyzovani-link" href="/lyzovani">
             <h3>Lyžování</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
           </div>
           <div class="footerLinkItem">
-          <a class="footerLink doma-hover-link doma-link" href="/zs/doma">
+          <a class="footerLink doma-hover-link doma-link" href="/doma">
             <h3>Domácí výuka</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-doma.svg" alt="Šipka" />
           </a>
@@ -511,14 +511,14 @@ defmodule Navlinks do
         </div>
         <div class="footerLinksColumn">
           <div class="footerLinkItem">
-          <a class="footerLink enviro-hover-link enviro-link" href="/zs/enviro">
+          <a class="footerLink enviro-hover-link enviro-link" href="/enviro">
             <h3>Enviro</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-enviro.svg" alt="Šipka" />
           </a>
           <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
           </div>
           <div class="footerLinkItem">
-          <a class="footerLink academy-hover-link academy-link" href="/zs/academy">
+          <a class="footerLink academy-hover-link academy-link" href="/academy">
             <h3>Academy</h3>
             <img class="navLink-arrow" src="/images/icon/arrow-right-academy.svg" alt="Šipka" />
           </a>

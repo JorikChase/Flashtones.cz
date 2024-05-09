@@ -637,8 +637,8 @@ defmodule Hero do
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
               <div class="section-toggle section-toggle-plavani" onClick="clicker();">
-              <a href="/zs/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
-              <a href="/zs/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+              <a href="/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
+              <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
@@ -714,8 +714,8 @@ defmodule Hero do
               <h1 id="hero-heading">Největší plavecká škola <br> v ČR</h1>
               <br />
               <div class="section-toggle section-toggle-plavani" onClick="clicker();">
-              <a href="/zs/plavani#course-marker" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
-              <a href="/zs/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+              <a href="/plavani#course-marker" id="skolyA" phx-hook="Synchronize" >Pro školy</a>
+              <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
               </div>
             </div>
             <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>

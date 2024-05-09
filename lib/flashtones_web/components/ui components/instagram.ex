@@ -87,28 +87,28 @@ defmodule Instagram do
       <div class="instagram-row">
         <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-1.gif);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5a.jpeg);">
           </div>
             <b class="instagram-odsazeni">
-            Kromě našich originálních produktů se začínáme vě..
+            Ladies jeans jacket na našem e-shopu! 🩵
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
           <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-2.jpeg);">
+            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5b.jpeg);">
             </div>
             <b class="instagram-odsazeni">
-            Naskladnili jsme oblíbené kšiltovky s potiskem psa..
+            Kankán jacket z kolekce CREW je pěkná divočina!
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
           <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
 
-            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-3.jpeg);">
+            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5c.jpeg);">
             </div>
             <b class="instagram-odsazeni">
-            Ano, naskakujeme na vlnu upcyklingu, přijde nám to..
+            Představujeme první kousek z ‘’CREW’’ kolekce...
             </b>
             <small class=" instagram-small">aktualita</small>
           </a>
@@ -204,28 +204,28 @@ defmodule Instagram do
     <div class="instagram odsazeni">
       <div class="instagram-row">
       <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-        <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/11-3-1.gif);">
+        <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5a.jpeg);">
         </div>
           <b class="instagram-odsazeni">
-          Blížíme se do finále. Další video ze série ZŠ Lyžování..
+          3 tipy, které by se ti mohli hodit! 🏊🏻‍♂️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-2.jpg);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5b.jpeg);">
           </div>
           <b class="instagram-odsazeni">
-          🇨🇿První workshop na novém místě!! Ve spolupráci se..
+          Naše oblíbené místo v Peci pod Sněžkou je ready! 🫡🏊🏻‍♂️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
 
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/11-3-3.gif);">
+          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5c.jpeg);">
           </div>
           <b class="instagram-odsazeni">
-          Když je někde potřeba zasáhnout a udělat si třeba..
+          Trpělivost, klid a empatie! Vlastností, které by...
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>

@@ -68,7 +68,7 @@ defmodule MenuPc do
           <img alt="Ikona menu" src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> zš pro děti </a>
+          <a href="https://zsprodeti.cz/"> zš pro děti </a>
           <a href="/produkty"> produkty </a>
           <a href="/studio"> studio </a>
           <a href="/blog"> Blog </a>
@@ -139,13 +139,13 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/academy">
+        <a href="/academy">
           <img alt="Ikona menu" src="/images/academy/academy-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> Úvod </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/academy/about#about">O nás</a>
+          <a href="https://zsprodeti.cz/"> Úvod </a>
+          <a href="/reference">Reference</a>
+          <a href="/academy/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -438,7 +438,7 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="https://zsprodeti.cz/zs">
+        <a href="https://zsprodeti.cz/">
           <img alt="Ikona menu" src="/images/deti/deti-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
@@ -447,74 +447,74 @@ defmodule MenuPc do
                   <div class="dropdown">
                       <ul class="aktivity-main-switch">
                           <li>
-                              <a class="aktivity-switch-button" href="/zs/aktivity#skoly">
+                              <a class="aktivity-switch-button" href="/aktivity#skoly">
                                   <h3>Pro školy</h3>
                               </a>
                           <ul class="mini-skoly">
                               <li>
-                                  <a href="/zs/plavani/school">
+                                  <a href="/plavani/school">
                                       <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/city-school">
+                                  <a href="/plavani/city-school">
                                       <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/pre-school">
+                                  <a href="/plavani/pre-school">
                                       <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/lyzovani/school">
+                                  <a href="/lyzovani/school">
                                       <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/enviro/svp">
+                                  <a href="/enviro/svp">
                                       <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/enviro/tym">
+                                  <a href="/enviro/tym">
                                       <h3>ŠKOLA V PŘÍRODĚ "V TÝMU"</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/enviro/ss-tym">
+                                  <a href="/enviro/ss-tym">
                                       <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/vylety">
+                                  <a href="/vylety">
                                       <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
                                   </a>
                               </li>
                           </ul>
                           </li>
                           <li>
-                              <a class="aktivity-switch-button" href="/zs/aktivity#verejnost">
+                              <a class="aktivity-switch-button" href="/aktivity#verejnost">
                                   <h3>Pro veřejnost</h3>
                               </a>
                           <ul class="mini-verejnost">
                               <li>
-                                  <a href="/zs/plavani/summer-camp">
+                                  <a href="/plavani/summer-camp">
                                       <h3>LETNÍ POBYTOVÉ TÁBORY</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/summer">
+                                  <a href="/plavani/summer">
                                       <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/saturday">
+                                  <a href="/plavani/saturday">
                                       <h3>SOBOTNÍ KURZY PLAVÁNÍ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/zs/plavani/weekend">
+                                  <a href="/plavani/weekend">
                                       <h3>INDIVIDUÁLNÍ KURZY</h3>
                                   </a>
                               </li>
@@ -525,9 +525,9 @@ defmodule MenuPc do
               </li>
           </ul>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/lokality"> Lokality </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/about#about">O nás</a>
+          <a href="/lokality"> Lokality </a>
+          <a href="/reference">Reference</a>
+          <a href="/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -544,7 +544,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
     </div>
@@ -596,12 +596,12 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/doma">
+        <a href="/doma">
           <img alt="Ikona menu" src="/images/doma/doma-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
-          <a href="/zs/doma/about#about">O nás</a>
+          <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
+          <a href="/doma/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -618,7 +618,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -668,15 +668,15 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/enviro">
+        <a href="/enviro">
           <img alt="Ikona menu" src="/images/enviro/enviro-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/enviro/lokality"> Lokality </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/enviro/about#about">O nás</a>
+          <a href="/enviro/lokality"> Lokality </a>
+          <a href="/reference">Reference</a>
+          <a href="/enviro/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -693,7 +693,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -743,15 +743,15 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/lyzovani">
+        <a href="/lyzovani">
           <img alt="Ikona menu" src="/images/lyzovani/lyzovani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/lyzovani/lokality"> Lokality </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/lyzovani/about#about">O nás</a>
+          <a href="/lyzovani/lokality"> Lokality </a>
+          <a href="/reference">Reference</a>
+          <a href="/lyzovani/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -768,7 +768,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -818,15 +818,15 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/plavani">
+        <a href="/plavani">
           <img alt="Ikona menu" src="/images/plavani/plavani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/plavani/lokality"> Lokality </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/plavani/about#about">O nás</a>
+          <a href="/plavani/lokality"> Lokality </a>
+          <a href="/reference">Reference</a>
+          <a href="/plavani/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -843,7 +843,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">
@@ -893,14 +893,14 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/zs/vylety">
+        <a href="/vylety">
           <img alt="Ikona menu" src="/images/vylety/vylety-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
-          <a href="https://zsprodeti.cz/zs"> ZŠ PRO DĚTI</a>
+          <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/zs/reference">Reference</a>
-          <a href="/zs/vylety/about#about">O nás</a>
+          <a href="/reference">Reference</a>
+          <a href="/vylety/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -917,7 +917,7 @@ defmodule MenuPc do
             </svg>
             eshop
           </a>
-          <a href="/zs/kontakty"> Kontakty </a>
+          <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
       <div class="pcMenuBottom" id="pcMenuBottom">

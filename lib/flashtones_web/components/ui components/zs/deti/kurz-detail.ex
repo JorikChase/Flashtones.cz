@@ -22,7 +22,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h2>
+        <h1>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h1>
         <p>Tento kurz lze absolvovat pouze v měsících listopad, prosinec, leden, únor a březen. Kurz není pobytový, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí. Zároveň se účastní bohatého doprovodného programu probíhajícího ve vnitřních prostorách sportcentra, případně venku na zdejším hřišti. Součástí doprovodného programu je blok základů první pomoci, pohybové, společenské a tmelící aktivity.
         Kurz zahrnuje neomezený pitný režim a 3 jídla včetně teplého oběda. Po dohodě lze nahradit sportovní program výukou a využít prostor konferenční místnosti.
         </p>
@@ -62,7 +62,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>INDIVIDUÁLNÍ KURZY</h2>
+        <h1>INDIVIDUÁLNÍ KURZY</h1>
         <p>Nachystali jsme pro Vás novinku- individuální výuku plavání pro Vaše děti. Pokud chcete, aby se vaše děcko co nejvíce zdokonalilo v plavání, pokud chcete
         v učení postupovat jen a jen dle potřeb a tempa vašeho dítěte, Individuální lekce ZŠ Plavání jsou tu pro vás. Kurzy jsou určené jednomu až dvěma dětem
         ve věku 4-15 let. Aktuálně budou možny v Radotíně a na Pražačce každou sobotu dopoledne. Pro více informací nás kontaktujte na
@@ -92,7 +92,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h2>
+        <h1>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h1>
         <p>Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělí do středy nebo od středy do pátku. Případně v pětidenní verzi. Žáci absolvují v průběhu tří dnů celkem pět šedesátiminutových vyučovacích lekcí plavání, dále se účastní tří devadesátiminutových bloků orientovaných na hry v přírodě a tradiční i netradiční hry s cílem rozvoje hrubé i jemné motoriky. Každý večer probíhá večerní zábavní program zahrnující stolní, hudební a výtvarné hry či dětskou diskotéku. Kurz lze absolvovat i v pětidenním formátu a pokud to umožňuje vzdálenost, i v příměstské podobě.</p>
         <h3>Jak to probíhá</h3>
         <p>
@@ -129,7 +129,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>SOBOTNÍ KURZY PLAVÁNÍ</h2>
+        <h1>SOBOTNÍ KURZY PLAVÁNÍ</h1>
         <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Sobotní kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.</p>
         <br>
          <h3> KDE </h3>
@@ -178,7 +178,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h2>
+        <h1>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h1>
         <p><bold>Je unikátní formou školy v přírodě s plaváním</bold>, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou <bold>polovinu povinné plavecké výuky</bold>, která ji díky Opatření v souladu s 4 odst. zákona č. 561/2004 Sb. Školského zákona řadí mezi povinné výukové postupy. Dále se žáci účastní celkem pěti devadesátiminutových doplňkových sportovních programů a pěti stejně dlouhých zábavních večerních programů.</p>
         <h3>Jak to probíhá</h3>
         <p>
@@ -217,7 +217,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h2>
+        <h1>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
         <p>
         Letní pobytové tábory s výukou plavání jsou určeny dětem ve věku 7-13 let. Představují ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Tábory se konají od pondělí do pátku a děti jsou ubytovány v hotelu s jedinečnou polohou. Hotel Energetik leží v Krkonošském národním parku.
         </p>
@@ -256,7 +256,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h2>
+        <h1>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h1>
         <p>
           S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
         </p>
@@ -282,7 +282,7 @@ defmodule KurzDetail do
   def lites(assigns) do
     ~H"""
       <div class="course-wrap top">
-        <h2>RS LITES</h2>
+        <h1>RS LITES</h1>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
            <br>
@@ -303,7 +303,7 @@ defmodule KurzDetail do
   def maj(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>RS Máj</h2>
+        <h1>RS Máj</h1>
         <p>
           RS Lites je krásné zrekonstruované rekreační středisko specializované na dětské pobyty. Na tomto místě pořádáme jak naše oblíbené kurzy ZŠ Enviro, tak zde zajišťujeme i standartní školy v přírodě pro školy. Úžasně vybavený areál se rozkládá na hranici Českého ráje a Geoparku Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště. Disponuje třemi druhy ubytování- vysokokapacitní hlavní budovou, šesti zděnými domky přezdívanými „zubatky,“ které jsou vhodné vždy pro jednu třídu a sedmi devítimístnými chatkami se společným sociálním zařízením.
            <br>
@@ -324,7 +324,7 @@ defmodule KurzDetail do
   def lubenec(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>RS LUBENEC</h2>
+        <h1>RS LUBENEC</h1>
         <p>
         RS Lubenec se nachází mimo civilizaci na kopci nad městečkem Lubenec, které leží na spojnici mezi Prahou (cca. 100 km) a Karlovými Vary (cca. 35 km). Celý areál je obklopen malebnou krajinou s lesy, loukami a také napříkad Liščími skálami, které začínají hned za areálem.
         <br>
@@ -347,7 +347,7 @@ defmodule KurzDetail do
   def radost(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>CHATA RADOST</h2>
+        <h1>CHATA RADOST</h1>
         <p>
         Horská chata RADOST je rekreační areál uprostřed čisté přírody nedaleko lyžařského střediska Deštné v Orlických horách. Ubytování je zajištěno v hlavní budově s s třinácti pokoji s 52 lůžky a osmi dřevěných, celoročně obyvatelných chatkách. Nejbližší okolí nabízí pestré využití volného času, především díky překrásné přírodě a dechberoucím vyhlídkám. ZŠ PRO DĚTI v objektu začalo pořádat své kurzy a školy v přírodě v roce 2021. Od té doby zde proběhlo již několik kurzů ZŠ Lyžování, jarních kurzů ZŠ Enviro a škol v přírodě. Děti se mohou seznámit s hospodářskými zvířaty přímo v areálu pozemku. V blízkém okolí je možné navštívit oboru s daňky a divokými prasaty, vrch Špičák s překrásným výhledem do okolí nebo farmu se zvířaty.
         <br>
@@ -370,7 +370,7 @@ defmodule KurzDetail do
   def pramen(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>HOTEL HORNÍ PRAMEN</h2>
+        <h1>HOTEL HORNÍ PRAMEN</h1>
         <p>
         Hotel Horní Pramen se nachází na kouzelném místě u lesa s dechberoucím výhledem na hory a údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
         <br>
@@ -385,7 +385,7 @@ defmodule KurzDetail do
   def plesivka(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>CHATA PLEŠIVKA</h2>
+        <h1>CHATA PLEŠIVKA</h1>
         <p>
         Chata Plešivka se hodí zejména pro intimní jednotřídní pobyty. Kapacita 24 osob je ideální na školu v přírodě především pro malotřídky. Kromě malého hřiště přímo u chaty se děti vyřádí na hřišti v Abertamech jen kousek od ubytování, do lesa je to pár kroků. Pokud s sebou povezete sportovní vybavení, bude vám k dispozici uzamykatelný přístřešek na zahradě.
         <br>
@@ -406,7 +406,7 @@ defmodule KurzDetail do
   def jelenovska(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>HOTEL JELENOVSKÁ</h2>
+        <h1>HOTEL JELENOVSKÁ</h1>
         <p>
         Hotel Jelenovská se začal stavět počátkem roku 1984 a v průběhu tří let byl téměř dokončen.
         <br>
@@ -429,7 +429,7 @@ defmodule KurzDetail do
   def enviroSvp(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>Škola v přírodě "Enviro"</h2>
+        <h1>Škola v přírodě "Enviro"</h1>
         <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
         <p>
         Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
@@ -454,7 +454,7 @@ defmodule KurzDetail do
   def enviroSummerCity(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>Letní příměstský tábor V týmu</h2>
+        <h1>Letní příměstský tábor V týmu</h1>
         <p>
         Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící
         aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního
@@ -482,7 +482,7 @@ defmodule KurzDetail do
   def enviroSummer(assigns) do
     ~H"""
         <div class="course-wrap top">
-        <h2>Letní pobytové tábory ZŠ PRO DĚTI</h2>
+        <h1>Letní pobytové tábory ZŠ PRO DĚTI</h1>
         <p>
         Letní pobytové tábory ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konajkí se vždy od pondělí do
         pátku ve všech prázdninových týdnech. Představují ideální prázdninové dobrodružství pro děti, které
@@ -521,7 +521,7 @@ defmodule KurzDetail do
   def enviroCity(assigns) do
     ~H"""
     <div class="course-wrap top">
-        <h2>Příměstské tábory "Enviro"</h2>
+        <h1>Příměstské tábory "Enviro"</h1>
         <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
         <p>
         Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
@@ -533,7 +533,7 @@ defmodule KurzDetail do
   def enviroTym(assigns) do
     ~H"""
     <div class="course-wrap top">
-        <h2>Škola v přírodě "V týmu"</h2>
+        <h1>Škola v přírodě "V týmu"</h1>
         <b>Program V Týmu je jedinečný koncept školy v přírodě, který si klade za cíl stmelení školního kolektivu.</b>
         <p>
         V tomto formátu školy v přírodě žáci absolvují dopolední výuku se svými učiteli a až po poledním klidu nastupují na námi organizovaný program. Ten je rozčleněn do devadesáti minutových bloků v pořadí environmentální, sportovní a večerní zábavní. V pátek je kurz po obědě stejně jako je tomu u standardního kurzu ZŠ Enviro zakončen závěrečnou „Enviro hrou“ a předáním absolventských diplomů.
@@ -579,7 +579,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Praha </h2>
+        <h1>Praha </h1>
         <p>
         Kdo by neprahnul po návštěvě jednoho z nejkrásnější měst světa. Však i Ostrávaci a
         Brňané měli by poznat krásy tohoto města skalnatých říčních prahů na Vltavě.
@@ -652,7 +652,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Osvětim </h2>
+        <h1>Osvětim </h1>
         <p>
         Existuje tolik paralel u vzniku největších světových konfliktů, a přesto je lidské chování
         nenapravitelně repetitivní. Jedinou prevencí vzniku válek zůstává kvalitní vzdělávání a
@@ -715,7 +715,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Terezín </h2>
+        <h1>Terezín </h1>
         <p>
         Jedná se o celodenní zájezd vhodný pro žáky druhého stupně ZŠ a pro středoškolské
         studenty. Zájezd zahrnuje dopravu autobusem a celodenní prohlídku. Mnoho lidí si pod
@@ -773,7 +773,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Tábor </h2>
+        <h1>Tábor </h1>
         <p>
         Co takhle na podzimní nebo jarní Tábor?
         Jedná se o celodenní zájezd vhodný pro žáky druhého stupně ZŠ i pro středoškolské
@@ -850,7 +850,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Drážďany </h2>
+        <h1>Drážďany </h1>
         <p>
         Podrážděte smysly jednodenním zájezdem do této saské metropole. Výlet je vhodný pro
         mladší i starší návštěvníky a jsme schopni ho přizpůsobit opravdu každé skupině. Toto
@@ -923,7 +923,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Berlín </h2>
+        <h1>Berlín </h1>
         <p>
         Žádná jiná světová metropole nenabízí takovou ucelenou a názornou ukázku moderních
         dějin jako Berlín. Tato dvoudenní návštěva německého hlavního města a největší
@@ -992,7 +992,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Mnichov </h2>
+        <h1>Mnichov </h1>
         <p>
         Tato bavorská metropole sehrála několikrát zásadní roli v historii nejen střední Evropy a
         určitě stojí za to ji vidět. Jednodenní a volitelně i dvoudenní výlet je vhodný pro žáky
@@ -1118,7 +1118,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Kutná Hora </h2>
+        <h1>Kutná Hora </h1>
         <p>
         Zatímco pandemie „zlaté horečky“ se šířila Amerikou v devatenáctém století, ta stříbrná
         přišla do našich zemí již o mnoho dříve. Jaké bylo ono ohnisko? Odpověď zní Kutná Hora.
@@ -1194,7 +1194,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Mladá Boleslav - Muzeum Škoda </h2>
+        <h1>Mladá Boleslav - Muzeum Škoda </h1>
         <p>
         Doprava a její rychlost změnila chod našich dějin na pořádnou jízdu. Zatímco ještě před
         nedávnou dobou se lidé přepravovali po zemi pěšky s plnýma rukama, poté zneužili
@@ -1240,7 +1240,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Záchranná stanice Aves Brandýsek</h2>
+        <h1>Záchranná stanice Aves Brandýsek</h1>
         <p>Každý živočišný druh hraje důležitou roli v našem ekosystému, pomáhá udržovat
           rovnováhu v přírodě a zachovat různorodou krásu a inspiraci pro příští generace. Kdo
 
@@ -1290,7 +1290,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Záchranná stanice Hrachov</h2>
+        <h1>Záchranná stanice Hrachov</h1>
         <p>Vezmeme vás na na výlet do jedné z nejmodernějších záchranných stanic s ekocentrem
           v České republice, záchranné stanice Hrachov u Sedlčan. Jde o jedinečné místo, kde se
           vášeň pro ochranu přírody a péči o volně žijící živočichy snoubí s inovativním přístupem
@@ -1343,7 +1343,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Záchranné centrum Jaroměř</h2>
+        <h1>Záchranné centrum Jaroměř</h1>
         <p>Návštěva Záchranného centra Jaroměř nám umožní vidět problematiku ochrany
             živočišných druhů v ČR z jiné perspektivy. Zážitek ze záchranné stanice Jaroměř nabízí
             příležitost, jak prohloubit povědomí o ochraně přírody a péči o volně žijící živočichy.
@@ -1391,7 +1391,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Ekocentrum Huslík</h2>
+        <h1>Ekocentrum Huslík</h1>
         <p>Tento výlet nabízí několik variant programu pro menší i větší děti, může však být i
           zajímavou exkurzí pro středoškolské studenty.
         <br>
@@ -1459,7 +1459,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Ekocentrum Hulice</h2>
+        <h1>Ekocentrum Hulice</h1>
         <p>
         Jedná se o jednodenní zájezd pro všechny zvídavé děti mladšího i staršího školního
         věku.
@@ -1515,7 +1515,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Podblanické ekocentrum Vlašim</h2>
+        <h1>Podblanické ekocentrum Vlašim</h1>
         <p>
         Cílem našeho jednodenního výletu do Vlašimi je vytvořit u dětí povědomí o udržitelnější a
         ekologicky šetrnějším chování a hravou formou jim poskytnout informace a podporu,
@@ -1579,7 +1579,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Kurz ZŠ Řemesel</h2>
+        <h1>Kurz ZŠ Řemesel</h1>
         <p>
         Je dvoudenní kurz, který si klade za cíl zprostředkovat žákům nevšední zážitky z manuálních
         prací a okusit kouzlo tradičních i netradičních řemesel. Kurz je vhodný pro všechny žáky
@@ -1641,7 +1641,7 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h2>Motýlárium Votice</h2>
+        <h1>Motýlárium Votice</h1>
         <p>Zažijte s dětmi jedinečný výlet do Motýlária Votice, kde se křídla přírody setkávají s
           kouzlem barev a elegance! Ojedinělý projekt Ochrany fauny ČR proměnil staré skleníky
           v moderní interaktivní místo.
@@ -1681,7 +1681,7 @@ defmodule KurzDetail do
   def enviroSSTym(assigns) do
     ~H"""
     <div class="course-wrap top">
-        <h2>Adaptační kurz "V Týmu"</h2>
+        <h1>Adaptační kurz "V Týmu"</h1>
         <p>
           Adaptační kurz "V Týmu" jsme vytvořili v těsné spolupráci s odborníky z Fakulty tělesné
           výchovy a sportu Univerzity Karlovy, specialisty v oblasti environmentálních studií a

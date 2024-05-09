@@ -106,32 +106,32 @@ defmodule DetiGrid do
       }
     </style>
     <div class="deti-grid">
-      <a href="/zs/plavani" class="menu-plavani" >
+      <a href="/plavani" class="menu-plavani" >
         <span>
          <h3>Plavání</h3>
         </span>
       </a>
-      <a href="/zs/lyzovani" class="menu-lyzovani" >
+      <a href="/lyzovani" class="menu-lyzovani" >
         <span>
          <h3>Lyžování</h3>
         </span>
       </a>
-      <a href="/zs/enviro" class="menu-enviro" >
+      <a href="/enviro" class="menu-enviro" >
         <span>
          <h3>Enviro</h3>
         </span>
       </a>
-      <a href="/zs/vylety" class="menu-vylety" >
+      <a href="/vylety" class="menu-vylety" >
         <span>
          <h3>Výlety</h3>
         </span>
       </a>
-      <a href="/zs/doma" class="menu-doma" >
+      <a href="/doma" class="menu-doma" >
         <span>
          <h3>Domácí výuka</h3>
         </span>
       </a>
-      <a href="/zs/academy" class="menu-academy" >
+      <a href="/academy" class="menu-academy" >
         <span>
          <h3>Academy</h3>
         </span>
@@ -274,32 +274,32 @@ defmodule DetiGrid do
     <div class="grid-container odsazeni" id="static-grid">
     <h2 style="text-align: center;">Naše aktivity</h2>
     <div class="grid">
-      <a href="/zs/plavani" class="menu-plavani" >
+      <a href="/plavani" class="menu-plavani" >
         <span>
          <h3>Plavání</h3>
         </span>
       </a>
-      <a href="/zs/lyzovani" class="menu-lyzovani" >
+      <a href="/lyzovani" class="menu-lyzovani" >
         <span>
          <h3>Lyžování</h3>
         </span>
       </a>
-      <a href="/zs/enviro" class="menu-enviro" >
+      <a href="/enviro" class="menu-enviro" >
         <span>
          <h3>Enviro</h3>
         </span>
       </a>
-      <a href="/zs/vylety" class="menu-vylety" >
+      <a href="/vylety" class="menu-vylety" >
         <span>
          <h3>Výlety</h3>
         </span>
       </a>
-      <a href="/zs/doma" class="menu-doma" >
+      <a href="/doma" class="menu-doma" >
         <span>
          <h3>Domácí výuka</h3>
         </span>
       </a>
-      <a href="/zs/academy" class="menu-academy" >
+      <a href="/academy" class="menu-academy" >
         <span>
          <h3>Academy</h3>
         </span>
