@@ -131,7 +131,7 @@ defmodule FlashtonesWeb.SitemapHTML do
 
   def show_pages do
     for path <- pages() do
-      route = FlashtonesWeb.Endpoint.url() <> path
+      route = "https://zsprodeti.cz" <> path
 
       """
       <url>

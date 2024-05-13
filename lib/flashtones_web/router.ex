@@ -1,6 +1,6 @@
 defmodule FlashtonesWeb.Router do
+  alias FourOhFour
   use FlashtonesWeb, :router
-
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -153,6 +153,9 @@ defmodule FlashtonesWeb.Router do
     live "/blog/sablony", BlogSablonyLive
     live "/blog/shrnuti-23", BlogShrnutiLive
     live "/blog/socci", BlogSocciLive
+
+    live "/404", DetiIndexLive
+    get "/*path", FourOhFour, :index
   end
 
   # Other scopes may use custom stacks.
