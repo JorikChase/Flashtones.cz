@@ -28,7 +28,6 @@ defmodule FlashtonesWeb.Router do
   scope "/", FlashtonesWeb do
     pipe_through :browser
     get "/sitemap.xml", SitemapController, :index
-    live "/mail", Mail
 
     live "/ft/kontakt", KontaktyLive
 
@@ -147,7 +146,7 @@ defmodule FlashtonesWeb.Router do
 
     live "/mail", MailFormLive
     live "/desk", DeskLive
-    live "/blog", BlogFtLive
+    live "/ft/blog", BlogFtLive
 
     live "/blog", BlogLive
     live "/blog/sablony", BlogSablonyLive

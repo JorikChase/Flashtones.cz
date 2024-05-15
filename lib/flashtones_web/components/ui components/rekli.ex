@@ -103,7 +103,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -320,7 +320,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button ft-link">Všechna hodnocení<img src="/images/icon/arrow-right-ft.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button ft-link">Všechna hodnocení<img src="/images/icon/arrow-right-ft.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -537,7 +537,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button deti-link">Všechna hodnocení<img src="/images/icon/arrow-right-deti.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -754,7 +754,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button plavani-link">Všechna hodnocení<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button plavani-link">Všechna hodnocení<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -971,7 +971,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button lyzovani-link">Všechna hodnocení<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button lyzovani-link">Všechna hodnocení<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1188,7 +1188,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button enviro-link">Všechna hodnocení<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button enviro-link">Všechna hodnocení<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1405,7 +1405,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button vylety-link">Všechna hodnocení<img src="/images/icon/arrow-right-vylety.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button vylety-link">Všechna hodnocení<img src="/images/icon/arrow-right-vylety.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1622,7 +1622,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button doma-link">Všechna hodnocení<img src="/images/icon/arrow-right-doma.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button doma-link">Všechna hodnocení<img src="/images/icon/arrow-right-doma.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>
@@ -1839,7 +1839,7 @@ defmodule Rekli do
       <h3>
         Řekli o nás
       </h3>
-      <a href="/zs/ratings" class="inline-button academy-link">Všechna hodnocení<img src="/images/icon/arrow-right-academy.svg" alt="Šipka"></a>
+      <a href="/ratings" class="inline-button academy-link">Všechna hodnocení<img src="/images/icon/arrow-right-academy.svg" alt="Šipka"></a>
       </div>
       <div class="rekli-column">
       <span>

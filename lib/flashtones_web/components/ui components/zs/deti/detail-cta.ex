@@ -11,7 +11,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--lyzovani-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
         termíny a lokality
       </a>
@@ -44,7 +44,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -61,9 +61,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick()"
         style="background: var(--lyzovani-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -94,7 +94,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -113,11 +113,11 @@ defmodule DetailCta do
         i += 1;
         console.log(i)
         } else{
-        button.href = "/zs/kontakty#form";
+        button.href = "/kontakty#form";
         i += 1;
         }
         } else{
-          button.href = "/zs/kontakty#form";
+          button.href = "/kontakty#form";
         }
       }
     </script>-->
@@ -177,6 +177,7 @@ defmodule DetailCta do
     </script>
     """
   end
+
   def plavaniSummer(assigns) do
     ~H"""
     <style>
@@ -188,7 +189,7 @@ defmodule DetailCta do
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new"
       >
-      OBJEDNAT TÁBOR
+        OBJEDNAT TÁBOR
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -201,7 +202,11 @@ defmodule DetailCta do
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
-      <a class="plavani-link" href="/images/pdf/plavani-verejnost/plavani-letni-pobytovy.pdf" target="_blank">
+      <a
+        class="plavani-link"
+        href="/images/pdf/plavani-verejnost/plavani-letni-pobytovy.pdf"
+        target="_blank"
+      >
         <img src="/images/icon/download-plavani.svg" />PDF brožura
       </a>
     </div>
@@ -229,6 +234,7 @@ defmodule DetailCta do
     </script>
     """
   end
+
   def plavaniCitySummer(assigns) do
     ~H"""
     <style>
@@ -285,9 +291,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -318,7 +324,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -387,7 +393,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
         termíny a lokality
       </a>
@@ -422,7 +428,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -440,7 +446,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
         termíny a lokality
       </a>
@@ -477,7 +483,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -535,9 +541,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <p>Chci více informací:</p>
       <br />
@@ -568,7 +574,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -586,9 +592,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -623,7 +629,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -641,9 +647,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <span></span>
       <span class="text-gray-900">
@@ -678,7 +684,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
@@ -695,7 +701,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
         termíny a lokality
       </a>
@@ -728,13 +734,14 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
     </script>
     """
   end
+
   def enviroSvp(assigns) do
     ~H"""
     <style>
@@ -744,9 +751,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -777,13 +784,14 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
     </script>
     """
   end
+
   def enviroTym(assigns) do
     ~H"""
     <style>
@@ -793,9 +801,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -826,13 +834,14 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }
     </script>
     """
   end
+
   def enviroSSTym(assigns) do
     ~H"""
     <style>
@@ -842,9 +851,9 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/zs/kontakty#form"
+        href="/kontakty#form"
       >
-      nezávazně objednat
+        nezávazně objednat
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -875,7 +884,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/zs/kontakty#form";
+            buttonCta.href = "/kontakty#form";
         }
         });
         }

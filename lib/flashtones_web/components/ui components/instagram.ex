@@ -1,13 +1,13 @@
 defmodule Instagram do
   use Phoenix.Component
-  #use Plug.Cowboy
+  # use Plug.Cowboy
 
-  #def fetch_post() do
+  # def fetch_post() do
   #  url = "https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,timestamp,permalink&access_token=#{instagram_token}"
   #  data = Plug.get(url) |> Jason.decode!
   #  |>
-  #end
- def flashtones(assigns) do
+  # end
+  def flashtones(assigns) do
     ~H"""
     <style>
       .instagram-odsazeni-nadpis{
@@ -82,45 +82,58 @@ defmodule Instagram do
         }
       }
     </style>
-      <h2 class="instagram-odsazeni-nadpis">Objevujte svět Flashtones</h2>
+    <h2 class="instagram-odsazeni-nadpis">Objevujte svět Flashtones</h2>
     <div class="instagram odsazeni">
       <div class="instagram-row">
         <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
-
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5a.jpeg);">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/ft-9-5a.jpeg);"
+          >
           </div>
-            <b class="instagram-odsazeni">
+          <b class="instagram-odsazeni">
             Ladies jeans jacket na našem e-shopu! 🩵
-            </b>
-            <small class=" instagram-small">aktualita</small>
-          </a>
-          <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
-
-            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5b.jpeg);">
-            </div>
-            <b class="instagram-odsazeni">
-            Kankán jacket z kolekce CREW je pěkná divočina!
-            </b>
-            <small class=" instagram-small">aktualita</small>
-          </a>
-          <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
-
-            <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/ft-9-5c.jpeg);">
-            </div>
-            <b class="instagram-odsazeni">
-            Představujeme první kousek z ‘’CREW’’ kolekce...
-            </b>
-            <small class=" instagram-small">aktualita</small>
-          </a>
+          </b>
+          <small class=" instagram-small">aktualita</small>
+        </a>
+        <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/ft-9-5b.jpeg);"
+          >
           </div>
-        <div class="self-end aktuality-links">
-          <a href="https://instagram.com/flashtonescz/" target="_blank" class="aktuality-link noBreak vylety-link">
-            více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
-          </a>
-          <a href="/zs/blog" target="_blank" class="aktuality-link noBreak vylety-link">
-            náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
-          </a>
-        </div>
+          <b class="instagram-odsazeni">
+            Kankán jacket z kolekce CREW je pěkná divočina!
+          </b>
+          <small class=" instagram-small">aktualita</small>
+        </a>
+        <a class="instagram-item" href="https://instagram.com/flashtonescz/" target="_blank">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/ft-9-5c.jpeg);"
+          >
+          </div>
+          <b class="instagram-odsazeni">
+            Představujeme první kousek z ‘’CREW’’ kolekce...
+          </b>
+          <small class=" instagram-small">aktualita</small>
+        </a>
+      </div>
+      <div class="self-end aktuality-links">
+        <a
+          href="https://instagram.com/flashtonescz/"
+          target="_blank"
+          class="aktuality-link noBreak vylety-link"
+        >
+          více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
+        </a>
+        <a href="/blog" target="_blank" class="aktuality-link noBreak vylety-link">
+          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" />
+        </a>
+      </div>
     </div>
     """
   end
@@ -200,44 +213,55 @@ defmodule Instagram do
         }
       }
     </style>
-      <h2 class="instagram-odsazeni-nadpis">Objevujte svět zš pro děti</h2>
+    <h2 class="instagram-odsazeni-nadpis">Objevujte svět zš pro děti</h2>
     <div class="instagram odsazeni">
       <div class="instagram-row">
-      <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-        <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5a.jpeg);">
-        </div>
+        <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/zs-9-5a.jpeg);"
+          >
+          </div>
           <b class="instagram-odsazeni">
-          3 tipy, které by se ti mohli hodit! 🏊🏻‍♂️
+            3 tipy, které by se ti mohli hodit! 🏊🏻‍♂️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5b.jpeg);">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/zs-9-5b.jpeg);"
+          >
           </div>
           <b class="instagram-odsazeni">
-          Naše oblíbené místo v Peci pod Sněžkou je ready! 🫡🏊🏻‍♂️
+            Naše oblíbené místo v Peci pod Sněžkou je ready! 🫡🏊🏻‍♂️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
-
-          <div class="instagram-img" alt="instagram post" style="background-image: url(/images/ig/zs-9-5c.jpeg);">
+          <div
+            class="instagram-img"
+            alt="instagram post"
+            style="background-image: url(/images/ig/zs-9-5c.jpeg);"
+          >
           </div>
           <b class="instagram-odsazeni">
-          Trpělivost, klid a empatie! Vlastností, které by...
+            Trpělivost, klid a empatie! Vlastností, které by...
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>
-        </div>
-        <div class="self-end aktuality-links">
+      </div>
+      <div class="self-end aktuality-links">
         <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
-          více z aktualit <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka"/>
+          více z aktualit
+          <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
         </a>
-        <a href="/zs/blog" class="aktuality-link noBreak">
-          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka"/>
+        <a href="/blog" class="aktuality-link noBreak">
+          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
         </a>
-        </div>
+      </div>
     </div>
     """
   end
