@@ -2,10 +2,10 @@ defmodule FlashtonesWeb.LokalityPalkovickeHurkyLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "Lokalita")
     socket =
-      socket
+      assign(socket, page_title: "Lokalita", description: "Lokality ZŠ PRO DĚTI")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
     {:ok, socket}
   end
 
@@ -42,21 +42,18 @@ defmodule FlashtonesWeb.LokalityPalkovickeHurkyLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuDetiMobile />
-      <MenuPc.menuDetiPc />
-      <HeroSmall.palkovickeHurky />
-      <LocationDetail.palkovickeHurky />
-        <DetailFaq.palkovickeHurky />
-        <!--<Lokace.galerie />-->
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuDetiMobile />
+    <MenuPc.menuDetiPc />
+    <HeroSmall.palkovickeHurky />
+    <LocationDetail.palkovickeHurky />
+    <DetailFaq.palkovickeHurky />
+    <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.palkovickeHurky />
-        <Zustanme.plavani />
-        <Footer.deti />
+    <Mapa.palkovickeHurky />
+    <Zustanme.plavani />
+    <Footer.deti />
     """
   end
-
-
-
 end

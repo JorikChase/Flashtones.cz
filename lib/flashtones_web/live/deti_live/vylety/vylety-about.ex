@@ -2,9 +2,7 @@ defmodule FlashtonesWeb.VyletyAboutLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "ZŠ VÝLETY")
-    socket =
-      socket
+    socket = assign(socket, page_title: "ZŠ VÝLETY", description: "Jednodenní a vícedenní výlety pro školy a veřejnost")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "vylety")
     {:ok, socket}
   end

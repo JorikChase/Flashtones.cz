@@ -1,9 +1,7 @@
 defmodule FlashtonesWeb.DomaIndexLive do
   use FlashtonesWeb, :live_view
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "ZŠ DOMA")
-    socket =
-      socket
+    socket = assign(socket, page_title: "ZŠ DOMA", description: "Domácí výuka v online prostředí a skrze naše virtuální městečko")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "doma")
     {:ok, socket}
   end

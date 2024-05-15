@@ -2,10 +2,14 @@ defmodule FlashtonesWeb.LokalityHorniBecvaDuoLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "ZŠ PRO DĚTI")
     socket =
-      socket
+      assign(socket,
+        page_title: "ZŠ PRO DĚTI",
+        description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
+
     {:ok, socket}
   end
 
@@ -42,21 +46,18 @@ defmodule FlashtonesWeb.LokalityHorniBecvaDuoLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuDetiMobile />
-      <MenuPc.menuDetiPc />
-      <HeroSmall.horniBecva />
-      <LocationDetail.horniBecva />
-        <DetailFaq.horniBecva />
-        <!--<Lokace.galerie />-->
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuDetiMobile />
+    <MenuPc.menuDetiPc />
+    <HeroSmall.horniBecva />
+    <LocationDetail.horniBecva />
+    <DetailFaq.horniBecva />
+    <!--<Lokace.galerie />-->
         <!--<Lokace.kurzy />-->
-        <Mapa.horniBecva />
-        <Zustanme.plavani />
-        <Footer.deti />
+    <Mapa.horniBecva />
+    <Zustanme.plavani />
+    <Footer.deti />
     """
   end
-
-
-
 end

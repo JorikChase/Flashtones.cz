@@ -2,78 +2,82 @@ defmodule FlashtonesWeb.DetiReference do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, page_title: "ZŠ PRO DĚTI")
     socket =
-      socket
+      assign(socket,
+        page_title: "ZŠ PRO DĚTI",
+        description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
     {:ok, socket}
   end
 
   def render(assigns) do
     ~H"""
     <style>
-    main{
-      background: #dbf6f9;
-    }
-    .odsazeni{
-      padding-top: 180px;
-    }
-    .reference{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    .reference > ul{
-      width: 50%;
-    }
-    .reference li:hover{
-      transform: scale(1.02);
-    }
-    main{
-      background: #dbf6f9;
-    }
-      .app-bg{
+      main{
+        background: #dbf6f9;
+      }
+      .odsazeni{
+        padding-top: 180px;
+      }
+      .reference{
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        background-position: fixed;
-        background: radial-gradient(circle, #cceeee, #d8e0fe, #cee8f4, #c8f6d1, #f7dec8, #f7e3bb, #f6c9c9);
-        background-size: 400% 400%;
+        flex-direction: row;
+        align-items: center;
+      }
+      .reference > ul{
+        width: 50%;
+      }
+      .reference li:hover{
+        transform: scale(1.02);
+      }
+      main{
+        background: #dbf6f9;
+      }
+        .app-bg{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          background-position: fixed;
+          background: radial-gradient(circle, #cceeee, #d8e0fe, #cee8f4, #c8f6d1, #f7dec8, #f7e3bb, #f6c9c9);
+          background-size: 400% 400%;
 
-        -webkit-animation: MainGradient 30s ease-in-out infinite;
-        -moz-animation: MainGradient 30s ease-in-out infinite;
-        animation: MainGradient 30s ease-in-out infinite;
-        }
-        @-webkit-keyframes MainGradient {
-        0%{background-position:0% 23%}
-        50%{background-position:100% 78%}
-        100%{background-position:0% 23%}
-        }
-        @-moz-keyframes MainGradient {
+          -webkit-animation: MainGradient 30s ease-in-out infinite;
+          -moz-animation: MainGradient 30s ease-in-out infinite;
+          animation: MainGradient 30s ease-in-out infinite;
+          }
+          @-webkit-keyframes MainGradient {
           0%{background-position:0% 23%}
           50%{background-position:100% 78%}
           100%{background-position:0% 23%}
-        }
-        @keyframes MainGradient {
+          }
+          @-moz-keyframes MainGradient {
             0%{background-position:0% 23%}
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
-        }
-        @media(orientation: portrait){
-          .reference{
-            flex-direction: column;
           }
-          .reference ul{
-            width: 100%;
+          @keyframes MainGradient {
+              0%{background-position:0% 23%}
+              50%{background-position:100% 78%}
+              100%{background-position:0% 23%}
           }
-        }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuDetiMobile />
-      <MenuPc.menuDetiPc />
-      <br>
-      <br>
-      <div class="odsazeni reference top"><ul>
+          @media(orientation: portrait){
+            .reference{
+              flex-direction: column;
+            }
+            .reference ul{
+              width: 100%;
+            }
+          }
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuDetiMobile />
+    <MenuPc.menuDetiPc />
+    <br />
+    <br />
+    <div class="odsazeni reference top">
+      <ul>
         <li>25. základní škola Plzeň</li>
         <li>Anglofonní základní škola, z.ú.</li>
         <li>Základní škola a Mateřská škola J. Š. Baara</li>
@@ -120,8 +124,8 @@ defmodule FlashtonesWeb.DetiReference do
         <li>Základní škola a mateřská škola Líšnice, okres Praha – západ</li>
         <li>Základní škola Litvínovská 600, Praha 9</li>
         <li>Základní škola, Lupáčova, Praha</li>
-          </ul>
-          <ul>
+      </ul>
+      <ul>
         <li>Základní škola Járy Cimrmana Lysolaje</li>
         <li>Základní škola s rozšířenou výukou jazyků Magic Hill s.r.o.</li>
         <li>Základní škola Meteorologická</li>
@@ -168,11 +172,12 @@ defmodule FlashtonesWeb.DetiReference do
         <li>Základní škola Zruč nad Sázavou, Nad Pohoří 575</li>
         <li>Základní škola Zvole, příspěvková organizace</li>
         <li>Základní škola a Mateřská škola Ždírec nad Doubravou</li>
-      </ul></div>
-      <Kdo.zs />
-      <Rekli.rekliDeti />
-      <Zustanme.deti />
-      <Footer.deti />
+      </ul>
+    </div>
+    <Kdo.zs />
+    <Rekli.rekliDeti />
+    <Zustanme.deti />
+    <Footer.deti />
     """
   end
 end
