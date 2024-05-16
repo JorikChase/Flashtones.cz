@@ -6,19 +6,19 @@ defmodule Aktivity do
     <h2 id="skoly">Aktivity pro školy</h2>
     <br>
     <div class="kurz-nav" >
-          <a href="/plavani/school" class="kurz-item">
+          <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
             <img src="/images/icon/skola.svg" alt="skola">
             <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
             <p>Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak polovinu povinné plavecké výuky</p>
             <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani"></span>
           </a>
-          <a href="/plavani/city-school" class="kurz-item">
+          <a href="/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
             <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka">
             <h4>Příměstský školní plavecký kurz</h4>
             <p>Nejedná se o pobytový kurz, žáci jsou na místo každý den ráno dováženi a odpoledne odváženi autobusem. V tomto formátu žáci splní během pěti dnů 20 plaveckých lekcí.</p>
             <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"></span>
           </a>
-          <a href="/plavani/pre-school" class="kurz-item">
+          <a href="/plavani/predskolni-plavecky-kurz" class="kurz-item">
             <img src="/images/icon/skolka.svg" alt="Šipka">
             <h4>Předškolní plavecký <br>
             kurz</h4>
@@ -74,19 +74,19 @@ defmodule Aktivity do
     <h2 id="verejnost">Aktivity pro veřejnost</h2>
     <br>
       <div class="kurz-nav kurz-nav-verejnost" >
-        <a href="/plavani/summer" class="kurz-item">
+        <a href="/plavani/letni-primestske-tabory" class="kurz-item">
           <img src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" alt="Šipka">
           <h4>Letní příměstské tábory</h4>
           <p>Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků, doplňkové sportovní a zábavní aktivity.</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"></span>
         </a>
-        <a href="/plavani/saturday" class="kurz-item">
+        <a href="/plavani/sobotni-kurzy-plavani" class="kurz-item">
           <img src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" alt="Šipka">
           <h4>Sobotní kurzy plavání</h4>
           <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!</p>
           <span class="inline-button align-right plavani-link">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka"></span>
         </a>
-        <a href="/plavani/weekend" class="kurz-item">
+        <a href="/plavani/letni-pobytove-tabory" class="kurz-item">
           <img src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" alt="Šipka">
           <h4>Individuální lekce</h4>
           <p>Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>

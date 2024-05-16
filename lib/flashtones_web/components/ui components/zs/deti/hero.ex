@@ -423,7 +423,7 @@ defmodule Hero do
       </div>
       <!--<div id="layer5" data-speed="0.5">
         <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>
-        <a class="plavani" href="https://zsplavani.cz">Plavání</a>
+        <a class="plavani" href="https://zsprodeti.cz/plavani">Plavání</a>
         <a class="enviro" href="https://zsenviro.cz">Enviro</a>
       </div>-->
 

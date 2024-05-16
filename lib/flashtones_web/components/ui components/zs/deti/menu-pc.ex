@@ -452,17 +452,17 @@ defmodule MenuPc do
                               </a>
                           <ul class="mini-skoly">
                               <li>
-                                  <a href="/plavani/school">
+                                  <a href="/plavani/skolni-pobytovy-plavecky-kurz">
                                       <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/plavani/city-school">
+                                  <a href="/plavani/primestsky-skolni-plavecky-kurz">
                                       <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/plavani/pre-school">
+                                  <a href="/plavani/predskolni-plavecky-kurz">
                                       <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
                                   </a>
                               </li>
@@ -504,17 +504,17 @@ defmodule MenuPc do
                                   </a>
                               </li>
                               <li>
-                                  <a href="/plavani/summer">
+                                  <a href="/plavani/letni-primestske-tabory">
                                       <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/plavani/saturday">
+                                  <a href="/plavani/sobotni-kurzy-plavani">
                                       <h3>SOBOTNÍ KURZY PLAVÁNÍ</h3>
                                   </a>
                               </li>
                               <li>
-                                  <a href="/plavani/weekend">
+                                  <a href="/plavani/letni-pobytove-tabory">
                                       <h3>INDIVIDUÁLNÍ KURZY</h3>
                                   </a>
                               </li>

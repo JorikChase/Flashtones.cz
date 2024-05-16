@@ -68,16 +68,16 @@ defmodule FlashtonesWeb.Router do
     live "/plavani", PlavaniIndexSkolyLive
     live "/plavani/verejnost", PlavaniIndexVerejnostLive
     # live "/plavani/index", PlavaniIndexLive
-    live "/plavani/school", PlavaniDetailSchoolLive
-    live "/plavani/pre-school", PlavaniDetailPreSchoolLive
-    live "/plavani/city-school", PlavaniDetailCitySchoolLive
-    live "/plavani/saturday", PlavaniDetailSaturdayLive
+    live "/plavani/skolni-pobytovy-plavecky-kurz", PlavaniDetailSchoolLive
+    live "/plavani/predskolni-plavecky-kurz", PlavaniDetailPreSchoolLive
+    live "/plavani/primestsky-skolni-plavecky-kurz", PlavaniDetailCitySchoolLive
+    live "/plavani/sobotni-kurzy-plavani", PlavaniDetailSaturdayLive
     live "/plavani/services/pravidelne-kurzy-plavani/", PlavaniDetailSaturdayLive
     live "/plavani/summer-camp", PlavaniDetailSummerLive
-    live "/plavani/summer", PlavaniDetailCitySummerLive
+    live "/plavani/letni-primestske-tabory", PlavaniDetailCitySummerLive
     live "/plavani/services/letni-primestske-tabory/", PlavaniDetailSummerLive
     live "/plavani/services/letni-tabor/", PlavaniDetailSummerLive
-    live "/plavani/weekend", PlavaniDetailWeekendLive
+    live "/plavani/letni-pobytove-tabory", PlavaniDetailWeekendLive
     live "/plavani/services/vikendove-primestske-tabory-plavani/", PlavaniDetailWeekendLive
 
     live "/lyzovani/school", LyzovaniDetailSchoolLive
@@ -97,9 +97,9 @@ defmodule FlashtonesWeb.Router do
     live "/enviro/svp", EnviroSvpLive
     live "/enviro/tym", EnviroTymLive
     live "/enviro/ss-tym", EnviroSSTymLive
-    live "/enviro/summer", EnviroSummerLive
-    live "/enviro/summer-city", EnviroSummerCityLive
-    live "/enviro/city", EnviroCityLive
+    live "/enviro/letni-pobytove-tabory", EnviroSummerLive
+    live "/enviro/letni-primestske-tabory-v-tymu", EnviroSummerCityLive
+    live "/enviro/primestske-tabory-enviro", EnviroCityLive
     live "/enviro/evp", EnviroEvpLive
 
     live "/aktivity", AktivityLive
