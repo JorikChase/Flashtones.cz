@@ -41,3 +41,14 @@ config/runtime.exs
 config/prod.exs
 config/dev.exs
 config/config.exs
+.DS_Store
+mix.lock
+README.md
+.vscode/settings.json
+.VSCodeCounter/2023-12-29_12-55-25/results.csv
+.VSCodeCounter/2023-12-29_12-55-25/results.json
+.VSCodeCounter/2023-12-29_12-55-25/results.md
+.VSCodeCounter/2023-12-29_12-55-25/results.txt
+config/config.exs
+lib/flashtones_web/endpoint.ex
+lib/flashtones_web/components/head.ex

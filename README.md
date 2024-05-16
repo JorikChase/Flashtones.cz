@@ -982,3 +982,52 @@ ostatni - [x] Analyza webu
 - [x] Dobrilo-dilci kroky(prosim rozepsat a naplanovat)
 
 ### celkem 44 hodin
+
+- [x] Odstranit ten druhy path?
+  - [x] Muzu nechat canonical na tech redirektnutych?
+- [x] Mam canonical na zsprodeti a všech podstrankach
+- [x] media
+- [x] First contentful paint
+- [x] Cdn 77
+- [x] Gif
+- [x] Headings
+- [x] Vylety
+- [x] Lyzov
+- [x] Enviro
+- [x] Zsprodeti
+- [x] Plavani
+- [x] Routes
+- [x] Prod
+- [x] Flashtones
+- [x] Tlacitka
+- [x] Sitemap
+- [x] Cs
+- [x] Zs
+  - [x] Academy
+  - [x] Doma
+  - [x] Lokality
+  - [x] Vylety
+  - [x] Enviro
+  - [x] Lyzovani
+- [x] Plavani
+- [x] Gzip/zstd
+- [x] Caddy
+- [x] Gif na webp
+- [x] Sitemap
+- [x] generator
+- [x] Dynamic
+- [x] Ads
+- [x] Pridat menicko
+- [x] Pridat /skoly
+- [x] Pridat /verejnost
+- [x] Seo konzultace
+  - [x] Listingy
+    - [x] Duckduck
+  - [x] Conversion rate
+  - [x] Analytika
+- [x] preklik plavani
+- [x] Tabulka od pěti + hamacka v poledne sobota
+
+  - [x] Tlacitko ma sjizdet na klik dolu - [x] Catch-all routes
+
+          socket = assign(socket, description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost.")
