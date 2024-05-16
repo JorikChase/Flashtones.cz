@@ -4,7 +4,7 @@ defmodule FlashtonesWeb.LocationsLive do
   def mount(_params, _session, socket) do
     socket =
       assign(socket,
-        page_title: "ZŠ PRO DĚTI",
+        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
         description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")

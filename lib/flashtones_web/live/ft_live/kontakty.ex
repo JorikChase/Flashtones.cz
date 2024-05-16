@@ -3,7 +3,7 @@ defmodule FlashtonesWeb.KontaktyLive do
 
   import Swoosh.Email
     def mount(_params, _session, socket) do
-      socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png", page_title: "FLASHTONES", description: "Flashtones je lifestyle brand, který boří stereotypy")
+      socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png", canonical: "https://flashtones.cz" , page_title: "FLASHTONES", description: "Flashtones je lifestyle brand, který boří stereotypy")
         |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
       {:ok, socket}
     end
