@@ -3,12 +3,8 @@ defmodule FlashtonesWeb.LokalityHorniBecvaDuoLive do
 
   def mount(_params, _session, socket) do
     socket =
-      assign(socket,
-        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
-        description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
-      )
+      assign(socket, favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png" ,canonical: "https://zsprodeti.cz" , page_title: "Lokalita", description: "Lokality ZŠ PRO DĚTI")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
-
 
     {:ok, socket}
   end
