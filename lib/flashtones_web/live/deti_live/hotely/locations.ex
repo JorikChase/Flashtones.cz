@@ -4,6 +4,7 @@ defmodule FlashtonesWeb.LocationsLive do
   def mount(_params, _session, socket) do
     socket =
       assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
         description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
       )

@@ -122,25 +122,25 @@ defmodule MenuMobile do
       </span>
       <div>
         <a href="/">
-          <h2>Flashtones</h2>
+          <h2>FLASHTONES</h2>
         </a>
-        <a href="/">
-          <h2>zš pro děti</h2>
+        <a href="https://zsprodeti.cz">
+          <h2>ZŠ PRO DĚTI</h2>
         </a>
-        <a href="/produkty">
-          <h2>produkty</h2>
+        <a href="/ft/produkty">
+          <h2>PRODUKTY</h2>
         </a>
-        <a href="/studio">
-          <h2>studio</h2>
+        <a href="/ft/studio">
+          <h2>STUDIO</h2>
         </a>
         <a class="navLink" href="https://eshop.flashtones.cz/">
-          <h2>eshop</h2>
+          <h2>ESHOP</h2>
         </a>
-        <a href="/about#about">
-          <h2>Kdo jsme</h2>
+        <a href="/ft/about#about">
+          <h2>KDO JSME</h2>
         </a>
-        <a href="/kontakty">
-          <h2>Kontakty</h2>
+        <a href="/ft/kontakty">
+          <h2>KONTAKTY</h2>
         </a>
       </div>
     </div>

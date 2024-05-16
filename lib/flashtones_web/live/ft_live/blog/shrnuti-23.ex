@@ -1,6 +1,18 @@
 defmodule FlashtonesWeb.BlogShrnutiLive do
   use FlashtonesWeb, :live_view
 
+  def mount(_params, _session, socket) do
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
+        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
+        description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
+      )
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
+    {:ok, socket}
+  end
+
   def render(assigns) do
     ~H"""
     <style>

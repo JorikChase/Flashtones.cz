@@ -3,7 +3,7 @@ defmodule FlashtonesWeb.LokalityRousarkaLive do
 
   def mount(_params, _session, socket) do
     socket =
-      assign(socket, canonical: "https://zsprodeti.cz" , page_title: "Lokalita", description: "Lokality ZŠ PRO DĚTI")
+      assign(socket, favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png" ,canonical: "https://zsprodeti.cz" , page_title: "Lokalita", description: "Lokality ZŠ PRO DĚTI")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 
     {:ok, socket}
