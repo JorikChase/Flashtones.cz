@@ -2,8 +2,9 @@ defmodule FlashtonesWeb.LokalityLugsteinhofLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket =
+   socket =
       assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         page_title: "ZŠ PRO DĚTI",
         description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost."
       )
