@@ -1,7 +1,7 @@
 defmodule FlashtonesWeb.EnviroSummerLive do
   use FlashtonesWeb, :live_view
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png", canonical: "https://zsprodeti.cz/enviro/letni-pobytove-tabory" , page_title: "ZŠ ENVIRO", description: "Školy v přírodě s environmentální a tmelící tématikou")
+    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png", canonical: "https://zsprodeti.cz/enviro/letni-pobytove-tabory" , page_title: "ZŠ ENVIRO", description: "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení.")
       |> Phx.Live.Favicon.set_dynamic("dynamic", "enviro")
     {:ok, socket}
   end
