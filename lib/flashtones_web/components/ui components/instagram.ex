@@ -224,7 +224,7 @@ defmodule Instagram do
           >
           </div>
           <b class="instagram-odsazeni">
-            3 tipy, které by se ti mohli hodit! 🏊🏻‍♂️
+            3 tipy, které by se ti mohly hodit! 🏊🏻‍♂️
           </b>
           <small class=" instagram-small">aktualita</small>
         </a>

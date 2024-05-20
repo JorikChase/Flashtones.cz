@@ -10,7 +10,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://zsprodeti.cz" />
     <meta property="og:image" phx-track-static content={@favicon} />
-    <link rel="canonical" href={@canonical}>
+    <link rel="canonical" href={@canonical} />
 
     <.live_title>
       <%= assigns[:page_title] || "ZŠ PRO DĚTI" %>
@@ -20,7 +20,7 @@
       rel="icon"
       type="image/png"
       data-dynamic-href="/images/favicon/{dynamic}/icon.png"
-      href="/images/favicon/deti/icon.png"
+      href={@favicon}
     />
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
     <script>
