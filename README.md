@@ -1027,7 +1027,13 @@ ostatni - [x] Analyza webu
   - [x] Analytika
 - [x] preklik plavani
 - [x] Tabulka od pěti + hamacka v poledne sobota
-  - [x] Tlacitko ma sjizdet na klik dolu - [x] Catch-all routes
+  - [x] Tlacitko ma sjizdet na klik dolu
+  - [x] Catch-all routes
         socket = assign(socket, description: "Pořádáme sportovní a vzdělávací akce pro školy i pro veřejnost.")
 - [x] Canonical
 - [x] A pro novy se ted bude přidávat dynamicky cannonical a meta desc
+- [x] Ikonka fav
+  - [x] ft :og
+  - [x] Ikonka pdf ma flashtones
+- [x] Flashtones pwa zsdoma pwa
+- [x] Google tag manager consent
