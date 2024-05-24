@@ -391,6 +391,22 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
+                    <a href="/lokality/fontana">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/fontana/fontana.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel fontána
+                        </h4>
+                        <p>
+                        Nachází se v nadmořské výšce 750 m v malebné oblasti na břehu Lipna. Hodiny plavání probíhají ve vyhřívaném hotelovém bazénu.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" class="button-image"></b>
+                        </div>
+                    </a>
+              </div>
+              <div class="product">
                     <a href="/lokality/energetik">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
                         <div class="product-text-wrap">

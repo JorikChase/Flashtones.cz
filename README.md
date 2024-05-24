@@ -1037,3 +1037,5 @@ ostatni - [x] Analyza webu
   - [x] Ikonka pdf ma flashtones
 - [x] Flashtones pwa zsdoma pwa
 - [x] Google tag manager consent
+
+### celkem 112 hodin
