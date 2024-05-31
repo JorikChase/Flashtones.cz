@@ -43,7 +43,7 @@ defmodule FlashtonesWeb.EnviroCityLive do
       <MenuMobile.menuEnviroMobile />
       <MenuPc.menuEnviroPc />
       <HeroSmall.enviroCity />
-      <DetailCta.enviro />
+      <DetailCta.enviroCity />
       <KurzDetail.enviroCity />
       <!--<DetailFaq.plavaniWeekend />-->
       <br>

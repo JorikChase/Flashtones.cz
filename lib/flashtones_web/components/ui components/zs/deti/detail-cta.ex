@@ -750,11 +750,14 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/kontakty#form"
+        href="https://rezervace.zsprodeti.cz/kurz-12/lokalita/27/termin/list"
       >
         termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
+        <span class="text-gray-900">
+        Cena:<bold>2250 Kč</bold>
+      </span>
       <br />
       <a class="enviro-link" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 724 168 962
@@ -783,7 +786,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-12/lokalita/27/termin/list";
         }
         });
         }
