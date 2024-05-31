@@ -521,10 +521,22 @@ defmodule KurzDetail do
   def enviroCity(assigns) do
     ~H"""
     <div class="course-wrap top">
-        <h1>Příměstské tábory "Enviro"</h1>
-        <p>ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího  školního věku.</p>
+        <h1>Letní příměstské tábory ZŠ Enviro</h1>
         <p>
-        Díky našim mnohaletým pedagogickým, lektorským a trenérským zkušenostem z České republiky i zahraničí a taktéž díky spolupráci s organizacemi jako sdružení Tereza se nám podařilo vytvořit unikátní metodiku environmentální výuky při ŠVP pro děti mladšího školního věku. S využitím nenásilných postupů výuky, názornosti a herního principu jsou děti přirozenou formou vedeny k lásce k přírodě, k hlubšímu porozumění jejích mechanismů a nutnosti její ochrany.
+        Cílem tábora je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
+        </p>
+        <p>
+        Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        </p>
+        <p>
+        Hravá forma a praktické pojetí umožňují hlubší porozumění tématu a vede děti k vnitřnímu přijetí a ztotožnění se se získanými vědomostmi a v důsledku toho k následnému vědomému ekologickému chování v běžném životě.
+        </p>
+        <p>
+        Připravili jsme pro Vás nový formát příměstského tábora, který je, mimo enviro programu, zaměřený i na sportovní a tmelící aktivity. Děti na nich absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
+        </p>
+        <p>
+        Tábory budou probíhat na škole ZŠ Bronzová v termínech <b>8. - 12. 7. a 19. - 23. 8. 2024.</b> Program je určen dětem mladšího a staršího školního věku.
+
         </p>
         </div>
         <br>

@@ -741,6 +741,55 @@ defmodule DetailCta do
     </script>
     """
   end
+  def enviroCity(assigns) do
+    ~H"""
+    <style>
+    </style>
+    <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
+      <a
+        class="cta-button"
+        onClick="ctaClick"
+        style="background: var(--enviro-main)"
+        href="/kontakty#form"
+      >
+        termíny a lokality
+      </a>
+      <!--<p>Chci více informací o kurzu:</p>-->
+      <br />
+      <a class="enviro-link" href="tel:+420 724 168 962">
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 724 168 962
+      </a>
+      <a class="enviro-link" href="mailto:petra@zsprodeti.cz">
+        <img alt="email" src="/images/icon/email-enviro.svg" />petra@zsprodeti.cz
+      </a>
+      <a class="enviro-link" target="_blank" href="/images/pdf/enviro-city.pdf">
+        <img src="/images/icon/download-enviro.svg" />PDF brožura
+      </a>
+    </div>
+    <script>
+      let buttonCta = document.querySelector(".cta-button");
+      let clickCount = 0;
+
+      if (window.innerWidth < window.innerHeight) {
+      // Disable link on first click
+      buttonCta.addEventListener("click", () => {
+        clickCount++;
+        if (clickCount === 1) {
+          console.log("First click - disabling link");
+          // Prevent default action
+          event.preventDefault();
+        } else if (clickCount === 2) {
+          console.log("Second click - activating link");
+          // Reset click count
+          clickCount = 0;
+          // Enable the link
+            buttonCta.href = "/kontakty#form";
+        }
+        });
+        }
+    </script>
+    """
+  end
 
   def enviroSvp(assigns) do
     ~H"""
