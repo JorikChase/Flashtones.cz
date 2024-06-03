@@ -150,6 +150,14 @@ defmodule KurzNav do
     <style>
     </style>
     <div class="kurz-nav">
+      <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
+        <h4>Příměstské tábory "Enviro"</h4>
+        <p>Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.</p>
+        <span class="inline-button align-right enviro-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
+        </span>
+      </a>
       <a href="/enviro/letni-pobytove-tabory" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/weekend-enviro.svg" />
         <h4>Letní pobytové tábory ZŠ PRO DĚTI</h4>
@@ -166,14 +174,6 @@ defmodule KurzNav do
         <p>
           Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity.
         </p>
-        <span class="inline-button align-right enviro-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
-        </span>
-      </a>
-      <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
-        <h4>Příměstské tábory "Enviro"</h4>
-        <p>Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.</p>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
