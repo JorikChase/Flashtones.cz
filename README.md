@@ -1040,4 +1040,71 @@ ostatni - [x] Analyza webu
 
 ### celkem 112 hodin
 
-enviro letni oprava
+- [x] enviro letni oprava
+- [x] opravy podle pripominek
+- [x] Errory console
+- [x] Seo
+- [x] HugoHUgo
+- [x] M-wieh
+- [x] Instruktori stejna funkcionalita jako hmyzacci
+- [x] Zaber na podium
+- [x] Importovat kontakty na rodiče místo db petra
+    - [x] Zalohovani 
+    - [x] Rozrazeni dokumentu
+    - [x] finishing and testing rezervacak
+- [x] naši lidé 
+
+### celkem 66 hodin
+
+- [x] newsletter design - 4
+- [x] newsletter posilani - 3
+- [x] newsletter posilani - 0.5
+# grafika - 25 000
+- [ ] Kresba komiks
+- [ ] Zabery animace
+    - [ ] Zabery na oddělení socci
+        - [ ] Celkem tak deset sekund
+    - [ ] Koncert
+        - [ ] Klip celkem +- 240 sec
+                - [ ] 60 sekund
+                - [ ] Style frames
+    - [ ] Ponozkovy komiks
+        - [ ] Ponozkomix 
+        - [ ] Jeden az dva styleframes
+# web - 15 000
+    - [ ] Kontakty přepínaní 
+    - [ ] Nasi lide section toggle
+    - [ ] zsdoma
+    - [ ] Zsprodeti portal faq
+    - [ ] Animace
+    - [ ] strih
+    - [ ] Vodoznak 
+    - [ ] Studio adresa
+    - [ ] Plavani 
+    - [ ] Typka zajizdi po loadu nazpet
+    - [ ] Rozhrani pod jednotlivymi podstrankami v ZS DOMA(pod mapou-ZS Plavani etc.)
+    - [ ] Zsdoma
+    - [ ] Hmyzaci lokace 
+        - [ ] Pridat knizku
+        - [ ] Na każdym zvireti on hover jmeno I popis odkazující na detail postavy
+    - [ ] Enviro 
+    - [ ] Lyzovani
+    - [ ] Aktuality aplikace
+- [ ] Lokality dodělat mapu cele ČR
+- [ ] Vymenit na mobilu odkazy na konec az po postech
+# audit zmeny - 10 000
+- seo
+    - [ ] Konzultace 
+        - [ ] Audit
+            - [ ] Priority strategie
+# vedlejsi aplikace - 10 000
+- [ ] Tabulka 
+    - [ ] Zabezpeceni
+    - [ ] Produkce
+- [ ] Sloupec i sloupec f sloupec e
+  - [ ] Projede i 
+      - [ ] Odstrani
+  - [ ] Projede jméno dítěte 
+      - [ ] odstranit
+- [ ] Rezervacak vezme 
+    - [ ] Odstranit zrušena 

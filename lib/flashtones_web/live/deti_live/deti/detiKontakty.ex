@@ -74,8 +74,7 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
           "client_email" => client_email,
           "client_message" => client_message
         },
-        socket
-      ) do
+        socket) do
     new()
     |> from("kontaktni.formular@info.cz")
     |> to("info@zsprodeti.cz")
