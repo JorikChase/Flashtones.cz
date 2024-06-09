@@ -1066,13 +1066,12 @@ ostatni - [x] Analyza webu
         - [ ] Celkem tak deset sekund
     - [ ] Koncert
         - [ ] Klip celkem +- 240 sec
-                - [ ] 60 sekund
-                - [ ] Style frames
     - [ ] Ponozkovy komiks
         - [ ] Ponozkomix 
         - [ ] Jeden az dva styleframes
 # web - 15 000
-    - [ ] Kontakty přepínaní 
+- [x] Kontakty form 
+    - [x] Kontakty přepínaní 
     - [ ] Nasi lide section toggle
     - [ ] zsdoma
     - [ ] Zsprodeti portal faq
@@ -1108,3 +1107,5 @@ ostatni - [x] Analyza webu
       - [ ] odstranit
 - [ ] Rezervacak vezme 
     - [ ] Odstranit zrušena 
+- [ ] sociomapping
+- [ ] portal

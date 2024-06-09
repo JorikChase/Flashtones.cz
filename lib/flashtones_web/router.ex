@@ -38,6 +38,7 @@ defmodule FlashtonesWeb.Router do
     live "/faq", ZsFaqLive
     live "/ft/kontakty", KontaktyLive
     live "/kontakty", ZsKontaktyLive
+    live "/kontakty-formular", ZsKontaktyFormularLive
     live "/ft/about", AboutLive
     live "/ft/produkty", ProduktyLive
     live "/ft/studio", StudioLive
@@ -101,6 +102,28 @@ defmodule FlashtonesWeb.Router do
     live "/enviro/letni-primestske-tabory-v-tymu", EnviroSummerCityLive
     live "/enviro/primestske-tabory-enviro", EnviroCityLive
     live "/enviro/evp", EnviroEvpLive
+
+    live "/lektori", LektoriLive
+    live "/lektori/manual-fotky", ManualFotkyLive
+    live "/lektori/vecerni-programy", VecerniProgramyLive
+    live "/lektori/sportovni-doplnkovy-program", SportovniDoplnkovyProgramLive
+    live "/lektori/svp-instruktor", SvpInstruktorLive
+    live "/lektori/svp-hlavni-instruktor", SvpHlavniInstruktorLive
+    live "/lektori/schuze-hlavnich-instruktoru", SchuzeHlavnichInstruktoruLive
+    live "/lektori/prezencni-list", PrezencniListLive
+    live "/lektori/plavani-zasobnik", PlavaniZasobnikLive
+    live "/lektori/plavani-pirati", PlavaniPiratiLive
+    live "/lektori/plavani-chobotnice", PlavaniChobotniceLive
+    live "/lektori/plavani-vodni-zachrana", PlavaniVodniZachranaLive
+    live "/lektori/plavani-namornici", PlavaniNamorniciLive
+    live "/lektori/plavani-delfini", PlavaniDelfiniLive
+    live "/lektori/plavani-prirucka-instruktora", PlavaniPriruckaInstruktoraLive
+    live "/lektori/enviro-metodika", EnviroMetodikaLive
+    live "/lektori/enviro-metodika-starsi", EnviroMetodikaStarsiLive
+    live "/lektori/tym-autismus", TymAutismusLive
+    live "/lektori/tym-zakladni-info", TymZakladniInfoLive
+    live "/lektori/tym-sbornik", TymSbornikLive
+    live "/lektori/tym-enviro-aktivity-starsi", TymEnviroAktivityStarsiLive
 
     live "/aktivity", AktivityLive
     live "/ratings", RatingsLive

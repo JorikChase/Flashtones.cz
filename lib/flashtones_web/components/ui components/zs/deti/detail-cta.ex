@@ -11,7 +11,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--lyzovani-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         termíny a lokality
       </a>
@@ -44,7 +44,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -61,7 +61,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick()"
         style="background: var(--lyzovani-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -94,7 +94,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -113,11 +113,11 @@ defmodule DetailCta do
         i += 1;
         console.log(i)
         } else{
-        button.href = "/kontakty#form";
+        button.href = "//kontaktyformular";
         i += 1;
         }
         } else{
-          button.href = "/kontakty#form";
+          button.href = "//kontaktyformular";
         }
       }
     </script>-->
@@ -291,7 +291,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -324,7 +324,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -393,7 +393,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         termíny a lokality
       </a>
@@ -428,7 +428,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -446,7 +446,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         termíny a lokality
       </a>
@@ -483,7 +483,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -541,7 +541,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -574,7 +574,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -592,7 +592,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -629,7 +629,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -647,7 +647,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--vylety-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -684,7 +684,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -701,7 +701,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         termíny a lokality
       </a>
@@ -734,7 +734,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -803,7 +803,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -836,7 +836,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -853,7 +853,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -886,7 +886,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
@@ -903,7 +903,7 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--enviro-main)"
-        href="/kontakty#form"
+        href="/kontakty-formular"
       >
         nezávazně objednat
       </a>
@@ -936,7 +936,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty#form";
+            buttonCta.href = "/kontakty-formular";
         }
         });
         }
