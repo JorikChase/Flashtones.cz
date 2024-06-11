@@ -53,27 +53,35 @@ defmodule FlashtonesWeb.KontaktyLive do
             <Footer.footer />
       """
     end
-    def handle_event("send_email", %{"client_name" => client_name, "client_email" => client_email, "client_number" => client_number, "client_message" => client_message}, socket) do
-      new()
-      |> from("kontaktni.formular@info.cz")
-      |> to("jorikchase@gmail.com")
-      |> subject("Formulář #{client_name}")
-      |> text_body("
-          zpráva
+    def handle_event(
+        "send_email",
+        %{
+          "client_name" => client_name,
+          "client_email" => client_email,
+          "client_phone" => client_phone,
+          "client_message" => client_message
+        },
+        socket) do
+    new()
+    |> from("kontaktni.formular@info.cz")
+    |> to("info@zsprodeti.cz")
+    |> subject("Formulář #{client_name}")
+    |> text_body("
+        zpráva
 
-          #{client_message}
+        #{client_message}
 
-          adresa
+        telefon
 
-          #{client_email}
+        #{client_phone}
 
-          telefon
+        adresa
 
-          #{client_number}
+        #{client_email}
 
-          ")
-      |> Flashtones.Mailer.deliver()
+        ")
+    |> Flashtones.Mailer.deliver()
 
-      {:noreply, socket}
-    end
+    {:noreply, socket}
+  end
 end

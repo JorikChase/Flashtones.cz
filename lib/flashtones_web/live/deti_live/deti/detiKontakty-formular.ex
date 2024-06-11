@@ -72,6 +72,7 @@ defmodule FlashtonesWeb.ZsKontaktyFormularLive do
         %{
           "client_name" => client_name,
           "client_email" => client_email,
+          "client_phone" => client_phone,
           "client_message" => client_message
         },
         socket) do
@@ -83,6 +84,10 @@ defmodule FlashtonesWeb.ZsKontaktyFormularLive do
         zpráva
 
         #{client_message}
+
+        telefon
+
+        #{client_phone}
 
         adresa
 
