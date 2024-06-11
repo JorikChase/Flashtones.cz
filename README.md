@@ -1056,9 +1056,10 @@ ostatni - [x] Analyza webu
 
 ### celkem 66 hodin
 
-- [x] newsletter design - 4
-- [x] newsletter posilani - 3
-- [x] newsletter posilani - 0.5
+- [x] newsletter design
+- [x] newsletter posilani
+- [x] newsletter posilani 
+- [x] kurz radotin pdf + web
 # grafika - 25 000
 - [ ] Kresba komiks
 - [ ] Zabery animace
@@ -1072,17 +1073,16 @@ ostatni - [x] Analyza webu
 # web - 15 000
 - [x] Kontakty form 
     - [x] Kontakty přepínaní 
+    - [x] Kontakty telefon 
+    - [ ] aktivity na mobil
     - [ ] Nasi lide section toggle
     - [ ] zsdoma
     - [ ] Zsprodeti portal faq
     - [ ] Animace
     - [ ] strih
-    - [ ] Vodoznak 
     - [ ] Studio adresa
-    - [ ] Plavani 
     - [ ] Typka zajizdi po loadu nazpet
     - [ ] Rozhrani pod jednotlivymi podstrankami v ZS DOMA(pod mapou-ZS Plavani etc.)
-    - [ ] Zsdoma
     - [ ] Hmyzaci lokace 
         - [ ] Pridat knizku
         - [ ] Na każdym zvireti on hover jmeno I popis odkazující na detail postavy
@@ -1109,3 +1109,4 @@ ostatni - [x] Analyza webu
     - [ ] Odstranit zrušena 
 - [ ] sociomapping
 - [ ] portal
+- [ ] Vodoznak 

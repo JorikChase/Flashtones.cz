@@ -351,10 +351,10 @@ defmodule Kontakt do
           <h4>Váš email</h4>
         </label>
         <input type="text" id="client_email" name="client_email" required><br>
-        <label for="client_number">
+        <label for="client_phone">
           <h4>Vaše číslo</h4>
         </label>
-        <input type="text" id="client_number" name="client_number" required><br>
+        <input type="text" id="client_phone" name="client_phone" required><br>
         <label for="client_message">
           <h4>Vaše zpráva</h4>
         </label>
