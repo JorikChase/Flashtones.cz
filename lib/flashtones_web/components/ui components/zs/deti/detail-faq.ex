@@ -1068,7 +1068,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Kurzy se konají od začátku února do konce června 2024</p>
+          <p class="answer mt-2">Kurzy se konají v termínu 10/2024 až 1/2025</p>
         </div>
       </div>
     </div>

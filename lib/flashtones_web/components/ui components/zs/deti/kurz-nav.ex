@@ -6,16 +6,6 @@ defmodule KurzNav do
     <style>
     </style>
     <div class="kurz-nav">
-      <a href="/plavani/summer-camp" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
-        <h4>Letní pobytové tábory</h4>
-        <p>
-          Jsou ideálním prázdninovým dobrodružstvím pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.
-        </p>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
-        </span>
-      </a>
       <a href="/plavani/letni-primestske-tabory" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" />
         <h4>Letní příměstské tábory</h4>
@@ -28,7 +18,7 @@ defmodule KurzNav do
       </a>
       <a href="/plavani/sobotni-kurzy-plavani" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
-        <h4>Sobotní kurzy plavání</h4>
+        <h4>Sobotní kurzy plavání 2024/2025</h4>
         <p>
           Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!
         </p>
@@ -41,6 +31,16 @@ defmodule KurzNav do
         <h4>Individuální lekce</h4>
         <p>
           Jsou dvoudenní- jednovíkendové plavecké kurzy zahrnující čtyři výukové plavecké bloky a pestrý doplňkový program. Probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.
+        </p>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
+      <a href="/plavani/summer-camp" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
+        <h4>Letní pobytové tábory</h4>
+        <p>
+          Jsou ideálním prázdninovým dobrodružstvím pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.
         </p>
         <span class="inline-button align-right plavani-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />

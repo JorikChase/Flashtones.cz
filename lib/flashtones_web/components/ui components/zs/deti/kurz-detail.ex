@@ -129,16 +129,14 @@ defmodule KurzDetail do
           }
         </style>
         <div class="course-wrap top">
-        <h1>SOBOTNÍ KURZY PLAVÁNÍ</h1>
+        <h1>SOBOTNÍ KURZY PLAVÁNÍ 2024/2025</h1>
         <p>Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu a v týdnu už nemáte prostor na další kroužek? Plavání s námi je tou správnou volbou! Na základě četné poptávky ze strany rodičů jsme pro vás připravili Sobotní kurzy plavání zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností.</p>
         <br>
          <h3> KDE </h3>
-         <p>Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín a nově i v bazénu Pražačka na Praze 3.</p>
+         <p>Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
         <br>
         <h3>Organizace</h3>
-        <p>Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 15ti lekcí a docházíte podle vlastní potřeby.
-        Kurzy jsou otevřené pro děti ve věku 5-13 let v úrovních neplavec, poloplavec a plavec.
-        Cena kurzu je 5 550 Kč a to za 15 lekcí. Kurzy se konají od začátku února do konce června 2024.</p>
+        <p>Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 12ti lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce. Cena kurzu je 4 800 Kč a to za 12 lekcí. Kurzy se konají od začátku října do konce ledna následujícího roku.</p>
         <br>
         <h3>Jak to probíhá</h3>
         <p>

@@ -341,13 +341,13 @@ defmodule DetailCta do
         class="cta-button"
         onClick="ctaClick"
         style="background: var(--plavani-main)"
-        href="https://rezervace.zsprodeti.cz/kurz-16/termin/list"
+        href="https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new"
       >
         termíny a lokality
       </a>
       <span></span>
       <span class="text-gray-900">
-        Cena:<bold>5 550 Kč</bold>
+        Cena:<bold>4 800 Kč</bold>
       </span>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
@@ -356,6 +356,9 @@ defmodule DetailCta do
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+      </a>
+      <a class="plavani-link" href="/images/pdf/plavani-verejnost/Sobotní kurzy plavání Radotín.pdf" target="_blank">
+        <img src="/images/icon/download-plavani.svg" />PDF brožura
       </a>
     </div>
     <script>
@@ -375,7 +378,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-16/termin/list";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new";
         }
         });
         }
