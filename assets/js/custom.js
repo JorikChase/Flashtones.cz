@@ -95,6 +95,11 @@ export const ModularMenu = {
   mounted() {
     // Embedding the Google Tag Manager code
     (function () {
+      document.getElementById("cookie-agree").addEventListener("click", function() {
+        document.getElementsByClassName("cookie")[0].style.visibility = "hidden";
+        document.getElementsByClassName("cookie")[0].style.opacity = "0";
+      });
+
       var script = document.createElement("script");
       script.async = true;
       script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
@@ -107,6 +112,16 @@ export const ModularMenu = {
       window.gtag = gtag; // Make gtag globally available
       gtag("js", new Date());
       gtag("config", "G-SYGJRGDW2D");
+      
+      let cookieDisagree = document.getElementById("cookie-disagree");
+      if (cookieDisagree) {
+        cookieDisagree.addEventListener("click", function () {
+          window.gtag = function () {};
+          console.log("Gtag disabled");
+          document.getElementsByClassName("cookie")[0].style.visibility = "hidden";
+          document.getElementsByClassName("cookie")[0].style.opacity = "0";
+        });
+      }
     })();
 
     // Function containing your modulate logic
@@ -187,6 +202,11 @@ export const ModularMenuRight = {
   mounted() {
     // Embedding the Google Tag Manager code
     (function () {
+      document.getElementById("cookie-agree").addEventListener("click", function() {
+        document.getElementsByClassName("cookie")[0].style.visibility = "hidden";
+        document.getElementsByClassName("cookie")[0].style.opacity = "0";
+      });
+
       var script = document.createElement("script");
       script.async = true;
       script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
@@ -199,6 +219,16 @@ export const ModularMenuRight = {
       window.gtag = gtag; // Make gtag globally available
       gtag("js", new Date());
       gtag("config", "G-SYGJRGDW2D");
+      
+      let cookieDisagree = document.getElementById("cookie-disagree");
+      if (cookieDisagree) {
+        cookieDisagree.addEventListener("click", function () {
+          window.gtag = function () {};
+          console.log("Gtag disabled");
+          document.getElementsByClassName("cookie")[0].style.visibility = "hidden";
+          document.getElementsByClassName("cookie")[0].style.opacity = "0";
+        });
+      }
     })();
 
     // Function containing your modulate logic

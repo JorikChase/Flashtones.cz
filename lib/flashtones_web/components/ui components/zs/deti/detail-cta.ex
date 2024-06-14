@@ -340,10 +340,9 @@ defmodule DetailCta do
       <a
         class="cta-button"
         onClick="ctaClick"
-        style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new"
       >
-        termíny a lokality
+        termíny a lokality<img alt="sipka" src="/images/icon/arrow-right-white.svg"/>
       </a>
       <span></span>
       <span class="text-gray-900">

@@ -28,17 +28,17 @@
     </script>
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNPYJNC3KY">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag () {dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-LNPYJNC3KY');
-    </script>
   </head>
   <body class="antialiased" style="border-radius: 0;">
     <%= @inner_content %>
+    <div class="cookie" style="transition: all 0.5s ease-in-out;">
+      <div class="fixed bottom-0 right-0 w-auto  m-4 p-4 shadow-lg flex justify-between items-center flex-col" style="border-radius: 15px;">
+        <p class="text-gray-900">Tato stránka používá cookies.</p>
+        <div class="flex items-center" style="flex-direction: row;">
+          <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 m-1 rounded-xl" style="transition: background-color 0.3s;" id="cookie-agree">Souhlasím</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 m-1 rounded-xl" style="transition: background-color 0.3s;" id="cookie-disagree">Nesouhlasím</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
