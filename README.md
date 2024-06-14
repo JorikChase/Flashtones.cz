@@ -1060,6 +1060,7 @@ ostatni - [x] Analyza webu
 - [x] newsletter posilani
 - [x] newsletter posilani 
 - [x] kurz radotin pdf + web
+- [x] enviro plakat
 # grafika - 25 000
 - [ ] Kresba komiks
 - [ ] Zabery animace
@@ -1110,3 +1111,9 @@ ostatni - [x] Analyza webu
 - [ ] sociomapping
 - [ ] portal
 - [ ] Vodoznak 
+- [ ] Duplicitni variabilni symbol -> scitani ceny -> variabilni symbol import_rezervacak
+
+
+
+=IMPORTRANGE(“https://docs.google.com/spreadsheets/d/15cDrFiZZ3aPaLlToYjZPY58tqq0841ZF/edit?gid=216711004#gid=216711004","Pohyby_na_uctu-2402621175_20231!A1:I1000”)
+

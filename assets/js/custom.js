@@ -5,10 +5,10 @@ export const Synchronize = {
       const skolyB = document.getElementById("skolyB");
       const verejnostA = document.getElementById("verejnostA");
       const verejnostB = document.getElementById("verejnostB");
-    };
-    synchronize()
     }
-  }
+    synchronize();
+  },
+};
 export const ToggleSwitchPlavani = {
   mounted() {
     function start() {
@@ -16,7 +16,7 @@ export const ToggleSwitchPlavani = {
       const sections = document.querySelectorAll("section");
 
       function showSection(sectionId) {
-        sections.forEach(section => {
+        sections.forEach((section) => {
           if (section.id === sectionId) {
             section.classList.remove("hidden");
           } else {
@@ -25,20 +25,19 @@ export const ToggleSwitchPlavani = {
         });
       }
 
-      sectionLinks.forEach(link => {
+      sectionLinks.forEach((link) => {
         link.addEventListener("click", function (e) {
           e.preventDefault();
-          sectionLinks.forEach(link => link.classList.remove("active"));
+          sectionLinks.forEach((link) => link.classList.remove("active"));
           this.classList.add("active");
           showSection(this.getAttribute("href").substr(1));
-          
         });
       });
 
       const hash = window.location.hash;
       if (hash) {
         console.log(hash + "test");
-        sectionLinks.forEach(link => {
+        sectionLinks.forEach((link) => {
           if (link.getAttribute("href") === hash) {
             link.classList.add("active");
           }
@@ -47,10 +46,10 @@ export const ToggleSwitchPlavani = {
         showSection(sections[0].id);
         sectionLinks[0].classList.add("active");
       }
-    };
+    }
     start();
-  }
-}
+  },
+};
 export const ToggleSwitch = {
   mounted() {
     function start() {
@@ -58,7 +57,7 @@ export const ToggleSwitch = {
       const sections = document.querySelectorAll("section");
 
       function showSection(sectionId) {
-        sections.forEach(section => {
+        sections.forEach((section) => {
           if (section.id === sectionId) {
             section.classList.remove("hidden");
           } else {
@@ -67,10 +66,10 @@ export const ToggleSwitch = {
         });
       }
 
-      sectionLinks.forEach(link => {
+      sectionLinks.forEach((link) => {
         link.addEventListener("click", function (e) {
           e.preventDefault();
-          sectionLinks.forEach(link => link.classList.remove("active"));
+          sectionLinks.forEach((link) => link.classList.remove("active"));
           this.classList.add("active");
           showSection(this.getAttribute("href").substr(1));
         });
@@ -79,7 +78,7 @@ export const ToggleSwitch = {
       const hash = window.location.hash;
       if (hash) {
         console.log(hash + "test");
-        sectionLinks.forEach(link => {
+        sectionLinks.forEach((link) => {
           if (link.getAttribute("href") === hash) {
             link.classList.add("active");
           }
@@ -88,18 +87,36 @@ export const ToggleSwitch = {
         showSection(sections[0].id);
         sectionLinks[0].classList.add("active");
       }
-    };
+    }
     start();
-  }
-}
+  },
+};
 export const ModularMenu = {
   mounted() {
+    // Embedding the Google Tag Manager code
+    (function () {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      window.gtag = gtag; // Make gtag globally available
+      gtag("js", new Date());
+      gtag("config", "G-SYGJRGDW2D");
+    })();
+
+    // Function containing your modulate logic
     function modulate() {
       window.onscroll = function () {
         let cta = document.getElementById("detail-cta");
         let menu = document.getElementById("pcMenu");
         let menuBar = document.getElementById("pcMenuBar");
-        let distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+        let distanceToBottom =
+          document.body.scrollHeight - window.innerHeight - window.scrollY;
         let ctaEnd = 1984;
 
         const body = document.body;
@@ -108,7 +125,13 @@ export const ModularMenu = {
         const lyzovani = window.location.pathname.includes("/lyzovani/");
         const enviro = window.location.pathname.includes("/enviro/");
         const vylety = window.location.pathname.includes("/vylety/");
-        const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        const height = Math.max(
+          body.scrollHeight,
+          body.offsetHeight,
+          html.clientHeight,
+          html.scrollHeight,
+          html.offsetHeight,
+        );
 
         if (window.scrollY > 100) {
           menu.style.top = "0";
@@ -119,13 +142,19 @@ export const ModularMenu = {
           menuBar.style.right = "0";
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
-          if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            window.innerHeight < window.innerWidth &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             console.log("ju");
             cta.style.right = "5%";
             cta.style.top = "90px";
             cta.style.position = "fixed";
           }
-          if (distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            distanceToBottom < ctaEnd &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             cta.style.opacity = "0";
             cta.style.visibility = "hidden";
           } else if (plavani || lyzovani || enviro || vylety) {
@@ -141,26 +170,46 @@ export const ModularMenu = {
           menuBar.style.right = "10%";
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
-          if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            window.innerHeight < window.innerWidth &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             cta.style.right = "5%";
             cta.style.top = "440px";
           }
         }
       };
-      
     }
     modulate();
-  }
-}
+  },
+};
 export const ModularMenuRight = {
   mounted() {
+    // Embedding the Google Tag Manager code
+    (function () {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      window.gtag = gtag; // Make gtag globally available
+      gtag("js", new Date());
+      gtag("config", "G-SYGJRGDW2D");
+    })();
+
+    // Function containing your modulate logic
     function modulate() {
       window.onscroll = function () {
         let cta = document.getElementById("detail-cta");
         let menu = document.getElementById("pcMenu");
         let menuBar = document.getElementById("pcMenuBar");
         let menuBottom = document.getElementById("pcMenuBottom");
-        let distanceToBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+        let distanceToBottom =
+          document.body.scrollHeight - window.innerHeight - window.scrollY;
         let ctaEnd = 1984;
 
         const body = document.body;
@@ -169,8 +218,13 @@ export const ModularMenuRight = {
         const lyzovani = window.location.pathname.includes("/lyzovani/");
         const enviro = window.location.pathname.includes("/enviro/");
         const vylety = window.location.pathname.includes("/vylety/");
-        const height = Math.max(body.scrollHeight, body.offsetHeight,
-          html.clientHeight, html.scrollHeight, html.offsetHeight);
+        const height = Math.max(
+          body.scrollHeight,
+          body.offsetHeight,
+          html.clientHeight,
+          html.scrollHeight,
+          html.offsetHeight,
+        );
 
         if (window.pageYOffset > 100) {
           menu.style.top = "0";
@@ -185,13 +239,19 @@ export const ModularMenuRight = {
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
           menuBottom.style.borderRadius = "0";
-          if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            window.innerHeight < window.innerWidth &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             console.log("ju");
             cta.style.right = "5%";
             cta.style.top = "90px";
             cta.style.position = "fixed";
           }
-          if (distanceToBottom < ctaEnd && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            distanceToBottom < ctaEnd &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             cta.style.opacity = "0";
             cta.style.visibility = "hidden";
           } else if (plavani || lyzovani || enviro || vylety) {
@@ -211,7 +271,10 @@ export const ModularMenuRight = {
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
           menuBottom.style.borderRadius = "10px";
-          if (window.innerHeight < window.innerWidth && (plavani || lyzovani || enviro || vylety)) {
+          if (
+            window.innerHeight < window.innerWidth &&
+            (plavani || lyzovani || enviro || vylety)
+          ) {
             cta.style.right = "5%";
             cta.style.top = "440px";
           }
@@ -219,25 +282,32 @@ export const ModularMenuRight = {
       };
       //if (window.location.href === "https://zsprodeti.cz/") {
       //    window.location.replace("https://zsprodeti.cz/zs/");
-      //  }
+      //}
     }
+
     modulate();
-  }
-}
+  },
+};
 export const ScrollingCarousel = {
   mounted() {
     function scroll() {
-      document.addEventListener("DOMContentLoaded", function() {
-        const kurzCarousels = document.querySelectorAll('.kurz-carousel');
-        
-        kurzCarousels.forEach(carousel => {
-          const kurzNav = carousel.querySelector('.kurz-nav');
-          const kurzItems = carousel.querySelectorAll('.kurz-item');
+      document.addEventListener("DOMContentLoaded", function () {
+        const kurzCarousels = document.querySelectorAll(".kurz-carousel");
+
+        kurzCarousels.forEach((carousel) => {
+          const kurzNav = carousel.querySelector(".kurz-nav");
+          const kurzItems = carousel.querySelectorAll(".kurz-item");
           const itemWidth = kurzItems[0].offsetWidth + 30; // Considering 30px gap
           let currentIndex = 0;
-          const isPortrait = () => {return window.innerHeight > window.innerWidth;};
-          const isLandscape = () => {return window.innerWidth > window.innerHeight;};
-          const isMobile = () => {return window.innerWidth <= 768 && isPortrait();};
+          const isPortrait = () => {
+            return window.innerHeight > window.innerWidth;
+          };
+          const isLandscape = () => {
+            return window.innerWidth > window.innerHeight;
+          };
+          const isMobile = () => {
+            return window.innerWidth <= 768 && isPortrait();
+          };
 
           // Function to auto-scroll the carousel
           function autoScroll() {
@@ -246,20 +316,22 @@ export const ScrollingCarousel = {
           }
 
           // Set interval for auto-scrolling
-          if (isLandscape()) {setInterval(autoScroll, 5000);};
+          if (isLandscape()) {
+            setInterval(autoScroll, 5000);
+          }
 
-          const prevBtn = carousel.querySelector('.prev-btn');
-          const nextBtn = carousel.querySelector('.next-btn');
+          const prevBtn = carousel.querySelector(".prev-btn");
+          const nextBtn = carousel.querySelector(".next-btn");
 
           // Event listeners for previous and next buttons
-          prevBtn.addEventListener('click', function() {
+          prevBtn.addEventListener("click", function () {
             if (currentIndex > 0) {
               currentIndex--;
               kurzNav.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
             }
           });
 
-          nextBtn.addEventListener('click', function() {
+          nextBtn.addEventListener("click", function () {
             if (currentIndex < kurzItems.length - 1) {
               currentIndex++;
               kurzNav.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
@@ -267,23 +339,22 @@ export const ScrollingCarousel = {
           });
         });
       });
-
     }
     scroll();
-  }
-}
+  },
+};
 export const SocciMap = {
   mounted() {
     function renderMap() {
-      document.addEventListener('mousemove', parallax);
+      document.addEventListener("mousemove", parallax);
 
       function parallax(e) {
-        let layers = document.querySelectorAll('#map-container > div');
+        let layers = document.querySelectorAll("#map-container > div");
 
-        layers.forEach(layer => {
-          const speed = parseFloat(layer.getAttribute('data-speed'));
-          const x = (e.clientX - window.innerWidth / 2) * speed / 100;
-          const y = (e.clientY - window.innerHeight / 2) * speed / 100;
+        layers.forEach((layer) => {
+          const speed = parseFloat(layer.getAttribute("data-speed"));
+          const x = ((e.clientX - window.innerWidth / 2) * speed) / 100;
+          const y = ((e.clientY - window.innerHeight / 2) * speed) / 100;
 
           layer.style.transform = `translate(${x}px, ${y}px)`;
           console.log(`translate(${x}vw, ${y}vh)`);
@@ -291,5 +362,5 @@ export const SocciMap = {
       }
     }
     renderMap();
-  }
-}
+  },
+};

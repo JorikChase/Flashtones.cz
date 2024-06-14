@@ -346,15 +346,15 @@ defmodule Kontakt do
         <label for="client_name">
           <h4>Celé jméno</h4>
         </label>
-        <input type="text" id="client_name" name="client_name" required><br>
+        <input type="text" autocomplete="on" id="client_name" name="client_name" required><br>
         <label for="client_email">
           <h4>Váš email</h4>
         </label>
-        <input type="text" id="client_email" name="client_email" required><br>
+        <input type="text" autocomplete="on" id="client_email" name="client_email" required><br>
         <label for="client_phone">
           <h4>Vaše číslo</h4>
         </label>
-        <input type="text" id="client_phone" name="client_phone" required><br>
+        <input type="text" autocomplete="on" id="client_phone" name="client_phone" required><br>
         <label for="client_message">
           <h4>Vaše zpráva</h4>
         </label>

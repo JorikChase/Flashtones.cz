@@ -18,7 +18,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -48,7 +48,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -78,7 +78,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -108,7 +108,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -138,7 +138,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -168,7 +168,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=""><span class="inline -button"><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small>Přihlášením k odběru class="" uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span></span>
           <br>
@@ -198,7 +198,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
@@ -228,7 +228,7 @@ defmodule Zustanme do
         <small><b>
         Váš e-mail
         </b></small>
-          <input required type="text" id="email" name="fname" value=""><br>
+          <input required type="text" autocomplete="on" id="email" name="fname" value=""><br>
           <span class=" "><input required type="checkbox" style="margin-right: 15px;" id="subscribe" name="subscribe" value="Agreed">
           <label for="subscribe"> <small class="" style="font-size: 15px;">Přihlášením k odběru uděluji svůj souhlas společnosti Flashtones, aby zpracovávala mé osobní údaje (e-mailovou adresu). Celé znění souhlasu najdete zde.</small></label></span>
           <br>
