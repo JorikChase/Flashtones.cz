@@ -12,9 +12,13 @@ defmodule FlashtonesWeb.Periodically do
   end
 
   def handle_info(:work, state) do
-    login_url = "https://rezervace.zsprodeti.cz/admin/rezervace"
+    login_url = "https://registrace.zsprodeti.cz/account/login?return=admin%2Frezervace"
 
-    # IO.puts("2: I am here")
+    IO.puts("2: I am here")
+
+    response = HTTPoison.get!(login_url)
+    response_body = response.body
+    IO.puts("Response body: #{response_body}")
 
     csrf_var =
       HTTPoison.get!(login_url).body
@@ -22,8 +26,8 @@ defmodule FlashtonesWeb.Periodically do
       |> Floki.find("input[name='csrf']")
       |> Floki.attribute("value")
 
-    # IO.puts(csrf_var)
-    # IO.puts("3: Waiting for 0.5 seconds")
+    IO.puts(inspect(csrf_var))
+    IO.puts("3: Waiting for 0.5 seconds")
     :timer.sleep(500)
 
     form_data = [
@@ -32,11 +36,12 @@ defmodule FlashtonesWeb.Periodically do
       {"password", "yanZDvu3XGJW37rdjyAmNQHN"}
     ]
 
-    # IO.puts("4: I am here")
+    IO.puts(inspect(form_data))
+    IO.puts("4: I am here")
 
     case HTTPoison.post(login_url, {:form, form_data}) do
       {:ok, %HTTPoison.Response{status_code: 303, body: _, headers: headers}} ->
-        # IEx.Helpers.i(headers)
+        IEx.Helpers.i(headers)
 
         pre_preprocessed_signed_csrf_var =
           Enum.map(headers, fn {_, header} ->
@@ -46,11 +51,11 @@ defmodule FlashtonesWeb.Periodically do
             end
           end)
 
-        # IEx.Helpers.i(pre_preprocessed_signed_csrf_var)
+        IEx.Helpers.i(pre_preprocessed_signed_csrf_var)
 
         preprocessed_signed_csrf_var = Enum.filter(pre_preprocessed_signed_csrf_var, &(&1 != nil))
 
-        # IEx.Helpers.i(preprocessed_signed_csrf_var)
+        IEx.Helpers.i(preprocessed_signed_csrf_var)
 
         processed_signed_csrf_var = hd(preprocessed_signed_csrf_var)
 
@@ -83,7 +88,7 @@ defmodule FlashtonesWeb.Periodically do
   end
 
   defp schedule_work() do
-    Process.send_after(self(), :work, 1000 * 60 *2) # In 2 min
+    Process.send_after(self(), :work, 1000 * 60) # In 1 min
   end
 
 end
