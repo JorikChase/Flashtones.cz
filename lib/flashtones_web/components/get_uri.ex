@@ -83,7 +83,7 @@ defmodule FlashtonesWeb.Periodically do
   end
 
   defp schedule_work() do
-    Process.send_after(self(), :work, 2000) # In 2 min
+    Process.send_after(self(), :work, 1000 * 60 *2) # In 2 min
   end
 
 end
