@@ -66,7 +66,7 @@ defmodule FlashtonesWeb.Periodically do
                ]
              ) do
           {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
-            File.write!("priv/static/images/csv/tabulka.csv", body)
+            File.write!("priv/static/images/csv/rezervacak.csv", body)
             IO.puts("CSV downloaded successfully.")
 
           {:error, %HTTPoison.Error{reason: reason}} ->
@@ -83,7 +83,7 @@ defmodule FlashtonesWeb.Periodically do
   end
 
   defp schedule_work() do
-    Process.send_after(self(), :work, 12 * 60 * 60 * 1000) # In 24h
+    Process.send_after(self(), :work, 2000) # In 2 min
   end
 
 end
