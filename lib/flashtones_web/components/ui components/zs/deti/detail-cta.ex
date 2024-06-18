@@ -335,6 +335,13 @@ defmodule DetailCta do
   def plavaniSaturday(assigns) do
     ~H"""
     <style>
+    .cta-button {
+      background: #486EFF;
+      border: 4px solid #486EFF;
+    }
+    .detail-cta .cta-button:hover {
+      background: var(--plavani-light);
+    }
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
