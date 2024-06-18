@@ -54,6 +54,7 @@ defmodule FlashtonesWeb.BlogShrnutiLive do
       <Blog.shrnuti />
 
       <Zustanme.zustanme />
+      <KurzNav.blog />
       <Footer.footer />
     """
   end

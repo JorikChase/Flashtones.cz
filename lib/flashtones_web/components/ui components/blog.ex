@@ -174,4 +174,70 @@ defmodule Blog do
     </div>
     """
   end
+  def vTymu(assigns) do
+    ~H"""
+    <style>
+      @media (orientation: portrait){
+      }
+    </style>
+    <div class="odsazeni">
+    <h2>Adaptační kurz V týmu: Inovativní přístup k rozvoji třídního kolektivu</h2>
+    <br>
+    <p>
+    V dnešním dynamickém světě je důležité ve školách předávat nejen znalosti, ale také budovat
+    pozitivní sociální vazby mezi žáky a studenty. Adaptační kurz V týmu, organizovaný ZŠ
+    PRO DĚTI, představuje jedinečný přístup ke stmelení školních kolektivů prostřednictvím
+    inovativní diagnostiky a zábavných aktivit. Tento program je navržen tak, aby zlepšil
+    spolupráci a atmosféru ve třídě a rozvíjel sociální dovednosti a týmovou práci.
+    </p>
+    <br>
+    <h4>Diagnostika pomocí sociomappingu: Klíč k úspěchu</h4>
+    <p>
+    Na začátku kurzu využíváme pokročilý nástroj sociomapping, který detailně analyzuje vztahy
+    ve třídě. Sociomapping vizualizuje strukturu a dynamiku skupiny, což nám umožňuje
+    identifikovat klíčové oblasti pro zlepšení. Na základě těchto výsledků pak dotváříme
+    metodiku a posloupnost her, které jsou přizpůsobeny potřebám dané skupiny.
+    </p>
+    <br>
+    <h4>Jak probíhá program?</h4>
+    <p>
+    Naše pestrá pracovní skupina složená z pedagogů, tělocvikářů, dětské psycholožky a magistry
+    umění vytvořila zásobníky her a cvičení pro různé věkové kategorie a skupiny s různou
+    dynamikou. Pečlivě vybrané aktivity nám umožňují efektivně přizpůsobit program
+    specifickým potřebám každé skupiny a dosáhnout co nejlepších výsledků.
+    </p>
+    <ul>
+      <li><b>Environmentální program:</b> Hravou formou seznamuje účastníky s okolním
+      prostředím a základními přírodními mechanismy. Děti se učí přírodu vnímat všemi
+      smysly a uvědomovat si, že jsou její součástí.</li>
+      <li><b>Sportovně-tmelící program:</b> Obsahuje tělesné aktivity zaměřené na rozvoj rychlosti,
+      síly, obratnosti a týmové spolupráce.</li>
+      <li><b>Večerní zábavní program:</b> Zahrnuje kreativní aktivity složené z her v přírodě,
+      stolních her, hudebních a výtvarných činností, které posilují sociální vazby a přispívají
+      k prevenci šikany.</li>
+    </ul>
+    <br>
+    <h4>Proč si vybrat adaptační kurz V týmu?</h4>
+    <ol>
+      <li><b>Individuální přístup:</b>Díky sociomappingu a přizpůsobení her na míru potřebám
+      skupiny dosahujeme konkrétních a měřitelných výsledků.</li>
+      <li><b>Zkušení lektoři:</b>Jsme ostřílený tým nadšenců, který má zkušenosti se všemi
+      věkovými kategoriemi a svou práci bere jako poslání.</li>
+      <li><b>Komplexní program:</b>Spojení vzdělávacích, pohybových a zábavních aktivit
+      zajišťuje, že děti odjíždějí s novými vědomostmi, dovednostmi a zážitky, na které
+      dlouho a rády vzpomínají.</li>
+    </ol>
+    <br>
+    <h4>Přihlaste svou třídu na kurz V týmu a zažijte jedinečný přístup ke zlepšení třídní dynamiky.</h4>
+    <p>
+    Zajímají vás naše další kurzy? Vyzkoušejte školu v přírodě s výukou plavání <b class="plavani-link">ZŠ Plavání</b>, lyžařský kurz <b class="lyzovani-link">ZŠ Lyžování</b> nebo školu v přírodě s environmentální tématikou <b class="enviro-link">ZŠ Enviro</b>.
+    </p>
+    <br>
+    <p>
+    Kontaktujte nás na <b><a class="deti-link" href="mailto:info@zsprodeti.cz">info@zsprodeti.cz</a></b> nebo navštivte <b><a class="deti-link" href="https://www.zsprodeti.cz/">zsprodeti.cz</a></b> pro více informací.
+    </p>
+    <br>
+    </div>
+    """
+  end
 end

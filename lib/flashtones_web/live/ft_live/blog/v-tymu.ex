@@ -1,18 +1,10 @@
-defmodule FlashtonesWeb.BlogSocciLive do
+defmodule FlashtonesWeb.VTymuBlogLive do
   use FlashtonesWeb, :live_view
-
   def mount(_params, _session, socket) do
-    socket =
-      assign(socket,
-        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
-      )
-      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
-
+    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png", canonical: "https://flashtones.cz" , page_title: "FLASHTONES", description: "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! ")
+      |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
     {:ok, socket}
   end
-
   def render(assigns) do
     ~H"""
     <style>
@@ -48,11 +40,10 @@ defmodule FlashtonesWeb.BlogSocciLive do
         }
       </style>
       <Nav.nav />
-      <MenuMobile.menuFtMobile />
-      <MenuPc.menuFtPc />
+      <MenuMobile.menuDetiMobile />
+      <MenuPc.menuDetiPc />
       <HeroSmall.zsRatings />
-      <Blog.socci />
-
+      <Blog.vTymu />
       <Zustanme.zustanme />
       <KurzNav.blog />
       <Footer.footer />

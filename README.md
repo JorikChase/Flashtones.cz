@@ -1049,18 +1049,14 @@ ostatni - [x] Analyza webu
 - [x] Instruktori stejna funkcionalita jako hmyzacci
 - [x] Zaber na podium
 - [x] Importovat kontakty na rodiče místo db petra
-    - [x] Zalohovani 
+    - [x] Zalohovani
     - [x] Rozrazeni dokumentu
     - [x] finishing and testing rezervacak
-- [x] naši lidé 
+- [x] naši lidé
 
 ### celkem 66 hodin
 
-- [x] newsletter design
-- [x] newsletter posilani
-- [x] newsletter posilani 
-- [x] kurz radotin pdf + web
-- [x] enviro plakat
+
 # grafika - 25 000
 - [ ] Kresba komiks
 - [ ] Zabery animace
@@ -1069,12 +1065,9 @@ ostatni - [x] Analyza webu
     - [ ] Koncert
         - [ ] Klip celkem +- 240 sec
     - [ ] Ponozkovy komiks
-        - [ ] Ponozkomix 
+        - [ ] Ponozkomix
         - [ ] Jeden az dva styleframes
 # web - 15 000
-- [x] Kontakty form 
-    - [x] Kontakty přepínaní 
-    - [x] Kontakty telefon 
     - [ ] aktivity na mobil
     - [ ] Nasi lide section toggle
     - [ ] zsdoma
@@ -1082,38 +1075,63 @@ ostatni - [x] Analyza webu
     - [ ] Animace
     - [ ] strih
     - [ ] Studio adresa
-    - [ ] Typka zajizdi po loadu nazpet
     - [ ] Rozhrani pod jednotlivymi podstrankami v ZS DOMA(pod mapou-ZS Plavani etc.)
-    - [ ] Hmyzaci lokace 
+    - [ ] Hmyzaci lokace
         - [ ] Pridat knizku
         - [ ] Na każdym zvireti on hover jmeno I popis odkazující na detail postavy
-    - [ ] Enviro 
+    - [ ] Enviro
     - [ ] Lyzovani
     - [ ] Aktuality aplikace
 - [ ] Lokality dodělat mapu cele ČR
 - [ ] Vymenit na mobilu odkazy na konec az po postech
 # audit zmeny - 10 000
 - seo
-    - [ ] Konzultace 
+    - [ ] Konzultace
         - [ ] Audit
             - [ ] Priority strategie
 # vedlejsi aplikace - 10 000
-- [ ] Tabulka 
+
     - [ ] Zabezpeceni
     - [ ] Produkce
-- [ ] Sloupec i sloupec f sloupec e
-  - [ ] Projede i 
-      - [ ] Odstrani
-  - [ ] Projede jméno dítěte 
+
+  - [ ] Projede jméno dítěte
       - [ ] odstranit
-- [ ] Rezervacak vezme 
-    - [ ] Odstranit zrušena 
+
 - [ ] sociomapping
 - [ ] portal
-- [ ] Vodoznak 
+- [ ] Vodoznak
 - [ ] Duplicitni variabilni symbol -> scitani ceny -> variabilni symbol import_rezervacak
 
 
 
 =IMPORTRANGE(“https://docs.google.com/spreadsheets/d/15cDrFiZZ3aPaLlToYjZPY58tqq0841ZF/edit?gid=216711004#gid=216711004","Pohyby_na_uctu-2402621175_20231!A1:I1000”)
 
+- [x] newsletter design
+- [x] newsletter posilani
+- [x] newsletter posilani
+- [x] kurz radotin pdf + web
+- [x] enviro plakat
+- [x] Rezervacak vezme
+    - [x] Odstranit zrušena
+    - [x] Sloupec i sloupec f sloupec e
+      - [x] Projede i
+          - [x] Odstrani
+- [x] Tabulka
+- [x] Typka zajizdi po loadu nazpet
+- [x] Kontakty form
+    - [x] Kontakty přepínaní
+    - [x] Kontakty telefon
+- [x] hero
+- [x] mobil
+- [x] prepinac
+- [x] stahovani rezervacaku
+- [x] SEO
+- [x] DNS
+- [x] lektori
+- [x] blog
+- [x] cookies
+- [x] Maily odesilani
+- [x] Procisteni databazi
+  - [x] Skoly
+  - [x] info, dotazy, nesmysly
+  - [x] blacklist

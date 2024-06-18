@@ -54,6 +54,7 @@ defmodule FlashtonesWeb.BlogSablonyLive do
       <Blog.sablony />
 
       <Zustanme.zustanme />
+      <KurzNav.blog />
       <Footer.footer />
     """
   end

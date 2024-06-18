@@ -175,6 +175,7 @@ defmodule FlashtonesWeb.Router do
     live "/blog/sablony", BlogSablonyLive
     live "/blog/shrnuti-23", BlogShrnutiLive
     live "/blog/socci", BlogSocciLive
+    live "/blog/v-tymu", VTymuBlogLive
 
     live "/404", DetiIndexLive
     get "/*path", FourOhFour, :index

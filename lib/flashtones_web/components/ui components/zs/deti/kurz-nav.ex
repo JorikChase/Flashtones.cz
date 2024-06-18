@@ -428,6 +428,12 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
         </span>
       </a>
+      <a href="/blog/v-tymu" class="kurz-item">
+        <h4>INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h4>
+        <span class="inline-button align-right deti-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
     </div>
     """
   end
