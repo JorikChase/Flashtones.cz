@@ -141,8 +141,16 @@ defmodule Instagram do
   def deti(assigns) do
     ~H"""
     <style>
-      .instagram-odsazeni-nadpis{
-        padding: 30px 10% 0 10%;
+    .instagram-odsazeni-nadpis{
+      margin-top: 0;
+    }
+      .ig-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+        margin: 30px 10% 15px 10%;
       }
       .instagram{
         display: flex;
@@ -150,6 +158,7 @@ defmodule Instagram do
         align-items: center;
         justify-content: center;
         gap: 30px;
+        margin: 60px 10% 45px 10%;
       }
       .instagram-row{
         width: 100%;
@@ -169,12 +178,18 @@ defmodule Instagram do
         gap: 15px;
         background-color: white;
       }
+      .instagram-item:hover{
+        background-color: rgba(255, 255, 255, 0.7);
+      }
       .instagram-img{
         width: 100%;
         aspect-ratio: 1/1;
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
+      }
+      .instagram-img:hover{
+        transform: scale(1.05);
       }
       .instagram-odsazeni{
         padding: 0 30px 0 30px;
@@ -187,6 +202,8 @@ defmodule Instagram do
       .aktuality-links{
         display: flex;
         flex-direction: row;
+        justify-content:center;
+        align-items: center;
         gap: 30px;
         color: var(--deti-link);
         font-size: 15px;
@@ -202,6 +219,14 @@ defmodule Instagram do
         gap: 15px;
       }
       @media (orientation: portrait){
+        .ig-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+        margin: 30px 10% 15px 10%;
+      }
         .instagram{
           flex-direction: column;
         }
@@ -211,10 +236,26 @@ defmodule Instagram do
         .instagram-item{
           width: 100%;
         }
+        .aktuality-links{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+      }
       }
     </style>
+    <div class="ig-wrap">
     <h2 class="instagram-odsazeni-nadpis">Objevujte svět zš pro děti</h2>
-    <div class="instagram odsazeni">
+    <div class="aktuality-links">
+        <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
+          více z aktualit
+          <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
+        </a>
+        <a href="/blog" class="aktuality-link noBreak">
+          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
+        </a>
+      </div>
+    </div>
+    <div class="instagram">
       <div class="instagram-row">
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
           <div
@@ -251,15 +292,6 @@ defmodule Instagram do
             Trpělivost, klid a empatie! Vlastností, které by...
           </b>
           <small class=" instagram-small">aktualita</small>
-        </a>
-      </div>
-      <div class="self-end aktuality-links">
-        <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
-          více z aktualit
-          <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
-        </a>
-        <a href="/blog" class="aktuality-link noBreak">
-          náš blog <img class="navLink-arrow" src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
         </a>
       </div>
     </div>
