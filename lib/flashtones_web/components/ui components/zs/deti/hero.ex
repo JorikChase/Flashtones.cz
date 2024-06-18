@@ -99,22 +99,10 @@ defmodule Hero do
 
   def deti(assigns) do
     ~H"""
-    <div class="hero">
-      <div class="hero-content">
-        <h1 id="hero-heading">
-          Pořádáme sportovní a vzdělávací akce <br /> pro školy i pro veřejnost
-        </h1>
-        <br />
-        <br />
-        <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
-      </div>
-      <div class="hero-media" style="background-image: url(/images/deti/deti-bg.webp);"></div>
-    </div>
-    <span id="course-marker"></span>
-
     <style>
       #hero-heading{
         color: white;
+        text-shadow: 1px 1px 20px black;
       }
       .hero-media{
         transform: scaleY(-1);
@@ -127,6 +115,7 @@ defmodule Hero do
         transition: all 0.5s ease-in-out;
         background: rgba(0, 0, 0, 0.5);
         transform: scale(1);
+        border-radius: 40px;
       }
       .hero-button:hover{
         font-size: 4.1vh;
@@ -143,60 +132,19 @@ defmodule Hero do
         }
       }
     </style>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const mediaItems = [
-            { type: 'image', src: '/images/deti/deti-bg.webp', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
-            { type: 'image', src: '/images/mobile/deti-bg-mobile.webp', heading: 'Pořádáme sportovní a vzdělávací akce <br> pro školy i pro veřejnost', button: 'Naše aktivity', href: "#course-marker" },
-        ];
-        let currentSlide = 0;
+    <div class="hero">
+      <div class="hero-content">
+        <h1 id="hero-heading">
+          Pořádáme sportovní a vzdělávací akce <br /> pro školy i pro veřejnost
+        </h1>
+        <br />
+        <br />
+        <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
+      </div>
+      <div class="hero-media" style="background-image: url(/images/deti/deti-bg.webp);"></div>
+    </div>
+    <span id="course-marker"></span>
 
-          const heroHeading = document.getElementById("hero-heading");
-          const heroButton = document.getElementById("hero-button");
-          const heroMedia = document.querySelector(".hero-media");
-
-          function updateHeroContent(slideIndex) {
-              const mediaItem = mediaItems[slideIndex];
-              heroHeading.innerHTML = mediaItem.heading;
-              heroButton.textContent = mediaItem.button;
-              heroButton.href = mediaItem.href;
-
-              // Create a new media element
-              const newMedia = document.createElement(mediaItem.type === 'image' ? 'img' : 'video');
-              newMedia.src = mediaItem.src;
-              newMedia.autoplay = true;
-              newMedia.loop = true;
-              newMedia.muted = true;
-              newMedia.style.width = '100%';
-              newMedia.style.height = '100%';
-              newMedia.style.objectFit = 'cover';
-              newMedia.style.position = 'absolute';
-              newMedia.style.top = 0;
-              newMedia.style.left = 0;
-
-              // Add the new media element and apply the 'active' class for smooth transition
-              heroMedia.innerHTML = '';
-              heroMedia.appendChild(newMedia);
-              setTimeout(() => {
-                  newMedia.classList.add('active');
-              }, 0);
-          }
-
-          function nextSlide() {
-              currentSlide = (currentSlide + 1) % mediaItems.length;
-              heroMedia.firstChild.classList.remove('active');
-              setTimeout(() => {
-                  updateHeroContent(currentSlide);
-              }, 600); // Adjust this timeout to match your transition time
-          }
-
-          // Initially set the content
-          updateHeroContent(currentSlide);
-
-          // Start auto-switching every 5 seconds
-          //setInterval(nextSlide, 5000);
-      });
-    </script>
     """
   end
 
@@ -636,7 +584,9 @@ defmodule Hero do
       }
       .hero-button{
         padding: 2vh 2.5vh;
-        height: auto;}
+        height: auto;
+        color:white;
+        }
       .section-toggle-plavani{
         background-color: rgba(255, 255, 255, 0.05);
         margin: 15px 5px;
@@ -669,62 +619,59 @@ defmodule Hero do
         color: white;
       }
     </style>
-    <script>
-      function clicker() {
-        if (skolyA.classList.contains("active")) {
-          console.log("skolyA");
-          skolyB.classList.add("active");
-          verejnostA.classList.remove("active");
-          verejnostB.classList.remove("active");
-        }
-        if (verejnostA.classList.contains("active")) {
-          console.log("verejnostB");
-          verejnostB.classList.add("active");
-          skolyA.classList.remove("active");
-          skolyB.classList.remove("active");
-        }
-        if (skolyB.classList.contains("active")) {
-          console.log("skolyB");
-          skolyA.classList.add("active");
-          verejnostA.classList.remove("active");
-          verejnostB.classList.remove("active");
-        }
-        if (verejnostB.classList.contains("active")) {
-          console.log("verejnostB");
-          verejnostA.classList.add("active");
-          skolyA.classList.remove("active");
-          skolyB.classList.remove("active");
-        }
-      };
-    </script>
     """
   end
 
   def plavaniHeroDetail(assigns) do
     ~H"""
     <style>
+
       .hero-button-wrap{
-        width: 30%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         gap: 30px;
+        border-radius: 40px;
       }
-      .hero-button{
+      .hero #skolyA, .hero #verejnostA{
         padding: 2vh 2.5vh;
-        height: auto;}
+        height: auto;
+        color: white;
+        }
       .section-toggle-plavani{
         background-color: rgba(255, 255, 255, 0.05);
         margin: 15px 5px;
+        padding: 0.5em 0.8em;
       }
       .section-toggle-plavani:hover{
         background-color: rgba(0, 0, 0, 0);
       }
+      .section-toggle-plavani > a:hover{
+        transform: scale(1.2);
+        color: black!important;
+      }
       @media (orientation: portrait) {
+      .section-toggle-plavani{
+        padding: 0.6em 0.9em 0.6em 0;
+      }
+        #hero-heading{
+          width:50%;
+        }
+      .hero-button{
+        background-color: rgba(255, 255, 255, 1);
+        padding: 2vh 2.5vh;
+        height: auto;
+        }
         .hero-button-wrap{
           flex-direction: column;
           align-items: flex-start;
+          width: 100%;
+        background-color: transparent;
+        margin: 0;
+        }
+        .hero-media{
+          background-position: 65% 50%;
         }
       }
     </style>
@@ -732,9 +679,11 @@ defmodule Hero do
       <div class="hero-content" id="plavani-switch">
         <h1 id="hero-heading">Největší plavecká škola <br /> v ČR</h1>
         <br />
-        <div class="section-toggle section-toggle-plavani" onClick="clicker();">
-          <a href="/plavani#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
-          <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+        <div class="section-toggle section-toggle-plavani hero-button-wrap">
+          <a class="hero-button" href="/plavani#course-marker" id="skolyA">Pro školy</a>
+          <a class="hero-button" href="/plavani/verejnost#course-marker" id="verejnostA">
+            Pro veřejnost
+          </a>
         </div>
       </div>
       <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
@@ -746,34 +695,6 @@ defmodule Hero do
         color: white;
       }
     </style>
-    <script>
-      function clicker() {
-        if (skolyA.classList.contains("active")) {
-          console.log("skolyA");
-          skolyB.classList.add("active");
-          verejnostA.classList.remove("active");
-          verejnostB.classList.remove("active");
-        }
-        if (verejnostA.classList.contains("active")) {
-          console.log("verejnostB");
-          verejnostB.classList.add("active");
-          skolyA.classList.remove("active");
-          skolyB.classList.remove("active");
-        }
-        if (skolyB.classList.contains("active")) {
-          console.log("skolyB");
-          skolyA.classList.add("active");
-          verejnostA.classList.remove("active");
-          verejnostB.classList.remove("active");
-        }
-        if (verejnostB.classList.contains("active")) {
-          console.log("verejnostB");
-          verejnostA.classList.add("active");
-          skolyA.classList.remove("active");
-          skolyB.classList.remove("active");
-        }
-      };
-    </script>
     """
   end
 
