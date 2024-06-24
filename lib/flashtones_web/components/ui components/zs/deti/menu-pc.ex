@@ -96,7 +96,7 @@ defmodule MenuPc do
         </div>
         <div class="pcMenuBottomLinks">
           <a class="pcMenuBottomLink" href="/"> Úvod </a>
-          <a class="pcMenuBottomLink" href="/about#about"> Kdo jsme </a>
+          <a class="pcMenuBottomLink" href="/o-nas#my"> Kdo jsme </a>
           <a class="pcMenuBottomLink" href="/kontakty"> Kontakty </a>
         </div>
       </div>
@@ -527,7 +527,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
-          <a href="/about#about">O nás</a>
+          <a href="/o-nas#my">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -826,7 +826,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/plavani/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
-          <a href="/plavani/about#about">O nás</a>
+          <a href="/plavani/o-nas#my">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

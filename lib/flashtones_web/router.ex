@@ -42,8 +42,14 @@ defmodule FlashtonesWeb.Router do
     live "/ft/about", AboutLive
     live "/ft/produkty", ProduktyLive
     live "/ft/studio", StudioLive
-    live "/about", DetiAboutLive
-    live "/plavani/about", PlavaniAboutLive
+    live "/o-nas", DetiAboutLive
+    live "/plavani/o-nas", PlavaniAboutLive
+    live "/o-nas/historie", DetiHistorieLive
+    live "/plavani/o-nas/historie", PlavaniHistorieLive
+    live "/o-nas/lide", DetiLideLive
+    live "/plavani/o-nas/lide", PlavaniLideLive
+    live "/o-nas/spolecnost", DetiSpolecnostLive
+    live "/plavani/o-nas/spolecnost", PlavaniSpolecnostLive
     live "/lyzovani/about", LyzovaniAboutLive
     live "/enviro/about", EnviroAboutLive
     live "/vylety/about", VyletyAboutLive

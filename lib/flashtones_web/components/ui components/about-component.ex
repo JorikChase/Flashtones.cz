@@ -71,61 +71,150 @@ defmodule About do
 
   def deti(assigns) do
     ~H"""
-    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="">
       <!-- Navigation Bar -->
       <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
-        <a class="" href="#about">O NÁS</a>
-        <a class="" href="#historie">HISTORIE</a>
-        <a class="" href="#lide">NAŠI LIDÉ</a>
-        <a class="" href="#spolecnost">O SPOLEČNOSTI</a>
+        <a class="" href="/o-nas#my">O NÁS</a>
+        <a class="" href="/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
       </div>
       <!-- Sections -->
-      <section id="about" class="hidden odsazeni">
+      <section id="my" class="odsazeni">
         <General.deti />
-      </section>
-
-      <section id="historie" class="hidden odsazeni">
-        <AboutComp.historie />
-      </section>
-
-      <section id="lide" class="hidden odsazeni">
-        <AboutComp.lide />
-        </section>
-        <section id="spolecnost" class="hidden odsazeni">
-      <AboutComp.spolecnost />
       </section>
     </div>
 
     """
   end
-
-  def plavani(assigns) do
+  def detiHistorie(assigns) do
     ~H"""
-    <div class="" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
+    <div class="">
       <!-- Navigation Bar -->
-      <div class="flex justify-center mb-8 section-toggle">
-        <a class="" href="#about">O NÁS</a>
-        <a class="" href="#historie">HISTORIE</a>
-        <a class="" href="#lide">NAŠI LIDÉ</a>
-        <a class="" href="#spolecnost">O SPOLEČNOSTI</a>
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/o-nas#my">O NÁS</a>
+        <a class="" href="/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
       </div>
       <!-- Sections -->
-      <section id="about" class="odsazeni">
-        <General.plavani />
-      </section>
 
-      <section id="historie" class="hidden odsazeni">
+      <section id="historie" class="odsazeni">
         <AboutComp.historie />
       </section>
+    </div>
+    """
+  end
+  def detiLide(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/o-nas#my">O NÁS</a>
+        <a class="" href="/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
 
-      <section id="lide" class="hidden odsazeni">
+      <section id="lide" class="odsazeni">
         <AboutComp.lide />
-        </section>
-        <section id="spolecnost" class="hidden odsazeni">
-      <AboutComp.spolecnost />
+      </section>
+
+    </div>
+    """
+  end
+  def detiSpolecnost(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/o-nas#my">O NÁS</a>
+        <a class="" href="/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
+
+      <section id="spolecnost" class="odsazeni">
+        <AboutComp.spolecnost />
+      </section>
+
+    </div>
+    """
+  end
+  def plavani(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/plavani/o-nas#my">O NÁS</a>
+        <a class="" href="/plavani/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/plavani/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/plavani/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
+      <section id="my" class="odsazeni">
+        <General.plavani />
       </section>
     </div>
 
+    """
+  end
+  def plavaniHistorie(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/plavani/o-nas#my">O NÁS</a>
+        <a class="" href="/plavani/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/plavani/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/plavani/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
+
+      <section id="historie" class="odsazeni">
+        <AboutComp.historie />
+      </section>
+    </div>
+    """
+  end
+  def plavaniLide(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/plavani/o-nas#my">O NÁS</a>
+        <a class="" href="/plavani/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/plavani/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/plavani/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
+
+      <section id="lide" class="odsazeni">
+        <AboutComp.lide />
+      </section>
+
+    </div>
+    """
+  end
+  def plavaniSpolecnost(assigns) do
+    ~H"""
+    <div class="">
+      <!-- Navigation Bar -->
+      <div class="flex justify-center mb-8 section-toggle section-toggle-long" >
+        <a class="" href="/plavani/o-nas#my">O NÁS</a>
+        <a class="" href="/plavani/o-nas/historie#historie">HISTORIE</a>
+        <a class="" href="/plavani/o-nas/lide#lide">NAŠI LIDÉ</a>
+        <a class="" href="/plavani/o-nas/spolecnost#spolecnost">O SPOLEČNOSTI</a>
+      </div>
+      <!-- Sections -->
+
+      <section id="spolecnost" class="odsazeni">
+        <AboutComp.spolecnost />
+      </section>
+
+    </div>
     """
   end
 

@@ -69,7 +69,7 @@ defmodule Kdo do
               <a
                 class="inline-button"
                 style="color: var(--ft-link);"
-                href="/about#about"
+                href="/o-nas#my"
                 aria-label="O nas"
               >
                 O projektu <img src="/images/icon/arrow-right-ft.svg" alt="Šipka" />
@@ -77,7 +77,7 @@ defmodule Kdo do
               <a
                 class="inline-button"
                 style="color: var(--ft-link);"
-                href="/about#lide"
+                href="/o-nas/lide"
                 aria-label="Nasi lide"
               >
                 Naši lidé <img src="/images/icon/arrow-right-ft.svg" alt="Šipka" />
@@ -86,7 +86,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="about#lide">
+          <a href="/o-nas/lide">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -96,7 +96,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="about#lide">
+          <a href="/o-nas/lide">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -177,17 +177,17 @@ defmodule Kdo do
               Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
             </p>
             <div class="button-row">
-              <a class="inline-button deti-link" href="/about#about" aria-label="O nas">
+              <a class="inline-button deti-link" href="/o-nas#my" aria-label="O nas">
                 O projektu <img src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
               </a>
-              <a class="inline-button deti-link" href="/about#lide" aria-label="Name">
+              <a class="inline-button deti-link" href="/o-nas/lide" aria-label="Name">
                 Naši lidé <img src="/images/icon/arrow-right-deti.svg" alt="Šipka" />
               </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Nasi lide">
+          <a href="/o-nas/lide" aria-label="Nasi lide">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -197,7 +197,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -278,17 +278,17 @@ defmodule Kdo do
               Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
             </p>
             <div class="button-row">
-              <a class="inline-button plavani-link" href="/plavani/about#about" aria-label="O nas">
+              <a class="inline-button plavani-link" href="/plavani/o-nas" aria-label="O nas">
                 O projektu <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
               </a>
-              <a class="inline-button plavani-link" href="/plavani/about#lide" aria-label="Name">
+              <a class="inline-button plavani-link" href="/plavani/o-nas/lide" aria-label="Name">
                 Naši lidé <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
               </a>
             </div>
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -298,7 +298,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -389,7 +389,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -399,7 +399,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -490,7 +490,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -500,7 +500,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -594,7 +594,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -604,7 +604,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -699,7 +699,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -709,7 +709,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>
@@ -800,7 +800,7 @@ defmodule Kdo do
           </div>
         </div>
         <div class="kdoPersons">
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/marcel.png" alt="Marcel Valouch" />
             <br />
             <h4>
@@ -810,7 +810,7 @@ defmodule Kdo do
               Hlavní manager a zakladatel
             </p>
           </a>
-          <a href="/about#lide" aria-label="Name">
+          <a href="/o-nas/lide" aria-label="Name">
             <img src="/images/ft/omar.png" alt="Omar el Karib" />
             <br />
             <h4>

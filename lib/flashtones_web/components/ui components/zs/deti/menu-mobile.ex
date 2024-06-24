@@ -303,7 +303,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -474,7 +474,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -627,7 +627,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -788,7 +788,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -949,7 +949,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -1110,7 +1110,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
@@ -1271,7 +1271,7 @@ defmodule MenuMobile do
         <a href="/reference">
           <h4>Reference</h4>
         </a>
-        <a href="/about#about">
+        <a href="/o-nas#my">
           <h4>Kdo jsme</h4>
         </a>
         <a href="/kontakty">
