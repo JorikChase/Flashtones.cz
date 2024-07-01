@@ -46,7 +46,7 @@ defmodule FlashtonesWeb.PlavaniLideLive do
     <MenuMobile.menuDetiMobile />
     <MenuPc.menuDetiPc />
     <HeroSmall.detiAbout />
-    <About.detiLide />
+    <About.plavaniLide />
     <Zustanme.deti />
     <Footer.deti />
     """

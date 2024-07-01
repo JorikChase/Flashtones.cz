@@ -1,14 +1,27 @@
 defmodule FlashtonesWeb.DetiIndexLive do
   use FlashtonesWeb, :live_view
-
+  alias ElixirAuthGoogle
+  alias Plug.Conn
   def mount(_params, _session, socket) do
+    conn = %Conn{
+      host: "localhost",
+      scheme: :http,  # Corrected to atom
+      request_path: "/",
+      port: 4000
+    }
+    oauth_google_url = ElixirAuthGoogle.generate_oauth_url(conn)
+
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
+        canonical: "https://zsprodeti.cz",
+        page_title: "ZŠ PRO DĚTI",
+        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy.",
+        oauth_google_url: oauth_google_url
       )
-      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
+    # Assuming Phx.Live.Favicon.set_dynamic/3 is a valid function in your application
+    socket = Phx.Live.Favicon.set_dynamic(socket, "dynamic", "deti")
 
     {:ok, socket}
   end
@@ -62,6 +75,9 @@ defmodule FlashtonesWeb.DetiIndexLive do
       }*/
     </style>
     <Hero.deti />
+    <div>
+      <a href={@oauth_google_url}>Login with Google</a>
+    </div>
     <DetiGrid.staticGrid />
     <!--<Aktuality.aktuality />-->
     <IconRow.iconRowDeti />
