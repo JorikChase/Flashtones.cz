@@ -1056,6 +1056,37 @@ ostatni - [x] Analyza webu
 
 ### celkem 66 hodin
 
+## celkem 58 000
+
+- [x] newsletter design
+- [x] newsletter posilani
+- [x] newsletter posilani
+- [x] kurz radotin pdf + web
+- [x] enviro plakat
+- [x] Rezervacak vezme
+    - [x] Odstranit zrušena
+    - [x] Sloupec i sloupec f sloupec e
+      - [x] Projede i
+          - [x] Odstrani
+- [x] Tabulka
+- [x] Typka zajizdi po loadu nazpet
+- [x] Kontakty form
+    - [x] Kontakty přepínaní
+    - [x] Kontakty telefon
+- [x] hero
+- [x] mobil
+- [x] prepinac
+- [x] stahovani rezervacaku
+- [x] SEO
+- [x] DNS
+- [x] lektori
+- [x] blog
+- [x] cookies
+- [x] Maily odesilani
+- [x] Procisteni databazi
+  - [x] Skoly
+  - [x] info, dotazy, nesmysly
+  - [x] blacklist
 
 # grafika - 25 000
 - [ ] Kresba komiks
@@ -1100,38 +1131,152 @@ ostatni - [x] Analyza webu
 - [ ] sociomapping
 - [ ] portal
 - [ ] Vodoznak
-- [ ] Duplicitni variabilni symbol -> scitani ceny -> variabilni symbol import_rezervacak
+- [ ] Duplicitni variabilni symbol -> scitani ceny -> variabilni symbol
 
+import_rezervacak
 
+function appendValuesFromVypis() {
+  // Open the Google Sheets by their names
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheetZpracovane2 = ss.getSheetByName("zpracovane2");
+  var sheetVypis = ss.getSheetByName("vypis");
+
+  // Get data ranges
+  var dataZpracovane2 = sheetZpracovane2.getDataRange().getValues();
+  var dataVypis = sheetVypis.getDataRange().getValues();
+
+  // Define column positions (zero-indexed)
+  var idColIndex = 0;       // First column
+  var zaplacenoColIndex = 13;  // 14th column (zero-indexed)
+  var vsColIndex = 4;       // 5th column (zero-indexed)
+  var objemColIndex = 1;    // 2nd column (zero-indexed)
+
+  // Create a dictionary from the "vypis" sheet
+  var vsToObjem = {};
+  for (var i = 1; i < dataVypis.length; i++) { // Assuming first row is headers
+    var vs = dataVypis[i][vsColIndex];
+    var objem = dataVypis[i][objemColIndex];
+    vsToObjem[vs] = objem;
+  }
+
+  // Process the "zpracovane2" sheet
+  for (var j = 1; j < dataZpracovane2.length; j++) { // Assuming first row is headers
+    var id = dataZpracovane2[j][idColIndex];
+    var found = false;
+
+    // Check if the id matches any vs directly
+    if (vsToObjem.hasOwnProperty(id)) {
+      sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue(vsToObjem[id]); // Append to "zaplaceno" column
+      found = true;
+    } else {
+      // Try decrementing vs up to 6 times
+      var tryCount = 0;
+      var vs = id;
+      while (tryCount < 6) {
+        vs--;
+        if (vsToObjem.hasOwnProperty(vs)) {
+          sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue(vsToObjem[vs]); // Append to "zaplaceno" column
+          found = true;
+          break;
+        }
+        tryCount++;
+      }
+    }
+
+    // If no match is found after trying, set the cell value to "undefined"
+    if (!found) {
+      sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue('undefined');
+    }
+  }
+}
 
 =IMPORTRANGE(“https://docs.google.com/spreadsheets/d/15cDrFiZZ3aPaLlToYjZPY58tqq0841ZF/edit?gid=216711004#gid=216711004","Pohyby_na_uctu-2402621175_20231!A1:I1000”)
 
-- [x] newsletter design
-- [x] newsletter posilani
-- [x] newsletter posilani
-- [x] kurz radotin pdf + web
-- [x] enviro plakat
-- [x] Rezervacak vezme
-    - [x] Odstranit zrušena
-    - [x] Sloupec i sloupec f sloupec e
-      - [x] Projede i
-          - [x] Odstrani
-- [x] Tabulka
-- [x] Typka zajizdi po loadu nazpet
-- [x] Kontakty form
-    - [x] Kontakty přepínaní
-    - [x] Kontakty telefon
-- [x] hero
-- [x] mobil
-- [x] prepinac
-- [x] stahovani rezervacaku
-- [x] SEO
-- [x] DNS
-- [x] lektori
-- [x] blog
-- [x] cookies
-- [x] Maily odesilani
-- [x] Procisteni databazi
-  - [x] Skoly
-  - [x] info, dotazy, nesmysly
-  - [x] blacklist
+function appendValuesFromVypis() {
+  // Open the Google Sheets by their names
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheetZpracovane2 = ss.getSheetByName("zpracovane2");
+  var sheetVypis = ss.getSheetByName("vypis");
+
+  // Get data ranges
+  var dataZpracovane2 = sheetZpracovane2.getDataRange().getValues();
+  var dataVypis = sheetVypis.getDataRange().getValues();
+  //Logger.log(dataZpracovane2);
+  //Logger.log(dataVypis);
+
+  var idColIndex = 1;
+  var zaplacenoColIndex = 3;
+  var vsColIndex = 4;
+  var objemColIndex = 1;
+  var secondColumnIndex = 2;
+
+  // Create a dictionary from the "vypis" sheet
+  var vsToObjem = {};
+  for (var i = 1; i < dataVypis.length; i++) { // Assuming first row is headers
+    var vs = dataVypis[i][vsColIndex]/1;
+    var objem = dataVypis[i][objemColIndex]/1;
+    vsToObjem[vs] = objem;
+  }
+    Logger.log(vsToObjem[]);
+  for (var j = 1; j < dataZpracovane2.length; j++) { // Assuming first row is headers
+    var id = dataZpracovane2[j][idColIndex];
+  //Logger.log(id);
+    var found = false;
+  //Logger.log(found);
+    var matchedVs = id;
+  //Logger.log(matchedVs);
+
+    // Check if the id matches any vs directly
+    if (vsToObjem.hasOwnProperty(id)) {
+      //sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue(vsToObjem[id]); // Append to "zaplaceno" column
+      //sheetZpracovane2.getRange(j + 1, secondColumnIndex + 1).setValue(id); // Write vs to the second column
+      found = true;
+      //Logger.log(found);
+    } else {
+      var tryCount = 0;
+      //Logger.log(tryCount);
+      while (tryCount < 6) {
+        matchedVs--;
+        if (vsToObjem.hasOwnProperty(matchedVs)) {
+          sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue(vsToObjem[matchedVs]); // Append to "zaplaceno" column
+          sheetZpracovane2.getRange(j + 1, secondColumnIndex + 1).setValue(matchedVs); // Write vs to the second column
+          found = true;
+          break;
+        }
+        tryCount++;
+      }
+    }
+
+    // If no match is found after trying, leave the cells empty
+    if (!found) {
+      sheetZpracovane2.getRange(j + 1, zaplacenoColIndex + 1).setValue('');
+      sheetZpracovane2.getRange(j + 1, secondColumnIndex + 1).setValue('');
+    }
+  }
+}
+
+### flashtones
+////odkazy flashtones web + fake 404
+//slouceni produktu a eshop - platebni brana + graficka konzistence
+//implementace analytik
+### zs pro deti
+  //konkretizace nazvu - navigace - titulky podle seo
+  /nove landing pages lokalit
+  /vedeni blogu podle seo - omar
+  # index 
+    //predstaveni jednotlivych oblasti - adrian
+    /duraz do plynulejsiho prechodu strankou
+    //formular at least 2 inputs
+  # landing
+    /lehci pristupnost k cene
+    //mapa hotelu - mapa ostrov socci
+  /kontaktni formular autofill
+### SEO
+  ////kanonizace podwebu
+  ////robots link sitemapy
+  //cookie lista - google tag manager
+  ///zapojeni PPC do analytik
+  //reference na skoly
+  ///refence na nas
+### mailing
+

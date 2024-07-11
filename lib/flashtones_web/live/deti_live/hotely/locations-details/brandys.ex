@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.LokalityBrandysLive do
    socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz" , page_title: "ZŠ PRO DĚTI",
+        canonical: "https://zsprodeti.cz/lokality/brandys" , page_title: "ZŠ PRO DĚTI",
         description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
