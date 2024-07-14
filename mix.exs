@@ -53,8 +53,10 @@ defmodule Flashtones.MixProject do
       {:gen_smtp, "~> 1.1"},
       {:hackney, "~> 1.20"},
       {:phoenix_live_favicon, "~> 0.2.0"},
-      {:httpoison, "~> 2.2"},
-      {:floki, "~> 0.36.1"}
+      {:httpoison, "~> 2.0.0"},
+      {:elixir_auth_google, "~> 1.6"},
+      {:floki, "~> 0.36.1"},
+      {:nimble_csv, "~> 1.1"}
     ]
   end
 

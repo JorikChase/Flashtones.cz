@@ -18,9 +18,10 @@ defmodule Flashtones.Application do
       # Start Finch
       {Finch, name: Flashtones.Finch},
       # Start the Endpoint (http/https)
-      FlashtonesWeb.Endpoint
+      FlashtonesWeb.Endpoint,
       # Start a worker by calling: Flashtones.Worker.start_link(arg)
       # {Flashtones.Worker, arg}
+      FlashtonesWeb.DailyEmailSender
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

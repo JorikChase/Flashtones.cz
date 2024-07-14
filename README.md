@@ -1264,19 +1264,33 @@ function appendValuesFromVypis() {
   /nove landing pages lokalit
   /vedeni blogu podle seo - omar
   # index 
-    //predstaveni jednotlivych oblasti - adrian
+    ///predstaveni jednotlivych oblasti - adrian
     /duraz do plynulejsiho prechodu strankou
     //formular at least 2 inputs
   # landing
     /lehci pristupnost k cene
     //mapa hotelu - mapa ostrov socci
   /kontaktni formular autofill
+  /oznamovaci maily
 ### SEO
-  ////kanonizace podwebu
+  # ////kanonizace podwebu
   ////robots link sitemapy
   //cookie lista - google tag manager
   ///zapojeni PPC do analytik
   //reference na skoly
   ///refence na nas
 ### mailing
+  zafixovat url strukturu
+    zbytek 301
 
+//////////////////////////////////////////////////////
+notifikace o platbe
+automaticke rozesilani informaci o rezervovanem kurzu
+eshop
+  sklad
+  platebni brana
+  prehled objednavek
+  export
+  ////////////////
+  newsletter do databaze
+  denni rozesilani test mailu

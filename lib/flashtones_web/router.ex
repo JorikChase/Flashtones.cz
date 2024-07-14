@@ -21,6 +21,14 @@ defmodule FlashtonesWeb.Router do
     end
   end
 
+  #def fetch_conn(conn) do
+  #  %{
+  #    scheme: conn.scheme,
+  #    host: conn.host,
+  #    port: conn.port
+  #  }
+  #end
+
   pipeline :api do
     plug :accepts, ["json"]
   end
@@ -184,7 +192,9 @@ defmodule FlashtonesWeb.Router do
     live "/blog/v-tymu", VTymuBlogLive
 
     live "/404", DetiIndexLive
+    #get "/auth/google/callback", GoogleAuthController, :index
     get "/*path", FourOhFour, :index
+    post "/subscribe", NewsletterController, :subscribe
   end
 
   # Other scopes may use custom stacks.

@@ -1,5 +1,8 @@
 <main class="app-bg">
   <div class="max-w-full">
-    <.flash_group flash={@flash} /> <%= @inner_content %>
+  <div class="custom-flash-container">
+  <.flash_group flash={@flash} />
+</div>
+    <%= @inner_content %>
   </div>
 </main>

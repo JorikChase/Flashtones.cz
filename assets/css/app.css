@@ -161,6 +161,39 @@ h5 {
 #client-error{
   z-index: -10;
 }
+/*defs*/
+.custom-flash-container {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  z-index: 1000;
+  width: 80%;
+  max-width: 600px;
+}
+
+.custom-flash-container .phx-flash-group {
+  margin-bottom: 20px;
+}
+
+.custom-flash-container .phx-flash {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.custom-flash-container .phx-flash-info {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #2196f3;
+}
+
+.custom-flash-container .phx-flash-error {
+  background-color: #ffebee;
+  color: #b71c1c;
+  border: 1px solid #f44336;
+}
 /*base*/
 html,
 body {
