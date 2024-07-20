@@ -1,7 +1,7 @@
 defmodule Flashtones.Newsletter do
   alias NimbleCSV.RFC4180, as: CSV
 
-  @csv_path "priv/static/subscriptions.csv"
+  @csv_path "priv/static/images/csv/subscriptions.csv"
 
   def save_subscription(params) do
     email = params["email"]

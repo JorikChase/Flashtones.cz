@@ -185,11 +185,11 @@ defmodule Instagram do
         width: 100%;
         aspect-ratio: 1/1;
         background-position: top center;
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
       }
       .instagram-img:hover{
-        transform: scale(1.05);
+        background-size: 105%;
       }
       .instagram-odsazeni{
         padding: 0 30px 0 30px;

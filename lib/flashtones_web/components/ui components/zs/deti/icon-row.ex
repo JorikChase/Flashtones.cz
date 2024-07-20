@@ -110,6 +110,7 @@ defmodule IconRow do
           justify-content: space-between;
           align-items: flex-start;
           padding-top: 30px;
+          gap: 15px;
         }
         .icon-row-item{
           display: flex;
@@ -117,6 +118,12 @@ defmodule IconRow do
           flex-direction: column;
           align-items: center;
           gap: 10px;
+          padding: 15px;
+          background: rgba(255, 255, 255, 0.05);
+          border: rgba(255, 255, 255, 0.05) solid 2px;
+        }
+        .icon-row-item:hover{
+          background: rgba(255, 255, 255, 0.3);
         }
         .icon-row-item > p{
           align-self: stretch;
@@ -125,7 +132,7 @@ defmodule IconRow do
           font-family: Barlow;
           font-size: 18px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: bold;
           line-height: 35px; /* 194.444% */
         }
         @media (orientation: portrait){
@@ -154,11 +161,11 @@ defmodule IconRow do
           </div>
           <div class="icon-row-item">
             <img alt="Zakladni info logo" src="/images/icon/plavani.svg">
-            <p>Zvládnutí základních plaveckých způsobů znak, prsa, kraul, motýlek</p>
+            <p>Znak, prsa, kraul, motýlek</p>
           </div>
           <div class="icon-row-item">
             <img alt="Zakladni info logo" src="/images/icon/kruh.svg">
-            <p>Základy první pomoci a vodní záchrany</p>
+            <p>První pomoc a vodní záchrana</p>
           </div>
           <div class="icon-row-item">
             <img alt="Zakladni info logo" src="/images/icon/skoky.svg">
@@ -170,7 +177,7 @@ defmodule IconRow do
           </div>
           <div class="icon-row-item">
             <img alt="Zakladni info logo" src="/images/icon/diplom.svg">
-            <p>Kurz je zakončen předáním mokrého vysvědčení pro každého účastníka</p>
+            <p>Předání mokrého vysvědčení</p>
           </div>
         </div>
       </div>
