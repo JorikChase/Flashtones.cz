@@ -1,7 +1,8 @@
 defmodule FlashtonesWeb.ZsKontaktyLive do
   use FlashtonesWeb, :live_view
-
   import Swoosh.Email
+  alias NimbleCSV.RFC4180, as: CSV
+  @csv_path "priv/static/images/csv/email_backups.csv"
 
   def mount(_params, _session, socket) do
    socket =
@@ -76,7 +77,7 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
           "client_message" => client_message
         },
         socket) do
-    new()
+    email = new()
     |> from("kontaktni.formular@info.cz")
     |> to("info@zsprodeti.cz")
     |> subject("Formulář #{client_name}")
@@ -94,8 +95,63 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
         #{client_email}
 
         ")
-    |> Flashtones.Mailer.deliver()
+
+    # Attempt to send the email
+    email_sent = case Flashtones.Mailer.deliver(email) do
+      {:ok, _} -> "success"
+      {:error, reason} ->
+        IO.puts("Email sending failed: #{inspect(reason)}")
+        "failure"
+    end
+
+    # Backup email data to CSV regardless of email sending status
+    email_data = %{
+      timestamp: NaiveDateTime.utc_now() |> NaiveDateTime.to_string(),
+      client_name: client_name,
+      client_email: client_email,
+      client_phone: client_phone,
+      client_message: client_message,
+      email_sent: email_sent
+    }
+
+    case backup_email_to_csv(email_data) do
+      :ok -> IO.puts("Email data successfully backed up to CSV")
+      {:error, reason} -> IO.puts("Failed to backup email data: #{inspect(reason)}")
+    end
 
     {:noreply, socket}
+  end
+
+  defp backup_email_to_csv(email_data) do
+    csv_content = [
+      email_data.timestamp,
+      email_data.client_name,
+      email_data.client_email,
+      email_data.client_phone,
+      email_data.client_message,
+      email_data.email_sent
+    ]
+
+    file_exists = File.exists?(@csv_path)
+
+    try do
+      mode = if file_exists, do: [:append, :utf8], else: [:write, :utf8]
+
+      File.open!(@csv_path, mode, fn file ->
+        IO.write(file, CSV.dump_to_iodata([csv_content]))
+      end)
+
+      unless file_exists do
+        File.open!(@csv_path, [:append, :utf8], fn file ->
+          IO.write(file, CSV.dump_to_iodata([["Timestamp", "Client Name", "Client Email", "Client Phone", "Client Message", "Email Sent"]]))
+        end)
+      end
+
+      :ok
+    rescue
+      e ->
+        IO.puts("Error writing to CSV: #{inspect(e)}")
+        {:error, e}
+    end
   end
 end
