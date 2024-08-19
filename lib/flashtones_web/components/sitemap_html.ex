@@ -51,7 +51,6 @@ defmodule FlashtonesWeb.SitemapHTML do
      ~p"/lyzovani/courses",
      ~p"/plavani",
      ~p"/plavani/verejnost",
-     # ~p"/plavani/index",
      ~p"/plavani/skolni-pobytovy-plavecky-kurz",
      ~p"/plavani/predskolni-plavecky-kurz",
      ~p"/plavani/primestsky-skolni-plavecky-kurz",
@@ -148,8 +147,8 @@ defmodule FlashtonesWeb.SitemapHTML do
      ~p"/blog/shrnuti-23",
      ~p"/blog/socci",
      ~p"/blog/v-tymu",
+     ~p"/blog/plavecke-dovednosti",
      ~p"/404",
-      # general pages
     ]
   end
 

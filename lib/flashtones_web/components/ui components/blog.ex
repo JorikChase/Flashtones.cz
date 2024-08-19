@@ -240,4 +240,62 @@ defmodule Blog do
     </div>
     """
   end
+  def plaveckeDovednosti(assigns) do
+    ~H"""
+    <div class="max-w-6xl mx-auto p-6 my-10 pb-10 bg-white rounded-lg shadow-lg space-y-6" style="padding-bottom: 90px;">
+        <h2 class="text-2xl font-bold left text-gray-800" style="margin-top: 15px;">RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h2>
+
+        <p class="text-gray-700 leading-relaxed">
+            Parné léto je v plném proudu a to je ideální čas, kdy vyrazit s dětmi k vodě. Ať už
+            plánujete dovolenou u moře, dny strávené u jezera, nebo odpoledne na městském
+            koupališti, jedno je jisté: bezpečnost vašich dětí ve vodě by měla být na prvním
+            místě. Jak ale na to? Je ještě čas připravit děti na letní vodní radovánky? Cestou by
+            mohly být příměstské tábory s plaváním. Mají ale děti šanci se za 5 dnů něco naučit?
+        </p>
+
+
+        <p class="text-gray-700 leading-relaxed">
+            Nedávný výzkum, který provedla Kateřina Kašková z Univerzity Jana Evangelisty
+            Purkyně, přináší k tomuto tématu cenné poznatky.
+        </p>
+        <div class="flex justify-center">
+            <img src="https://zsprodeti.cz/images/plavani/plavani-school.jpeg" alt="Kids swimming" class="rounded-lg shadow-md  max-w-2xl bg-cover">
+        </div>
+
+        <h4 class="text-xl font-semibold text-gray-800">Studie o efektivitě plaveckých kurzů</h4>
+
+        <p class="text-gray-700 leading-relaxed">
+            Studie zkoumala různé metody plaveckého výcviku u dětí mladšího školního věku.
+            Jednalo se o vzorek 148 dětí mladšího školního věku z tří různých krajů České
+            republiky. Tyto děti byly rozděleny do tří skupin podle typu plaveckého kurzu, který
+            absolvovaly:
+        </p>
+
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>První skupina docházela nebo dojížděla na 45 minut dlouhé lekce jednou týdně po dobu šesti měsíců</li>
+            <li>Další skupina plavala v 90-ti minutových lekcích jednou týdně po tři měsíce</li>
+            <li>Poslední skupina se zúčastnila intenzivního kurzu s 90-ti minutovými bloky dvakrát denně během pětidenního období</li>
+        </ul>
+
+        <h4 class="text-xl font-semibold text-gray-800">Výsledky studie</h4>
+
+        <p class="text-gray-700 leading-relaxed">
+            Studie přišla s jasným závěrem: plavecké kurzy, konané v blokové formě, jsou
+            efektivnější než běžné lekce jednou za týden. Děti, které se zúčastnily pětidenního
+            intenzivního kurzu s denní frekvencí dvou 90-ti minutových lekcí, ukázaly výrazně
+            lepší osvojení plaveckých dovedností ve srovnání s dětmi, které navštěvovaly
+            pravidelné týdenní lekce.
+        </p>
+
+        <h4 class="text-xl font-semibold text-gray-800">Co to znamená pro vaše plánování letních aktivit?</h4>
+
+        <p class="text-gray-700 leading-relaxed">
+            Příměstské tábory s plaváním nabízí praktickou možnost, jak vyplnit dětem volný čas
+            smysluplnou aktivitou a dokážou změnit letní dovolenou z obyčejného koupání na
+            vzrušující dobrodružství, při kterém se budou vaše ratolesti cítit jako ryby ve vodě.
+        </p>
+    </div>
+
+    """
+  end
 end

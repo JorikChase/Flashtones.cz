@@ -190,6 +190,7 @@ defmodule FlashtonesWeb.Router do
     live "/blog/shrnuti-23", BlogShrnutiLive
     live "/blog/socci", BlogSocciLive
     live "/blog/v-tymu", VTymuBlogLive
+    live "/blog/plavecke-dovednosti", PlaveckeDovednostiLive
 
     live "/404", DetiIndexLive
     #get "/auth/google/callback", GoogleAuthController, :index

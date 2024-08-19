@@ -434,6 +434,12 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
         </span>
       </a>
+      <a href="/blog/plavecke-dovednosti" class="kurz-item">
+        <h4>RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h4>
+        <span class="inline-button align-right deti-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
     </div>
     """
   end
