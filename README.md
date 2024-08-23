@@ -1258,27 +1258,20 @@ function appendValuesFromVypis() {
 ### flashtones
 ////odkazy flashtones web + fake 404
 //slouceni produktu a eshop - platebni brana + graficka konzistence
-//implementace analytik
+
 ### zs pro deti
   //konkretizace nazvu - navigace - titulky podle seo
   /nove landing pages lokalit
-  /vedeni blogu podle seo - omar
-  # index 
+  # index
     ///predstaveni jednotlivych oblasti - adrian
     /duraz do plynulejsiho prechodu strankou
     //formular at least 2 inputs
   # landing
     /lehci pristupnost k cene
     //mapa hotelu - mapa ostrov socci
-  /kontaktni formular autofill
   /oznamovaci maily
 ### SEO
-  # ////kanonizace podwebu
-  ////robots link sitemapy
-  //cookie lista - google tag manager
   ///zapojeni PPC do analytik
-  //reference na skoly
-  ///refence na nas
 ### mailing
   zafixovat url strukturu
     zbytek 301
@@ -1294,3 +1287,79 @@ eshop
   ////////////////
   newsletter do databaze
   denni rozesilani test mailu
+  funkcni zakladni tabulka
+  -- napojuji fio mam uz vetsinu hotovou
+  -- v dokumentu od konektime sedive
+  -- > databaze skolky
+  -- > odhlaseni rezervacak
+  /////////////////////////////////////////
+//implementace analytik
+/kontaktni formular autofill
+# ////kanonizace podwebu
+  ////robots link sitemapy
+//cookie lista - google tag manager
+//reference na skoly
+  ///refence na nas
+  /vedeni blogu podle seo - omar
+osobni poznamky
+pokud nova data do poznamek "a " + "b"
+preskrtnuty text misto cerne
+
+odendat zpracovane sloupce r s u p z ab
+
+nahrat blog omar
+
+# databaze kontaktu, kontaktni formular
+newsletter
+materska skola
+blacklist
+////////////////////\\\\\\\\\\\\\\\\\\\\
+X fio internet banking
+zmeny na strankach
+nove komponenty do rozhrani
+o nas
+jednotlive kurzy landing page
+X automatizace vypisu
+X kontaktni formular backup
+X kontaktni formular mailing
+_______________________________
+responsive design safari mobile
+nefunguje tlactiko cookies na iphone
+
+server
+------
+ - testing environment
+ - backups
+
+ui
+--
+ - blog
+ - jednotlive oblasti
+ - vymenit poradi tlacitek na mobilu
+ - marika pripominky
+ - o nas
+ - finish konektime
+
+seo
+---
+ - sitemap update + s.console
+
+ostatni
+-------
+ - rozesilani newsletter
+ - oriznout postavicky
+ - komiks kapela
+  - jeden cely obrazek test
+ - vyplnit karticku procesu
+
+socci
+-----
+ - oriznout postavicky
+ - predstaveni postav
+
+web pro instruktory
+--------------------
+ - zamknout pres login
+ - nepridat na google
+////////////////////////////////////////////////////////////////////
+- blogisek rodice, ......
