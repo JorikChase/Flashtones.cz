@@ -476,56 +476,7 @@ defmodule Navlinks do
         <a target="_blank" href="https://www.google.com/search?-b-d&q=Z%C5%A0%20Pro%20d%C4%9Bti&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=6215171071575282022&lqi=Cg1axaAgUHJvIGTEm3RpWiYKDXrFoSBwcm8gZMSbdGkiDXrFoSBwcm8gZMSbdGkqBggCEAEQApIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u&ved=2ahUKEwiC54PluPbvAhUM-6QKHRxTDogQvS4wBHoECAcQHg&rlst=f#rlfi=hd:;si:6215171071575282022,l,Cg1axaAgUHJvIGTEm3RpWiYKDXrFoSBwcm8gZMSbdGkiDXrFoSBwcm8gZMSbdGkqBggCEAEQApIBF2VkdWNhdGlvbmFsX2luc3RpdHV0aW9u;mv:[[50.080445399999995,14.4401111],[50.0708469,14.405753599999997]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2" style="background-image: url(/images/icon/g.svg)"></a>
       </div>
     </div>
-    <div class="footerLinks">
-        <div class="footerLinksColumn">
-        <div class="footerLinkItem">
-          <a class="footerLink plavani-hover-link plavani-link" href="/plavani">
-            <h3>Plavání</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin"> Největší plavecká škola v ČR</span>
-        </div>
-          <div class="footerLinkItem">
-          <a class="footerLink vylety-hover-link vylety-link" href="/vylety">
-            <h3>Výlety</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-vylety.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin">Jednodenní a vícedenní výlety pro školy a veřejnost</span>
-        </div>
-        </div>
-        <div class="footerLinksColumn">
-          <div class="footerLinkItem">
-          <a class="footerLink lyzovani-hover-link lyzovani-link" href="/lyzovani">
-            <h3>Lyžování</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin"> Lyžařská škola nejen o obloucích</span>
-          </div>
-          <div class="footerLinkItem">
-          <a class="footerLink doma-hover-link doma-link" href="/doma">
-            <h3>Domácí výuka</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-doma.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin">Online vzdělávání pomocí kvízů a her, doučování pomocí vlastního videostreamu</span>
-        </div>
-        </div>
-        <div class="footerLinksColumn">
-          <div class="footerLinkItem">
-          <a class="footerLink enviro-hover-link enviro-link" href="/enviro">
-            <h3>Enviro</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-enviro.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin"> Školy v přírodě a příměstské tábory s environmentální a tmelící tématikou</span>
-          </div>
-          <div class="footerLinkItem">
-          <a class="footerLink academy-hover-link academy-link" href="/academy">
-            <h3>Academy</h3>
-            <img class="navLink-arrow" src="/images/icon/arrow-right-academy.svg" alt="Šipka" />
-          </a>
-          <span class="navLink-thin"> Školící centrum</span>
-      </div>
-      </div>
-      </div>
+    <Navlinks.general />
       <span class="noBreak copyright">
       Copyright © 2023
       <img src="/images/ft/Flashtones.svg" alt="Šipka" style="border-radius: 0;" />
