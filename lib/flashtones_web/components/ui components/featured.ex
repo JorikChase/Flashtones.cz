@@ -14,16 +14,20 @@ defmodule Featured do
           scroll-snap-align: start;
           display: flex;
           color: white;
-          background-size: 110% 110%;
+          background-size: cover;
           background-position: center;
           position: relative;
           overflow: hidden;
-          animation: backgroundMove 20s ease-in-out infinite alternate;
+          animation: backgroundMove 30s ease-in-out infinite alternate;
+          border-radius: 0;
       }
 
       @keyframes backgroundMove {
           0% { background-position: 0% 0%; }
           100% { background-position: 100% 100%; }
+      }
+      .slide h4{
+      color: black;
       }
 
       .slide::before {
@@ -43,9 +47,10 @@ defmodule Featured do
 
       .slide-content {
           position: relative;
+          display: flex;
           z-index: 1;
           padding: 40px;
-          max-width: 800px;
+          max-width: 100vw;
           width: 100%;
           transition: transform 0.3s ease;
       }
@@ -54,62 +59,29 @@ defmodule Featured do
           transform: scale(1.02);
       }
 
-      h2 {
-          font-size: 3.5rem;
-          margin-bottom: 20px;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      }
-
-      p {
-          font-size: 1.5rem;
-          margin-bottom: 30px;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-          max-width: 600px;
-      }
-
-      .cta-button {
-          padding: 12px 24px;
-          font-size: 1.2rem;
-          background-color: rgba(255, 255, 255, 0.2);
-          border: 2px solid white;
-          color: white;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          text-decoration: none;
-          display: inline-block;
-      }
-
-      .cta-button:hover {
-          background-color: white;
-          color: black;
-      }
-
       /* Composition variations */
       .slide:nth-child(1) .slide-content {
-          align-self: center;
+      align-self: center;
+      justify-content: flex-start;
       }
 
       .slide:nth-child(2) .slide-content {
-          align-self: flex-end;
-          text-align: right;
+      align-self: center;
+      justify-content: center;
       }
 
       .slide:nth-child(3) .slide-content {
-          align-self: center;
-          text-align: center;
+      align-self: center;
+      justify-content: flex-end;
       }
 
       @media (max-width: 768px) {
-          h2 {
-              font-size: 2.5rem;
+          .slide{
+          animation: backgroundMove 30s ease-in-out infinite alternate;
           }
-
-          p {
-              font-size: 1.2rem;
-          }
-
-          .cta-button {
-              font-size: 1rem;
+          @keyframes backgroundMove {
+              0% { background-position: 25% 25%; }
+              100% { background-position: 75% 75%; }
           }
 
           .slide-content {
@@ -136,29 +108,44 @@ defmodule Featured do
     <div class="slider-container">
       <section class="slide" style="background-image: url('/images/plavani/plavani-school.jpeg');">
         <div class="slide-content">
-          <h2>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h2>
-          <p>
-            Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí.
-          </p>
-          <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="cta-button">Learn More</a>
+          <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+            <img alt="Logo kurzu" src="/images/icon/skola.svg" />
+            <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
+            <p>
+              Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak polovinu povinné plavecké výuky
+            </p>
+            <span class="inline-button align-right plavani-link">
+              Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+            </span>
+          </a>
         </div>
       </section>
       <section class="slide" style="background-image: url('/images/enviro/svp.jpeg');">
         <div class="slide-content">
-          <h2>Škola v přírodě "Enviro"</h2>
-          <p>
-            ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího školního věku.
-          </p>
-          <a href="/enviro/svp" class="cta-button">Discover Camps</a>
+          <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
+            <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
+            <h4>Příměstské tábory "Enviro"</h4>
+            <p>
+              Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.
+            </p>
+            <span class="inline-button align-right enviro-link">
+              Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
+            </span>
+          </a>
         </div>
       </section>
       <section class="slide" style="background-image: url('/images/lyzovani/skolni.jpeg');">
         <div class="slide-content">
-          <h2>ŠKOLNÍ LYŽAŘSKÝ KURZ</h2>
-          <p>
-            ZŠ Lyžování je jedinečný koncept spojující lyžařský kurz, vzdělávací a zábavní program pro děti mladšího a staršího školního věku.
-          </p>
-          <a href="/lyzovani/school" class="cta-button">Book Now</a>
+          <a href="/lyzovani/school" class="kurz-item">
+            <img alt="Logo kurzu" src="/images/icon/kurz/skolni-lyzarsky-kurz.svg" />
+            <h4>Školní lyžařský kurz</h4>
+            <p>
+              Žáci absolvují během pětidenního kurzu základy klasického, sjezdové lyžování, snowboardingu a netradičních zimních sportů.
+            </p>
+            <span class="inline-button align-right lyzovani-link">
+              Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-lyzovani.svg" />
+            </span>
+          </a>
         </div>
       </section>
     </div>
