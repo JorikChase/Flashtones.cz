@@ -410,6 +410,12 @@ defmodule KurzNav do
       }
     </style>
     <div class="kurz-nav odsazeni">
+      <a href="/blog/ti-co-uci" class="kurz-item">
+        <h4>Plavání a ti, co ho učí</h4>
+        <span class="inline-button align-right deti-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
       <a href="/blog/sablony" class="kurz-item">
         <h4>NEVÍTE SI RADY JAK Z ŠABLON UHRADIT NAŠE ŠKOLNÍ KURZY?</h4>
         <span class="inline-button align-right deti-link">
@@ -438,6 +444,48 @@ defmodule KurzNav do
         <h4>RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h4>
         <span class="inline-button align-right deti-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
+    </div>
+    """
+  end
+
+  def blogAktuality(assigns) do
+    ~H"""
+    <style>
+      @media (orientation: landscape) {
+      #blog-akutality{
+      justify-content: space-between;
+      gap: 0;
+      }
+      .instagram .kurz-item{
+        height: 270px;
+        width: 30%;
+        justify-content: space-between;
+        padding-bottom: 15px;
+      }
+      }
+        .kurz-item{
+          height: auto;
+        }
+    </style>
+    <div class="kurz-nav" id="blog-akutality">
+      <a href="/blog/ti-co-uci" class="kurz-item">
+        <h4>Plavání a ti, co ho učí</h4>
+        <span class="inline-button align-right deti-link">
+          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
+      <a href="/blog/v-tymu" class="kurz-item">
+        <h4>INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h4>
+        <span class="inline-button align-right deti-link">
+          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
+        </span>
+      </a>
+      <a href="/blog/plavecke-dovednosti" class="kurz-item">
+        <h4>RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h4>
+        <span class="inline-button align-right deti-link">
+          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
         </span>
       </a>
     </div>

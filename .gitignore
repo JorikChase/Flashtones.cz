@@ -52,3 +52,6 @@ README.md
 config/config.exs
 lib/flashtones_web/endpoint.ex
 lib/flashtones_web/components/head.ex
+priv/static/subscriptions.csv
+priv/static/subscriptions.csv
+priv/static/subscriptions.csv

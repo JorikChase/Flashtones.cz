@@ -1328,25 +1328,29 @@ nefunguje tlactiko cookies na iphone
 
 server
 ------
- - testing environment
+ /- testing environment - desk
  - backups
 
 ui
 --
- - blog
- - jednotlive oblasti
- - vymenit poradi tlacitek na mobilu
- - marika pripominky
+ //- blog
+ //- jednotlive oblasti
+ //- vymenit poradi tlacitek na mobilu
+ //- marika pripominky - kontrola detailu kurzu
  - o nas
  - finish konektime
+ - meta api
+ - recenze z tohoto léta za příměšťáky
 
 seo
 ---
  - sitemap update + s.console
+ - lokality ktery mam poslany
+  - do lokalit pridat odkazy na kurzy je to v lokalito pro deti
 
 ostatni
 -------
- - rozesilani newsletter
+// - rozesilani newsletter
  - oriznout postavicky
  - komiks kapela
   - jeden cely obrazek test
@@ -1363,3 +1367,8 @@ web pro instruktory
  - nepridat na google
 ////////////////////////////////////////////////////////////////////
 - blogisek rodice, ......
+
+//- nahrat footer
+//- nahrat vymenena tlacitka
+
+- o nas

@@ -603,7 +603,7 @@ defmodule Hero do
     </style>
     <div class="hero">
       <div class="hero-content" id="plavani-switch">
-        <h1 id="hero-heading">Největší plavecká škola <br /> v ČR</h1>
+        <h1 id="hero-heading">Plavecké kurzy <br> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani" onClick="clicker();">
           <a href="/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
@@ -677,7 +677,7 @@ defmodule Hero do
     </style>
     <div class="hero">
       <div class="hero-content" id="plavani-switch">
-        <h1 id="hero-heading">Největší plavecká škola <br /> v ČR</h1>
+        <h1 id="hero-heading">Plavecké kurzy <br> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani hero-button-wrap">
           <a class="hero-button" href="/plavani#course-marker" id="skolyA">Pro školy</a>

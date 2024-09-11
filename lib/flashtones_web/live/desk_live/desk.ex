@@ -69,7 +69,7 @@ defmodule FlashtonesWeb.DeskLive do
     <Featured.base />
     <Instagram.deti />
     <Kdo.zs />
-    <Rekli.rekliDeti />
+    <Rekli.rekliPlavaniVerejnost />
     <Zustanme.deti />
     <Footer.deti />
     """

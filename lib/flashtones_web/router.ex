@@ -21,13 +21,13 @@ defmodule FlashtonesWeb.Router do
     end
   end
 
-  #def fetch_conn(conn) do
+  # def fetch_conn(conn) do
   #  %{
   #    scheme: conn.scheme,
   #    host: conn.host,
   #    port: conn.port
   #  }
-  #end
+  # end
 
   pipeline :api do
     plug :accepts, ["json"]
@@ -186,12 +186,13 @@ defmodule FlashtonesWeb.Router do
     live "/ft/blog", BlogFtLive
 
     live "/blog", BlogLive
+    live "/blog/ti-co-uci", BlogTiCoUciLive
     live "/blog/sablony", BlogSablonyLive
     live "/blog/shrnuti-23", BlogShrnutiLive
     live "/blog/socci", BlogSocciLive
     live "/blog/v-tymu", VTymuBlogLive
     live "/blog/plavecke-dovednosti", PlaveckeDovednostiLive
-      ##///////////////////////////////
+    ## ///////////////////////////////
 
     live "/404", DetiIndexLive
     #get "/auth/google/callback", GoogleAuthController, :index

@@ -303,6 +303,7 @@ defmodule Instagram do
           <small class=" instagram-small">aktualita</small>
         </a>
       </div>
+      <KurzNav.blogAktuality />
       <div class="aktuality-links-mobile">
         <a href="https://instagram.com/zsprodeti" class="aktuality-link noBreak">
           více z aktualit
