@@ -335,26 +335,37 @@ defmodule DetailCta do
   def plavaniSaturday(assigns) do
     ~H"""
     <style>
-    .cta-button {
-      background: #486EFF;
-      border: 4px solid #486EFF;
-    }
-    .detail-cta .cta-button:hover {
-      background: var(--plavani-light);
-    }
+      .cta-button {
+        background: #486EFF;
+        border: 4px solid #486EFF;
+      }
+      .detail-cta .cta-button:hover {
+        background: var(--plavani-light);
+      }
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
+      <span></span>
+      <span class="text-gray-900">
+        Cena:<bold>4 800 Kč</bold>
+      </span>
       <a
         class="cta-button"
         onClick="ctaClick"
         href="https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new"
       >
-        termíny a lokality<img alt="sipka" src="/images/icon/arrow-right-white.svg"/>
+        Objednat 12 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
       <span class="text-gray-900">
-        Cena:<bold>4 800 Kč</bold>
+        Cena:<bold>4 000 Kč</bold>
       </span>
+      <a
+        class="cta-button cta-button2"
+        onClick="ctaClick"
+        href="https://rezervace.zsprodeti.cz/kurz-19/termin/150/rezervace/new"
+      >
+        Objednat 10 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
+      </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
       <a class="plavani-link" href="tel:+420 724 168 962">
@@ -363,12 +374,17 @@ defmodule DetailCta do
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
-      <a class="plavani-link" href="/images/pdf/plavani-verejnost/Sobotní kurzy plavání Radotín.pdf" target="_blank">
+      <a
+        class="plavani-link"
+        href="/images/pdf/plavani-verejnost/Sobotní kurzy plavání Radotín.pdf"
+        target="_blank"
+      >
         <img src="/images/icon/download-plavani.svg" />PDF brožura
       </a>
     </div>
     <script>
       let buttonCta = document.querySelector(".cta-button");
+      let buttonCta2 = document.querySelector(".cta-button2");
       let clickCount = 0;
 
       if (window.innerWidth < window.innerHeight) {
@@ -385,6 +401,7 @@ defmodule DetailCta do
           clickCount = 0;
           // Enable the link
             buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new";
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-19/termin/150/rezervace/new";
         }
         });
         }
@@ -750,6 +767,7 @@ defmodule DetailCta do
     </script>
     """
   end
+
   def enviroCity(assigns) do
     ~H"""
     <style>
@@ -764,7 +782,7 @@ defmodule DetailCta do
         termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
-        <span class="text-gray-900">
+      <span class="text-gray-900">
         Cena:<bold>2250 Kč</bold>
       </span>
       <br />
