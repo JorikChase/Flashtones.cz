@@ -5,11 +5,12 @@ defmodule FlashtonesWeb.LocationsLive do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/lokality" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
+        canonical: "https://zsprodeti.cz/lokality",
+        page_title: "ZŠ PRO DĚTI",
+        description:
+          "Příměstský tábor, primestsky tabor, škola v přírodě, skola v prirode, skoly v prirode, skola v prirode na klic, škola v přírodě na klíč, škola v přírodě s plaváním, příměstský tábor radotín, příměstský tábor suchdol, příměstský tábor beroun, příměstský tábor hloubětín, příměstský tábor výstaviště, příměstský tábor výstaviště praha, příměstský tábor ostrava, příměstský tábor s plaváním, škola v přírodě, školní výlet, škola v přírodě krkonoše, škola v přírodě v krkonoších, škola v přírodě šumava, škola v přírodě na šumavě, škola v přírodě beskydy, škola v přírodě v beskydech, škola v přírodě bílé karpaty, škola v přírodě v bílyých karpatech, škola v přírodě střední čechy, škola v přírodě jižní čechy, škola v přírodě jeseníky, škola v přírodě červenohorské sedlo"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
-
 
     {:ok, socket}
   end

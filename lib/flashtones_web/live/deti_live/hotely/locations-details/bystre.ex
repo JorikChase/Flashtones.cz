@@ -2,11 +2,13 @@ defmodule FlashtonesWeb.LokalityBystreLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-   socket =
+    socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/lokality/bystre" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
+        canonical: "https://zsprodeti.cz/lokality/bystre",
+        page_title: "ZŠ PRO DĚTI",
+        description:
+          "Příměstský tábor, primestsky tabor, škola v přírodě, skola v prirode, skoly v prirode, škola v přírodě s plaváním, škola v přírodě, Plavecká škola v přírodě, Vysočina plavání"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 

@@ -147,7 +147,8 @@ defmodule FlashtonesWeb.SitemapHTML do
       ~p"/blog/shrnuti-23",
       ~p"/blog/socci",
       ~p"/blog/v-tymu",
-      ~p"/blog/plavecke-dovednosti"
+      ~p"/blog/plavecke-dovednosti",
+      ~p"/blog/ti-co-uci"
       ###################################### old
       ### ~p"/zs/kontakty",
       ### ~p"/zs/kontakty-formular",
