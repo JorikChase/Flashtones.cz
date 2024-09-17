@@ -67,9 +67,10 @@ defmodule FlashtonesWeb.DeskLive do
     <!--<Aktuality.aktuality />-->
     <IconRow.iconRowDeti />
     <Featured.base />
+    <Featured.oblasti />
     <Instagram.deti />
     <Kdo.zs />
-    <Rekli.rekliPlavaniVerejnost />
+    <Rekli.rekliDeti />
     <Zustanme.deti />
     <Footer.deti />
     """

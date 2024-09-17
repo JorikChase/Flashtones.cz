@@ -453,41 +453,83 @@ defmodule KurzNav do
   def blogAktuality(assigns) do
     ~H"""
     <style>
-      @media (orientation: landscape) {
-      #blog-akutality{
-      justify-content: space-between;
-      gap: 0;
+      .news-grid {
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+          gap: 30px;
       }
-      .instagram .kurz-item{
-        height: 270px;
-        width: 30%;
-        justify-content: space-between;
-        padding-bottom: 15px;
+      .news-item {
+          overflow: hidden;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+          background: rgba(255, 255, 255, 0.9);
       }
+      .news-item:hover {
+          transform: translateY(-5px);
       }
-        .kurz-item{
-          height: auto;
-        }
+      .news-item img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+      }
+      .news-content {
+          padding: 15px;
+      }
+      .news-category {
+          background-color: var(--deti-link);
+          color: white;
+          padding: 5px 10px;
+          border-radius: 20px;
+          font-size: 0.8em;
+          font-weight: 800;
+          display: inline-block;
+      }
+      .news-title {
+          margin: 10px 0;
+          font-size: 1.2em;
+      }
+      .news-date {
+          color: #666;
+          font-size: 0.9em;
+      }
+      @media (max-width: 768px) {
+          .news-grid {
+              grid-template-columns: 1fr;
+          }
+      }
     </style>
-    <div class="kurz-nav" id="blog-akutality">
-      <a href="/blog/ti-co-uci" class="kurz-item">
-        <h4>Plavání a ti, co ho učí</h4>
-        <span class="inline-button align-right deti-link">
-          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
-        </span>
-      </a>
-      <a href="/blog/v-tymu" class="kurz-item">
-        <h4>INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h4>
-        <span class="inline-button align-right deti-link">
-          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
-        </span>
-      </a>
-      <a href="/blog/plavecke-dovednosti" class="kurz-item">
-        <h4>RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h4>
-        <span class="inline-button align-right deti-link">
-          Článek<img alt="Logo kurzu" src="/images/icon/arrow-right-deti.svg" />
-        </span>
-      </a>
+    <div class="news-grid">
+      <article class="news-item">
+        <a href="/blog/ti-co-uci">
+          <img src="/images/deti/ti-co-uci.jpg" alt="View from inside a tent looking out at a forest" />
+          <div class="news-content">
+            <span class="news-category">PRO DĚTI</span>
+            <h2 class="news-title">Plavání a ti, co ho učí</h2>
+            <p class="news-date">10. 9. 2024</p>
+          </div>
+        </a>
+      </article>
+      <article class="news-item">
+        <a href="/blog/v-tymu">
+          <img src="/images/deti/15.jpg" alt="Swimming courses with children" />
+          <div class="news-content">
+            <span class="news-category">PRO DĚTI</span>
+            <h2 class="news-title">INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h2>
+            <p class="news-date">20. 8. 2024</p>
+          </div>
+        </a>
+      </article>
+      <article class="news-item">
+        <a href="/blog/plavecke-dovednosti">
+          <img src="/images/deti/10.jpg" alt="Swimming courses with children" />
+          <div class="news-content">
+            <span class="news-category">PRO DĚTI</span>
+            <h2 class="news-title">RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h2>
+            <p class="news-date">3. 8. 2024</p>
+          </div>
+        </a>
+      </article>
     </div>
     """
   end

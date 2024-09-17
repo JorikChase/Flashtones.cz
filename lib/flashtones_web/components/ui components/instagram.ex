@@ -162,14 +162,12 @@ defmodule Instagram do
         }
         .instagram-row{
           width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: flex-start;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
           gap: 30px;
         }
         .instagram-item{
-          width: 30%;
+          width: 100%;
           aspect-ratio: 10/12;
           display: flex;
           flex-direction: column;
@@ -233,9 +231,7 @@ defmodule Instagram do
           .instagram{
             flex-direction: column;
           }
-          .instagram-row{
-            flex-direction: column;
-          }
+
           .instagram-item{
             width: 100%;
           }
@@ -250,6 +246,12 @@ defmodule Instagram do
           flex-direction: row;
           gap: 15px;
         }
+        }
+        @media (max-width: 768px) {
+            .instagram-row{
+              grid-template-columns: 1fr;
+              margin-bottom: 45px;
+            }
         }
     </style>
     <div class="ig-wrap">

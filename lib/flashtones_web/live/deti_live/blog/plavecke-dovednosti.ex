@@ -1,13 +1,23 @@
 defmodule FlashtonesWeb.PlaveckeDovednostiLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png", canonical: "https://flashtones.cz/blog/plavecke-dovednosti" , page_title: "ZŠ blog", description: "Náš blog pojednává o tématech spojených s dětskou výukou. Plavecké dovednosti.")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
+        canonical: "https://flashtones.cz/blog/plavecke-dovednosti",
+        page_title: "ZŠ blog",
+        description:
+          "Náš blog pojednává o tématech spojených s dětskou výukou. Plavecké dovednosti."
+      )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
-      <style>
+    <style>
       main{
         background: #dbf6f9;
       }
@@ -38,15 +48,16 @@ defmodule FlashtonesWeb.PlaveckeDovednostiLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-        </style>
-        <Nav.nav />
-        <MenuMobile.menuDetiMobile />
-        <MenuPc.menuDetiPc />
-        <HeroSmall.zsRatings />
-        <Blog.plaveckeDovednosti />
-        <Zustanme.zustanme />
-        <KurzNav.blog />
-        <Footer.footer />
+        
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuDetiMobile />
+    <MenuPc.menuDetiPc />
+    <HeroSmall.blogPlaveckeDovednosti />
+    <Blog.plaveckeDovednosti />
+    <Zustanme.zustanme />
+    <KurzNav.blog />
+    <Footer.footer />
     """
   end
 end

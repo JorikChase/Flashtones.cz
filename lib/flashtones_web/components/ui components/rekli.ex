@@ -571,10 +571,12 @@ defmodule Rekli do
         white-space: nowrap;
       }
       .rekli-link-mobile{
-        display: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 30px;
       }
       .rekli-link-desktop{
-        display: flex;
+        display: none;
       }
       @media (orientation: portrait){
         .rekli{

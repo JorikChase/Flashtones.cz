@@ -40,6 +40,30 @@ defmodule HeroSmall do
     """
   end
 
+  def blogPlaveckeDovednosti(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+       background-image: url(/images/deti/10.jpg);
+      }
+    </style>
+    """
+  end
+
+  def blogVTymu(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+       background-image: url(/images/deti/15.jpg);
+      }
+    </style>
+    """
+  end
+
   def detiAbout(assigns) do
     ~H"""
     <div class="hero-small"></div>

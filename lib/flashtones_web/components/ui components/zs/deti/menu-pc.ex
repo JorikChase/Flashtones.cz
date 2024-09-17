@@ -401,15 +401,17 @@ defmodule MenuPc do
         .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(7) a:before { background-image: url("/images/icon/friendship.svg"); }
         .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(8) a:before { background-image: url("/images/icon/hiking.svg"); }
 
+        .pcMenuBarLinks ul li{
+          margin: 0;
+        }
         .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
             background-color: rgba(250, 250, 250, 0.9);
             color: black;
         }
         .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a {
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             display: flex;
-            justify-content: space-between;
             padding-left: 70px;
             width: 300px;
         }
@@ -433,9 +435,39 @@ defmodule MenuPc do
         .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/city-enviro.svg"); }
         .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg"); }
         .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg"); }
+
+        .pcMenuBarLinks ul li > div.dropdown ul.mini-informace {
+            background-color: rgba(250, 250, 250, 0.9);
+            color: black;
+            display: flex;
+            flex-direction: column;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a {
+            align-items: center;
+            justify-content: flex-start;
+            display: flex;
+            padding-left: 70px;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.98);
+            color: black;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a h3 {
+            margin-bottom: 0;
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:before {
+            left: 25px;
+            height: 30px;
+            top: calc(50%-20px);
+            width: 30px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
     </style>
 
-    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenu">
+    <div class="pcMenu pcMenuDeti" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="https://zsprodeti.cz/">
           <img alt="Ikona menu" src="/images/deti/deti-logo.svg" />
@@ -523,11 +555,30 @@ defmodule MenuPc do
                 </ul>
               </div>
             </li>
+            <li>
+              <a href="/informace" style="font-weight: 800;">Informace</a>
+              <div class="dropdown">
+                <ul class="mini-informace">
+                  <li>
+                    <a href="/reference">
+                      <h3>REFERENCE</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/o-nas">
+                      <h3>O NÁS</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/lokality">
+                      <h3>LOKALITY</h3>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
           </ul>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/lokality"> Lokality </a>
-          <a href="/reference">Reference</a>
-          <a href="/o-nas#my">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
