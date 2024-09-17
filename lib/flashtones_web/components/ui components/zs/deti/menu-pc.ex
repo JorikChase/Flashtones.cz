@@ -348,9 +348,9 @@ defmodule MenuPc do
             width: 45px;
             background-repeat: no-repeat;
         }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/letni-primestsky-plavecky-tabor.svg"); }
+        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before { background-image: url("/images/deti/icon/historie.svg"); }
+        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before { background-image: url("/images/deti/icon/info.svg"); }
+        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before { background-image: url("/images/deti/icon/pin.svg"); }
         .pcMenuBarLinks ul li > div.dropdown ul li h3 {
             font-size: 16px;
             margin-bottom: 8px;
@@ -465,6 +465,9 @@ defmodule MenuPc do
             background-size: contain;
             background-repeat: no-repeat;
           }
+          #individualni-kurzy:before{
+          background-image: url(/images/icon/kurz/boy.svg);
+          }
     </style>
 
     <div class="pcMenu pcMenuDeti" id="pcMenu" phx-hook="ModularMenu">
@@ -499,7 +502,7 @@ defmodule MenuPc do
                         </a>
                       </li>
                       <li>
-                        <a href="/lyzovani/school">
+                        <a href="/lyzovani/skolni-lyzarsky-kurz">
                           <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
                         </a>
                       </li>
@@ -546,7 +549,7 @@ defmodule MenuPc do
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/letni-pobytove-tabory">
+                        <a href="/plavani/individualni-kurzy" id="individualni-kurzy">
                           <h3>INDIVIDUÁLNÍ KURZY</h3>
                         </a>
                       </li>

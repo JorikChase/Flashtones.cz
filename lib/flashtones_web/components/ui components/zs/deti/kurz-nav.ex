@@ -26,7 +26,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/letni-pobytove-tabory" class="kurz-item">
+      <a href="/plavani/individualni-kurzy" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" />
         <h4>Individuální lekce</h4>
         <p>
@@ -121,7 +121,7 @@ defmodule KurzNav do
       }
     </style>
     <div class="kurz-nav">
-      <a href="/lyzovani/school" class="kurz-item">
+      <a href="/lyzovani/skolni-lyzarsky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/skolni-lyzarsky-kurz.svg" />
         <h4>Školní lyžařský kurz</h4>
         <p>
