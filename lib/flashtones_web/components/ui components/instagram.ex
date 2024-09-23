@@ -272,37 +272,37 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/zs-9-5a.jpeg);"
+            style="background-image: url(/images/ig/ig-23-9.jpg);"
           >
           </div>
           <b class="instagram-odsazeni">
-            3 tipy, které by se ti mohly hodit! 🏊🏻‍♂️
+            Večerní srandy @sportcentrum_brandys_sro
           </b>
-          <small class=" instagram-small">aktualita</small>
+          <small class="news-category m-4">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/zs-9-5b.jpeg);"
+            style="background-image: url(/images/ig/ig-23-9-4.jpg);"
           >
           </div>
           <b class="instagram-odsazeni">
-            Naše oblíbené místo v Peci pod Sněžkou je ready! 🫡🏊🏻‍♂️
+            Hezkou neděli všem! Frída for @zsprodeti 📸💙😀
           </b>
-          <small class=" instagram-small">aktualita</small>
+          <small class="news-category m-4">aktualita</small>
         </a>
         <a class="instagram-item" href="https://instagram.com/zsprodeti" target="_blank">
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/zs-9-5c.jpeg);"
+            style="background-image: url(/images/ig/ig-23-9-3.jpg);"
           >
           </div>
           <b class="instagram-odsazeni">
-            Trpělivost, klid a empatie! Vlastností, které by...
+            ZŠ V TÝMU! Exkurze mléčnou farmou Soběšice 🐄
           </b>
-          <small class=" instagram-small">aktualita</small>
+          <small class="news-category m-4">aktualita</small>
         </a>
       </div>
       <KurzNav.blogAktuality />

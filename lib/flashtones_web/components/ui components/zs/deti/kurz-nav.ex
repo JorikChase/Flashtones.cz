@@ -504,7 +504,7 @@ defmodule KurzNav do
         <a href="/blog/ti-co-uci">
           <img src="/images/deti/ti-co-uci.jpg" alt="View from inside a tent looking out at a forest" />
           <div class="news-content">
-            <span class="news-category">PRO DĚTI</span>
+            <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">Plavání a ti, co ho učí</h2>
             <p class="news-date">10. 9. 2024</p>
           </div>
@@ -514,7 +514,7 @@ defmodule KurzNav do
         <a href="/blog/v-tymu">
           <img src="/images/deti/15.jpg" alt="Swimming courses with children" />
           <div class="news-content">
-            <span class="news-category">PRO DĚTI</span>
+            <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h2>
             <p class="news-date">20. 8. 2024</p>
           </div>
@@ -524,7 +524,7 @@ defmodule KurzNav do
         <a href="/blog/plavecke-dovednosti">
           <img src="/images/deti/10.jpg" alt="Swimming courses with children" />
           <div class="news-content">
-            <span class="news-category">PRO DĚTI</span>
+            <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h2>
             <p class="news-date">3. 8. 2024</p>
           </div>
