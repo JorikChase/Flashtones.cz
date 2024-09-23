@@ -217,6 +217,7 @@ defmodule Featured do
                     background-color: var(--deti-link);
                     color: white;
                     padding: 0.5rem 1rem;
+                    border-radius: 30px;
                     text-decoration: none;
                     font-weight: bold;
                     transition: background-color 0.3s ease;
@@ -230,7 +231,7 @@ defmodule Featured do
                     position: relative;
                     width: 300px;
                     height: 300px;
-                    margin-left: -5px;
+                    margin-left: 15px;
                     transition: transform 0.3s ease;
                 }
 
@@ -327,7 +328,7 @@ defmodule Featured do
             Více informací
           </a>
         </div>
-        <div class="course-image-container">
+        <div class="course-image-container" style="margin-right: 15px;">
           <div class="course-image">
             <img src="/images/enviro/svp.jpeg" alt="Děti plavou v bazénu" />
           </div>

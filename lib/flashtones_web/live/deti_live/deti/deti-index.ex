@@ -67,6 +67,7 @@ defmodule FlashtonesWeb.DetiIndexLive do
     <DetiGrid.staticGrid />
     <!--<Aktuality.aktuality />-->
     <IconRow.iconRowDeti />
+    <Featured.oblasti />
     <Instagram.deti />
     <Kdo.zs />
     <Rekli.rekliDeti />
