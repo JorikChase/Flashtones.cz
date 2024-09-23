@@ -55,3 +55,9 @@ lib/flashtones_web/components/head.ex
 priv/static/subscriptions.csv
 priv/static/subscriptions.csv
 priv/static/subscriptions.csv
+priv/static/email_backups.csv
+priv/static/images/csv/email_backups.csv
+priv/static/images/csv/rezervacak.csv
+priv/static/subscriptions.csv
+secrets.env
+priv/static/subscriptions.csv

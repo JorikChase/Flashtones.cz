@@ -92,10 +92,10 @@ defmodule FlashtonesWeb.Router do
     live "/plavani/letni-primestske-tabory", PlavaniDetailCitySummerLive
     live "/plavani/services/letni-primestske-tabory/", PlavaniDetailSummerLive
     live "/plavani/services/letni-tabor/", PlavaniDetailSummerLive
-    live "/plavani/letni-pobytove-tabory", PlavaniDetailWeekendLive
+    live "/plavani/individualni-kurzy", PlavaniDetailWeekendLive
     live "/plavani/services/vikendove-primestske-tabory-plavani/", PlavaniDetailWeekendLive
 
-    live "/lyzovani/school", LyzovaniDetailSchoolLive
+    live "/lyzovani/skolni-lyzarsky-kurz", LyzovaniDetailSchoolLive
     live "/lyzovani/bezky", LyzovaniDetailBezkyLive
     live "/lyzovani/weekend", LyzovaniDetailWeekendLive
 
@@ -194,9 +194,7 @@ defmodule FlashtonesWeb.Router do
     live "/blog/plavecke-dovednosti", PlaveckeDovednostiLive
     ## ///////////////////////////////
 
-    live "/404", DetiIndexLive
-    #get "/auth/google/callback", GoogleAuthController, :index
-    get "/*path", FourOhFour, :index
+    # get "/auth/google/callback", GoogleAuthController, :index
     post "/subscribe", NewsletterController, :subscribe
   end
 
