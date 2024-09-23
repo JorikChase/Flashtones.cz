@@ -198,21 +198,22 @@ defmodule Instagram do
           padding: 0 30px 15px 30px;
         }
         .aktuality-links-mobile{
-          display: none;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 30px;
+        color: var(--deti-link);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
         }
         .aktuality-links-desktop{
-          display: flex;
-          flex-direction: row;
-          justify-content:center;
-          align-items: center;
-          gap: 30px;
-          color: var(--deti-link);
-          font-size: 15px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: 0.75px;
-          text-transform: uppercase;
+          display: none;
         }
         .aktuality-link{
           display: flex;
