@@ -180,6 +180,22 @@ defmodule FlashtonesWeb.Router do
     live "/lokality/fontana", LokalityFontanaLive
     live "/lokality/na-mulde", LokalityNaMuldeLive
     live "/lokality/horni-pramen", LokalityHorniPramenLive
+    live "/lokality/kadlecu", LokalityKadlecuLive
+    live "/lokality/lesanka", LokalityLesankaLive
+    live "/lokality/viktorka", LokalityViktorkaLive
+    live "/lokality/sedmidoli", LokalitySedmidoliLive
+    live "/lokality/dobra-chata", LokalityDobraChataLive
+    live "/lokality/kycerka", LokalityKycerkaLive
+    live "/lokality/modra-hvezda", LokalityModraHvezdaLive
+    live "/lokality/olsina", LokalityOlsinaLive
+    live "/lokality/laguna", LokalityLagunaLive
+    live "/lokality/zadov", LokalityZadovLive
+    live "/lokality/cervenohorske-sedlo", LokalityCervenohorskeSedloLive
+    live "/lokality/oberwengerhof", LokalityOberwengerhofLive
+    live "/lokality/adam", LokalityAdamLive
+    live "/lokality/Panon", LokalityPanonLive
+    live "/lokality/tanecnica", LokalityTanecnicaLive
+    live "/lokality/zvikov", LokalityZvikovLive
 
     live "/mail", MailFormLive
     live "/desk", DeskLive

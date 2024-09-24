@@ -124,6 +124,174 @@ defmodule HeroSmall do
     """
   end
 
+  def kadlecu(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/kadlecu.jpg);
+      }
+    </style>
+    """
+  end
+
+  def lesanka(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/lesanka.jpg);
+      }
+    </style>
+    """
+  end
+
+  def viktorka(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/viktorka.jpg);
+      }
+    </style>
+    """
+  end
+
+  def sedmidoli(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/sedmidoli.jpg);
+      }
+    </style>
+    """
+  end
+
+  def dobraChata(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/dobra-chata.jpg);
+      }
+    </style>
+    """
+  end
+
+  def kycerka(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/kycerka.jpg);
+      }
+    </style>
+    """
+  end
+
+  def modraHvezda(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/modra-hvezda.jpg);
+      }
+    </style>
+    """
+  end
+
+  def olsina(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/olsina.jpg);
+      }
+    </style>
+    """
+  end
+
+  def zadov(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/zadov.jpg);
+      }
+    </style>
+    """
+  end
+
+  def cervenohorskeSedlo(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/cervenohorske-sedlo.jpg);
+      }
+    </style>
+    """
+  end
+
+  def adam(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/adam.jpg);
+      }
+    </style>
+    """
+  end
+
+  def panon(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/panon.jpg);
+      }
+    </style>
+    """
+  end
+
+  def tanecnica(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/tanecnica.jpg);
+      }
+    </style>
+    """
+  end
+
+  def zvikov(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/zvikov.jpg);
+      }
+    </style>
+    """
+  end
+
   def agri(assigns) do
     ~H"""
     <div class="hero-small"></div>

@@ -2007,6 +2007,2307 @@ defmodule DetailFaq do
     </script>
     """
   end
+  def kadlecu(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o městě Volary</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie města</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Volary se nacházejí v Jihočeském kraji, v okrese Prachatice, a jsou součástí Šumavské chráněné krajinné oblasti. Leží na jihovýchodním úpatí hor v nadmořské výšce 760 m. Město je známé svou dřevěnou alpskou architekturou a historií spjatou s obchodními stezkami vedoucími přes Šumavu. Volary se rozkládají podél toku Volarského potoka, který zde formuje malebnou krajinu.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Supermarket COOP</p>
+            <b>Lékárna:</b>
+            <p>Lékárna ve Volarech</p>
+            <b>Nemocnice:</b>
+            <p>Nejbližší nemocnice se nachází v Prachaticích (20 km)</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Volary</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V okolí Volar najdete krásné přírodní památky, jako jsou:</p>
+            <ul>
+              <li>Volarské rašeliniště – unikátní rašelinné biotopy</li>
+              <li>Přírodní rezervace Boubínský prales – prales s tisíciletými stromy</li>
+              <li>Chalupská slať – rašelinné jezero</li>
+            </ul>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Šumavská kuchyně nabízí lahůdky jako bramborové placky, kysané zelí nebo kynuté knedlíky plněné ovocem. Mezi speciality patří také různé druhy škubánků a šlejšků, které se podávají jak na sladko, tak na slano.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Boubínská rozhledna – výlet na 1 hodinu s nádherným výhledem na Šumavu</p>
+            <p>Stezka korunami stromů v Lipně – výlet na 2 hodiny vhodný pro celou rodinu</p>
+            <p>Hrad Hus – historická památka vzdálená 40 minut od Volar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+  def lesanka(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Kvilda</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Kvilda je horská obec v okrese Prachatice, ležící v srdci Národního parku Šumava. S nadmořskou výškou 1065 metrů je nejvýše položenou obcí v České republice. Obec je oblíbeným cílem turistů jak v zimě, tak v létě, díky své výhodné poloze uprostřed nádherné šumavské přírody a blízkosti lyžařských středisek.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Supermarket COOP (Kvilda)</p>
+            <b>Lékárna:</b>
+            <p>Lékárna v Kašperských Horách</p>
+            <b>Nemocnice:</b>
+            <p>Nejbližší nemocnice se nachází v Prachaticích (30 km)</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Kvilda</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V okolí Kvildy a chaty Lesanky najdete několik přírodních památek:</p>
+            <ul>
+              <li>Pramen Vltavy – výchozí bod nejdelší české řeky</li>
+              <li>Jezerní slať – rašeliniště s unikátním ekosystémem</li>
+              <li>Boubínský prales – prales s tisíciletými stromy vzdálený jen několik kilometrů</li>
+            </ul>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Šumavská kuchyně se vyznačuje jídly jako kysané zelí, bramborové knedlíky, škubánky nebo kynuté knedlíky plněné ovocem.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Pramen Vltavy – krátký výlet na 1 hodinu</p>
+            <p>Jezerní slať – výlet na 1-2 hodiny s výhledem na rašeliniště</p>
+            <p>Boubínský prales – prales s unikátní faunou a flórou (výlet na 2 hodiny)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+  def viktorka(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Pec pod Sněžkou</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Pec pod Sněžkou je jedním z nejvýznamnějších turistických středisek v Krkonoších. Leží v údolí Úpy a Zeleného potoka a je oblíbenou destinací pro zimní sporty a letní turistiku. Pec pod Sněžkou je také výchozím bodem pro výstup na nejvyšší horu České republiky, Sněžku.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Obchod v Peci pod Sněžkou</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna ve Vrchlabí</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Trutnov</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Pec pod Sněžkou</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Sněžka – nejvyšší hora České republiky</p>
+            <p>Krkonošský národní park – rozmanitá flóra a fauna</p>
+            <p>Naučné stezky – ideální pro poznávání přírody Krkonoš</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Chata Viktorka nabízí tradiční české pokrmy včetně polévek, knedlíků a masových specialit, které si můžete vychutnat v příjemném horském prostředí.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Výstup na Sněžku – Nejvyšší hora ČR (1 603 m), výstup trvá přibližně 2–3 hodiny, nebo lze využít lanovku z Pece pod Sněžkou.</p>
+            <p>Černohorská rašeliniště – Přírodní rezervace s naučnou stezkou, dostupná lanovkou z Janských Lázní, poté pěší túrou (cca 2 hodiny).</p>
+            <p>Obří důl – Pěší výlet přes jedno z nejkrásnějších údolí Krkonoš s výhledem na Sněžku (2–3 hodiny).</p>
+            <p>Vodopády na Bílém Labi – Krásná procházka kolem horských vodopádů (2 hodiny).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def sedmidoli(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Pec pod Sněžkou</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Pec pod Sněžkou je horské středisko v Krkonoších, obklopené nádhernou přírodou, a je známé především jako výchozí bod pro výstup na nejvyšší horu České republiky, Sněžku. V zimě je Pec pod Sněžkou oblíbenou destinací pro lyžaře díky rozsáhlému Skiareálu Špindlerův Mlýn. V létě láká turisty na pěší túry a cyklotrasy.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Supermarket a menší obchody v Peci pod Sněžkou</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna ve Vrchlabí</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Trutnov</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Pec pod Sněžkou</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Chata Sedmidolí se nachází v malebné části Krkonošského národního parku, který je známý svou jedinečnou flórou a faunou. Okolní příroda nabízí nádherné turistické trasy a výlety, jako jsou:</p>
+            <ul>
+              <li>Sněžka – nejvyšší hora ČR (1 603 m), výstup trvá cca 3–4 hodiny.</li>
+              <li>Obří důl – krásné údolí pod Sněžkou (2–3 hodiny).</li>
+              <li>Černohorská rašeliniště – naučná stezka přes unikátní rašeliniště, dostupná lanovkou z Janských Lázní (2 hodiny).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V restauraci chaty Sedmidolí se podávají tradiční česká jídla, připravená z lokálních surovin. Hosté mohou využít plnou penzi, včetně pitného režimu. Jídla jsou připravována s ohledem na potřeby školních skupin i sportovních nadšenců, kteří ocení vydatné a chutné pokrmy po celodenních aktivitách.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Z chaty Sedmidolí se můžete vydat na řadu krásných výletů:</p>
+            <ul>
+              <li>Výstup na Sněžku – cesta trvá 3-4 hodiny.</li>
+              <li>Obří důl – krásné údolí pod Sněžkou (2-3 hodiny).</li>
+              <li>Černohorská rašeliniště – výlet na unikátní rašeliniště (2 hodiny).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def dobraChata(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Stachy</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Stachy jsou malá obec v Jihočeském kraji, ležící v blízkosti lyžařského střediska Zadov – Churáňov. Obec je oblíbená mezi návštěvníky Šumavy díky své blízkosti k přírodním atrakcím a turistickým trasám.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Obchod v obci Stachy</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna ve Vimperku</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Vimperk</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Stachy</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Dobrá Chata se nachází v národním parku Šumava, který je známý svou rozmanitou flórou a faunou. Přímo z hotelu se můžete vydat na různé pěší túry nebo cyklotrasy. V zimě se oblast mění v lyžařské centrum s ideálními podmínkami pro sjezdové i běžecké lyžování. Okolní příroda zahrnuje nádherné lesy a hory, ideální pro všechny milovníky horských aktivit.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí tradiční česká jídla připravená z místních surovin. Hosté si mohou užít domácí kuchyni a vydatné pokrmy, které jsou skvělou volbou po náročném dni na sjezdovce. Stravování je možné formou plné penze, ideální pro školní skupiny.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Z Dobré Chaty můžete podniknout výlety na řadu krásných míst v okolí:</p>
+            <ul>
+              <li>Boubínský prales – výlet do jednoho z nejstarších pralesů v České republice (2–3 hodiny).</li>
+              <li>Jezerní slať – rašeliniště se snadno přístupnou naučnou stezkou (1 hodina).</li>
+              <li>Výstup na Churáňov – turistická trasa vedoucí na Churáňovský vrch (1,5 hodiny).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def kycerka(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Velké Karlovice</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Velké Karlovice jsou horská obec na Valašsku, známá svou nádhernou přírodou a tradicemi. Jsou výchozím bodem pro řadu turistických a sportovních aktivit, jak v létě, tak v zimě.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Obchody ve Velkých Karlovicích</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna ve Vsetíně</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Vsetín</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Velké Karlovice</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Kyčerka se nachází v malebném prostředí Beskyd, kde se návštěvníci mohou těšit na bohatou flóru a faunu. Okolí nabízí různé turistické trasy a cyklostezky, stejně jako zimní sporty v lyžařském areálu Kyčerka.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V hotelové restauraci se podávají tradiční valašské pokrmy připravené z lokálních surovin. Pro školní skupiny je k dispozici plná penze včetně pitného režimu, ideální pro regeneraci po dni na sjezdovkách.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>S okolím hotelu Kyčerka můžete podniknout různé výlety:</p>
+            <ul>
+              <li>Ski areál Kyčerka – sjezdové tratě pro lyžaře všech úrovní.</li>
+              <li>Naučná stezka Hradisko – výlet na hradisko s krásnými výhledy (2 hodiny).</li>
+              <li>Rozhledna Miloňová – krátký výlet s nádhernými výhledy na Beskydy (1 hodina).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def modraHvezda(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Horní Blatná</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Horní Blatná je malebná obec v Krušných horách, ideální pro zimní i letní rekreaci.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>V obci Horní Blatná</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna v Karlových Varech</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice v Karlových Varech</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Horní Blatná</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Modrá Hvězda je obklopen krásnou přírodou Krušných hor, ideální pro lyžování a turistiku. Blízké turistické trasy a sjezdovky nabízejí aktivity jak pro zimní sporty, tak pro letní výlety.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí polopenzi nebo plnou penzi s možností tradiční české kuchyně. Snídaně jsou zahrnuty v ceně ubytování, což zajišťuje příjemný start do dne plného sportovních aktivit.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V okolí hotelu můžete podniknout několik zajímavých výletů:</p>
+            <ul>
+              <li>Blatenský vrch – turistický výlet na rozhlednu (1 hodina).</li>
+              <li>Krušnohorská magistrála – běžecké trasy a turistické stezky.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def olsina(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Polná na Šumavě</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Polná je malebná obec ležící nedaleko Resortu Olšina, obklopená krásnou přírodou Šumavy.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Nejbližší obchody v okolí</p>
+            <b>Lékárna:</b>
+            <p>Český Krumlov</p>
+            <b>Nemocnice:</b>
+            <p>Český Krumlov</p>
+            <b>Pošta:</b>
+            <p>Polná na Šumavě</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Resort je zasazen do chráněného území v blízkosti vojenského prostoru Boletice, kde se nachází vzácné ekosystémy a jedinečné stezky, jako je Naučná stezka Olšina a Ptačí oblast Boletice. Příroda v okolí poskytuje ideální prostředí pro environmentální výuku a týmové aktivity zaměřené na spolupráci a poznávání ekosystémů.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Resort Olšina nabízí stravování formou plné penze, vhodné pro školní kurzy a skupiny. Restaurace servíruje pokrmy z místních surovin v klidném prostředí Šumavy.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Naučná stezka Olšina – okružní trasa kolem rybníka (7,5 km).</li>
+              <li>Stezka kolem Špičáku – výlet s výhledy na Šumavu a Lipno (12 km).</li>
+              <li>Český Krumlov – historické město, 26 km od resort.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def laguna(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Nebřich</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Nebřich je klidná obec v blízkosti Slapské přehrady, ideální pro rekreační aktivity u vody.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Místní obchody v Nebřichu a okolí</p>
+            <b>Lékárna:</b>
+            <p>Nejbližší lékárna v Netvořicích</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Benešov</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Nebřich</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Laguna se nachází v malebné přírodě u Slapské přehrady, což z něj činí skvělé místo pro environmentální kurzy. Okolí nabízí naučné stezky, vodní sporty a turistiku v blízkosti přehrady. Přírodní prostředí vytváří ideální podmínky pro ekologické vzdělávání a týmové aktivity zaměřené na ochranu přírody.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Restaurace hotelu nabízí pokrmy z čerstvých lokálních surovin. Pro školní skupiny je k dispozici plná penze, včetně pitného režimu, což poskytuje komfortní stravování pro náročné dny plné aktivit.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Naučná stezka Drbákov – Albertovy skály – okruh s výhledy na Slapy (2–3 hodiny).</li>
+              <li>Zámek Konopiště – historická památka vzdálená 30 minut.</li>
+              <li>Svatý Jan pod Skalou – malebná přírodní rezervace vzdálená 1 hodinu.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def zadov(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Stachy</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Stachy jsou malá obec v jihočeském kraji, která je výchozím bodem pro mnoho turistických i sportovních aktivit na Šumavě.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>V obci Stachy</p>
+            <b>Lékárna:</b>
+            <p>Vimperk</p>
+            <b>Nemocnice:</b>
+            <p>Nemocnice Vimperk</p>
+            <b>Pošta:</b>
+            <p>Stachy</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Zadov se nachází v srdci Šumavského národního parku, který je známý svou bohatou flórou a faunou. Okolí nabízí nespočet turistických a cyklistických tras, vhodných pro enviromentální aktivity a týmovou spolupráci. Poblíž hotelu se nachází i naučné stezky a vyhlídkové trasy, které umožňují poznávání místních ekosystémů.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>V hotelové restauraci se podávají tradiční česká jídla a speciality z regionálních surovin. Pro školní skupiny je k dispozici plná penze, včetně pitného režimu, což zajišťuje pohodlné a kvalitní stravování po celý den.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Naučná stezka kolem Zadova – okruh vhodný pro poznávání přírody Šumavy.</li>
+              <li>Jezerní slať – rašeliniště vzdálené 10 km, dostupné pěšky nebo na kole.</li>
+              <li>Výstup na Churáňov – krásná trasa vedoucí na vrchol s úchvatnými výhledy.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def cervenohorskeSedlo(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Loučná nad Desnou</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Loučná nad Desnou je horská obec v blízkosti hotelu, ideální pro turistiku a zimní sporty.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>V Loučné nad Desnou</p>
+            <b>Lékárna a nemocnice:</b>
+            <p>V Šumperku</p>
+            <b>Pošta:</b>
+            <p>Loučná nad Desnou</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel je obklopen přírodou Hrubého Jeseníku, která je ideální pro environmentální výuku. Naučné stezky a cyklotrasy v okolí poskytují prostor pro poznávání biodiverzity Jeseníků.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí českou i mezinárodní kuchyni. Stravování je k dispozici formou plné penze pro školní skupiny.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Praděd – nejvyšší hora Jeseníků, vhodná pro turistiku (2 hodiny)</li>
+              <li>Vodopády Bílé Opavy – přírodní rezervace s vodopády (1,5 hodiny)</li>
+              <li>Rejvíz – naučná stezka po rašeliništích (2 hodiny)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def oberwengerhof(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Spital am Pyhrn</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Malebná obec obklopená alpskou přírodou.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Místní obchody v Spital am Pyhrn</p>
+            <b>Lékárna:</b>
+            <p>V Windischgarstenu</p>
+            <b>Nemocnice:</b>
+            <p>Ve Steyru</p>
+            <b>Pošta:</b>
+            <p>Spital am Pyhrn</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel je obklopen nádhernou alpskou přírodou, ideální pro turistiku a zimní sporty. Lyžařská střediska Hinterstoder a Wurzeralm jsou snadno dostupná a nabízejí sjezdovky různých obtížností. Okolní příroda je ideální také pro běžecké lyžování a zimní turistiku.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí tradiční rakouské pokrmy z lokálních surovin, které poskytují energii po dni stráveném na sjezdovkách.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Hinterstoder – lyžařské středisko známé závody světového poháru</li>
+              <li>Wurzeralm – rodinné lyžařské středisko s různými obtížnostmi sjezdovek</li>
+              <li>Národní park Kalkalpen – ideální pro letní i zimní turistiku</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def adam(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Špindlerův Mlýn</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Špindlerův Mlýn je oblíbené horské středisko v Krkonoších, známé především svými lyžařskými areály a krásnou přírodou. Leží v nadmořské výšce 715 metrů a je ideálním místem pro zimní i letní sportovní aktivity.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/vybavenost-deti.svg">
+              <p class="font-bold">Občanská vybavenost</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <b>Obchody:</b>
+            <p>Supermarket v Špindlerově Mlýně</p>
+            <b>Lékárna:</b>
+            <p>Špindlerův Mlýn</p>
+            <b>Nemocnice:</b>
+            <p>Vrchlabí (15 km)</p>
+            <b>Pošta:</b>
+            <p>Česká pošta Špindlerův Mlýn</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Krkonoše jsou národní park s nádhernými horskými scenériemi a bohatou flórou a faunou. Mezi nejznámější přírodní památky v okolí patří Sněžka, nejvyšší hora České republiky, Pramen Labe a Údolí Bílého Labe. Tyto oblasti jsou ideální pro pěší turistiku a poznávání přírody.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí tradiční česká jídla i mezinárodní speciality. Pro školní skupiny je k dispozici plná penze, která zahrnuje vyvážená jídla a pitný režim. Stravování je přizpůsobeno potřebám dětí a jejich aktivitám v průběhu dne.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Sněžka – výlet na nejvyšší horu České republiky, který trvá cca 3-4 hodiny.</li>
+              <li>Pramen Labe – turistická stezka vedoucí ke zdroji nejvýznamnější české řeky.</li>
+              <li>Údolí Bílého Labe – příjemná procházka malebným údolím, ideální pro poznávání místních ekosystémů.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def panon(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Hodonín</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Hodonín je město na jižní Moravě, známé svou bohatou historií a strategickou polohou poblíž slovenských hranic. Okolní krajina nabízí možnost poznávat zajímavá místa, jako jsou Národní park Pálava a Lednicko-valtický areál, který je zapsán na seznamu UNESCO.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Okolí Hodonína je ideální pro poznávání přírody, která se pyšní vinicemi, lesy a lužními lesy v okolí řeky Moravy. V blízkosti se nachází chráněné přírodní oblasti a krajinné celky, které jsou vhodné pro poznávací výlety v rámci školních pobytů.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace připravuje plnou penzi pro školní skupiny, která zahrnuje výživná a vyvážená jídla. Stravování je přizpůsobeno potřebám dětí, aby měly dostatek energie pro plavecký trénink i další aktivity.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Plavecký bazén Hodonín – Krytý bazén se dvěma bazény a vířivkami, přímo vedle hotelu, ideální pro plavecké kurzy.</li>
+              <li>Lužní lesy u řeky Moravy – Krátká procházka přírodou v okolí Hodonína, která nabízí možnost objevovat místní faunu a flóru.</li>
+              <li>Muzeum T. G. Masaryka – V centru Hodonína, vzdálené pár minut chůze, s expozicemi věnovanými prvnímu prezidentovi ČSR.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def tanecnica(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Pustevny</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Pustevny jsou oblíbené horské středisko v Beskydech, které nabízí nejen krásné výhledy, ale také širokou škálu možností pro turistiku a outdoorové aktivity. Středisko je známé svou tradiční architekturou a přírodními památkami.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Tanečnica se nachází v chráněné krajinné oblasti Beskydy, kde mohou děti poznávat jedinečnou flóru a faunu během svých environmentálních programů. Mezi hlavní přírodní zajímavosti patří Radhošť, Stezka Valašska a okolní hory, které poskytují ideální prostředí pro školy v přírodě.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel nabízí stravování formou plné penze, které zajišťuje dostatečný příjem energie pro děti během jejich aktivit. Kuchyně se zaměřuje na vyvážená jídla připravená z lokálních surovin, přičemž dbá na potřeby školních skupin.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Radhošť – Krásný výlet na horu Radhošť s nádhernými výhledy, kde se nachází socha Radegasta a kaple sv. Cyrila a Metoděje (2 hodiny).</li>
+              <li>Stezka Valašska – Vyhlídková trasa v korunách stromů s výhledem na Beskydy, vzdálená jen několik minut od hotelu.</li>
+              <li>Pustevny – Tradiční dřevěná architektura a přírodní památky, ideální pro vzdělávací vycházky.</li>
+              <li>Naučná stezka Čertův mlýn – Okruh zaměřený na přírodní zajímavosti Beskyd (3 hodiny).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+  def zvikov(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img {
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="location-course-wrap">
+      <h3>Další informace o obci Zvíkovské Podhradí</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/historie-deti.svg">
+              <p class="font-bold">Historie obce</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <p class="answer mt-2">
+            Zvíkovské Podhradí je malá obec s bohatou historií, ležící v jižních Čechách, v blízkosti hradu Zvíkov a vodní nádrže Orlík.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/priroda-deti.svg">
+              <p class="font-bold">Příroda</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotel Zvíkov je obklopen malebnou přírodou v blízkosti Orlické přehrady. Zdejší krajina je ideální pro ekologické aktivity a vzdělávání dětí o ochraně přírody. V okolí se nachází různé naučné stezky, například k hradu Zvíkov, nebo podél břehů řek Otavy a Vltavy.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/stravovani-deti.svg">
+              <p class="font-bold">Jídlo</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Hotelová restaurace nabízí tradiční české pokrmy připravené z čerstvých surovin. Stravování je přizpůsobeno potřebám školních skupin, včetně plné penze a pitného režimu.</p>
+          </div>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+          <div class="question-box-row-wrap">
+            <div class="question-box-row">
+              <img src="/images/icon/skola-deti.svg">
+              <p class="font-bold">Výlety</p>
+            </div>
+            <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+          </div>
+          <div class="answer mt-2">
+            <p>Nabízíme tyto výlety:</p>
+            <ul>
+              <li>Hrad Zvíkov – historický hrad vzdálený jen 800 metrů od hotelu.</li>
+              <li>Orlická přehrada – možnost procházky podél břehů přehrady, plavby lodí nebo rybaření.</li>
+              <li>Naučné stezky podél Otavy a Vltavy – přírodní trasy vhodné pro enviromentální vzdělávání.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
+
+
   def astra(assigns) do
     ~H"""
     <style>

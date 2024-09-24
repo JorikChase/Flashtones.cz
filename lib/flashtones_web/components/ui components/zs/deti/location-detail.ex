@@ -48,6 +48,582 @@ defmodule LocationDetail do
     """
   end
 
+  def kadlecu(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>RESORT KADLECU</h3>
+      <p>
+        Resort Kadleců se nachází v srdci Šumavy, v klidné části města Volary, přibližně 5 km od Národního parku Šumava. Nabízí širokou škálu rekreačních a relaxačních služeb, včetně wellness centra se saunou, vířivkou, masážemi a posilovnou. Hosté mohou využít restauraci s terasou, kde si mohou pochutnat na tradičních šumavských a českých pokrmech. Resort poskytuje ubytování v komfortních pokojích s vlastní koupelnou a Wi-Fi připojením zdarma. Hosté si mohou zahrát kulečník, šipky nebo stolní tenis. Lyžařská střediska Kubova Huť a Nové Hutě se nachází 10 km od resortu. Nejbližší autobusová zastávka je 300 metrů odtud. Bazén není přímo v resortu, ale hosté mohou využít veřejný bazén ve Volarech.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/kadlecu.jpg" />
+
+      <h3>RESORT KADLECU A ZŠ PRO DĚTI</h3>
+      <p>
+        Spolupráce s Resortem Kadleců byla zahájena na jaře roku 2024. Resort poskytuje ideální podmínky pro různé školní kurzy zaměřené na přírodu a sport. ZŠ Plavání probíhá ve veřejném bazénu ve Volarech, kde děti mohou zlepšovat své plavecké dovednosti pod vedením zkušených instruktorů. Resort Kadleců také hostí kurzy ZŠ Enviro zaměřené na ekologii a ochranu přírody, stejně jako kurzy ZŠ Lyžování, které těží z blízkosti kvalitních lyžařských středisek. Pro doplňkové sportovní aktivity jsou k dispozici hřiště v okolí resortu a společenské prostory pro večerní zábavu.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def lesanka(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>CHATA LESANKA</h3>
+      <p>
+        Chata Lesanka se nachází v klidné části Šumavy, poblíž obce Kvilda, přibližně 2 km od centra obce, a nabízí svým hostům pohodlné ubytování a zázemí pro různé aktivity. Hosté mohou využít stylovou restauraci, kde se podávají pokrmy inspirované tradiční šumavskou a českou kuchyní. K dispozici je venkovní terasa s krásným výhledem do okolní přírody. Chata nabízí také venkovní sportovní vybavení a prostory pro odpočinek. Veškeré pokoje jsou vybavené vlastní koupelnou a Wi-Fi připojením zdarma. Nejbližší autobusová zastávka je vzdálena 200 metrů od chaty.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/lesanka.jpg" />
+
+      <h3>CHATA LESANKA A ZŠ PRO DĚTI</h3>
+      <p>
+        Spolupráce s chatou Lesankou začala v roce 2024. Na tuto chatu se bude jezdit výhradně na lyžařské kurzy a enviro kurzy. Lyžařské kurzy těží z vynikajících podmínek, které oblast Kvildy nabízí pro běžecké i sjezdové lyžování. Díky tomu je Chata Lesanka vyhledávanou základnou pro zimní sportovní aktivity. V rámci enviro kurzů se děti učí poznávat přírodu Národního parku Šumava, přičemž se zaměřují na ekologii, ochranu přírody a šetrné zacházení s životním prostředím. Doplňkový sportovní program probíhá na venkovních hřištích v okolí chaty nebo ve společenské místnosti přímo v chatě.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def viktorka(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>CHATA VIKTORKA</h3>
+      <p>
+        Chata Viktorka se nachází v srdci Krkonoš, v klidné části Pece pod Sněžkou, pouhých 600 metrů od centra obce. Nabízí útulné ubytování s vlastní koupelnou a Wi-Fi zdarma. Hosté mohou využít stylovou restauraci, kde se podávají tradiční české pokrmy. K dispozici je také terasa s výhledem na okolní přírodu. Díky své poloze je Chata Viktorka ideální základnou pro milovníky turistiky i zimních sportů. Přímo u chaty se nachází běžecké trasy a sjezdovky jsou jen několik minut chůze.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/viktorka.jpg" />
+
+      <h3>CHATA VIKTORKA A ZŠ PRO DĚTI</h3>
+      <p>
+        Chata Viktorka je ideálním místem pro zimní i letní školní pobyty. Lyžařské kurzy pro školy těží z blízkosti sjezdovek v Peci pod Sněžkou, které jsou ideální pro začátečníky i pokročilé. Pro enviro kurzy nabízí Krkonošský národní park bohaté možnosti poznávání přírody, včetně naučných stezek, které děti seznámí s jedinečným horským ekosystémem. Doplňkový program probíhá na hřištích v okolí chaty nebo v jejích společenských prostorách.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def sedmidoli(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>CHATA SEDMIDOLI</h3>
+      <p>
+        Chata Sedmidolí se nachází v Krkonoších, v nadmořské výšce 1100 metrů, nedaleko Pece pod Sněžkou. Chata nabízí pohodlné ubytování v pokojích s vlastní koupelnou a Wi-Fi připojením zdarma. Hosté mohou využít restauraci s českou kuchyní a venkovní terasu s výhledem na okolní přírodu. Chata se nachází přímo u sjezdovky Davidovka a poskytuje skvělé podmínky pro zimní sporty i letní turistiku. Pro děti a začátečníky je k dispozici menší sjezdovka Sedmidolí přímo za chatou.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/sedmidoli.jpg" />
+
+      <h3>CHATA SEDMIDOLI A ZŠ PRO DĚTI</h3>
+      <p>
+        Chata Sedmidolí je ideálním místem pro školní lyžařské kurzy a letní školy v přírodě. Lyžařské kurzy probíhají na sjezdovce Davidovka (1400 m), která je součástí Skiareálu Špindlerův Mlýn. Pro menší děti a začátečníky je k dispozici menší sjezdovka přímo za chatou. Letní školy v přírodě jsou zaměřeny na environmentální aktivity a turistiku. Děti mají k dispozici venkovní hřiště, stolní fotbal, stolní tenis, trampolínu, ohniště a další aktivity, které je přímo spojují s přírodou.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def dobraChata(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL DOBRA CHATA</h3>
+      <p>
+        Hotel Dobrá Chata se nachází v srdci Šumavy, v lyžařském středisku Zadov – Churáňov, přímo u sjezdovky, 20 m od nástupní stanice sedačkové lanovky. Nabízí pohodlné ubytování v 14 pokojích s kapacitou až 54 osob, s vlastním sociálním zařízením a Wi-Fi zdarma. V restauraci se podávají tradiční české pokrmy, připravené z lokálních surovin. Hosté mohou využít také saunu. V zimě jsou zde ideální podmínky pro lyžování a zimní sporty.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/dobra-chata.jpg" />
+
+      <h3>HOTEL DOBRA CHATA A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Dobrou Chatu se bude jezdit výhradně na lyžařské kurzy. Díky své poloze přímo u sjezdovky Zadov – Churáňov je hotel ideálním místem pro školní lyžařské výcviky. Děti mohou využít jak sjezdové tratě, tak i běžecké stopy v blízkosti hotelu. Ubytování nabízí komfortní zázemí a stravování formou plné penze. Po lyžování mají děti k dispozici společenské prostory pro odpočinek.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def kycerka(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL KYCERKA</h3>
+      <p>
+        Hotel Kyčerka se nachází ve Velkých Karlovicích, v srdci Valašska, a nabízí ubytování s výhledem na krásnou přírodu Beskyd. Hotel má ideální polohu pro zimní sporty, zejména pro lyžařské kurzy, díky blízkosti Ski areálu Kyčerka. Hosté mají k dispozici komfortní pokoje s vlastním sociálním zařízením a Wi-Fi. Hotelová restaurace nabízí tradiční valašské pokrmy z lokálních surovin.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/kycerka.jpg" />
+
+      <h3>HOTEL KYCERKA A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Hotel Kyčerka se bude jezdit výhradně na lyžařské kurzy. Ski areál Kyčerka se nachází přímo u hotelu, což poskytuje ideální podmínky pro sjezdové lyžování. Areál nabízí několik sjezdovek různé obtížnosti, vhodných pro začátečníky i pokročilé lyžaře. Hotel poskytuje kompletní zázemí pro školní kurzy, včetně stravování formou plné penze a společenských prostor pro večerní aktivity.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def modraHvezda(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL MODRA HVEZDA</h3>
+      <p>
+        Hotel Modrá Hvězda se nachází v Krušných horách, v obci Horní Blatná. Nabízí pohodlné ubytování s celkovou kapacitou 42 lůžek v pokojích i apartmánech. Hosté mají k dispozici Wi-Fi, stravování ve formě polopenze nebo plné penze, a parkování. Hotel je díky své poloze vhodný pro lyžařské kurzy, zejména díky snadnému přístupu k blízkým sjezdovkám a běžeckým trasám.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/modra-hvezda.jpg" />
+
+      <h3>HOTEL MODRA HVEZDA A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Hotel Modrá Hvězda se bude jezdit výhradně na lyžařské kurzy, které využívají okolní ski areály a běžecké tratě.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def olsina(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>RESORT OLSINA</h3>
+      <p>
+        Resort Olšina se nachází na břehu nejvýše položeného rybníka v Čechách, v nedotčené přírodě Šumavy. Nabízí ubytování v klidném prostředí ideálním pro školy, které sem budou jezdit na enviro a V týmu kurzy. Resort poskytuje zázemí pro environmentální programy a týmové aktivity, které zahrnují turistiku, naučné stezky, sportovní aktivity, jako je adventure golf, volejbal, nebo půjčovnu kol a lodí. Pro výukové programy je zde dostupné návštěvnické centrum Olšina.
+      </p>
+      <img alt="Foto resortu" src="/images/hotely/olsina.jpg" />
+
+      <h3>RESORT OLSINA A ZŠ PRO DĚTI</h3>
+      <p>
+        Resort Olšina je ideálním místem pro školy, které hledají klidné prostředí pro enviro a V týmu kurzy. Díky dostupnému návštěvnickému centru a pestrým aktivitám je možné kombinovat vzdělávání s outdoorovými zážitky.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def laguna(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL LAGUNA</h3>
+      <p>
+        Hotel Laguna se nachází u Slapské přehrady, obklopen přírodou, a je ideálním místem pro pořádání enviro a V týmu kurzů. Nabízí ubytování v 26 pokojích, přičemž součástí vybavení jsou vlastní koupelna, Wi-Fi a satelitní TV. Hotel má vlastní restauraci s venkovním posezením, kde se podávají pokrmy z čerstvých surovin. Pro týmové aktivity jsou k dispozici prostory vhodné pro školení, teambuilding a outdoorové programy.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/laguna.jpg" />
+
+      <h3>HOTEL LAGUNA A ZŠ PRO DĚTI</h3>
+      <p>
+        Hotel Laguna poskytuje ideální zázemí pro enviro a V týmu kurzy, s možnostmi outdoorových aktivit a prostorami pro týmové programy. Hosté mohou využít přírodní okolí pro vzdělávací i zábavné činnosti.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def zadov(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL ZADOV</h3>
+      <p>
+        Hotel Zadov se nachází na Šumavě, v nadmořské výšce 1050 m n. m., přímo u sjezdovky Skiareálu Zadov. Nabízí komfortní ubytování s kapacitou až 200 lůžek v různých typech pokojů, včetně rodinných apartmánů. Hosté mohou využít hotelovou restauraci, která nabízí české i šumavské speciality, a wellness služby, jako jsou sauna a masáže.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/zadov.jpg" />
+
+      <h3>HOTEL ZADOV A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Hotel Zadov se bude jezdit výhradně na Enviro a V týmu kurzy. Díky své poloze je hotel ideální pro ekologické vzdělávání a týmové aktivity v nádherné přírodě Šumavy.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def cervenohorskeSedlo(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL ČERVENOHORSKÉ SEDLO</h3>
+      <p>
+        Hotel Červenohorské sedlo se nachází v srdci Jeseníků a nabízí ideální zázemí pro plavecké kurzy díky svému krytému bazénu o velikosti 16 x 8 metrů, s teplotou vody 28 °C. Kromě bazénu jsou k dispozici také sauna a masáže. Environmentální kurzy mohou těžit z nádherného okolí Hrubého Jeseníku, kde se nacházejí naučné stezky a další přírodní zajímavosti.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/cervenohorske-sedlo.jpg" />
+
+      <h3>HOTEL ČERVENOHORSKÉ SEDLO A ZŠ PRO DĚTI</h3>
+      <p>
+        Hotel Červenohorské sedlo poskytuje skvělé podmínky pro plavecké a environmentální kurzy, s možností využití krytého bazénu a přístupu k naučným stezkám v okolí.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def oberwengerhof(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>LANDHOTEL OBERWENGERHOF</h3>
+      <p>
+        Landhotel Oberwengerhof se nachází v krásném prostředí rakouských Alp, v oblasti Pyhrn-Priel, poblíž města Spital am Pyhrn. Nabízí ubytování v útulných apartmánech s výhledem na hory a zázemí pro relaxaci, včetně sauny. Hotel je ideální destinací pro školní lyžařské kurzy díky své blízkosti ke střediskům Hinterstoder (15 km) a Wurzeralm (10 km), která poskytují vynikající podmínky pro lyžování všech úrovní. Součástí hotelu je restaurace, kde se podávají pokrmy z místních surovin.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/oberwengerhof.jpg" />
+
+      <h3>LANDHOTEL OBERWENGERHOF A ZŠ PRO DĚTI</h3>
+      <p>
+        Landhotel Oberwengerhof je ideálním místem pro školní lyžařské kurzy, s přístupem k nedalekým ski areálům a pohodlným ubytováním pro studenty.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def adam(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL ADAM</h3>
+      <p>
+        Hotel Adam se nachází ve Špindlerově Mlýně, v krásné přírodě Krkonoš. Nabízí širokou škálu relaxačních služeb, včetně wellness centra s bazénem o rozměrech 13 x 5 metrů, sauny a vířivky. Hosté mohou využít restauraci s terasou a pochutnat si na české i mezinárodní kuchyni. Ubytování poskytuje komfortní pokoje s vlastní koupelnou a Wi-Fi. Díky své poloze je hotel ideálním místem pro školní pobyty zaměřené na plavání a ekologické vzdělávání. Nejbližší autobusová zastávka je 500 metrů od hotelu.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/adam.jpg" />
+
+      <h3>HOTEL ADAM A ZŠ PRO DĚTI</h3>
+      <p>
+        Spolupráce s hotelem Adam byla zahájena v roce 2024. Na tento hotel se bude jezdit výhradně na plavecké kurzy a enviro kurzy. Plavecké kurzy probíhají v hotelovém bazénu o rozměrech 13 x 5 metrů, kde děti mohou zlepšovat své plavecké dovednosti pod dohledem zkušených instruktorů. Hotel je také skvělým místem pro enviro kurzy, které se zaměřují na ekologii a ochranu přírody v oblasti Krkonošského národního parku. Děti se zde učí o významu šetrného zacházení s životním prostředím a poznávají jedinečné ekosystémy Krkonoš.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def panon(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL PANON</h3>
+      <p>
+        Hotel Panon se nachází v Hodoníně na jižní Moravě, což ho činí ideálním místem pro školy v přírodě zaměřené na plavecké kurzy. Přilehlý krytý plavecký bazén nabízí dvě možnosti koupání: větší bazén o rozměru 25 x 12,5 metru pro plavce a menší výukový bazén s rozměry 12,5 x 8 metrů a hloubkou 80 cm, který je určen pro výuku plavání. Děti mohou využít také vířivé bazénky, které jsou k dispozici pro relaxaci po výuce.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/panon.jpg" />
+
+      <h3>HOTEL PANON A ZŠ PRO DĚTI</h3>
+      <p>
+        Spolupráce s hotelem Panon byla zahájena v roce 2024 a je zaměřena na školy v přírodě s důrazem na plavecké kurzy. Výuka plavání probíhá v moderním krytém plaveckém areálu, kde se nachází dva nerezové bazény. Větší bazén o rozměru 25 x 12,5 metru je vhodný pro zkušené plavce, zatímco menší výukový bazén (12,5 x 8 metrů) s maximální hloubkou 80 cm je určen pro děti, které se plavat teprve učí. Pro děti je k dispozici také relaxační zóna s vířivkami, což umožňuje kombinovat intenzivní plavecký výcvik s odpočinkem.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def tanecnica(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL TANEČNICA</h3>
+      <p>
+        Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů. Pro enviro kurzy je okolní příroda Beskyd vynikajícím místem k poznávání ekosystémů, a nabízí možnosti turistických výprav a vzdělávacích aktivit v oblasti ekologie a ochrany přírody.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/tanecnica.jpg" />
+
+      <h3>HOTEL TANEČNICA A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Hotel Tanečnica se bude jezdit výhradně na školy v přírodě s plaváním a enviro školy v přírodě. Plavecké kurzy probíhají v krytém bazénu přímo v hotelu, kde děti mohou zdokonalovat své plavecké dovednosti. Kromě plavání je hotel skvělým výchozím bodem pro ekologické vzdělávací programy, které se zaměřují na poznávání krás Beskyd. Okolní příroda nabízí mnoho naučných stezek a možností, jak se děti mohou seznámit s ochranou přírody a místním ekosystémem.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
+  def zvikov(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: var(--Text, #333);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="location-course-wrap top">
+      <h3>HOTEL ZVÍKOV</h3>
+      <p>
+        Hotel Zvíkov se nachází na břehu Orlické přehrady, u soutoku řek Vltavy a Otavy, v blízkosti hradu Zvíkov. Nabízí komfortní ubytování s wellness službami, včetně bazénu a vířivky. Restaurace servíruje tradiční české pokrmy. Hotel je skvělým místem pro pořádání plaveckých kurzů i environmentálních škol v přírodě díky klidnému prostředí obklopenému přírodou a bohatými možnostmi pro výlety do okolí.
+      </p>
+      <img alt="Foto hotelu" src="/images/hotely/zvikov.jpg" />
+
+      <h3>HOTEL ZVÍKOV A ZŠ PRO DĚTI</h3>
+      <p>
+        Na Hotel Zvíkov se bude jezdit na plavecké kurzy a environmentální školy v přírodě. Krytý plavecký bazén nabízí ideální podmínky pro plavecké kurzy a relaxaci. Pro environmentální kurzy je lokalita ideální díky přítomnosti vodních ploch a blízkosti přírodních rezervací. Děti se mohou vzdělávat o ekologii a ochraně přírody přímo v okolí hotelu a při výletech do přírodních oblastí.
+      </p>
+    </div>
+    <br />
+    """
+  end
+
   def astra(assigns) do
     ~H"""
     <style>
