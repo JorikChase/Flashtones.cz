@@ -208,6 +208,30 @@ defmodule HeroSmall do
     """
   end
 
+  def oberwengerhof(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/oberwengerhof.jpg);
+      }
+    </style>
+    """
+  end
+
+  def laguna(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+        background-image: url(/images/hotely/laguna.jpg);
+      }
+    </style>
+    """
+  end
+
   def olsina(assigns) do
     ~H"""
     <div class="hero-small"></div>
