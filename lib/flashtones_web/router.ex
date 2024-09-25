@@ -193,7 +193,7 @@ defmodule FlashtonesWeb.Router do
     live "/lokality/cervenohorske-sedlo", LokalityCervenohorskeSedloLive
     live "/lokality/oberwengerhof", LokalityOberwengerhofLive
     live "/lokality/adam", LokalityAdamLive
-    live "/lokality/Panon", LokalityPanonLive
+    live "/lokality/panon", LokalityPanonLive
     live "/lokality/tanecnica", LokalityTanecnicaLive
     live "/lokality/zvikov", LokalityZvikovLive
 

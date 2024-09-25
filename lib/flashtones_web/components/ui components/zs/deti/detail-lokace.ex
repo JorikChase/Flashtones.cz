@@ -359,6 +359,86 @@ defmodule DetailLokace do
     <h3 class="disappear">Místa konání</h3>
     <div class="category" data-category="Plavání">
               <div class="product">
+                    <a href="/lokality/kadlecu">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/kadlecu.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Resort Kadleců
+                        </h4>
+                        <p class="font-normal">
+                        Resort Kadleců se nachází v srdci Šumavy, v klidné části města Volary, přibližně 5 km od Národního parku Šumava. Nabízí širokou škálu rekreačních a relaxačních služeb, včetně wellness centra se saunou, vířivkou, masážemi a posilovnou.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/lokality/adam">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/adam.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Adam
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Adam se nachází ve Špindlerově Mlýně, v krásné přírodě Krkonoš. Nabízí širokou škálu relaxačních služeb, včetně wellness centra s bazénem o rozměrech 13 x 5 metrů, sauny a vířivky.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/lokality/panon">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/panon.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel Panon
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Panon se nachází v Hodoníně na jižní Moravě, což ho činí ideálním místem pro školy v přírodě zaměřené na plavecké kurzy. Přilehlý krytý plavecký bazén nabízí dvě možnosti koupání.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/lokality/tanecnica">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/tanecnica.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        Hotel TANEČNICA
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
+                    <a href="/lokality/zvikov">
+                    <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/zvikov.jpg)"></div>
+                        <div class="product-text-wrap">
+                        <div class="product-text">
+                        <h4>
+                        HOTEL ZVÍKOV
+                        </h4>
+                        <p class="font-normal">
+                        Hotel Zvíkov se nachází na břehu Orlické přehrady, u soutoku řek Vltavy a Otavy, v blízkosti hradu Zvíkov. Nabízí komfortní ubytování s wellness službami, včetně bazénu a vířivky. Restaurace servíruje tradiční české pokrmy.
+                        </p>
+                        </div>
+                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                    </div>
+                    </a>
+              </div>
+              <div class="product">
                     <a href="/lokality/agri">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/agri/agri.jpg)"></div>
                         <div class="product-text-wrap">
@@ -586,6 +666,150 @@ defmodule DetailLokace do
     <div class="detail-lokace course-wrap">
     <h3 class="disappear">Místa konání</h3>
       <div class="category" data-category="Lyžování">
+      <div class="product">
+            <a href="/lokality/horni-pramen">
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/pramen-item.jpeg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                HOTEL HORNÍ PRAMEN
+                </h4>
+                <p>
+                Se nachází na kouzelném místě u lesa s dechberoucím výhledem na horya údolí Špindlerova Mlýna. Místo vyniká fantastickou výchozí pozicí na turistické trasy Krkonoš.
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/lesanka">
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lesanka.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Chata Lesanka
+                </h4>
+                <p>
+                Chata Lesanka se nachází v klidné části Šumavy, poblíž obce Kvilda, přibližně 2 km od centra obce, a nabízí svým hostům pohodlné ubytování a zázemí pro různé aktivity.
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/viktorka">
+            <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/viktorka.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Chata Viktorka
+                </h4>
+                <p>
+                Chata Viktorka se nachází v srdci Krkonoš, v klidné části Pece pod Sněžkou, pouhých 600 metrů od centra obce. Nabízí útulné ubytování s vlastní koupelnou a Wi-Fi zdarma.
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/sedmidoli">
+            <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sedmidoli.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Chata Sedmidolí
+                </h4>
+                <p>
+                Chata Sedmidolí se nachází v Krkonoších, v nadmořské výšce 1100 metrů, nedaleko Pece pod Sněžkou. Chata nabízí pohodlné ubytování v pokojích s vlastní koupelnou a Wi-Fi připojením...
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/dobra-chata">
+            <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/dobra-chata.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Hotel Dobrá chata
+                </h4>
+                <p>
+                Hotel Dobrá Chata se nachází v srdci Šumavy, v lyžařském středisku Zadov – Churáňov, přímo u sjezdovky, 20 m od nástupní stanice sedačkové lanovky. Nabízí pohodlné ubytování v 14 pokojích s kapacitou až 54 osob...
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/kycerka">
+            <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/kycerka.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Hotel Kyčerka
+                </h4>
+                <p>
+                Hotel Kyčerka se nachází ve Velkých Karlovicích, v srdci Valašska, a nabízí ubytování s výhledem na krásnou přírodu Beskyd. Hotel má ideální polohu pro zimní sporty, zejména pro lyžařské kurzy, díky blízkosti Ski areálu Kyčerka.
+                </p>
+                </div>
+                  <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
+                </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/kadlecu">
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/kadlecu.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Resort Kadleců
+                </h4>
+                <p class="font-normal">
+                Resort Kadleců se nachází v srdci Šumavy, v klidné části města Volary, přibližně 5 km od Národního parku Šumava. Nabízí širokou škálu rekreačních a relaxačních služeb, včetně wellness centra se saunou, vířivkou, masážemi a posilovnou.
+                </p>
+                </div>
+                <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" class="button-image"></b>
+            </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/oberwengerhof">
+            <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/oberwengerhof.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                LANDHOTEL OBERWENGERHOF
+                </h4>
+                <p class="font-normal">
+                Landhotel Oberwengerhof se nachází v krásném prostředí rakouských Alp, v oblasti Pyhrn-Priel, poblíž města Spital am Pyhrn. Nabízí ubytování v útulných apartmánech s výhledem na hory a zázemí pro relaxaci, včetně sauny.
+                </p>
+                </div>
+                <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" class="button-image"></b>
+            </div>
+            </a>
+      </div>
+      <div class="product">
+            <a href="/lokality/tanecnica">
+              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/tanecnica.jpg)"></div>
+                <div class="product-text-wrap">
+                <div class="product-text">
+                <h4>
+                Hotel TANEČNICA
+                </h4>
+                <p class="font-normal">
+                Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů.
+                </p>
+                </div>
+                <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" alt="Šipka" class="button-image"></b>
+            </div>
+            </a>
+      </div>
                 <div class="product">
                       <a href="/lokality/energetik">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.jpg)"></div>
@@ -778,6 +1002,86 @@ defmodule DetailLokace do
                           </p>
                           </div>
                           <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/lesanka">
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lesanka.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Chata Lesanka
+                          </h4>
+                          <p>
+                          Chata Lesanka se nachází v klidné části Šumavy, poblíž obce Kvilda, přibližně 2 km od centra obce, a nabízí svým hostům pohodlné ubytování a zázemí pro různé aktivity.
+                          </p>
+                          </div>
+                            <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                          </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/kadlecu">
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/kadlecu.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Resort Kadleců
+                          </h4>
+                          <p class="font-normal">
+                          Resort Kadleců se nachází v srdci Šumavy, v klidné části města Volary, přibližně 5 km od Národního parku Šumava. Nabízí širokou škálu rekreačních a relaxačních služeb, včetně wellness centra se saunou, vířivkou, masážemi a posilovnou.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/adam">
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/adam.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Hotel Adam
+                          </h4>
+                          <p class="font-normal">
+                          Hotel Adam se nachází ve Špindlerově Mlýně, v krásné přírodě Krkonoš. Nabízí širokou škálu relaxačních služeb, včetně wellness centra s bazénem o rozměrech 13 x 5 metrů, sauny a vířivky.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/tanecnica">
+                        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/tanecnica.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Hotel TANEČNICA
+                          </h4>
+                          <p class="font-normal">
+                          Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/zvikov">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/zvikov.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          HOTEL ZVÍKOV
+                          </h4>
+                          <p class="font-normal">
+                          Hotel Zvíkov se nachází na břehu Orlické přehrady, u soutoku řek Vltavy a Otavy, v blízkosti hradu Zvíkov. Nabízí komfortní ubytování s wellness službami, včetně bazénu a vířivky. Restaurace servíruje tradiční české pokrmy.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
                       </div>
                       </a>
                 </div>

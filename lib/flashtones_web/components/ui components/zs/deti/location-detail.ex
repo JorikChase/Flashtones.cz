@@ -177,13 +177,13 @@ defmodule LocationDetail do
       }
     </style>
     <div class="location-course-wrap top">
-      <h3>CHATA SEDMIDOLI</h3>
+      <h3>CHATA Sedmidolí</h3>
       <p>
         Chata Sedmidolí se nachází v Krkonoších, v nadmořské výšce 1100 metrů, nedaleko Pece pod Sněžkou. Chata nabízí pohodlné ubytování v pokojích s vlastní koupelnou a Wi-Fi připojením zdarma. Hosté mohou využít restauraci s českou kuchyní a venkovní terasu s výhledem na okolní přírodu. Chata se nachází přímo u sjezdovky Davidovka a poskytuje skvělé podmínky pro zimní sporty i letní turistiku. Pro děti a začátečníky je k dispozici menší sjezdovka Sedmidolí přímo za chatou.
       </p>
       <img alt="Foto hotelu" src="/images/hotely/sedmidoli.jpg" />
 
-      <h3>CHATA SEDMIDOLI A ZŠ PRO DĚTI</h3>
+      <h3>CHATA Sedmidolí A ZŠ PRO DĚTI</h3>
       <p>
         Chata Sedmidolí je ideálním místem pro školní lyžařské kurzy a letní školy v přírodě. Lyžařské kurzy probíhají na sjezdovce Davidovka (1400 m), která je součástí Skiareálu Špindlerův Mlýn. Pro menší děti a začátečníky je k dispozici menší sjezdovka přímo za chatou. Letní školy v přírodě jsou zaměřeny na environmentální aktivity a turistiku. Děti mají k dispozici venkovní hřiště, stolní fotbal, stolní tenis, trampolínu, ohniště a další aktivity, které je přímo spojují s přírodou.
       </p>
@@ -249,13 +249,13 @@ defmodule LocationDetail do
       }
     </style>
     <div class="location-course-wrap top">
-      <h3>HOTEL KYCERKA</h3>
+      <h3>HOTEL Kyčerka</h3>
       <p>
         Hotel Kyčerka se nachází ve Velkých Karlovicích, v srdci Valašska, a nabízí ubytování s výhledem na krásnou přírodu Beskyd. Hotel má ideální polohu pro zimní sporty, zejména pro lyžařské kurzy, díky blízkosti Ski areálu Kyčerka. Hosté mají k dispozici komfortní pokoje s vlastním sociálním zařízením a Wi-Fi. Hotelová restaurace nabízí tradiční valašské pokrmy z lokálních surovin.
       </p>
       <img alt="Foto hotelu" src="/images/hotely/kycerka.jpg" />
 
-      <h3>HOTEL KYCERKA A ZŠ PRO DĚTI</h3>
+      <h3>HOTEL Kyčerka A ZŠ PRO DĚTI</h3>
       <p>
         Na Hotel Kyčerka se bude jezdit výhradně na lyžařské kurzy. Ski areál Kyčerka se nachází přímo u hotelu, což poskytuje ideální podmínky pro sjezdové lyžování. Areál nabízí několik sjezdovek různé obtížnosti, vhodných pro začátečníky i pokročilé lyžaře. Hotel poskytuje kompletní zázemí pro školní kurzy, včetně stravování formou plné penze a společenských prostor pro večerní aktivity.
       </p>

@@ -316,7 +316,7 @@ defmodule Featured do
               <img alt="Ikona menu" src="/images/enviro/enviro-logo.svg" style="border-radius: 0;" />
             </a>
           </div>
-          <h3 class="my-5">Letní příměstské tábory</h3>
+          <h3 class="my-5">Letní příměstské tábory Enviro</h3>
           <p class="course-description">
             ZŠ Enviro je jedinečný koncept školy v přírodě s environmentální výchovou a sportovním a zábavním programem pro děti mladšího školního věku.
           </p>
