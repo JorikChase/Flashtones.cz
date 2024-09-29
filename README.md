@@ -1372,3 +1372,26 @@ web pro instruktory
 //- nahrat vymenena tlacitka
 
 - o nas
+###
+lektori:
+#~p"/lektori",
+#~p"/lektori/manual-fotky",
+# ~p"/lektori/vecerni-programy",
+# ~p"/lektori/sportovni-doplnkovy-program",
+# ~p"/lektori/svp-instruktor",
+# ~p"/lektori/svp-hlavni-instruktor",
+# ~p"/lektori/schuze-hlavnich-instruktoru",
+# ~p"/lektori/prezencni-list",
+# ~p"/lektori/plavani-zasobnik",
+# ~p"/lektori/plavani-pirati",
+# ~p"/lektori/plavani-chobotnice",
+# ~p"/lektori/plavani-vodni-zachrana",
+# ~p"/lektori/plavani-namornici",
+# ~p"/lektori/plavani-delfini",
+# ~p"/lektori/plavani-prirucka-instruktora",
+# ~p"/lektori/enviro-metodika",
+# ~p"/lektori/enviro-metodika-starsi",
+# ~p"/lektori/tym-autismus",
+# ~p"/lektori/tym-zakladni-info",
+# ~p"/lektori/tym-sbornik",
+# ~p"/lektori/tym-enviro-aktivity-starsi",
