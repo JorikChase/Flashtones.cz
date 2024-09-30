@@ -8,7 +8,9 @@ defmodule FlashtonesWeb.PlavaniIndexVerejnostLive do
         canonical: "https://zsprodeti.cz/plavani/verejnost",
         page_title: "ZŠ PLAVÁNÍ",
         description:
-          "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity."
+          "ZŠ PLAVÁNÍ, zš plavání, zsprodeti, zs plavani, zsplavani,
+      plavecký kroužek, plavecký kurz pro děti, školy v přírodě,
+      kurzy plavání pro děti, kurzy plavání pro děti praha, kurz plavani deti, škola v přírodě s plaváním"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "plavani")
 
