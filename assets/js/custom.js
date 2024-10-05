@@ -9,6 +9,145 @@ export const Synchronize = {
     synchronize();
   },
 };
+export const Oblasti = {
+  mounted() {
+    function oblasti() {
+      const variants = [
+        {
+          title: "ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ",
+          description:
+            "žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou polovinu povinné plavecké výuky",
+          color: "blue",
+          icon: "🚀",
+        },
+        {
+          title: "Data Garden",
+          description: "Grow your data skills in a playful environment!",
+          color: "green",
+          icon: "🌱",
+        },
+        {
+          title: "App Wizardry",
+          description: "Cast spells to create magical mobile experiences!",
+          color: "yellow",
+          icon: "⚡",
+        },
+      ];
+
+      // Helper function for simple animations
+      function animate(element, keyframes, options) {
+        return element.animate(keyframes, options);
+      }
+
+      // Create a course section
+      function createCourseSection(variant, isActive) {
+        const section = document.createElement("section");
+        section.className = `course-section ${variant.color}`;
+        section.style.opacity = isActive ? 1 : 0.3;
+        section.style.transition = "opacity 0.5s";
+
+        const content = document.createElement("div");
+        content.className = "course-content";
+
+        const icon = document.createElement("div");
+        icon.className = `course-icon ${isActive ? "bounce" : ""}`;
+        icon.textContent = variant.icon;
+        animate(icon, [{ transform: "scale(0)" }, { transform: "scale(1)" }], {
+          duration: 500,
+          easing: "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        });
+
+        const title = document.createElement("h2");
+        title.className = "course-title";
+        title.textContent = variant.title;
+
+        const description = document.createElement("p");
+        description.className = "course-description";
+        description.textContent = variant.description;
+
+        const button = document.createElement("button");
+        button.className = "course-button";
+        button.textContent = "Detail kurzu";
+        button.addEventListener("mouseover", () => {
+          animate(
+            button,
+            [{ transform: "scale(1)" }, { transform: "scale(1.05)" }],
+            { duration: 300, fill: "forwards" },
+          );
+        });
+        button.addEventListener("mouseout", () => {
+          animate(
+            button,
+            [{ transform: "scale(1.05)" }, { transform: "scale(1)" }],
+            { duration: 300, fill: "forwards" },
+          );
+        });
+
+        content.appendChild(icon);
+        content.appendChild(title);
+        content.appendChild(description);
+        content.appendChild(button);
+        section.appendChild(content);
+
+        return section;
+      }
+
+      // Main CourseOverview function
+      function CourseOverview() {
+        const container = document.createElement("div");
+        container.className = "course-container";
+
+        let activeVariant = 0;
+
+        variants.forEach((variant, index) => {
+          const sectionWrapper = document.createElement("div");
+          sectionWrapper.className = "course-section-wrapper";
+          const section = createCourseSection(variant, index === activeVariant);
+          sectionWrapper.appendChild(section);
+          container.appendChild(sectionWrapper);
+        });
+
+        let isScrolling = false;
+        container.addEventListener("scroll", () => {
+          if (!isScrolling) {
+            window.requestAnimationFrame(() => {
+              const scrollPosition = container.scrollTop;
+              const sectionHeight = window.innerHeight;
+              const newActiveVariant = Math.round(
+                scrollPosition / sectionHeight,
+              );
+              if (newActiveVariant !== activeVariant) {
+                activeVariant = newActiveVariant;
+                updateActiveSections();
+              }
+              isScrolling = false;
+            });
+          }
+          isScrolling = true;
+        });
+
+        function updateActiveSections() {
+          container
+            .querySelectorAll(".course-section")
+            .forEach((section, index) => {
+              section.style.opacity = index === activeVariant ? 1 : 0.3;
+              const icon = section.querySelector(".course-icon");
+              icon.className = `course-icon ${index === activeVariant ? "bounce" : ""}`;
+            });
+        }
+
+        return container;
+      }
+
+      // Initialize the CourseOverview
+      document.addEventListener("DOMContentLoaded", () => {
+        const root = document.getElementById("course-overview-container");
+        root.appendChild(CourseOverview());
+      });
+    }
+    oblasti();
+  },
+};
 export const ToggleSwitchPlavani = {
   mounted() {
     function start() {
@@ -97,43 +236,49 @@ export const ModularMenu = {
     function setCookie(name, value, days) {
       const expires = new Date();
       expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
-      document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+      document.cookie =
+        name + "=" + value + ";expires=" + expires.toUTCString() + ";path=/";
     }
 
     function getCookie(name) {
       const nameEQ = name + "=";
-      const ca = document.cookie.split(';');
-      for(let i = 0; i < ca.length; i++) {
+      const ca = document.cookie.split(";");
+      for (let i = 0; i < ca.length; i++) {
         let c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        while (c.charAt(0) === " ") c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0)
+          return c.substring(nameEQ.length, c.length);
       }
       return null;
     }
 
     function handleCookieConsent() {
-      const consentStatus = getCookie('cookieConsent');
-      const cookieElement = document.querySelector('.cookie');
+      const consentStatus = getCookie("cookieConsent");
+      const cookieElement = document.querySelector(".cookie");
 
       if (consentStatus === null) {
-        cookieElement.style.display = 'block';
+        cookieElement.style.display = "block";
       } else {
-        cookieElement.style.display = 'none';
-        if (consentStatus === 'agreed') {
+        cookieElement.style.display = "none";
+        if (consentStatus === "agreed") {
           enableGoogleAnalytics();
         }
       }
 
-      document.getElementById('cookie-agree').addEventListener('click', function() {
-        setCookie('cookieConsent', 'agreed', 365);
-        cookieElement.style.display = 'none';
-        enableGoogleAnalytics();
-      });
+      document
+        .getElementById("cookie-agree")
+        .addEventListener("click", function () {
+          setCookie("cookieConsent", "agreed", 365);
+          cookieElement.style.display = "none";
+          enableGoogleAnalytics();
+        });
 
-      document.getElementById('cookie-disagree').addEventListener('click', function() {
-        setCookie('cookieConsent', 'disagreed', 365);
-        cookieElement.style.display = 'none';
-      });
+      document
+        .getElementById("cookie-disagree")
+        .addEventListener("click", function () {
+          setCookie("cookieConsent", "disagreed", 365);
+          cookieElement.style.display = "none";
+        });
     }
 
     function enableGoogleAnalytics() {
@@ -141,16 +286,17 @@ export const ModularMenu = {
       (function () {
         var script = document.createElement("script");
         script.async = true;
-        script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
+        script.src =
+          "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
         document.head.appendChild(script);
-
+        console.log("tag active");
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
         }
         window.gtag = gtag; // Make gtag globally available
         gtag("js", new Date());
-        gtag("config", "G-SYGJRGDW2D");
+        gtag("config", "AW-11418638935");
       })();
     }
 
@@ -160,6 +306,7 @@ export const ModularMenu = {
         let cta = document.getElementById("detail-cta");
         let menu = document.getElementById("pcMenu");
         let menuBar = document.getElementById("pcMenuBar");
+        let menuCourseButton = document.getElementById("menu-course-button");
         let distanceToBottom =
           document.body.scrollHeight - window.innerHeight - window.scrollY;
         let ctaEnd = 1984;
@@ -183,10 +330,14 @@ export const ModularMenu = {
           menu.style.left = "0";
           menu.style.right = "0";
           menuBar.style.top = "0";
+          menuCourseButton.style.top = "0";
           menuBar.style.left = "0";
-          menuBar.style.right = "0";
+          menuBar.style.right = "180px";
+          menuCourseButton.style.right = "0";
+          menuCourseButton.style.left = "calc(100% - 180px)";
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
+          menuCourseButton.style.borderRadius = "0";
           if (
             window.innerHeight < window.innerWidth &&
             (plavani || lyzovani || enviro || vylety)
@@ -211,10 +362,14 @@ export const ModularMenu = {
           menu.style.left = "5%";
           menu.style.right = "5%";
           menuBar.style.top = "60px";
+          menuCourseButton.style.top = "60px";
           menuBar.style.left = "5%";
-          menuBar.style.right = "10%";
+          menuBar.style.right = "20%";
+          menuCourseButton.style.right = "5%";
+          menuCourseButton.style.left = "calc(80% + 30px)";
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
+          menuCourseButton.style.borderRadius = "10px";
           if (
             window.innerHeight < window.innerWidth &&
             (plavani || lyzovani || enviro || vylety)
@@ -237,43 +392,49 @@ export const ModularMenuRight = {
     function setCookie(name, value, days) {
       const expires = new Date();
       expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
-      document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+      document.cookie =
+        name + "=" + value + ";expires=" + expires.toUTCString() + ";path=/";
     }
 
     function getCookie(name) {
       const nameEQ = name + "=";
-      const ca = document.cookie.split(';');
-      for(let i = 0; i < ca.length; i++) {
+      const ca = document.cookie.split(";");
+      for (let i = 0; i < ca.length; i++) {
         let c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        while (c.charAt(0) === " ") c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0)
+          return c.substring(nameEQ.length, c.length);
       }
       return null;
     }
 
     function handleCookieConsent() {
-      const consentStatus = getCookie('cookieConsent');
-      const cookieElement = document.querySelector('.cookie');
+      const consentStatus = getCookie("cookieConsent");
+      const cookieElement = document.querySelector(".cookie");
 
       if (consentStatus === null) {
-        cookieElement.style.display = 'block';
+        cookieElement.style.display = "block";
       } else {
-        cookieElement.style.display = 'none';
-        if (consentStatus === 'agreed') {
+        cookieElement.style.display = "none";
+        if (consentStatus === "agreed") {
           enableGoogleAnalytics();
         }
       }
 
-      document.getElementById('cookie-agree').addEventListener('click', function() {
-        setCookie('cookieConsent', 'agreed', 365);
-        cookieElement.style.display = 'none';
-        enableGoogleAnalytics();
-      });
+      document
+        .getElementById("cookie-agree")
+        .addEventListener("click", function () {
+          setCookie("cookieConsent", "agreed", 365);
+          cookieElement.style.display = "none";
+          enableGoogleAnalytics();
+        });
 
-      document.getElementById('cookie-disagree').addEventListener('click', function() {
-        setCookie('cookieConsent', 'disagreed', 365);
-        cookieElement.style.display = 'none';
-      });
+      document
+        .getElementById("cookie-disagree")
+        .addEventListener("click", function () {
+          setCookie("cookieConsent", "disagreed", 365);
+          cookieElement.style.display = "none";
+        });
     }
 
     function enableGoogleAnalytics() {

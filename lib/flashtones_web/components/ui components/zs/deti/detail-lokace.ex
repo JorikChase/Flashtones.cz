@@ -990,6 +990,22 @@ defmodule DetailLokace do
                       </a>
                 </div>
                 <div class="product">
+                      <a href="/lokality/laguna">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/laguna.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          Hotel Laguna
+                          </h4>
+                          <p class="font-normal">
+                          Hotel Laguna se nachází u Slapské přehrady, obklopen přírodou, a je ideálním místem pro pořádání enviro a V týmu kurzů. Nabízí ubytování v 26 pokojích, přičemž součástí vybavení jsou vlastní koupelna, Wi-Fi a satelitní TV.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
                       <a href="/lokality/astra">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/astra/astra.jpg)"></div>
                           <div class="product-text-wrap">
@@ -1005,6 +1021,22 @@ defmodule DetailLokace do
                       </div>
                       </a>
                 </div>
+                <div class="product">
+                                    <a href="/lokality/jelenovska">
+                                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/jelenovska/jelenovska.png)"></div>
+                                      <div class="product-text-wrap">
+                                        <div class="product-text">
+                                        <h4>
+                                        Hotel Jelenovská
+                                        </h4>
+                                        <p class="font-normal">
+                                        Je usazen uprostřed překrásné chráněné krajiny Bílých Karpat v lese, kde dominantou je nenarušená příroda, klid a čistý vzduch. Plavecká výuka probíhá ve vnitřním vyhřívaném hotelovém bazénu.
+                                        </p>
+                                        </div>
+                                        <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
+                                        </div>
+                                    </a>
+                              </div>
                 <div class="product">
                       <a href="/lokality/lesanka">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lesanka.jpg)"></div>
@@ -1063,6 +1095,22 @@ defmodule DetailLokace do
                           </h4>
                           <p class="font-normal">
                           Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů.
+                          </p>
+                          </div>
+                          <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>
+                      </div>
+                      </a>
+                </div>
+                <div class="product">
+                      <a href="/lokality/zadov">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu Zadov" style="background-image: url(/images/hotely/zadov.jpg)"></div>
+                          <div class="product-text-wrap">
+                          <div class="product-text">
+                          <h4>
+                          HOTEL ZADOV
+                          </h4>
+                          <p class="font-normal">
+                          Hotel Zadov se nachází na Šumavě, v nadmořské výšce 1050 m n. m., přímo u sjezdovky Skiareálu Zadov. Nabízí komfortní ubytování s kapacitou až 200 lůžek v různých typech pokojů, včetně rodinných apartmánů.
                           </p>
                           </div>
                           <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" alt="Šipka" class="button-image"></b>

@@ -9,7 +9,7 @@ defmodule DetailCta do
       <br />
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--lyzovani-main)"
         href="/kontakty-formular"
       >
@@ -131,7 +131,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
       >
@@ -185,7 +185,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new"
       >
@@ -242,7 +242,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
       >
@@ -289,7 +289,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="/kontakty-formular"
       >
@@ -350,7 +350,7 @@ defmodule DetailCta do
       </span>
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         href="https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new"
       >
         Objednat 12 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
@@ -361,7 +361,7 @@ defmodule DetailCta do
       </span>
       <a
         class="cta-button cta-button2"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         href="https://rezervace.zsprodeti.cz/kurz-19/termin/150/rezervace/new"
       >
         Objednat 10 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
@@ -417,7 +417,7 @@ defmodule DetailCta do
       <br />
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="/kontakty-formular"
       >
@@ -470,7 +470,7 @@ defmodule DetailCta do
       <br />
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="/kontakty-formular"
       >
@@ -525,7 +525,7 @@ defmodule DetailCta do
       <span></span>
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
         href="mailto:petra@zsplavani.cz"
       >
@@ -565,7 +565,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--vylety-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--vylety-main)"
         href="/kontakty-formular"
       >
@@ -616,7 +616,7 @@ defmodule DetailCta do
       <br />
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--vylety-main)"
         href="/kontakty-formular"
       >
@@ -671,7 +671,7 @@ defmodule DetailCta do
       <br />
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--vylety-main)"
         href="/kontakty-formular"
       >
@@ -725,7 +725,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
         href="/kontakty-formular"
       >
@@ -775,7 +775,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
         href="https://rezervace.zsprodeti.cz/kurz-12/lokalita/27/termin/list"
       >
@@ -828,7 +828,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
         href="/kontakty-formular"
       >
@@ -878,7 +878,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
         href="/kontakty-formular"
       >
@@ -928,7 +928,7 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
       <a
         class="cta-button"
-        onClick="ctaClick"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
         href="/kontakty-formular"
       >
