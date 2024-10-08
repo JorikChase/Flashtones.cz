@@ -32,7 +32,7 @@ defmodule Nav do
 
           transition: all .5s ease;
           height: fit-content;
-          background: rgba(0, 0, 0, .8);
+          background: rgba(0, 0, 0, .88);
         }
 
         nav h1{
@@ -179,14 +179,30 @@ defmodule Nav do
         }
     </style>
     <div class="navBg"></div>
-    <button id="navToggle"><span class="nav-logo"></span>My jsme <img src="/images/ft/Flashtones.svg" alt="Flashtones logo" style="border-radius: 0; height: 65%;"><img src="/images/icon/dropdown.svg" alt="Menu"></button>
+    <button id="navToggle">
+      <span class="nav-logo"></span>My jsme
+      <img
+        src="/images/ft/Flashtones.svg"
+        alt="Flashtones logo"
+        style="border-radius: 0; height: 65%;"
+      /><img src="/images/icon/dropdown.svg" alt="Menu" />
+    </button>
     <button class="navToggle"></button>
     <nav id="navigation" class="navigation odsazeni" style="transform: translateY(-100%);">
       <div class="navHero">
-        <h1 class="noBreak" style="margin: 0; display: flex; flex-direction: row; align-items: center;">My jsme <div style="background-image: url(/images/ft/Flashtones.svg); background-position: 60% 60%; background-size: contain; background-repeat: no-repeat; border-radius: 0; height: 2em; width: 8em; margin-left: 10px;"></div></h1>
-        <a href="https://flashtones.cz/" >
-        <p>Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!</p>
-        <br>
+        <h1
+          class="noBreak"
+          style="margin: 0; display: flex; flex-direction: row; align-items: center;"
+        >
+          My jsme
+          <div style="background-image: url(/images/ft/Flashtones.svg); background-position: 60% 60%; background-size: contain; background-repeat: no-repeat; border-radius: 0; height: 2em; width: 8em; margin-left: 10px;">
+          </div>
+        </h1>
+        <a href="https://flashtones.cz/">
+          <p>
+            Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty, boříme stereotypy!
+          </p>
+          <br />
           <button class="button">
             navštívit hlavní web
           </button>
