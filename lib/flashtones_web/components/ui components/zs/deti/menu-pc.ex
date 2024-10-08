@@ -559,7 +559,7 @@ defmodule MenuPc do
               </div>
             </li>
             <li>
-              <a href="/informace" style="font-weight: 800;">Informace</a>
+              <a href="#" style="font-weight: 800;">Informace</a>
               <div class="dropdown">
                 <ul class="mini-informace">
                   <li>

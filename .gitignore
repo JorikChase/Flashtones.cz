@@ -61,3 +61,6 @@ priv/static/images/csv/rezervacak.csv
 priv/static/subscriptions.csv
 secrets.env
 priv/static/subscriptions.csv
+priv/static/subscriptions.csv
+priv/static/subscriptions.csv
+config/config.exs
