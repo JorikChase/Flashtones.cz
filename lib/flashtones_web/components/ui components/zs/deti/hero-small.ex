@@ -9,7 +9,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/deti/ti-co-uci.jpg);
+       background-image: url(/images/deti/ti-co-uci.avif);
        color: white;
       }
     </style>
@@ -46,7 +46,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/deti/10.jpg);
+       background-image: url(/images/deti/10.avif);
       }
     </style>
     """
@@ -58,7 +58,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/deti/15.jpg);
+       background-image: url(/images/deti/15.avif);
       }
     </style>
     """
@@ -70,7 +70,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/deti/deti-bg.jpeg);
+       background-image: url(/images/deti/deti-bg.avif);
       }
     </style>
     """
@@ -130,7 +130,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/kadlecu.jpg);
+        background-image: url(/images/hotely/kadlecu.avif);
       }
     </style>
     """
@@ -142,7 +142,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/lesanka.jpg);
+        background-image: url(/images/hotely/lesanka.avif);
       }
     </style>
     """
@@ -154,7 +154,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/viktorka.jpg);
+        background-image: url(/images/hotely/viktorka.avif);
       }
     </style>
     """
@@ -166,7 +166,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/sedmidoli.jpg);
+        background-image: url(/images/hotely/sedmidoli.avif);
       }
     </style>
     """
@@ -178,7 +178,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/dobra-chata.jpg);
+        background-image: url(/images/hotely/dobra-chata.avif);
       }
     </style>
     """
@@ -190,7 +190,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/kycerka.jpg);
+        background-image: url(/images/hotely/kycerka.avif);
       }
     </style>
     """
@@ -202,7 +202,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/modra-hvezda.jpg);
+        background-image: url(/images/hotely/modra-hvezda.avif);
       }
     </style>
     """
@@ -214,7 +214,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/oberwengerhof.jpg);
+        background-image: url(/images/hotely/oberwengerhof.avif);
       }
     </style>
     """
@@ -226,7 +226,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/laguna.jpg);
+        background-image: url(/images/hotely/laguna.avif);
       }
     </style>
     """
@@ -238,7 +238,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/olsina.jpg);
+        background-image: url(/images/hotely/olsina.avif);
       }
     </style>
     """
@@ -250,7 +250,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/zadov.jpg);
+        background-image: url(/images/hotely/zadov.avif);
       }
     </style>
     """
@@ -262,7 +262,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/cervenohorske-sedlo.jpg);
+        background-image: url(/images/hotely/cervenohorske-sedlo.avif);
       }
     </style>
     """
@@ -274,7 +274,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/adam.jpg);
+        background-image: url(/images/hotely/adam.avif);
       }
     </style>
     """
@@ -286,7 +286,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/panon.jpg);
+        background-image: url(/images/hotely/panon.avif);
       }
     </style>
     """
@@ -298,7 +298,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/tanecnica.jpg);
+        background-image: url(/images/hotely/tanecnica.avif);
       }
     </style>
     """
@@ -310,7 +310,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-        background-image: url(/images/hotely/zvikov.jpg);
+        background-image: url(/images/hotely/zvikov.avif);
       }
     </style>
     """
@@ -322,7 +322,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/agri/agri.jpg);
+       background-image: url(/images/hotely/agri/agri.avif);
       }
     </style>
     """
@@ -334,7 +334,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/astra/astra.jpg);
+       background-image: url(/images/hotely/astra/astra.avif);
       }
     </style>
     """
@@ -346,7 +346,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/brandys/brandys.jpg);
+       background-image: url(/images/hotely/brandys/brandys.avif);
       }
     </style>
     """
@@ -358,7 +358,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/bystre/bystre.jpg);
+       background-image: url(/images/hotely/bystre/bystre.avif);
       }
     </style>
     """
@@ -370,7 +370,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/energetik/energetik.jpg);
+       background-image: url(/images/hotely/energetik/energetik.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -383,7 +383,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/fontana/fontana.jpg);
+       background-image: url(/images/hotely/fontana/fontana.avif);
       }
     </style>
     """
@@ -395,7 +395,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/hotel-duo/hotel-duo.jpg);
+       background-image: url(/images/hotely/hotel-duo/hotel-duo.avif);
       }
     </style>
     """
@@ -407,7 +407,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/jelenovska/jelenovska.jpg);
+       background-image: url(/images/hotely/jelenovska/jelenovska.avif);
       }
     </style>
     """
@@ -419,7 +419,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lites/lites.jpg);
+       background-image: url(/images/hotely/lites/lites.avif);
       }
     </style>
     """
@@ -431,7 +431,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lubenec/lubenec.jpg);
+       background-image: url(/images/hotely/lubenec/lubenec.avif);
       }
     </style>
     """
@@ -443,7 +443,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lugsteinhof/lugsteinhof.jpg);
+       background-image: url(/images/hotely/lugsteinhof/lugsteinhof.avif);
       }
     </style>
     """
@@ -455,7 +455,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/maj/maj.webp);
+       background-image: url(/images/hotely/maj/maj.avif);
       }
     </style>
     """
@@ -467,7 +467,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/na-mulde/na-mulde.jpg);
+       background-image: url(/images/hotely/na-mulde/na-mulde.avif);
       }
     </style>
     """
@@ -479,7 +479,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg);
+       background-image: url(/images/hotely/palkovicke-hurky/palkovicke-hurky.avif);
       }
     </style>
     """
@@ -491,7 +491,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/plesivka/plesivka.jpeg);
+       background-image: url(/images/hotely/plesivka/plesivka.avif);
       }
     </style>
     """
@@ -503,7 +503,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/horni-pramen/horni-pramen.jpg);
+       background-image: url(/images/hotely/horni-pramen/horni-pramen.avif);
       }
     </style>
     """
@@ -515,7 +515,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/radost/radost.jpeg);
+       background-image: url(/images/hotely/radost/radost.avif);
       }
     </style>
     """
@@ -527,7 +527,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/rousarka/rousarka.jpg);
+       background-image: url(/images/hotely/rousarka/rousarka.avif);
       }
     </style>
     """
@@ -539,7 +539,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg);
+       background-image: url(/images/hotely/tetrevi-boudy/tetrevi-boudy.avif);
        background-position: 50% 40%;
       }
     </style>
@@ -552,7 +552,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/u-kurtu/u-kurtu.jpeg);
+       background-image: url(/images/hotely/u-kurtu/u-kurtu.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -565,7 +565,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/u-medveda/u-medveda.jpeg);
+       background-image: url(/images/hotely/u-medveda/u-medveda.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -578,7 +578,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/vlasim/vlasim.jpg);
+       background-image: url(/images/hotely/vlasim/vlasim.avif);
       }
     </style>
     """
@@ -590,7 +590,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/vysocina/vysocina.jpeg);
+       background-image: url(/images/hotely/vysocina/vysocina.avif);
       }
     </style>
     """
@@ -602,7 +602,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/lyzovani/vikendove.jpeg);
+       background-image: url(/images/lyzovani/vikendove.avif);
        background-position: 0% 80%;
       }
     </style>
@@ -615,7 +615,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/lyzovani/bezky.jpeg);
+       background-image: url(/images/lyzovani/bezky.avif);
        background-position: 50% 90%;
       }
     </style>
@@ -628,7 +628,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/lyzovani/skolni.jpeg);
+       background-image: url(/images/lyzovani/skolni.avif);
        background-position: 0% 10%;
       }
     </style>
@@ -641,7 +641,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/plavani-city-school.jpeg);
+       background-image: url(/images/plavani/plavani-city-school.avif);
       }
     </style>
     """
@@ -653,7 +653,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/letni-primestsky.jpeg);
+       background-image: url(/images/plavani/letni-primestsky.avif);
        background-position: 50% 40%;
       }
     </style>
@@ -666,7 +666,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/predskolni.jpeg);
+       background-image: url(/images/plavani/predskolni.avif);
        background-position: 50% 45%;
       }
     </style>
@@ -679,7 +679,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/plavani-school.jpeg);
+       background-image: url(/images/plavani/plavani-school.avif);
       }
     </style>
     """
@@ -691,7 +691,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/plavani-saturday.jpeg);
+       background-image: url(/images/plavani/plavani-saturday.avif);
        background-position: 50% 40%;
       }
     </style>
@@ -704,7 +704,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/plavani/vikendove-primestske.jpeg);
+       background-image: url(/images/plavani/vikendove-primestske.avif);
       }
     </style>
     """
@@ -728,7 +728,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/produkty/flashtones-na-miru.jpeg);
+       background-image: url(/images/produkty/flashtones-na-miru.avif);
       }
     </style>
     """
@@ -776,7 +776,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/ft/contact-hero.jpeg);
+       background-image: url(/images/ft/contact-hero.avif);
       }
     </style>
     """
@@ -800,7 +800,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lokality-enviro.jpg);
+       background-image: url(/images/hotely/lokality-enviro.avif);
       }
     </style>
     """
@@ -812,7 +812,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lokality-enviro.jpg);
+       background-image: url(/images/hotely/lokality-enviro.avif);
       }
     </style>
     """
@@ -824,7 +824,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lokality-plavani.jpg);
+       background-image: url(/images/hotely/lokality-plavani.avif);
       }
     </style>
     """
@@ -836,7 +836,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/hotely/lokality-lyzovani.jpg);
+       background-image: url(/images/hotely/lokality-lyzovani.avif);
       }
     </style>
     """
@@ -848,7 +848,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/brandysek.jpeg);
+       background-image: url(/images/vylety/brandysek.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -861,7 +861,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/jaromer.jpg);
+       background-image: url(/images/vylety/jaromer.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -874,7 +874,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/hulice.jpeg);
+       background-image: url(/images/vylety/hulice.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -887,7 +887,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/huslik.jpg);
+       background-image: url(/images/vylety/huslik.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -900,7 +900,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/vlasim.jpeg);
+       background-image: url(/images/vylety/vlasim.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -913,7 +913,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/remesla.jpeg);
+       background-image: url(/images/vylety/remesla.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -926,7 +926,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/votice.jpg);
+       background-image: url(/images/vylety/votice.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -939,7 +939,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/hrachov.jpg);
+       background-image: url(/images/vylety/hrachov.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -952,7 +952,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/berlin/berlin-head.jpg);
+       background-image: url(/images/vylety/berlin/berlin-head.avif);
        background-position: 50% 20%;
       }
     </style>
@@ -965,7 +965,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/terezin/terezin-head.jpg);
+       background-image: url(/images/vylety/terezin/terezin-head.avif);
        background-position: 50% 65%;
       }
     </style>
@@ -978,7 +978,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/osvetim/osvetim-head.jpg);
+       background-image: url(/images/vylety/osvetim/osvetim-head.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -991,7 +991,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/tabor/tabor-head.webp);
+       background-image: url(/images/vylety/tabor/tabor-head.avif);
        background-position: 50% 70%;
       }
     </style>
@@ -1004,7 +1004,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/drazdany/drazdany-head.jpg);
+       background-image: url(/images/vylety/drazdany/drazdany-head.avif);
        background-position: 50% 30%;
       }
     </style>
@@ -1017,7 +1017,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/kutna-hora/kutna-hora-head.jpg);
+       background-image: url(/images/vylety/kutna-hora/kutna-hora-head.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -1030,7 +1030,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/mnichov/mnichov-head.jpg);
+       background-image: url(/images/vylety/mnichov/mnichov-head.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -1043,7 +1043,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.JPG);
+       background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -1056,7 +1056,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/vylety/praha/praha-head.jpg);
+       background-image: url(/images/vylety/praha/praha-head.avif);
        background-position: 50% 35%;
       }
     </style>
@@ -1069,7 +1069,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/svp.jpeg);
+       background-image: url(/images/enviro/svp.avif);
        background-position: 0% 40%;
       }
     </style>
@@ -1082,7 +1082,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/tym.jpeg);
+       background-image: url(/images/enviro/tym.avif);
        background-position: 50% 50%;
       }
     </style>
@@ -1095,7 +1095,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/enviro-ss-tym-head.jpeg);
+       background-image: url(/images/enviro/enviro-ss-tym-head.avif);
        background-position: 50% 45%;
       }
     </style>
@@ -1108,7 +1108,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/city.jpeg);
+       background-image: url(/images/enviro/city.avif);
        background-position: 50% 40%;
       }
     </style>
@@ -1121,7 +1121,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/evp.jpeg);
+       background-image: url(/images/enviro/evp.avif);
       }
     </style>
     """
@@ -1133,7 +1133,7 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/enviro/weekend.jpeg);
+       background-image: url(/images/enviro/weekend.avif);
        background-position: 50% 38%;
       }
     </style>

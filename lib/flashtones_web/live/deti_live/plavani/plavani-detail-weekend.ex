@@ -64,7 +64,7 @@ defmodule FlashtonesWeb.PlavaniDetailWeekendLive do
           <a>
             <div
               class="detail-lokace-item-img"
-              style="background-image: url(/images/hotely/radotin.jpg)"
+              style="background-image: url(/images/hotely/radotin.avif)"
             >
             </div>
             <div class="product-text-wrap">
@@ -84,7 +84,7 @@ defmodule FlashtonesWeb.PlavaniDetailWeekendLive do
         <a>
           <div
             class="detail-lokace-item-img"
-            style="background-image: url(/images/hotely/prazacka.jpg)"
+            style="background-image: url(/images/hotely/prazacka.avif)"
           >
           </div>
           <div class="product-text-wrap">

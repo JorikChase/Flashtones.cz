@@ -4,125 +4,142 @@ defmodule Footer do
   def footer(assigns) do
     ~H"""
     <style>
-    footer{
-      background-color: black;
-    }
-    .footerLink{
-      display: flex;
-      flex-direction: row;
-
-    }
-    .footerLinks-wrap{
-      color: white;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-    }
-      .footerLinks{
-        height: auto;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 30px;
+      footer{
+        background-color: black;
       }
-      .footerLinksColumn{
-        width: 30%;
+      .footerLink{
+        display: flex;
+        flex-direction: row;
+
+      }
+      .footerLinks-wrap{
+        color: white;
         display: flex;
         flex-direction: column;
         gap: 60px;
       }
-      .footerLinkItem{
-        height: 5em;
-      }
-      .footerHeading-wrap{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
-      }
-      .footer-icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 30px;
-      }
-      .footer-icons a{
-        height: 60px;
-        aspect-ratio: 1/1;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-      }
-      .copyright{
-        color: #D9B770;
-        font-family: Barlow;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; /* 156.25% */
-        gap: 15px;
-        border-radius: 0;
-      }
-      .plavani-hover-link:hover > * {
-        color: var(--plavani-link);
-      }
-      .lyzovani-hover-link:hover > * {
-        color: var(--lyzovani-link);
-      }
-      .enviro-hover-link:hover > * {
-        color: var(--enviro-link);
-      }
-      .vylety-hover-link:hover > * {
-        color: var(--vylety-link);
-      }
-      .doma-hover-link:hover > * {
-        color: var(--doma-link);
-      }
-      .academy-hover-link:hover > * {
-        color: var(--academy-link);
-      }
-      .footerLinks .footerLinksColumn h3{
-        margin-top: 0;
-        padding: 0;
-      }
-      @media (orientation: portrait){
-        .footerLinksColumn{
-          width: auto;
+        .footerLinks{
+          height: auto;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
           gap: 30px;
         }
+        .footerLinksColumn{
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          gap: 60px;
+        }
         .footerLinkItem{
-          height: auto;
+          height: 5em;
         }
         .footerHeading-wrap{
-        display: flex;
-        flex-direction: column;
-      }
-        .footerHeading-wrap h2{
-        color: white;
-      }
-      .footer-icons{
-        gap: 15px;
-      }
-      }
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          gap: 30px;
+        }
+        .footer-icons{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 30px;
+        }
+        .footer-icons a{
+          height: 60px;
+          aspect-ratio: 1/1;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .copyright{
+          color: #D9B770;
+          font-family: Barlow;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px; /* 156.25% */
+          gap: 15px;
+          border-radius: 0;
+        }
+        .plavani-hover-link:hover > * {
+          color: var(--plavani-link);
+        }
+        .lyzovani-hover-link:hover > * {
+          color: var(--lyzovani-link);
+        }
+        .enviro-hover-link:hover > * {
+          color: var(--enviro-link);
+        }
+        .vylety-hover-link:hover > * {
+          color: var(--vylety-link);
+        }
+        .doma-hover-link:hover > * {
+          color: var(--doma-link);
+        }
+        .academy-hover-link:hover > * {
+          color: var(--academy-link);
+        }
+        .footerLinks .footerLinksColumn h3{
+          margin-top: 0;
+          padding: 0;
+        }
+        @media (orientation: portrait){
+          .footerLinksColumn{
+            width: auto;
+            gap: 30px;
+          }
+          .footerLinkItem{
+            height: auto;
+          }
+          .footerHeading-wrap{
+          display: flex;
+          flex-direction: column;
+        }
+          .footerHeading-wrap h2{
+          color: white;
+        }
+        .footer-icons{
+          gap: 15px;
+        }
+        }
     </style>
-    <footer class="footerLinks-wrap odsazeni-footer" style="border-radius: 15px 15px 0 0;">
-    <div class="footerHeading-wrap"><h2 style="margin: 0;">CO NÁS BAVÍ</h2>
-      <div class="footer-icons">
-        <a target="_blank" href="https://www.instagram.com/flashtonescz/" style="background-image: url(/images/icon/insta.svg)"></a>
-        <a target="_blank" href="https://www.facebook.com/flashtones/" style="background-image: url(/images/icon/fb.svg)"></a>
-        <a target="_blank" href="https://www.youtube.com/@flashtones4130" style="background-image: url(/images/icon/yt.svg)"></a>
+    <footer class="footerLinks-wrap odsazeni-footer" style="border-radius: 0;">
+      <div class="footerHeading-wrap">
+        <h2 style="margin: 0;">CO NÁS BAVÍ</h2>
+        <div class="footer-icons">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/flashtonescz/"
+            style="background-image: url(/images/icon/insta.svg)"
+          >
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/flashtones/"
+            style="background-image: url(/images/icon/fb.svg)"
+          >
+          </a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/@flashtones4130"
+            style="background-image: url(/images/icon/yt.svg)"
+          >
+          </a>
+        </div>
       </div>
-    </div>
       <Navlinks.general />
       <span class="noBreak copyright">
-      Copyright © 2023
-      <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" alt="Logo Flashtones"/>
+        Copyright © 2023
+        <img src="/images/ft/Flashtones.svg" style="border-radius: 0;" alt="Logo Flashtones" />
       </span>
     </footer>
     """
   end
+
   def deti(assigns) do
     ~H"""
     <style>
@@ -210,9 +227,8 @@ defmodule Footer do
       }
       }
     </style>
-    <footer class="odsazeni-footer" style="border-radius: 15px 15px 0 0;">
+    <footer class="odsazeni-footer" style="border-radius: 0;">
       <Navlinks.deti />
-
     </footer>
     """
   end

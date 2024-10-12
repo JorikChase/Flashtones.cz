@@ -232,63 +232,63 @@ defmodule KurzNav do
       <a
         href="/vylety/berlin"
         class="vylet-item"
-        style="background-image: url(/images/vylety/berlin/berlin-head.jpg)"
+        style="background-image: url(/images/vylety/berlin/berlin-head.avif)"
       >
         <h4>Berlín 20. století</h4>
       </a>
       <a
         href="/vylety/terezin"
         class="vylet-item"
-        style="background-image: url(/images/vylety/terezin/terezin-head.jpg)"
+        style="background-image: url(/images/vylety/terezin/terezin-head.avif)"
       >
         <h4>Pevnostní město Terezín</h4>
       </a>
       <a
         href="/vylety/osvetim"
         class="vylet-item"
-        style="background-image: url(/images/vylety/osvetim/osvetim-head.jpg)"
+        style="background-image: url(/images/vylety/osvetim/osvetim-head.avif)"
       >
         <h4>Osvětim</h4>
       </a>
       <a
         href="/vylety/tabor"
         class="vylet-item"
-        style="background-image: url(/images/vylety/tabor/tabor-head.webp)"
+        style="background-image: url(/images/vylety/tabor/tabor-head.avif)"
       >
         <h4>Tábor</h4>
       </a>
       <a
         href="/vylety/drazdany"
         class="vylet-item"
-        style="background-image: url(/images/vylety/drazdany/drazdany-head.jpg)"
+        style="background-image: url(/images/vylety/drazdany/drazdany-head.avif)"
       >
         <h4>Drážďany</h4>
       </a>
       <a
         href="/vylety/kutna-hora"
         class="vylet-item"
-        style="background-image: url(/images/vylety/kutna-hora/kutna-hora-head.jpg)"
+        style="background-image: url(/images/vylety/kutna-hora/kutna-hora-head.avif)"
       >
         <h4>Kutná Hora</h4>
       </a>
       <a
         href="/vylety/mnichov"
         class="vylet-item"
-        style="background-image: url(/images/vylety/mnichov/mnichov-head.jpg)"
+        style="background-image: url(/images/vylety/mnichov/mnichov-head.avif)"
       >
         <h4>Mnichov</h4>
       </a>
       <a
         href="/vylety/boleslav"
         class="vylet-item"
-        style="background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.JPG)"
+        style="background-image: url(/images/vylety/mlada-boleslav/mlada-boleslav-head.avif)"
       >
         <h4>Mladá Boleslav - Muzeum Škoda</h4>
       </a>
       <a
         href="/vylety/praha"
         class="vylet-item"
-        style="background-image: url(/images/vylety/praha/praha-head.jpg)"
+        style="background-image: url(/images/vylety/praha/praha-head.avif)"
       >
         <h4>Praha</h4>
       </a>
@@ -307,56 +307,56 @@ defmodule KurzNav do
       <a
         href="/vylety/priroda/aves-brandysek"
         class="vylet-item"
-        style="background-image: url(/images/vylety/brandysek.jpeg)"
+        style="background-image: url(/images/vylety/brandysek.avif)"
       >
         <h4>Záchranná stanice Aves Brandýsek</h4>
       </a>
       <a
         href="/vylety/priroda/centrum-jaromer"
         class="vylet-item"
-        style="background-image: url(/images/vylety/jaromer.jpg)"
+        style="background-image: url(/images/vylety/jaromer.avif)"
       >
         <h4>Záchranné centrum Jaroměř</h4>
       </a>
       <a
         href="/vylety/priroda/ekocentrum-huslik"
         class="vylet-item"
-        style="background-image: url(/images/vylety/huslik.jpg)"
+        style="background-image: url(/images/vylety/huslik.avif)"
       >
         <h4>Ekocentrum Huslík</h4>
       </a>
       <a
         href="/vylety/priroda/ekocentrum-hulice"
         class="vylet-item"
-        style="background-image: url(/images/vylety/hulice.jpeg)"
+        style="background-image: url(/images/vylety/hulice.avif)"
       >
         <h4>Ekocentrum Hulice</h4>
       </a>
       <a
         href="/vylety/priroda/stanice-hrachov"
         class="vylet-item"
-        style="background-image: url(/images/vylety/hrachov.jpg)"
+        style="background-image: url(/images/vylety/hrachov.avif)"
       >
         <h4>Záchranná stanice Hrachov</h4>
       </a>
       <a
         href="/vylety/priroda/motylarium-votice"
         class="vylet-item"
-        style="background-image: url(/images/vylety/votice.jpg)"
+        style="background-image: url(/images/vylety/votice.avif)"
       >
         <h4>Motýlárium Votice</h4>
       </a>
       <a
         href="/vylety/priroda/ekocentrum-vlasim"
         class="vylet-item"
-        style="background-image: url(/images/vylety/vlasim.jpeg)"
+        style="background-image: url(/images/vylety/vlasim.avif)"
       >
         <h4>Podblanické ekocentrum Vlašim</h4>
       </a>
       <a
         href="/vylety/priroda/kurz-remesel"
         class="vylet-item"
-        style="background-image: url(/images/vylety/remesla.jpeg)"
+        style="background-image: url(/images/vylety/remesla.avif)"
       >
         <h4>Kurz ZŠ Řemesel</h4>
       </a>
@@ -502,7 +502,10 @@ defmodule KurzNav do
     <div class="news-grid">
       <article class="news-item">
         <a href="/blog/ti-co-uci">
-          <img src="/images/deti/ti-co-uci.jpg" alt="View from inside a tent looking out at a forest" />
+          <img
+            src="/images/deti/ti-co-uci.avif"
+            alt="View from inside a tent looking out at a forest"
+          />
           <div class="news-content">
             <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">Plavání a ti, co ho učí</h2>
@@ -512,7 +515,7 @@ defmodule KurzNav do
       </article>
       <article class="news-item">
         <a href="/blog/v-tymu">
-          <img src="/images/deti/15.jpg" alt="Swimming courses with children" />
+          <img src="/images/deti/15.avif" alt="Swimming courses with children" />
           <div class="news-content">
             <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">INOVATIVNÍ PŘÍSTUP K ROZVOJI TŘÍDNÍHO KOLEKTIVU</h2>
@@ -522,7 +525,7 @@ defmodule KurzNav do
       </article>
       <article class="news-item">
         <a href="/blog/plavecke-dovednosti">
-          <img src="/images/deti/10.jpg" alt="Swimming courses with children" />
+          <img src="/images/deti/10.avif" alt="Swimming courses with children" />
           <div class="news-content">
             <span class="news-category">BLOG PRO DĚTI</span>
             <h2 class="news-title">RODIČE, JE ČAS POSÍLIT PLAVECKÉ DOVEDNOSTI VAŠICH DĚTÍ!</h2>

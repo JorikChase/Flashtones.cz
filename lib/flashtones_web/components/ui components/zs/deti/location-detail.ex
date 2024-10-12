@@ -34,7 +34,7 @@ defmodule LocationDetail do
         a využít jako samostatná lůžka. Apartmány mají k dispozic rozkládací sofa pro 1-2
         hosty.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/agri/agri.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/agri/agri.avif" />
       <h3>HOTEL AGRI A ZŠ PRO DĚTI</h3>
       <p>
         Spolupráce s hotelem Agri započala od roku 2023. Hotel je díky své poloze vhodný
@@ -73,7 +73,7 @@ defmodule LocationDetail do
       <p>
         Resort Kadleců se nachází v srdci Šumavy, v klidné části města Volary, přibližně 5 km od Národního parku Šumava. Nabízí širokou škálu rekreačních a relaxačních služeb, včetně wellness centra se saunou, vířivkou, masážemi a posilovnou. Hosté mohou využít restauraci s terasou, kde si mohou pochutnat na tradičních šumavských a českých pokrmech. Resort poskytuje ubytování v komfortních pokojích s vlastní koupelnou a Wi-Fi připojením zdarma. Hosté si mohou zahrát kulečník, šipky nebo stolní tenis. Lyžařská střediska Kubova Huť a Nové Hutě se nachází 10 km od resortu. Nejbližší autobusová zastávka je 300 metrů odtud. Bazén není přímo v resortu, ale hosté mohou využít veřejný bazén ve Volarech.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/kadlecu.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/kadlecu.avif" />
 
       <h3>RESORT KADLECU A ZŠ PRO DĚTI</h3>
       <p>
@@ -109,7 +109,7 @@ defmodule LocationDetail do
       <p>
         Chata Lesanka se nachází v klidné části Šumavy, poblíž obce Kvilda, přibližně 2 km od centra obce, a nabízí svým hostům pohodlné ubytování a zázemí pro různé aktivity. Hosté mohou využít stylovou restauraci, kde se podávají pokrmy inspirované tradiční šumavskou a českou kuchyní. K dispozici je venkovní terasa s krásným výhledem do okolní přírody. Chata nabízí také venkovní sportovní vybavení a prostory pro odpočinek. Veškeré pokoje jsou vybavené vlastní koupelnou a Wi-Fi připojením zdarma. Nejbližší autobusová zastávka je vzdálena 200 metrů od chaty.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/lesanka.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/lesanka.avif" />
 
       <h3>CHATA LESANKA A ZŠ PRO DĚTI</h3>
       <p>
@@ -145,7 +145,7 @@ defmodule LocationDetail do
       <p>
         Chata Viktorka se nachází v srdci Krkonoš, v klidné části Pece pod Sněžkou, pouhých 600 metrů od centra obce. Nabízí útulné ubytování s vlastní koupelnou a Wi-Fi zdarma. Hosté mohou využít stylovou restauraci, kde se podávají tradiční české pokrmy. K dispozici je také terasa s výhledem na okolní přírodu. Díky své poloze je Chata Viktorka ideální základnou pro milovníky turistiky i zimních sportů. Přímo u chaty se nachází běžecké trasy a sjezdovky jsou jen několik minut chůze.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/viktorka.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/viktorka.avif" />
 
       <h3>CHATA VIKTORKA A ZŠ PRO DĚTI</h3>
       <p>
@@ -181,7 +181,7 @@ defmodule LocationDetail do
       <p>
         Chata Sedmidolí se nachází v Krkonoších, v nadmořské výšce 1100 metrů, nedaleko Pece pod Sněžkou. Chata nabízí pohodlné ubytování v pokojích s vlastní koupelnou a Wi-Fi připojením zdarma. Hosté mohou využít restauraci s českou kuchyní a venkovní terasu s výhledem na okolní přírodu. Chata se nachází přímo u sjezdovky Davidovka a poskytuje skvělé podmínky pro zimní sporty i letní turistiku. Pro děti a začátečníky je k dispozici menší sjezdovka Sedmidolí přímo za chatou.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/sedmidoli.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/sedmidoli.avif" />
 
       <h3>CHATA Sedmidolí A ZŠ PRO DĚTI</h3>
       <p>
@@ -217,7 +217,7 @@ defmodule LocationDetail do
       <p>
         Hotel Dobrá Chata se nachází v srdci Šumavy, v lyžařském středisku Zadov – Churáňov, přímo u sjezdovky, 20 m od nástupní stanice sedačkové lanovky. Nabízí pohodlné ubytování v 14 pokojích s kapacitou až 54 osob, s vlastním sociálním zařízením a Wi-Fi zdarma. V restauraci se podávají tradiční české pokrmy, připravené z lokálních surovin. Hosté mohou využít také saunu. V zimě jsou zde ideální podmínky pro lyžování a zimní sporty.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/dobra-chata.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/dobra-chata.avif" />
 
       <h3>HOTEL DOBRA CHATA A ZŠ PRO DĚTI</h3>
       <p>
@@ -253,7 +253,7 @@ defmodule LocationDetail do
       <p>
         Hotel Kyčerka se nachází ve Velkých Karlovicích, v srdci Valašska, a nabízí ubytování s výhledem na krásnou přírodu Beskyd. Hotel má ideální polohu pro zimní sporty, zejména pro lyžařské kurzy, díky blízkosti Ski areálu Kyčerka. Hosté mají k dispozici komfortní pokoje s vlastním sociálním zařízením a Wi-Fi. Hotelová restaurace nabízí tradiční valašské pokrmy z lokálních surovin.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/kycerka.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/kycerka.avif" />
 
       <h3>HOTEL Kyčerka A ZŠ PRO DĚTI</h3>
       <p>
@@ -289,7 +289,7 @@ defmodule LocationDetail do
       <p>
         Hotel Modrá Hvězda se nachází v Krušných horách, v obci Horní Blatná. Nabízí pohodlné ubytování s celkovou kapacitou 42 lůžek v pokojích i apartmánech. Hosté mají k dispozici Wi-Fi, stravování ve formě polopenze nebo plné penze, a parkování. Hotel je díky své poloze vhodný pro lyžařské kurzy, zejména díky snadnému přístupu k blízkým sjezdovkám a běžeckým trasám.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/modra-hvezda.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/modra-hvezda.avif" />
 
       <h3>HOTEL MODRA HVEZDA A ZŠ PRO DĚTI</h3>
       <p>
@@ -325,7 +325,7 @@ defmodule LocationDetail do
       <p>
         Resort Olšina se nachází na břehu nejvýše položeného rybníka v Čechách, v nedotčené přírodě Šumavy. Nabízí ubytování v klidném prostředí ideálním pro školy, které sem budou jezdit na enviro a V týmu kurzy. Resort poskytuje zázemí pro environmentální programy a týmové aktivity, které zahrnují turistiku, naučné stezky, sportovní aktivity, jako je adventure golf, volejbal, nebo půjčovnu kol a lodí. Pro výukové programy je zde dostupné návštěvnické centrum Olšina.
       </p>
-      <img alt="Foto resortu" src="/images/hotely/olsina.jpg" />
+      <img alt="Foto resortu" src="/images/hotely/olsina.avif" />
 
       <h3>RESORT OLSINA A ZŠ PRO DĚTI</h3>
       <p>
@@ -361,7 +361,7 @@ defmodule LocationDetail do
       <p>
         Hotel Laguna se nachází u Slapské přehrady, obklopen přírodou, a je ideálním místem pro pořádání enviro a V týmu kurzů. Nabízí ubytování v 26 pokojích, přičemž součástí vybavení jsou vlastní koupelna, Wi-Fi a satelitní TV. Hotel má vlastní restauraci s venkovním posezením, kde se podávají pokrmy z čerstvých surovin. Pro týmové aktivity jsou k dispozici prostory vhodné pro školení, teambuilding a outdoorové programy.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/laguna.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/laguna.avif" />
 
       <h3>HOTEL LAGUNA A ZŠ PRO DĚTI</h3>
       <p>
@@ -397,7 +397,7 @@ defmodule LocationDetail do
       <p>
         Hotel Zadov se nachází na Šumavě, v nadmořské výšce 1050 m n. m., přímo u sjezdovky Skiareálu Zadov. Nabízí komfortní ubytování s kapacitou až 200 lůžek v různých typech pokojů, včetně rodinných apartmánů. Hosté mohou využít hotelovou restauraci, která nabízí české i šumavské speciality, a wellness služby, jako jsou sauna a masáže.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/zadov.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/zadov.avif" />
 
       <h3>HOTEL ZADOV A ZŠ PRO DĚTI</h3>
       <p>
@@ -433,7 +433,7 @@ defmodule LocationDetail do
       <p>
         Hotel Červenohorské sedlo se nachází v srdci Jeseníků a nabízí ideální zázemí pro plavecké kurzy díky svému krytému bazénu o velikosti 16 x 8 metrů, s teplotou vody 28 °C. Kromě bazénu jsou k dispozici také sauna a masáže. Environmentální kurzy mohou těžit z nádherného okolí Hrubého Jeseníku, kde se nacházejí naučné stezky a další přírodní zajímavosti.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/cervenohorske-sedlo.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/cervenohorske-sedlo.avif" />
 
       <h3>HOTEL ČERVENOHORSKÉ SEDLO A ZŠ PRO DĚTI</h3>
       <p>
@@ -469,7 +469,7 @@ defmodule LocationDetail do
       <p>
         Landhotel Oberwengerhof se nachází v krásném prostředí rakouských Alp, v oblasti Pyhrn-Priel, poblíž města Spital am Pyhrn. Nabízí ubytování v útulných apartmánech s výhledem na hory a zázemí pro relaxaci, včetně sauny. Hotel je ideální destinací pro školní lyžařské kurzy díky své blízkosti ke střediskům Hinterstoder (15 km) a Wurzeralm (10 km), která poskytují vynikající podmínky pro lyžování všech úrovní. Součástí hotelu je restaurace, kde se podávají pokrmy z místních surovin.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/oberwengerhof.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/oberwengerhof.avif" />
 
       <h3>LANDHOTEL OBERWENGERHOF A ZŠ PRO DĚTI</h3>
       <p>
@@ -505,7 +505,7 @@ defmodule LocationDetail do
       <p>
         Hotel Adam se nachází ve Špindlerově Mlýně, v krásné přírodě Krkonoš. Nabízí širokou škálu relaxačních služeb, včetně wellness centra s bazénem o rozměrech 13 x 5 metrů, sauny a vířivky. Hosté mohou využít restauraci s terasou a pochutnat si na české i mezinárodní kuchyni. Ubytování poskytuje komfortní pokoje s vlastní koupelnou a Wi-Fi. Díky své poloze je hotel ideálním místem pro školní pobyty zaměřené na plavání a ekologické vzdělávání. Nejbližší autobusová zastávka je 500 metrů od hotelu.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/adam.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/adam.avif" />
 
       <h3>HOTEL ADAM A ZŠ PRO DĚTI</h3>
       <p>
@@ -541,7 +541,7 @@ defmodule LocationDetail do
       <p>
         Hotel Panon se nachází v Hodoníně na jižní Moravě, což ho činí ideálním místem pro školy v přírodě zaměřené na plavecké kurzy. Přilehlý krytý plavecký bazén nabízí dvě možnosti koupání: větší bazén o rozměru 25 x 12,5 metru pro plavce a menší výukový bazén s rozměry 12,5 x 8 metrů a hloubkou 80 cm, který je určen pro výuku plavání. Děti mohou využít také vířivé bazénky, které jsou k dispozici pro relaxaci po výuce.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/panon.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/panon.avif" />
 
       <h3>HOTEL PANON A ZŠ PRO DĚTI</h3>
       <p>
@@ -577,7 +577,7 @@ defmodule LocationDetail do
       <p>
         Hotel Tanečnica se nachází v srdci Beskyd na Pustevnách a je ideálním místem pro školy v přírodě s plaváním a environmentální školy v přírodě. Děti mají k dispozici krytý bazén přímo v hotelu, což umožňuje pohodlné a efektivní vedení plaveckých kurzů. Pro enviro kurzy je okolní příroda Beskyd vynikajícím místem k poznávání ekosystémů, a nabízí možnosti turistických výprav a vzdělávacích aktivit v oblasti ekologie a ochrany přírody.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/tanecnica.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/tanecnica.avif" />
 
       <h3>HOTEL TANEČNICA A ZŠ PRO DĚTI</h3>
       <p>
@@ -613,7 +613,7 @@ defmodule LocationDetail do
       <p>
         Hotel Zvíkov se nachází na břehu Orlické přehrady, u soutoku řek Vltavy a Otavy, v blízkosti hradu Zvíkov. Nabízí komfortní ubytování s wellness službami, včetně bazénu a vířivky. Restaurace servíruje tradiční české pokrmy. Hotel je skvělým místem pro pořádání plaveckých kurzů i environmentálních škol v přírodě díky klidnému prostředí obklopenému přírodou a bohatými možnostmi pro výlety do okolí.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/zvikov.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/zvikov.avif" />
 
       <h3>HOTEL ZVÍKOV A ZŠ PRO DĚTI</h3>
       <p>
@@ -661,7 +661,7 @@ defmodule LocationDetail do
         plážový volejbal. <br />
         <br /> Adresa: Srby 184, Tuchlovice u Kladna
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/astra/astra.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/astra/astra.avif" />
       <h3>HOTEL ASTRA A ZŠ PRO DĚTI</h3>
       <p>
         Spolupráce s hotelem Astra započíná v roce 2023 a pořádáme zde
@@ -723,7 +723,7 @@ defmodule LocationDetail do
         prvního oficiálního srazu fotbalové reprezentace samostatné
         České republiky.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/brandys/brandys.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/brandys/brandys.avif" />
       <h3>SPORTCENTRUM A ZŠ PRO DĚTI</h3>
       <p>
         Spolupráce s hotelem Sportcentrum Brandýs započala v roce 2022.
@@ -785,7 +785,7 @@ defmodule LocationDetail do
         starají o provoz, ochrannou ruku nad projektem drží stále pan
         majitel.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/bystre/bystre.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/bystre/bystre.avif" />
       <h3>HOTEL BYSTRÉ A ZŠ PRO DĚTI</h3>
       <p>
         Jedná se o jednoho z našich nejnovějších partnerů a my jsme hrdí,
@@ -851,7 +851,7 @@ defmodule LocationDetail do
         hotely, obchody. V Jánských Lázních lze navštívit Stezku
         v korunách stromů.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/energetik/energetik.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/energetik/energetik.avif" />
 
       <h3>ENERGETIK A ZŠ PRO DĚTI</h3>
       <p>
@@ -907,7 +907,7 @@ defmodule LocationDetail do
         V těsné blízkosti je písečná pláž, sportoviště, cyklotrajekt a marina. K dispozici je vnitřní bazén se sluneční terasou, whirpool, finská sauna, infra sauny, tělocvična na volejbal i basketbal, dětská herna a venkovní hřiště s trampolínami.
         Nejbližší místo s částečnou občanskou vybaveností je město Frymburk (8 km od hotelu – cca 10 min autem).
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/fontana/fontana.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/fontana/fontana.avif" />
 
       <h3>FONTÁNA A ZŠ PRO DĚTI</h3>
       <p>
@@ -952,7 +952,7 @@ defmodule LocationDetail do
         Rališka a Sachovka se nacházejí 2 km odtud. Hotel je vzdálen 18 km od Rožnova
         pod Radhoštěm a 500 metrů od autobusové zastávky.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/hotel-duo/hotel-duo.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/hotel-duo/hotel-duo.avif" />
 
       <h3>HOTEL DUO A ZŠ PRO DĚTI</h3>
       <p>
@@ -1004,7 +1004,7 @@ defmodule LocationDetail do
         Za nynějšího majitele proběhla celá řada oprav (oprava obou
         bazénů, rekonstrukce wellness, pokojů a společenských prostor).
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/jelenovska/jelenovska.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/jelenovska/jelenovska.avif" />
 
       <h3>JELENOVSKÁ A ZŠ PRO DĚTI</h3>
       <p>
@@ -1056,7 +1056,7 @@ defmodule LocationDetail do
         Středisko Lites leží na hranici Českého ráje a Geoparku
         Ralsko v malebném údolí říčky Zábrdky nedaleko Mnichova Hradiště.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/lites/lites.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/lites/lites.avif" />
 
       <h3>RS LITES A ZŠ PRO DĚTI</h3>
       <p>
@@ -1110,7 +1110,7 @@ defmodule LocationDetail do
         obcí Lubenec (cca 35 km od Karlových Varů a 15 km od
         Podbořan.)
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/lubenec/lubenec.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/lubenec/lubenec.avif" />
 
       <h3>RS LUBENEC A ZŠ PRO DĚTI</h3>
       <p>
@@ -1151,7 +1151,7 @@ defmodule LocationDetail do
         Tato oblast je oblíbená pro svoje pohodové horské prostředí a širokou škálu
         outdoorových aktivit, které mohou návštěvníci v průběhu celého roku využít.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/lugsteinhof/lugsteinhof.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/lugsteinhof/lugsteinhof.avif" />
 
       <h3>LUGSTEINHOF A ZŠ PRO DĚTI</h3>
       <p>
@@ -1201,7 +1201,7 @@ defmodule LocationDetail do
       <p>
         Středisko se nachází v prostředí chráněné oblasti u městečka Plasy, 25 km severně od Plzně.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/maj/maj.webp" />
+      <img alt="Foto hotelu" src="/images/hotely/maj/maj.avif" />
 
       <h3>RS MÁJ A ZŠ PRO DĚTI</h3>
       <p>
@@ -1240,7 +1240,7 @@ defmodule LocationDetail do
       <p>
         Horská bouda “Na Muldě” se nachází v krásném prostředí Krkonošského národního parku v oblasti rekreačního střediska Pec pod Sněžkou ve výšce cca 1000 m n. m. Je dobrým výchozím bodem pro lyžování, pěší turistiku i cykloturistiku, včetně méně náročných výletů do blízkého okolí.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/na-mulde/na-mulde.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/na-mulde/na-mulde.avif" />
 
       <h3>MULDA A ZŠ PRO DĚTI</h3>
       <p>
@@ -1277,7 +1277,7 @@ defmodule LocationDetail do
         Rekreační středisko Palkovické Hůrky se nachází 12 km
         jižně od Frýdku – Místku, v katastru obce Palkovice.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/palkovicke-hurky/palkovicke-hurky.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/palkovicke-hurky/palkovicke-hurky.avif" />
 
       <h3>RS HŮRKY A ZŠ PRO DĚTI</h3>
       <p>
@@ -1324,7 +1324,7 @@ defmodule LocationDetail do
         malé dětské hřiště. Poblíž chalupy je dětské hřiště, rozlehlá
         louka a les.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/plesivka/plesivka.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/plesivka/plesivka.avif" />
 
       <h3>PLEŠIVKA A ZŠ PRO DĚTI</h3>
       <p>
@@ -1372,7 +1372,7 @@ defmodule LocationDetail do
         společenská místnost, prostorný dětský koutek, venkovní hřiště a
         hřiště na petanque.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/horni-pramen/horni-pramen.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/horni-pramen/horni-pramen.avif" />
 
       <h3>HORNÍ PRAMEN A ZŠ PRO DĚTI</h3>
       <p>
@@ -1421,7 +1421,7 @@ defmodule LocationDetail do
         využití volného času, především díky překrásné přírodě a
         dechberoucím vyhlídkám.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/radost/radost.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/radost/radost.avif" />
 
       <h3>RADOST A ZŠ PRO DĚTI</h3>
       <p>
@@ -1474,7 +1474,7 @@ defmodule LocationDetail do
         k dispozici 12 pokojů s 50 lůžky. V současnosti je majitelem
         město Sušice. Budova se nachází v chráněné památkové zóně.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/rousarka/rousarka.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/rousarka/rousarka.avif" />
 
       <h3>SUŠICE A ZŠ PRO DĚTI</h3>
       <p>
@@ -1548,7 +1548,7 @@ defmodule LocationDetail do
         gumy pro dívky, půjčovna kol a koloběžek, trekových holí,
         grilování, možnost krmení ovcí a koz.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/tetrevi-boudy/tetrevi-boudy.jpg" />
+      <img alt="Foto hotelu" src="/images/hotely/tetrevi-boudy/tetrevi-boudy.avif" />
 
       <h3>HOTEL TETŘEVÍ BOUDY A ZŠ PRO DĚTI</h3>
       <p>
@@ -1606,7 +1606,7 @@ defmodule LocationDetail do
         <br /> Penzion leží přímo uprostřed sjezdovky s denním i nočním lyžováním. V centru obce
         Strážné je dětské hřiště s prolézačkami a houpačkou.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/u-kurtu/u-kurtu.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/u-kurtu/u-kurtu.avif" />
 
       <h3>U KURTU A ZŠ PRO DĚTI</h3>
       <p>
@@ -1650,7 +1650,7 @@ defmodule LocationDetail do
         40 osob. Je vybavena sociálním zařízením u každé z osmi ložnic,
         společenskou místností, hospůdkou a četnými možnostmi pro
         trávení volného času.</p>
-      <img alt="Foto hotelu" src="/images/hotely/u-medveda/u-medveda.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/u-medveda/u-medveda.avif" />
 
       <h3>U MEDVĚDA A ZŠ PRO DĚTI</h3>
       <p>
@@ -1701,7 +1701,7 @@ defmodule LocationDetail do
         Návštěvníkům nabízí ubytování, stravování a služby spojené
         s regenerací a sportovním vyžitím.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/vlasim/vlasim.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/vlasim/vlasim.avif" />
 
       <h3>SPORTHOTEL VLAŠIM A ZŠ PRO DĚTI</h3>
       <p>
@@ -1761,7 +1761,7 @@ defmodule LocationDetail do
         streetball, tenisový kurt, ohniště a další. V zimě lze využít
         lyžařské sjezdovky a běžkařské trasy, které se nachází nedaleko.
       </p>
-      <img alt="Foto hotelu" src="/images/hotely/vysocina/vysocina.jpeg" />
+      <img alt="Foto hotelu" src="/images/hotely/vysocina/vysocina.avif" />
 
       <h3>PENZION NA VYSOČINĚ A ZŠ PRO DĚTI</h3>
       <p>

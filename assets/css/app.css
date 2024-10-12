@@ -801,7 +801,7 @@ li::marker {
     color: white;
     position: fixed;
     top: 60px;
-    right: 60px;
+    right: 5%;
     left: calc(80% + 30px);
     height: 60px;
     font-family: Barlow;
@@ -1498,14 +1498,14 @@ form:hover {
 }
 
 .kazeta-sudan {
-    background-image: url(/images/academy/academy-sudan.jpeg);
+    background-image: url(/images/academy/academy-sudan.avif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .kazeta-prace {
-    background-image: url(/images/academy/academy-sudan.jpeg);
+    background-image: url(/images/academy/academy-sudan.avif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1663,7 +1663,7 @@ form:hover {
 }
 
 .product-image {
-    background-image: url("product-image.jpg");
+    background-image: url("product-image.avif");
     background-size: cover;
     background-position: center;
     transition: background 0.3s;

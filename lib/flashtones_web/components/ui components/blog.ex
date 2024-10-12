@@ -352,7 +352,7 @@ defmodule Blog do
       </p>
       <div class="flex justify-center">
         <img
-          src="https://zsprodeti.cz/images/plavani/plavani-school.jpeg"
+          src="https://zsprodeti.cz/images/plavani/plavani-school.avif"
           alt="Kids swimming"
           class="rounded-lg shadow-md  max-w-2xl bg-cover"
         />

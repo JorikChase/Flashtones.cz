@@ -8,7 +8,7 @@ defmodule Kdo do
           height: 120%;
           margin-bottom: 30px;
           width: 100%;
-          background-image: url(/images/ft/kdo-bg.jpg);
+          background-image: url(/images/ft/kdo-bg.avif);
           background-size: cover;
 
           display:flex;
@@ -118,7 +118,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -219,7 +219,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -320,7 +320,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -421,7 +421,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -522,7 +522,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -626,7 +626,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;
@@ -731,7 +731,7 @@ defmodule Kdo do
       .kdo{
         height: 120%;
         width: 100%;
-        background-image: url(/images/ft/kdo-bg.jpg);
+        background-image: url(/images/ft/kdo-bg.avif);
         background-size: cover;
 
         display:flex;

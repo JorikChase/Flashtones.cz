@@ -65,7 +65,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
           <a target="_blank" href="/images/pdf/plavani-saturday-radotin.pdf">
             <div
               class="detail-lokace-item-img"
-              style="background-image: url(/images/hotely/radotin.jpg)"
+              style="background-image: url(/images/hotely/radotin.avif)"
             >
             </div>
             <div class="product-text-wrap">

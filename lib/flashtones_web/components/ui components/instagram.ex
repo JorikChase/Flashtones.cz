@@ -89,7 +89,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ft-9-5a.jpeg);"
+            style="background-image: url(/images/ig/ft-9-5a.avif);"
           >
           </div>
           <b class="instagram-odsazeni">
@@ -101,7 +101,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ft-9-5b.jpeg);"
+            style="background-image: url(/images/ig/ft-9-5b.avif);"
           >
           </div>
           <b class="instagram-odsazeni">
@@ -113,7 +113,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ft-9-5c.jpeg);"
+            style="background-image: url(/images/ig/ft-9-5c.avif);"
           >
           </div>
           <b class="instagram-odsazeni">
@@ -273,7 +273,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ig-23-9.jpg);"
+            style="background-image: url(/images/ig/ig-23-9.avif);"
           >
           </div>
           <b class="instagram-odsazeni">
@@ -285,7 +285,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ig-23-9-4.jpg);"
+            style="background-image: url(/images/ig/ig-23-9-4.avif);"
           >
           </div>
           <b class="instagram-odsazeni">
@@ -297,7 +297,7 @@ defmodule Instagram do
           <div
             class="instagram-img"
             alt="instagram post"
-            style="background-image: url(/images/ig/ig-23-9-3.jpg);"
+            style="background-image: url(/images/ig/ig-23-9-3.avif);"
           >
           </div>
           <b class="instagram-odsazeni">

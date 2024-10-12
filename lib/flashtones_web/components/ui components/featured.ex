@@ -106,7 +106,7 @@ defmodule Featured do
       }
     </style>
     <div class="slider-container">
-      <section class="slide" style="background-image: url('/images/plavani/plavani-school.jpeg');">
+      <section class="slide" style="background-image: url('/images/plavani/plavani-school.avif');">
         <div class="slide-content">
           <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
             <img alt="Logo kurzu" src="/images/icon/skola.svg" />
@@ -120,7 +120,7 @@ defmodule Featured do
           </a>
         </div>
       </section>
-      <section class="slide" style="background-image: url('/images/enviro/svp.jpeg');">
+      <section class="slide" style="background-image: url('/images/enviro/svp.avif');">
         <div class="slide-content">
           <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
             <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
@@ -134,7 +134,7 @@ defmodule Featured do
           </a>
         </div>
       </section>
-      <section class="slide" style="background-image: url('/images/lyzovani/skolni.jpeg');">
+      <section class="slide" style="background-image: url('/images/lyzovani/skolni.avif');">
         <div class="slide-content">
           <a href="/lyzovani/skolni-lyzarsky-kurz" class="kurz-item">
             <img alt="Logo kurzu" src="/images/icon/kurz/skolni-lyzarsky-kurz.svg" />
@@ -305,7 +305,7 @@ defmodule Featured do
         </div>
         <div class="course-image-container">
           <div class="course-image">
-            <img src="/images/plavani/plavani-school.jpeg" alt="Děti plavou v bazénu" />
+            <img src="/images/plavani/plavani-school.avif" alt="Děti plavou v bazénu" />
           </div>
         </div>
       </section>
@@ -326,7 +326,7 @@ defmodule Featured do
         </div>
         <div class="course-image-container" style="margin-right: 15px;">
           <div class="course-image">
-            <img src="/images/enviro/svp.jpeg" alt="Děti plavou v bazénu" />
+            <img src="/images/enviro/svp.avif" alt="Děti plavou v bazénu" />
           </div>
         </div>
       </section>
@@ -355,7 +355,7 @@ defmodule Featured do
         </div>
         <div class="course-image-container">
           <div class="course-image">
-            <img src="/images/lyzovani/lyzovani.jpeg" alt="Děti plavou v bazénu" />
+            <img src="/images/lyzovani/lyzovani.avif" alt="Děti plavou v bazénu" />
           </div>
         </div>
       </section>
