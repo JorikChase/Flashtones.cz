@@ -8,7 +8,7 @@ defmodule Hero do
         <h1 id="hero-heading">S námi je to jízda!</h1>
         <br />
         <br />
-        <a id="hero-button" class="hero-button" href="/about#about">O nás</a>
+        <a id="hero-button" class="hero-button" href="/o-nas#my">O nás</a>
       </div>
       <div class="hero-media" style="background-image: url(/images/ft/tobogan.gif);"></div>
     </div>
@@ -45,13 +45,13 @@ defmodule Hero do
       function flashtonesHero() {
         const slides = [
           {
-            image: '/images/ft/pirat.jpg',
+            image: '/images/ft/pirat.avif',
             heading: 'Sledujte nás na našich sítích!',
             button: 'Tady',
             href: '#course-marker'
           },
           {
-            image: '/images/ft/studio.jpg',
+            image: '/images/ft/studio.avif',
             heading: 'Otevřeli jsme Flashtones Studio!',
             button: 'Podívejte se',
             href: '/studio'
@@ -63,7 +63,7 @@ defmodule Hero do
             href: '/about#about'
           },
           {
-            image: '/images/ft/originalni-produkty.JPG',
+            image: '/images/ft/originalni-produkty.avif',
             heading: 'Originální produkty vyrobené v ČR',
             button: 'Prohlédnout si',
             href: '/produkty'
@@ -141,10 +141,9 @@ defmodule Hero do
         <br />
         <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/deti/deti-bg.webp);"></div>
+      <div class="hero-media" style="background-image: url(/images/deti/deti-bg.avif);"></div>
     </div>
     <span id="course-marker"></span>
-
     """
   end
 
@@ -183,7 +182,7 @@ defmodule Hero do
       <div class="hero-content">
         <h1 id="hero-heading">Školící centrum</h1>
       </div>
-      <div class="hero-media" style="background-image: url(/images/academy/academy-head.jpeg);"></div>
+      <div class="hero-media" style="background-image: url(/images/academy/academy-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
     """
@@ -438,7 +437,7 @@ defmodule Hero do
         <br />
         <a id="hero-button" href="#course-marker" class="hero-button">Nabídka kurzů</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/enviro/enviro-head.jpeg);"></div>
+      <div class="hero-media" style="background-image: url(/images/enviro/enviro-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
 
@@ -462,8 +461,8 @@ defmodule Hero do
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const mediaItems = [
-            { type: 'image', src: '/images/enviro/enviro-head.jpeg', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#course-marker" },
-            { type: 'image', src: '/images/mobile/enviro-head-mobile.webp', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#course-marker" },
+            { type: 'image', src: '/images/enviro/enviro-head.avif', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#course-marker" },
+            { type: 'image', src: '/images/mobile/enviro-head-mobile.avif', heading: 'Školy v přírodě <br> s environmentální <br> a tmelící tématikou', button: 'Nabídka kurzů', href: "#course-marker" },
         ];
         let currentSlide = 0;
 
@@ -471,7 +470,7 @@ defmodule Hero do
           const heroButton = document.getElementById("hero-button");
           const heroMedia = document.querySelector(".hero-media");
           if(window.innerHeight > window.innerWidth){
-          heroMedia.style.backgroundImage = 'url("/images/mobile/enviro-head-mobile.webp")'
+          heroMedia.style.backgroundImage = 'url("/images/mobile/enviro-head-mobile.avif")'
         };
 
           function updateHeroContent(slideIndex) {
@@ -528,7 +527,7 @@ defmodule Hero do
         <br />
         <a id="hero-button" class="hero-button" href="#course-marker">Nabídka kurzů</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/lyzovani/lyzovani-head.jpeg);">
+      <div class="hero-media" style="background-image: url(/images/lyzovani/lyzovani-head.avif);">
       </div>
     </div>
     <span id="course-marker"></span>
@@ -544,8 +543,8 @@ defmodule Hero do
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const mediaItems = [
-            { type: 'image', src: '/images/lyzovani/lyzovani-head.jpeg', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#course-marker" },
-            { type: 'image', src: '/images/mobile/lyzovani-head-mobile.webp', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#course-marker" },
+            { type: 'image', src: '/images/lyzovani/lyzovani-head.avif', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#course-marker" },
+            { type: 'image', src: '/images/mobile/lyzovani-head-mobile.avif', heading: 'Lyžařská škola nejen <br> o obloucích', button: 'Nabídka kurzů', href: "#course-marker" },
         ];
         let currentSlide = 0;
 
@@ -553,7 +552,7 @@ defmodule Hero do
           const heroButton = document.getElementById("hero-button");
           const heroMedia = document.querySelector(".hero-media");
           if(window.innerHeight > window.innerWidth){
-          heroMedia.style.backgroundImage = 'url("/images/mobile/lyzovani-head-mobile.webp")'
+          heroMedia.style.backgroundImage = 'url("/images/mobile/lyzovani-head-mobile.avif")'
           heroMedia.style.backgroundPosition = "right top";
         };
 
@@ -603,14 +602,14 @@ defmodule Hero do
     </style>
     <div class="hero">
       <div class="hero-content" id="plavani-switch">
-        <h1 id="hero-heading">Plavecké kurzy <br> pro ZŠ i veřejnost</h1>
+        <h1 id="hero-heading">Plavecké kurzy <br /> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani" onClick="clicker();">
           <a href="/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
           <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
         </div>
       </div>
-      <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
+      <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
 
@@ -625,7 +624,6 @@ defmodule Hero do
   def plavaniHeroDetail(assigns) do
     ~H"""
     <style>
-
       .hero-button-wrap{
         display: flex;
         flex-direction: row;
@@ -677,7 +675,7 @@ defmodule Hero do
     </style>
     <div class="hero">
       <div class="hero-content" id="plavani-switch">
-        <h1 id="hero-heading">Plavecké kurzy <br> pro ZŠ i veřejnost</h1>
+        <h1 id="hero-heading">Plavecké kurzy <br /> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani hero-button-wrap">
           <a class="hero-button" href="/plavani#course-marker" id="skolyA">Pro školy</a>
@@ -686,7 +684,7 @@ defmodule Hero do
           </a>
         </div>
       </div>
-      <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.jpg);"></div>
+      <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
 
@@ -706,7 +704,7 @@ defmodule Hero do
         <br />
         <a id="hero-button" class="hero-button" href="#course-marker">Nabídka kurzů</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/vylety/vylety-head.jpeg);"></div>
+      <div class="hero-media" style="background-image: url(/images/vylety/vylety-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
 

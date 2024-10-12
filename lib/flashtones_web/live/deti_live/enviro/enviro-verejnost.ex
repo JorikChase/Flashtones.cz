@@ -1,13 +1,22 @@
-defmodule FlashtonesWeb.EnviroIndexLive do
+defmodule FlashtonesWeb.EnviroIndexVerejnostLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png", canonical: "https://zsprodeti.cz/enviro" , page_title: "ZŠ ENVIRO", description: "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení.")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png",
+        canonical: "https://zsprodeti.cz/enviro/verejnost",
+        page_title: "ZŠ ENVIRO Veřejnost",
+        description:
+          "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení."
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "enviro")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
-     <link rel="canonical" href="https://www.zsenviro.cz">
     <style>
       main{
         background: #e5f8e4;
@@ -39,18 +48,24 @@ defmodule FlashtonesWeb.EnviroIndexLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuEnviroMobile />
-      <MenuPc.menuEnviroPc />
-      <Hero.enviroHero />
-      <!--<Aktuality.aktuality />-->
-      <SectionToggle.enviro />
-      <Instagram.deti />
-      <Kdo.enviro />
-      <Rekli.rekliEnviro />
-      <Zustanme.enviro />
-      <Footer.deti />
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuEnviroMobile />
+    <MenuPc.menuEnviroPc />
+    <Hero.enviroHero />
+    <!--<Aktuality.aktuality />-->
+    <div class="odsazeni center">
+      <div class="section-toggle" onClick="clicker();">
+        <a href="/enviro#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
+        <a href="/enviro/verejnost#course-marker" id="verejnostA" class="active">Pro veřejnost</a>
+      </div>
+      <KurzNav.enviroVerejnost />
+    </div>
+    <Instagram.deti />
+    <Kdo.enviro />
+    <Rekli.rekliEnviro />
+    <Zustanme.enviro />
+    <Footer.deti />
     """
   end
 end

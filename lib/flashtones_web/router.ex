@@ -76,6 +76,7 @@ defmodule FlashtonesWeb.Router do
     live "/doma", DomaIndexLive
     live "/doma/courses", DomaCoursesLive
     live "/enviro", EnviroIndexLive
+    live "/enviro/verejnost", EnviroIndexVerejnostLive
     live "/enviro/courses", EnviroCoursesLive
     live "/lyzovani", LyzovaniIndexLive
     live "/lyzovani/courses", LyzovaniCoursesLive
@@ -99,6 +100,7 @@ defmodule FlashtonesWeb.Router do
     live "/lyzovani/weekend", LyzovaniDetailWeekendLive
 
     live "/vylety", VyletyIndexLive
+    live "/vylety/enviro", VyletyIndexEnviroLive
     live "/vylety/priroda/aves-brandysek", VyletyAvesBrandysekLive
     live "/vylety/priroda/centrum-jaromer", VyletyCentrumJaromerLive
     live "/vylety/priroda/ekocentrum-huslik", VyletyEkocentrumHuslikLive

@@ -777,14 +777,14 @@ defmodule SectionToggle do
     <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitch">
       <h1 class="text-center" id="vylety-kurzy">NABÍDKA NAŠICH VÝLETŮ</h1>
       <div class="section-toggle">
-        <a href="#sectionA">Poznávací</a>
-        <a href="#sectionB">Environmentální</a>
+        <a href="/vylety">Poznávací</a>
+        <a href="/vylety/enviro">Environmentální</a>
       </div>
 
-      <section id="sectionA">
+      <section id="poznavaci" class="hidden">
         <KurzNav.vyletyPoznavaci />
       </section>
-      <section id="sectionB" class="hidden">
+      <section id="enviro">
         <KurzNav.vyletyEnviromentalni />
       </section>
     </div>
@@ -821,7 +821,7 @@ defmodule SectionToggle do
                   }
               });
           } else {
-              showSection("sectionA");
+              showSection("poznavaci");
               sectionLinks[0].classList.add("active");
           }
       });
