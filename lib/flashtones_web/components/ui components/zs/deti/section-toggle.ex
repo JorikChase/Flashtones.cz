@@ -518,7 +518,7 @@ defmodule SectionToggle do
     ~H"""
     <div class="Odsazeni" id="ToggleSwitchHook" phx-hook="ToggleSwitchPlavani">
       <h1 class="text-center" id="plavani-kurzy">NABÍDKA NAŠICH KURZŮ</h1>
-      <div class="section-toggle" id="switch2" onClick="clicker();">
+      <div class="section-toggle" id="switch2">
         <a href="#skoly" id="skolyB">Pro školy</a>
         <a href="#verejnost" id="verejnostB">Pro veřejnost</a>
       </div>

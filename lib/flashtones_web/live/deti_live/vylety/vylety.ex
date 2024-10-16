@@ -28,7 +28,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
     <MenuPc.menuVyletyPc />
     <Hero.vyletyHero />
     <div class="odsazeni center">
-      <div class="section-toggle" onClick="clicker();">
+      <div class="section-toggle">
         <a href="/vylety#course-marker" class="active" id="skolyA" phx-hook="Synchronize">
           Poznávací
         </a>

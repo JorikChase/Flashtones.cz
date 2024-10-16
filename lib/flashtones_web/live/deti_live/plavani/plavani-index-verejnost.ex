@@ -56,7 +56,7 @@ defmodule FlashtonesWeb.PlavaniIndexVerejnostLive do
     <MenuPc.menuPlavaniPc />
     <Hero.plavaniHeroDetail />
     <div class="odsazeni center">
-      <div class="section-toggle" onClick="clicker();">
+      <div class="section-toggle">
         <a href="/plavani#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
         <a href="/plavani/verejnost#course-marker" id="verejnostA" class="active">Pro veřejnost</a>
       </div>

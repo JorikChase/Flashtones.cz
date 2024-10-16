@@ -564,6 +564,31 @@ defmodule KurzDetail do
         <li><b>aplikační</b> – instalace a samotné finální řešení úkolu.
         </li>
         </ul>
+        <h3>Co je metoda sociomappingu?</h3>
+        <article>
+       <p> Od konce školního roku 2023-2024 používáme na
+        našich školách v přírodě jako vůbec první tento
+        moderní prostředek pro analýzu vztahů ve skupině.</p>
+        <p>Sociomapping je nástroj, který vizualizuje vztahy a
+        spolupráci ve skupině a porovnává dotčenou skupinu
+        s jinými testovanými vzorky. </p><p>Celý proces začíná
+        jednoduchými dotazníky, které žáci vyplňují na
+        tabletech, kde odpovídají na otázky o tom, jak často se
+        baví s ostatními a jak vnímají své místo ve třídě.</p>
+        <p>Výsledky se poté přenesou do grafické mapy, která
+        ukazuje, kdo s kým nejvíce komunikuje a kde jsou
+        případné problémy v interakci. Cílem je odhalit skryté
+        dynamiky ve třídě – například děti, které jsou
+        izolované, nebo skupinky, které by mohly být zdrojem
+        konfliktů.</p> <p>Na základě těchto výsledků se vybírají
+        nejvhodnější modifikace aktivit (a nejvhodnější
+        rozdělení dětí) zaměřené na zlepšení vztahů, zejména
+        hry podporující spolupráci a komunikaci.</p><p> Na konci
+        kurzu je proveden retest, kde by měl být znatelný
+        progres vztahů ve skupině i vnímání sebe sama. <br> Pro
+        děti je tento test anonymní, aby se cítily bezpečně a
+        upřímně vyjádřily své pocity.</p>
+        </article>
         </div>
         <br>
     """

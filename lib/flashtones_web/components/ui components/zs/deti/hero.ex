@@ -604,7 +604,7 @@ defmodule Hero do
       <div class="hero-content" id="plavani-switch">
         <h1 id="hero-heading">Plavecké kurzy <br /> pro ZŠ i veřejnost</h1>
         <br />
-        <div class="section-toggle section-toggle-plavani" onClick="clicker();">
+        <div class="section-toggle section-toggle-plavani">
           <a href="/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
           <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
         </div>

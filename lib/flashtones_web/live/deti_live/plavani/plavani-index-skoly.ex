@@ -56,7 +56,7 @@ kurzy plavání pro děti, kurzy plavání pro děti praha, kurz plavani deti, �
     <MenuPc.menuPlavaniPc />
     <Hero.plavaniHeroDetail />
     <div class="odsazeni center">
-      <div class="section-toggle" onClick="clicker();">
+      <div class="section-toggle">
         <a href="/plavani#course-marker" id="skolyA" class="active" phx-hook="Synchronize">
           Pro školy
         </a>

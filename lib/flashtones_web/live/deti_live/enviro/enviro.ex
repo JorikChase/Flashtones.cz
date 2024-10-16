@@ -56,7 +56,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
     <Hero.enviroHero />
     <!--<Aktuality.aktuality />-->
     <div class="odsazeni center">
-      <div class="section-toggle" onClick="clicker();">
+      <div class="section-toggle">
         <a href="/enviro#course-marker" class="active" id="skolyA" phx-hook="Synchronize">
           Pro školy
         </a>
