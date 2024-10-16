@@ -3,23 +3,13 @@ defmodule Mapa do
 
   def lokace(assigns) do
     ~H"""
-      <div class="detail-lokace course-wrap">
-        <h3 class="disappear">Místa konání</h3>
-          <div class="category" data-category="Mapa">
-          <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
-          </script>
-          <div class="map-container">
-          <gmp-map center="48.67770004272461,14.126482009887695" zoom="14" map-id="9a77b128c76a6db7">
-            <gmp-advanced-marker position="48.67770004272461,14.126482009887695" title="fontana">
-            </gmp-advanced-marker>
-          </gmp-map>
-          </div>
-          </div>
-          </div>
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.20615881106858%2C13.68720531463623"></iframe></div>
     """
   end
   def agri(assigns) do
     ~H"""
+
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.20621109008789%13.687264442443848"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -32,6 +22,7 @@ defmodule Mapa do
   end
   def astra(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.72712707519531%15.596837997436523"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta"></script>
           <div class="map-container">
           <gmp-map center="50.72712707519531,15.596837997436523" zoom="14" map-id="9a77b128c76a6db7">
@@ -43,6 +34,7 @@ defmodule Mapa do
   end
   def brandys(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.18987274169922%14.65103530883789"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -55,6 +47,7 @@ defmodule Mapa do
   end
   def bystre(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.6293830871582%16.34535789489746"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -67,6 +60,7 @@ defmodule Mapa do
   end
   def energetik(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.68952178955078%15.714554786682129"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -79,6 +73,7 @@ defmodule Mapa do
   end
   def fontana(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=48.679962158203125%14.130327224731445"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -91,6 +86,7 @@ defmodule Mapa do
   end
   def horniBecva(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.41471862792969%18.323123931884766"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -103,6 +99,7 @@ defmodule Mapa do
   end
   def jelenovska(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.12458801269531%18.002527236938477"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -115,6 +112,7 @@ defmodule Mapa do
   end
   def lites(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.57027816772461%14.931640625"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -127,6 +125,7 @@ defmodule Mapa do
   end
   def lubenec(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.1259880065918%13.310361862182617"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -139,6 +138,7 @@ defmodule Mapa do
   end
   def lugsteinhof(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.735347747802734%13.748892784118652"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -151,6 +151,7 @@ defmodule Mapa do
   end
   def maj(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.940608978271484%13.374059677124023"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -163,6 +164,7 @@ defmodule Mapa do
   end
   def naMulde(assigns) do
     ~H"""
+    <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.675682067871094%15.727633476257324"></iframe></div>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
     <div class="map-container">
@@ -175,6 +177,7 @@ defmodule Mapa do
   end
   def palkovickeHurky(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.63688659667969%18.272991180419922"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -187,6 +190,7 @@ defmodule Mapa do
   end
   def plesivka(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.36721420288086%12.8148193359375"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -199,6 +203,7 @@ defmodule Mapa do
   end
   def pramen(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.730655670166016%15.616414070129395"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -211,6 +216,7 @@ defmodule Mapa do
   end
   def radost(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.31461715698242%16.31783103942871"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -223,6 +229,7 @@ defmodule Mapa do
   end
   def rousarka(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.22381591796875%13.512962341308594"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -235,6 +242,7 @@ defmodule Mapa do
   end
   def tetreviBoudy(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.669010162353516%15.69586181640625"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -247,6 +255,7 @@ defmodule Mapa do
   end
   def uKurtu(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.663509368896484%15.617244720458984"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -259,6 +268,7 @@ defmodule Mapa do
   end
   def uMedveda(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=50.732540130615234%15.572694778442383"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -271,6 +281,7 @@ defmodule Mapa do
   end
   def vlasim(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.70512771606445%14.90034008026123"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">
@@ -283,6 +294,7 @@ defmodule Mapa do
   end
   def vysocina(assigns) do
     ~H"""
+          <div class="map-container"><iframe width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=13.650169372558596%2C49.18383530464464%2C13.724241256713869%2C49.228472243520194&amp;layer=mapnik&amp;marker=49.6240119934082%16.376317977905273"></iframe></div>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-DC4nB1fxFE8QAcTs_-CCfUJlsir4ZuQ&callback=console.debug&libraries=maps,marker&v=beta">
           </script>
           <div class="map-container">

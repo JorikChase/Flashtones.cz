@@ -180,294 +180,342 @@ defmodule MenuPc do
   def menuDetiPc(assigns) do
     ~H"""
     <style>
+      /*menu pc*/
+
       @media (orientation: landscape) {
-        .pcMenuBar {
-          right: 10%;
-          border-radius: 10px;
-        }
+          .pcMenuBar {
+              right: 10%;
+              border-radius: 10px;
+          }
 
-        .pcMenu a:hover {
-          color: var(--deti-main);
-        }
+          .pcMenu a:hover {
+              color: var(--deti-main);
+          }
 
-        .pcMenuBottom {
-          z-index: 101;
-          position: absolute;
-          top: calc(100% + 10px); /* Position it below the link */
-          padding: 10px;
-          background: rgba(240, 240, 240, 0.98);
-          transition: all 0.5s ease;
-          display: none;
-          visibility: hidden;
-          opacity: 0;
-        }
+          .pcMenuBottom {
+              z-index: 101;
+              position: absolute;
+              top: calc(100% + 10px); /* Position it below the link */
+              padding: 10px;
+              background: rgba(240, 240, 240, 0.98);
+              transition: all 0.5s ease;
+              display: none;
+              visibility: hidden;
+              opacity: 0;
+          }
 
-        .pcMenuBottom.active {
-          display: block;
-          height: auto;
-          visibility: visible;
-          opacity: 1;
-          background: rgba(255,255,255,0.98)!important;
-        }
+          .pcMenuBottom.active {
+              display: block;
+              height: auto;
+              visibility: visible;
+              opacity: 1;
+              background: rgba(255, 255, 255, 0.98) !important;
+          }
 
-        .pcMenuBottom div {
-        }
+          .pcMenuBottom div {
+          }
 
-        .pcMenuBottom div a {
-          color: black;
-          font-weight: bold;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
+          .pcMenuBottom div a {
+              color: black;
+              font-weight: bold;
+              text-decoration: none;
+              text-transform: uppercase;
+          }
 
-        .pcMenuBottom div a:hover {
-          color: rgb(0, 0, 0);
-        }
+          .pcMenuBottom div a:hover {
+              color: rgb(0, 0, 0);
+          }
       }
 
       @media (orientation: portrait) {
-        .pcMenu {
-          display: none;
-        }
+          .pcMenu {
+              display: none;
+          }
       }
-        .pcMenuBarLinks { width: 100% }
+      .pcMenuBarLinks {
+          width: 100%;
+      }
 
-        .pcMenuBarLinks ul {
+      .pcMenuBarLinks ul {
           text-align: center;
-        }
-        .pcMenuBarLinks ul .aktivity-main-switch {
+      }
+      .pcMenuBarLinks ul .aktivity-main-switch {
           display: flex;
           flex-direction: row;
           gap: 15px;
-        }
-        .pcMenuBarLinks ul li {
+      }
+      .pcMenuBarLinks ul li {
           display: inline-block;
           font-weight: 700;
           position: relative;
-        }
-        .aktivity-switch-button{
+      }
+      .aktivity-switch-button {
           margin-bottom: 15px;
           font-size: 22px;
-            background-color: var(--deti-light);
-            padding: 20px!important;
-
-        }
-        .aktivity-switch-button:before{
-          content: none!important;
+          background-color: var(--deti-light);
+          padding: 20px !important;
+      }
+      .aktivity-switch-button:before {
+          content: none !important;
           height: 0;
           left: 20px;
           position: absolute;
           top: calc(50% - 18px);
           width: 45px;
           background-repeat: no-repeat;
-        }
-        div.dropdown > ul > li:hover{
+      }
+      div.dropdown > ul > li:hover {
           transform: scale(1.02);
-        }
-        /* Main Dropdown */
-        .pcMenuBarLinks ul li > div.dropdown {
-            border-radius: 10px;
-            left: -9999px;
-            opacity: 0;
-            padding: 30px 0;
-            position: absolute;
-            transition: opacity .3s ease-in-out;
-            visibility: hidden;
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
-        }
-        .pcMenuBarLinks ul li > div.dropdown:before {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 2px 0 0 0;
-            content:'';
-            height: 18px;
-            left: calc(50% - 9px);
-            position: absolute;
-            top: 15px;
-            transform: rotate(45deg);
-            width: 18px;
-        }
-        .pcMenuBarLinks ul li:hover > div.dropdown,
-        .pcMenuBarLinks ul li:focus-within > div.dropdown {
-            left: 50%;
-            opacity: 1;
-            transform: scaleY(1);
-            transform: translateX(-50%);
-            visibility: visible;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul {
-            padding: 10px 0;
-            text-align: left;
-            display: flex;
-            flex-direction: row;
-
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li > ul {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 0;
-            text-align: left;
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            display: flex;
-            flex-direction: column;
-
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li a,
-        .pcMenuBarLinks ul li > div.dropdown ul li a:visited {
-            color: currentColor;
-            display: inline-block;
-            padding: 16px 15px 16px 100px;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li a:hover h3,
-        .pcMenuBarLinks ul li > div.dropdown ul li a:hover span { opacity: 0.7; }
-        .pcMenuBarLinks ul li > div.dropdown ul li a{
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li{
-            margin: 0;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li a h3{
-            margin: 0;
-            font-weight: 700;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li a h3:hover{
-            color: black;
-
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li a:before {
-            content: '';
-            height: 45px;
-            left: 20px;
-            position: absolute;
-            top: calc(50% - 18px);
-            width: 45px;
-            background-repeat: no-repeat;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before { background-image: url("/images/deti/icon/historie.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before { background-image: url("/images/deti/icon/info.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before { background-image: url("/images/deti/icon/pin.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul li h3 {
-            font-size: 16px;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul li span {
-            color: grey;
-            font-size: 15px;
-            font-weight: 400;
-        }
-
-        /* Mini, Bottom Dropdown Items */
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly {
-            background-color: rgba(250, 250, 250, 0.9);
-            color: black;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a {
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 70px;
-            width: 300px;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:hover {
-            transform: scale(1.05);
-            background: rgba(255, 255, 255, 0.98);
-            color: black;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a h3 {
-            margin-bottom: 0;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:before {
-            left: 25px;
-            height: 30px;
-            top: calc(50%-20px);
-            width: 30px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(1) a:before { background-image: url("/images/icon/skola.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(3) a:before { background-image: url("/images/icon/skolka.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(4) a:before { background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before { background-image: url("/images/icon/kurz/svp-enviro.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(6) a:before { background-image: url("/images/icon/kurz/svt-enviro.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(7) a:before { background-image: url("/images/icon/friendship.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(8) a:before { background-image: url("/images/icon/hiking.svg"); }
-
-        .pcMenuBarLinks ul li{
+      }
+      /* Main Dropdown */
+      .pcMenuBarLinks ul li > div.dropdown {
+          border-radius: 10px;
+          left: -9999px;
+          opacity: 0;
+          padding: 30px 0;
+          position: absolute;
+          transition: opacity 0.3s ease-in-out;
+          visibility: hidden;
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+      }
+      .pcMenuBarLinks ul li > div.dropdown:before {
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 2px 0 0 0;
+          content: "";
+          height: 18px;
+          left: calc(50% - 9px);
+          position: absolute;
+          top: 15px;
+          transform: rotate(45deg);
+          width: 18px;
+      }
+      .pcMenuBarLinks ul li:hover > div.dropdown,
+      .pcMenuBarLinks ul li:focus-within > div.dropdown {
+          left: 50%;
+          opacity: 1;
+          transform: scaleY(1);
+          transform: translateX(-50%);
+          visibility: visible;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul {
+          padding: 10px 0;
+          text-align: left;
+          display: flex;
+          flex-direction: row;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li > ul {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 0;
+          text-align: left;
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
+          display: flex;
+          flex-direction: column;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a,
+      .pcMenuBarLinks ul li > div.dropdown ul li a:visited {
+          color: currentColor;
+          display: inline-block;
+          padding: 16px 15px 16px 100px;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a:hover h3,
+      .pcMenuBarLinks ul li > div.dropdown ul li a:hover span {
+          opacity: 0.7;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li {
           margin: 0;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
-            background-color: rgba(250, 250, 250, 0.9);
-            color: black;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a {
-            align-items: flex-start;
-            justify-content: center;
-            display: flex;
-            padding-left: 70px;
-            width: 300px;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:hover {
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a h3 {
+          margin: 0;
+          font-weight: 700;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a h3:hover {
+          color: black;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li a:before {
+          content: "";
+          height: 45px;
+          left: 20px;
+          position: absolute;
+          top: calc(50% - 18px);
+          width: 45px;
+          background-repeat: no-repeat;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(1) a:before {
+          background-image: url("/images/deti/icon/historie.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(2) a:before {
+          background-image: url("/images/deti/icon/info.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before {
+          background-image: url("/images/deti/icon/pin.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li h3 {
+          font-size: 16px;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul li span {
+          color: grey;
+          font-size: 15px;
+          font-weight: 400;
+      }
+
+      /* Mini, Bottom Dropdown Items */
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly {
+          background-color: rgba(250, 250, 250, 0.9);
+          color: black;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a {
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          justify-content: space-between;
+          padding-left: 70px;
+          width: 300px;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:hover {
           transform: scale(1.05);
           background: rgba(255, 255, 255, 0.98);
           color: black;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a h3 {
-            margin-bottom: 0;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:before {
-            left: 25px;
-            height: 30px;
-            top: calc(50%-20px);
-            width: 30px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(1) a:before { background-image: url("/images/icon/kurz/city-enviro.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(2) a:before { background-image: url("/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg"); }
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li:nth-of-type(3) a:before { background-image: url("/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg"); }
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a h3 {
+          margin-bottom: 0;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li a:before {
+          left: 25px;
+          height: 30px;
+          top: calc(50%-20px);
+          width: 30px;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(1) a:before {
+          background-image: url("/images/icon/skola.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(2) a:before {
+          background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(3) a:before {
+          background-image: url("/images/icon/skolka.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(4) a:before {
+          background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before {
+          background-image: url("/images/icon/kurz/svp-enviro.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(6) a:before {
+          background-image: url("/images/icon/kurz/svt-enviro.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(7) a:before {
+          background-image: url("/images/icon/friendship.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(8) a:before {
+          background-image: url("/images/icon/hiking.svg");
+      }
 
-        .pcMenuBarLinks ul li > div.dropdown ul.mini-informace {
-            background-color: rgba(250, 250, 250, 0.9);
-            color: black;
-            display: flex;
-            flex-direction: column;
-          }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a {
-            align-items: center;
-            justify-content: flex-start;
-            display: flex;
-            padding-left: 70px;
-          }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:hover {
-            transform: scale(1.05);
-            background: rgba(255, 255, 255, 0.98);
-            color: black;
-          }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a h3 {
-            margin-bottom: 0;
-          }
-          .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:before {
-            left: 25px;
-            height: 30px;
-            top: calc(50%-20px);
-            width: 30px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-          }
-          #individualni-kurzy:before{
+      .pcMenuBarLinks ul li {
+          margin: 0;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost {
+          background-color: rgba(250, 250, 250, 0.9);
+          color: black;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a {
+          align-items: flex-start;
+          justify-content: center;
+          display: flex;
+          padding-left: 70px;
+          width: 300px;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:hover {
+          transform: scale(1.05);
+          background: rgba(255, 255, 255, 0.98);
+          color: black;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a h3 {
+          margin-bottom: 0;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-verejnost li a:before {
+          left: 25px;
+          height: 30px;
+          top: calc(50%-20px);
+          width: 30px;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      .pcMenuBarLinks
+          ul
+          li
+          > div.dropdown
+          ul.mini-verejnost
+          li:nth-of-type(1)
+          a:before {
+          background-image: url("/images/icon/kurz/city-enviro.svg");
+      }
+      .pcMenuBarLinks
+          ul
+          li
+          > div.dropdown
+          ul.mini-verejnost
+          li:nth-of-type(2)
+          a:before {
+          background-image: url("/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg");
+      }
+      .pcMenuBarLinks
+          ul
+          li
+          > div.dropdown
+          ul.mini-verejnost
+          li:nth-of-type(3)
+          a:before {
+          background-image: url("/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg");
+      }
+
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-informace {
+          background-color: rgba(250, 250, 250, 0.9);
+          color: black;
+          display: flex;
+          flex-direction: column;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a {
+          align-items: center;
+          justify-content: flex-start;
+          display: flex;
+          padding-left: 70px;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:hover {
+          transform: scale(1.05);
+          background: rgba(255, 255, 255, 0.98);
+          color: black;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a h3 {
+          margin-bottom: 0;
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-informace li a:before {
+          left: 25px;
+          height: 30px;
+          top: calc(50%-20px);
+          width: 30px;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      #individualni-kurzy:before {
           background-image: url(/images/icon/kurz/boy.svg);
-          }
+      }
     </style>
 
     <div class="pcMenu pcMenuDeti" id="pcMenu" phx-hook="ModularMenu">
@@ -600,6 +648,11 @@ defmodule MenuPc do
           </a>
           <a href="/kontakty"> Kontakty </a>
         </div>
+      </div>
+      <div class="menu-course-button" id="menu-course-button">
+        <a href="https://rezervace.zsprodeti.cz" target="blank">
+          Přihláška
+        </a>
       </div>
     </div>
     """
