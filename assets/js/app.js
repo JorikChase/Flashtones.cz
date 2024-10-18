@@ -16,46 +16,53 @@
 //
 
 // Include phoenix_html to handle method=PUT/DELETE in forms and buttons.
-import "phoenix_html"
+import "phoenix_html";
 
 // Establish Phoenix Socket and LiveView configuration.
-import {Socket} from "phoenix"
-import {LiveSocket} from "phoenix_live_view"
-import topbar from "../vendor/topbar"
-import "phoenix_live_head"
+import { Socket } from "phoenix";
+import { LiveSocket } from "phoenix_live_view";
+import topbar from "../vendor/topbar";
+import "phoenix_live_head";
 
-import {Synchronize} from "./custom.js"
-import {ToggleSwitchPlavani} from "./custom.js"
-import {ToggleSwitch} from "./custom.js"
-import {ModularMenu} from "./custom.js"
-import {ModularMenuRight} from "./custom.js"
-import {ScrollingCarousel} from "./custom.js"
-import {SocciMap} from "./custom.js"
-let Hooks = {}
-Hooks.Synchronize = Synchronize
-Hooks.ToggleSwitchPlavani = ToggleSwitchPlavani
-Hooks.ToggleSwitch = ToggleSwitch
-Hooks.ModularMenu = ModularMenu
-Hooks.ModularMenuRight = ModularMenuRight
-Hooks.ScrollingCarousel = ScrollingCarousel
-Hooks.SocciMap = SocciMap
+import { Oblasti } from "./custom.js";
+import { ToggleSwitchPlavani } from "./custom.js";
+import { ToggleSwitch } from "./custom.js";
+import { ModularMenu } from "./custom.js";
+import { ModularMenuRight } from "./custom.js";
+import { ScrollingCarousel } from "./custom.js";
+import { SocciMap } from "./custom.js";
 
-let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
+let Hooks = {};
+Hooks.Oblasti = Oblasti;
+Hooks.ToggleSwitchPlavani = ToggleSwitchPlavani;
+Hooks.ToggleSwitch = ToggleSwitch;
+Hooks.ModularMenu = ModularMenu;
+Hooks.ModularMenuRight = ModularMenuRight;
+Hooks.ScrollingCarousel = ScrollingCarousel;
+Hooks.SocciMap = SocciMap;
 
-let liveSocket = new LiveSocket("/live", Socket, {params: {_csrf_token: csrfToken}, hooks: Hooks})
+let csrfToken = document
+  .querySelector("meta[name='csrf-token']")
+  .getAttribute("content");
+
+let liveSocket = new LiveSocket("/live", Socket, {
+  params: { _csrf_token: csrfToken },
+  hooks: Hooks,
+});
 
 // Show progress bar on live navigation and form submits
-topbar.config({barColors: {0: "#d8b7704d"}, shadowColor: "rgba(0, 0, 0, .3)"})
-window.addEventListener("phx:page-loading-start", _info => topbar.show(30))
-window.addEventListener("phx:page-loading-stop", _info => topbar.hide())
+topbar.config({
+  barColors: { 0: "#d8b7704d" },
+  shadowColor: "rgba(0, 0, 0, .3)",
+});
+window.addEventListener("phx:page-loading-start", (_info) => topbar.show(30));
+window.addEventListener("phx:page-loading-stop", (_info) => topbar.hide());
 
 // connect if there are any LiveViews on the page
-liveSocket.connect()
-window.liveSocket = liveSocket
+liveSocket.connect();
+window.liveSocket = liveSocket;
 
 // expose liveSocket on window for web console debug logs and latency simulation:
 // liveSocket.enableDebug()
 // liveSocket.enableLatencySim(1000)  // enabled for duration of browser session
 // >> liveSocket.disableLatencySim()
-
-
