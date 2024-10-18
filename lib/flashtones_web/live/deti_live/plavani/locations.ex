@@ -1,17 +1,27 @@
 defmodule FlashtonesWeb.LocationsPlavaniLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png", canonical: "https://zsprodeti.cz/plavani/lokace" , page_title: "ZŠ PLAVÁNÍ", description: "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity.")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png",
+        canonical: "https://zsprodeti.cz/plavani/lokality",
+        page_title: "ZŠ PLAVÁNÍ",
+        description:
+          "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity."
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "plavani")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
-      <Nav.nav />
-      <MenuMobile.menuPlavaniMobile />
-      <MenuPc.menuPlavaniPc />
-      <HeroSmall.lokalityPlavani />
-      <style>
+    <Nav.nav />
+    <MenuMobile.menuPlavaniMobile />
+    <MenuPc.menuPlavaniPc />
+    <HeroSmall.lokalityPlavani />
+    <style>
       main{
           background: #e7e4f8;
         }
@@ -56,10 +66,10 @@ defmodule FlashtonesWeb.LocationsPlavaniLive do
         .course-wrap{
           margin: 0;
         }
-      </style>
-      <SectionToggle.lokalityPlavani />
-      <Zustanme.plavani />
-      <Footer.deti />
+    </style>
+    <SectionToggle.lokalityPlavani />
+    <Zustanme.plavani />
+    <Footer.deti />
     """
   end
 end
