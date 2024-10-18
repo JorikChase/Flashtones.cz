@@ -651,7 +651,7 @@ defmodule MenuPc do
       </div>
       <div class="menu-course-button" id="menu-course-button">
         <a href="https://rezervace.zsprodeti.cz" target="blank">
-          Přihláška
+          Přihláška pro školy
         </a>
       </div>
     </div>
