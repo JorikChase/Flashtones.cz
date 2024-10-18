@@ -17,7 +17,6 @@ defmodule FlashtonesWeb.DetiIndexLive do
 
   def render(assigns) do
     ~H"""
-    <link rel="canonical" href="https://www.zsprodeti.cz" />
     <style>
       main{
         background: #dbf6f9;

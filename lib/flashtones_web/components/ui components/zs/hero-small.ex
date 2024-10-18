@@ -1,6 +1,19 @@
 defmodule HeroSmall do
   use Phoenix.Component
 
+  def error(assigns) do
+    ~H"""
+    <header class="hero-small"></header>
+
+    <style>
+      .hero-small{
+       background-image: url(/images/deti/3.avif);
+       color: white;
+      }
+    </style>
+    """
+  end
+
   def tiCoUci(assigns) do
     ~H"""
     <header class="hero-small">
