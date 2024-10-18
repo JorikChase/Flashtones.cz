@@ -409,7 +409,7 @@ defmodule Navlinks do
         </div>
         <div class="plachta-column">
           <div class="plachta-link-item">
-            <a href="/studio">
+            <a href="/ft/studio">
               <div class="plachta-link-item-heading">
                 <h3>studio</h3>
                 <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />

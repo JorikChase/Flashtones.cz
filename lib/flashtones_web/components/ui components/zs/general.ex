@@ -211,7 +211,7 @@ defmodule General do
         </div>
 
         <div class="product">
-          <a href="https://eshop.flashtones.cz/satky-flashtones-chitenge/">
+          <a href="https://eshop.flashtones.cz/">
             <div class="product-image" style="background-image: url('/images/produkty/satky.avif')">
             </div>
             <h4>Šátky</h4>
@@ -219,7 +219,7 @@ defmodule General do
         </div>
 
         <div class="product">
-          <a href="https://eshop.flashtones.cz/naramky-flashtones/naramky-flashtones-made-in-czech/">
+          <a href="https://eshop.flashtones.cz/">
             <div class="product-image" style="background-image: url('/images/produkty/naramky.avif')">
             </div>
             <h4>Náramky</h4>
@@ -227,7 +227,7 @@ defmodule General do
         </div>
 
         <div class="product">
-          <a href="https://eshop.flashtones.cz/nahrdelniky-flashtones/nahrdelniky-flashtones-made-in-czech/">
+          <a href="https://eshop.flashtones.cz/">
             <div
               class="product-image"
               style="background-image: url('/images/produkty/nahrdelniky.avif')"
@@ -238,7 +238,7 @@ defmodule General do
         </div>
 
         <div class="product">
-          <a href="https://eshop.flashtones.cz/nausnice-flashtones/nausnice-made-in-czech/">
+          <a href="https://eshop.flashtones.cz/">
             <div class="product-image" style="background-image: url('/images/produkty/nausnice.avif')">
             </div>
             <h4>Náušnice</h4>
@@ -246,7 +246,7 @@ defmodule General do
         </div>
 
         <div class="product">
-          <a href="https://eshop.flashtones.cz/kniha-ostrov-socci/kniha-ostrov-socci/">
+          <a href="https://eshop.flashtones.cz/">
             <div
               class="product-image"
               style="background-image: url('/images/produkty/kniha-socci.avif')"

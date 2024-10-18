@@ -54,7 +54,7 @@ defmodule Hero do
             image: '/images/ft/studio.avif',
             heading: 'Otevřeli jsme Flashtones Studio!',
             button: 'Podívejte se',
-            href: '/studio'
+            href: '/ft/studio'
           },
           {
             image: '/images/ft/tobogan.gif',
@@ -66,7 +66,7 @@ defmodule Hero do
             image: '/images/ft/originalni-produkty.avif',
             heading: 'Originální produkty vyrobené v ČR',
             button: 'Prohlédnout si',
-            href: '/produkty'
+            href: '/ft/produkty'
           }
         ];
 
@@ -376,11 +376,11 @@ defmodule Hero do
           </div>
           <div id="layer6" data-speed="0.5">
             <a href="###"><img alt="Zviratko" class="brouk" src="/images/socci/brouk.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="had" src="/images/socci/had.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="hlemyzd" src="/images/socci/hlemyzd.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="kudlanka" src="/images/socci/kudlanka.PNG" /></a>
+            <a href="###"><img alt="Zviratko" class="had" src="/images/socci/had.png" /></a>
+            <a href="###"><img alt="Zviratko" class="hlemyzd" src="/images/socci/hlemyzd.png" /></a>
+            <a href="###"><img alt="Zviratko" class="kudlanka" src="/images/socci/kudlanka.png" /></a>
             <a href="###">
-              <img alt="Zviratko" class="lumberjack" src="/images/socci/lumberjack.PNG" />
+              <img alt="Zviratko" class="lumberjack" src="/images/socci/lumberjack.png" />
             </a>
             <a href="###"><img alt="Zviratko" class="pavouk" src="/images/socci/pavouk.PNG" /></a>
             <a href="###"><img alt="Zviratko" class="silak" src="/images/socci/silak.PNG" /></a>
