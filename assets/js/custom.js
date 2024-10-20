@@ -289,7 +289,6 @@ export const ModularMenu = {
       })();
     }
 
-    // Function containing your modulate logic
     function modulate() {
       window.onscroll = function () {
         let cta = document.getElementById("detail-cta");
@@ -321,7 +320,7 @@ export const ModularMenu = {
           menuBar.style.top = "0";
           menuCourseButton.style.top = "0";
           menuBar.style.left = "0";
-          menuBar.style.right = "180px";
+          menuBar.style.right = "0";
           menuCourseButton.style.right = "0";
           menuCourseButton.style.left = "calc(100% - 180px)";
           menu.style.borderRadius = "0";
