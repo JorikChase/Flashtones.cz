@@ -376,7 +376,6 @@ export const ModularMenu = {
 };
 export const ModularMenuRight = {
   mounted() {
-    // Cookie consent functions
     function setCookie(name, value, days) {
       const expires = new Date();
       expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
@@ -430,16 +429,17 @@ export const ModularMenuRight = {
       (function () {
         var script = document.createElement("script");
         script.async = true;
-        script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
+        script.src =
+          "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
         document.head.appendChild(script);
-
+        console.log("tag active");
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
         }
         window.gtag = gtag; // Make gtag globally available
         gtag("js", new Date());
-        gtag("config", "G-SYGJRGDW2D");
+        gtag("config", "G-FKH8YGWNRR");
       })();
     }
 
