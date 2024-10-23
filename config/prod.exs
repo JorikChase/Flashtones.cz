@@ -13,8 +13,9 @@ config :flashtones, FlashtonesWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
   http: [ip: {0, 0, 0, 0}, port: 4000],
-  http: [ip: {0, 0, 0, 0}, port: 4001],
-  check_origin: ["http://www.zsprodeti.cz", "http://flashtones.cz"]
+  http: [ip: {0, 0, 0, 0}, port: 4001]
+
+# check_origin: ["http://www.zsprodeti.cz", "http://flashtones.cz"]
 
 # https: [
 #         port: 443,
