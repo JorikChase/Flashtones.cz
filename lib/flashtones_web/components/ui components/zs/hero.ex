@@ -605,8 +605,16 @@ defmodule Hero do
         <h1 id="hero-heading">Plavecké kurzy <br /> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani">
-          <a href="/plavani/skoly#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
-          <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+          <a
+            href="https://zsprodeti.cz/plavani/skoly#course-marker"
+            id="skolyA"
+            phx-hook="Synchronize"
+          >
+            Pro školy
+          </a>
+          <a href="https://zsprodeti.cz/plavani/verejnost#course-marker" id="verejnostA">
+            Pro veřejnost
+          </a>
         </div>
       </div>
       <div class="hero-media" style="background-image: url(/images/plavani/plavani-head.avif);"></div>
@@ -678,8 +686,14 @@ defmodule Hero do
         <h1 id="hero-heading">Plavecké kurzy <br /> pro ZŠ i veřejnost</h1>
         <br />
         <div class="section-toggle section-toggle-plavani hero-button-wrap">
-          <a class="hero-button" href="/plavani#course-marker" id="skolyA">Pro školy</a>
-          <a class="hero-button" href="/plavani/verejnost#course-marker" id="verejnostA">
+          <a class="hero-button" href="https://zsprodeti.cz/plavani#course-marker" id="skolyA">
+            Pro školy
+          </a>
+          <a
+            class="hero-button"
+            href="https://zsprodeti.cz/plavani/verejnost#course-marker"
+            id="verejnostA"
+          >
             Pro veřejnost
           </a>
         </div>

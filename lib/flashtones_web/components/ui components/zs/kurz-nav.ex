@@ -6,7 +6,7 @@ defmodule KurzNav do
     <style>
     </style>
     <div class="kurz-nav">
-      <a href="/plavani/letni-primestske-tabory" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" />
         <h4>Letní příměstské tábory</h4>
         <p>
@@ -16,7 +16,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/sobotni-kurzy-plavani" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
         <h4>Sobotní kurzy plavání 2024/2025</h4>
         <p>
@@ -26,7 +26,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/individualni-kurzy" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" />
         <h4>Individuální lekce</h4>
         <p>
@@ -36,7 +36,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/summer-camp" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/summer-camp" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
         <h4>Letní pobytové tábory</h4>
         <p>
@@ -55,7 +55,7 @@ defmodule KurzNav do
     <style>
     </style>
     <div class="kurz-nav">
-      <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/skola.svg" />
         <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
         <p>
@@ -65,7 +65,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" />
         <h4>Příměstský školní plavecký kurz</h4>
         <p>
@@ -75,7 +75,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
-      <a href="/plavani/predskolni-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/skolka.svg" />
         <h4>Předškolní plavecký <br /> kurz</h4>
         <p>

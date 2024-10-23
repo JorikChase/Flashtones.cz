@@ -6,7 +6,7 @@ defmodule Aktivity do
     <h2 id="skoly">Aktivity pro školy</h2>
     <br />
     <div class="kurz-nav">
-      <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
         <img src="/images/icon/skola.svg" alt="skola" />
         <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
         <p>
@@ -16,7 +16,7 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
         </span>
       </a>
-      <a href="/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
         <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka" />
         <h4>Příměstský školní plavecký kurz</h4>
         <p>
@@ -26,7 +26,7 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
         </span>
       </a>
-      <a href="/plavani/predskolni-plavecky-kurz" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
         <img src="/images/icon/skolka.svg" alt="Šipka" />
         <h4>Předškolní plavecký <br /> kurz</h4>
         <p>
@@ -105,7 +105,7 @@ defmodule Aktivity do
     <h2 id="verejnost">Aktivity pro veřejnost</h2>
     <br />
     <div class="kurz-nav kurz-nav-verejnost">
-      <a href="/plavani/letni-primestske-tabory" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="kurz-item">
         <img src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" alt="Šipka" />
         <h4>Letní příměstské tábory</h4>
         <p>
@@ -115,7 +115,7 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
         </span>
       </a>
-      <a href="/plavani/sobotni-kurzy-plavani" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
         <img src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" alt="Šipka" />
         <h4>Sobotní kurzy plavání</h4>
         <p>
@@ -125,7 +125,7 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
         </span>
       </a>
-      <a href="/plavani/individualni-kurzy" class="kurz-item">
+      <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="kurz-item">
         <img src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" alt="Šipka" />
         <h4>Individuální lekce</h4>
         <p>

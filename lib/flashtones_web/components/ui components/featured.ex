@@ -108,7 +108,7 @@ defmodule Featured do
     <div class="slider-container">
       <section class="slide" style="background-image: url('/images/plavani/plavani-school.avif');">
         <div class="slide-content">
-          <a href="/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+          <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
             <img alt="Logo kurzu" src="/images/icon/skola.svg" />
             <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
             <p>
@@ -287,7 +287,7 @@ defmodule Featured do
       <section class="featured-course odsazeni">
         <div class="course-info">
           <div class="course-title">
-            <a href="/plavani" style="border-radius: 0;">
+            <a href="https://zsprodeti.cz/plavani" style="border-radius: 0;">
               <img alt="Ikona menu" src="/images/plavani/plavani-logo.svg" style="border-radius: 0;" />
             </a>
           </div>
@@ -296,7 +296,7 @@ defmodule Featured do
             Školní pobytový plavecký kurz je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí.
           </p>
           <a
-            href="/plavani/skolni-pobytovy-plavecky-kurz"
+            href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz"
             class="course-cta"
             style="background-color: var(--plavani-link)"
           >

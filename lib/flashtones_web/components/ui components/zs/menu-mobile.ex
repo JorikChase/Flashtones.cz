@@ -283,11 +283,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -453,12 +453,14 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/aktivity" class=""><h4>Aktivity</h4></a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="/aktivity" class="">
+          <h4>Aktivity</h4>
+        </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -607,11 +609,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -768,11 +770,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -929,11 +931,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -1090,11 +1092,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>
@@ -1251,11 +1253,11 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz/">
           <h4>ZŠ PRO DĚTI</h4>
         </a>
-        <a href="/plavani" class="zs-menu-plavani"> Plavání </a>
+        <a href="https://zsprodeti.cz/plavani" class="zs-menu-plavani"> Plavání </a>
         <a href="/lyzovani" class="zs-menu-lyzovani"> Lyžování </a>
         <a href="/enviro" class="zs-menu-enviro"> Enviro </a>
         <a href="/vylety" class="zs-menu-vylety"> Výlety </a>
-        <a href="/doma" class="zs-menu-doma"> Domácí výuka </a>
+        <a href="https://zsprodeti.cz/doma" class="zs-menu-doma"> Domácí výuka </a>
         <a href="/academy" class="zs-menu-academy"> Academy </a>
         <!-- <a href="/aktuality"> Aktuality </a>
         <a href="/aktuality#blog"> Blog </a>

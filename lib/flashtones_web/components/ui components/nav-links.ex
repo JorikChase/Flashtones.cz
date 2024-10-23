@@ -85,37 +85,37 @@ defmodule Navlinks do
           </div>
           <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
         </div>
-        <a href="/plavani" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/plavani" class="plachta-link-line">
           <span class="plachta-link-thick plavani-link">Plavání:</span>Největší plavecká škola v ČR<img
             src="/images/icon/arrow-right-plavani.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/enviro" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/enviro" class="plachta-link-line">
           <span class="plachta-link-thick enviro-link">Enviro:</span>Školy v přírodě<img
             src="/images/icon/arrow-right-enviro.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/lyzovani" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/lyzovani" class="plachta-link-line">
           <span class="plachta-link-thick lyzovani-link">Lyžování:</span>Lyžařská škola<img
             src="/images/icon/arrow-right-lyzovani.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/doma" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/doma" class="plachta-link-line">
           <span class="plachta-link-thick doma-link">Doma:</span>Online vzdělávání<img
             src="/images/icon/arrow-right-doma.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/vylety" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/vylety" class="plachta-link-line">
           <span class="plachta-link-thick vylety-link">Výlety:</span>Jednodenní a vícedenní výlety<img
             src="/images/icon/arrow-right-vylety.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/academy" class="plachta-link-line">
+        <a href="https://zsprodeti.cz/academy" class="plachta-link-line">
           <span class="plachta-link-thick academy-link">Academy:</span>Školící centrum<img
             src="/images/icon/arrow-right-academy.svg"
             alt="Šipka"
@@ -130,35 +130,35 @@ defmodule Navlinks do
           </div>
           <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
         </div>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img
             src="/images/icon/arrow-right-white.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img
             src="/images/icon/arrow-right-white.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Šátky:</span>Designové šátky i
           ubrusy<img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
         </a>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img
             src="/images/icon/arrow-right-white.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky...<img
             src="/images/icon/arrow-right-white.svg"
             alt="Šipka"
           />
         </a>
-        <a href="/ft/produkty" class="plachta-link-line">
+        <a href="https://flashtones.cz/produkty" class="plachta-link-line">
           <span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
             src="/images/icon/arrow-right-white.svg"
             alt="Šipka"
@@ -167,7 +167,7 @@ defmodule Navlinks do
       </div>
       <div class="plachta-column">
         <div class="plachta-link-item">
-          <a href="/ft/studio">
+          <a href="https://flashtones.cz/studio">
             <div class="plachta-link-item-heading">
               <h3>studio</h3>
               <img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
@@ -329,7 +329,7 @@ defmodule Navlinks do
             </div>
             <p>Pořádáme sportovní a zábavní akce pro školy i pro veřejnost</p>
           </div>
-          <a href="/plavani" class="plachta-link-line">
+          <a href="https://zsprodeti.cz/plavani" class="plachta-link-line">
             <span class="plachta-link-thick">ZŠ Plavání:</span>Největší plavecká škola v ČR<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"
@@ -347,7 +347,7 @@ defmodule Navlinks do
               alt="Šipka"
             />
           </a>
-          <a href="/doma" class="plachta-link-line">
+          <a href="https://zsprodeti.cz/doma" class="plachta-link-line">
             <span class="plachta-link-thick">ZŠ Doma:</span>Online vzdělávání<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"

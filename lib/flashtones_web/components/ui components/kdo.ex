@@ -278,10 +278,18 @@ defmodule Kdo do
               Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
             </p>
             <div class="button-row">
-              <a class="inline-button plavani-link" href="/plavani/o-nas" aria-label="O nas">
+              <a
+                class="inline-button plavani-link"
+                href="https://zsprodeti.cz/plavani/o-nas"
+                aria-label="O nas"
+              >
                 O projektu <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
               </a>
-              <a class="inline-button plavani-link" href="/plavani/o-nas/lide" aria-label="Name">
+              <a
+                class="inline-button plavani-link"
+                href="https://zsprodeti.cz/plavani/o-nas/lide"
+                aria-label="Name"
+              >
                 Naši lidé <img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
               </a>
             </div>
@@ -689,10 +697,18 @@ defmodule Kdo do
               Pořádáme sportovní a vzdělávací akce pro ZŠ i pro veřejnost, usnadňujeme online vzdělávání.
             </p>
             <div class="button-row">
-              <a class="inline-button doma-link" href="/doma/about#about" aria-label="O nas">
+              <a
+                class="inline-button doma-link"
+                href="https://zsprodeti.cz/doma/about#about"
+                aria-label="O nas"
+              >
                 O projektu <img src="/images/icon/arrow-right-doma.svg" alt="Šipka" />
               </a>
-              <a class="inline-button doma-link" href="/doma/about#lide" aria-label="Name">
+              <a
+                class="inline-button doma-link"
+                href="https://zsprodeti.cz/doma/about#lide"
+                aria-label="Name"
+              >
                 Naši lidé <img src="/images/icon/arrow-right-doma.svg" alt="Šipka" />
               </a>
             </div>
