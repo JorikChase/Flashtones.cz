@@ -21,7 +21,6 @@ if System.get_env("PHX_SERVER") do
 end
 
 if config_env() == :prod do
-
   maybe_ipv6 = if System.get_env("ECTO_IPV6") in ~w(true 1), do: [:inet6], else: []
 
   config :flashtones, Flashtones.Repo,
@@ -46,6 +45,7 @@ if config_env() == :prod do
 
   config :flashtones, FlashtonesWeb.Endpoint,
     url: [host: host, port: 4000, scheme: "http"],
+    url: [host: host, port: 4001, scheme: "http"],
     http: [
       # Enable IPv6 and bind on all interfaces.
       # Set it to  {0, 0, 0, 0, 0, 0, 0, 1} for local network only access.
