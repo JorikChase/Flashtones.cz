@@ -57,10 +57,17 @@ kurzy plavání pro děti, kurzy plavání pro děti praha, kurz plavani deti, �
     <Hero.plavaniHeroDetail />
     <div class="odsazeni center">
       <div class="section-toggle">
-        <a href="/plavani#course-marker" id="skolyA" class="active" phx-hook="Synchronize">
+        <a
+          href="https://zsprodeti.cz/plavani#course-marker"
+          id="skolyA"
+          class="active"
+          phx-hook="Synchronize"
+        >
           Pro školy
         </a>
-        <a href="/plavani/verejnost#course-marker" id="verejnostA">Pro veřejnost</a>
+        <a href="https://zsprodeti.cz/plavani/verejnost#course-marker" id="verejnostA">
+          Pro veřejnost
+        </a>
       </div>
       <KurzNav.kurzPlavaniSkola />
     </div>

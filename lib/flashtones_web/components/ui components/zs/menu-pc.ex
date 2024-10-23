@@ -62,7 +62,7 @@ defmodule MenuPc do
       }
     </style>
 
-    <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
+    <div class="pcMenu" id="pcMenu">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="./">
           <img alt="Ikona menu" src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
@@ -535,17 +535,17 @@ defmodule MenuPc do
                     </a>
                     <ul class="mini-skoly">
                       <li>
-                        <a href="/plavani/skolni-pobytovy-plavecky-kurz">
+                        <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz">
                           <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/primestsky-skolni-plavecky-kurz">
+                        <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz">
                           <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/predskolni-plavecky-kurz">
+                        <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz">
                           <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
                         </a>
                       </li>
@@ -587,17 +587,20 @@ defmodule MenuPc do
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/letni-primestske-tabory">
+                        <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory">
                           <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/sobotni-kurzy-plavani">
+                        <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani">
                           <h3>SOBOTNÍ KURZY PLAVÁNÍ</h3>
                         </a>
                       </li>
                       <li>
-                        <a href="/plavani/individualni-kurzy" id="individualni-kurzy">
+                        <a
+                          href="https://zsprodeti.cz/plavani/individualni-kurzy"
+                          id="individualni-kurzy"
+                        >
                           <h3>INDIVIDUÁLNÍ KURZY</h3>
                         </a>
                       </li>
@@ -703,12 +706,12 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/doma">
+        <a href="https://zsprodeti.cz/doma">
           <img alt="Ikona menu" src="/images/doma/doma-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
-          <a href="/doma/about#about">O nás</a>
+          <a href="https://zsprodeti.cz/doma/about#about">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -925,15 +928,15 @@ defmodule MenuPc do
 
     <div class="pcMenu" id="pcMenu" phx-hook="ModularMenuRight">
       <div class="pcMenuBar" id="pcMenuBar">
-        <a href="/plavani">
+        <a href="https://zsprodeti.cz/plavani">
           <img alt="Ikona menu" src="/images/plavani/plavani-logo.svg" />
         </a>
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
-          <a href="/plavani/lokality"> Lokality </a>
+          <a href="https://zsprodeti.cz/plavani/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
-          <a href="/plavani/o-nas#my">O nás</a>
+          <a href="https://zsprodeti.cz/plavani/o-nas#my">O nás</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

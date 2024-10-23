@@ -57,8 +57,12 @@ defmodule FlashtonesWeb.PlavaniIndexVerejnostLive do
     <Hero.plavaniHeroDetail />
     <div class="odsazeni center">
       <div class="section-toggle">
-        <a href="/plavani#course-marker" id="skolyA" phx-hook="Synchronize">Pro školy</a>
-        <a href="/plavani/verejnost#course-marker" id="verejnostA" class="active">Pro veřejnost</a>
+        <a href="https://zsprodeti.cz/plavani#course-marker" id="skolyA" phx-hook="Synchronize">
+          Pro školy
+        </a>
+        <a href="https://zsprodeti.cz/plavani/verejnost#course-marker" id="verejnostA" class="active">
+          Pro veřejnost
+        </a>
       </div>
       <KurzNav.kurzPlavaniVerejnost />
     </div>
