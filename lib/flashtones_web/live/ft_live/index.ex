@@ -1,16 +1,24 @@
-defmodule FlashtonesWeb.IndexLive do
+defmodule FlashtonesWebE.IndexLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png", canonical: "https://flashtones.cz" , page_title: "FLASHTONES", description: "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! ")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
+        canonical: "https://flashtones.cz",
+        page_title: "FLASHTONES",
+        description:
+          "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! "
+      )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
+
     {:ok, socket}
   end
+
   def render(assigns) do
-
     ~H"""
-
-     <link rel="canonical" href="https://www.flashtones.cz">
-      <style>
+    <link rel="canonical" href="https://www.flashtones.cz" />
+    <style>
       .app-bg{
         display: flex;
         flex-direction: column;
@@ -38,16 +46,16 @@ defmodule FlashtonesWeb.IndexLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuFtMobile />
-      <MenuPc.menuFtPc />
-      <Hero.ftHero />
-      <Instagram.flashtones />
-      <Kdo.ft />
-      <Rekli.rekliVylety />
-      <Zustanme.zustanme />
-      <Footer.footer />
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuFtMobile />
+    <MenuPc.menuFtPc />
+    <Hero.ftHero />
+    <Instagram.flashtones />
+    <Kdo.ft />
+    <Rekli.rekliVylety />
+    <Zustanme.zustanme />
+    <Footer.footer />
     """
   end
 end

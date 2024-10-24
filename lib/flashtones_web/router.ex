@@ -1,5 +1,4 @@
 defmodule FlashtonesWeb.Router do
-  alias FourOhFour
   use FlashtonesWeb, :router
 
   pipeline :browser do
@@ -37,19 +36,10 @@ defmodule FlashtonesWeb.Router do
     pipe_through :browser
     get "/sitemap.xml", SitemapController, :index
 
-    live "/ft/kontakt", KontaktyLive
-
     live "/", DetiIndexLive
-    live "/ft", IndexLive
-    live "/ft/aktuality", AktualityLive
-    live "/ft/faq", FaqLive
     live "/faq", ZsFaqLive
-    live "/ft/kontakty", KontaktyLive
     live "/kontakty", ZsKontaktyLive
     live "/kontakty-formular", ZsKontaktyFormularLive
-    live "/ft/about", AboutLive
-    live "/ft/produkty", ProduktyLive
-    live "/ft/studio", StudioLive
     live "/o-nas", DetiAboutLive
     live "/plavani/o-nas", PlavaniAboutLive
     live "/o-nas/historie", DetiHistorieLive
@@ -64,8 +54,6 @@ defmodule FlashtonesWeb.Router do
     live "/doma/about", DomaAboutLive
     live "/academy/about", AcademyAboutLive
     live "/reference", DetiReference
-    live "/ft/sluzby", SluzbyLive
-    live "/ft/hodnoceni", HodnoceniLive
     live "/academy", AcademyIndexLive
     live "/academy/courses", AcademyCoursesLive
     live "/courses/school", DetiCoursesLive
@@ -200,7 +188,6 @@ defmodule FlashtonesWeb.Router do
 
     live "/mail", MailFormLive
     live "/desk", DeskLive
-    live "/ft/blog", BlogFtLive
 
     live "/blog", BlogLive
     live "/blog/ti-co-uci", BlogTiCoUciLive

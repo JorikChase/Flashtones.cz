@@ -38,6 +38,28 @@ config :flashtones, FlashtonesWeb.Endpoint,
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
   ]
 
+config :flashtones, FlashtonesWebE.Endpoint,
+  # Binding to loopback ipv4 address prevents access from other machines.
+  # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
+  http: [ip: {127, 0, 0, 1}, port: 4001],
+  # https: [
+  #         port: 443,
+  #         cipher_suite: :strong,
+  #         otp_app: :flashtones,
+  #         keyfile: System.get_env("KEYFILE"),
+  #         certfile: System.get_env("CERTFILE")
+  #         # OPTIONAL Key for intermediate certificates:
+  #         # cacertfile: System.get_env("CACERTFILE")
+  #       ],
+  check_origin: false,
+  code_reloader: true,
+  debug_errors: false,
+  secret_key_base: "Uw2I+B2xjpGyNN9IdDq/0EiTkrT4KYJGxjpBI5eoAdkK4o3BB7pdXFIGdNjzFZlY",
+  watchers: [
+    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
+    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
+  ]
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
@@ -63,6 +85,15 @@ config :flashtones, FlashtonesWeb.Endpoint,
 
 # Watch static and templates for browser reloading.
 config :flashtones, FlashtonesWeb.Endpoint,
+  live_reload: [
+    patterns: [
+      ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
+      ~r"priv/gettext/.*(po)$",
+      ~r"lib/flashtones_web/(controllers|live|components)/.*(ex|heex)$"
+    ]
+  ]
+
+config :flashtones, FlashtonesWebE.Endpoint,
   live_reload: [
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",

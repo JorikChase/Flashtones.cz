@@ -1,4 +1,4 @@
-defmodule FlashtonesWeb.Endpoint do
+defmodule FlashtonesWebE.Endpoint do
   use Phoenix.Endpoint, otp_app: :flashtones
 
   # The session will be stored in the cookie and signed,
@@ -11,8 +11,7 @@ defmodule FlashtonesWeb.Endpoint do
     same_site: "Lax"
   ]
 
-  socket "/live", Phoenix.LiveView.Socket,
-  websocket: [connect_info: [session: @session_options]]
+  socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -48,5 +47,5 @@ defmodule FlashtonesWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
-  plug FlashtonesWeb.Router
+  plug FlashtonesWebE.Router
 end

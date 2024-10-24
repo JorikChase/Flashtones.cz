@@ -1,11 +1,11 @@
-defmodule FlashtonesWeb.AktualityLive do
+defmodule FlashtonesWebE.AktualityLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
-        canonical: "https://flashtones.cz/ft/aktuality",
+        canonical: "/aktuality",
         page_title: "FLASHTONES",
         description:
           "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! "

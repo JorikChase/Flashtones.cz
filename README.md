@@ -1395,3 +1395,8 @@ lektori:
 # ~p"/lektori/tym-zakladni-info",
 # ~p"/lektori/tym-sbornik",
 # ~p"/lektori/tym-enviro-aktivity-starsi",
+
+prekopnout bez knihy pdf enviro v tymu
+galerie do kurzu
+sipka dolu menu
+texty zaloha old web flashtones
