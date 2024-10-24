@@ -42,7 +42,7 @@ if config_env() == :prod do
       """
 
   host = System.get_env("PHX_HOST") || "example.com"
-  port = String.to_integer(System.get_env("PORT"))
+  # port = String.to_integer(System.get_env("PORT"))
 
   config :flashtones, FlashtonesWeb.Endpoint,
     url: [host: host, port: 4000, scheme: "http"],
