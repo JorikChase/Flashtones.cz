@@ -127,7 +127,7 @@ defmodule MenuMobile do
         <a href="https://zsprodeti.cz">
           <h2>ZŠ PRO DĚTI</h2>
         </a>
-        <a href="/ft/produkty">
+        <a href="/produkty">
           <h2>PRODUKTY</h2>
         </a>
         <a href="/ft/studio">

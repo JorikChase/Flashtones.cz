@@ -374,33 +374,33 @@ defmodule Navlinks do
             </div>
             <p>Nalaďte se s námi na Flashtones a bořte stereotypy</p>
           </div>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Ponožky:</span>Pestré ponožky<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"
             />
           </a>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Dashiky:</span>S respektem k tradicím<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"
             />
           </a>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Šátky:</span>Designové šátky i
             ubrusy<img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </a>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Nášivky:</span>Ozdobte svou "uniformu"<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"
             />
           </a>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Šperky:</span>Náramky, náhrdelníky a
             náušnice<img src="/images/icon/arrow-right-white.svg" alt="Šipka" />
           </a>
-          <a href="/ft/produkty" class="plachta-link-line">
+          <a href="/produkty" class="plachta-link-line">
             <span class="plachta-link-thick">Kniha:</span>Ostrov Socci<img
               src="/images/icon/arrow-right-white.svg"
               alt="Šipka"

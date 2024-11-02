@@ -10,7 +10,8 @@ defmodule Hero do
         <br />
         <a id="hero-button" class="hero-button" href="/o-nas#my">O nás</a>
       </div>
-      <div class="hero-media" style="background-image: url(/images/ft/tobogan.gif);"></div>
+      <div class="hero-media" style="background-image: url(/images/ft/originalni-produkty.avif);">
+      </div>
     </div>
     <span id="course-marker"></span>
 
@@ -19,6 +20,9 @@ defmodule Hero do
         position: relative;
         height: 80vh;
         overflow: hidden;
+      }
+      .hero h1 {
+        filter: drop-shadow(0 0 0.75rem var(--ft-hover));
       }
 
       .hero-media {
@@ -40,60 +44,6 @@ defmodule Hero do
         padding: 120px 10%;
       }
     </style>
-
-    <script>
-      function flashtonesHero() {
-        const slides = [
-          {
-            image: '/images/ft/pirat.avif',
-            heading: 'Sledujte nás na našich sítích!',
-            button: 'Tady',
-            href: '#course-marker'
-          },
-          {
-            image: '/images/ft/studio.avif',
-            heading: 'Otevřeli jsme Flashtones Studio!',
-            button: 'Podívejte se',
-            href: '/ft/studio'
-          },
-          {
-            image: '/images/ft/tobogan.gif',
-            heading: 'S námi je to jízda!',
-            button: 'O nás',
-            href: '/about#about'
-          },
-          {
-            image: '/images/ft/originalni-produkty.avif',
-            heading: 'Originální produkty vyrobené v ČR',
-            button: 'Prohlédnout si',
-            href: '/ft/produkty'
-          }
-        ];
-
-        let currentSlideIndex = 0;
-        const heroMedia = document.querySelector(".hero-media");
-        const heroHeading = document.getElementById("hero-heading");
-        const heroButton = document.getElementById("hero-button");
-
-        function showSlide(index) {
-          const slide = slides[index];
-          heroMedia.style.backgroundImage = `url(${slide.image})`;
-          heroHeading.textContent = slide.heading;
-          heroButton.textContent = slide.button;
-          heroButton.href = slide.href;
-        }
-
-        function nextSlide() {
-          currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-          showSlide(currentSlideIndex);
-        }
-
-        setInterval(nextSlide, 5000);
-        showSlide(currentSlideIndex);
-      }
-
-      flashtonesHero();
-    </script>
     """
   end
 
