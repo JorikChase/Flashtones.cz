@@ -63,7 +63,7 @@ defmodule MenuPc do
     </style>
 
     <div class="pcMenu" id="pcMenu">
-      <div class="pcMenuBar" id="pcMenuBar">
+      <div class="pcMenuBar" id="pcMenuBar" phx-hook="ModularMenuRight">
         <a href="./">
           <img alt="Ikona menu" src="/images/ft/Flashtones.svg" style="border-radius: 0;" />
         </a>

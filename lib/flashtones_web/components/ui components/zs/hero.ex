@@ -6,8 +6,6 @@ defmodule Hero do
     <div class="hero">
       <div class="hero-content">
         <h1 id="hero-heading">S námi je to jízda!</h1>
-        <br />
-        <br />
         <a id="hero-button" class="hero-button" href="/o-nas#my">O nás</a>
       </div>
       <div class="hero-media" style="background-image: url(/images/ft/originalni-produkty.avif);">
@@ -38,10 +36,22 @@ defmodule Hero do
 
       .hero-content {
         position: relative;
+        width: 100%;
+        height: 100%;
         z-index: 1;
         text-align: left;
         color: white;
         padding: 120px 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+      }
+      .hero-button{
+        height: 1.5em;
+
+        filter: drop-shadow(0 0 0.75rem var(--ft-hover));
       }
     </style>
     """
