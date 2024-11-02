@@ -130,16 +130,16 @@ defmodule MenuMobile do
         <a href="/produkty">
           <h2>PRODUKTY</h2>
         </a>
-        <a href="/ft/studio">
+        <a href="/studio">
           <h2>STUDIO</h2>
         </a>
         <a class="navLink" href="https://eshop.flashtones.cz/">
           <h2>ESHOP</h2>
         </a>
-        <a href="/ft/about#about">
+        <a href="/about#about">
           <h2>KDO JSME</h2>
         </a>
-        <a href="/ft/kontakty">
+        <a href="/kontakty">
           <h2>KONTAKTY</h2>
         </a>
       </div>
