@@ -271,22 +271,20 @@ export const ModularMenu = {
     }
 
     function enableGoogleAnalytics() {
-      // Embedding the Google Tag Manager code
-      (function () {
-        var script = document.createElement("script");
-        script.async = true;
-        script.src =
-          "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
-        document.head.appendChild(script);
-        console.log("tag active");
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
-        }
-        window.gtag = gtag; // Make gtag globally available
-        gtag("js", new Date());
-        gtag("config", "AW-11418638935");
-      })();
+      // Create and append the first script element
+      const firstScript = document.createElement("script");
+      firstScript.async = true;
+      firstScript.src =
+        "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
+      document.head.appendChild(firstScript);
+
+      // Initialize dataLayer and gtag function
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-11418638935");
     }
 
     function modulate() {
