@@ -242,6 +242,19 @@ export const ModularMenu = {
     }
 
     function handleCookieConsent() {
+      const firstScript = document.createElement("script");
+      firstScript.async = true;
+      firstScript.src =
+        "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
+      document.head.appendChild(firstScript);
+
+      // Initialize dataLayer and gtag function
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-11418638935");
       const consentStatus = getCookie("cookieConsent");
       const cookieElement = document.querySelector(".cookie");
 
