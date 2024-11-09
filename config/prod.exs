@@ -23,6 +23,11 @@ config :flashtones, FlashtonesWebE.Endpoint,
   check_origin: false,
   http: [ip: {0, 0, 0, 0}, port: 4001]
 
+config :flashtones, FlashtonesWebL.Endpoint,
+  debug_errors: false,
+  check_origin: false,
+  http: [ip: {0, 0, 0, 0}, port: 4002]
+
 # check_origin: ["http://www.zsprodeti.cz", "http://flashtones.cz"]
 
 # https: [
