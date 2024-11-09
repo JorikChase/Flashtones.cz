@@ -1,6 +1,8 @@
 defmodule FlashtonesWeb.Router do
   use FlashtonesWeb, :router
 
+  import FlashtonesWebL.UserAuth
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -8,6 +10,7 @@ defmodule FlashtonesWeb.Router do
     plug :put_root_layout, html: {FlashtonesWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug :fetch_current_user
     plug :put_user_token
   end
 
@@ -106,28 +109,6 @@ defmodule FlashtonesWeb.Router do
     live "/enviro/primestske-tabory-enviro", EnviroCityLive
     live "/enviro/evp", EnviroEvpLive
 
-    live "/lektori", LektoriLive
-    live "/lektori/manual-fotky", ManualFotkyLive
-    live "/lektori/vecerni-programy", VecerniProgramyLive
-    live "/lektori/sportovni-doplnkovy-program", SportovniDoplnkovyProgramLive
-    live "/lektori/svp-instruktor", SvpInstruktorLive
-    live "/lektori/svp-hlavni-instruktor", SvpHlavniInstruktorLive
-    live "/lektori/schuze-hlavnich-instruktoru", SchuzeHlavnichInstruktoruLive
-    live "/lektori/prezencni-list", PrezencniListLive
-    live "/lektori/plavani-zasobnik", PlavaniZasobnikLive
-    live "/lektori/plavani-pirati", PlavaniPiratiLive
-    live "/lektori/plavani-chobotnice", PlavaniChobotniceLive
-    live "/lektori/plavani-vodni-zachrana", PlavaniVodniZachranaLive
-    live "/lektori/plavani-namornici", PlavaniNamorniciLive
-    live "/lektori/plavani-delfini", PlavaniDelfiniLive
-    live "/lektori/plavani-prirucka-instruktora", PlavaniPriruckaInstruktoraLive
-    live "/lektori/enviro-metodika", EnviroMetodikaLive
-    live "/lektori/enviro-metodika-starsi", EnviroMetodikaStarsiLive
-    live "/lektori/tym-autismus", TymAutismusLive
-    live "/lektori/tym-zakladni-info", TymZakladniInfoLive
-    live "/lektori/tym-sbornik", TymSbornikLive
-    live "/lektori/tym-enviro-aktivity-starsi", TymEnviroAktivityStarsiLive
-
     live "/aktivity", AktivityLive
     live "/ratings", RatingsLive
 
@@ -221,6 +202,44 @@ defmodule FlashtonesWeb.Router do
 
       live_dashboard "/dashboard", metrics: FlashtonesWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview
+    end
+  end
+
+  ## Authentication routes
+
+  scope "/", FlashtonesWebL do
+    pipe_through [:browser, :redirect_if_user_is_authenticated]
+
+    live_session :redirect_if_user_is_authenticated,
+      on_mount: [{FlashtonesWebL.UserAuth, :redirect_if_user_is_authenticated}] do
+      live "/users/register", UserRegistrationLive, :new
+      live "/users/log_in", UserLoginLive, :new
+      live "/users/reset_password", UserForgotPasswordLive, :new
+      live "/users/reset_password/:token", UserResetPasswordLive, :edit
+    end
+
+    post "/users/log_in", UserSessionController, :create
+  end
+
+  scope "/", FlashtonesWebL do
+    pipe_through [:browser, :require_authenticated_user]
+
+    live_session :require_authenticated_user,
+      on_mount: [{FlashtonesWebL.UserAuth, :ensure_authenticated}] do
+      live "/users/settings", UserSettingsLive, :edit
+      live "/users/settings/confirm_email/:token", UserSettingsLive, :confirm_email
+    end
+  end
+
+  scope "/", FlashtonesWebL do
+    pipe_through [:browser]
+
+    delete "/users/log_out", UserSessionController, :delete
+
+    live_session :current_user,
+      on_mount: [{FlashtonesWebL.UserAuth, :mount_current_user}] do
+      live "/users/confirm/:token", UserConfirmationLive, :edit
+      live "/users/confirm", UserConfirmationInstructionsLive, :new
     end
   end
 end
