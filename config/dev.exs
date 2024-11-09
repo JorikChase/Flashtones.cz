@@ -9,6 +9,11 @@ import Config
 #   stacktrace: true,
 #   show_sensitive_data_on_connection_error: true,
 #   pool_size: 10
+config :flashtones, Flashtones.Repo,
+  database: Path.expand("../flashtones_dev.db", __DIR__),
+  pool_size: 5,
+  stacktrace: true,
+  show_sensitive_data_on_connection_error: true
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
@@ -31,7 +36,7 @@ config :flashtones, FlashtonesWeb.Endpoint,
   #       ],
   check_origin: false,
   code_reloader: true,
-  debug_errors: false,
+  debug_errors: true,
   secret_key_base: "Uw2I+B2xjpGyNN9IdDq/0EiTkrT4KYJGxjpBI5eoAdkK4o3BB7pdXFIGdNjzFZlY",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
@@ -53,7 +58,29 @@ config :flashtones, FlashtonesWebE.Endpoint,
   #       ],
   check_origin: false,
   code_reloader: true,
-  debug_errors: false,
+  debug_errors: true,
+  secret_key_base: "Uw2I+B2xjpGyNN9IdDq/0EiTkrT4KYJGxjpBI5eoAdkK4o3BB7pdXFIGdNjzFZlY",
+  watchers: [
+    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
+    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
+  ]
+
+config :flashtones, FlashtonesWebL.Endpoint,
+  # Binding to loopback ipv4 address prevents access from other machines.
+  # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
+  http: [ip: {127, 0, 0, 1}, port: 4002],
+  # https: [
+  #         port: 443,
+  #         cipher_suite: :strong,
+  #         otp_app: :flashtones,
+  #         keyfile: System.get_env("KEYFILE"),
+  #         certfile: System.get_env("CERTFILE")
+  #         # OPTIONAL Key for intermediate certificates:
+  #         # cacertfile: System.get_env("CACERTFILE")
+  #       ],
+  check_origin: false,
+  code_reloader: true,
+  debug_errors: true,
   secret_key_base: "Uw2I+B2xjpGyNN9IdDq/0EiTkrT4KYJGxjpBI5eoAdkK4o3BB7pdXFIGdNjzFZlY",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},

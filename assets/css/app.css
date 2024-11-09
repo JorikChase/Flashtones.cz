@@ -20,10 +20,10 @@
     --academy-hover: #9f0909;
     --academy-checked: #6f0606;
 
-    --deti-main: #118c8ccd;
+    --deti-main: #108c8c;
     --deti-bg: #f7fafa;
     --deti-light: #dce6e6;
-    --deti-link: #118c8c;
+    --deti-link: #369da0;
     --deti-hover: #066565;
     --deti-checked: #015151;
 
@@ -795,9 +795,9 @@ li::marker {
     visibility: hidden;
 }
 /*menu course button*/
-.menu-course-button {
-    background: var(--deti-link);
-    opacity: 0.968;
+.menu-course-button-verejnost {
+    background: var(--deti-main);
+    opacity: 1;
     color: white;
     position: fixed;
     top: 60px;
@@ -816,6 +816,34 @@ li::marker {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.menu-course-button-skoly {
+    background: var(--deti-link);
+    opacity: 1;
+    color: white;
+    position: fixed;
+    top: 60px;
+    right: 5%;
+    left: calc(80% + 30px);
+    height: 60px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-course-button-verejnost a:hover {
+    color: white;
+}
+#menu-course-button-skoly a:hover {
+    color: white;
 }
 
 /*lokace item*/

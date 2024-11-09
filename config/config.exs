@@ -8,7 +8,7 @@
 import Config
 
 config :flashtones,
-  ecto_repos: [Flashtones.Repo]
+  ecto_repos: [Flashtones.Repo],
 
 # Configures the endpoint
 config :flashtones, FlashtonesWeb.Endpoint,
