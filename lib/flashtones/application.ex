@@ -12,7 +12,7 @@ defmodule Flashtones.Application do
       # Start the Telemetry supervisor
       FlashtonesWeb.Telemetry,
       # Start the Ecto repository
-      # Flashtones.Repo,
+      Flashtones.Repo,
       # Start the PubSub system
       {Phoenix.PubSub, name: Flashtones.PubSub},
       # Start Finch
@@ -20,6 +20,7 @@ defmodule Flashtones.Application do
       # Start the Endpoint (http/https)
       FlashtonesWeb.Endpoint,
       FlashtonesWebE.Endpoint,
+      FlashtonesWebL.Endpoint,
       # Start a worker by calling: Flashtones.Worker.start_link(arg)
       # {Flashtones.Worker, arg}
       FlashtonesWeb.DailyEmailSender
@@ -37,6 +38,7 @@ defmodule Flashtones.Application do
   def config_change(changed, _new, removed) do
     FlashtonesWeb.Endpoint.config_change(changed, removed)
     FlashtonesWebE.Endpoint.config_change(changed, removed)
+    FlashtonesWebL.Endpoint.config_change(changed, removed)
     :ok
   end
 end

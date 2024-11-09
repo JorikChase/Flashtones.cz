@@ -49,9 +49,13 @@ defmodule Hero do
         gap: 30px;
       }
       .hero-button{
-        height: 1.5em;
-
-        filter: drop-shadow(0 0 0.75rem var(--ft-hover));
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: .5em 1.2em;
       }
     </style>
     """

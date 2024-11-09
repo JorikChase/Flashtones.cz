@@ -29,6 +29,15 @@ config :flashtones, FlashtonesWebE.Endpoint,
   pubsub_server: Flashtones.PubSub,
   live_view: [signing_salt: "ZpmSsisD"]
 
+config :flashtones, FlashtonesWebL.Endpoint,
+  url: [host: "localhost"],
+  render_errors: [
+    formats: [html: FlashtonesWeb.ErrorHTML, json: FlashtonesWeb.ErrorJSON],
+    layout: false
+  ],
+  pubsub_server: Flashtones.PubSub,
+  live_view: [signing_salt: "ZpmSsisD"]
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
