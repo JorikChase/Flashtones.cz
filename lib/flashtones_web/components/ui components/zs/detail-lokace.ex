@@ -922,7 +922,7 @@ defmodule DetailLokace do
                           </div>
                       </a>
                 </div>
-                <div class="product">
+                <%!-- <div class="product">
                       <a href="/lokality/plesivka">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.avif)"></div>
                         <div class="product-text-wrap">
@@ -937,7 +937,7 @@ defmodule DetailLokace do
                           <b class="detail-link lyzovani-link self-end">Více informací<img src="/images/icon/arrow-right-lyzovani.svg" class="button-image"></b>
                           </div>
                       </a>
-                </div>
+                </div> --%>
                 <div class="product">
                       <a href="/lokality/na-mulde">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/na-mulde/na-mulde.avif)"></div>
@@ -1197,7 +1197,7 @@ defmodule DetailLokace do
                           </div>
                       </a>
                 </div>
-                <div class="product">
+                <%!-- <div class="product">
                       <a href="/lokality/radost">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.avif)"></div>
                           <div class="product-text-wrap">
@@ -1212,7 +1212,7 @@ defmodule DetailLokace do
                             <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
-                </div>
+                </div> --%>
                 <div class="product">
                       <a href="/lokality/lites">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/lites.avif)"></div>
@@ -1320,7 +1320,7 @@ defmodule DetailLokace do
                           </div>
                       </a>
                 </div>
-                <div class="product">
+                <%!-- <div class="product">
                       <a href="/lokality/plesivka">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/plesivka/plesivka.avif)"></div>
                         <div class="product-text-wrap">
@@ -1335,7 +1335,7 @@ defmodule DetailLokace do
                           <b class="detail-link enviro-link self-end">Více informací<img src="/images/icon/arrow-right-enviro.svg" class="button-image"></b>
                           </div>
                       </a>
-                </div>
+                </div> --%>
                 <div class="product">
                       <a href="/lokality/na-mulde">
                         <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/na-mulde/na-mulde.avif)"></div>
