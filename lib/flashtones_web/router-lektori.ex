@@ -1,4 +1,5 @@
 defmodule FlashtonesWebL.Router do
+  alias FlashtonesWeb.BlogLive
   use FlashtonesWeb, :router
 
   import FlashtonesWebL.UserAuth

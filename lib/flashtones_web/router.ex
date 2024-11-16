@@ -171,6 +171,7 @@ defmodule FlashtonesWeb.Router do
     live "/desk", DeskLive
 
     live "/blog", BlogLive
+    live "/blog/demo", BlogDemoLive
     live "/blog/ti-co-uci", BlogTiCoUciLive
     live "/blog/sablony", BlogSablonyLive
     live "/blog/shrnuti-23", BlogShrnutiLive

@@ -51,7 +51,7 @@ defmodule FlashtonesWebE.IndexLive do
     <MenuMobile.menuFtMobile />
     <MenuPc.menuFtPc />
     <Hero.ftHero />
-    <LandingSections.produkty />
+    <%!-- <LandingSections.produkty /> --%>
     <Instagram.flashtones />
     <Kdo.ft />
     <Rekli.rekliVylety />
