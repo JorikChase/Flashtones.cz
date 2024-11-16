@@ -71,7 +71,7 @@ defmodule MenuPc do
           <a href="https://zsprodeti.cz/"> zš pro děti </a>
           <a href="/produkty"> produkty </a>
           <a href="/studio"> studio </a>
-          <a href="/blog"> Blog </a>
+          <a href="https://zsprodeti.cz/blog"> Blog </a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
