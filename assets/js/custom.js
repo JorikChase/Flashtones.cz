@@ -292,7 +292,12 @@ export const ModularMenu = {
         let cta = document.getElementById("detail-cta");
         let menu = document.getElementById("pcMenu");
         let menuBar = document.getElementById("pcMenuBar");
-        let menuCourseButton = document.getElementById("menu-course-button");
+        // let menuCourseButtonVerejnost = document.getElementById(
+        //   "menu-course-button-verejnost",
+        // );
+        // let menuCourseButtonSkoly = document.getElementById(
+        //   "menu-course-button-skoly",
+        // );
         let distanceToBottom =
           document.body.scrollHeight - window.innerHeight - window.scrollY;
         let ctaEnd = 1984;
@@ -316,14 +321,19 @@ export const ModularMenu = {
           menu.style.left = "0";
           menu.style.right = "0";
           menuBar.style.top = "0";
-          menuCourseButton.style.top = "0";
+          // menuCourseButtonVerejnost.style.top = "0";
+          // menuCourseButtonSkoly.style.top = "0";
           menuBar.style.left = "0";
           menuBar.style.right = "0";
-          menuCourseButton.style.right = "0";
-          menuCourseButton.style.left = "calc(100% - 180px)";
+          // menuBar.style.right = "420px";
+          // menuCourseButtonVerejnost.style.right = "0";
+          // menuCourseButtonSkoly.style.right = "210px";
+          // menuCourseButtonVerejnost.style.left = "calc(100% - 210px)";
+          // menuCourseButtonSkoly.style.left = "calc(100% - 420px)";
           menu.style.borderRadius = "0";
           menuBar.style.borderRadius = "0";
-          menuCourseButton.style.borderRadius = "0";
+          menuCourseButtonVerejnost.style.borderRadius = "0";
+          menuCourseButtonSkoly.style.borderRadius = "0";
           if (
             window.innerHeight < window.innerWidth &&
             (plavani || lyzovani || enviro || vylety)
@@ -348,14 +358,18 @@ export const ModularMenu = {
           menu.style.left = "5%";
           menu.style.right = "5%";
           menuBar.style.top = "60px";
-          menuCourseButton.style.top = "60px";
+          // menuCourseButtonVerejnost.style.top = "60px";
+          // menuCourseButtonSkoly.style.top = "60px";
           menuBar.style.left = "5%";
           menuBar.style.right = "5%";
-          menuCourseButton.style.right = "5%";
-          menuCourseButton.style.left = "calc(80% + 30px)";
+          // menuCourseButtonVerejnost.style.right = "5%";
+          // menuCourseButtonSkoly.style.right = "5%";
+          // menuCourseButtonVerejnost.style.left = "calc(80% + 30px)";
+          // menuCourseButtonSkoly.style.left = "calc(80% + 30px)";
           menu.style.borderRadius = "10px";
           menuBar.style.borderRadius = "10px";
-          menuCourseButton.style.borderRadius = "10px";
+          // menuCourseButtonVerejnost.style.borderRadius = "10px";
+          // menuCourseButtonSkoly.style.borderRadius = "10px";
           if (
             window.innerHeight < window.innerWidth &&
             (plavani || lyzovani || enviro || vylety)
@@ -409,6 +423,7 @@ export const ModularMenuRight = {
       document
         .getElementById("cookie-agree")
         .addEventListener("click", function () {
+          console.log("agree");
           setCookie("cookieConsent", "agreed", 365);
           cookieElement.style.display = "none";
           enableGoogleAnalytics();
@@ -417,6 +432,7 @@ export const ModularMenuRight = {
       document
         .getElementById("cookie-disagree")
         .addEventListener("click", function () {
+          console.log("disagree");
           setCookie("cookieConsent", "disagreed", 365);
           cookieElement.style.display = "none";
         });
