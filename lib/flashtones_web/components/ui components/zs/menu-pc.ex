@@ -652,11 +652,16 @@ defmodule MenuPc do
           <a href="/kontakty"> Kontakty </a>
         </div>
       </div>
-      <div class="menu-course-button" id="menu-course-button">
-        <a href="https://rezervace.zsprodeti.cz" target="blank">
-          Přihláška pro školy
+      <%!-- <div class="menu-course-button-verejnost" id="menu-course-button-verejnost">
+        <a href="https://rezervace.zsprodeti.cz">
+          Veřejné přihlášky
         </a>
       </div>
+      <div class="menu-course-button-skoly" id="menu-course-button-skoly">
+        <a href="https://zsprodeti.cz/kontakty-formular">
+          Školní přihlášky
+        </a>
+      </div> --%>
     </div>
     """
   end
