@@ -154,7 +154,7 @@ defmodule Lektori do
             <h3 class="card-title">Večerní programy</h3>
           </a>
           <a
-            href="/images/pdf/lektori/Sportovní doplňkový program sborník her a cvičení.pdf"
+            href="/images/pdf/lektori/sportovni-doplnkovy-program-hry-a-cviceni.pdf"
             class="card-link card"
             target="_blank"
             aria-label="Sportovní doplňkový program sborník her a cvičení - otevře se v novém okně"
@@ -172,7 +172,6 @@ defmodule Lektori do
           <a
             href="/svp-hlavni-instruktor"
             class="card-link card"
-            target="_blank"
             aria-label="Realizace školy v přírodě (hlavní instruktor) - otevře se v novém okně"
           >
             <h3 class="card-title">Realizace školy v přírodě (hlavní instruktor)</h3>
