@@ -11,7 +11,7 @@ defmodule FlashtonesWebE.SitemapHTML do
       ~p"/aktuality",
       ~p"/faq",
       ~p"/kontakty",
-      ~p"/about",
+      ~p"/o-nas",
       ~p"/produkty",
       ~p"/studio",
       ~p"/sluzby",

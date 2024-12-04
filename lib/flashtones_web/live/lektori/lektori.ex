@@ -1,14 +1,14 @@
-defmodule FlashtonesWebL.VecerniProgramyLive do
+defmodule FlashtonesWebL.LektoriLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/vecerni-programy",
-        page_title: "ZŠ PRO LEKTORY",
+        canonical: "https://zsprodeti.cz",
+        page_title: "ZŠ PRO DĚTI",
         meta_description:
-          "ZŠ PRO LEKTORY je portál pro asistenci s nejčastějšími dotazy a metodikou pro lektory ZŠ PRO DĚTI"
+          "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 
@@ -48,38 +48,19 @@ defmodule FlashtonesWebL.VecerniProgramyLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-          .lektori-clanek{
-            background: rgba(255, 255, 255, 0.6);
-          }
-          .lektori-clanek a{
-            color: var(--deti-link);
-            text-decoration: underline dotted;
-          }
-          .lektori-clanek p{
-            font-size: 22px;
-          }
-          .lektori-clanek ul{
-            margin-bottom: 2em;
-          }
-          .lektori-clanek li{
-            font-size: 22px;
-          }
-          .lektori-clanek b{
-            font-size: 24px;
+
+          /* Media queries for responsiveness */
+          @media (orientation: portrait) {
           }
     </style>
     <Nav.nav />
     <MenuMobile.menuDetiMobile />
     <MenuPc.menuDetiPc />
     <HeroSmall.zsRatings />
-    <div class="lektori-clanek odsazeni">
-      <h2>VEČERNÍ PROGRAMY</h2>
-      <h3>Hudebka</h3>
-      <h3>Výtvarka</h3>
-      <h3>Párty</h3>
-      <br />
-    </div>
-    <Footer.footer />
+    <Lektori.faq />
+    <Footer.deti />
+    <script>
+    </script>
     """
   end
 end

@@ -40,7 +40,7 @@ defmodule FlashtonesWebE.Router do
     live "/aktuality", AktualityLive
     live "/faq", FaqLive
     live "/kontakty", KontaktyLive
-    live "/about", AboutLive
+    live "/o-nas", AboutLive
     live "/produkty", ProduktyLive
     live "/studio", StudioLive
     live "/sluzby", SluzbyLive

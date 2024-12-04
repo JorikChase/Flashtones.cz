@@ -142,71 +142,57 @@ defmodule Lektori do
       <section class="section section-obecne" aria-labelledby="obecne-title">
         <h2 id="obecne-title" class="section-title">Obecné</h2>
         <div class="card-grid">
-          <article class="card">
-            <a href="/lektori/manual-fotky" class="card-link" aria-label="Manuál na fotky z kurzu">
-              <h3 class="card-title">Manuál na fotky z kurzu</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/vecerni-programy.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Večerní programy - otevře se v novém okně"
-            >
-              <h3 class="card-title">Večerní programy</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/Sportovní doplňkový program sborník her a cvičení.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Sportovní doplňkový program sborník her a cvičení - otevře se v novém okně"
-            >
-              <h3 class="card-title">Sportovní doplňkový program sborník her a cvičení</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/svp-realizace-instruktor.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Realizace školy v přírodě (instruktor) - otevře se v novém okně"
-            >
-              <h3 class="card-title">Realizace školy v přírodě (instruktor)</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/svp-realizace-hlavni-instruktor.docx"
-              class="card-link"
-              target="_blank"
-              aria-label="Realizace školy v přírodě (hlavní instruktor) - otevře se v novém okně"
-            >
-              <h3 class="card-title">Realizace školy v přírodě (hlavní instruktor)</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/schuze-hlavnich-instruktoru.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Schůze hlavních instruktorů - otevře se v novém okně"
-            >
-              <h3 class="card-title">Schůze hlavních instruktorů</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/prezencni-list.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Prezenční list - otevře se v novém okně"
-            >
-              <h3 class="card-title">Prezenční list</h3>
-            </a>
-          </article>
+          <a href="/manual-fotky" class="card-link card" aria-label="Manuál na fotky z kurzu">
+            <h3 class="card-title">Manuál na fotky z kurzu</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/vecerni-programy.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Večerní programy - otevře se v novém okně"
+          >
+            <h3 class="card-title">Večerní programy</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/Sportovní doplňkový program sborník her a cvičení.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Sportovní doplňkový program sborník her a cvičení - otevře se v novém okně"
+          >
+            <h3 class="card-title">Sportovní doplňkový program sborník her a cvičení</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/svp-realizace-instruktor.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Realizace školy v přírodě (instruktor) - otevře se v novém okně"
+          >
+            <h3 class="card-title">Realizace školy v přírodě (instruktor)</h3>
+          </a>
+          <a
+            href="/svp-hlavni-instruktor"
+            class="card-link card"
+            target="_blank"
+            aria-label="Realizace školy v přírodě (hlavní instruktor) - otevře se v novém okně"
+          >
+            <h3 class="card-title">Realizace školy v přírodě (hlavní instruktor)</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/schuze-hlavnich-instruktoru.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Schůze hlavních instruktorů - otevře se v novém okně"
+          >
+            <h3 class="card-title">Schůze hlavních instruktorů</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/prezencni-list.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Prezenční list - otevře se v novém okně"
+          >
+            <h3 class="card-title">Prezenční list</h3>
+          </a>
         </div>
       </section>
 
@@ -220,148 +206,122 @@ defmodule Lektori do
       <section class="section section-plavani" aria-labelledby="plavani-title">
         <h2 id="plavani-title" class="section-title">Kurz ZŠ Plavání</h2>
         <div class="card-grid">
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/zasobnik-plavani.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Zásobník plavání - otevře se v novém okně"
-            >
-              <h3 class="card-title">Zásobník plavání</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/pirati.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Materiál pro instruktory Družstvo Piráti - otevře se v novém okně"
-            >
-              <h3 class="card-title">Materiál pro instruktory Družstvo Piráti</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/chobotnice.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Materiál pro instruktory Družstvo Chobotnice - otevře se v novém okně"
-            >
-              <h3 class="card-title">Materiál pro instruktory Družstvo Chobotnice</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/namornici.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Materiál pro instruktory Družstvo Námořníci - otevře se v novém okně"
-            >
-              <h3 class="card-title">Materiál pro instruktory Družstvo Námořníci</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/delfini.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Materiál pro instruktory Družstvo Delfíni - otevře se v novém okně"
-            >
-              <h3 class="card-title">Materiál pro instruktory Družstvo Delfíni</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/vodni-zachrana.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Lekce vodní záchrany a první pomoci - otevře se v novém okně"
-            >
-              <h3 class="card-title">Lekce vodní záchrany a první pomoci</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/prirucka-instruktori.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Plavání Příručka instruktora - otevře se v novém okně"
-            >
-              <h3 class="card-title">Plavání Příručka instruktora</h3>
-            </a>
-          </article>
+          <a
+            href="/images/pdf/lektori/zasobnik-plavani.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Zásobník plavání - otevře se v novém okně"
+          >
+            <h3 class="card-title">Zásobník plavání</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/pirati.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Materiál pro instruktory Družstvo Piráti - otevře se v novém okně"
+          >
+            <h3 class="card-title">Materiál pro instruktory Družstvo Piráti</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/chobotnice.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Materiál pro instruktory Družstvo Chobotnice - otevře se v novém okně"
+          >
+            <h3 class="card-title">Materiál pro instruktory Družstvo Chobotnice</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/namornici.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Materiál pro instruktory Družstvo Námořníci - otevře se v novém okně"
+          >
+            <h3 class="card-title">Materiál pro instruktory Družstvo Námořníci</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/delfini.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Materiál pro instruktory Družstvo Delfíni - otevře se v novém okně"
+          >
+            <h3 class="card-title">Materiál pro instruktory Družstvo Delfíni</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/vodni-zachrana.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Lekce vodní záchrany a první pomoci - otevře se v novém okně"
+          >
+            <h3 class="card-title">Lekce vodní záchrany a první pomoci</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/prirucka-instruktori.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Plavání Příručka instruktora - otevře se v novém okně"
+          >
+            <h3 class="card-title">Plavání Příručka instruktora</h3>
+          </a>
         </div>
       </section>
 
       <section class="section section-enviro" aria-labelledby="enviro-title">
         <h2 id="enviro-title" class="section-title">Kurz ZŠ Enviro</h2>
         <div class="card-grid">
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/enviro-metodika.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Enviro metodika - otevře se v novém okně"
-            >
-              <h3 class="card-title">Enviro metodika</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/enviro-metodika-starsi.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="Enviro metodika pro starší - otevře se v novém okně"
-            >
-              <h3 class="card-title">Enviro metodika pro starší</h3>
-            </a>
-          </article>
+          <a
+            href="/images/pdf/lektori/enviro-metodika.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="Enviro metodika - otevře se v novém okně"
+          >
+            <h3 class="card-title">Enviro metodika</h3>
+          </a>
+          <a
+            href="/enviro-metodika-starsi"
+            class="card-link card"
+            target="_blank"
+            aria-label="Enviro metodika pro starší - otevře se v novém okně"
+          >
+            <h3 class="card-title">Enviro metodika pro starší</h3>
+          </a>
         </div>
       </section>
 
       <section class="section section-enviro-tym" aria-labelledby="enviro-tym-title">
         <h2 id="enviro-tym-title" class="section-title">Kurz ZŠ Enviro- V týmu</h2>
         <div class="card-grid">
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/tym-specifika.docx"
-              class="card-link"
-              target="_blank"
-              aria-label="ZŠ V týmu Specifika dětí s autismem - otevře se v novém okně"
-            >
-              <h3 class="card-title">ZŠ V týmu Specifika dětí s autismem</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/tym-zakladni-info.docx"
-              class="card-link"
-              target="_blank"
-              aria-label="ZŠ V týmu Základní informace - otevře se v novém okně"
-            >
-              <h3 class="card-title">ZŠ V týmu Základní informace</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/tym-sbornik-her.docx"
-              class="card-link"
-              target="_blank"
-              aria-label="ZŠ V týmu Sborník her - otevře se v novém okně"
-            >
-              <h3 class="card-title">ZŠ V týmu Sborník her</h3>
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="/images/pdf/lektori/tym-aktivity-starsi.pdf"
-              class="card-link"
-              target="_blank"
-              aria-label="ZŠ V týmu Enviro blok aktivity pro starší - otevře se v novém okně"
-            >
-              <h3 class="card-title">ZŠ V týmu Enviro blok aktivity pro starší</h3>
-            </a>
-          </article>
+          <a
+            href="/images/pdf/lektori/tym-specifika.docx"
+            class="card-link card"
+            target="_blank"
+            aria-label="ZŠ V týmu Specifika dětí s autismem - otevře se v novém okně"
+          >
+            <h3 class="card-title">ZŠ V týmu Specifika dětí s autismem</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/tym-zakladni-info.docx"
+            class="card-link card"
+            target="_blank"
+            aria-label="ZŠ V týmu Základní informace - otevře se v novém okně"
+          >
+            <h3 class="card-title">ZŠ V týmu Základní informace</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/tym-sbornik-her.docx"
+            class="card-link card"
+            target="_blank"
+            aria-label="ZŠ V týmu Sborník her - otevře se v novém okně"
+          >
+            <h3 class="card-title">ZŠ V týmu Sborník her</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/tym-aktivity-starsi.pdf"
+            class="card-link card"
+            target="_blank"
+            aria-label="ZŠ V týmu Enviro blok aktivity pro starší - otevře se v novém okně"
+          >
+            <h3 class="card-title">ZŠ V týmu Enviro blok aktivity pro starší</h3>
+          </a>
         </div>
       </section>
 
