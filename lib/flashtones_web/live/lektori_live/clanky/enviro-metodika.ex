@@ -7,7 +7,7 @@ defmodule FlashtonesWebL.EnviroMetodikaLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://instruktori.zsprodeti.cz/enviro-metodika",
         page_title: "ZŠ PRO LEKTORY",
-        meta_description:
+        description:
           "ZŠ PRO LEKTORY je portál pro asistenci s nejčastějšími dotazy a metodikou pro lektory ZŠ PRO DĚTI"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
