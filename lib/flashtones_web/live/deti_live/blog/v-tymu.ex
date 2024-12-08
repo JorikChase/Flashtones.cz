@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VTymuBlogLive do
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
         canonical: "https://flashtones.cz/blog/v-tymu",
         page_title: "FLASHTONES",
-        description:
+        meta_description:
           "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! "
       )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
@@ -48,7 +48,6 @@ defmodule FlashtonesWeb.VTymuBlogLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-        
     </style>
     <Nav.nav />
     <MenuMobile.menuDetiMobile />

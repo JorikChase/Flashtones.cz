@@ -5,8 +5,10 @@ defmodule FlashtonesWeb.AktivityLive do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/aktivity" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
+        canonical: "https://zsprodeti.cz/aktivity",
+        page_title: "ZŠ PRO DĚTI",
+        meta_description:
+          "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 

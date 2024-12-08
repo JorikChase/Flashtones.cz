@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.LokalityBrandysLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://zsprodeti.cz/lokality/brandys",
         page_title: "ZŠ PRO DĚTI",
-        description:
+        meta_description:
           "Příměstský tábor, primestsky tabor, škola v přírodě, skola v prirode, skoly v prirode, škola v přírodě s plaváním, škola v přírodě, Plavecká škola v přírodě"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")

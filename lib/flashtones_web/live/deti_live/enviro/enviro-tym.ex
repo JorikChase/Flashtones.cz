@@ -1,10 +1,20 @@
 defmodule FlashtonesWeb.EnviroTymLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png", canonical: "https://zsprodeti.cz/enviro/tym" , page_title: "ZŠ ENVIRO", description: "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení.")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png",
+        canonical: "https://zsprodeti.cz/enviro/tym",
+        page_title: "ZŠ ENVIRO",
+        meta_description:
+          "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení."
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "enviro")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
     <style>
@@ -38,24 +48,21 @@ defmodule FlashtonesWeb.EnviroTymLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuEnviroMobile />
-      <MenuPc.menuEnviroPc />
-      <HeroSmall.enviroTym />
-      <DetailCta.enviroTym />
-      <KurzDetail.enviroTym />
-      <!--<h3>Další informace</h3>-->
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuEnviroMobile />
+    <MenuPc.menuEnviroPc />
+    <HeroSmall.enviroTym />
+    <DetailCta.enviroTym />
+    <KurzDetail.enviroTym />
+    <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
-      <DetailFaq.enviro />
-      <DetailLokace.detailLokaceEnviro />
-      <br>
-      <Rekli.rekliEnviro />
-      <Zustanme.enviro />
-      <Footer.deti />
+    <DetailFaq.enviro />
+    <DetailLokace.detailLokaceEnviro />
+    <br />
+    <Rekli.rekliEnviro />
+    <Zustanme.enviro />
+    <Footer.deti />
     """
   end
-
-
-
 end

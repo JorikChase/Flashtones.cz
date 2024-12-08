@@ -146,6 +146,7 @@ defmodule MenuPc do
           <a href="https://zsprodeti.cz/"> Úvod </a>
           <a href="/reference">Reference</a>
           <a href="/academy/about#about">O nás</a>
+          <a href="/academy/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -359,6 +360,9 @@ defmodule MenuPc do
       .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(3) a:before {
           background-image: url("/images/deti/icon/pin.svg");
       }
+      .pcMenuBarLinks ul li > div.dropdown ul li:nth-of-type(4) a:before {
+          background-image: url("/images/icon/kalendar.svg");
+      }
       .pcMenuBarLinks ul li > div.dropdown ul li h3 {
           font-size: 16px;
           margin-bottom: 8px;
@@ -517,7 +521,6 @@ defmodule MenuPc do
           background-image: url(/images/icon/kurz/boy.svg);
       }
     </style>
-
     <div class="pcMenu pcMenuDeti" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
         <a href="https://zsprodeti.cz/">
@@ -628,6 +631,11 @@ defmodule MenuPc do
                       <h3>LOKALITY</h3>
                     </a>
                   </li>
+                  <li>
+                    <a href="/blog">
+                      <h3>BLOG</h3>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -717,6 +725,7 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <a href="https://zsprodeti.cz/"> ZŠ PRO DĚTI</a>
           <a href="https://zsprodeti.cz/doma/about#about">O nás</a>
+          <a href="/doma/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -792,6 +801,7 @@ defmodule MenuPc do
           <a href="/enviro/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
           <a href="/enviro/about#about">O nás</a>
+          <a href="/enviro/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -867,6 +877,7 @@ defmodule MenuPc do
           <a href="/lyzovani/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
           <a href="/lyzovani/about#about">O nás</a>
+          <a href="/lyzovani/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -942,6 +953,7 @@ defmodule MenuPc do
           <a href="https://zsprodeti.cz/plavani/lokality"> Lokality </a>
           <a href="/reference">Reference</a>
           <a href="https://zsprodeti.cz/plavani/o-nas#my">O nás</a>
+          <a href="/plavani/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1016,6 +1028,7 @@ defmodule MenuPc do
           <a href="https://galerie.zsprodeti.cz/prihlasovaci-stranka/"> Fotogalerie </a>
           <a href="/reference">Reference</a>
           <a href="/vylety/about#about">O nás</a>
+          <a href="/vylety/blog">Blog</a>
           <a class="navLink" href="https://eshop.flashtones.cz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

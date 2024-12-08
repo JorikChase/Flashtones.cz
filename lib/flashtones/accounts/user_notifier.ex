@@ -8,7 +8,7 @@ defmodule Flashtones.Accounts.UserNotifier do
     email =
       new()
       |> to(recipient)
-      |> from({"Flashtones", "contact@example.com"})
+      |> from({"Flashtones", "noreply@zsprodeti.cz"})
       |> subject(subject)
       |> text_body(body)
 
@@ -21,17 +21,19 @@ defmodule Flashtones.Accounts.UserNotifier do
   Deliver instructions to confirm account.
   """
   def deliver_confirmation_instructions(user, url) do
-    deliver(user.email, "Confirmation instructions", """
+    deliver("info@zsprodeti.cz", "Autorizace účtu #{user.email}}", """
 
     ==============================
 
-    Hi #{user.email},
+    Dobrý den, administrátore,
 
-    You can confirm your account by visiting the URL below:
+    účet s e-mailem "#{user.email}" žádá o správcovské pravomoce.
+
+    Pro udělení pravomocí správce, klikněte na odkaz níže:
 
     #{url}
 
-    If you didn't create an account with us, please ignore this.
+    Pokud si nepřejete, aby tento účet byl zplnoprávněn, lze tento e-mail bezpečně ignorovat.
 
     ==============================
     """)
@@ -41,17 +43,17 @@ defmodule Flashtones.Accounts.UserNotifier do
   Deliver instructions to reset a user password.
   """
   def deliver_reset_password_instructions(user, url) do
-    deliver(user.email, "Reset password instructions", """
+    deliver(user.email, "Instrukce ke změně hesla", """
 
     ==============================
 
-    Hi #{user.email},
+    Dobrý den, #{user.email},
 
-    You can reset your password by visiting the URL below:
+    své heslo lze resetovat na odkazu níže:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Pokud jste si u nás neměnili heslo, lze tento e-mail bezpečně ignorovat.
 
     ==============================
     """)
@@ -61,17 +63,17 @@ defmodule Flashtones.Accounts.UserNotifier do
   Deliver instructions to update a user email.
   """
   def deliver_update_email_instructions(user, url) do
-    deliver(user.email, "Update email instructions", """
+    deliver(user.email, "Instrukce ke změně e-mailu", """
 
     ==============================
 
-    Hi #{user.email},
+    Dobrý den, #{user.email},
 
-    You can change your email by visiting the URL below:
+    svůj e-mail lze změnit na odkazu níže:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Pokud si u nás nepřejete změnit e-mail, lze tento e-mail bezpečně ignorovat.
 
     ==============================
     """)

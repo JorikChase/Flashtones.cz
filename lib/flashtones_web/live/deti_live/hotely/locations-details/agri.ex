@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.LokalityAgriLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://zsprodeti.cz/lokality/agri",
         page_title: "ZŠ PRO DĚTI",
-        description:
+        meta_description:
           "Příměstský tábor, primestsky tabor, škola v přírodě, skola v prirode, skoly v prirode, škola v přírodě s plaváním, škola v přírodě šumava, škola v přírodě na šumavě"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")

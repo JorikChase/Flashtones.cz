@@ -56,7 +56,10 @@ defmodule Flashtones.MixProject do
       {:httpoison, "~> 2.0.0"},
       {:elixir_auth_google, "~> 1.6"},
       {:floki, "~> 0.36.1"},
-      {:nimble_csv, "~> 1.1"}
+      {:nimble_csv, "~> 1.1"},
+      {:timex, "~> 3.7"},
+      {:slugify, "~> 1.3"},
+      {:scrivener_ecto, "~> 2.7"}
     ]
   end
 

@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserSessionController do
+defmodule FlashtonesWeb.UserSessionController do
   use FlashtonesWeb, :controller
 
   alias Flashtones.Accounts

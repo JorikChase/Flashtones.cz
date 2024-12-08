@@ -23,8 +23,8 @@ import { Socket } from "phoenix";
 import { LiveSocket } from "phoenix_live_view";
 import topbar from "../vendor/topbar";
 import "phoenix_live_head";
+import pell from "../vendor/pell";
 
-import { Oblasti } from "./custom.js";
 import { ToggleSwitchPlavani } from "./custom.js";
 import { ToggleSwitch } from "./custom.js";
 import { ModularMenu } from "./custom.js";
@@ -33,13 +33,66 @@ import { ScrollingCarousel } from "./custom.js";
 import { SocciMap } from "./custom.js";
 
 let Hooks = {};
-Hooks.Oblasti = Oblasti;
 Hooks.ToggleSwitchPlavani = ToggleSwitchPlavani;
 Hooks.ToggleSwitch = ToggleSwitch;
 Hooks.ModularMenu = ModularMenu;
 Hooks.ModularMenuRight = ModularMenuRight;
 Hooks.ScrollingCarousel = ScrollingCarousel;
 Hooks.SocciMap = SocciMap;
+
+Hooks.ToggleEdit = {
+  mounted() {
+    let editor_hidden = document.getElementById("article_markup_text");
+    let editor = document.getElementById("editor");
+    this.el.addEventListener("click", () => {
+      editor.content.innerHTML = editor_hidden.value;
+      let edit = document.getElementById("edit-section");
+      let blog = document.getElementById("blog-section");
+      if (edit && blog) {
+        edit.style.display = "block";
+        blog.style.display = "none";
+      }
+    });
+  },
+};
+Hooks.Pell = {
+  mounted() {
+    let editor_hidden = document.getElementById("article_markup_text");
+    let editor = document.getElementById("editor");
+
+    pell.init({
+      element: editor,
+
+      onChange: (html) => {
+        editor_hidden.innerHTML = html;
+      },
+
+      defaultParagraphSeparator: "div",
+
+      styleWithCSS: true,
+
+      actions: [
+        "bold",
+        "italic",
+        "strikethrough",
+        "heading3",
+        "heading4",
+        "olist",
+        "ulist",
+        "line",
+        "link",
+        "image",
+      ],
+
+      classes: {
+        actionbar: "pell-actionbar",
+        button: "pell-button",
+        content: "pell-content",
+        selected: "pell-button-selected",
+      },
+    });
+  },
+};
 
 let csrfToken = document
   .querySelector("meta[name='csrf-token']")

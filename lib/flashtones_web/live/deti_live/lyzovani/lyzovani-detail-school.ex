@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.LyzovaniDetailSchoolLive do
         favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png",
         canonical: "https://zsprodeti.cz/lyzovani/skolni-lyzarsky-kurz",
         page_title: "ZŠ LYŽOVÁNÍ",
-        description: "Lyžařská škola nejen o obloucích"
+        meta_description: "Lyžařská škola nejen o obloucích"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "lyzovani")
 

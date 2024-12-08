@@ -5,11 +5,13 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
   @csv_path "priv/static/images/csv/email_backups.csv"
 
   def mount(_params, _session, socket) do
-   socket =
+    socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/kontakty" , page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
+        canonical: "https://zsprodeti.cz/kontakty",
+        page_title: "ZŠ PRO DĚTI",
+        meta_description:
+          "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 
@@ -76,12 +78,14 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
           "client_phone" => client_phone,
           "client_message" => client_message
         },
-        socket) do
-    email = new()
-    |> from("kontaktni.formular@info.cz")
-    |> to("info@zsprodeti.cz")
-    |> subject("Formulář #{client_name}")
-    |> text_body("
+        socket
+      ) do
+    email =
+      new()
+      |> from("kontaktni.formular@info.cz")
+      |> to("info@zsprodeti.cz")
+      |> subject("Formulář #{client_name}")
+      |> text_body("
         zpráva
 
         #{client_message}
@@ -97,12 +101,15 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
         ")
 
     # Attempt to send the email
-    email_sent = case Flashtones.Mailer.deliver(email) do
-      {:ok, _} -> "success"
-      {:error, reason} ->
-        IO.puts("Email sending failed: #{inspect(reason)}")
-        "failure"
-    end
+    email_sent =
+      case Flashtones.Mailer.deliver(email) do
+        {:ok, _} ->
+          "success"
+
+        {:error, reason} ->
+          IO.puts("Email sending failed: #{inspect(reason)}")
+          "failure"
+      end
 
     # Backup email data to CSV regardless of email sending status
     email_data = %{
@@ -143,7 +150,19 @@ defmodule FlashtonesWeb.ZsKontaktyLive do
 
       unless file_exists do
         File.open!(@csv_path, [:append, :utf8], fn file ->
-          IO.write(file, CSV.dump_to_iodata([["Timestamp", "Client Name", "Client Email", "Client Phone", "Client Message", "Email Sent"]]))
+          IO.write(
+            file,
+            CSV.dump_to_iodata([
+              [
+                "Timestamp",
+                "Client Name",
+                "Client Email",
+                "Client Phone",
+                "Client Message",
+                "Email Sent"
+              ]
+            ])
+          )
         end)
       end
 

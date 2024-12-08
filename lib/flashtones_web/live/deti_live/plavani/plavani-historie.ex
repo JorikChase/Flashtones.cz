@@ -2,9 +2,17 @@ defmodule FlashtonesWeb.PlavaniHistorieLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png", canonical: "https://zsprodeti.cz/plavani/o-nas/historie" , page_title: "ZŠ PLAVÁNÍ", description: "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity.")
-    |> Phx.Live.Favicon.set_dynamic("dynamic", "plavani")
-  {:ok, socket}
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png",
+        canonical: "https://zsprodeti.cz/plavani/o-nas/historie",
+        page_title: "ZŠ PLAVÁNÍ",
+        meta_description:
+          "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity."
+      )
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "plavani")
+
+    {:ok, socket}
   end
 
   def render(assigns) do
@@ -40,7 +48,6 @@ defmodule FlashtonesWeb.PlavaniHistorieLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-
     </style>
     <Nav.nav />
     <MenuMobile.menuDetiMobile />

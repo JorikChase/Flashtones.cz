@@ -122,7 +122,14 @@ defmodule FlashtonesWeb.SitemapHTML do
       ~p"/lokality/adam",
       ~p"/lokality/panon",
       ~p"/lokality/tanecnica",
-      ~p"/lokality/zvikov"
+      ~p"/lokality/zvikov",
+      ~p"/blog",
+      ~p"/academy/blog",
+      ~p"/plavani/blog",
+      ~p"/enviro/blog",
+      ~p"/lyzovani/blog",
+      ~p"/doma/blog",
+      ~p"/vylety/blog"
     ]
   end
 

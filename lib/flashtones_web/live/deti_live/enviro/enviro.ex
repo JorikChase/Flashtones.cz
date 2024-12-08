@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.EnviroIndexLive do
         favicon: "https://zsprodeti.cz/images/favicon/enviro/icon.png",
         canonical: "https://zsprodeti.cz/enviro",
         page_title: "ZŠ ENVIRO",
-        description:
+        meta_description:
           "ZŠ Enviro jsou inovativní školy v přírodě a příměstské tábory zaměřené na environmentální výchovu, sport a zábavu. Pětidenní program zahrnuje aktivity zaměřené na poznávání přírody, tmelící hry a večerní programy. Naše lokality po celé ČR poskytují ideální prostředí pro přirozené učení."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "enviro")

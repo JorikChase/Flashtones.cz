@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.PlaveckeDovednostiLive do
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
         canonical: "https://flashtones.cz/blog/plavecke-dovednosti",
         page_title: "ZŠ blog",
-        description:
+        meta_description:
           "Náš blog pojednává o tématech spojených s dětskou výukou. Plavecké dovednosti."
       )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
@@ -48,7 +48,6 @@ defmodule FlashtonesWeb.PlaveckeDovednostiLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-        
     </style>
     <Nav.nav />
     <MenuMobile.menuDetiMobile />

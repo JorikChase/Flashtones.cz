@@ -1,10 +1,19 @@
 defmodule FlashtonesWeb.LocationsLyzovaniLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png", canonical: "https://zsprodeti.cz/lyzovani/lokality" , page_title: "ZŠ LYŽOVÁNÍ", description: "Lyžařská škola nejen o obloucích")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png",
+        canonical: "https://zsprodeti.cz/lyzovani/lokality",
+        page_title: "ZŠ LYŽOVÁNÍ",
+        meta_description: "Lyžařská škola nejen o obloucích"
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "lyzovani")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
     <style>
@@ -38,12 +47,12 @@ defmodule FlashtonesWeb.LocationsLyzovaniLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuLyzovaniMobile />
-      <MenuPc.menuLyzovaniPc />
-      <HeroSmall.lokalityLyzovani />
-      <style>
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuLyzovaniMobile />
+    <MenuPc.menuLyzovaniPc />
+    <HeroSmall.lokalityLyzovani />
+    <style>
       .disappear{
         display: none;
       }
@@ -62,36 +71,36 @@ defmodule FlashtonesWeb.LocationsLyzovaniLive do
     <div class="gallery odsazeni top">
       <DetailLokace.detailLokaceLyzovani />
     </div>
-    <br>
+    <br />
     <!-- Add more categories and products here -->
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          // Get all category buttons
-          const categoryButtons = document.querySelectorAll(".produkty-nav a");
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get all category buttons
+        const categoryButtons = document.querySelectorAll(".produkty-nav a");
 
-          // Get all detail sections
-          const detailSections = document.querySelectorAll(".gallery > div");
+        // Get all detail sections
+        const detailSections = document.querySelectorAll(".gallery > div");
 
-          // Add click event listeners to each category button
-          categoryButtons.forEach((button, index) => {
-            button.addEventListener("click", function () {
-              // Remove the 'active' class from all buttons
-              categoryButtons.forEach((btn) => btn.classList.remove("active"));
+        // Add click event listeners to each category button
+        categoryButtons.forEach((button, index) => {
+          button.addEventListener("click", function () {
+            // Remove the 'active' class from all buttons
+            categoryButtons.forEach((btn) => btn.classList.remove("active"));
 
-              // Add the 'active' class to the clicked button
-              button.classList.add("active");
+            // Add the 'active' class to the clicked button
+            button.classList.add("active");
 
-              // Hide all detail sections
-              detailSections.forEach((section) => (section.style.display = "none"));
+            // Hide all detail sections
+            detailSections.forEach((section) => (section.style.display = "none"));
 
-              // Display the corresponding detail section based on the clicked button
-              detailSections[index].style.display = "block";
-            });
+            // Display the corresponding detail section based on the clicked button
+            detailSections[index].style.display = "block";
           });
         });
-      </script>
-      <Zustanme.lyzovani />
-      <Footer.deti />
+      });
+    </script>
+    <Zustanme.lyzovani />
+    <Footer.deti />
     """
   end
 end

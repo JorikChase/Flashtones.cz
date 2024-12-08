@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserConfirmationLive do
+defmodule FlashtonesWeb.UserConfirmationLive do
   use FlashtonesWeb, :live_view
 
   alias Flashtones.Accounts
@@ -24,6 +24,15 @@ defmodule FlashtonesWebL.UserConfirmationLive do
   end
 
   def mount(%{"token" => token}, _session, socket) do
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
+        canonical: "https://zsprodeti.cz",
+        page_title: "ZŠ PRO DĚTI",
+        meta_description: "x"
+      )
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
     form = to_form(%{"token" => token}, as: "user")
     {:ok, assign(socket, form: form), temporary_assigns: [form: nil]}
   end

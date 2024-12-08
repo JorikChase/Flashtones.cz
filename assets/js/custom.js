@@ -1,142 +1,3 @@
-export const Oblasti = {
-  mounted() {
-    function oblasti() {
-      const variants = [
-        {
-          title: "ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ",
-          description:
-            "žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak celou polovinu povinné plavecké výuky",
-          color: "blue",
-          icon: "🚀",
-        },
-        {
-          title: "Data Garden",
-          description: "Grow your data skills in a playful environment!",
-          color: "green",
-          icon: "🌱",
-        },
-        {
-          title: "App Wizardry",
-          description: "Cast spells to create magical mobile experiences!",
-          color: "yellow",
-          icon: "⚡",
-        },
-      ];
-
-      // Helper function for simple animations
-      function animate(element, keyframes, options) {
-        return element.animate(keyframes, options);
-      }
-
-      // Create a course section
-      function createCourseSection(variant, isActive) {
-        const section = document.createElement("section");
-        section.className = `course-section ${variant.color}`;
-        section.style.opacity = isActive ? 1 : 0.3;
-        section.style.transition = "opacity 0.5s";
-
-        const content = document.createElement("div");
-        content.className = "course-content";
-
-        const icon = document.createElement("div");
-        icon.className = `course-icon ${isActive ? "bounce" : ""}`;
-        icon.textContent = variant.icon;
-        animate(icon, [{ transform: "scale(0)" }, { transform: "scale(1)" }], {
-          duration: 500,
-          easing: "cubic-bezier(0.34, 1.56, 0.64, 1)",
-        });
-
-        const title = document.createElement("h2");
-        title.className = "course-title";
-        title.textContent = variant.title;
-
-        const description = document.createElement("p");
-        description.className = "course-description";
-        description.textContent = variant.description;
-
-        const button = document.createElement("button");
-        button.className = "course-button";
-        button.textContent = "Detail kurzu";
-        button.addEventListener("mouseover", () => {
-          animate(
-            button,
-            [{ transform: "scale(1)" }, { transform: "scale(1.05)" }],
-            { duration: 300, fill: "forwards" },
-          );
-        });
-        button.addEventListener("mouseout", () => {
-          animate(
-            button,
-            [{ transform: "scale(1.05)" }, { transform: "scale(1)" }],
-            { duration: 300, fill: "forwards" },
-          );
-        });
-
-        content.appendChild(icon);
-        content.appendChild(title);
-        content.appendChild(description);
-        content.appendChild(button);
-        section.appendChild(content);
-
-        return section;
-      }
-
-      // Main CourseOverview function
-      function CourseOverview() {
-        const container = document.createElement("div");
-        container.className = "course-container";
-
-        let activeVariant = 0;
-
-        variants.forEach((variant, index) => {
-          const sectionWrapper = document.createElement("div");
-          sectionWrapper.className = "course-section-wrapper";
-          const section = createCourseSection(variant, index === activeVariant);
-          sectionWrapper.appendChild(section);
-          container.appendChild(sectionWrapper);
-        });
-
-        let isScrolling = false;
-        container.addEventListener("scroll", () => {
-          if (!isScrolling) {
-            window.requestAnimationFrame(() => {
-              const scrollPosition = container.scrollTop;
-              const sectionHeight = window.innerHeight;
-              const newActiveVariant = Math.round(
-                scrollPosition / sectionHeight,
-              );
-              if (newActiveVariant !== activeVariant) {
-                activeVariant = newActiveVariant;
-                updateActiveSections();
-              }
-              isScrolling = false;
-            });
-          }
-          isScrolling = true;
-        });
-
-        function updateActiveSections() {
-          container
-            .querySelectorAll(".course-section")
-            .forEach((section, index) => {
-              section.style.opacity = index === activeVariant ? 1 : 0.3;
-              const icon = section.querySelector(".course-icon");
-              icon.className = `course-icon ${index === activeVariant ? "bounce" : ""}`;
-            });
-        }
-
-        return container;
-      }
-
-      // Initialize the CourseOverview
-      document.addEventListener("DOMContentLoaded", () => {
-        const root = document.getElementById("course-overview-container");
-        root.appendChild(CourseOverview());
-      });
-    }
-    oblasti();
-  },
-};
 export const ToggleSwitchPlavani = {
   mounted() {
     function start() {
@@ -257,6 +118,7 @@ export const ModularMenu = {
       document
         .getElementById("cookie-agree")
         .addEventListener("click", function () {
+          console.log("agree");
           setCookie("cookieConsent", "agreed", 365);
           cookieElement.style.display = "none";
           enableGoogleAnalytics();
@@ -265,6 +127,7 @@ export const ModularMenu = {
       document
         .getElementById("cookie-disagree")
         .addEventListener("click", function () {
+          console.log("disagree");
           setCookie("cookieConsent", "disagreed", 365);
           cookieElement.style.display = "none";
         });

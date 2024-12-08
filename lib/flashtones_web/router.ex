@@ -170,7 +170,6 @@ defmodule FlashtonesWeb.Router do
     live "/mail", MailFormLive
     live "/desk", DeskLive
 
-    live "/blog", BlogLive
     live "/blog/demo", BlogDemoLive
     live "/blog/ti-co-uci", BlogTiCoUciLive
     live "/blog/sablony", BlogSablonyLive
@@ -208,7 +207,7 @@ defmodule FlashtonesWeb.Router do
 
   ## Authentication routes
 
-  scope "/", FlashtonesWebL do
+  scope "/", FlashtonesWeb do
     pipe_through [:browser, :redirect_if_user_is_authenticated]
 
     live_session :redirect_if_user_is_authenticated,
@@ -222,25 +221,49 @@ defmodule FlashtonesWeb.Router do
     post "/users/log_in", UserSessionController, :create
   end
 
-  scope "/", FlashtonesWebL do
-    pipe_through [:browser, :require_authenticated_user]
+  # scope "/", FlashtonesWebL do
+  #  pipe_through [:browser, :require_authenticated_user]
 
-    live_session :require_authenticated_user,
-      on_mount: [{FlashtonesWebL.UserAuth, :ensure_authenticated}] do
-      live "/users/settings", UserSettingsLive, :edit
-      live "/users/settings/confirm_email/:token", UserSettingsLive, :confirm_email
-    end
-  end
+  #  live_session :require_authenticated_user,
+  #    on_mount: [{FlashtonesWebL.UserAuth, :ensure_authenticated}] do
+  #  end
+  # end
 
-  scope "/", FlashtonesWebL do
+  scope "/", FlashtonesWeb do
     pipe_through [:browser]
 
     delete "/users/log_out", UserSessionController, :delete
 
     live_session :current_user,
       on_mount: [{FlashtonesWebL.UserAuth, :mount_current_user}] do
+      live "/blog", AllArticlesLive
+      live "/blog/:page", AllArticlesLive
+      live "/clanek/:slug", BlogLive
+      live "/:segment/blog", AllArticlesLive
+      live "/:segment/blog/:page", AllArticlesLive
+      live "/:segment/clanek/:slug", BlogLive
+
       live "/users/confirm/:token", UserConfirmationLive, :edit
       live "/users/confirm", UserConfirmationInstructionsLive, :new
+    end
+  end
+
+  scope "/", FlashtonesWeb do
+    pipe_through [:browser, :require_confirmed_user]
+
+    live_session :require_confirmed_user,
+      on_mount: [{FlashtonesWebL.UserAuth, :ensure_confirmed}] do
+      live "/vytvorit-clanek", BlogCreateLive
+    end
+  end
+
+  scope "/", FlashtonesWeb do
+    pipe_through [:browser, :require_authenticated_user]
+
+    live_session :require_authenticated_user,
+      on_mount: [{FlashtonesWebL.UserAuth, :ensure_authenticated}] do
+      live "/users/settings", UserSettingsLive, :edit
+      live "/users/settings/confirm_email/:token", UserSettingsLive, :confirm_email
     end
   end
 end

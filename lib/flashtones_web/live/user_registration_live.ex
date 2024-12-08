@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserRegistrationLive do
+defmodule FlashtonesWeb.UserRegistrationLive do
   use FlashtonesWeb, :live_view
 
   alias Flashtones.Accounts
@@ -10,7 +10,7 @@ defmodule FlashtonesWebL.UserRegistrationLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://zsprodeti.cz",
         page_title: "ZŠ PRO DĚTI",
-        description:
+        meta_description:
           "ZŠ PRO DĚTI přináší svěží vítr do vzdělávacího systému. Pořádáme sportovní a vzdělávací akce pro školy i veřejnost, podporujeme online vzdělávání. Naším mottem je bavit, vzdělávat a rozvíjet. Nabízíme plavecké, tmelící, environmentální, lyžařské, hudební a další kurzy."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
@@ -57,6 +57,7 @@ defmodule FlashtonesWebL.UserRegistrationLive do
           Oops, something went wrong! Please check the errors below.
         </.error>
 
+        <.input field={@form[:name]} label="Name" required />
         <.input field={@form[:email]} type="email" label="Email" required />
         <.input field={@form[:password]} type="password" label="Password" required />
 

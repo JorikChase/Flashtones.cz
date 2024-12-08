@@ -77,7 +77,7 @@ defmodule FlashtonesWebL.UserAuth do
     user_token && Accounts.delete_user_session_token(user_token)
 
     if live_socket_id = get_session(conn, :live_socket_id) do
-      FlashtonesWebL.Endpoint.broadcast(live_socket_id, "disconnect", %{})
+      FlashtonesWeb.Endpoint.broadcast(live_socket_id, "disconnect", %{})
     end
 
     conn
@@ -157,8 +157,28 @@ defmodule FlashtonesWebL.UserAuth do
     else
       socket =
         socket
-        |> Phoenix.LiveView.put_flash(:error, "You must log in to access this page.")
+        |> Phoenix.LiveView.put_flash(:error, "Pro zobrazení této stránky je nutné přihlášení.")
         |> Phoenix.LiveView.redirect(to: ~p"/users/log_in")
+
+      {:halt, socket}
+    end
+  end
+
+  def on_mount(:ensure_confirmed, _params, session, socket) do
+    socket = mount_current_user(socket, session)
+
+    user = socket.assigns[:current_user]
+
+    if user && user.confirmed_at do
+      {:cont, socket}
+    else
+      socket =
+        socket
+        |> Phoenix.LiveView.put_flash(
+          :error,
+          "Pro zobrazení této stránky je nutný autorizovaný účet."
+        )
+        |> Phoenix.LiveView.redirect(to: ~p"/vsechny-blogy")
 
       {:halt, socket}
     end
@@ -206,9 +226,23 @@ defmodule FlashtonesWebL.UserAuth do
       conn
     else
       conn
-      |> put_flash(:error, "You must log in to access this page.")
+      |> put_flash(:error, "Pro zobrazení této stránky je nutné přihlášení.")
       |> maybe_store_return_to()
       |> redirect(to: ~p"/users/log_in")
+      |> halt()
+    end
+  end
+
+  def require_confirmed_user(conn, _opts) do
+    user = conn.assigns[:current_user]
+
+    if user && user.confirmed_at do
+      conn
+    else
+      conn
+      |> put_flash(:error, "Pro zobrazení této stránky je autorizovaný účet.")
+      |> maybe_store_return_to()
+      |> redirect(to: ~p"/vsechny-blogy")
       |> halt()
     end
   end

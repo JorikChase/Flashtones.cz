@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserSettingsLive do
+defmodule FlashtonesWeb.UserSettingsLive do
   use FlashtonesWeb, :live_view
 
   alias Flashtones.Accounts
@@ -6,11 +6,18 @@ defmodule FlashtonesWebL.UserSettingsLive do
   def render(assigns) do
     ~H"""
     <.header class="text-center">
-      Account Settings
+      Account Settings — <%= @current_user.name %>
       <:subtitle>Manage your account email address and password settings</:subtitle>
     </.header>
+    <.link
+      href={~p"/users/log_out"}
+      method="delete"
+      class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
+    >
+      Log out
+    </.link>
 
-    <div class="space-y-12 divide-y">
+    <div class="space-y-12 divide-y odsazeni">
       <div>
         <.simple_form
           for={@email_form}
@@ -99,6 +106,13 @@ defmodule FlashtonesWebL.UserSettingsLive do
       |> assign(:email_form, to_form(email_changeset))
       |> assign(:password_form, to_form(password_changeset))
       |> assign(:trigger_submit, false)
+      |> assign(
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
+        canonical: "https://zsprodeti.cz",
+        page_title: "ZŠ PRO DĚTI",
+        meta_description: "x"
+      )
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 
     {:ok, socket}
   end

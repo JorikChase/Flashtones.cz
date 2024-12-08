@@ -7,7 +7,7 @@ defmodule FlashtonesWebE.AktualityLive do
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
         canonical: "/aktuality",
         page_title: "FLASHTONES",
-        description:
+        meta_description:
           "Flashtones je lifestylový brand, který vás bude bavit! Pořádáme sportovní, kulturní a vzdělávací akce, vyrábíme originální české produkty a boříme stereotypy! "
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "ft")

@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.PlavaniIndexVerejnostLive do
         favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png",
         canonical: "https://zsprodeti.cz/plavani/verejnost",
         page_title: "ZŠ PLAVÁNÍ",
-        description:
+        meta_description:
           "ZŠ PLAVÁNÍ, zš plavání, zsprodeti, zs plavani, zsplavani,
       plavecký kroužek, plavecký kurz pro děti, školy v přírodě,
       kurzy plavání pro děti, kurzy plavání pro děti praha, kurz plavani deti, škola v přírodě s plaváním"

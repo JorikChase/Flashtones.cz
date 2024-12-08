@@ -1,14 +1,22 @@
 defmodule FlashtonesWeb.LyzovaniIndexLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png", canonical: "https://zsprodeti.cz/lyzovani" , page_title: "ZŠ LYŽOVÁNÍ", description: "Lyžařská škola nejen o obloucích")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png",
+        canonical: "https://zsprodeti.cz/lyzovani",
+        page_title: "ZŠ LYŽOVÁNÍ",
+        meta_description: "Lyžařská škola nejen o obloucích"
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "lyzovani")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
-     <link rel="canonical" href="https://www.zslyzovani.cz">
-      <style>
+    <style>
         main{
           background: #e4edf8;
         }
@@ -39,19 +47,19 @@ defmodule FlashtonesWeb.LyzovaniIndexLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuLyzovaniMobile />
-      <MenuPc.menuLyzovaniPc />
-      <Hero.lyzovaniHero />
-      <SectionToggle.kurzNavLyzovani />
-      <IconRow.iconRowLyzovani />
-      <!--<Aktuality.aktuality />-->
-        <Instagram.deti />
-      <Kdo.lyzovani />
-      <Rekli.rekliLyzovani />
-      <Zustanme.lyzovani />
-      <Footer.deti />
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuLyzovaniMobile />
+    <MenuPc.menuLyzovaniPc />
+    <Hero.lyzovaniHero />
+    <SectionToggle.kurzNavLyzovani />
+    <IconRow.iconRowLyzovani />
+    <!--<Aktuality.aktuality />-->
+    <Instagram.deti />
+    <Kdo.lyzovani />
+    <Rekli.rekliLyzovani />
+    <Zustanme.lyzovani />
+    <Footer.deti />
     """
   end
 end

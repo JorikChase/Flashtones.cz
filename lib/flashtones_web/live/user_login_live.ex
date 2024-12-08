@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserLoginLive do
+defmodule FlashtonesWeb.UserLoginLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
@@ -7,7 +7,7 @@ defmodule FlashtonesWebL.UserLoginLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://instruktori.zsprodeti.cz",
         page_title: "ZŠ PRO DĚTI",
-        description: "ZŠ PRO DĚTI instruktorsky web"
+        meta_description: "ZŠ PRO DĚTI instruktorsky web"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 

@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.VyletyIndexLive do
         favicon: "https://zsprodeti.cz/images/favicon/vylety/icon.png",
         canonical: "https://zsprodeti.cz/vylety/",
         page_title: "ZŠ VÝLETY",
-        description:
+        meta_description:
           "Jsou zábavně-vzdělávací výlety pro základní a střední školy, zaměřené na poznávání přírody, historie a tmelení kolektivu. Nabízíme interaktivní prohlídky s delegátem, moderní autobusy, jsme pojištěni proti úpadku, garantujeme bezpečnost a komfort."
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "vylety")

@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.BlogTiCoUciLive do
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
         canonical: "https://zsprodeti.cz/blog/ti-co-uci",
         page_title: "Plavání a ti, co ho učí: Průvodce pro rodiče a učitele",
-        description:
+        meta_description:
           "Objevte důležitost plavání a klíčové vlastnosti dobrého plaveckého instruktora. Průvodce pro rodiče a učitele o výuce plavání a jejím významu."
       )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "deti")

@@ -1,10 +1,19 @@
 defmodule FlashtonesWeb.LyzovaniDetailWeekendLive do
   use FlashtonesWeb, :live_view
+
   def mount(_params, _session, socket) do
-    socket = assign(socket, favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png", canonical: "https://zsprodeti.cz/lyzovani/weekend" , page_title: "ZŠ LYŽOVÁNÍ", description: "Lyžařská škola nejen o obloucích")
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/lyzovani/icon.png",
+        canonical: "https://zsprodeti.cz/lyzovani/weekend",
+        page_title: "ZŠ LYŽOVÁNÍ",
+        meta_description: "Lyžařská škola nejen o obloucích"
+      )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "lyzovani")
+
     {:ok, socket}
   end
+
   def render(assigns) do
     ~H"""
     <style>
@@ -38,23 +47,22 @@ defmodule FlashtonesWeb.LyzovaniDetailWeekendLive do
             50%{background-position:100% 78%}
             100%{background-position:0% 23%}
         }
-      </style>
-      <Nav.nav />
-      <MenuMobile.menuLyzovaniMobile />
-      <MenuPc.menuLyzovaniPc />
-      <HeroSmall.lyzovaniWeekend />
-      <DetailCta.lyzovani />
-      <div class="course-wrap top">
+    </style>
+    <Nav.nav />
+    <MenuMobile.menuLyzovaniMobile />
+    <MenuPc.menuLyzovaniPc />
+    <HeroSmall.lyzovaniWeekend />
+    <DetailCta.lyzovani />
+    <div class="course-wrap top">
       <h2>VÍKENDOVÉ KURZY LYŽOVÁNÍ A SNOWBOARDINGU</h2>
-      <p>Jsou čtyřdenní – dvouvíkendové kurzy pro děti předškolního a mladšího školního věku. Lekce probíhá v lyžařském areálu Klínovec, kam je vypravován každý den autobus ze zastávky Na Knížecí, nástupiště 1 v 7:00. Návrat a přebírání dětí je v 19.00 na témže místě. Je možné jet s dětmi v maximálním počtu dvou osob, či se po dohodě na místo dopravit po vlastní ose.</p>
-      </div>
-      <br>
-      <Rekli.rekliLyzovani />
-      <Zustanme.lyzovani />
-      <Footer.deti />
+      <p>
+        Jsou čtyřdenní – dvouvíkendové kurzy pro děti předškolního a mladšího školního věku. Lekce probíhá v lyžařském areálu Klínovec, kam je vypravován každý den autobus ze zastávky Na Knížecí, nástupiště 1 v 7:00. Návrat a přebírání dětí je v 19.00 na témže místě. Je možné jet s dětmi v maximálním počtu dvou osob, či se po dohodě na místo dopravit po vlastní ose.
+      </p>
+    </div>
+    <br />
+    <Rekli.rekliLyzovani />
+    <Zustanme.lyzovani />
+    <Footer.deti />
     """
   end
-
-
-
 end

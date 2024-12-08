@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.UserForgotPasswordLive do
+defmodule FlashtonesWeb.UserForgotPasswordLive do
   use FlashtonesWeb, :live_view
 
   alias Flashtones.Accounts
@@ -28,6 +28,15 @@ defmodule FlashtonesWebL.UserForgotPasswordLive do
   end
 
   def mount(_params, _session, socket) do
+    socket =
+      assign(socket,
+        favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
+        canonical: "https://zsprodeti.cz",
+        page_title: "ZŠ PRO DĚTI",
+        meta_description: "x"
+      )
+      |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
+
     {:ok, assign(socket, form: to_form(%{}, as: "user"))}
   end
 
