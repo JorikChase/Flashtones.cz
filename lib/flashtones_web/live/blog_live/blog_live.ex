@@ -29,7 +29,7 @@ defmodule FlashtonesWeb.BlogLive do
 
   def render(assigns) do
     ~H"""
-    <%= case @segment do
+    <%= case @article.segment do
       "prodeti" -> MenuMobile.menuDetiMobile(assigns)
       "academy" -> MenuMobile.menuAcademyMobile(assigns)
       "lyzovani" -> MenuMobile.menuLyzovaniMobile(assigns)
@@ -39,7 +39,7 @@ defmodule FlashtonesWeb.BlogLive do
       "plavani" -> MenuMobile.menuPlavaniMobile(assigns)
       _ -> nil
     end %>
-    <%= case @segment do
+    <%= case @article.segment do
       "prodeti" -> MenuPc.menuDetiPc(assigns)
       "academy" -> MenuPc.menuAcademyPc(assigns)
       "lyzovani" -> MenuPc.menuLyzovaniPc(assigns)
