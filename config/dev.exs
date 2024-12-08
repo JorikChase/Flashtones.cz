@@ -1,7 +1,5 @@
 import Config
 
-# KOMENTAR V DEVU, ZED EDITOR
-
 # Configure your database
 # config :flashtones, Flashtones.Repo,
 #   username: "postgres",
