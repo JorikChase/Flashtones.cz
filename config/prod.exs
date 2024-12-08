@@ -3,8 +3,8 @@ import Config
 config :flashtones, Flashtones.Repo,
   database: Path.expand("../flashtones_prod.db", __DIR__),
   pool_size: 5,
-  stacktrace: true,
-  show_sensitive_data_on_connection_error: true
+  stacktrace: false,
+  show_sensitive_data_on_connection_error: false
 
 # Note we also include the path to a cache manifest
 # containing the digested version of static files. This
