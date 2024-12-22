@@ -7,7 +7,7 @@ defmodule FlashtonesWebL.ManualFotkyLive do
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
         canonical: "https://zsprodeti.cz/manual-fotky",
         page_title: "ZŠ PRO LEKTORY",
-        description:
+        meta_description:
           "ZŠ PRO LEKTORY je portál pro asistenci s nejčastějšími dotazy a metodikou pro lektory ZŠ PRO DĚTI"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")

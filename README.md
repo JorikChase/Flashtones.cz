@@ -1400,3 +1400,50 @@ prekopnout bez knihy pdf enviro v tymu
 galerie do kurzu
 sipka dolu menu
 texty zaloha old web flashtones
+13.12.2024
+  # analytika
+    o nas lide popularita
+
+    navsteva fotogalerie
+    navsteva jednotlivejch lokalit
+    navsteva oblasti
+      navsteva kurzu
+        koupe kurzu
+        z jaky oblasti proklik na kontaktni formular
+
+    kontaky
+    kontaktni formular odeslani
+
+    blog
+
+    eshop analytika
+    eshop zapojit do webu
+
+    newslettery koberec
+    newsletter targetted
+
+  # blog
+    obrazky vertikalni layout
+    oblasti > zsprodeti.cz
+    odkazy na blog
+
+  # udrzba
+    ////menu mobile
+    menu pc - compact
+      sipecky dolu
+
+  # new features
+    kalendar instruktori
+    galerie detail lokace
+    mapa detail lokace
+    instagram api
+    blogy widget
+    partneri logos do subwebu
+
+  # doma
+    ///landing
+    //komiks
+    lide/postavy
+    hra
+    song
+    tanecek

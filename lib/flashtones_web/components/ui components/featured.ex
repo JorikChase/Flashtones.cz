@@ -152,6 +152,28 @@ defmodule Featured do
     """
   end
 
+
+  def partners(assigns) do
+    ~H"""
+    <style>
+      .partners{
+        height: 300px;
+      }
+      .partners-logo{
+        height: fit-content;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .partners-image-borad{
+        border-radius: 60px;
+      }
+    </style>
+    <IconRow.iconRowPartneri />
+    """
+  end
+
   def oblasti(assigns) do
     ~H"""
     <style>

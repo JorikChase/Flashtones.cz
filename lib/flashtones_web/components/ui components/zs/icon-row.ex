@@ -285,15 +285,16 @@ defmodule IconRow do
   def iconRowPartneri(assigns) do
     ~H"""
     <style>
-      .icon-row_component{
+      .icon-row-partners-comp{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background: rgba(255, 255, 255, 0.05);
-
+        flex-direction: row;
+        align-items: center;
+        background: rgba(255, 255, 255, .98);
+        height: 100%;
+        padding: 60px 0;
         gap: 30px;
       }
-      .icon-row_component > p{
+      .icon-row-partners-comp > p{
         color: var(--Text, #333);
         font-family: Barlow;
         font-size: 18px;
@@ -301,22 +302,28 @@ defmodule IconRow do
         font-weight: 400;
         line-height: 35px; /* 194.444% */
       }
-      .icon-row{
+      .icon-row-partners{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
         padding-top: 30px;
       }
-      .icon-row-item{
+      .icon-row-partners-item{
         display: flex;
         width: 12%;
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        filter: drop-shadow(0 0 0.8rem black);
+        border-radius: 5px;
       }
-      .icon-row-item > p{
+      .icon-row-partners-item > img{
+        border-radius: 5px;
+      }
+      .icon-row-partners-item > p{
         align-self: stretch;
         color: var(--Text, #333);
         text-align: center;
@@ -326,35 +333,47 @@ defmodule IconRow do
         font-weight: 400;
         line-height: 35px; /* 194.444% */
       }
+      .white-bg{
+        background: white;
+        padding: 15px;
+      }
       @media (orientation: portrait){
-        .icon-row{
+        .icon-row-partners{
           width: 100%;
           flex-direction: column;
           align-items: center;
           justify-content: center;
         }
-        .icon-row-item{
+        .icon-row-partners-item{
           width: 30%;
         }
-        .icon-row-item img{
+        .icon-row-partners-item img{
           width: 90%;
         }
       }
     </style>
-    <div class="icon-row_component">
-      <div class="icon-row">
-        <div class="icon-row-item">
-          <img alt="Zakladni info logo" src="/images/icon/decathlon.avif" />
-        </div>
-        <div class="icon-row-item">
-          <img alt="Zakladni info logo" src="/images/icon/generali.png" />
-        </div>
-        <div class="icon-row-item">
-          <img alt="Zakladni info logo" src="/images/icon/msmt.avif" />
-        </div>
-        <div class="icon-row-item">
-          <img alt="Zakladni info logo" src="/images/icon/slavia.avif" />
-        </div>
+    <div class="icon-row-partners-comp">
+      <div class="icon-row-partners">
+        <a href="https://www.decathlon.cz/" target="_blank" class="icon-row-partners-item">
+          <img alt="decathlon logo" src="/images/icon/decathlon.avif" />
+        </a>
+        <a
+          href="https://www.happysport.cz/cs_CZ/"
+          target="_blank"
+          class="icon-row-partners-item white-bg"
+          style="background: #003253;"
+        >
+          <img alt="happysport logo" src="/images/partneri/happy-sport.png" />
+        </a>
+        <a href="https://www.generaliceska.cz/" target="_blank" class="icon-row-partners-item">
+          <img alt="Generali logo" src="/images/icon/generali.png" />
+        </a>
+        <a href="https://msmt.gov.cz" target="_blank" class="icon-row-partners-item white-bg">
+          <img alt="ministerstvo skolstvi a telovychovy logo" src="/images/icon/logo-msmt.png" />
+        </a>
+        <a href="https://www.slavia-pojistovna.cz" target="_blank" class="icon-row-partners-item">
+          <img alt="slavia logo" src="/images/icon/slavia.avif" />
+        </a>
       </div>
     </div>
     """

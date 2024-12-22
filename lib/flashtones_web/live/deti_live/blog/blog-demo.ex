@@ -7,7 +7,7 @@ defmodule FlashtonesWeb.BlogDemoLive do
         favicon: "https://zsprodeti.cz/images/favicon/ft/icon.png",
         canonical: "https://zsprodeti.cz/blog",
         page_title: "Blog ZSPRODETI",
-        description:
+        meta_description:
           "Náš blog pojednává o tématech spojených s dětskou výukou. Plavecké dovednosti."
       )
       |> Phx.Live.Favicon.set_dynamic("subfolder", "ft")
