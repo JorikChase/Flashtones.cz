@@ -63,7 +63,6 @@ defmodule FlashtonesWeb.DetiIndexLive do
       }*/
     </style>
     <Hero.deti />
-    <Featured.calendar />
     <DetiGrid.staticGrid />
     <!--<Aktuality.aktuality />-->
     <IconRow.iconRowDeti />

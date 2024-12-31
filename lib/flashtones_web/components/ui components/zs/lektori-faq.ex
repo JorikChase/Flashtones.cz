@@ -138,7 +138,7 @@ defmodule Lektori do
       }
     </style>
 
-    <div class="dashboard">
+    <div class="dashboard odsazeni">
       <section class="section section-obecne" aria-labelledby="obecne-title">
         <h2 id="obecne-title" class="section-title">Obecné</h2>
         <div class="card-grid">

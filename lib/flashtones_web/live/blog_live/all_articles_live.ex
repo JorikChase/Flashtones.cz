@@ -106,6 +106,14 @@ defmodule FlashtonesWeb.AllArticlesLive do
           justify-content: space-between;
           align-items: flex-start;
         }
+        @media (orientation: portrait){
+        .blog-clanek-item{
+          flex-direction: column;
+          gap: 15px;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        }
         .blog-clanky a {
           font-size: 2.1rem;
           color: var(--<%= @segment %>-link);

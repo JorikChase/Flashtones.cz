@@ -1428,7 +1428,7 @@ texty zaloha old web flashtones
     odkazy na blog
 
   # udrzba
-    ////menu mobile
+    ////menu mobile - deploy
     menu pc - compact
       sipecky dolu
 
