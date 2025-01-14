@@ -346,25 +346,29 @@ defmodule DetailCta do
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <span></span>
       <span class="text-gray-900">
-        Cena:<bold>4 800 Kč</bold>
+        Cena:<bold>6 400 Kč</bold>
+      </span>
+      <span class="text-gray-900">
+        <bold>9:00-10:00</bold>
       </span>
       <a
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
       >
-        Objednat 12 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
+        Objednat 16 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
       <span class="text-gray-900">
-        Cena:<bold>4 000 Kč</bold>
+        Cena:<bold>6 400 Kč</bold>
+        <bold>10:15-11:15</bold>
       </span>
       <a
         class="cta-button cta-button2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-19/termin/150/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new"
       >
-        Objednat 10 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
+        Objednat 16 lekcí<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <br />
