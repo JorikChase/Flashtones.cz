@@ -55,7 +55,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
     <HeroSmall.plavaniSaturday />
     <DetailCta.plavaniSaturday />
     <KurzDetail.plavaniSaturday />
-    <DetailFaq.plavaniSaturday />
+    <%!-- <DetailFaq.plavaniSaturday /> --%>
     <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
     <div class="detail-lokace course-wrap">
