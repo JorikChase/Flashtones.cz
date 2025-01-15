@@ -57,6 +57,7 @@ defmodule FlashtonesWebL.LektoriLive do
     <MenuMobile.menuDetiMobile />
     <MenuPc.menuDetiPc />
     <HeroSmall.zsRatings />
+    <Featured.calendar />
     <Lektori.faq />
     <Footer.deti />
     <script>
