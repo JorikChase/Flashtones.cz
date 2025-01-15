@@ -158,14 +158,10 @@ defmodule KurzDetail do
       <p>
         Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Plavání je tou správnou volbou!
       </p>
-      <h3>KDE</h3>
-      <p>Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
-      <br />
       <h3>Organizace</h3>
       <p>
         Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 16ti lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce. Cena kurzu je 6 400 Kč a to za 16 lekcí. Kurzy se konají od února do konce června.
       </p>
-      <br />
       <h3>Jak to probíhá</h3>
       <p>
         S využítím

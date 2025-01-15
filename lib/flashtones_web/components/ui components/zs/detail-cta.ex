@@ -359,7 +359,7 @@ defmodule DetailCta do
       <a
         class="cta-button cta-button2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
@@ -373,7 +373,7 @@ defmodule DetailCta do
       <a
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
@@ -417,8 +417,8 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new";
-            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new";
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new";
         }
         });
         }
