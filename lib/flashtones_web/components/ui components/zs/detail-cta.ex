@@ -338,36 +338,53 @@ defmodule DetailCta do
       .cta-button {
         background: #486EFF;
         border: 4px solid #486EFF;
+        margin-bottom: 0!important;
+        margin-bottom: 10px!important;
+        margin-top: 15px;
+      }
+      .cta-button2 {
+        background: #486EFF;
+        border: 4px solid #486EFF;
+        margin-bottom: 10px!important;
+        margin-top: 0!important;
       }
       .detail-cta .cta-button:hover {
         background: var(--plavani-light);
       }
+      .detail-cta .cta-button2:hover {
+        background: var(--plavani-light);
+      }
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
-      <span></span>
-      <span class="text-gray-900">
-        Cena:<bold>6 400 Kč/16 lekcí</bold>
-      </span>
-      <a
-        class="cta-button"
-        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
-      >
-        Objednat 9:00-10:00<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
-      </a>
-      <span></span>
-      <span class="text-gray-900">
-        Cena:<bold>6 400 Kč/16 lekcí</bold>
-      </span>
       <a
         class="cta-button cta-button2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         href="https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new"
       >
-        Objednat 10.15-11:15<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
+        Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
-      <!--<p>Chci více informací o kurzu:</p>-->
-      <br />
+      <span></span>
+      <a class="text-gray-900 plavani-link">
+        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč/16 lekcí
+      </a>
+      <a class="text-gray-900 plavani-link">
+        <img alt="kdy?" src="/images/icon/cas.svg" /> 9:00-10:00
+      </a>
+      <a
+        class="cta-button"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
+        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
+      >
+        Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
+      </a>
+      <span></span>
+      <a class="text-gray-900 plavani-link">
+        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč/16 lekcí
+      </a>
+      <a class="text-gray-900 plavani-link">
+        <img alt="kdy?" src="/images/icon/cas.svg" /> 10:15-11:15
+      </a>
+      <bold style="padding-bottom: 5px; padding-top: 10px;">Chci více informací o kurzu:</bold>
       <a class="plavani-link" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
@@ -379,7 +396,7 @@ defmodule DetailCta do
         href="/images/pdf/plavani-verejnost/Sobotní kurzy plavání Radotín.pdf"
         target="_blank"
       >
-        <img src="/images/icon/download-plavani.svg" />PDF brožura
+        <img src="/images/icon/info-plavani.svg" />PDF brožura
       </a>
     </div>
     <script>
@@ -400,8 +417,8 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-18/termin/147/rezervace/new";
-            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-19/termin/150/rezervace/new";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new";
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new";
         }
         });
         }
