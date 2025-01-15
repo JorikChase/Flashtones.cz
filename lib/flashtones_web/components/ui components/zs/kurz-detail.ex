@@ -158,18 +158,12 @@ defmodule KurzDetail do
       <p>
         Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Plavání je tou správnou volbou!
       </p>
-      <p>
-        Na základě četné poptávky ze strany rodičů jsme pro vás připravili Sobotní kurzy plavání. Ty jsou zaměřené na vodní adaptaci, základy vodní záchrany a sebezáchrany, absorpci základních plaveckých dovedností a rozvoj specializovaných plaveckých i všeobecných pohybových dovedností. Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 16ti lekcí a docházíte podle vlastní potřeby.
-        Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začátečníky, tak pro pokročilé plavce.
-      </p>
-      <p>Kurzy budou probíhat od února do konce června.</p>
-      <br />
       <h3>KDE</h3>
       <p>Kurzy probíhají v plaveckém bazénu a sportovním areálu Biotopu Radotín.</p>
       <br />
       <h3>Organizace</h3>
       <p>
-        Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 12ti lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce. Cena kurzu je 4 800 Kč a to za 12 lekcí. Kurzy se konají od začátku října do konce ledna následujícího roku.
+        Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 16ti lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce. Cena kurzu je 6 400 Kč a to za 16 lekcí. Kurzy se konají od února do konce června.
       </p>
       <br />
       <h3>Jak to probíhá</h3>
@@ -664,7 +658,7 @@ defmodule KurzDetail do
           dynamiky ve třídě – například děti, které jsou
           izolované, nebo skupinky, které by mohly být zdrojem
           konfliktů.</p>
-        
+
         <p>Na základě těchto výsledků se vybírají
           nejvhodnější modifikace aktivit (a nejvhodnější
           rozdělení dětí) zaměřené na zlepšení vztahů, zejména
