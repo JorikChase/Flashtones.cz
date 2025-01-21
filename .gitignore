@@ -66,3 +66,5 @@ priv/static/subscriptions.csv
 config/config.exs
 config/config.exs
 priv/static/subscriptions.csv
+flashtones_dev.db-wal
+flashtones_dev.db-shm

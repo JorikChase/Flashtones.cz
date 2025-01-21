@@ -3,6 +3,7 @@ defmodule FlashtonesWebL.Router do
   use FlashtonesWeb, :router
 
   import FlashtonesWebL.UserAuth
+  alias FlashtonesWeb.UserSessionController
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -37,30 +38,35 @@ defmodule FlashtonesWebL.Router do
   end
 
   scope "/", FlashtonesWebL do
-    pipe_through :browser
-    get "/sitemap.xml", SitemapControllerLektori, :index
-    live "/", LektoriLive
-    live "/manual-fotky", ManualFotkyLive
-    live "/vecerni-programy", VecerniProgramyLive
-    live "/sportovni-doplnkovy-program", SportovniDoplnkovyProgramLive
-    live "/svp-instruktor", SvpInstruktorLive
-    live "/svp-hlavni-instruktor", SvpHlavniInstruktorLive
-    live "/schuze-hlavnich-instruktoru", SchuzeHlavnichInstruktoruLive
-    live "/prezencni-list", PrezencniListLive
-    live "/plavani-zasobnik", PlavaniZasobnikLive
-    live "/plavani-pirati", PlavaniPiratiLive
-    live "/plavani-chobotnice", PlavaniChobotniceLive
-    live "/plavani-vodni-zachrana", PlavaniVodniZachranaLive
-    live "/plavani-namornici", PlavaniNamorniciLive
-    live "/plavani-delfini", PlavaniDelfiniLive
-    live "/plavani-prirucka-instruktora", PlavaniPriruckaInstruktoraLive
-    live "/enviro-metodika", EnviroMetodikaLive
-    live "/enviro-metodika-starsi", EnviroMetodikaStarsiLive
-    live "/tym-autismus", TymAutismusLive
-    live "/tym-zakladni-info", TymZakladniInfoLive
-    live "/tym-sbornik", TymSbornikLive
-    live "/tym-enviro-aktivity-starsi", TymEnviroAktivityStarsiLive
-    # post "/subscribe", NewsletterController, :subscribe
+    pipe_through [:browser]
+
+    delete "/users/log_out", UserSessionController, :delete
+
+    live_session :current_user,
+      on_mount: [{FlashtonesWebL.UserAuth, :mount_current_user}] do
+      get "/sitemap.xml", SitemapControllerLektori, :index
+      live "/", LektoriLive
+      live "/manual-fotky", ManualFotkyLive
+      live "/vecerni-programy", VecerniProgramyLive
+      live "/sportovni-doplnkovy-program", SportovniDoplnkovyProgramLive
+      live "/svp-instruktor", SvpInstruktorLive
+      live "/svp-hlavni-instruktor", SvpHlavniInstruktorLive
+      live "/schuze-hlavnich-instruktoru", SchuzeHlavnichInstruktoruLive
+      live "/prezencni-list", PrezencniListLive
+      live "/plavani-zasobnik", PlavaniZasobnikLive
+      live "/plavani-pirati", PlavaniPiratiLive
+      live "/plavani-chobotnice", PlavaniChobotniceLive
+      live "/plavani-vodni-zachrana", PlavaniVodniZachranaLive
+      live "/plavani-namornici", PlavaniNamorniciLive
+      live "/plavani-delfini", PlavaniDelfiniLive
+      live "/plavani-prirucka-instruktora", PlavaniPriruckaInstruktoraLive
+      live "/enviro-metodika", EnviroMetodikaLive
+      live "/enviro-metodika-starsi", EnviroMetodikaStarsiLive
+      live "/tym-autismus", TymAutismusLive
+      live "/tym-zakladni-info", TymZakladniInfoLive
+      live "/tym-sbornik", TymSbornikLive
+      live "/tym-enviro-aktivity-starsi", TymEnviroAktivityStarsiLive
+    end
   end
 
   # Other scopes may use custom stacks.

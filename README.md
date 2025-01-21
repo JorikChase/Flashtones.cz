@@ -1428,20 +1428,22 @@ texty zaloha old web flashtones
     odkazy na blog
 
   # udrzba
-    ////menu mobile - deploy
+  ## menu mobile
     menu pc - compact
       sipecky dolu
 
   # new features
-    kalendar instruktori
+  ## kalendar instruktori
     galerie detail lokace
     mapa detail lokace
     instagram api
     blogy widget
     partneri logos do subwebu
+    fotogalerie
+    detaily cta opravit cena a cas
 
   # doma
-    ///landing
+  ## landing
     //komiks
     lide/postavy
     hra

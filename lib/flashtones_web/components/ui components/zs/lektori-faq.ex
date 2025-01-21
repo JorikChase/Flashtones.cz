@@ -142,6 +142,30 @@ defmodule Lektori do
       <section class="section section-obecne" aria-labelledby="obecne-title">
         <h2 id="obecne-title" class="section-title">Obecné</h2>
         <div class="card-grid">
+          <a
+            href="/images/pdf/lektori/komunikace-instruktora.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Komunikace instruktora ZŠ PRO DĚTI s dětmi"
+          >
+            <h3 class="card-title">Komunikace instruktora ZŠ PRO DĚTI s dětmi</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/krizove-scenare.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Krizové scénáře"
+          >
+            <h3 class="card-title">Krizové scénáře</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/zakonceni-kurzu.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Zakončení kurzu"
+          >
+            <h3 class="card-title">Zakončení kurzu</h3>
+          </a>
           <a href="/manual-fotky" class="card-link card" aria-label="Manuál na fotky z kurzu">
             <h3 class="card-title">Manuál na fotky z kurzu</h3>
           </a>
@@ -205,6 +229,30 @@ defmodule Lektori do
       <section class="section section-plavani" aria-labelledby="plavani-title">
         <h2 id="plavani-title" class="section-title">Kurz ZŠ Plavání</h2>
         <div class="card-grid">
+          <a
+            href="/images/pdf/lektori/vzorovy-casovy-rozvrh-plaveckeho-kurzu.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Vzorový časový rozvrh plaveckého kurzu"
+          >
+            <h3 class="card-title">Vzorový časový rozvrh plaveckého kurzu</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/vyuka-plavani-na-kurzu-zs-plavani.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Výuka plavání na kurzu ZŠ Plavání"
+          >
+            <h3 class="card-title">Výuka plavání na kurzu ZŠ Plavání</h3>
+          </a>
+          <a
+            href="/images/pdf/lektori/doplnkovy-program-zs-plavani.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Doplňkový program ZŠ Plavání"
+          >
+            <h3 class="card-title">Doplňkový program ZŠ Plavání</h3>
+          </a>
           <a
             href="/images/pdf/lektori/zasobnik-plavani.pdf"
             class="card-link card"
@@ -327,7 +375,14 @@ defmodule Lektori do
       <section class="section section-lyzovani" aria-labelledby="lyzovani-title">
         <h2 id="lyzovani-title" class="section-title">Kurz ZŠ Lyžování</h2>
         <div class="card-grid">
-          <!-- Empty section as per original -->
+          <a
+            href="/images/pdf/lektori/kurz-zs-lyzovani.pdf"
+            target="_blank"
+            class="card-link card"
+            aria-label="Kurz ZŠ Lyžování"
+          >
+            <h3 class="card-title">Kurz ZŠ Lyžování</h3>
+          </a>
         </div>
       </section>
 

@@ -16,10 +16,16 @@ defmodule FlashtonesWeb.AllArticlesLive do
       total_pages: total_pages
     } =
       if connected?(socket) do
-        Article
-        |> where([a], a.segment == ^segment)
-        |> order_by(desc: :updated_at)
-        |> Repo.paginate(page: page)
+        if segment == "prodeti" do
+          Article
+          |> order_by(desc: :updated_at)
+          |> Repo.paginate(page: page)
+        else
+          Article
+          |> where([a], a.segment == ^segment)
+          |> order_by(desc: :updated_at)
+          |> Repo.paginate(page: page)
+        end
       else
         %Scrivener.Page{}
       end
@@ -210,7 +216,7 @@ defmodule FlashtonesWeb.AllArticlesLive do
 
   def handle_event("nav", %{"page" => page}, socket) do
     if socket.assigns.segment == "prodeti" do
-      {:noreply, push_navigate(socket, to: "/#{socket.assigns.segment}/blog/#{page}")}
+      {:noreply, push_navigate(socket, to: "/blog/#{page}")}
     else
       {:noreply, push_navigate(socket, to: "/#{socket.assigns.segment}/blog/#{page}")}
     end
@@ -240,10 +246,16 @@ defmodule FlashtonesWeb.AllArticlesLive do
       total_entries: total_entries,
       total_pages: total_pages
     } =
-      Article
-      |> where([a], a.segment == ^socket.assigns.segment)
-      |> order_by(desc: :updated_at)
-      |> Repo.paginate(page: page_number)
+      if socket.assigns.segment == "prodeti" do
+        Article
+        |> order_by(desc: :updated_at)
+        |> Repo.paginate(page: page_number)
+      else
+        Article
+        |> where([a], a.segment == ^socket.assigns.segment)
+        |> order_by(desc: :updated_at)
+        |> Repo.paginate(page: page_number)
+      end
 
     [
       articles: entries,

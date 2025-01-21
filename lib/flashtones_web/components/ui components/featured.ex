@@ -152,6 +152,27 @@ defmodule Featured do
     """
   end
 
+  def calendar(assigns) do
+    ~H"""
+    <style>
+      .kalendar{
+        height: 900px;
+        width: 100%;
+      }
+    </style>
+    <div class="odsazeni kalendar">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FPrague&showPrint=0&title=organizace&showTz=0&src=bmV3c2xldHRlckB6c3Byb2RldGkuaW5mbw&src=ZW4uY3plY2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043"
+        style="border-width:0; "
+        width="100%"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+      >
+      </iframe>
+    </div>
+    """
+  end
 
   def partners(assigns) do
     ~H"""
