@@ -26,10 +26,9 @@ defmodule Lektori do
 
       .section-title {
         font-size: 1.75rem;
-        font-weight: 600;
+        font-weight: 800;
         margin-bottom: 1.5rem;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid currentColor;
       }
 
       /* Section-specific colors */
@@ -38,19 +37,20 @@ defmodule Lektori do
       .section-plavani .section-title { color: var(--deep-blue); }
       .section-lyzovani .section-title { color: var(--light-blue); }
       .section-enviro .section-title { color: var(--nature-green); }
-      .section-enviro-tym .section-title { color: var(--alt-green); }
+      .section-enviro-tym .section-title { color: var(--nature-green); }
       .section-vylety .section-title { color: var(--orange); }
       .section-eshop .section-title { color: var(--gold); }
       .section-o-nas .section-title { color: var(--dark-turquoise); }
 
       .card-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
+        grid-template-columns: 100%;
+        gap: 15px;
         padding: 0.5rem;
       }
 
       .card {
+      width: fit-content;
         background: white;
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -70,15 +70,15 @@ defmodule Lektori do
       }
 
       /* Card accent colors */
-      .section-obecne .card::before { background: var(--turquoise); }
-      .section-hotely .card::before { background: var(--grey); }
-      .section-plavani .card::before { background: var(--deep-blue); }
-      .section-lyzovani .card::before { background: var(--light-blue); }
-      .section-enviro .card::before { background: var(--nature-green); }
-      .section-enviro-tym .card::before { background: var(--alt-green); }
-      .section-vylety .card::before { background: var(--orange); }
-      .section-eshop .card::before { background: var(--gold); }
-      .section-o-nas .card::before { background: var(--dark-turquoise); }
+      .section-obecne .card { background: rgba(250, 250, 250, 0.95); }
+      .section-hotely .card { background: rgba(250, 250, 250, 0.95); }
+      .section-plavani .card { background: rgba(250, 250, 250, 0.95); }
+      .section-lyzovani .card { background: rgba(250, 250, 250, 0.95); }
+      .section-enviro .card { background: rgba(250, 250, 250, 0.95); }
+      .section-enviro-tym .card { background: rgba(250, 250, 250, 0.95); }
+      .section-vylety .card { background: rgba(250, 250, 250, 0.95); }
+      .section-eshop .card { background: rgba(250, 250, 250, 0.95); }
+      .section-o-nas .card { background: rgba(250, 250, 250, 0.95); }
 
       .card:hover {
         transform: translateY(-4px);
@@ -95,7 +95,7 @@ defmodule Lektori do
 
       .card-title {
         font-size: 1.125rem;
-        font-weight: 500;
+        font-weight: 700;
         margin: 0;
         line-height: 1.4;
       }
