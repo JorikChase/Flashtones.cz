@@ -82,6 +82,7 @@ export const ToggleSwitch = {
 };
 export const ModularMenu = {
   mounted() {
+    console.log("modular-menu");
     // Cookie consent functions
     function setCookie(name, value, days) {
       const expires = new Date();
@@ -251,6 +252,7 @@ export const ModularMenu = {
 };
 export const ModularMenuRight = {
   mounted() {
+    console.log("modular-menu-right");
     function setCookie(name, value, days) {
       const expires = new Date();
       expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
@@ -395,7 +397,7 @@ export const ModularMenuRight = {
             (plavani || lyzovani || enviro || vylety)
           ) {
             cta.style.right = "5%";
-            cta.style.top = "440px";
+            cta.style.top = "300px";
           }
         }
       };

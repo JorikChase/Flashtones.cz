@@ -62,7 +62,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       <div class="category" data-category="Plavání pro veřejnost">
         <h2>Místo konání</h2>
         <div class="product">
-          <a target="_blank" href="/images/pdf/plavani-saturday-radotin.pdf">
+          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota.pdf">
             <div
               class="detail-lokace-item-img"
               style="background-image: url(/images/hotely/radotin.avif)"
@@ -75,6 +75,30 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
                 </h4>
                 <p class="font-normal">
                   Plavecký a sportovní areál Radotín na adrese: K Lázním 9, Praha 5, 153 00. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.
+                </p>
+              </div>
+              <b class="detail-link plavani-link self-end">
+                Instrukce a FAQ<img
+                  src="/images/icon/arrow-right-plavani.svg"
+                  alt="Šipka"
+                  class="button-image"
+                />
+              </b>
+            </div>
+          </a>
+          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-nedele.pdf">
+            <div
+              class="detail-lokace-item-img"
+              style="background-image: url(/images/hotely/hloubetin.avif)"
+            >
+            </div>
+            <div class="product-text-wrap">
+              <div class="product-text">
+                <h4>
+                  Plavecký bazén Hloubětín
+                </h4>
+                <p class="font-normal">
+                  Jedná se o jediný pražský bazén s přisolovanou vodou. Vodu čistí australská technologie která přidává do vody mořskou sůl (slanost vody je 0,5%). K výuce jsou pro nás k dispozici dva kryté bazény – sportovní a dětský. Areál se nachází zhruba 200 m od stanice metra Hloubětín, před budovou je možnost parkování.
                 </p>
               </div>
               <b class="detail-link plavani-link self-end">

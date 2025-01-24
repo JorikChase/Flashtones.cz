@@ -1305,8 +1305,8 @@ form:hover {
 /*kurz cta*/
 .detail-cta {
     position: fixed;
-    right: 10%;
-    top: 440px;
+    right: 5%;
+    top: 300px;
     border-top: 5px solid;
     background: rgba(255, 255, 255, 0.9);
     filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.05));

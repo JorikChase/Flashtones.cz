@@ -359,30 +359,30 @@ defmodule DetailCta do
       <a
         class="cta-button cta-button2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-20/lokalita/3/termin/list"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
       <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč/16 lekcí
+        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč | 16 lekcí
       </a>
       <a class="text-gray-900 plavani-link">
-        <img alt="kdy?" src="/images/icon/cas.svg" /> 9:00-10:00
+        <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Radotín - soboty
       </a>
       <a
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/kurz-21/lokalita/2/termin/list"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
       <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč/16 lekcí
+        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 5 980 Kč | 15 lekcí
       </a>
       <a class="text-gray-900 plavani-link">
-        <img alt="kdy?" src="/images/icon/cas.svg" /> 10:15-11:15
+        <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Hloubětín - neděle
       </a>
       <bold style="padding-bottom: 5px; padding-top: 10px;">Chci více informací o kurzu:</bold>
       <a class="plavani-link" href="tel:+420 724 168 962">
@@ -393,10 +393,10 @@ defmodule DetailCta do
       </a>
       <a
         class="plavani-link"
-        href="/images/pdf/plavani-verejnost/Sobotní kurzy plavání Radotín.pdf"
+        href="/images/pdf/plavani-verejnost/vop-plavani-verejnost.pdf"
         target="_blank"
       >
-        <img src="/images/icon/info-plavani.svg" />PDF brožura
+        <img src="/images/icon/info-plavani.svg" />VOP
       </a>
     </div>
     <script>
@@ -417,8 +417,8 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/152/rezervace/new";
-            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/termin/151/rezervace/new";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-21/lokalita/2/termin/list";
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/lokalita/3/termin/list";
         }
         });
         }
@@ -630,7 +630,6 @@ defmodule DetailCta do
     <style>
     </style>
     <div class="detail-cta" style="border-color: var(--vylety-main)" id="detail-cta">
-      <br />
       <a
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
@@ -685,7 +684,6 @@ defmodule DetailCta do
     <style>
     </style>
     <div class="detail-cta" style="border-color: var(--vylety-main)" id="detail-cta">
-      <br />
       <a
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
@@ -800,7 +798,7 @@ defmodule DetailCta do
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
       <span class="text-gray-900">
-        Cena:<bold>2250 Kč</bold>
+        Cena:<bold>4250 Kč</bold>
       </span>
       <br />
       <a class="enviro-link" href="tel:+420 724 168 962">
@@ -810,7 +808,7 @@ defmodule DetailCta do
         <img alt="email" src="/images/icon/email-enviro.svg" />petra@zsprodeti.cz
       </a>
       <a class="enviro-link" target="_blank" href="/images/pdf/enviro-city.pdf">
-        <img src="/images/icon/download-enviro.svg" />PDF brožura
+        <img src="/images/icon/download-enviro.svg" />FAQ
       </a>
     </div>
     <script>

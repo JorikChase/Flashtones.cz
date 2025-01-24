@@ -520,6 +520,19 @@ defmodule MenuPc do
       #individualni-kurzy:before {
           background-image: url(/images/icon/kurz/boy.svg);
       }
+      .menu-dropdown-link{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .menu-dropdown-icon{
+        height: 29px;
+        width: 30px;
+        border-radius: 0;
+        background-image: url(/images/icon/dropdown-deti.svg);
+        background-size: cover;
+      }
     </style>
     <div class="pcMenu pcMenuDeti" id="pcMenu" phx-hook="ModularMenu">
       <div class="pcMenuBar" id="pcMenuBar">
@@ -529,7 +542,10 @@ defmodule MenuPc do
         <div class="pcMenuBarLinks">
           <ul>
             <li>
-              <a style="font-weight: 800;" href="#">Aktivity</a>
+              <a class="menu-dropdown-link" style="font-weight: 800;" href="#">
+                Aktivity
+                <div class="menu-dropdown-icon"></div>
+              </a>
               <div class="dropdown">
                 <ul class="aktivity-main-switch">
                   <li>
@@ -586,17 +602,17 @@ defmodule MenuPc do
                     <ul class="mini-verejnost">
                       <li>
                         <a href="/enviro/primestske-tabory-enviro">
-                          <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY ENVIRO</h3>
+                          <h3>Příměstské tábory "Aktivní léto"</h3>
                         </a>
                       </li>
                       <li>
                         <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory">
-                          <h3>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h3>
+                          <h3>Letní příměstské plavecké tábory 2025</h3>
                         </a>
                       </li>
                       <li>
                         <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani">
-                          <h3>SOBOTNÍ KURZY PLAVÁNÍ</h3>
+                          <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h3>
                         </a>
                       </li>
                       <li>
@@ -613,7 +629,10 @@ defmodule MenuPc do
               </div>
             </li>
             <li>
-              <a href="#" style="font-weight: 800;">Informace</a>
+              <a class="menu-dropdown-link" href="#" style="font-weight: 800;">
+                Informace
+                <div class="menu-dropdown-icon"></div>
+              </a>
               <div class="dropdown">
                 <ul class="mini-informace">
                   <li>

@@ -133,7 +133,8 @@ defmodule FlashtonesWeb.BlogLive do
           display: flex;
           flex-direction: row;
           align-items: center;
-          justify-content: space-between;
+          justify-content: flex-start;
+          gap: 15px;
           padding: 15px 0 30px 0;
         }
         .blog-admin-button{
@@ -157,9 +158,7 @@ defmodule FlashtonesWeb.BlogLive do
                 padding: 30px !important;
             }}
     </style>
-    <div class="max-w-6xl mx-auto p-6 my-10 pb-10 bg-white rounded-lg shadow-lg space-y-6">
-      <h1>Blog</h1>
-      <br />
+    <div class="max-w-6xl mx-auto p-6 my-10 pb-10 rounded-lg space-y-6">
       <div id="edit-section" style="display: none;">
         <.live_component
           module={ArticleFormComponent}

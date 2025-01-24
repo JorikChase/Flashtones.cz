@@ -154,19 +154,22 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>SOBOTNÍ KURZY PLAVÁNÍ 2025</h1>
+      <h1>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h1>
       <p>
-        Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Plavání je tou správnou volbou!
+        Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Víkendové plavání je tou správnou volbou!
       </p>
       <h3>Organizace</h3>
       <p>
-        Kurzy trvají vždy 50 minut a konají se každou sobotu. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček 16ti lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce. Cena kurzu je 6 400 Kč a to za 16 lekcí. Kurzy se konají od února do konce června.
+        Kurzy trvají vždy 50 minut a konají se každou sobotu(pro Radotín)/neděli (pro Hloubětín). Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce.
+        <br />
+        <b>Pro Radotín máme v nabídce dopolední lekce:</b>
+        <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
+        <b>Pro Hloubětín máme v nabídce odpolední lekce:</b>
+        <br /> Neděle 17:00-18:00 <br /> Neděle 18:15- 19:15 <br />
       </p>
       <h3>Jak to probíhá</h3>
       <p>
-        S využítím
-        <bold>nových pedagogických metod</bold>
-        a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+        S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
       </p>
       <p>
         <bold>Výuka plavání</bold>
@@ -585,22 +588,18 @@ defmodule KurzDetail do
   def enviroCity(assigns) do
     ~H"""
     <div class="course-wrap top">
-      <h1>Letní příměstské tábory ZŠ Enviro</h1>
+      <h1>Letní příměstské tábory "Aktivní léto se ZŠ PRO DĚTI"</h1>
       <p>
-        Cílem tábora je prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
+        Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
       </p>
       <p>
-        Součástí akce bude taktéž přírodovědný program „Havěti naproti,“ celkem tříhodinový blok zaměřený na živočišnou droboť z říše hmyzu. V této části se děti setkají s nejrůznější drobnou havětí a dozví se mnoho zajímavostí o hmyzí říši a její nezastupitelné úloze na Zemi.
+        V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
       </p>
       <p>
-        Hravá forma a praktické pojetí umožňují hlubší porozumění tématu a vede děti k vnitřnímu přijetí a ztotožnění se se získanými vědomostmi a v důsledku toho k následnému vědomému ekologickému chování v běžném životě.
+        Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
       </p>
       <p>
-        Připravili jsme pro Vás nový formát příměstského tábora, který je, mimo enviro programu, zaměřený i na sportovní a tmelící aktivity. Děti na nich absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
-      </p>
-      <p>
-        Tábory budou probíhat na škole ZŠ Bronzová v termínech <b>8. - 12. 7. a 19. - 23. 8. 2024.</b>
-        Program je určen dětem mladšího a staršího školního věku.
+        Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
       </p>
     </div>
     <br />
