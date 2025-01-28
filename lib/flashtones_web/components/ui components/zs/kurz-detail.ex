@@ -305,7 +305,7 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h1>
+      <h1>LETNÍ PŘÍMĚSTSKÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
       <p>
         S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
       </p>

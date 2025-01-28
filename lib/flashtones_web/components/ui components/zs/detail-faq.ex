@@ -612,31 +612,21 @@ defmodule DetailFaq do
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/terminy.svg" alt="Terminy">
-          <p class="font-bold">Termíny kurzu</p>
+          <p class="font-bold">Termíny</p>
         </div>
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
-          <p class="answer mt-2">Jaro a podzim</p>
+          <p class="answer mt-2">Příměstké tábory probíhají v létě 2025</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/sportovni.svg" alt="Sportovni program">
-          <p class="font-bold">Doplňkový sportovní program</p>
+          <p class="font-bold">Doplňkový program</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
-          <p class="answer mt-2">Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání.</p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/zabava.svg" alt="zabava">
-          <p class="font-bold">Zábavní program</p>
-          </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
+          <p class="answer mt-2"></p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -660,16 +650,6 @@ defmodule DetailFaq do
             pitný režim po celý den
             <br>
             </p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/bus.svg">
-          <p class="font-bold">Doprava</p>
-          </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">

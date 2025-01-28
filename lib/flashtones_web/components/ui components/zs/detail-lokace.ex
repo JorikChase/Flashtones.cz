@@ -218,7 +218,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         Plavecký bazén Pražačka
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 17 x 8.5 m, příjemně teplou vodou a neopakovatelným výhledem na Prahu. Je ideální pro výuku dětských plavců i neplavců. </p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -232,7 +232,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         PRAHA - VÝSTAVIŠTĚ
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 25 m x 12,5 m s příjemně teplou vodou. Bazén má šest plaveckých drah, na jejich začátku jsou startovní bloky, pod kterými je hloubka 3,8 metrů.</p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -246,7 +246,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         Plavecký bazén Suchdol
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Kurzy probíhají v Sportcentrum Suchdol na univerzitě ČZU. Bazén má rozměry 25x13 metrů. Má pozvolný sestup, který začíná hloubkou 1,2m a končí hloubkou 1,8 m. Součástí budovy je i tělocvična.</p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -260,7 +260,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         Plavecký bazén Radotín
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.</p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -276,7 +276,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         Plavecký bazén Hloubětín
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Součástí budovy je i tělocvična pro míčové a teambuildingové hry využívaná v případě špatného počasí. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -290,7 +290,7 @@ defmodule DetailLokace do
                 <div class="product-text">
                 <span class="cost-wrap"><h4>
                 TIPSPORT LAGUNA BEROUN
-                </h4><b>5 250 <side>Kč</side></b></span>
+                </h4><b>5 450 <side>Kč</side></b></span>
                 <p class="font-normal">K plavání využíváme krytý bazén s šesti 25metrovými drahami, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru.</p>
                 </div>
                 <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -304,7 +304,7 @@ defmodule DetailLokace do
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
                         Plavecký bazén Brandýs
-                        </h4><b>5 250 <side>Kč</side></b></span>
+                        </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Centrum zahrnuje bazén o délce 25 metrů s třemi plaveckými drahami se startovacími bloky.</p>
                         </div>
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
