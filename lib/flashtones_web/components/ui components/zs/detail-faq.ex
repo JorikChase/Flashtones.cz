@@ -614,7 +614,7 @@ defmodule DetailFaq do
           <img src="/images/icon/terminy.svg" alt="Terminy">
           <p class="font-bold">Termíny kurzu</p>
         </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Jaro a podzim</p>
         </div>
@@ -624,7 +624,7 @@ defmodule DetailFaq do
           <img src="/images/icon/sportovni.svg" alt="Sportovni program">
           <p class="font-bold">Doplňkový sportovní program</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Děti absolvují tři devadesátiminutové lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání.</p>
         </div>
@@ -634,17 +634,17 @@ defmodule DetailFaq do
           <img src="/images/icon/zabava.svg" alt="zabava">
           <p class="font-bold">Zábavní program</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Doplňkový program probíhá každý večer a je zaměřen na aktivity jako jsou hry v přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
-          <img src="/images/icon/stravovani-deti.svg" alt="stravovani">
+          <img src="/images/icon/stravovani-plavani.svg" alt="stravovani">
           <p class="font-bold">Stravování</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
             snídaňový bufet
@@ -667,7 +667,7 @@ defmodule DetailFaq do
           <img src="/images/icon/bus.svg">
           <p class="font-bold">Doprava</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">Doprava je zajištěna z místa poskytování vzdělání do místa konání kurzu a zpět.</p>
         </div>
@@ -677,7 +677,7 @@ defmodule DetailFaq do
           <img src="/images/icon/prispevek.svg">
           <p class="font-bold">Jak zlevnit kurz?</p>
           </div>
-        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-ft.svg"></a>
 
