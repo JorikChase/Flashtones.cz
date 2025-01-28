@@ -60,7 +60,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Letní příměstský tábor "Aktivní léto se ZŠ PRO DĚTI"</p>
         </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
@@ -82,7 +82,7 @@ defmodule DetailFaq do
           Kde
           </p>
           </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Jako zázemí pro konání tábora budou využity učebny či tělocvičny v našich partnerských školách.
@@ -98,7 +98,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Harmonogram</p>
           </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           7.30 - 9.00 - příchod/přebírání dětí, volná hra
@@ -125,7 +125,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Stravování</p>
           </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z teplého hlavního jídla dle zásad zdravé výživy a výživových doporučení. Svačiny se podávají přímo v prostorách areálu školy.
@@ -139,7 +139,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Co nezapomenout</p>
           </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Sportovní obuv indoorová
@@ -158,7 +158,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Jak a kde nás můžete kontaktovat</p>
           </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
         <p class="answer mt-2">
         Zodpovědnou osobou za všechny letní příměstské tábory je:
@@ -251,7 +251,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Jak je to s bezpečností?</p>
         </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Bezpečnost dětí je u nás na prvním místě. Na začátku tábora hlavní instruktor seznámí děti s tím, jak bude vše probíhat a obeznámí je s pravidly.
@@ -262,7 +262,7 @@ defmodule DetailFaq do
         <div class="question-box-row">
           <p class="font-bold">Kdo jsou naši instruktoři?</p>
         </div>
-        <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
           Naši kolegové, certifikovaní lektoři a empatičtí lidé s letitými zkušenostmi v práci s dětmi.
@@ -274,7 +274,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Kolik dětí je na táboře a kolik dětí připadá na 1 instruktora?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Program je veden vždy v tandemu. Celkový počet dětí na tábor je cca 20.
@@ -286,7 +286,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Je prostor na odpočinek/spánek?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Ano. Vždy po obědě mají děti klidový režim. Pro děti je připraven volný doprovodný program, avšak pokud děti chtějí jen odpočívat, nebráníme jim.
@@ -298,7 +298,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Co děláme, když je špatné počasí?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Každý kurz má svou “mokrou variantu“, aktivity se přesouvají do tělocvičny/sálu, a to v případě, že opravdu není možné být venku.
@@ -310,7 +310,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Bude to bavit starší děti? Musí se účastnit všeho?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Celý program bude bavit i starší dítě. Snažíme se mladší a starší děti přiměřeně tmelit a předávat informace přiměřeně věku.
@@ -322,7 +322,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Můžu dítě vyzvednout v jiný čas?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Dítě je možné vyzvednout pouze v předem stanoveném čase. Jsme rádi, pokud se program nenarušuje a děti se účastní celého dne. Po domluvě s lektorem je však v urgentních případech možno se domluvit jinak. Vždy ale s ohledem k programu dne.
@@ -334,7 +334,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak ohlásit nepřítomnost/nemoc?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         V průběhu tábora prosíme o SMS zprávu vedoucímu kurzu, který si vše poznamená. Před začátkem kurzu oznamte prosím SMS zprávou Petře Huškové, 724 168 962
@@ -346,7 +346,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Může dítě odcházet odpoledne samo domů a nemusí ho nikdo vyzvedávat?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Ano, možné to je, jen první den kurzu přineste potvrzení, že tomu takto může být.
@@ -358,7 +358,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Kde a kdy se děti předávají, vyzvedávají?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Přesné instrukce Vám doplníme před začátkem tábora, hned, jak se na nich domluvíme se školou.
@@ -370,7 +370,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Je možné změnit termín či lokalitu tábora?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Pokud se ještě najde volné místo v jiném termínu, vždy se pokoušíme vyjít všem vstříc. Kontaktujte nás prosím.
@@ -382,7 +382,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak přistupujeme k dětem s omezeními? (psychické či fyzické omezení, duševní choroby)</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Velmi citlivě a zodpovědně. Vše je ale důležité ještě před začátkem tábora včas oznámit a následně konzultovat s vedoucím kurzu.
@@ -394,7 +394,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Co když má dítě za sebou nějaký úraz? (zlomenina apod.)</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Není to pro dítě problém. Vždy je důležité, aby o tom věděl vedoucí kurzu. Ten potom s dítětem konzultuje jeho stav či rizika u konkrétních aktivit.
@@ -406,7 +406,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Má atopický ekzém, alergii, potřebuje speciální léky. Co s tím?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Není problém, aby dítěti byly podány léky v případě, že by to dítě nezvládlo samo. Nutné je však, aby o tom věděl vedoucí kurzu.
@@ -418,7 +418,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Kde se děti stravují?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Na obědy chodíme do nedaleké restaurace, případně jsou teplá jídla doipravována pomocí tzv. REkrabiček z naší partnerské jídelny.
@@ -429,7 +429,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Co všechno mají a kdy?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         K obědu mají polévku a hlavní jídlo. Ke svačině nějaké sladké pečivo a kousek ovoce. Pitný režim je zajištěn po celý den.
@@ -441,7 +441,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Co když máme dietní omezení?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Jakékoliv omezení je nutné včas hlásit. Jsme na vše připraveni a v restauraci nám vychází maximálně vstříc.
@@ -453,7 +453,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Co když něco nejí? Nutíte ho jíst?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Ne. Jen poukazujeme na to, že bude mít hlad, když se před druhým plaváním nenají.
@@ -465,7 +465,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak je to příspěvkem od pojišťovny?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Po zaplacení tábora Vám bude automaticky vystaven platební doklad, který pak můžete k příspěvku využít.
@@ -477,7 +477,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak je to se zaměstnaneckými benety?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Jsme partnery Edenredu.
@@ -489,7 +489,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak je to s Aktivním městem?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         V Aktivním městě jsme se zapojili mezi poskytovatele sportovních aktivit. V případě, že budete mít o tento příspěvek zájem, kontaktujte nás.
@@ -501,7 +501,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Jak je to s fakturou pro zaměstnavatele?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Nemáme problém vystavit fakturu pro Vašeho zaměstnavatele přesně podle jeho požadavků, prosím, kontaktujte nás.
@@ -513,7 +513,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Má sourozenec slevu na kurz?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Tuto variantu bohužel nenabízíme.
@@ -525,7 +525,7 @@ defmodule DetailFaq do
       <div class="question-box-row">
         <p class="font-bold">Kde seženu fotky z kurzu?</p>
       </div>
-      <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
         <p class="answer mt-2">
         Fotografie jsou umístěny na webových stránkách <a href="https://www.zsprodeti.cz" class="plavani-link">zsprodeti.cz</a> v sekci
