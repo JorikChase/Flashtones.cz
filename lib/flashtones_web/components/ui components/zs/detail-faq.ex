@@ -1,6 +1,559 @@
 defmodule DetailFaq do
   use Phoenix.Component
 
+  def verejnostPrimestaky(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Další informace</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Letní příměstský tábor "Aktivní léto se ZŠ PRO DĚTI"</p>
+        </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
+          <br>
+          <br>
+          V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
+          <br>
+          <br>
+          Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
+          <br>
+          <br>
+          Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">
+          Kde
+          </p>
+          </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Jako zázemí pro konání tábora budou využity učebny či tělocvičny v našich partnerských školách.
+          <br>
+          <br>
+          Pro Vámi vybraný tábor se jedná o :
+          <br>
+          ZŠ Bronzová, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí a hřiště v areálu školy. S dětmi se snažíme trávit veškerý čas venku. V případě extrémně špatného počasí je ovšem možnost využití školní tělocvična, která v tomto případě poslouží i pro předávání dětí.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Harmonogram</p>
+          </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          7.30 - 9.00 - příchod/přebírání dětí, volná hra
+          <br>
+          9.15 - 10.45 – dopolední program- první část
+          <br>
+          10.45 - 11.00 - svačina
+          <br>
+          11.15 - 12.45 – dopolední program- druhá část
+          <br>
+          12.45 - 13.45 - oběd
+          <br>
+          13.45 - 14.15 - odpočinek
+          <br>
+          14.15 - 16.15 – odpolední program
+          <br>
+          16.15 - 16.30 - svačina
+          <br>
+          16.30 -17:00- přebírání dětí/volná hra
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Stravování</p>
+          </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z teplého hlavního jídla dle zásad zdravé výživy a výživových doporučení. Svačiny se podávají přímo v prostorách areálu školy.
+          <br>
+          *Prosíme o informaci o případných speciálních požadavcích na stravování (bezlepková dieta, vegetariánství atd.) a to nejpozději 7 dnů před začátkem kurzu formou emailu na adresu:
+          <a class="plavani-link" href="mailto:petra@zsprodeti.cz">petra@zsprodeti.cz</a>
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Co nezapomenout</p>
+          </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Sportovní obuv indoorová
+          <br>
+          Sportovní oblečení - varianta na ven i dovnitř
+          <br>
+          Sportovní obuv venkovní
+          <br>
+          Pláštěnka
+          <br>
+          Láhev na pití
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Jak a kde nás můžete kontaktovat</p>
+          </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+        <p class="answer mt-2">
+        Zodpovědnou osobou za všechny letní příměstské tábory je:
+        Petra Hušková
+        <br>
+        <a class="plavani-link" href="tel:724168962">Tel: 724 168 962</a>
+        <br>
+        <a class="plavani-link" href="mailto:petra@zsprodeti.cz">Mail: petra@zsprodeti.cz</a>
+        <br>
+        Prosíme Petru primárně kontaktovat emailem. Pokud je třeba volat, její
+        pracovní doba je 8:30-16:30.
+        </p>
+        </div>
+      </div>
+      </div>
+      <br>
+
+      <script>
+        document.querySelectorAll('.question-box').forEach(box => {
+          box.addEventListener('click', () => {
+            // Toggle the active class on the clicked box
+            box.classList.toggle('active');
+
+            // Hide the answers of other boxes in the same section
+            const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+            otherBoxes.forEach(otherBox => {
+              otherBox.classList.remove('active');
+            });
+          });
+        });
+      </script>
+      """
+    end
+  def verejnostPrimestakyDetail(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>ČASTÉ DOTAZY VŠE K TÁBORU / OTÁZKY K INSTRUKTORŮM</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Jak je to s bezpečností?</p>
+        </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Bezpečnost dětí je u nás na prvním místě. Na začátku tábora hlavní instruktor seznámí děti s tím, jak bude vše probíhat a obeznámí je s pravidly.
+          </p>
+        </div>
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <p class="font-bold">Kdo jsou naši instruktoři?</p>
+        </div>
+        <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+        </div>
+          <p class="answer mt-2">
+          Naši kolegové, certifikovaní lektoři a empatičtí lidé s letitými zkušenostmi v práci s dětmi.
+          </p>
+        </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Kolik dětí je na táboře a kolik dětí připadá na 1 instruktora?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Program je veden vždy v tandemu. Celkový počet dětí na tábor je cca 20.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Je prostor na odpočinek/spánek?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Ano. Vždy po obědě mají děti klidový režim. Pro děti je připraven volný doprovodný program, avšak pokud děti chtějí jen odpočívat, nebráníme jim.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co děláme, když je špatné počasí?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Každý kurz má svou “mokrou variantu“, aktivity se přesouvají do tělocvičny/sálu, a to v případě, že opravdu není možné být venku.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Bude to bavit starší děti? Musí se účastnit všeho?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Celý program bude bavit i starší dítě. Snažíme se mladší a starší děti přiměřeně tmelit a předávat informace přiměřeně věku.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Můžu dítě vyzvednout v jiný čas?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Dítě je možné vyzvednout pouze v předem stanoveném čase. Jsme rádi, pokud se program nenarušuje a děti se účastní celého dne. Po domluvě s lektorem je však v urgentních případech možno se domluvit jinak. Vždy ale s ohledem k programu dne.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak ohlásit nepřítomnost/nemoc?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        V průběhu tábora prosíme o SMS zprávu vedoucímu kurzu, který si vše poznamená. Před začátkem kurzu oznamte prosím SMS zprávou Petře Huškové, 724 168 962
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Může dítě odcházet odpoledne samo domů a nemusí ho nikdo vyzvedávat?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Ano, možné to je, jen první den kurzu přineste potvrzení, že tomu takto může být.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Kde a kdy se děti předávají, vyzvedávají?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Přesné instrukce Vám doplníme před začátkem tábora, hned, jak se na nich domluvíme se školou.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Je možné změnit termín či lokalitu tábora?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Pokud se ještě najde volné místo v jiném termínu, vždy se pokoušíme vyjít všem vstříc. Kontaktujte nás prosím.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak přistupujeme k dětem s omezeními? (psychické či fyzické omezení, duševní choroby)</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Velmi citlivě a zodpovědně. Vše je ale důležité ještě před začátkem tábora včas oznámit a následně konzultovat s vedoucím kurzu.
+        </p>
+      </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co když má dítě za sebou nějaký úraz? (zlomenina apod.)</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Není to pro dítě problém. Vždy je důležité, aby o tom věděl vedoucí kurzu. Ten potom s dítětem konzultuje jeho stav či rizika u konkrétních aktivit.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Má atopický ekzém, alergii, potřebuje speciální léky. Co s tím?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Není problém, aby dítěti byly podány léky v případě, že by to dítě nezvládlo samo. Nutné je však, aby o tom věděl vedoucí kurzu.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Kde se děti stravují?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Na obědy chodíme do nedaleké restaurace, případně jsou teplá jídla doipravována pomocí tzv. REkrabiček z naší partnerské jídelny.
+        </p>
+    </div>
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co všechno mají a kdy?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        K obědu mají polévku a hlavní jídlo. Ke svačině nějaké sladké pečivo a kousek ovoce. Pitný režim je zajištěn po celý den.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co když máme dietní omezení?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Jakékoliv omezení je nutné včas hlásit. Jsme na vše připraveni a v restauraci nám vychází maximálně vstříc.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co když něco nejí? Nutíte ho jíst?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Ne. Jen poukazujeme na to, že bude mít hlad, když se před druhým plaváním nenají.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak je to příspěvkem od pojišťovny?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Po zaplacení tábora Vám bude automaticky vystaven platební doklad, který pak můžete k příspěvku využít.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak je to se zaměstnaneckými benety?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Jsme partnery Edenredu.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak je to s Aktivním městem?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        V Aktivním městě jsme se zapojili mezi poskytovatele sportovních aktivit. V případě, že budete mít o tento příspěvek zájem, kontaktujte nás.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak je to s fakturou pro zaměstnavatele?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Nemáme problém vystavit fakturu pro Vašeho zaměstnavatele přesně podle jeho požadavků, prosím, kontaktujte nás.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Má sourozenec slevu na kurz?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Tuto variantu bohužel nenabízíme.
+        </p>
+    </div>
+
+      <div class="question-box p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Kde seženu fotky z kurzu?</p>
+      </div>
+      <img src="/images/icon/plus-deti.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Fotografie jsou umístěny na webových stránkách <a href="https://www.zsprodeti.cz" class="plavani-link">zsprodeti.cz</a> v sekci
+        fotogalerie a chráněny unikátním heslem. Po skončení tábora obdrží děti
+        brožurku s heslem a také s vytisknutou památeční fotograí.
+        </p>
+    </div>
+
+    </div>
+    </div>
+    <br>
+
+    <script>
+      document.querySelectorAll('.question-box').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
+
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
+          });
+        });
+      });
+    </script>
+    """
+  end
   def detailFaq(assigns) do
     ~H"""
     <style>

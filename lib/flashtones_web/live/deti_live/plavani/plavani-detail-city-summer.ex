@@ -56,9 +56,10 @@ defmodule FlashtonesWeb.PlavaniDetailCitySummerLive do
     <DetailCta.plavaniCitySummer />
     <KurzDetail.plavaniCitySummer />
     <!--<h3>Další informace</h3>-->
-      <!--<DetailFaq.detailFaq />-->
+    <DetailFaq.verejnostPrimestaky />
     <DetailLokace.detailPlavaniVerejnost />
     <br />
+    <DetailFaq.verejnostPrimestakyDetail />
     <Rekli.rekliPlavaniVerejnost />
     <Zustanme.plavani />
     <Footer.deti />

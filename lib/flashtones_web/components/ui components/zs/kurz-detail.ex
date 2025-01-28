@@ -305,26 +305,18 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>LETNÍ PŘÍMĚSTSKÉ TÁBORY</h1>
+      <h1>Letní příměstské tábory "Aktivní léto se ZŠ PRO DĚTI"</h1>
       <p>
-        S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+        Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
       </p>
       <p>
-        Výuka plavání probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 60 minut a je strukturována do tří částí:
-      </p>
-      <ul>
-        <li><b>úvodní seznámení s náplní lekce a následná rozcvička</b></li>
-        <li><b>hlavní výuková část</b></li>
-        <li><b>vodní hry</b></li>
-      </ul>
-      <h3>Jak to probíhá</h3>
-      <p>
-        Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků a doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
+        V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
       </p>
       <p>
-        Jsou vhodné pro <b>děti ve věku 5-13 let</b>. Rádi mezi nás přivítáme úplné
-        <b>začátečníky i pokročilé plavce</b>
-        .
+        Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
+      </p>
+      <p>
+        Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
       </p>
     </div>
     <br />
