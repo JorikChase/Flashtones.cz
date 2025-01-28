@@ -66,7 +66,7 @@ defmodule IconRow do
       <div class="icon-row">
         <div class="icon-row-item">
           <img alt="Zakladni info logo" src="/images/icon/boy.svg" />
-          <p>Našimi kurzy projde přes 8000 dětí ročně</p>
+          <p>Našimi kurzy projde přes 10 000 dětí ročně</p>
         </div>
         <div class="icon-row-item">
           <img alt="Zakladni info logo" src="/images/icon/stars.svg" />

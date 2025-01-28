@@ -212,7 +212,7 @@ defmodule DetailLokace do
     <div class="category" data-category="Plavání pro veřejnost">
     <h3 class="disappear">Místa konání</h3>
           <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/prazacka.pdf">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-prazacka.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/prazacka.avif)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -226,7 +226,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/vystaviste.pdf">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-vystaviste.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/vystaviste.avif)" id="vystaviste"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -240,7 +240,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/suchdol.pdf">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-suchdol.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/suchdol.avif)" id="suchdol"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -254,7 +254,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/radotin.pdf">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-radotin.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/radotin.avif)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -268,7 +268,7 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin.pdf">
+                    <a target="" href="###">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/hloubetin.avif); display: flex; justify-content: center; align-items: center; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
                       <span style="">rekonstrukce UZAVŘEN</span>
                       </div>
@@ -283,8 +283,8 @@ defmodule DetailLokace do
                         </div>
                     </a>
               </div>
-              <div class="product">
-            <a target="_blank" href="/images/pdf/plavani-verejnost/beroun.pdf">
+              <%!-- <div class="product">
+            <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-beroun.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/beroun.avif)" id="beroun"></div>
                 <div class="product-text-wrap">
                 <div class="product-text">
@@ -296,9 +296,9 @@ defmodule DetailLokace do
                 <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
               </div>
             </a>
-          </div>
+          </div> --%>
           <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/brandys.pdf">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-brandys.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/brandys.avif)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -311,8 +311,8 @@ defmodule DetailLokace do
                         </div>
                     </a>
               </div>
-          <div class="product">
-            <a target="_blank" href="/images/pdf/plavani-verejnost/sareza.pdf">
+          <%!-- <div class="product">
+            <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-sareza.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.avif)" id="sareza"></div>
                 <div class="product-text-wrap">
                 <div class="product-text">
@@ -324,10 +324,10 @@ defmodule DetailLokace do
                 <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
               </div>
             </a>
-          </div>
+          </div> --%>
 
-              <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/olsanka.pdf">
+              <%!-- <div class="product">
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-olsanka.pdf">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/olsanka.avif)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -339,7 +339,7 @@ defmodule DetailLokace do
                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                         </div>
                     </a>
-              </div>
+              </div> --%>
 
           </div>
     </div>
