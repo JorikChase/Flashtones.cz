@@ -84,6 +84,7 @@ export const ModularMenu = {
   mounted() {
     console.log("modular-menu");
     // Cookie consent functions
+    // Cookie consent utility functions
     function setCookie(name, value, days) {
       const expires = new Date();
       expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
@@ -103,6 +104,24 @@ export const ModularMenu = {
       return null;
     }
 
+    // Initialize dataLayer with default consent state
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    // Set default consent state (denied for all)
+    gtag("consent", "default", {
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      ad_storage: "denied",
+      analytics_storage: "denied",
+      wait_for_update: 500,
+    });
+
+    // Add GTM initialization
+    dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+
     function handleCookieConsent() {
       const consentStatus = getCookie("cookieConsent");
       const cookieElement = document.querySelector(".cookie");
@@ -112,7 +131,7 @@ export const ModularMenu = {
       } else {
         cookieElement.style.display = "none";
         if (consentStatus === "agreed") {
-          enableGoogleAnalytics();
+          updateConsent(true);
         }
       }
 
@@ -122,7 +141,7 @@ export const ModularMenu = {
           console.log("agree");
           setCookie("cookieConsent", "agreed", 365);
           cookieElement.style.display = "none";
-          enableGoogleAnalytics();
+          updateConsent(true);
         });
 
       document
@@ -131,24 +150,39 @@ export const ModularMenu = {
           console.log("disagree");
           setCookie("cookieConsent", "disagreed", 365);
           cookieElement.style.display = "none";
+          updateConsent(false);
         });
     }
 
-    function enableGoogleAnalytics() {
-      // Create and append the first script element
-      const firstScript = document.createElement("script");
-      firstScript.async = true;
-      firstScript.src =
-        "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
-      document.head.appendChild(firstScript);
+    function updateConsent(granted) {
+      // Update consent state
+      gtag("consent", "update", {
+        ad_user_data: granted ? "granted" : "denied",
+        ad_personalization: granted ? "granted" : "denied",
+        ad_storage: granted ? "granted" : "denied",
+        analytics_storage: granted ? "granted" : "denied",
+      });
 
-      // Initialize dataLayer and gtag function
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+      if (granted) {
+        // Load GTM script
+        var gtmScript = document.createElement("script");
+        gtmScript.async = true;
+        gtmScript.src =
+          "https://www.googletagmanager.com/gtm.js?id=G-SYGJRGDW2D";
+        var firstScript = document.getElementsByTagName("script")[0];
+        firstScript.parentNode.insertBefore(gtmScript, firstScript);
+
+        // Initialize GA4
+        var ga4Script = document.createElement("script");
+        ga4Script.async = true;
+        ga4Script.src =
+          "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
+        document.head.appendChild(ga4Script);
+
+        // Configure GA4
+        gtag("js", new Date());
+        gtag("config", "G-SYGJRGDW2D");
       }
-      gtag("js", new Date());
-      gtag("config", "G-SYGJRGDW2D");
     }
 
     function modulate() {
@@ -304,20 +338,22 @@ export const ModularMenuRight = {
     }
 
     function enableGoogleAnalytics() {
-      // Create and append the first script element
-      const firstScript = document.createElement("script");
-      firstScript.async = true;
-      firstScript.src =
-        "https://www.googletagmanager.com/gtag/js?id=G-SYGJRGDW2D";
-      document.head.appendChild(firstScript);
-
-      // Initialize dataLayer and gtag function
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-SYGJRGDW2D");
+      // Embedding the Google Tag Manager code
+      (function () {
+        var script = document.createElement("script");
+        script.async = true;
+        script.src =
+          "https://www.googletagmanager.com/gtag/js?id=AW-11418638935";
+        document.head.appendChild(script);
+        console.log("tag active");
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        window.gtag = gtag; // Make gtag globally available
+        gtag("js", new Date());
+        gtag("config", "G-FKH8YGWNRR");
+      })();
     }
 
     // Function containing your modulate logic
