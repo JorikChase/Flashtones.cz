@@ -626,7 +626,7 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
-          <p class="answer mt-2"></p>
+          <p class="answer mt-2">Kromě plavání je na každý kurz připraven pestrý doprovodný program. Děti se mohou těšit na teambuildingové hry, tanec či sportovní hry. V odpočinkovém režimu po obědě máme připraveny výtvarné hry, pomůcky na vyrábění a kreslení.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -637,31 +637,20 @@ defmodule DetailFaq do
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
           <p class="answer mt-2">
-            snídaňový bufet
-            <br>
-            dopolední svačina
-            <br>
-            polední oběd
-            <br>
-            odpolední svačina
-            <br>
-            večeře
-            <br>
-            pitný režim po celý den
-            <br>
+          Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z polévky a hlavního jídla. Svačiny se podávají přímo v prostorách areálu. Pitný režim je zajištěn po celý den.
             </p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/prispevek.svg">
-          <p class="font-bold">Jak zlevnit kurz?</p>
+          <p class="font-bold">Jak zlevnit tábor</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
-          <a href="/images/pdf/zlevnit-svp.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Jak zlevnit ŠVP<img src="/images/icon/arrow-right-ft.svg"></a>
-
-          <a href="/images/pdf/pojistovny.pdf" target="_blank" class="answer font-normal inline-button" style="font-weight: normal;">Příspěvky zdravotních pojišťoven<img src="/images/icon/arrow-right-ft.svg"></a>
+          <p class="answer mt-2">
+          V rámci Aktivního města jsme se zařadili mezi poskytovatele sportovních aktivit. Pokud máte zájem o tento příspěvek, neváhejte nás kontaktovat. Dále můžete využít doklad o zaplacení, který od nás obdržíte, pro uplatnění příspěvku u vaší zdravotní pojišťovny.
+            </p>
         </div>
       </div>
     </div>

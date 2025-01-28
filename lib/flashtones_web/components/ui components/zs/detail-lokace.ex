@@ -188,12 +188,15 @@ defmodule DetailLokace do
       .cost-wrap{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         gap: 30px;
+        width: 100%;
       }
       .cost-wrap > b{
         padding: 2px 10px;
-        background: var(--ft-link);
+        font-size: 22px;
+        background: var(--ft-main);
       }
       @media (orientation: portrait){
         #hloubetin{
