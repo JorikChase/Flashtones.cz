@@ -197,6 +197,8 @@ defmodule DetailLokace do
         padding: 2px 10px;
         font-size: 22px;
         background: var(--ft-main);
+        text-align: center;
+        width: 6em!important;
       }
       @media (orientation: portrait){
         #hloubetin{

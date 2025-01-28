@@ -45,6 +45,7 @@ Hooks.ToggleEdit = {
     let editor_hidden = document.getElementById("article_markup_text");
     let editor = document.getElementById("editor");
     this.el.addEventListener("click", () => {
+      // later edit somewhere below
       editor.content.innerHTML = editor_hidden.value;
       let edit = document.getElementById("edit-section");
       let blog = document.getElementById("blog-section");

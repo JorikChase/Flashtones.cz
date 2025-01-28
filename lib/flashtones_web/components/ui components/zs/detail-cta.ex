@@ -244,7 +244,7 @@ defmodule DetailCta do
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
-        href="https://rezervace.zsprodeti.cz/kurz-1/termin/list"
+        href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=1"
       >
         termíny a lokality
       </a>
@@ -255,6 +255,9 @@ defmodule DetailCta do
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
+      </a>
+      <a class="plavani-link" href="/images/pdf/plavani-verejnost/vop-plavani-verejnost.pdf">
+        <img alt="VOP" src="/images/icon/info-plavani.svg" />VOP
       </a>
     </div>
     <script>
@@ -274,7 +277,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-1/termin/list";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=1";
         }
         });
         }
