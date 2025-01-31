@@ -12,9 +12,10 @@ defmodule FlashtonesWeb.BlogLive do
       |> assign(user: Accounts.get_user!(article.user_id))
       |> assign(
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz",
-        page_title: "ZŠ PRO DĚTI",
-        meta_description: "x"
+        canonical: "https://zsprodeti.cz/blog",
+        page_title: "BLOG ZŠ PRO DĚTI",
+        meta_description:
+          "Blog ZŠ PRO DĚTI o metodice vzdělávání, sociomappingu, komunikaci: ZŠ PLAVÁNÍ, ZŠ ENVIRO, ZŠ LYŽOVÁNÍ, ZŠ VÝLETY A ZŠ ACADEMY"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
 
@@ -152,6 +153,20 @@ defmodule FlashtonesWeb.BlogLive do
             padding: 60px 20% !important;
             transition: all 0.5s ease-in-out;
         }
+        .blog-section table{
+          <%!-- display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: fit-content; --%>
+          border: 5px dotted var(--deti-link)!important;
+          margin: auto;
+          width: 100%;
+        }
+        .blog-section ul {
+          padding-left: 30px!important;
+        }
 
         @media (orientation: portrait) {
             .blog-odsazeni {
@@ -218,7 +233,7 @@ defmodule FlashtonesWeb.BlogLive do
         socket = put_flash(socket, :info, "Článek úspěšně smazán.")
         {:noreply, push_navigate(socket, to: ~p"/vytvorit-clanek")}
 
-      {:error, message} ->
+      {_, message} ->
         socket = put_flash(socket, :error, message)
         {:noreply, socket}
     end
