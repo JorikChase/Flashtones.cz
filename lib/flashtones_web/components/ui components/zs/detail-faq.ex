@@ -4,194 +4,195 @@ defmodule DetailFaq do
   def verejnostPrimestaky(assigns) do
     ~H"""
     <style>
-      .question-box-faq {
-        width: 100%;
-        cursor: pointer;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-      }
-      .question-box-row-wrap{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
-      }
-      .question-box-row{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 30px;
-      }
+    .question-box-faq {
+      width: 100%;
+      cursor: pointer;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .question-box-row-wrap{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+    .question-box-row{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
+    }
 
-      .answer {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease-in-out;
-      }
+    .answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out;
+    }
 
-      .active .answer {
-        max-height: 500px; /* Adjust the maximum height as needed */
-      }
-      .question-box-faq img{
-        width: 30px;
-        height: 30px;
-      }
-      .answer ul li::marker {
-        content: "• ";
-        color: rgb(63, 98, 216);
-        background: rgb(63, 98, 216);
-        width: 5px;
-        height: 5px;
-        font-size: 25px;
-      }
+    .active .answer {
+      max-height: 500px; /* Adjust the maximum height as needed */
+    }
+    .question-box-faq img{
+      width: 30px;
+      height: 30px;
+    }
+    .answer ul li::marker {
+      content: "• ";
+      color: rgb(63, 98, 216);
+      background: rgb(63, 98, 216);
+      width: 5px;
+      height: 5px;
+      font-size: 25px;
+    }
     </style>
     <div class="course-wrap">
     <h3>Další informace</h3>
-      <div class="w-full">
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">Letní příměstský tábor "Aktivní léto se ZŠ PRO DĚTI"</p>
-        </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
-          <br>
-          <br>
-          V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
-          <br>
-          <br>
-          Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
-          <br>
-          <br>
-          Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
-          </p>
-        </div>
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">
-          Kde
-          </p>
-          </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          Jako zázemí pro konání tábora budou využity učebny či tělocvičny v našich partnerských školách.
-          <br>
-          <br>
-          Pro Vámi vybraný tábor se jedná o :
-          <br>
-          ZŠ Bronzová, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí a hřiště v areálu školy. S dětmi se snažíme trávit veškerý čas venku. V případě extrémně špatného počasí je ovšem možnost využití školní tělocvična, která v tomto případě poslouží i pro předávání dětí.
-          </p>
-        </div>
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">Harmonogram</p>
-          </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          7.30 - 9.00 - příchod/přebírání dětí, volná hra
-          <br>
-          9.15 - 10.45 – dopolední program- první část
-          <br>
-          10.45 - 11.00 - svačina
-          <br>
-          11.15 - 12.45 – dopolední program- druhá část
-          <br>
-          12.45 - 13.45 - oběd
-          <br>
-          13.45 - 14.15 - odpočinek
-          <br>
-          14.15 - 16.15 – odpolední program
-          <br>
-          16.15 - 16.30 - svačina
-          <br>
-          16.30 -17:00- přebírání dětí/volná hra
-          </p>
-        </div>
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">Stravování</p>
-          </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z teplého hlavního jídla dle zásad zdravé výživy a výživových doporučení. Svačiny se podávají přímo v prostorách areálu školy.
-          <br>
-          *Prosíme o informaci o případných speciálních požadavcích na stravování (bezlepková dieta, vegetariánství atd.) a to nejpozději 7 dnů před začátkem kurzu formou emailu na adresu:
-          <a class="plavani-link" href="mailto:petra@zsprodeti.cz">petra@zsprodeti.cz</a>
-          </p>
-        </div>
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">Co nezapomenout</p>
-          </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
-          <p class="answer mt-2">
-          Sportovní obuv indoorová
-          <br>
-          Sportovní oblečení - varianta na ven i dovnitř
-          <br>
-          Sportovní obuv venkovní
-          <br>
-          Pláštěnka
-          <br>
-          Láhev na pití
-          </p>
-        </div>
-        <div class="question-box-faq p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <p class="font-bold">Jak a kde nás můžete kontaktovat</p>
-          </div>
-        <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-        </div>
+    <div class="w-full">
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Letní příměstský tábor "Aktivní léto se ZŠ PRO DĚTI"</p>
+      </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
         <p class="answer mt-2">
-        Zodpovědnou osobou za všechny letní příměstské tábory je:
-        Petra Hušková
+        Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
         <br>
-        <a class="plavani-link" href="tel:724168962">Tel: 724 168 962</a>
         <br>
-        <a class="plavani-link" href="mailto:petra@zsprodeti.cz">Mail: petra@zsprodeti.cz</a>
+        V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
         <br>
-        Prosíme Petru primárně kontaktovat emailem. Pokud je třeba volat, její
-        pracovní doba je 8:30-16:30.
+        <br>
+        Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
+        <br>
+        <br>
+        Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
+        </p>
+      </div>
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">
+        Kde
         </p>
         </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
       </div>
+        <p class="answer mt-2">
+        Jako zázemí pro konání tábora budou využity učebny či tělocvičny v našich partnerských školách.
+        <br>
+        <br>
+        Pro Vámi vybraný tábor se jedná o :
+        <br>
+        ZŠ Bronzová, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí a hřiště v areálu školy. S dětmi se snažíme trávit veškerý čas venku. V případě extrémně špatného počasí je ovšem možnost využití školní tělocvična, která v tomto případě poslouží i pro předávání dětí.
+        </p>
       </div>
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Harmonogram</p>
+        </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        7.30 - 9.00 - příchod/přebírání dětí, volná hra
+        <br>
+        9.15 - 10.45 – dopolední program- první část
+        <br>
+        10.45 - 11.00 - svačina
+        <br>
+        11.15 - 12.45 – dopolední program- druhá část
+        <br>
+        12.45 - 13.45 - oběd
+        <br>
+        13.45 - 14.15 - odpočinek
+        <br>
+        14.15 - 16.15 – odpolední program
+        <br>
+        16.15 - 16.30 - svačina
+        <br>
+        16.30 -17:00- přebírání dětí/volná hra
+        </p>
+      </div>
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Stravování</p>
+        </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Děti se stravují v nedaleké restauraci, jídelníček je dopředu daný, skládá se z teplého hlavního jídla dle zásad zdravé výživy a výživových doporučení. Svačiny se podávají přímo v prostorách areálu školy.
+        <br>
+        *Prosíme o informaci o případných speciálních požadavcích na stravování (bezlepková dieta, vegetariánství atd.) a to nejpozději 7 dnů před začátkem kurzu formou emailu na adresu:
+        <a class="plavani-link" href="mailto:petra@zsprodeti.cz">petra@zsprodeti.cz</a>
+        </p>
+      </div>
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Co nezapomenout</p>
+        </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+        <p class="answer mt-2">
+        Sportovní obuv indoorová
+        <br>
+        Sportovní oblečení - varianta na ven i dovnitř
+        <br>
+        Sportovní obuv venkovní
+        <br>
+        Pláštěnka
+        <br>
+        Láhev na pití
+        </p>
+      </div>
+      <div class="question-box-faq p-4 bg-white shadow mb-2">
+      <div class="question-box-row-wrap">
+      <div class="question-box-row">
+        <p class="font-bold">Jak a kde nás můžete kontaktovat</p>
+        </div>
+      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
+      </div>
+      <p class="answer mt-2">
+      Zodpovědnou osobou za všechny letní příměstské tábory je:
+      Petra Hušková
       <br>
+      <a class="plavani-link" href="tel:724168962">Tel: 724 168 962</a>
+      <br>
+      <a class="plavani-link" href="mailto:petra@zsprodeti.cz">Mail: petra@zsprodeti.cz</a>
+      <br>
+      Prosíme Petru primárně kontaktovat emailem. Pokud je třeba volat, její
+      pracovní doba je 8:30-16:30.
+      </p>
+      </div>
+    </div>
+    </div>
+    <br>
 
-      <script>
-        document.querySelectorAll('.question-box-faq').forEach(box => {
-          box.addEventListener('click', () => {
-            // Toggle the active class on the clicked box
-            box.classList.toggle('active');
+    <script>
+      document.querySelectorAll('.question-box-faq').forEach(box => {
+        box.addEventListener('click', () => {
+          // Toggle the active class on the clicked box
+          box.classList.toggle('active');
 
-            // Hide the answers of other boxes in the same section
-            const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
-            otherBoxes.forEach(otherBox => {
-              otherBox.classList.remove('active');
-            });
+          // Hide the answers of other boxes in the same section
+          const otherBoxes = document.querySelectorAll('.question-box:not(.active)');
+          otherBoxes.forEach(otherBox => {
+            otherBox.classList.remove('active');
           });
         });
-      </script>
-      """
-    end
+      });
+    </script>
+    """
+  end
+
   def verejnostPrimestakyDetail(assigns) do
     ~H"""
     <style>
@@ -554,6 +555,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def detailFaq(assigns) do
     ~H"""
     <style>
@@ -672,6 +674,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def plavaniSummer(assigns) do
     ~H"""
     <style>
@@ -734,27 +737,17 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">5.-9.8.2024</p>
+          <p class="answer mt-2">6.-11.7 a 3.-8.8.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
         <div class="question-box-row">
           <img src="/images/icon/sportovni.svg" alt="Sportovni program">
-          <p class="font-bold">Doplňkový sportovní program</p>
+          <p class="font-bold">Harmonogram</p>
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Mimo plavání se děti můžou těšit na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu a smyslového vnímání. Jeden den se také bude pořádat výstup na Sněžku.</p>
-        </div>
-        <div class="question-box p-4 bg-white shadow mb-2">
-        <div class="question-box-row-wrap">
-        <div class="question-box-row">
-          <img src="/images/icon/zabava.svg" alt="zabava">
-          <p class="font-bold">Zábavní program</p>
-          </div>
-        <img src="/images/icon/plus-plavani.svg" class="self-end">
-        </div>
-          <p class="answer mt-2">Každý večer pak máme připravené stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností. Jeden večer proběhne diskotéka a závěrečná bojovka.</p>
+          <p class="answer mt-2">V pondělí, úterý a ve čtvrtek děti absolvují dvě plavecké lekce, jeden sportovní program, jeden tmelící program a následně večerní zábavní program. Ve středu je odpolední program nahrazen výstupem na Sněžku. V pátek děti absolvují dopolední plaveckou lekci, odpolední plavecká lekce již není a je nahrazena závěrečnými tmelícími aktivitami.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -764,20 +757,35 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">
-            snídaňový bufet
-            <br>
-            dopolední svačina
-            <br>
-            polední oběd
-            <br>
-            odpolední svačina
-            <br>
-            večeře
-            <br>
-            pitný režim po celý den
-            <br>
-            </p>
+          <ul class="answer mt-2">
+         <li>
+          Snídaně: formou bufetu
+
+         </li>
+
+         <li>
+          Dopolední svačina: vždy po prvním bloku plavání, většinou ovoce
+
+         </li>
+
+         <li>
+          Oběd: jedna varianta – polévka a hlavní jídlo
+
+         </li>
+
+         <li>
+          Odpolední svačina: vždy po prvním odpoledním bloku, většinou buchta / pečivo s pomazánkou apod
+
+         </li>
+
+         <li>
+          Večeře: jedna varianta, podávají se teplé večeře
+
+         </li>
+          <li>
+          Pitný režim: neomezený po celý den
+          </li>
+            </ul>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">
@@ -787,7 +795,7 @@ defmodule DetailFaq do
           </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">Doprava je v ceně a je zajištěna naším smluvním dopravcem. Vyjíždí se vždy z Prahy a je možno se domluvit na zastávkách v Jaroměři, Hradci Králové, Pardubicích a Trutnově. Na místo taktéž v případě zájmu můžete využít vlastní dopravu.</p>
+          <p class="answer mt-2">Doprava na místo není součástí ceny, počítá se s vlastní dopravou. V případě, že byste potřebovali dopravu na místo zajistit, kontaktujte nás prosím.</p>
         </div>
       </div>
     </div>
@@ -809,6 +817,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def enviro(assigns) do
     ~H"""
     <style>
@@ -958,6 +967,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def sSTym(assigns) do
     ~H"""
     <style>
@@ -1117,6 +1127,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def skolniPobytovy(assigns) do
     ~H"""
     <style>
@@ -1266,6 +1277,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def skolniPrimestsky(assigns) do
     ~H"""
     <style>
@@ -1401,6 +1413,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def skolniLyzarsky(assigns) do
     ~H"""
     <style>
@@ -1536,6 +1549,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def plavaniSaturday(assigns) do
     ~H"""
     <style>
@@ -1612,6 +1626,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def plavaniWeekend(assigns) do
     ~H"""
     <style>
@@ -1716,6 +1731,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   #####################################
   def studio(assigns) do
     ~H"""
@@ -1767,6 +1783,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def detailLokace(assigns) do
     ~H"""
     <style>
@@ -2014,6 +2031,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def brandys(assigns) do
     ~H"""
     <style>
@@ -2191,6 +2209,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def energetik(assigns) do
     ~H"""
     <style>
@@ -2378,6 +2397,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def agri(assigns) do
     ~H"""
     <style>
@@ -2529,6 +2549,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def kadlecu(assigns) do
     ~H"""
     <style>
@@ -2677,6 +2698,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def lesanka(assigns) do
     ~H"""
     <style>
@@ -2825,6 +2847,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def viktorka(assigns) do
     ~H"""
     <style>
@@ -4829,7 +4852,6 @@ defmodule DetailFaq do
     """
   end
 
-
   def astra(assigns) do
     ~H"""
     <style>
@@ -4992,6 +5014,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def horniBecva(assigns) do
     ~H"""
     <style>
@@ -5155,6 +5178,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def jelenovska(assigns) do
     ~H"""
     <style>
@@ -5347,6 +5371,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def lites(assigns) do
     ~H"""
     <style>
@@ -5519,6 +5544,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def lubenec(assigns) do
     ~H"""
     <style>
@@ -5634,6 +5660,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def lugsteinhof(assigns) do
     ~H"""
     <style>
@@ -5755,6 +5782,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def maj(assigns) do
     ~H"""
     <style>
@@ -5914,6 +5942,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def naMulde(assigns) do
     ~H"""
     <style>
@@ -6105,6 +6134,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def palkovickeHurky(assigns) do
     ~H"""
     <style>
@@ -6276,6 +6306,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def plesivka(assigns) do
     ~H"""
     <style>
@@ -6470,6 +6501,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def pramen(assigns) do
     ~H"""
     <style>
@@ -6648,6 +6680,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def radost(assigns) do
     ~H"""
     <style>
@@ -6856,6 +6889,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def rousarka(assigns) do
     ~H"""
     <style>
@@ -7062,6 +7096,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def uKurtu(assigns) do
     ~H"""
     <style>
@@ -7198,6 +7233,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def fontana(assigns) do
     ~H"""
     <style>
@@ -7561,6 +7597,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def uMedveda(assigns) do
     ~H"""
     <style>
@@ -7901,6 +7938,7 @@ defmodule DetailFaq do
     </script>
     """
   end
+
   def vysocina(assigns) do
     ~H"""
     <style>
@@ -8174,5 +8212,4 @@ defmodule DetailFaq do
     </script>
     """
   end
-
 end

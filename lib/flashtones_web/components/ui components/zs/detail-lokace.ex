@@ -139,6 +139,7 @@ defmodule DetailLokace do
     </div>
     """
   end
+
   def detailLokaceSummer(assigns) do
     ~H"""
     <style>
@@ -152,7 +153,7 @@ defmodule DetailLokace do
     <div class="detail-lokace course-wrap">
     <div class="category" data-category="Plavání">
     <div class="product">
-                    <a href="/lokality/energetik">
+                    <a href="/images/pdf/plavani-verejnost/pobytovy-plavecky-tabor.pdf" target="_blank">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/energetik/energetik.avif)"></div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -160,10 +161,10 @@ defmodule DetailLokace do
                         Hotel Energetik
                         </h4>
                         <p class="font-normal">
-                        Leží v Krkonošském národním parku, kousek od Sněžky, přímo na sjezdovce Hnědý vrch.
+                        Poloha hotelu je zcela jedinečná. Hotel Energetik leží v Krkonošském národním parku. Děti budou ubytované v jednotlivých pokojích, které jsou vybaveny vlastním sociálním zařízením (sprcha, wc).
                         </p>
                         </div>
-                        <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
               </div>
@@ -171,6 +172,7 @@ defmodule DetailLokace do
     </div>
     """
   end
+
   def detailPlavaniVerejnost(assigns) do
     ~H"""
     <style>
@@ -352,6 +354,7 @@ defmodule DetailLokace do
     </div>
     """
   end
+
   def detailPlavaniSkoly(assigns) do
     ~H"""
     <style>
@@ -660,6 +663,7 @@ defmodule DetailLokace do
     <br>
     """
   end
+
   def detailLokaceLyzovani(assigns) do
     ~H"""
     <style>
@@ -967,6 +971,7 @@ defmodule DetailLokace do
           </div>
     """
   end
+
   def detailLokaceEnviro(assigns) do
     ~H"""
     <style>
@@ -1362,5 +1367,4 @@ defmodule DetailLokace do
               </div>
     """
   end
-
 end

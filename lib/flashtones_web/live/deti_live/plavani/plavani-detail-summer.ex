@@ -5,7 +5,7 @@ defmodule FlashtonesWeb.PlavaniDetailSummerLive do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/plavani/icon.png",
-        canonical: "https://zsprodeti.cz/plavani/letni-primestske-tabory",
+        canonical: "https://zsprodeti.cz/plavani/letni-pobytove-tabory",
         page_title: "ZŠ PLAVÁNÍ",
         meta_description:
           "ZŠ PLAVÁNÍ spojuje plaveckou výuku, školu v přírodě, sportovní a zábavní program. Děti absolvují deset devadesátiminutových plaveckých bloků, sportovní hry a večerní aktivity. Naše lokality po celé ČR poskytují ideální prostředí pro plavecký výcvik a outdoorové aktivity."

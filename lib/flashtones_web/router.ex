@@ -80,6 +80,7 @@ defmodule FlashtonesWeb.Router do
     live "/plavani/sobotni-kurzy-plavani", PlavaniDetailSaturdayLive
     live "/plavani/services/pravidelne-kurzy-plavani/", PlavaniDetailSaturdayLive
     live "/plavani/summer-camp", PlavaniDetailSummerLive
+    live "/plavani/letni-pobytove-tabory", PlavaniDetailSummerLive
     live "/plavani/letni-primestske-tabory", PlavaniDetailCitySummerLive
     live "/plavani/services/letni-primestske-tabory/", PlavaniDetailSummerLive
     live "/plavani/services/letni-tabor/", PlavaniDetailSummerLive

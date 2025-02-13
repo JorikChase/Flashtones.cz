@@ -267,20 +267,20 @@ defmodule KurzDetail do
     <div class="course-wrap top">
       <h1>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
       <p>
-        Letní pobytové tábory s výukou plavání jsou určeny dětem ve věku 7-13 let. Představují ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Tábory se konají od pondělí do pátku a děti jsou ubytovány v hotelu s jedinečnou polohou. Hotel Energetik leží v Krkonošském národním parku.
-      </p>
+      Letní pobytové tábory s výukou plavání ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konat se budou vždy od neděle do pátku.      </p>
       <p>
-        Program tábora je navržen tak, aby podporoval rozvoj sportovních dovedností jednotlivců i týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity.
-      </p>
+      Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Koná se v nádherném přírodním areálu českého středohoří, což dětem nabízí jedinečnou příležitost prozkoumat krásy české přírody a užít si čerstvý vzduch daleko od městského shonu.      </p>
       <p>
-        Celkově děti za tábor absolvují sedm 90ti minutových plaveckých lekcí.
-      </p>
+      Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Hotel je znám svým přátelským a bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního bazénu.      </p>
       <p>
-        Výuka plavání probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého tábora z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi.
-      </p>
+      Program tábora je navržen tak, aby podporoval sportovních dovedností, týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity. Děti se mohou těšit celkově na devět plaveckých lekcí.      </p>
+      <p>
+      Tábory ZŠ PRO DĚTI klade velký důraz na rozvoj sociálních dovedností a podporu zdravého životního stylu. Díky široké nabídce aktivit a her v přírodě se děti nejen naučí nové dovednosti, ale také si vyzkouší, jak je důležité spolupracovat a respektovat jeden druhého.     </p>
+      <p>
+      V neposlední řadě, letní pobytové tábory nabízejí dětem příležitost odpočinout si od elektroniky a strávit čas aktivně venku, což je v dnešní digitální době neocenitelná zkušenost. S kombinací úžasného prostředí, skvělého programu a profesionálního týmu vedoucích se jedná o perfektní místo pro nezapomenutelné letní prázdniny.</p>
+      <br>
     </div>
     <DetailFaq.plavaniSummer />
-    <br />
     """
   end
 
