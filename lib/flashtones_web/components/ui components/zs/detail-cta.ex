@@ -187,7 +187,7 @@ defmodule DetailCta do
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
-        href="https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new"
+        href="https://rezervace.zsprodeti.cz/flashtones/rezervace?kurz=17&lokalita=11"
       >
         OBJEDNAT TÁBOR
       </a>
@@ -204,10 +204,10 @@ defmodule DetailCta do
       </a>
       <a
         class="plavani-link"
-        href="/images/pdf/plavani-verejnost/plavani-letni-pobytovy.pdf"
+        href="/images/pdf/vop-flashtones.pdf"
         target="_blank"
       >
-        <img src="/images/icon/download-plavani.svg" />PDF brožura
+        <img src="/images/icon/download-plavani.svg" />VOP
       </a>
     </div>
     <script>
@@ -227,7 +227,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-17/termin/140/rezervace/new";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/flashtones/rezervace?kurz=17&lokalita=11";
         }
         });
         }
@@ -238,6 +238,9 @@ defmodule DetailCta do
   def plavaniCitySummer(assigns) do
     ~H"""
     <style>
+      .detail-cta{
+        max-width:30vw;
+      }
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
