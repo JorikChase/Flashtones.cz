@@ -152,243 +152,246 @@ defmodule Hero do
     """
   end
 
+  def domaLanding(assigns) do
+    ~H"""
+    <style>
+      .ripple-container {
+      padding-top: 150px;
+        width: 100vw;
+        height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        background-color: #bee3e6;
+        margin-bottom: 30px;
+      }
+
+      .background-image {
+      height: 100%;
+        max-width: 100%;
+        max-height: 90svh;
+        object-fit: contain;
+      }
+    </style>
+
+    <a class="ripple-container" href="#map-container">
+      <img src="/images/doma/ostrov-socci.png" class="background-image" />
+    </a>
+    """
+  end
+
   def domaHero(assigns) do
     ~H"""
     <style>
-      .socci-wrap{
-        padding: 120px 60px 0 60px;
+      .socci-wrap {
       }
-        @keyframes rotate {
-          0% {
-            transform: rotate(-30deg);
-          }
-          50% {
-            transform: rotate(0deg); /* Rotate left */
-          }
-          100% {
-            transform: rotate(30deg); /* Rotate right */
-          }
-        }
-        body, html {
-          margin: 0;
-          padding: 0;
-          height: 100%;
-          width: 100%;
-        }
-        .socci-map-wrap{
-          margin-top: 30px;
-          width: 100%;
-          height: 60vh;
-          background-color: #bee3e6; /* Light ocean-like pale blue */
-          overflow: hidden;
-          transition: all 0.5s ease-in-out;
-        }
-        .socci-map-wrap:hover{
-          height: 90vh;
-        }
-        .socci-map-wrap #layer6 img{
-          visibility: hidden;
-          opacity: 0;
-          font-weight: bold;
-          transition: all 0.5s ease-in-out;
-        }
-        .socci-map-wrap:hover #layer6 img{
-          visibility: visible;
-          opacity: 1;
-        }
-        #map-container {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
-        }
-        #map-container > div {
-          position: absolute;
-          inset: 0;
 
-          width: 100%;
-          height: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          transition: none;
+      @keyframes rotate {
+        0% {
+          transform: rotate(-30deg);
         }
-        #layer5 > a {
-          font-size: 30px;
-          padding: 0.1em 0.3em;
-          text-decoration: none;
-          background-color: rgba(255, 255, 255, 0.5);
-          text-transform: uppercase;
-          position: absolute;
-          transition: all 0.5s ease-in-out;
+        50% {
+          transform: rotate(0deg);
         }
-        #layer5 > a:hover {
-          transform: scale(1.1);
-          background-color: rgba(255, 255, 255, 0.7);
+        100% {
+          transform: rotate(30deg);
         }
-        #layer6{
-          width: 100%;
-          height: 100%;
-          position: absolute;
-        }
-        #layer6 > a{
-        }
-        #layer6 > a > img {
-          width: 3%;
-          height: auto;
-          position: absolute;
-          transition: all 0.5s ease-in-out;
-          animation: rotate linear infinite;
-          pointer-events: none;
-        }
-        .plavani{
-          top: 42%;
-          left: 35%;
-          color: var(--plavani-main);
-        }
-        .lyzovani{
-          top: 22%;
-          left: 30%;
-          color: var(--lyzovani-main);
-        }
-        .enviro{
-          top: 28%;
-          left: 52%;
-          color: var(--enviro-main);
-        }
-        .brouk{
-          top: 55%;
-          left: 60%;
-          animation-duration: 2s;
-        }
-        .had{
-          top: 85%;
-          left: 35%;
-        }
-        .hlemyzd{
-          top: 70%;
-          left: 50%;
-        }
-        .kudlanka{
-          top: 15%;
-          left: 45%;
-        }
-        .lumberjack{
-          top: 75%;
-          left: 60%;
-        }
-        .pavouk{
-          top: 88%;
-          left: 55%;
-        }
-        .silak{
-          top: 75%;
-          left: 35%;
-        }
-        .starec{
-          top: 60%;
-          left: 45%;
-        }
-        .stir{
-          top: 12%;
-          left: 63%;
-        }
-        .stonozka{
-          top: 80%;
-          left: 45%;
-        }
-        .vetvicka{
-          top: 18%;
-          left: 55%;
-        }
-        img {
-          display: block;
-          height: 100%;
-          width: auto;
-        }
+      }
+
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        scroll-behavior: smooth;
+      }
+
+      .socci-map-wrap {
+        width: 100%;
+        height: 90vh;
+        background-color: #bee3e6;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+      }
+
+      .socci-map-wrap:hover {
+        height: 100svh;
+      }
+      .socci-map-wrap:hover .map-link {
+      opacity: 1;
+      }
+
+      #map-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        cursor: grab;
+        transition: none;
+      }
+
+      #map-container.grabbing {
+        cursor: grabbing;
+      }
+      #map-container img{
+        height: 75%;
+      }
+      #map-container > div {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: none;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .map-link {
+        position: absolute;
+        width: auto;
+        height: auto;
+        line-height: 6px;
+        color: black !important;
+        padding: 1px 2px;
+        border-radius: 1px;
+        text-align: center;
+        font-size: 5px;
+        font-weight: bold;
+        color: white;
+        user-select: none;
+        cursor: pointer;
+        text-decoration: none;
+        transform-origin: center;
+        transition: none;
+        transition: background-color 0.5s ease-in-out;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+
+      .map-link:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
     </style>
+
     <div class="socci-wrap">
-      <div class="socci-map-wrap" id="SocciMap" phx-hook="SocciMap">
+      <div class="socci-map-wrap" id="SocciMap">
         <div id="map-container">
           <div id="layer4" data-speed="0.5">
-            <img
-              alt="Zviratko"
-              src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-base.png?v=1710253236452"
-              alt="Background Layer"
-            />
+            <img alt="Background Layer" src="/images/doma/socci-base.png" />
           </div>
+          <a href="https://ostrovsocci.cz/" class="map-link" style="top: 30%; left: 40%;">
+            Ostrov Socci
+          </a>
+          <a href="/doma/postavy" class="map-link" style="top: 50%; left: 55%;">
+            postavy
+          </a>
+          <%!-- <a href="#" class="map-link" style="top: 70%; left: 30%;">Hudba</a> --%>
+          <a href="#komiks" class="map-link" style="top: 40%; left: 50%;">Komix</a>
+          <a href="#" class="map-link" style="top: 30%; left: 50%;">Hra</a>
           <div id="layer3" data-speed="1">
-            <img
-              alt="Zviratko"
-              src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-base.png?v=1710276098582"
-              alt="cloud Layer"
-            />
+            <img alt="cloud Layer" src="/images/doma/socci-mraky-base.png" />
           </div>
           <div id="layer2" data-speed="1.5">
-            <img
-              alt="Zviratko"
-              src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-3.png?v=1710276095863"
-              alt="cloud Layer"
-            />
+            <img alt="cloud Layer" src="/images/doma/socci-mraky-2.png" />
           </div>
           <div id="layer1" data-speed="2">
-            <img
-              alt="Zviratko"
-              src="https://cdn.glitch.global/ae22961c-c40c-4498-aec8-7a008ac6563f/socci-mraky-2.png?v=1710276094062"
-              alt="cloud Layer"
-            />
+            <img alt="cloud Layer" src="/images/doma/socci-mraky-3.png" />
           </div>
-          <div id="layer6" data-speed="0.5">
-            <a href="###"><img alt="Zviratko" class="brouk" src="/images/socci/brouk.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="had" src="/images/socci/had.png" /></a>
-            <a href="###"><img alt="Zviratko" class="hlemyzd" src="/images/socci/hlemyzd.png" /></a>
-            <a href="###"><img alt="Zviratko" class="kudlanka" src="/images/socci/kudlanka.png" /></a>
-            <a href="###">
-              <img alt="Zviratko" class="lumberjack" src="/images/socci/lumberjack.png" />
-            </a>
-            <a href="###"><img alt="Zviratko" class="pavouk" src="/images/socci/pavouk.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="silak" src="/images/socci/silak.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="starec" src="/images/socci/starec.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="stir" src="/images/socci/stir.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="stonozka" src="/images/socci/stonozka.PNG" /></a>
-            <a href="###"><img alt="Zviratko" class="vetvicka" src="/images/socci/vetvicka.PNG" /></a>
-          </div>
-          <!--<div id="layer5" data-speed="0.5">
-        <a class="lyzovani" href="https://zslyzovani.cz">Lyžování</a>
-        <a class="plavani" href="https://zsprodeti.cz/plavani">Plavání</a>
-        <a class="enviro" href="https://zsenviro.cz">Enviro</a>
-      </div>-->
+          <!-- Link elements -->
         </div>
       </div>
     </div>
 
     <script>
-      document.addEventListener('mousemove', parallax);
+      const mapContainer = document.getElementById('map-container');
+      const layers = document.querySelectorAll('#map-container > div');
+      const links = document.querySelectorAll('.map-link');
 
-      function parallax(e) {
-        let layers = document.querySelectorAll('#map-container > div');
+      let isDragging = false;
+      let startX, startY;
+      let translateX = 0, translateY = 0;
+      let currentX = 0, currentY = 0;
+      let scale = 1;
+      const zoomSpeed = 0.01;
+      const maxZoom = 3;
+      const minZoom = 0.5;
 
-        layers.forEach(layer => {
-          const speed = parseFloat(layer.getAttribute('data-speed'));
-          const x = (e.clientX - window.innerWidth / 2) * speed / 100;
-          const y = (e.clientY - window.innerHeight / 2) * speed / 100;
+      // Handle mouse down (start dragging)
+      mapContainer.addEventListener('mousedown', (e) => {
+        if (e.target.classList.contains('map-link')) return; // Ignore dragging on links
+        isDragging = true;
+        mapContainer.classList.add('grabbing');
+        startX = e.clientX;
+        startY = e.clientY;
+        currentX = translateX;
+        currentY = translateY;
+      });
 
-          layer.style.transform = `translate(${x}px, ${y}px)`;
-        });
+      // Handle mouse move (dragging)
+      mapContainer.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        const deltaX = e.clientX - startX;
+        const deltaY = e.clientY - startY;
 
-        // Rotate images on layer6 randomly
-        // rotateImagesOnLayer6();
+        translateX = currentX + deltaX;
+        translateY = currentY + deltaY;
+
+        updateTransform();
+        applyParallax();
+      });
+
+      // Handle mouse up (stop dragging)
+      mapContainer.addEventListener('mouseup', () => {
+        isDragging = false;
+        mapContainer.classList.remove('grabbing');
+      });
+
+      // Handle mouse leave (stop dragging)
+      mapContainer.addEventListener('mouseleave', () => {
+        isDragging = false;
+        mapContainer.classList.remove('grabbing');
+      });
+
+      // Handle zoom (scroll wheel)
+      mapContainer.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const delta = e.deltaY > 0 ? -zoomSpeed : zoomSpeed;
+        scale = Math.min(maxZoom, Math.max(minZoom, scale + delta));
+        updateTransform();
+        applyParallax();
+      });
+
+      // Update transform for zoom and pan
+      function updateTransform() {
+        mapContainer.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        updateLinks();
       }
 
-      /*function rotateImagesOnLayer6() {
-        let images = document.querySelectorAll('#layer6 > img');
+      // Apply parallax effect to cloud layers
+      function applyParallax() {
+        layers.forEach((layer) => {
+          const speed = parseFloat(layer.getAttribute('data-speed'));
+          const offsetX = -translateX * (1 - 1 / speed);
+          const offsetY = -translateY * (1 - 1 / speed);
 
-        images.forEach(image => {
-          // Generate a random rotation value between -10 and 10 degrees
-          const rotation = Math.random() * 20 - 10;
-          image.style.transform = `rotate(${rotation}deg)`;
+          layer.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
         });
-      }*/
+      }
+
+      // Update link positions based on map transform
+      function updateLinks() {
+        links.forEach((link) => {
+          link.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        });
+      }
+
+      // Initial parallax and link application
+      applyParallax();
+      updateLinks();
     </script>
     """
   end
@@ -701,6 +704,175 @@ defmodule Hero do
         }
       }
     </style>
+    """
+  end
+
+  def instruktori(assigns) do
+    ~H"""
+    <style>
+    .instruktori-hero {
+      margin-top: 60px;
+      width: 100%;
+      min-height: 100svh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .instruktori-hero-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .instruktori-hero-item {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1/1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-decoration: none;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .instruktori-hero-item:hover {
+      transform: scale(1.05);
+    }
+
+    .instruktori-hero-item:focus-visible {
+      outline: 3px solid #000;
+      outline-offset: 2px;
+    }
+
+    .instruktori-hero-image {
+      width: 100%;
+      height: 75%;
+      object-fit: contain;
+    }
+
+    .instruktori-hero-footer:has(#academy-logo) {
+    height: 65px;
+    }
+
+    .instruktori-hero-footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      width: 100%;
+      background: #fff;
+      padding: 15px;
+      border-radius: 0;
+    }
+
+    .instruktori-hero-logo {
+      height: 35px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 0;
+    }
+    #academy-logo {
+      height: 25px;
+    }
+
+    .instruktori-hero-arrow {
+      width: 30px;
+      height: 30px;
+      border-radius: 0;
+      position: relative;
+      top: 4px;
+    }
+
+    .marcel { background: var(--deti-light); }
+    .chobotnice { background: var(--plavani-light); }
+    .chameleon { background: var(--enviro-light); }
+    .vlocka { background: var(--lyzovani-light); }
+    .obr { background: var(--vylety-light); }
+    .standa { background: var(--academy-light); }
+
+    @media (max-width: 768px) {
+      .instruktori-hero {
+        margin-top: 0;
+      }
+      .instruktori-hero-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 15px;
+      }
+      .instruktori-hero-item {
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .instruktori-hero-grid {
+        gap: 10px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .instruktori-hero-item {
+        transition: none;
+      }
+      .instruktori-hero-item:hover {
+        transform: none;
+      }
+    }
+    </style>
+
+    <div class="instruktori-hero odsazeni">
+      <div class="instruktori-hero-grid">
+        <a href="#instruktori-deti" class="instruktori-hero-item marcel">
+          <img src="/images/instruktori/marcel.png" alt="Marcel" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/deti/deti-logo.svg" class="instruktori-hero-logo" alt="deti logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-plavani" class="instruktori-hero-item chobotnice">
+          <img src="/images/instruktori/chobotnice.png" alt="Chobotnice" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/plavani/plavani-logo.svg" class="instruktori-hero-logo" alt="plavani logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-enviro" class="instruktori-hero-item chameleon">
+          <img src="/images/instruktori/chameleon.png" alt="Chameleon" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/enviro/enviro-logo.svg" class="instruktori-hero-logo" alt="enviro logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-lyzovani" class="instruktori-hero-item vlocka">
+          <img src="/images/instruktori/vlocka.png" alt="Vlocka" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/lyzovani/lyzovani-logo.svg" class="instruktori-hero-logo" alt="lyzovani logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-vylety" class="instruktori-hero-item obr">
+          <img src="/images/instruktori/obr-s-kyjem.png" alt="Obr" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/vylety/vylety-logo.svg" class="instruktori-hero-logo" alt="vylety logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-academy" class="instruktori-hero-item standa">
+          <img src="/images/instruktori/standa.png" alt="Standa" class="instruktori-hero-image" />
+          <div class="instruktori-hero-footer">
+            <img src="/images/academy/academy-logo.svg" class="instruktori-hero-logo" id="academy-logo" alt="academy logo" />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+      </div>
+    </div>
     """
   end
 end
