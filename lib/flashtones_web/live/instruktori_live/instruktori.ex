@@ -54,11 +54,11 @@ defmodule FlashtonesWebL.LektoriLive do
           }
     </style>
     <Nav.nav />
-    <MenuMobile.menuDetiMobile />
-    <MenuPc.menuDetiPc />
-    <HeroSmall.zsRatings />
-    <Featured.calendar />
-    <Lektori.faq />
+    <MenuMobile.instruktori />
+    <MenuPc.instruktori />
+    <Hero.instruktori />
+    <%!-- <Featured.calendar /> --%>
+    <Lektori.vse />
     <Footer.deti />
     <script>
     </script>

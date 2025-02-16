@@ -287,8 +287,8 @@ defmodule IconRow do
     <style>
       .icon-row-partners-comp{
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         background: rgba(255, 255, 255, .98);
         height: 100%;
         padding: 60px 0;
@@ -352,7 +352,8 @@ defmodule IconRow do
         }
       }
     </style>
-    <div class="icon-row-partners-comp">
+    <div class="icon-row-partners-comp odsazeni">
+    <h3>Naši partneři</h3>
       <div class="icon-row-partners">
         <a href="https://www.decathlon.cz/" target="_blank" class="icon-row-partners-item">
           <img alt="decathlon logo" src="/images/icon/decathlon.avif" />

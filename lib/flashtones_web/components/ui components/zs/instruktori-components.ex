@@ -1,6 +1,253 @@
 defmodule Lektori do
   use Phoenix.Component
 
+  def vse(assigns) do
+    ~H"""
+    <style>
+      .dashboard {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 30px;
+      }
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
+        border-radius: 10px;
+      }
+
+      .section-title {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      .doc-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.9);
+        transition: all 0.2s ease-in-out;
+        line-height: 16px;
+      }
+
+      .doc-item:hover {
+        background: rgba(255, 255, 255, 0.9);
+      }
+
+      .doc-item img {
+        width: 20px;
+        height: 20px;
+        border-radius: 0;
+      }
+
+      /* Section-specific colors */
+      .section-priprava { background: var(--deti-light); }
+      .section-plavani { background: var(--plavani-light); }
+      .section-lyzovani { background: var(--lyzovani-light); }
+      .section-enviro { background: var(--enviro-light); }
+      .section-vylety { background: var(--vylety-light); }
+      .section-academy { background: var(--academy-light); }
+      #instruktori-deti, #instruktori-plavani, #instruktori-enviro, #instruktori-lyzovani, #instruktori-vylety, #instruktori-academy{
+        scroll-margin-top: 20vh;
+      }
+    </style>
+
+    <div class="dashboard">
+      <!-- Příprava a realizace section -->
+      <div class="section section-priprava" id="instruktori-deti">
+        <h2 class="section-title">Příprava a realizace kurzu</h2>
+        <a href="/images/pdf/lektori/zs-deti/zasady-kurzu.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Zásady na kurzech</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/spoluprace-kurzy.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Spolupráce na kurzech</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/komunikace-instruktora.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Komunikace instruktora s dětmi</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/priprava-realizace.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Příprava a realizace kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/zapis-terminu.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Zápis termínů</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/ohodnoceni-instruktoru.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Ohodnocení instruktora</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/zivnostenske-opravneni.pdf" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Živnostenské oprávnění</span>
+        </a>
+      </div>
+      <!-- Plavání section -->
+      <div class="section section-plavani" id="instruktori-plavani">
+        <h2 class="section-title">Kurz ZŠ Plavání</h2>
+        <a href="/images/pdf/lektori/zs-plavani/kurz-zs-plavani.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Kurz ZŠ Plavání</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/vyuka-plavani-na-kurzu.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Výuka plavání na kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/doplnkovy-program.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Doplňkový program</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/vzor-kurz-plavani.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh kurzu</span>
+        </a>
+        <h2 class="section-title">Metodika</h2>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/chobotnice.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Chobotnice</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/delfini.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Delfíni</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/namornici.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Námořníci</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/pirati.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Piráti</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/tunaci.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Tuňáci</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/zelvy.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Želvy</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/vecerni-programy.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Večerní programy</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/sportovni-program.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Sportovní doplňkový program</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-plavani/metodika/technika-plavani.pdf" class="doc-item">
+          <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
+          <span>Technika plaveckých způsobů</span>
+        </a>
+      </div>
+      <!-- Lyžování section -->
+      <div class="section section-lyzovani" id="instruktori-lyzovani">
+        <h2 class="section-title">Kurz ZŠ Lyžování</h2>
+        <a href="/images/pdf/lektori/zs-lyzovani/metodika/kurz-lyzovani.pdf" class="doc-item">
+          <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
+          <span>Kurz lyžování</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-lyzovani/metodika/vyuka-lyzovani.pdf" class="doc-item">
+          <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
+          <span>Výuka lyžování na kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-lyzovani/metodika/doplnkovy-sportovni-program.pdf" class="doc-item">
+          <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
+          <span>Doplňkový sportovní program</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-lyzovani/metodika/rozvrh-lyzovani-odpo-dopo.pdf" class="doc-item">
+          <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh kurzu odpo-dopo</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-lyzovani/metodika/rozvrh-lyzovani-pozdni-obed.pdf" class="doc-item">
+          <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh kurzu pozdní oběd</span>
+        </a>
+      </div>
+      <!-- Enviro section -->
+      <div class="section section-enviro" id="instruktori-enviro">
+        <h2 class="section-title">Kurz ZŠ Enviro</h2>
+        <a href="/images/pdf/lektori/zs-enviro/kurz-enviro.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Kurz ZŠ Enviro</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/vyuka-kurzu.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Environmentální výuka na kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/doplnkovy-program-enviro.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Doplňkový program na kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/vzor-rozvrh-enviro-celodenni.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh ENVIRO celodenního kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/vzor-rozvrh-tym-celodenni.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh celodenního kurzu V týmu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/vzor-rozvrh-enviro-pulden.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh ENVIRO půldenního kurzu</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/vzor-rozvrh-tym-pulden.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh půldenního kurzu V týmu</span>
+        </a>
+        <h2 class="section-title">Metodika</h2>
+        <a href="/images/pdf/lektori/zs-enviro/metodika-enviro/enviro-metodika.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Metodika kurzu ENVIRO</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-enviro/metodika-enviro/rozsirujici-aktivity.pdf" class="doc-item">
+          <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
+          <span>Rozšiřující aktivity</span>
+        </a>
+      </div>
+      <!-- Výlety section -->
+      <div class="section section-vylety" id="instruktori-vylety">
+        <h2 class="section-title">Kurz ZŠ Výlety</h2>
+        <a href="/images/pdf/lektori/zs-vylety/kurz-vylety.pdf" class="doc-item">
+          <img src="/images/icon/dokument-vylety.svg" alt="Document icon" />
+          <span>Kurz ZŠ Výlety</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-vylety/program-vylety.pdf" class="doc-item">
+          <img src="/images/icon/dokument-vylety.svg" alt="Document icon" />
+          <span>Vzorový program kurzu</span>
+        </a>
+      </div>
+      <!-- Academy section -->
+      <div class="section section-academy" id="instruktori-academy">
+        <h2 class="section-title">Kurz ZŠ Academy</h2>
+        <a href="/images/pdf/lektori/zs-academy/zs-academy.pdf" class="doc-item">
+          <img src="/images/icon/dokument-academy.svg" alt="Document icon" />
+          <span>Kurz ZŠ Academy</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-academy/instruktor-plavani-b.pdf" class="doc-item">
+          <img src="/images/icon/dokument-academy.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh kurzu Instruktor plavání B</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-academy/instruktor-plavani-c.pdf" class="doc-item">
+          <img src="/images/icon/dokument-academy.svg" alt="Document icon" />
+          <span>Vzorový časový rozvrh kurzu Instruktor plavání C</span>
+        </a>
+      </div>
+    </div>
+    """
+  end
+
   def faq(assigns) do
     ~H"""
     <style>
@@ -43,14 +290,15 @@ defmodule Lektori do
       .section-o-nas .section-title { color: var(--dark-turquoise); }
 
       .card-grid {
+      width: 100%;
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 1fr 1fr;
         gap: 15px;
         padding: 0.5rem;
       }
 
       .card {
-      width: fit-content;
+        width: max-content;
         background: white;
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -138,7 +386,7 @@ defmodule Lektori do
       }
     </style>
 
-    <div class="dashboard odsazeni">
+    <div class="dashboard">
       <section class="section section-obecne" aria-labelledby="obecne-title">
         <h2 id="obecne-title" class="section-title">Obecné</h2>
         <div class="card-grid">
