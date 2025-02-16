@@ -154,23 +154,23 @@ defmodule Lektori do
       <!-- Lyžování section -->
       <div class="section section-lyzovani" id="instruktori-lyzovani">
         <h2 class="section-title">Kurz ZŠ Lyžování</h2>
-        <a href="/images/pdf/lektori/zs-lyzovani/metodika/kurz-lyzovani.pdf" class="doc-item">
+        <a href="/images/pdf/lektori/zs-lyzovani/kurz-lyzovani.pdf" class="doc-item">
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Kurz lyžování</span>
         </a>
-        <a href="/images/pdf/lektori/zs-lyzovani/metodika/vyuka-lyzovani.pdf" class="doc-item">
+        <a href="/images/pdf/lektori/zs-lyzovani/vyuka-lyzovani.pdf" class="doc-item">
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Výuka lyžování na kurzu</span>
         </a>
-        <a href="/images/pdf/lektori/zs-lyzovani/metodika/doplnkovy-sportovni-program.pdf" class="doc-item">
+        <a href="/images/pdf/lektori/zs-lyzovani/doplnkovy-sportovni-program.pdf" class="doc-item">
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Doplňkový sportovní program</span>
         </a>
-        <a href="/images/pdf/lektori/zs-lyzovani/metodika/rozvrh-lyzovani-odpo-dopo.pdf" class="doc-item">
+        <a href="/images/pdf/lektori/zs-lyzovani/rozvrh-lyzovani-odpo-dopo.pdf" class="doc-item">
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Vzorový časový rozvrh kurzu odpo-dopo</span>
         </a>
-        <a href="/images/pdf/lektori/zs-lyzovani/metodika/rozvrh-lyzovani-pozdni-obed.pdf" class="doc-item">
+        <a href="/images/pdf/lektori/zs-lyzovani/rozvrh-lyzovani-pozdni-obed.pdf" class="doc-item">
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Vzorový časový rozvrh kurzu pozdní oběd</span>
         </a>
