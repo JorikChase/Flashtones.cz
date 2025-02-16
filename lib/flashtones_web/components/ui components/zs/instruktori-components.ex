@@ -583,7 +583,7 @@ defmodule Lektori do
       </section>
 
       <section class="section section-enviro-tym" aria-labelledby="enviro-tym-title">
-        <h2 id="enviro-tym-title" class="section-title">Kurz ZŠ Enviro- V týmu</h2>
+        <h2 id="enviro-tym-title" class="section-title">Kurz ZŠ Enviro - V týmu</h2>
         <div class="card-grid">
           <a
             href="/images/pdf/lektori/tym-specifika.docx"
