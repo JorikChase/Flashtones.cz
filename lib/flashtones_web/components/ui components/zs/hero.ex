@@ -811,9 +811,21 @@ defmodule Hero do
       }
     }
 
+    @media (orientation: portrait) {
+    .instruktori-hero-footer {
+    background: transparent;
+    padding: 0;
+    }
+    .instruktori-hero-arrow {
+    display: none;
+    }
+    }
     @media (max-width: 480px) {
       .instruktori-hero-grid {
         gap: 10px;
+      }
+      #academy-logo{
+        padding-top: 15px;
       }
     }
 

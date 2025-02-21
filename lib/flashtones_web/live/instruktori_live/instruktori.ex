@@ -57,8 +57,8 @@ defmodule FlashtonesWebL.LektoriLive do
     <MenuMobile.instruktori />
     <MenuPc.instruktori />
     <Hero.instruktori />
-    <%!-- <Featured.calendar /> --%>
     <Lektori.vse />
+    <Featured.calendar />
     <Footer.deti />
     <script>
     </script>

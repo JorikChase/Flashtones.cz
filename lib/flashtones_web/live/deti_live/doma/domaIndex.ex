@@ -20,12 +20,13 @@ defmodule FlashtonesWeb.DomaIndexLive do
     ~H"""
     <style>
       main{
-        background: #f8ede4;
+      background-color: #bee3e6;
       }
     </style>
     <Nav.nav />
     <MenuMobile.menuDomaMobile />
     <MenuPc.menuDomaPc />
+    <Hero.domaLanding />
     <Hero.domaHero />
     <!--<Aktuality.aktuality />-->
     <div class="odsazeni">
