@@ -58,26 +58,6 @@ defmodule DetailFaq do
       <div class="question-box-faq p-4 bg-white shadow mb-2">
       <div class="question-box-row-wrap">
       <div class="question-box-row">
-        <p class="font-bold">Letní příměstský tábor "Aktivní léto se ZŠ PRO DĚTI"</p>
-      </div>
-      <img src="/images/icon/plus-enviro.svg" alt="Ukazat podrobnou odpoved" class="self-end">
-      </div>
-        <p class="answer mt-2">
-        Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
-        <br>
-        <br>
-        V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
-        <br>
-        <br>
-        Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
-        <br>
-        <br>
-        Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
-        </p>
-      </div>
-      <div class="question-box-faq p-4 bg-white shadow mb-2">
-      <div class="question-box-row-wrap">
-      <div class="question-box-row">
         <p class="font-bold">
         Kde
         </p>
@@ -86,11 +66,6 @@ defmodule DetailFaq do
       </div>
         <p class="answer mt-2">
         Jako zázemí pro konání tábora budou využity učebny či tělocvičny v našich partnerských školách.
-        <br>
-        <br>
-        Pro Vámi vybraný tábor se jedná o :
-        <br>
-        ZŠ Bronzová, pro outdoorové aktivity pak bude využíváno zejména místní zelené okolí a hřiště v areálu školy. S dětmi se snažíme trávit veškerý čas venku. V případě extrémně špatného počasí je ovšem možnost využití školní tělocvična, která v tomto případě poslouží i pro předávání dětí.
         </p>
       </div>
       <div class="question-box-faq p-4 bg-white shadow mb-2">

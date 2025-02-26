@@ -320,6 +320,21 @@ defmodule DetailLokace do
                         </div>
                     </a>
               </div>
+
+              <div class="product">
+                        <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-gymnazium-pameti-naroda.pdf">
+                          <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/gymnazium-pameti-naroda.avif)"></div>
+                            <div class="product-text-wrap">
+                            <div class="product-text">
+                            <span class="cost-wrap"><h4>
+                            Plavecký bazén Gymnázium Paměti Národa
+                            </h4><b>4 250 <side>Kč</side></b></span>
+                            <p class="font-normal">Příměstský tábor ZŠ PRO DĚTI se bude konat v jedinečné lokalitě Gymnázia Paměti Národa na Praze 5, které nabízí ideální prostředí pro všechny naše aktivity. Tento moderní areál je nejen bohatý na historickou atmosféru, ale také vybavený kvalitními venkovními prostory, jako jsou prostorná hřiště a zelené plochy, které umožňují pestré sportovní a outdoorové vyžití. Dětem poskytne bezpečné zázemí pro všechny táborové činnosti a současně je inspiruje k objevování a aktivnímu pohybu v krásném prostředí.</p>
+                            </div>
+                            <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                            </div>
+                        </a>
+                  </div>
           <%!-- <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-sareza.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.avif)" id="sareza"></div>
