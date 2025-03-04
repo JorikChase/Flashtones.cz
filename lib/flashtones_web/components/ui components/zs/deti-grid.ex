@@ -341,7 +341,7 @@ defmodule DetiGrid do
         </a>
         <a href="https://zsprodeti.cz/plavani/verejnost" class="menu-plavani" id="plavani-primestaky">
           <span>
-            <h3>Veřejné plavecké kurzy</h3>
+            <h3>Příměstské tábory s plaváním a plavecké kurzy</h3>
           </span>
         </a>
         <a href="/vylety" class="menu-vylety" id="vylety-skoly">
@@ -351,7 +351,7 @@ defmodule DetiGrid do
         </a>
         <a href="/enviro/verejnost" class="menu-enviro" id="enviro-verejnost">
           <span>
-            <h3>Veřejné tábory</h3>
+            <h3>Tematické příměstské a pobytové tábory</h3>
           </span>
         </a>
         <a href="https://zsprodeti.cz/doma" class="menu-doma">
