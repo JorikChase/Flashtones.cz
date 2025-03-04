@@ -799,9 +799,6 @@ defmodule DetailCta do
         termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
-      <span class="text-gray-900">
-        Cena:<bold>4250 Kč</bold>
-      </span>
       <br />
       <a class="enviro-link" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 724 168 962
@@ -809,7 +806,7 @@ defmodule DetailCta do
       <a class="enviro-link" href="mailto:petra@zsprodeti.cz">
         <img alt="email" src="/images/icon/email-enviro.svg" />petra@zsprodeti.cz
       </a>
-      <a class="enviro-link" target="_blank" href="/images/pdf/vop-flashtones-2024.pdf">
+      <a class="enviro-link" target="_blank" href="/images/pdf/vop-zsprodeti-2025.pdf">
         <img src="/images/icon/download-enviro.svg" />VOP
       </a>
     </div>

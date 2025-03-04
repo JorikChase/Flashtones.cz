@@ -1382,4 +1382,70 @@ defmodule DetailLokace do
               </div>
     """
   end
+
+  def detailEnviroCity(assigns) do
+    ~H"""
+    <style>
+      .detail-lokace{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      #hloubetin{
+        width: 270px!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+      .cost-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+      }
+      .cost-wrap > b{
+        padding: 2px 10px;
+        font-size: 22px;
+        background: var(--ft-main);
+        text-align: center;
+        white-space: nowrap;
+          display: inline-block;
+          width: fit-content;
+      }
+      @media (orientation: portrait){
+        #hloubetin{
+        width: 100%!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+        .cost-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+      }
+    </style>
+    <div class="detail-lokace course-wrap">
+    <div class="category" data-category="Příměstské tábory Enviro">
+    <h3 class="disappear">Místa konání</h3>
+              <div class="product">
+                        <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-gymnazium-pameti-naroda.pdf">
+                          <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/gymnazium-pameti-naroda.avif)"></div>
+                            <div class="product-text-wrap">
+                            <div class="product-text">
+                            <span class="cost-wrap"><h4>
+                            Plavecký bazén Gymnázium Paměti Národa
+                            </h4><b>4 250 <side>Kč</side></b></span>
+                            <p class="font-normal">Příměstský tábor ZŠ PRO DĚTI se bude konat v jedinečné lokalitě Gymnázia Paměti Národa na Praze 5, které nabízí ideální prostředí pro všechny naše aktivity. Tento moderní areál je nejen bohatý na historickou atmosféru, ale také vybavený kvalitními venkovními prostory, jako jsou prostorná hřiště a zelené plochy, které umožňují pestré sportovní a outdoorové vyžití. Dětem poskytne bezpečné zázemí pro všechny táborové činnosti a současně je inspiruje k objevování a aktivnímu pohybu v krásném prostředí.</p>
+                            </div>
+                            <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                            </div>
+                        </a>
+                  </div>
+          </div>
+    </div>
+    """
+  end
 end
