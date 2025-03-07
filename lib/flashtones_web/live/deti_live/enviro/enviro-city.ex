@@ -57,6 +57,7 @@ defmodule FlashtonesWeb.EnviroCityLive do
     <KurzDetail.enviroCity />
     <%!-- <DetailLokace.detailLokaceEnviroPrimestske /> --%>
     <DetailFaq.verejnostPrimestaky />
+    <DetailLokace.detailEnviroCity />
     <br />
     <%!-- <DetailFaq.verejnostPrimestakyDetail /> --%>
     <Rekli.rekliEnviro />

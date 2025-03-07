@@ -202,11 +202,7 @@ defmodule DetailCta do
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
-      <a
-        class="plavani-link"
-        href="/images/pdf/vop-flashtones.pdf"
-        target="_blank"
-      >
+      <a class="plavani-link" href="/images/pdf/vop-flashtones.pdf" target="_blank">
         <img src="/images/icon/download-plavani.svg" />VOP
       </a>
     </div>
@@ -798,14 +794,11 @@ defmodule DetailCta do
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
-        href="https://rezervace.zsprodeti.cz/kurz-12/lokalita/27/termin/list"
+        href="https://rezervace.zsprodeti.cz/zsprodeti/rezervace?kurz=22&lokalita=42"
       >
         termíny a lokality
       </a>
       <!--<p>Chci více informací o kurzu:</p>-->
-      <span class="text-gray-900">
-        Cena:<bold>4250 Kč</bold>
-      </span>
       <br />
       <a class="enviro-link" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 724 168 962
@@ -813,8 +806,8 @@ defmodule DetailCta do
       <a class="enviro-link" href="mailto:petra@zsprodeti.cz">
         <img alt="email" src="/images/icon/email-enviro.svg" />petra@zsprodeti.cz
       </a>
-      <a class="enviro-link" target="_blank" href="/images/pdf/enviro-city.pdf">
-        <img src="/images/icon/download-enviro.svg" />FAQ
+      <a class="enviro-link" target="_blank" href="/images/pdf/vop-zsprodeti-2025.pdf">
+        <img src="/images/icon/download-enviro.svg" />VOP
       </a>
     </div>
     <script>

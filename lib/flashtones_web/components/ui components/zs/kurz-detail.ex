@@ -267,18 +267,24 @@ defmodule KurzDetail do
     <div class="course-wrap top">
       <h1>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
       <p>
-      Letní pobytové tábory s výukou plavání ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konat se budou vždy od neděle do pátku.      </p>
+        Letní pobytové tábory s výukou plavání ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konat se budou vždy od neděle do pátku.
+      </p>
       <p>
-      Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Koná se v nádherném přírodním areálu českého středohoří, což dětem nabízí jedinečnou příležitost prozkoumat krásy české přírody a užít si čerstvý vzduch daleko od městského shonu.      </p>
+        Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Koná se v nádherném přírodním areálu českého středohoří, což dětem nabízí jedinečnou příležitost prozkoumat krásy české přírody a užít si čerstvý vzduch daleko od městského shonu.
+      </p>
       <p>
-      Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Hotel je znám svým přátelským a bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního bazénu.      </p>
+        Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Hotel je znám svým přátelským a bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního bazénu.
+      </p>
       <p>
-      Program tábora je navržen tak, aby podporoval sportovních dovedností, týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity. Děti se mohou těšit celkově na devět plaveckých lekcí.      </p>
+        Program tábora je navržen tak, aby podporoval sportovních dovedností, týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity. Děti se mohou těšit celkově na devět plaveckých lekcí.
+      </p>
       <p>
-      Tábory ZŠ PRO DĚTI klade velký důraz na rozvoj sociálních dovedností a podporu zdravého životního stylu. Díky široké nabídce aktivit a her v přírodě se děti nejen naučí nové dovednosti, ale také si vyzkouší, jak je důležité spolupracovat a respektovat jeden druhého.     </p>
+        Tábory ZŠ PRO DĚTI klade velký důraz na rozvoj sociálních dovedností a podporu zdravého životního stylu. Díky široké nabídce aktivit a her v přírodě se děti nejen naučí nové dovednosti, ale také si vyzkouší, jak je důležité spolupracovat a respektovat jeden druhého.
+      </p>
       <p>
-      V neposlední řadě, letní pobytové tábory nabízejí dětem příležitost odpočinout si od elektroniky a strávit čas aktivně venku, což je v dnešní digitální době neocenitelná zkušenost. S kombinací úžasného prostředí, skvělého programu a profesionálního týmu vedoucích se jedná o perfektní místo pro nezapomenutelné letní prázdniny.</p>
-      <br>
+        V neposlední řadě, letní pobytové tábory nabízejí dětem příležitost odpočinout si od elektroniky a strávit čas aktivně venku, což je v dnešní digitální době neocenitelná zkušenost. S kombinací úžasného prostředí, skvělého programu a profesionálního týmu vedoucích se jedná o perfektní místo pro nezapomenutelné letní prázdniny.
+      </p>
+      <br />
     </div>
     <DetailFaq.plavaniSummer />
     """
@@ -591,15 +597,6 @@ defmodule KurzDetail do
       <h1>Letní příměstské tábory "Aktivní léto se ZŠ PRO DĚTI"</h1>
       <p>
         Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity. Program je uzpůsoben věkovým kategoriím dětí mladšího školního věku i staršího školního věku. Děti absolvují lekce orientované na hry v přírodě, tradiční i netradiční hry na rozvoj rychlosti, síly, obratnosti, vytrvalosti, postřehu, smyslového vnímání, ale zejména teambuildingové aktivity pro rozvoj pozitivních vztahů v dětském kolektivu.
-      </p>
-      <p>
-        V úvodních a průpravná částech se věnujeme zahřátí organismu, dynamické rozcvičké a hrám pro aktivaci organismu. V hlavní části po vysvětlení pravidel probíhají samotné hry. V závěrečné, relaxační části se zaměřujeme na zklidnění a vydýchání a následně s dětmi veškeré aktivity zhodnotíme, obohacujeme se o podněty získané během hry a přidáváme nápady a alternativy pravidel.
-      </p>
-      <p>
-        Další aktivity jsou zaměřeny na doplňkový zábavní program, hry v městské přírodě, stolní hry, hry na rozvoj kreativity, představivosti a také rozvoj hudebních a výtvarných schopností.
-      </p>
-      <p>
-        Naším cílem je také prohloubení informací v oblasti environmentálních témat a seznámení dětí s možnostmi ochrany přírody. Máme snahu předávat informace hravou a zábavnou formou a vést děti k uchopení vlastní role v moderní společnosti. Chceme ukázat, že chránit přírodu může každý svými každodenními rozhodnutími.
       </p>
     </div>
     <br />
