@@ -600,6 +600,22 @@ defmodule MenuMobile do
       <a href="/academy" class="zs-menu-academy">
         <h4 style="font-size: 45px;">Academy</h4>
       </a>
+      <details>
+        <style>
+          span.odpornej-hack-pro-petru a.mobile-menu-link {
+            visibility: hidden;
+          }
+        </style>
+        <summary class="zs-menu-black">
+          Aktivity
+        </summary>
+        <span class="odpornej-hack-pro-petru">
+          <Aktivity.plavani />
+          <Aktivity.enviro />
+          <Aktivity.lyzovani />
+          <Aktivity.vylety />
+        </span>
+      </details>
       <a href="/blog">
         <h4>Blog</h4>
       </a>

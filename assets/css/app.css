@@ -44,7 +44,7 @@
 
     --enviro-main: #5bae13c3;
     --enviro-bg: #fbfefa;
-    --enviro-light: #EEF7F0;
+    --enviro-light: #eef7f0;
     --enviro-link: #44810e;
     --enviro-hover: #2c5309;
     --enviro-checked: #274f03;
@@ -1591,6 +1591,12 @@ form:hover {
 
 .zs-menu-academy {
     color: #f21d1d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.zs-menu-black {
+    color: #000;
     text-transform: uppercase;
     font-weight: bold;
 }
