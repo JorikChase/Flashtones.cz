@@ -322,19 +322,33 @@ defmodule DetailLokace do
               </div>
 
               <div class="product">
-                        <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-gymnazium-pameti-naroda.pdf">
-                          <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/gymnazium-pameti-naroda.avif)"></div>
+                        <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-jablonec-nad-nisou.pdf">
+                          <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/jablonec-nad-nisou-bazen.avif)"></div>
                             <div class="product-text-wrap">
                             <div class="product-text">
                             <span class="cost-wrap"><h4>
-                            Plavecký bazén Gymnázium Paměti Národa
-                            </h4><b>4 250 <side>Kč</side></b></span>
-                            <p class="font-normal">Příměstský tábor ZŠ PRO DĚTI se bude konat v jedinečné lokalitě Gymnázia Paměti Národa na Praze 5, které nabízí ideální prostředí pro všechny naše aktivity. Tento moderní areál je nejen bohatý na historickou atmosféru, ale také vybavený kvalitními venkovními prostory, jako jsou prostorná hřiště a zelené plochy, které umožňují pestré sportovní a outdoorové vyžití. Dětem poskytne bezpečné zázemí pro všechny táborové činnosti a současně je inspiruje k objevování a aktivnímu pohybu v krásném prostředí.</p>
+                            Plavecký areál Jablonec nad Nisou
+                            </h4><b>5 450 <side>Kč</side></b></span>
+                            <p class="font-normal">Kurz probíhá v Plaveckém areálu SPORT Jablonec nad Nisou. Bazén tvoří osm 25metrových drah určených k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,7 metru. Směrem k druhému konci stoupá dno na 1,4 metru. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                             </div>
                             <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                             </div>
                         </a>
                   </div>
+                  <div class="product">
+                            <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-ostrava.pdf">
+                              <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/ostrava-jesterka-bazen.avif)"></div>
+                                <div class="product-text-wrap">
+                                <div class="product-text">
+                                <span class="cost-wrap"><h4>
+                                Ostrava Bartovice - Ozdravné centrum Ještěrka
+                                </h4><b>5 450 <side>Kč</side></b></span>
+                                <p class="font-normal">K plavání využíváme krytý bazén s rozměry 50 x 21 m s příjemně teplou vodou. Část pro neplavce má hloubku od 1,2 do 1,6 m a část pro plavce od 1,8 do 3,7 m. S úplnými začátečníky jsme v začátcích i v dětském bazénu s hloubkou 64 cm. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
+                                </div>
+                                <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                                </div>
+                            </a>
+                      </div>
           <%!-- <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-sareza.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.avif)" id="sareza"></div>
