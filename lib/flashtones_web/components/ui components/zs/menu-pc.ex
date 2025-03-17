@@ -437,6 +437,9 @@ defmodule MenuPc do
           background-image: url("/images/icon/friendship.svg");
       }
       .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(8) a:before {
+          background-image: url("/images/icon/kurz/svt-enviro.svg");
+      }
+      .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(9) a:before {
           background-image: url("/images/icon/hiking.svg");
       }
 
@@ -606,6 +609,11 @@ defmodule MenuPc do
                       <li>
                         <a href="/enviro/ss-tym">
                           <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/enviro/labyrint">
+                          <h3>"LABYRINT SVĚTA A RÁJ SRDCE" PRO STŘEDNÍ ŠKOLY</h3>
                         </a>
                       </li>
                       <li>

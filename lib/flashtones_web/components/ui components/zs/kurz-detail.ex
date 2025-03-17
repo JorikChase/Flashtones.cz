@@ -1656,4 +1656,39 @@ defmodule KurzDetail do
     <br />
     """
   end
+
+  def enviroLabyrint(assigns) do
+    ~H"""
+    <div class="course-wrap top">
+      <h1>Kurz "Labyrint světa a ráj srdce"</h1>
+      <h2>Jak to probíhá?</h2>
+      <p>
+        Naše hra Labyrint světa a ráj srdce umožňuje
+        vyzkoušet si, jaké je to čelit výzvám a rozhodnutím v
+        dospělém životě. Jde o simulaci lidského života v
+        šesti dekádách a sestává se z celkem šesti bloků po
+        jedné hodině, rozdělených do tří dnů.
+      </p>
+      <ul>
+        <li>Stanoviště: Práce a vzdělání, rodina a přátelé, zdraví, zábava</li>
+        <li>
+          Kartičky času: Každý student dostane omezený počet kartiček, které směňuje za aktivity nebo zdroje
+        </li>
+        <li>
+          Osud: Instruktor náhodně vstupuje do hry a přináší do života studentů neočekávané změny
+        </li>
+        <li>
+          Závěr: Studenti si na konci vytvoří časovou osu jejich průběžných životní rozhodnutí, která bude reprezentovat jejich životní cestu
+        </li>
+      </ul>
+
+      <p>Každý blok začíná a končí v "Ráji srdce", kde probíhá
+        meditace a reflexe.</p>
+      <p>
+        Do všech společných aktivit se snažíme vnášet přesah sebepoznání a budování přirozené sebedůvěry, utužování vztahů ve skupině, vzájemný respekt a spolupráci v kolektivu.
+      </p>
+    </div>
+    <br />
+    """
+  end
 end

@@ -105,6 +105,7 @@ defmodule FlashtonesWeb.Router do
     live "/enviro/svp", EnviroSvpLive
     live "/enviro/tym", EnviroTymLive
     live "/enviro/ss-tym", EnviroSSTymLive
+    live "/enviro/labyrint", EnviroLabyrint
     live "/enviro/letni-pobytove-tabory", EnviroSummerLive
     live "/enviro/letni-primestske-tabory-v-tymu", EnviroSummerCityLive
     live "/enviro/primestske-tabory-enviro", EnviroCityLive
