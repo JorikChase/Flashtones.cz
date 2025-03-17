@@ -564,6 +564,14 @@ defmodule MenuMobile do
       </a>
       <details>
         <summary class="zs-menu-plavani" style="padding-top: 5px;">
+        Naše aktivity
+        </summary>
+        <span>
+          <Aktivity.aktivity />
+        </span>
+      </details>
+      <details>
+        <summary class="zs-menu-plavani" style="padding-top: 5px;">
           Plavání
         </summary>
         <span>

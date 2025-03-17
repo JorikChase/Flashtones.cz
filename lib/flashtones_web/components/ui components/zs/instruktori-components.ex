@@ -225,7 +225,7 @@ defmodule Lektori do
         </a>
         <a href="/images/pdf/lektori/zs-vylety/program-vylety.pdf" class="doc-item">
           <img src="/images/icon/dokument-vylety.svg" alt="Document icon" />
-          <span>Vzorový program kurzu</span>
+          <span>Program kurzu</span>
         </a>
       </div>
       <!-- Academy section -->

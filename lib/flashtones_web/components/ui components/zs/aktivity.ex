@@ -1,6 +1,67 @@
 defmodule Aktivity do
   use Phoenix.Component
 
+  def aktivity(assigns) do
+    ~H"""
+    <div class="kurz-nav">
+      <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/skola.svg" alt="skola" />
+        <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
+        </span>
+      </a>
+      <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka" />
+        <h4>Příměstský školní plavecký kurz</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
+        </span>
+      </a>
+      <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/skolka.svg" alt="Šipka" />
+        <h4>Předškolní plavecký <br /> kurz</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
+        </span>
+      </a>
+    </div>
+    <a class="mobile-menu-link zs-menu-plavani" href="/plavani/verejnost">
+      Domovská stránka veřejnost
+    </a>
+    <div class="kurz-nav">
+      <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" />
+        <h4>Letní příměstské tábory</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
+      <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
+        <h4>Víkendové kurzy plavání 2025</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
+      <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" />
+        <h4>Individuální lekce</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
+      <a href="https://zsprodeti.cz/plavani/summer-camp" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
+        <h4>Letní pobytové tábory</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
+    </div>
+    """
+  end
+
   def plavani(assigns) do
     ~H"""
     <a class="mobile-menu-link zs-menu-plavani" href="/plavani">Domovská stránka</a>
