@@ -226,17 +226,7 @@ defmodule KurzNav do
         <p>
           Labyrint světa a ráj srdce je třídenní kurz pro
           studenty ve věku 15–19 let, který kombinuje simulaci
-          reálného života s praktickými workshopy. Zaměřuje
-          se na klíčové oblasti, které studentům pomohou
-          nejen v jejich osobním životě, ale i při směřování na
-          vysoké školy a přípravě na budoucí profesní dráhu. S
-          využitím herního principu jsou studenti přirozenou
-          formou vedeni k hlubšímu uvědomění o
-          odpovědnosti za vlastní životní rozhodnutí a jejich
-          dopady. Studenti také lépe porozumí důležitosti
-          svojí role ve společnosti, a naučí se uplatňovat a
-          rozvíjet svoji hodnotu jak v osobní, tak společenské
-          rovině.
+          reálného života s praktickými workshopy.
         </p>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
