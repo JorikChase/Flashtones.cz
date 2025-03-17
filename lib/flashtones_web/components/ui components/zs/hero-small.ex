@@ -71,7 +71,8 @@ defmodule HeroSmall do
 
     <style>
       .hero-small{
-       background-image: url(/images/deti/15.avif);
+       background-image: url(/images/deti/2.avif);
+       height: 50vh;
       }
     </style>
     """
