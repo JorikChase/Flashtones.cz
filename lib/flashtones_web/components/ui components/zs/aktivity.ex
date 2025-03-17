@@ -151,6 +151,13 @@ defmodule Aktivity do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
       </a>
+      <a href="/enviro/labyrint" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/kurz/svt-enviro.svg" />
+        <h4>"Labyrint světa a ráj srdce" pro střední školy</h4>
+        <span class="inline-button align-right enviro-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
+        </span>
+      </a>
     </div>
     <a class="mobile-menu-link zs-menu-enviro" href="/enviro/verejnost">Domovská stránka veřejnost</a>
     <div class="kurz-nav">

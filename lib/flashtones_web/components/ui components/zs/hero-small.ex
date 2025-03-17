@@ -1116,6 +1116,19 @@ defmodule HeroSmall do
     """
   end
 
+  def enviroLabyrint(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+       background-image: url(/images/enviro/enviro-ss-tym-head.avif);
+       background-position: 50% 45%;
+      }
+    </style>
+    """
+  end
+
   def enviroCity(assigns) do
     ~H"""
     <div class="hero-small"></div>
