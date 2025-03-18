@@ -7,27 +7,27 @@ defmodule FlashtonesWebL.SitemapHTML do
   def pages do
     [
       # application
-      ~p"/",
-      ~p"/manual-fotky",
-      ~p"/vecerni-programy",
-      ~p"/sportovni-doplnkovy-program",
-      ~p"/svp-instruktor",
-      ~p"/svp-hlavni-instruktor",
-      ~p"/schuze-hlavnich-instruktoru",
-      ~p"/prezencni-list",
-      ~p"/plavani-zasobnik",
-      ~p"/plavani-pirati",
-      ~p"/plavani-chobotnice",
-      ~p"/plavani-vodni-zachrana",
-      ~p"/plavani-namornici",
-      ~p"/plavani-delfini",
-      ~p"/plavani-prirucka-instruktora",
-      ~p"/enviro-metodika",
-      ~p"/enviro-metodika-starsi",
-      ~p"/tym-autismus",
-      ~p"/tym-zakladni-info",
-      ~p"/tym-sbornik",
-      ~p"/tym-enviro-aktivity-starsi"
+      ~p"/instruktori/",
+      ~p"/instruktori/manual-fotky",
+      ~p"/instruktori/vecerni-programy",
+      ~p"/instruktori/sportovni-doplnkovy-program",
+      ~p"/instruktori/svp-instruktor",
+      ~p"/instruktori/svp-hlavni-instruktor",
+      ~p"/instruktori/schuze-hlavnich-instruktoru",
+      ~p"/instruktori/prezencni-list",
+      ~p"/instruktori/plavani-zasobnik",
+      ~p"/instruktori/plavani-pirati",
+      ~p"/instruktori/plavani-chobotnice",
+      ~p"/instruktori/plavani-vodni-zachrana",
+      ~p"/instruktori/plavani-namornici",
+      ~p"/instruktori/plavani-delfini",
+      ~p"/instruktori/plavani-prirucka-instruktora",
+      ~p"/instruktori/enviro-metodika",
+      ~p"/instruktori/enviro-metodika-starsi",
+      ~p"/instruktori/tym-autismus",
+      ~p"/instruktori/tym-zakladni-info",
+      ~p"/instruktori/tym-sbornik",
+      ~p"/instruktori/tym-enviro-aktivity-starsi"
     ]
   end
 

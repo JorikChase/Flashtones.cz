@@ -211,7 +211,10 @@ defmodule Lektori do
           <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
           <span>Metodika kurzu ENVIRO</span>
         </a>
-        <a href="/images/pdf/lektori/zs-enviro/metodika-enviro/rozsirujici-aktivity.pdf" class="doc-item">
+        <a
+          href="/images/pdf/lektori/zs-enviro/metodika-enviro/rozsirujici-aktivity.pdf"
+          class="doc-item"
+        >
           <img src="/images/icon/dokument-enviro.svg" alt="Document icon" />
           <span>Rozšiřující aktivity</span>
         </a>
@@ -414,7 +417,11 @@ defmodule Lektori do
           >
             <h3 class="card-title">Zakončení kurzu</h3>
           </a>
-          <a href="/manual-fotky" class="card-link card" aria-label="Manuál na fotky z kurzu">
+          <a
+            href="/instruktori/manual-fotky"
+            class="card-link card"
+            aria-label="Manuál na fotky z kurzu"
+          >
             <h3 class="card-title">Manuál na fotky z kurzu</h3>
           </a>
           <a
@@ -442,7 +449,7 @@ defmodule Lektori do
             <h3 class="card-title">Realizace školy v přírodě (instruktor)</h3>
           </a>
           <a
-            href="/svp-hlavni-instruktor"
+            href="/instruktori/svp-hlavni-instruktor"
             class="card-link card"
             aria-label="Realizace školy v přírodě (hlavní instruktor) - otevře se v novém okně"
           >
@@ -572,7 +579,7 @@ defmodule Lektori do
             <h3 class="card-title">Enviro metodika</h3>
           </a>
           <a
-            href="/enviro-metodika-starsi"
+            href="/instruktori/enviro-metodika-starsi"
             class="card-link card"
             target="_blank"
             aria-label="Enviro metodika pro starší - otevře se v novém okně"

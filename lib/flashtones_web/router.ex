@@ -179,7 +179,6 @@ defmodule FlashtonesWeb.Router do
     live "/blog/socci", BlogSocciLive
     live "/blog/v-tymu", VTymuBlogLive
     live "/blog/plavecke-dovednosti", PlaveckeDovednostiLive
-    ## ///////////////////////////////
 
     # get "/auth/google/callback", GoogleAuthController, :index
     post "/subscribe", NewsletterController, :subscribe
@@ -256,6 +255,28 @@ defmodule FlashtonesWeb.Router do
     live_session :require_confirmed_user,
       on_mount: [{FlashtonesWebL.UserAuth, :ensure_confirmed}] do
       live "/vytvorit-clanek", BlogCreateLive
+
+      live "/instruktori", LektoriLive
+      live "/instruktori/manual-fotky", ManualFotkyLive
+      live "/instruktori/vecerni-programy", VecerniProgramyLive
+      live "/instruktori/sportovni-doplnkovy-program", SportovniDoplnkovyProgramLive
+      live "/instruktori/svp-instruktor", SvpInstruktorLive
+      live "/instruktori/svp-hlavni-instruktor", SvpHlavniInstruktorLive
+      live "/instruktori/schuze-hlavnich-instruktoru", SchuzeHlavnichInstruktoruLive
+      live "/instruktori/prezencni-list", PrezencniListLive
+      live "/instruktori/plavani-zasobnik", PlavaniZasobnikLive
+      live "/instruktori/plavani-pirati", PlavaniPiratiLive
+      live "/instruktori/plavani-chobotnice", PlavaniChobotniceLive
+      live "/instruktori/plavani-vodni-zachrana", PlavaniVodniZachranaLive
+      live "/instruktori/plavani-namornici", PlavaniNamorniciLive
+      live "/instruktori/plavani-delfini", PlavaniDelfiniLive
+      live "/instruktori/plavani-prirucka-instruktora", PlavaniPriruckaInstruktoraLive
+      live "/instruktori/enviro-metodika", EnviroMetodikaLive
+      live "/instruktori/enviro-metodika-starsi", EnviroMetodikaStarsiLive
+      live "/instruktori/tym-autismus", TymAutismusLive
+      live "/instruktori/tym-zakladni-info", TymZakladniInfoLive
+      live "/instruktori/tym-sbornik", TymSbornikLive
+      live "/instruktori/tym-enviro-aktivity-starsi", TymEnviroAktivityStarsiLive
     end
   end
 
