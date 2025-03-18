@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.ManualFotkyLive do
+defmodule FlashtonesWeb.ManualFotkyLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do

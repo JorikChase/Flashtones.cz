@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.EnviroMetodikaStarsiLive do
+defmodule FlashtonesWeb.EnviroMetodikaStarsiLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do

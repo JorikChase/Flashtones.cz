@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.LektoriLive do
+defmodule FlashtonesWeb.LektoriLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do

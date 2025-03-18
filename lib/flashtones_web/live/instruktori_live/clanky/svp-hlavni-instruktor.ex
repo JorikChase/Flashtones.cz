@@ -1,4 +1,4 @@
-defmodule FlashtonesWebL.SvpHlavniInstruktorLive do
+defmodule FlashtonesWeb.SvpHlavniInstruktorLive do
   use FlashtonesWeb, :live_view
 
   def mount(_params, _session, socket) do
