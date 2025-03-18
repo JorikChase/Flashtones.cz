@@ -1449,3 +1449,5 @@ texty zaloha old web flashtones
     hra
     song
     tanecek
+
+UPDATE users SET confirmed_at = strftime('%Y-%m-%dT%H:%M:%S') WHERE id = 6;
