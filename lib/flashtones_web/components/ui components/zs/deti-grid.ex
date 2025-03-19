@@ -336,7 +336,7 @@ defmodule DetiGrid do
         </a>
         <a href="/enviro" class="menu-enviro" id="enviro">
           <span>
-            <h3>Školy v přírodě</h3>
+            <h3>Školy v přírodě a adaptační kurzy</h3>
           </span>
         </a>
         <a href="https://zsprodeti.cz/plavani/verejnost" class="menu-plavani" id="plavani-primestaky">
