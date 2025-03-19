@@ -20,7 +20,7 @@ defmodule FlashtonesWeb.UserLoginLive do
     ~H"""
     <MenuPc.menuDetiPc />
     <MenuMobile.menuDetiMobile />
-    <div class="mx-auto max-w-sm">
+    <div class="mx-auto max-w-sm odsazeni-login">
       <.header class="text-center">
         Log in to account
         <:subtitle>

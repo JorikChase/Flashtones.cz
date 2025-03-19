@@ -32,7 +32,7 @@ defmodule FlashtonesWeb.UserRegistrationLive do
     <MenuPc.menuDetiPc />
     <MenuMobile.menuDetiMobile />
     <HeroSmall.faq />
-    <div class="mx-auto max-w-sm">
+    <div class="mx-auto max-w-sm top">
       <.header class="text-center">
         Register for an account
         <:subtitle>

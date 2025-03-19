@@ -318,7 +318,9 @@ small {
     * {
         flex-direction: column;
     }
-
+    .no-bg div {
+        background-color: transparent !important;
+    }
     #h1ro {
         color: white;
         z-index: 5;
@@ -543,6 +545,9 @@ iframe {
 }
 
 /*course*/
+.odsazeni-login {
+    margin-top: 150px !important;
+}
 .top {
     margin-top: 60px !important;
 }

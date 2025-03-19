@@ -5,17 +5,18 @@ defmodule FlashtonesWeb.UserSettingsLive do
 
   def render(assigns) do
     ~H"""
-    <.header class="text-center">
+    <.header class="text-center top">
       Account Settings — <%= @current_user.name %>
       <:subtitle>Manage your account email address and password settings</:subtitle>
+      <.link
+        href={~p"/users/log_out"}
+        method="delete"
+        class="p-10 text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
+      >
+        Log out
+      </.link>
     </.header>
-    <.link
-      href={~p"/users/log_out"}
-      method="delete"
-      class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
-    >
-      Log out
-    </.link>
+
 
     <div class="space-y-12 divide-y odsazeni">
       <div>
