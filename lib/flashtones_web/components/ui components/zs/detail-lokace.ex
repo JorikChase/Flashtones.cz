@@ -350,7 +350,7 @@ defmodule DetailLokace do
                             </a>
                       </div>
                       <div class="product">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-brno-rasinova.pdf">
                                   <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bazen-rasinova.avif)"></div>
                                     <div class="product-text-wrap">
                                     <div class="product-text">
@@ -364,7 +364,7 @@ defmodule DetailLokace do
                                 </a>
                           </div>
                           <div class="product">
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-brno-ponavka.pdf">
                                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bazen-ponavka.avif)"></div>
                                         <div class="product-text-wrap">
                                         <div class="product-text">
