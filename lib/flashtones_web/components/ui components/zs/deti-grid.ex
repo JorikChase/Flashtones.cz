@@ -324,7 +324,7 @@ defmodule DetiGrid do
     <div class="grid-container odsazeni" id="static-grid">
       <h2 style="text-align: center;">Naše aktivity</h2>
       <div class="grid">
-        <a href="https://zsprodeti.cz/plavani" class="menu-plavani" id="plavani-svp">
+        <a href="/plavani" class="menu-plavani" id="plavani-svp">
           <span>
             <h3>Školní plavecké kurzy</h3>
           </span>
@@ -339,7 +339,7 @@ defmodule DetiGrid do
             <h3>Školy v přírodě a adaptační kurzy</h3>
           </span>
         </a>
-        <a href="https://zsprodeti.cz/plavani/verejnost" class="menu-plavani" id="plavani-primestaky">
+        <a href="/plavani/verejnost" class="menu-plavani" id="plavani-primestaky">
           <span>
             <h3>Příměstské tábory s plaváním a plavecké kurzy</h3>
           </span>
@@ -354,7 +354,7 @@ defmodule DetiGrid do
             <h3>Tematické příměstské a pobytové tábory</h3>
           </span>
         </a>
-        <a href="https://zsprodeti.cz/doma" class="menu-doma">
+        <a href="/doma" class="menu-doma">
           <span>
             <h3>⁠Zábavná domácí výuka pro děti</h3>
           </span>
