@@ -242,7 +242,7 @@ defmodule FlashtonesWebL.UserAuth do
       conn
       |> put_flash(:error, "Pro zobrazení této stránky je autorizovaný účet.")
       |> maybe_store_return_to()
-      |> redirect(to: ~p"/blog")
+      |> redirect(to: ~p"/")
       |> halt()
     end
   end
