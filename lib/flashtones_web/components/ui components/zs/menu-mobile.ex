@@ -564,14 +564,6 @@ defmodule MenuMobile do
       </a>
       <details>
         <summary class="zs-menu-plavani" style="padding-top: 5px;">
-        Naše aktivity
-        </summary>
-        <span>
-          <Aktivity.aktivity />
-        </span>
-      </details>
-      <details>
-        <summary class="zs-menu-plavani" style="padding-top: 5px;">
           Plavání
         </summary>
         <span>
@@ -610,19 +602,24 @@ defmodule MenuMobile do
       </a>
       <details>
         <style>
-          span.odpornej-hack-pro-petru a.mobile-menu-link {
+          div.odpornej-hack-pro-petru a.mobile-menu-link {
             visibility: hidden;
+          }
+          div.odpornej-hack-pro-petru div:has(div.kurz-nav) {
+            display: flex;
+            flex-direction: column-reverse;
           }
         </style>
         <summary class="zs-menu-black">
           Aktivity
         </summary>
-        <span class="odpornej-hack-pro-petru">
-          <Aktivity.plavani />
-          <Aktivity.enviro />
-          <Aktivity.lyzovani />
-          <Aktivity.vylety />
-        </span>
+        <div class="odpornej-hack-pro-petru">
+          <br />
+          <div><Aktivity.plavani /></div>
+          <div><Aktivity.enviro /></div>
+          <div><Aktivity.lyzovani /></div>
+          <div><Aktivity.vylety /></div>
+        </div>
       </details>
       <a href="/blog">
         <h4>Blog</h4>
