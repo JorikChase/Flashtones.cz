@@ -178,7 +178,7 @@ defmodule FlashtonesWebL.UserAuth do
           :error,
           "Pro zobrazení této stránky je nutný autorizovaný účet."
         )
-        |> Phoenix.LiveView.redirect(to: ~p"/")
+        |> Phoenix.LiveView.redirect(to: ~p"/users/log_in")
 
       {:halt, socket}
     end
@@ -242,7 +242,7 @@ defmodule FlashtonesWebL.UserAuth do
       conn
       |> put_flash(:error, "Pro zobrazení této stránky je autorizovaný účet.")
       |> maybe_store_return_to()
-      |> redirect(to: ~p"/")
+      |> redirect(to: ~p"/users/log_in")
       |> halt()
     end
   end
