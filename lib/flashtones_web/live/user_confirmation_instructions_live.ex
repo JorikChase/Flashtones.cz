@@ -7,22 +7,22 @@ defmodule FlashtonesWeb.UserConfirmationInstructionsLive do
     ~H"""
     <div class="mx-auto max-w-sm">
       <.header class="text-center">
-        No confirmation instructions received?
-        <:subtitle>We'll send a new confirmation link to your inbox</:subtitle>
+        Dosud nebyl Váš účet zplnoprávněn a měl by?
+        <:subtitle>Nechte znovu informovat administrátora</:subtitle>
       </.header>
 
       <.simple_form for={@form} id="resend_confirmation_form" phx-submit="send_instructions">
-        <.input field={@form[:email]} type="email" placeholder="Email" required />
+        <.input field={@form[:email]} type="email" placeholder="E-mail" required />
         <:actions>
-          <.button phx-disable-with="Sending..." class="w-full">
-            Resend confirmation instructions
+          <.button phx-disable-with="Posílám..." class="w-full">
+            Znovu informovat administrátora
           </.button>
         </:actions>
       </.simple_form>
 
       <p class="text-center mt-4">
-        <.link href={~p"/users/register"}>Register</.link>
-        | <.link href={~p"/users/log_in"}>Log in</.link>
+        <.link href={~p"/users/register"}>Registrovat</.link>
+        | <.link href={~p"/users/log_in"}>Přihlásit</.link>
       </p>
     </div>
     """
@@ -50,7 +50,7 @@ defmodule FlashtonesWeb.UserConfirmationInstructionsLive do
     end
 
     info =
-      "If your email is in our system and it has not been confirmed yet, you will receive an email with instructions shortly."
+      "Je-li Váš (dosud nepotvrzený) e-mail v systému, brzy bude znovu zaslán administrátorovi k potvrzení."
 
     {:noreply,
      socket

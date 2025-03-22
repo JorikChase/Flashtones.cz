@@ -5,23 +5,25 @@ defmodule FlashtonesWeb.UserForgotPasswordLive do
 
   def render(assigns) do
     ~H"""
-    <div class="mx-auto max-w-sm">
+    <MenuPc.menuDetiPc />
+    <MenuMobile.menuDetiMobile />
+    <div class="mx-auto max-w-sm odsazeni-login">
       <.header class="text-center">
-        Forgot your password?
-        <:subtitle>We'll send a password reset link to your inbox</:subtitle>
+        Zapomenuté heslo?
+        <:subtitle>Nechte si zaslat odkaz k resetování hesla</:subtitle>
       </.header>
 
       <.simple_form for={@form} id="reset_password_form" phx-submit="send_email">
-        <.input field={@form[:email]} type="email" placeholder="Email" required />
+        <.input field={@form[:email]} type="email" placeholder="E-mail" required />
         <:actions>
-          <.button phx-disable-with="Sending..." class="w-full">
-            Send password reset instructions
+          <.button phx-disable-with="Posílám..." class="w-full">
+            Poslat instrukce k resetování
           </.button>
         </:actions>
       </.simple_form>
       <p class="text-center text-sm mt-4">
-        <.link href={~p"/users/register"}>Register</.link>
-        | <.link href={~p"/users/log_in"}>Log in</.link>
+        <.link href={~p"/users/register"}>Registrovat</.link>
+        | <.link href={~p"/users/log_in"}>Přihlásit</.link>
       </p>
     </div>
     """
@@ -48,8 +50,7 @@ defmodule FlashtonesWeb.UserForgotPasswordLive do
       )
     end
 
-    info =
-      "If your email is in our system, you will receive instructions to reset your password shortly."
+    info = "Je-li Váš e-mail v systému, brzy obdržíte na e-mailu instrukce k resetování hesla."
 
     {:noreply,
      socket

@@ -143,29 +143,28 @@ defmodule FlashtonesWeb.CoreComponents do
 
   def flash_group(assigns) do
     ~H"""
-    <.flash kind={:info} title="Success!" flash={@flash} />
-    <.flash kind={:error} title="Error!" flash={@flash} />
+    <.flash kind={:info} title="Úspěch!" flash={@flash} />
+    <.flash kind={:error} title="Chyba!" flash={@flash} />
     <.flash
       id="client-error"
       kind={:error}
-      title="We can't find the internet"
+      title="Nelze se připojit k internetu"
       phx-disconnected={show(".phx-client-error #client-error")}
       phx-connected={hide("#client-error")}
       hidden
     >
-      Attempting to reconnect <.icon name="hero-arrow-path" class="ml-1 h-3 w-3 animate-spin" />
+      Probíhá snaha o připojení <.icon name="hero-arrow-path" class="ml-1 h-3 w-3 animate-spin" />
     </.flash>
 
     <.flash
       id="server-error"
       kind={:error}
-      title="Something went wrong!"
+      title="Něco se pokazilo!"
       phx-disconnected={show(".phx-server-error #server-error")}
       phx-connected={hide("#server-error")}
       hidden
     >
-      Hang in there while we get back on track
-      <.icon name="hero-arrow-path" class="ml-1 h-3 w-3 animate-spin" />
+      Vyčkejte než se to vyřeší <.icon name="hero-arrow-path" class="ml-1 h-3 w-3 animate-spin" />
     </.flash>
     """
   end
