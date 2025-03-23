@@ -1,66 +1,258 @@
 defmodule Aktivity do
   use Phoenix.Component
 
-  def aktivity(assigns) do
+  def mobil(assigns) do
     ~H"""
     <div class="kurz-nav">
-      <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
-        <img src="/images/icon/skola.svg" alt="skola" />
-        <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
-        </span>
-      </a>
-      <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
-        <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka" />
-        <h4>Příměstský školní plavecký kurz</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
-        </span>
-      </a>
-      <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
-        <img src="/images/icon/skolka.svg" alt="Šipka" />
-        <h4>Předškolní plavecký <br /> kurz</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
-        </span>
-      </a>
-    </div>
-    <a class="mobile-menu-link zs-menu-plavani" href="/plavani/verejnost">
-      Domovská stránka veřejnost
-    </a>
-    <div class="kurz-nav">
-      <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" />
-        <h4>Letní příměstské tábory</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
-        </span>
-      </a>
-      <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
-        <h4>Víkendové kurzy plavání 2025</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
-        </span>
-      </a>
-      <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" />
-        <h4>Individuální lekce</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
-        </span>
-      </a>
-      <a href="https://zsprodeti.cz/plavani/summer-camp" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
-        <h4>Letní pobytové tábory</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
-        </span>
-      </a>
+      <style>
+        span.odpornej-hack-pro-petru a.mobile-menu-link {
+          visibility: hidden;
+        }
+
+        /* Mobile menu styling for Aktivity dropdown */
+        .mobile-aktivity-switch {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          gap: 15px;
+        }
+
+        .mobile-aktivity-button {
+          font-size: 18px;
+          background-color: var(--deti-light);
+          padding: 15px;
+          margin-bottom: 10px;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        .mobile-menu-items {
+          display: flex;
+          flex-direction: column;
+          background-color: rgba(250, 250, 250, 0.1);
+          gap: 15px;
+        }
+
+        .mobile-menu-item {
+          position: relative;
+          padding: 15px 15px 15px 60px;
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 5px;
+          text-decoration: none;
+          color: black;
+          gap: 15px;
+          background: rgba(250, 250, 250, 0.4);
+        }
+
+        .mobile-menu-item:before {
+          content: "";
+          height: 30px;
+          left: 15px;
+          position: absolute;
+          top: calc(50% - 15px);
+          width: 30px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+        }
+
+        .mobile-menu-item h3 {
+        }
+
+        /* School icons */
+        .school-item-1:before {
+          background-image: url("/images/icon/skola.svg");
+        }
+        .school-item-2:before {
+          background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg");
+        }
+        .school-item-3:before {
+          background-image: url("/images/icon/skolka.svg");
+        }
+        .school-item-4:before {
+          background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
+        }
+        .school-item-5:before {
+          background-image: url("/images/icon/kurz/svp-enviro.svg");
+        }
+        .school-item-6:before {
+          background-image: url("/images/icon/kurz/svt-enviro.svg");
+        }
+        .school-item-7:before {
+          background-image: url("/images/icon/friendship.svg");
+        }
+        .school-item-8:before {
+          background-image: url("/images/icon/kurz/svt-enviro.svg");
+        }
+        .school-item-9:before {
+          background-image: url("/images/icon/hiking.svg");
+        }
+
+        /* Public icons */
+        .public-item-1:before {
+          background-image: url("/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg");
+        }
+        .public-item-2:before {
+          background-image: url("/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg");
+        }
+        .public-item-3:before {
+          background-image: url("/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg");
+        }
+        .public-item-4:before {
+          background-image: url("/images/icon/kurz/city-enviro.svg");
+        }
+        .public-item-5:before {
+          background-image: url("/images/icon/kurz/boy.svg");
+        }
+      </style>
+        <div class="kurz-nav">
+          <div class="mobile-aktivity-switch">
+            <!-- Pro školy section -->
+            <div class="mobile-aktivity-button">Pro školy</div>
+            <div class="mobile-menu-items  aktivity-mobil">
+              <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="mobile-menu-item school-item-1">
+                <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
+              </a>
+              <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="mobile-menu-item school-item-2">
+                <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
+              </a>
+              <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="mobile-menu-item school-item-3">
+                <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
+              </a>
+              <a href="/lyzovani/skolni-lyzarsky-kurz" class="mobile-menu-item school-item-4">
+                <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
+              </a>
+              <a href="/enviro/svp" class="mobile-menu-item school-item-5">
+                <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
+              </a>
+              <a href="/enviro/tym" class="mobile-menu-item school-item-6">
+                <h3>ŠKOLA V PŘÍRODĚ "V TÝMU"</h3>
+              </a>
+              <a href="/enviro/ss-tym" class="mobile-menu-item school-item-7">
+                <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
+              </a>
+              <a href="/enviro/labyrint" class="mobile-menu-item school-item-8">
+                <h3>"LABYRINT SVĚTA A RÁJ SRDCE" PRO STŘEDNÍ ŠKOLY</h3>
+              </a>
+              <a href="/vylety" class="mobile-menu-item school-item-9">
+                <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
+              </a>
+            </div>
+            <!-- Pro veřejnost section -->
+            <div class="mobile-aktivity-button">Pro veřejnost</div>
+            <div class="mobile-menu-items  aktivity-mobil">
+              <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="mobile-menu-item public-item-1">
+                <h3>Letní příměstské plavecké tábory 2025</h3>
+              </a>
+              <a href="https://zsprodeti.cz/plavani/letni-pobytove-tabory" class="mobile-menu-item public-item-2">
+                <h3>Letní pobytový plavecký tábor</h3>
+              </a>
+              <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="mobile-menu-item public-item-3">
+                <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h3>
+              </a>
+              <a href="/enviro/primestske-tabory-enviro" class="mobile-menu-item public-item-4">
+                <h3>Příměstské tábory "Aktivní léto"</h3>
+              </a>
+              <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="mobile-menu-item public-item-5" style="justify-self: flex-start;">
+                <h3>INDIVIDUÁLNÍ KURZY</h3>
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
     """
   end
+
+  # def aktivity(assigns) do
+  #   ~H"""
+  #   <div class="kurz-nav">
+  #     <a class="aktivity-switch-button" href="/aktivity#skoly">
+  #       <h3>Pro školy</h3>
+  #     </a>
+  #     <ul class="mini-skoly">
+  #         <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz">
+  #           <h3>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
+  #         </a>
+  #         <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz">
+  #           <h3>PŘÍMĚSTSKÝ ŠKOLNÍ PLAVECKÝ KURZ</h3>
+  #         </a>
+  #         <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz">
+  #           <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
+  #         </a>
+  #         <a href="/lyzovani/skolni-lyzarsky-kurz">
+  #           <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
+  #         </a>
+  #         <a href="/enviro/svp">
+  #           <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
+  #         </a>
+  #         <a href="/enviro/tym">
+  #           <h3>ŠKOLA V PŘÍRODĚ "V TÝMU"</h3>
+  #         </a>
+  #         <a href="/enviro/ss-tym">
+  #           <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
+  #         </a>
+  #         <a href="/vylety">
+  #           <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
+  #         </a>
+  #     <a href="https://zsprodeti.cz/plavani/skolni-pobytovy-plavecky-kurz" class="kurz-item">
+  #       <img src="/images/icon/skola.svg" alt="skola" />
+  #       <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
+  #       </span>
+  #     </a>
+  #     <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
+  #       <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka" />
+  #       <h4>Příměstský školní plavecký kurz</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
+  #       </span>
+  #     </a>
+  #     <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
+  #       <img src="/images/icon/skolka.svg" alt="Šipka" />
+  #       <h4>Předškolní plavecký <br /> kurz</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
+  #       </span>
+  #     </a>
+  #   </div>
+  #   <a class="mobile-menu-link zs-menu-plavani" href="/plavani/verejnost">
+  #     Domovská stránka veřejnost
+  #   </a>
+  #   <div class="kurz-nav">
+  #     <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="kurz-item">
+  #       <img alt="Logo kurzu" src="/images/icon/kurz/letni-primestsky-plavecky-tabor.svg" />
+  #       <h4>Letní příměstské tábory</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+  #       </span>
+  #     </a>
+  #     <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
+  #       <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
+  #       <h4>Víkendové kurzy plavání 2025</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+  #       </span>
+  #     </a>
+  #     <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="kurz-item">
+  #       <img alt="Logo kurzu" src="/images/icon/kurz/vikendove-a-primestske-kurzy-plavani.svg" />
+  #       <h4>Individuální lekce</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+  #       </span>
+  #     </a>
+  #     <a href="https://zsprodeti.cz/plavani/summer-camp" class="kurz-item">
+  #       <img alt="Logo kurzu" src="/images/icon/priroda.svg" />
+  #       <h4>Letní pobytové tábory</h4>
+  #       <span class="inline-button align-right plavani-link">
+  #         Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+  #       </span>
+  #     </a>
+  #   </div>
+  #   """
+  # end
 
   def plavani(assigns) do
     ~H"""
@@ -147,13 +339,6 @@ defmodule Aktivity do
       <a href="/enviro/ss-tym" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/svt-enviro.svg" />
         <h4>"V týmu" pro střední školy</h4>
-        <span class="inline-button align-right enviro-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
-        </span>
-      </a>
-      <a href="/enviro/labyrint" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/svt-enviro.svg" />
-        <h4>"Labyrint světa a ráj srdce" pro střední školy</h4>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
