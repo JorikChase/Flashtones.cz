@@ -348,7 +348,7 @@ defmodule Aktivity do
     <div class="kurz-nav">
       <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
-        <h4>Příměstské tábory "Enviro"</h4>
+        <h4>Letní příměstské tábory "Aktivní léto se ZŠ PRO DĚTI"</h4>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
@@ -356,13 +356,6 @@ defmodule Aktivity do
       <a href="/enviro/letni-pobytove-tabory" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/weekend-enviro.svg" />
         <h4>Letní pobytové tábory ZŠ PRO DĚTI</h4>
-        <span class="inline-button align-right enviro-link">
-          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
-        </span>
-      </a>
-      <a href="/enviro/letni-primestske-tabory-v-tymu" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/kurz/weekend-enviro.svg" />
-        <h4>Letní příměstské tábory V týmu</h4>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>

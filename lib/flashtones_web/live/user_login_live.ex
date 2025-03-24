@@ -22,29 +22,29 @@ defmodule FlashtonesWeb.UserLoginLive do
     <MenuMobile.menuDetiMobile />
     <div class="mx-auto max-w-sm odsazeni-login">
       <.header class="text-center">
-        Log in to account
+        Přihlásit se do účtu
         <:subtitle>
-          Don't have an account?
+          Nemáte účet?
           <.link navigate={~p"/users/register"} class="font-semibold text-brand hover:underline">
-            Sign up
+            Zaregistrovat se
           </.link>
-          for an account now.
+          <br />Zplnoprávnění účtu vyžaduje úkon administrátora.
         </:subtitle>
       </.header>
 
       <.simple_form for={@form} id="login_form" action={~p"/users/log_in"} phx-update="ignore">
-        <.input field={@form[:email]} type="email" label="Email" required />
-        <.input field={@form[:password]} type="password" label="Password" required />
+        <.input field={@form[:email]} type="email" label="E-mail" required />
+        <.input field={@form[:password]} type="password" label="Heslo" required />
 
         <:actions>
-          <.input field={@form[:remember_me]} type="checkbox" label="Keep me logged in" />
+          <.input field={@form[:remember_me]} type="checkbox" label="Zůstat přihlášen" />
           <.link href={~p"/users/reset_password"} class="text-sm font-semibold">
-            Forgot your password?
+            Zapomenuté heslo?
           </.link>
         </:actions>
         <:actions>
-          <.button phx-disable-with="Logging in..." class="w-full">
-            Log in <span aria-hidden="true">→</span>
+          <.button phx-disable-with="Přihlašuji..." class="w-full">
+            Přihlásit se <span aria-hidden="true">→</span>
           </.button>
         </:actions>
       </.simple_form>

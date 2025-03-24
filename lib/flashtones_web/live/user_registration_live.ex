@@ -31,16 +31,16 @@ defmodule FlashtonesWeb.UserRegistrationLive do
     ~H"""
     <MenuPc.menuDetiPc />
     <MenuMobile.menuDetiMobile />
-    <HeroSmall.faq />
-    <div class="mx-auto max-w-sm top">
+    <div class="mx-auto max-w-sm odsazeni-login">
       <.header class="text-center">
-        Register for an account
+        Registrovat účet
         <:subtitle>
-          Already registered?
+          Již zaregistrován?
           <.link navigate={~p"/users/log_in"} class="font-semibold text-brand hover:underline">
-            Log in
+            Přihlásit se
           </.link>
-          to your account now.
+          <br />
+          <span>Zplnoprávnění účtu vyžaduje úkon administrátora.</span>
         </:subtitle>
       </.header>
 
@@ -54,15 +54,14 @@ defmodule FlashtonesWeb.UserRegistrationLive do
         method="post"
       >
         <.error :if={@check_errors}>
-          Oops, something went wrong! Please check the errors below.
+          Jejda, něco je špatně! Prosím, zkontrolujte chybové hlášky níže.
         </.error>
 
-        <.input field={@form[:name]} label="Name" required />
-        <.input field={@form[:email]} type="email" label="Email" required />
-        <.input field={@form[:password]} type="password" label="Password" required />
-
+        <.input field={@form[:name]} label="Jméno" required />
+        <.input field={@form[:email]} type="email" label="E-mail" required />
+        <.input field={@form[:password]} type="password" label="Heslo" required />
         <:actions>
-          <.button phx-disable-with="Creating account..." class="w-full">Create an account</.button>
+          <.button phx-disable-with="Vytvářím..." class="w-full">Vytvořit účet</.button>
         </:actions>
       </.simple_form>
     </div>

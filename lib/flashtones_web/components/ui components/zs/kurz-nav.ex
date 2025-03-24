@@ -152,8 +152,10 @@ defmodule KurzNav do
     <div class="kurz-nav">
       <a href="/enviro/primestske-tabory-enviro" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/city-enviro.svg" />
-        <h4>Příměstské tábory "Enviro"</h4>
-        <p>Příměstské tábory ZŠ Enviro jsou určeny dětem prvního a druhého stupně základních škol.</p>
+        <h4>Letní příměstské tábory "Aktivní léto se ZŠ PRO DĚTI"</h4>
+        <p>
+          Připravili jsme pro Vás nový formát příměstského tábora, který je zaměřený na sportovní a tmelící aktivity.
+        </p>
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
@@ -168,7 +170,7 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
       </a>
-      <a href="/enviro/letni-primestske-tabory-v-tymu" class="kurz-item">
+      <%!-- <a href="/enviro/letni-primestske-tabory-v-tymu" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/weekend-enviro.svg" />
         <h4>Letní příměstské tábory V týmu</h4>
         <p>
@@ -177,7 +179,7 @@ defmodule KurzNav do
         <span class="inline-button align-right enviro-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-enviro.svg" />
         </span>
-      </a>
+      </a> --%>
     </div>
     """
   end

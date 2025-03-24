@@ -226,7 +226,7 @@ defmodule DetailLokace do
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
-                        Plavecký bazén Pražačka
+                        PRAHA - PLAVECKÝ BAZÉN PRAŽAČKA
                         </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 17 x 8.5 m, příjemně teplou vodou a neopakovatelným výhledem na Prahu. Je ideální pro výuku dětských plavců i neplavců. </p>
                         </div>
@@ -240,7 +240,7 @@ defmodule DetailLokace do
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
-                        PRAHA - VÝSTAVIŠTĚ
+                        PRAHA - PLAVECKÝ BAZÉN NA VÝSTAVIŠTI
                         </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">K plavání využíváme krytý bazén s rozměry 25 m x 12,5 m s příjemně teplou vodou. Bazén má šest plaveckých drah, na jejich začátku jsou startovní bloky, pod kterými je hloubka 3,8 metrů.</p>
                         </div>
@@ -254,7 +254,7 @@ defmodule DetailLokace do
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
-                        Plavecký bazén Suchdol
+                        PRAHA - PLAVECKÝ BAZÉN SUCHDOL ČZU
                         </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Kurzy probíhají v Sportcentrum Suchdol na univerzitě ČZU. Bazén má rozměry 25x13 metrů. Má pozvolný sestup, který začíná hloubkou 1,2m a končí hloubkou 1,8 m. Součástí budovy je i tělocvična.</p>
                         </div>
@@ -268,7 +268,7 @@ defmodule DetailLokace do
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
-                        Plavecký bazén Radotín
+                        PRAHA - PLAVECKÝ BAZÉN RADOTÍN
                         </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.</p>
                         </div>
@@ -312,7 +312,7 @@ defmodule DetailLokace do
                         <div class="product-text-wrap">
                         <div class="product-text">
                         <span class="cost-wrap"><h4>
-                        Plavecký bazén Brandýs
+                        BRANDÝS NAD LABEM - SPORTCENTRUM BRANDÝS
                         </h4><b>5 450 <side>Kč</side></b></span>
                         <p class="font-normal">Centrum zahrnuje bazén o délce 25 metrů s třemi plaveckými drahami se startovacími bloky.</p>
                         </div>
@@ -327,8 +327,8 @@ defmodule DetailLokace do
                             <div class="product-text-wrap">
                             <div class="product-text">
                             <span class="cost-wrap"><h4>
-                            Plavecký areál Jablonec nad Nisou
-                            </h4><b>5 450 <side>Kč</side></b></span>
+                            JABLONEC - PLAVECKÝ AREÁL JABLONEC NAD NISOU
+                            </h4><b>4 750 <side>Kč</side></b></span>
                             <p class="font-normal">Kurz probíhá v Plaveckém areálu SPORT Jablonec nad Nisou. Bazén tvoří osm 25metrových drah určených k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,7 metru. Směrem k druhému konci stoupá dno na 1,4 metru. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                             </div>
                             <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
@@ -341,14 +341,42 @@ defmodule DetailLokace do
                                 <div class="product-text-wrap">
                                 <div class="product-text">
                                 <span class="cost-wrap"><h4>
-                                Ostrava Bartovice - Ozdravné centrum Ještěrka
-                                </h4><b>5 450 <side>Kč</side></b></span>
+                                OSTRAVA - OZDRAVNÉ CENTRUM JEŠTĚRKA
+                                </h4><b>4 750 <side>Kč</side></b></span>
                                 <p class="font-normal">K plavání využíváme krytý bazén s rozměry 50 x 21 m s příjemně teplou vodou. Část pro neplavce má hloubku od 1,2 do 1,6 m a část pro plavce od 1,8 do 3,7 m. S úplnými začátečníky jsme v začátcích i v dětském bazénu s hloubkou 64 cm. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                                 </div>
                                 <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                                 </div>
                             </a>
                       </div>
+                      <div class="product">
+                                <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-brno-rasinova.pdf">
+                                  <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bazen-rasinova.avif)"></div>
+                                    <div class="product-text-wrap">
+                                    <div class="product-text">
+                                    <span class="cost-wrap"><h4>
+                                    Brno - Lázeňské a relaxační centrum Rašínova
+                                    </h4><b>5 400 <side>Kč</side></b></span>
+                                    <p class="font-normal">Výuka probíhá v Lázeňském a relaxačním centrum Rašínova. K výuce využíváme oválný bazén s délkou 18 m a šířkou 7 m. V nejhlubší části má bazén 2,20 m, u vstupu je hloubka 0,60 m. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí. V případě špatného počasí bude možno využít cvičebního sálu, který je součást střediska.</p>
+                                    </div>
+                                    <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                                    </div>
+                                </a>
+                          </div>
+                          <div class="product">
+                                    <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-brno-ponavka.pdf">
+                                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/bazen-ponavka.avif)"></div>
+                                        <div class="product-text-wrap">
+                                        <div class="product-text">
+                                        <span class="cost-wrap"><h4>
+                                        Brno - Bazén Ponávka
+                                        </h4><b>5 400 <side>Kč</side></b></span>
+                                        <p class="font-normal">K výuce využíváme bazén o délce 25 m. Bazén se nachází v budově bývalých lázní za opraveným charakteristickým proskleným průčelím. K dispozici budeme mít 25 m dlouhý bazén se třemi dráhami o šířce cca 2,3 m. V nejhlubší části má bazén 1,6 m, u vstupu je hloubka 1,15 m. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
+                                        </div>
+                                        <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+                                        </div>
+                                    </a>
+                              </div>
           <%!-- <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-sareza.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.avif)" id="sareza"></div>

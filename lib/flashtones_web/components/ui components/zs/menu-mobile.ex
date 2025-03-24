@@ -765,19 +765,34 @@ defmodule MenuMobile do
       </a>
       <details>
         <style>
-          span.odpornej-hack-pro-petru a.mobile-menu-link {
-            visibility: hidden;
-          }
-          .aktivity-mobil{
-          }
+                div.odpornej-hack-pro-petru a.mobile-menu-link {
+                  visibility: hidden;
+                }
+          <<<<<<< HEAD
+                .aktivity-mobil{
+          =======
+                div.odpornej-hack-pro-petru div:has(div.kurz-nav) {
+                  display: flex;
+                  flex-direction: column-reverse;
+          >>>>>>> 310f6619cfbe7b1ae274af999ebd2edacb7dce1b
+                }
+              
         </style>
         <summary class="zs-menu-black">
           Aktivity
         </summary>
-        <span class="odpornej-hack-pro-petru" style="padding-top: 30px;">
+        <<<<<<< HEAD <span class="odpornej-hack-pro-petru" style="padding-top: 30px;">
           <Aktivity.mobil />
-
-        </span>
+        </<<<<<<>
+        =======
+        <div class="odpornej-hack-pro-petru">
+          <br />
+          <div><Aktivity.plavani /></div>
+          <div><Aktivity.enviro /></div>
+          <div><Aktivity.lyzovani /></div>
+          <div><Aktivity.vylety /></div>
+        </div>
+        >>>>>>> 310f6619cfbe7b1ae274af999ebd2edacb7dce1b
       </details>
       <a href="/blog">
         <h4>Blog</h4>

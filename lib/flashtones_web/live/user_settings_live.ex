@@ -6,17 +6,16 @@ defmodule FlashtonesWeb.UserSettingsLive do
   def render(assigns) do
     ~H"""
     <.header class="text-center top">
-      Account Settings — <%= @current_user.name %>
-      <:subtitle>Manage your account email address and password settings</:subtitle>
+      Nastavení uživatele — <%= @current_user.name %>
+      <:subtitle>Přenastavte si svůj e-mail nebo heslo</:subtitle>
       <.link
         href={~p"/users/log_out"}
         method="delete"
         class="p-10 text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
       >
-        Log out
+        Odhlásit se
       </.link>
     </.header>
-
 
     <div class="space-y-12 divide-y odsazeni">
       <div>
@@ -26,18 +25,18 @@ defmodule FlashtonesWeb.UserSettingsLive do
           phx-submit="update_email"
           phx-change="validate_email"
         >
-          <.input field={@email_form[:email]} type="email" label="Email" required />
+          <.input field={@email_form[:email]} type="email" label="E-mail" required />
           <.input
             field={@email_form[:current_password]}
             name="current_password"
             id="current_password_for_email"
             type="password"
-            label="Current password"
+            label="Stávající heslo"
             value={@email_form_current_password}
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Email</.button>
+            <.button phx-disable-with="Měním...">Změnit e-mail</.button>
           </:actions>
         </.simple_form>
       </div>
@@ -57,23 +56,23 @@ defmodule FlashtonesWeb.UserSettingsLive do
             id="hidden_user_email"
             value={@current_email}
           />
-          <.input field={@password_form[:password]} type="password" label="New password" required />
+          <.input field={@password_form[:password]} type="password" label="Nové heslo" required />
           <.input
             field={@password_form[:password_confirmation]}
             type="password"
-            label="Confirm new password"
+            label="Nové heslo znovu"
           />
           <.input
             field={@password_form[:current_password]}
             name="current_password"
             type="password"
-            label="Current password"
+            label="Stávající heslo"
             id="current_password_for_password"
             value={@current_password}
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Password</.button>
+            <.button phx-disable-with="Měním...">Změnit heslo</.button>
           </:actions>
         </.simple_form>
       </div>
@@ -85,10 +84,10 @@ defmodule FlashtonesWeb.UserSettingsLive do
     socket =
       case Accounts.update_user_email(socket.assigns.current_user, token) do
         :ok ->
-          put_flash(socket, :info, "Email changed successfully.")
+          put_flash(socket, :info, "E-mail změněn úspěšně.")
 
         :error ->
-          put_flash(socket, :error, "Email change link is invalid or it has expired.")
+          put_flash(socket, :error, "Odkaz na změnu e-mailu je nesprávný nebo prošlý.")
       end
 
     {:ok, push_navigate(socket, to: ~p"/users/settings")}
@@ -142,7 +141,7 @@ defmodule FlashtonesWeb.UserSettingsLive do
           &url(~p"/users/settings/confirm_email/#{&1}")
         )
 
-        info = "A link to confirm your email change has been sent to the new address."
+        info = "Odkaz ke změně e-mailu byl odeslán na Vaši novou e-mailovou adresu."
         {:noreply, socket |> put_flash(:info, info) |> assign(email_form_current_password: nil)}
 
       {:error, changeset} ->

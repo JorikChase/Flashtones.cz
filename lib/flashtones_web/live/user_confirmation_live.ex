@@ -6,18 +6,18 @@ defmodule FlashtonesWeb.UserConfirmationLive do
   def render(%{live_action: :edit} = assigns) do
     ~H"""
     <div class="mx-auto max-w-sm">
-      <.header class="text-center">Confirm Account</.header>
+      <.header class="text-center">Ověření účtu</.header>
 
       <.simple_form for={@form} id="confirmation_form" phx-submit="confirm_account">
         <input type="hidden" name={@form[:token].name} value={@form[:token].value} />
         <:actions>
-          <.button phx-disable-with="Confirming..." class="w-full">Confirm my account</.button>
+          <.button phx-disable-with="Ověřuji..." class="w-full">Ověřit účet</.button>
         </:actions>
       </.simple_form>
 
       <p class="text-center mt-4">
-        <.link href={~p"/users/register"}>Register</.link>
-        | <.link href={~p"/users/log_in"}>Log in</.link>
+        <.link href={~p"/users/register"}>Registrovat</.link>
+        | <.link href={~p"/users/log_in"}>Přihlásit</.link>
       </p>
     </div>
     """
@@ -44,7 +44,7 @@ defmodule FlashtonesWeb.UserConfirmationLive do
       {:ok, _} ->
         {:noreply,
          socket
-         |> put_flash(:info, "User confirmed successfully.")
+         |> put_flash(:info, "Účet úspěšně ověřen.")
          |> redirect(to: ~p"/")}
 
       :error ->
@@ -59,7 +59,7 @@ defmodule FlashtonesWeb.UserConfirmationLive do
           %{} ->
             {:noreply,
              socket
-             |> put_flash(:error, "User confirmation link is invalid or it has expired.")
+             |> put_flash(:error, "Odkaz k resetování hesla je nesprávný nebo prošlý.")
              |> redirect(to: ~p"/")}
         end
     end
