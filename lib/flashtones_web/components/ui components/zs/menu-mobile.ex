@@ -551,6 +551,161 @@ defmodule MenuMobile do
         padding: 30px 0 15px 0;
         font-weight: bold;
       }
+      }
+
+      .mobileMenu {
+        z-index: 100;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        padding: 10px 30px 15px 30px;
+        background: rgba(225, 225, 225, 0.8);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        border-radius: 0;
+        gap: 15px;
+        transition: all 0.5s ease;
+      }
+      .mobileMenu > div {
+        display: none;
+      }
+      .mobileMenu > div > a {
+        display: none;
+      }
+      .mobileMenu.open {
+        z-index: 90;
+        height: 100svh;
+      }
+      .mobileMenu.open > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 60px 30px 60px 30px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+      }
+      .mobileMenu.open > div > a {
+        display: block;
+      }
+
+      .mobile-menu-head {
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        transition: all 0.5s ease;
+      }
+      .mobile-menu-head > img {
+        height: 45px;
+        border-radius: 0;
+      }
+      .mobile-menu-head.open img {
+        height: 10px;
+        border-radius: 0;
+      }
+      .mobileMenu .mobile-menu-close  {
+        visibility: hidden;
+        opacity: 0;
+        width: 0;
+      }
+      .mobileMenu.open .mobile-menu-close  {
+        visibility: visible;
+        opacity: 1;
+        width: auto;
+      }
+
+      .socky-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 180px;
+        height: 90px;
+        padding: 30px;
+      }
+
+      summary {
+        font-size: 45px;
+      }
+      details span{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      }
+      .menu-button {
+          width: 45px;
+          height: 45px;
+          position: relative;
+          cursor: pointer;
+          padding: 15px;
+        }
+
+        .menu-button span {
+          display: block;
+          position: absolute;
+          height: 5px;
+          width: 30px;
+          background: var(--academy-main);
+          border-radius: 2px;
+          transform-origin: center;
+          transition: transform 0.3s ease-out, opacity 0.2s ease-out;
+        }
+
+        .menu-button span:nth-child(1) {
+          top: 18px;
+        }
+
+        .menu-button span:nth-child(2) {
+          top: 28px;
+        }
+
+        .menu-button span:nth-child(3) {
+          top: 38px;
+        }
+
+        /* Open state animations */
+        .menu-button.open span:nth-child(1) {
+          transform: translateY(10px) rotate(45deg);
+        }
+
+        .menu-button.open span:nth-child(2) {
+          opacity: 0;
+        }
+
+        .menu-button.open span:nth-child(3) {
+          transform: translateY(-10px) rotate(-45deg);
+        }
+      }
+      @media (max-width: 950px) {
+      .mobileMenu * {
+        display: block;
+      }
+      }
+        @media (min-width: 950px) {
+        .mobileMenu * {
+          visibility: hidden!important;
+          display: none;
+        }
+        .mobileMenu {
+          visibility: hidden!important;
+        }
+        }
     </style>
 
     <dialog class="mobileMenu">
@@ -562,14 +717,14 @@ defmodule MenuMobile do
           <span></span>
         </div>
       </a>
-      <details>
+      <%!-- <details>
         <summary class="zs-menu-plavani" style="padding-top: 5px;">
         Naše aktivity
         </summary>
         <span>
           <Aktivity.aktivity />
         </span>
-      </details>
+      </details> --%>
       <details>
         <summary class="zs-menu-plavani" style="padding-top: 5px;">
           Plavání
@@ -613,15 +768,15 @@ defmodule MenuMobile do
           span.odpornej-hack-pro-petru a.mobile-menu-link {
             visibility: hidden;
           }
+          .aktivity-mobil{
+          }
         </style>
         <summary class="zs-menu-black">
           Aktivity
         </summary>
-        <span class="odpornej-hack-pro-petru">
-          <Aktivity.plavani />
-          <Aktivity.enviro />
-          <Aktivity.lyzovani />
-          <Aktivity.vylety />
+        <span class="odpornej-hack-pro-petru" style="padding-top: 30px;">
+          <Aktivity.mobil />
+
         </span>
       </details>
       <a href="/blog">

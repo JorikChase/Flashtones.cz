@@ -26,12 +26,13 @@ defmodule FlashtonesWeb.DomaIndexLive do
     <Nav.nav />
     <MenuMobile.menuDomaMobile />
     <MenuPc.menuDomaPc />
-    <Hero.domaLanding />
+    <Hero.domaHome />
     <Hero.domaHero />
     <!--<Aktuality.aktuality />-->
     <div class="odsazeni">
       <General.doma />
     </div>
+      <%!-- <General.bota /> --%>
     <Instagram.deti />
     <Kdo.doma />
     <Rekli.rekliDoma />

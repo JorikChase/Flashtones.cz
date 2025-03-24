@@ -65,6 +65,7 @@ defmodule FlashtonesWeb.Router do
     live "/lyzovani/lokality", LocationsLyzovaniLive
     live "/enviro/lokality", LocationsEnviroLive
     live "/doma", DomaIndexLive
+    live "/doma/bota", DomaBotaKomiksLive
     live "/doma/courses", DomaCoursesLive
     live "/enviro", EnviroIndexLive
     live "/enviro/verejnost", EnviroIndexVerejnostLive
