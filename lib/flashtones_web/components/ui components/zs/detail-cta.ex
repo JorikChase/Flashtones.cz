@@ -234,9 +234,10 @@ defmodule DetailCta do
   def plavaniCitySummer(assigns) do
     ~H"""
     <style>
-      .detail-cta{
-        max-width:30vw;
-      }
+      @media (orientation: landscape) {
+        .detail-cta{
+          max-width:30vw;
+        }}
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
