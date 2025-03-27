@@ -608,7 +608,7 @@ defmodule MenuMobile do
         transition: all 0.5s ease;
       }
       .mobile-menu-head > img {
-        height: 45px;
+        height: 40px;
         border-radius: 0;
       }
       .mobile-menu-head.open img {
@@ -786,6 +786,8 @@ defmodule MenuMobile do
         </<<<<<<>
         =======
         <div class="odpornej-hack-pro-petru">
+        <Aktivity.mobil />
+        <div class="odpornej-hack-pro-petru" style="padding-top: 30px;">
           <br />
           <div><Aktivity.plavani /></div>
           <div><Aktivity.enviro /></div>

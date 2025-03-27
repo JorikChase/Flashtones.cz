@@ -64,50 +64,248 @@ defmodule Hero do
   def deti(assigns) do
     ~H"""
     <style>
-      #hero-heading{
-        color: white;
-        text-shadow: 1px 1px 20px black;
+      #hero {
+        padding: 35px 5px 5px 5px;
+        height: 100svh;
       }
-      .hero-media{
-        transform: scaleY(-1);
-        background-position: center bottom;
-        filter: saturate(0.9);
-        filter: brightness(0.9);
-        filter: contrast(0.7);
+      #hero-title {
+        font-size: calc(40px + 0.5vw);
       }
-      .hero-button{
-        transition: all 0.5s ease-in-out;
-        background: rgba(0, 0, 0, 0.5);
-        transform: scale(1);
-        border-radius: 40px;
+      #hero-button {
+        width: fit-content;
+        background: #D70022;
       }
-      .hero-button:hover{
-        font-size: 4.1vh;
-        transform: scale(1.2);
-        background: rgba(0, 0, 0, 0.7);
+      /* Responsive text to ensure readability even at 200% zoom */
+      .responsive-text {
+        font-size: calc(1rem + 0.5vw);
       }
-      @media(orientation: portrait){
-        .hero-media{
-          background-position: center!important;
+      #hero-content {
+        padding: 0 5% 45px 5%;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(2,0,36,0.5444126074498568) 0%, rgba(0,212,255,0) 46%);
+      }
+      #hero-content-inside {
+        width: 50%;
+      }
+      @media (orientation: portrait) {
+      #hero-title {
+        font-size: calc(35px + 0.5vw);
+      }
+      #hero {
+        padding: 35px 5px 5px 5px;
+        height: calc(100svh - 35px);
+      }
+        #hero-content {
+          padding: 0 15px 45px 15px;
         }
-        .hero-media{
-          bottom: unset;
-          height: 80vh;
+        #hero-content-inside {
+          width: 100%;
         }
+      }
+      /* Navigation dots styling */
+      #carousel-nav {
+        z-index: 100;
+        position: relative;
+        bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        opacity: 0; /* Hidden by default; toggle as needed for UX */
+        transition: opacity 0.5s;
+      }
+      #carousel-nav.visible {
+        opacity: 1;
+      }
+      .carousel-dot {
+        width: 12px;
+        height: 12px;
+        background: rgba(255,255,255,0.5);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      .carousel-dot.active {
+        background: #D70022;
       }
     </style>
-    <div class="hero">
-      <div class="hero-content">
-        <h1 id="hero-heading">
-          Pořádáme sportovní a vzdělávací akce <br /> pro školy i pro veřejnost
-        </h1>
-        <br />
-        <br />
-        <a id="hero-button" class="hero-button" href="#course-marker">Naše aktivity</a>
-      </div>
-      <div class="hero-media" style="background-image: url(/images/deti/deti-bg.avif);"></div>
+
+    <div class="relative h-screen overflow-hidden" id="hero">
+      <!-- Hero Section with Interactive Activity Rotation -->
+      <main class="relative h-full">
+        <div
+          id="hero-background"
+          class="absolute inset-0 bg-cover bg-center transform scale-y-[-1] filter saturate-90 brightness-90 contrast-75 transition-all duration-1000"
+          style="background-image: url('/images/deti/primestak-head.jpg');"
+          role="img"
+          aria-label="primestske tabory"
+        >
+        </div>
+
+        <div class="relative z-10 h-full flex flex-col justify-end pl-10" id="hero-content">
+          <div class="flex flex-col justify-center" style="padding: 30px 0;" id="hero-content-inside">
+            <h1
+              id="hero-title"
+              class="text-9xl md:text-9xl text-white font-bold drop-shadow-lg mb-4 responsive-text"
+            >
+              Máme otevřené registrace na letní příměstské tábory s plaváním
+            </h1>
+            <p
+              id="hero-description"
+              class="text-lg md:text-2xl text-white drop-shadow-md mb-8 responsive-text"
+            >
+              Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava
+            </p>
+            <a
+              id="hero-button"
+              href="/plavani/letni-primestske-tabory"
+              class="inline-block px-8 py-4 text-lg font-semibold text-white bg-opacity-50 rounded-full transition duration-500 ease-in-out transform hover:scale-110 hover:bg-opacity-70 responsive-text focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            >
+              Více informací
+            </a>
+            <div
+              class="relative top-5 right-5 h-1 bg-gray-300"
+              aria-hidden="true"
+              style="width: 105px; margin-top: 60px; left: 15px;"
+            >
+              <div id="loading-bar" class="h-full" style="width: 0%; background: #cf0c0c;"></div>
+              <div id="carousel-nav">
+                <!-- Navigation dots will be generated here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    <span id="course-marker"></span>
+
+    <!-- JavaScript for activity rotation, loading bar, and manual navigation -->
+    <script>
+      const activities = [
+        {
+          title: 'Škola v přírodě s výukou plavání!',
+          description: 'Význam výzkumu o efektivitě plaveckých kurzů pro školní výuku',
+          buttonText: 'Přečíst',
+          buttonLink: '/plavani/clanek/vyznam-vyzkumu-o-efektivite-plaveckych-kurzu-pro-skolni-vyuku',
+          bgImage: "images/deti/pobytovy-head.jpg"
+        },
+        {
+          title: 'Spustili jsme rezervace na lyžařské kurzy 2026!',
+          description: 'Jezdíme do všech Českých hor, i do Rakouských Alp.',
+          buttonText: 'Více informací',
+          buttonLink: '/lyzovani/skolni-lyzarsky-kurz',
+          bgImage: "images/deti/lyzovani-head.jpg"
+        },
+        {
+          title: 'Máme otevřené registrace na letní příměstské tábory s plaváním',
+          description: 'Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava',
+          buttonText: 'Více informací',
+          buttonLink: '/plavani/letni-primestske-tabory',
+          bgImage: "/images/deti/primestak-head.jpg"
+        },
+        {
+          title: 'Nový kurz Labyrint pro střední školy je tu!',
+          description: 'Labyrint světa a ráj srdce je jedinečný třídenní program zaměřený na rozvoj sebevědomí, hodnot, integrity a schopnosti plánování a dosahování cílů.',
+          buttonText: 'Rezervovat',
+          buttonLink: '/enviro/labyrint',
+          bgImage: "images/deti/labyrint-head.jpg"
+        },
+        {
+          title: 'Kurz "V týmu" pro základní i střední školy nově s metodou sociomappingu',
+          description: 'Jako vůbec první používáme sociomapping na školách v přírodě.',
+          buttonText: 'Více informací',
+          buttonLink: '/enviro/tym',
+          bgImage: "images/deti/tym-head.jpg"
+        }
+      ];
+
+      let currentActivity = 0;
+      let cycleTimeout;
+      const titleEl = document.getElementById('hero-title');
+      const descEl = document.getElementById('hero-description');
+      const buttonEl = document.getElementById('hero-button');
+      const bgEl = document.getElementById('hero-background');
+      const loadingBarEl = document.getElementById('loading-bar');
+      const carouselNavEl = document.getElementById('carousel-nav');
+      let navDots = [];
+
+      function updateActivity() {
+        const activity = activities[currentActivity];
+        bgEl.style.backgroundImage = `url('${activity.bgImage}')`;
+
+        // Fade out texts before updating
+        titleEl.classList.add('opacity-0');
+        descEl.classList.add('opacity-0');
+        buttonEl.classList.add('opacity-0');
+
+        setTimeout(() => {
+          titleEl.textContent = activity.title;
+          descEl.textContent = activity.description;
+          buttonEl.textContent = activity.buttonText;
+          buttonEl.setAttribute('href', activity.buttonLink);
+          titleEl.classList.remove('opacity-0');
+          descEl.classList.remove('opacity-0');
+          buttonEl.classList.remove('opacity-0');
+        }, 500);
+
+        updateNavDots();
+      }
+
+      function updateNavDots() {
+        navDots.forEach((dot, index) => {
+          if (index === currentActivity) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      }
+
+      function startLoadingBar() {
+        loadingBarEl.style.transition = 'width 7.5s linear';
+        loadingBarEl.style.width = '100%';
+      }
+
+      function resetLoadingBar() {
+        loadingBarEl.style.transition = 'none';
+        loadingBarEl.style.width = '0%';
+        void loadingBarEl.offsetWidth;
+      }
+
+      function cycleActivities() {
+        resetLoadingBar();
+        startLoadingBar();
+        cycleTimeout = setTimeout(() => {
+          currentActivity = (currentActivity + 1) % activities.length;
+          updateActivity();
+          cycleActivities();
+        }, 7654);
+      }
+
+      // Generate navigation dots and add event listeners for manual control
+      function initCarouselNav() {
+        activities.forEach((_, index) => {
+          const dot = document.createElement('div');
+          dot.classList.add('carousel-dot');
+          dot.addEventListener('click', () => {
+            clearTimeout(cycleTimeout);
+            currentActivity = index;
+            updateActivity();
+            cycleActivities();
+          });
+          carouselNavEl.appendChild(dot);
+          navDots.push(dot);
+        });
+        // Optionally, show the nav on hover or always visible for easier UX
+        carouselNavEl.classList.add('visible');
+        updateNavDots();
+      }
+
+      window.addEventListener('load', () => {
+        initCarouselNav();
+        cycleActivities();
+      });
+    </script>
     """
   end
 
@@ -149,6 +347,35 @@ defmodule Hero do
       <div class="hero-media" style="background-image: url(/images/academy/academy-head.avif);"></div>
     </div>
     <span id="course-marker"></span>
+    """
+  end
+
+  def domaHome(assigns) do
+    ~H"""
+    <style>
+      .ripple-container {
+        padding-top: 30px;
+        width: 100svw;
+        height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        background-color: #bee3e6;
+        margin-bottom: 30px;
+      }
+      .doma-video {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+      }
+    </style>
+    <a class="ripple-container" href="#map-container">
+      <video autoplay loop muted playsinline class="doma-video">
+        <source src="/images/doma/animation.webm" type="video/webm" />
+      </video>
+    </a>
     """
   end
 
@@ -210,7 +437,7 @@ defmodule Hero do
 
       .socci-map-wrap {
         width: 100%;
-        height: 90vh;
+        height: 100svh;
         background-color: #bee3e6;
         overflow: hidden;
         transition: all 0.5s ease-in-out;
@@ -226,16 +453,17 @@ defmodule Hero do
       #map-container {
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 90%;
         cursor: grab;
         transition: none;
+
       }
 
       #map-container.grabbing {
         cursor: grabbing;
       }
       #map-container img{
-        height: 75%;
+        height: 150%;
       }
       #map-container > div {
         position: absolute;
@@ -259,7 +487,7 @@ defmodule Hero do
         padding: 1px 2px;
         border-radius: 1px;
         text-align: center;
-        font-size: 5px;
+        font-size: 25px;
         font-weight: bold;
         color: white;
         user-select: none;
@@ -281,17 +509,13 @@ defmodule Hero do
       <div class="socci-map-wrap" id="SocciMap">
         <div id="map-container">
           <div id="layer4" data-speed="0.5">
-            <img alt="Background Layer" src="/images/doma/socci-base.png" />
+            <img alt="Background Layer" src="/images/doma/socci-base-island.avif" />
           </div>
-          <a href="https://ostrovsocci.cz/" class="map-link" style="top: 30%; left: 40%;">
+          <a href="https://ostrovsocci.cz/" class="map-link" style="bottom: 30%; left: 40%;">
             Ostrov Socci
           </a>
-          <a href="/doma/postavy" class="map-link" style="top: 50%; left: 55%;">
-            postavy
-          </a>
-          <%!-- <a href="#" class="map-link" style="top: 70%; left: 30%;">Hudba</a> --%>
-          <a href="#komiks" class="map-link" style="top: 40%; left: 50%;">Komix</a>
-          <a href="#" class="map-link" style="top: 30%; left: 50%;">Hra</a>
+          <a href="/doma/postavy" class="map-link" style="top: 50%; left: 60%;"> Postavy </a>
+          <a href="/doma/bota" class="map-link" style="top: 12%; right: 30%;"> Komix </a>
           <div id="layer3" data-speed="1">
             <img alt="cloud Layer" src="/images/doma/socci-mraky-base.png" />
           </div>
@@ -318,7 +542,7 @@ defmodule Hero do
       let scale = 1;
       const zoomSpeed = 0.01;
       const maxZoom = 3;
-      const minZoom = 0.5;
+      const minZoom = 1;
 
       // Handle mouse down (start dragging)
       mapContainer.addEventListener('mousedown', (e) => {
@@ -710,133 +934,133 @@ defmodule Hero do
   def instruktori(assigns) do
     ~H"""
     <style>
-    .instruktori-hero {
-      margin-top: 60px;
-      width: 100%;
-      min-height: 100svh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px 0;
-    }
-
-    .instruktori-hero-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
-      width: 90%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .instruktori-hero-item {
-      position: relative;
-      width: 100%;
-      aspect-ratio: 1/1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-decoration: none;
-      border-radius: 8px;
-      overflow: hidden;
-      transition: transform 0.2s ease;
-    }
-
-    .instruktori-hero-item:hover {
-      transform: scale(1.05);
-    }
-
-    .instruktori-hero-item:focus-visible {
-      outline: 3px solid #000;
-      outline-offset: 2px;
-    }
-
-    .instruktori-hero-image {
-      width: 100%;
-      height: 75%;
-      object-fit: contain;
-    }
-
-    .instruktori-hero-footer:has(#academy-logo) {
-    height: 65px;
-    }
-
-    .instruktori-hero-footer {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 5px;
-      width: 100%;
-      background: #fff;
-      padding: 15px;
-      border-radius: 0;
-    }
-
-    .instruktori-hero-logo {
-      height: 35px;
-      width: auto;
-      object-fit: contain;
-      border-radius: 0;
-    }
-    #academy-logo {
-      height: 25px;
-    }
-
-    .instruktori-hero-arrow {
-      width: 30px;
-      height: 30px;
-      border-radius: 0;
-      position: relative;
-      top: 4px;
-    }
-
-    .marcel { background: var(--deti-light); }
-    .chobotnice { background: var(--plavani-light); }
-    .chameleon { background: var(--enviro-light); }
-    .vlocka { background: var(--lyzovani-light); }
-    .obr { background: var(--vylety-light); }
-    .standa { background: var(--academy-light); }
-
-    @media (max-width: 768px) {
       .instruktori-hero {
-        margin-top: 0;
+        margin-top: 60px;
+        width: 100%;
+        min-height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
       }
-      .instruktori-hero-grid {
-        grid-template-columns: repeat(2, 1fr);
-        width: 95%;
-        gap: 15px;
-      }
-      .instruktori-hero-item {
-        padding: 10px;
-      }
-    }
 
-    @media (orientation: portrait) {
-    .instruktori-hero-footer {
-    background: transparent;
-    padding: 0;
-    }
-    .instruktori-hero-arrow {
-    display: none;
-    }
-    }
-    @media (max-width: 480px) {
       .instruktori-hero-grid {
-        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
       }
-      #academy-logo{
-        padding-top: 15px;
-      }
-    }
 
-    @media (prefers-reduced-motion: reduce) {
       .instruktori-hero-item {
-        transition: none;
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-decoration: none;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.2s ease;
       }
+
       .instruktori-hero-item:hover {
-        transform: none;
+        transform: scale(1.05);
       }
-    }
+
+      .instruktori-hero-item:focus-visible {
+        outline: 3px solid #000;
+        outline-offset: 2px;
+      }
+
+      .instruktori-hero-image {
+        width: 100%;
+        height: 75%;
+        object-fit: contain;
+      }
+
+      .instruktori-hero-footer:has(#academy-logo) {
+      height: 65px;
+      }
+
+      .instruktori-hero-footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        width: 100%;
+        background: #fff;
+        padding: 15px;
+        border-radius: 0;
+      }
+
+      .instruktori-hero-logo {
+        height: 35px;
+        width: auto;
+        object-fit: contain;
+        border-radius: 0;
+      }
+      #academy-logo {
+        height: 25px;
+      }
+
+      .instruktori-hero-arrow {
+        width: 30px;
+        height: 30px;
+        border-radius: 0;
+        position: relative;
+        top: 4px;
+      }
+
+      .marcel { background: var(--deti-light); }
+      .chobotnice { background: var(--plavani-light); }
+      .chameleon { background: var(--enviro-light); }
+      .vlocka { background: var(--lyzovani-light); }
+      .obr { background: var(--vylety-light); }
+      .standa { background: var(--academy-light); }
+
+      @media (max-width: 768px) {
+        .instruktori-hero {
+          margin-top: 0;
+        }
+        .instruktori-hero-grid {
+          grid-template-columns: repeat(2, 1fr);
+          width: 95%;
+          gap: 15px;
+        }
+        .instruktori-hero-item {
+          padding: 10px;
+        }
+      }
+
+      @media (orientation: portrait) {
+      .instruktori-hero-footer {
+      background: transparent;
+      padding: 0;
+      }
+      .instruktori-hero-arrow {
+      display: none;
+      }
+      }
+      @media (max-width: 480px) {
+        .instruktori-hero-grid {
+          gap: 10px;
+        }
+        #academy-logo{
+          padding-top: 15px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .instruktori-hero-item {
+          transition: none;
+        }
+        .instruktori-hero-item:hover {
+          transform: none;
+        }
+      }
     </style>
 
     <div class="instruktori-hero odsazeni">
@@ -849,9 +1073,17 @@ defmodule Hero do
           </div>
         </a>
         <a href="#instruktori-plavani" class="instruktori-hero-item chobotnice">
-          <img src="/images/instruktori/chobotnice.png" alt="Chobotnice" class="instruktori-hero-image" />
+          <img
+            src="/images/instruktori/chobotnice.png"
+            alt="Chobotnice"
+            class="instruktori-hero-image"
+          />
           <div class="instruktori-hero-footer">
-            <img src="/images/plavani/plavani-logo.svg" class="instruktori-hero-logo" alt="plavani logo" />
+            <img
+              src="/images/plavani/plavani-logo.svg"
+              class="instruktori-hero-logo"
+              alt="plavani logo"
+            />
             <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
           </div>
         </a>
@@ -865,7 +1097,11 @@ defmodule Hero do
         <a href="#instruktori-lyzovani" class="instruktori-hero-item vlocka">
           <img src="/images/instruktori/vlocka.png" alt="Vlocka" class="instruktori-hero-image" />
           <div class="instruktori-hero-footer">
-            <img src="/images/lyzovani/lyzovani-logo.svg" class="instruktori-hero-logo" alt="lyzovani logo" />
+            <img
+              src="/images/lyzovani/lyzovani-logo.svg"
+              class="instruktori-hero-logo"
+              alt="lyzovani logo"
+            />
             <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
           </div>
         </a>
@@ -879,7 +1115,12 @@ defmodule Hero do
         <a href="#instruktori-academy" class="instruktori-hero-item standa">
           <img src="/images/instruktori/standa.png" alt="Standa" class="instruktori-hero-image" />
           <div class="instruktori-hero-footer">
-            <img src="/images/academy/academy-logo.svg" class="instruktori-hero-logo" id="academy-logo" alt="academy logo" />
+            <img
+              src="/images/academy/academy-logo.svg"
+              class="instruktori-hero-logo"
+              id="academy-logo"
+              alt="academy logo"
+            />
             <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
           </div>
         </a>

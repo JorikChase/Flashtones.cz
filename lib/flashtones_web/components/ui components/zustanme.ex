@@ -44,7 +44,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -97,7 +97,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -149,7 +149,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -201,7 +201,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -253,7 +253,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -305,7 +305,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -357,7 +357,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
@@ -409,7 +409,7 @@ defmodule Zustanme do
           />
         </form>
       </div>
-      <div class="socky-icons">
+      <div class="socky-icons" style="position: relative;">
         <img class="zustanme-bg" src="/images/ft/marcel-zustanme-bg.png" alt="zustanme ilustrace" />
       </div>
     </div>
