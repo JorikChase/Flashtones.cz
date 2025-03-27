@@ -1,6 +1,102 @@
 defmodule General do
   use Phoenix.Component
 
+  def bota(assigns) do
+    ~H"""
+    <style>
+    .comic-container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          background: #fff;
+        }
+        .comic-image {
+          width: 100%;
+          height: auto;
+          display: block;
+          margin-bottom: 10px;
+        }
+        /* Floating image styling */
+        .floating-image {
+          position: fixed;
+          bottom: 20px;         /* Adjust the top position as needed */
+          left: -100%;      /* Start completely offscreen */
+          transition: left 0.75s ease-in-out;
+          z-index: 1000;     /* Ensure it appears above other content */
+          max-height: 60vh;
+        }
+        .floating-image.active {
+          left: 20px;       /* Slide into view */
+        }
+    </style>
+
+    <div class="comic-container" id="komiks">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_1.jpg" alt="Comic page 1">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_2.jpg" alt="Comic page 2">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_3.jpg" alt="Comic page 3">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_4.jpg" alt="Comic page 4">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_5.jpg" alt="Comic page 5">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_6.jpg" alt="Comic page 6">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_7.jpg" alt="Comic page 7">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_8.jpg" alt="Comic page 8">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_9.jpg" alt="Comic page 9">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_10.jpg" alt="Comic page 10">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_11.jpg" alt="Comic page 11">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_12.jpg" alt="Comic page 12">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_13.jpg" alt="Comic page 13">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_14.jpg" alt="Comic page 14">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_15.jpg" alt="Comic page 15">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_16.jpg" alt="Comic page 16">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_17.jpg" alt="Comic page 17">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_18.jpg" alt="Comic page 18">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_19.jpg" alt="Comic page 19">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_20.jpg" alt="Comic page 20">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_21.jpg" alt="Comic page 21">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_22.jpg" alt="Comic page 22">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_23.jpg" alt="Comic page 23">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_24.jpg" alt="Comic page 24">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_25.jpg" alt="Comic page 25">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_26.jpg" alt="Comic page 26">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_27.jpg" alt="Comic page 27">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_28.jpg" alt="Comic page 28">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_29.jpg" alt="Comic page 29">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_30.jpg" alt="Comic page 30">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_31.jpg" alt="Comic page 31">
+      <img class="comic-image" src="/images/socci/kapela-z-boty/kapela_z_boty_32.jpg" alt="Comic page 32">
+    </div>
+
+    <img id="floatingImage" class="floating-image" src="/images/socci/vlozka/vlozka-intro-1.png" alt="Floating image">
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Select the third comic image (change selector if needed)
+          var targetImage = document.querySelector('img[alt="Comic page 3"]');
+          var floatingImage = document.getElementById('floatingImage');
+
+          // Create the observer
+          var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              // When the target image is in view, add the "active" class to slide in the floating image.
+              if (entry.isIntersecting) {
+                floatingImage.classList.add("active");
+              } else {
+                floatingImage.classList.remove("active");
+              }
+            });
+          }, {
+            threshold: 0.5 // Adjust the threshold value as needed
+          });
+
+          // Start observing the target image
+          if (targetImage) {
+            observer.observe(targetImage);
+          }
+        });
+      </script>
+
+    """
+  end
+
   def studio(assigns) do
     ~H"""
     <style>
