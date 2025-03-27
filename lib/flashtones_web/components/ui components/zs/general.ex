@@ -91,6 +91,12 @@ defmodule General do
           if (targetImage) {
             observer.observe(targetImage);
           }
+          .floating-image.active {
+            left: 20px;       /* Slide into view */
+          }
+          .active {
+              background: transparent;
+          }
         });
       </script>
 
