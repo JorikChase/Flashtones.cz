@@ -235,19 +235,6 @@ defmodule MenuMobile do
           width: auto;
         }
 
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
-        }
-
         summary {
           font-size: 45px;
         }
@@ -480,19 +467,6 @@ defmodule MenuMobile do
           width: auto;
         }
 
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
-        }
-
         summary {
           font-size: 45px;
         }
@@ -624,19 +598,6 @@ defmodule MenuMobile do
         visibility: visible;
         opacity: 1;
         width: auto;
-      }
-
-      .socky-icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 180px;
-        height: 90px;
-        padding: 30px;
       }
 
       summary {
@@ -911,19 +872,6 @@ defmodule MenuMobile do
           width: auto;
         }
 
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
-        }
-
         summary {
           font-size: 45px;
         }
@@ -1154,19 +1102,6 @@ defmodule MenuMobile do
           visibility: visible;
           opacity: 1;
           width: auto;
-        }
-
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
         }
 
         summary {
@@ -1401,19 +1336,6 @@ defmodule MenuMobile do
           width: auto;
         }
 
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
-        }
-
         summary {
           font-size: 45px;
         }
@@ -1644,19 +1566,6 @@ defmodule MenuMobile do
           visibility: visible;
           opacity: 1;
           width: auto;
-        }
-
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
         }
 
         summary {
@@ -1891,19 +1800,6 @@ defmodule MenuMobile do
           width: auto;
         }
 
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
-        }
-
         summary {
           font-size: 45px;
         }
@@ -2134,19 +2030,6 @@ defmodule MenuMobile do
           visibility: visible;
           opacity: 1;
           width: auto;
-        }
-
-        .socky-icons {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          position: fixed;
-          bottom: 0;
-          right: 0;
-          width: 180px;
-          height: 90px;
-          padding: 30px;
         }
 
         summary {
