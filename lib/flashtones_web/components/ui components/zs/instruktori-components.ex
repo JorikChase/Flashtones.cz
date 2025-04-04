@@ -93,6 +93,14 @@ defmodule Lektori do
           <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
           <span>Živnostenské oprávnění</span>
         </a>
+        <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
+          <summary>Videa</summary>
+          <iframe
+            src="https://drive.google.com/embeddedfolderview?id=1x5M4XOplDWZJ840wVJTWD8076qUlzDkP#list"
+            style="width:100%; height:600px; border:0; background: #fff;"
+          >
+          </iframe>
+        </details>
       </div>
       <!-- Plavání section -->
       <div class="section section-plavani" id="instruktori-plavani">
@@ -150,6 +158,14 @@ defmodule Lektori do
           <img src="/images/icon/dokument-plavani.svg" alt="Document icon" />
           <span>Technika plaveckých způsobů</span>
         </a>
+        <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
+          <summary>Videa</summary>
+          <iframe
+            src="https://drive.google.com/embeddedfolderview?id=1Wm19ISwmZlxPCFO93UG9LO8rKUCjreTF#list"
+            style="width:100%; height:600px; border:0; background: #fff;"
+          >
+          </iframe>
+        </details>
       </div>
       <!-- Lyžování section -->
       <div class="section section-lyzovani" id="instruktori-lyzovani">
@@ -174,6 +190,14 @@ defmodule Lektori do
           <img src="/images/icon/dokument-lyzovani.svg" alt="Document icon" />
           <span>Vzorový časový rozvrh kurzu pozdní oběd</span>
         </a>
+        <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
+          <summary>Videa</summary>
+          <iframe
+            src="https://drive.google.com/embeddedfolderview?id=1AWWSTjWIDdLZxtl3hwWNjKHQltHWdL_J#list"
+            style="width:100%; height:600px; border:0; background: #fff;"
+          >
+          </iframe>
+        </details>
       </div>
       <!-- Enviro section -->
       <div class="section section-enviro" id="instruktori-enviro">
