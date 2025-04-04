@@ -1479,7 +1479,7 @@ defmodule DetailLokace do
                   <div class="product-text">
                   <span class="cost-wrap"><h4>
                   Praha 13 - ZŠ Bronzová
-                  </h4><b>4 250 <side>Kč</side></b></span>
+                  </h4><b>3 950 <side>Kč</side></b></span>
                   <p class="font-normal">Příměstský tábor ZŠ PRO DĚTI se bude konat v jedinečné lokalitě ZŠ Bronzová na Praze 13, které nabízí ideální prostředí pro všechny naše aktivity. Tento moderní areál je nejen bohatý na historickou atmosféru, ale také vybavený kvalitními venkovními prostory, jako jsou prostorná hřiště a zelené plochy, které umožňují pestré sportovní a outdoorové vyžití. Dětem poskytne bezpečné zázemí pro všechny táborové činnosti a současně je inspiruje k objevování a aktivnímu pohybu v krásném prostředí.</p>
                   </div>
                   <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
