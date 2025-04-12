@@ -795,7 +795,7 @@ defmodule DetailCta do
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--enviro-main)"
-        href="https://rezervace.zsprodeti.cz/zsprodeti/rezervace?kurz=22&lokalita=42"
+        href="https://rezervace.zsprodeti.cz/zsprodeti/rezervace?kurz=22"
       >
         termíny a lokality
       </a>

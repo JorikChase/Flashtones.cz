@@ -178,7 +178,6 @@ defmodule Hero do
         </div>
       </main>
     </div>
-
     <!-- JavaScript for activity rotation, loading bar, and manual navigation -->
     <script>
       const activities = [
@@ -191,7 +190,7 @@ defmodule Hero do
         },
         {
           title: 'Spustili jsme rezervace na lyžařské kurzy 2026!',
-          description: 'Jezdíme do všech Českých hor, i do Rakouských Alp.',
+          description: 'Jezdíme do všech českých hor i do rakouských Alp.',
           buttonText: 'Více informací',
           buttonLink: '/lyzovani/skolni-lyzarsky-kurz',
           bgImage: "images/deti/lyzovani-head.jpg"
