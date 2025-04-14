@@ -33,9 +33,9 @@ defmodule FlashtonesWeb.AllArticlesLive do
     socket =
       assign(socket,
         favicon: "https://zsprodeti.cz/images/favicon/deti/icon.png",
-        canonical: "https://zsprodeti.cz/blog",
+        canonical: "https://zsprodeti.cz",
         page_title: "ZŠ PRO DĚTI",
-        meta_description: "blog"
+        meta_description: "x"
       )
       |> Phx.Live.Favicon.set_dynamic("dynamic", "deti")
       |> assign(
@@ -52,7 +52,7 @@ defmodule FlashtonesWeb.AllArticlesLive do
 
   def render(assigns) do
     ~H"""
-    {case @segment do
+    <%= case @segment do
       "prodeti" -> MenuMobile.menuDetiMobile(assigns)
       "academy" -> MenuMobile.menuAcademyMobile(assigns)
       "lyzovani" -> MenuMobile.menuLyzovaniMobile(assigns)
@@ -61,8 +61,8 @@ defmodule FlashtonesWeb.AllArticlesLive do
       "vylety" -> MenuMobile.menuVyletyMobile(assigns)
       "plavani" -> MenuMobile.menuPlavaniMobile(assigns)
       _ -> nil
-    end}
-    {case @segment do
+    end %>
+    <%= case @segment do
       "prodeti" -> MenuPc.menuDetiPc(assigns)
       "academy" -> MenuPc.menuAcademyPc(assigns)
       "lyzovani" -> MenuPc.menuLyzovaniPc(assigns)
@@ -71,25 +71,22 @@ defmodule FlashtonesWeb.AllArticlesLive do
       "vylety" -> MenuPc.menuVyletyPc(assigns)
       "plavani" -> MenuPc.menuPlavaniPc(assigns)
       _ -> nil
-    end}
+    end %>
     <HeroSmall.blogVTymu />
     <style>
       nav{
         width: 100%;
       }
         .blog-navigation {
-          width: 100%;
+        width: 100%;
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: center;
           gap: 15px;
         }
-        .blog-navigation li a {
-        color: black;
-        }
         .blog-navigation a:after {
-          display: none;
+        display: none;
         }
         .blog-navigation > li::marker {
             content: " ";
@@ -99,62 +96,21 @@ defmodule FlashtonesWeb.AllArticlesLive do
             height: 5px;
             font-size: 25px;
         }
+        .blog-article{
+        }
         .blog-clanky{
           display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
+          flex-direction: column;
           gap: 30px;
           justify-content: flex-start;
           align-items: flex-start;
         }
-        .blog-article{
-          width: 330px;
-          height: 450px;
-          color: white;
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-          justify-content: flex-end;
-          align-items: center;
-        }
-        .blog-article:nth-child(1){
-        background: url(/images/deti/2.avif);
-        }
-        .blog-article:nth-child(2){
-        background: url(/images/deti/3.avif);
-        }
-        .blog-article:nth-child(3){
-        background: url(/images/deti/4.avif);
-        }
-        .blog-article:nth-child(4){
-        background: url(/images/deti/5.avif);
-        }
-        .blog-article:nth-child(5){
-        background: url(/images/deti/6.avif);
-        }
-        .blog-article:nth-child(6){
-        background: url(/images/deti/7.avif);
-        }
-        .blog-article:nth-child(7){
-        background: url(/images/deti/8.avif);
-        }
-        .blog-article:nth-child(8){
-        background: url(/images/deti/9.avif);
-        }
-        .blog-article:nth-child(9){
-        background: url(/images/deti/10.avif);
-        }
-        .blog-article:nth-child(10){
-        background: url(/images/deti/11.avif);
-        }
-        .blog-article:nth-child(11){
-        background: url(/images/deti/12.avif);
-        }
-
         .blog-clanek-item{
-          width: 100%;
-          background: linear-gradient(#eb01a500, var(--deti-main));
-          padding: 15px;
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          justify-content: space-between;
+          align-items: flex-start;
         }
         @media (orientation: portrait){
         .blog-clanek-item{
@@ -166,7 +122,7 @@ defmodule FlashtonesWeb.AllArticlesLive do
         }
         .blog-clanky a {
           font-size: 2.1rem;
-          color: white;
+          color: var(--<%= @segment %>-link);
           font-weight: bold;
           text-decoration: none; /* Remove default underline */
           position: relative; /* Needed for absolute positioning of ::after */
@@ -191,7 +147,8 @@ defmodule FlashtonesWeb.AllArticlesLive do
     </style>
 
     <div class="odsazeni">
-      <div class="blog-clanky max-w-6xl mx-auto p-6 my-10 pb-10 rounded-lg">
+      <div class="blog-clanky max-w-6xl mx-auto p-6 my-10 pb-10 bg-white rounded-lg shadow-lg space-y-6">
+        <h1>Všechny články</h1>
         <%= for article <- @articles do %>
           <div class="blog-article">
             <.article article={article} />
@@ -223,7 +180,7 @@ defmodule FlashtonesWeb.AllArticlesLive do
                   phx-click="nav"
                   phx-value-page={idx}
                 >
-                  {idx}
+                  <%= idx %>
                 </.link>
               </li>
             <% end %>
@@ -270,14 +227,14 @@ defmodule FlashtonesWeb.AllArticlesLive do
     <div class="blog-clanek-item">
       <div>
         <%= if @article.segment == "prodeti" do %>
-          <.link href={~p"/clanek/#{@article.slug}"}>{@article.name}</.link>
+          <.link href={~p"/clanek/#{@article.slug}"}><%= @article.name %></.link>
         <% else %>
-          <.link href={~p"/#{@article.segment}/clanek/#{@article.slug}"}>{@article.name}</.link>
+          <.link href={~p"/#{@article.segment}/clanek/#{@article.slug}"}><%= @article.name %></.link>
         <% end %>
       </div>
-      <div>{@article.description}</div>
-      <div>{humanize_time(@article.updated_at)}</div>
+      <div><%= humanize_time(@article.updated_at) %></div>
     </div>
+    <div><%= @article.description %></div>
     """
   end
 
