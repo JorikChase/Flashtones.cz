@@ -11,7 +11,7 @@ defmodule FlashtonesWeb.UserSettingsLive do
       <.link
         href={~p"/users/log_out"}
         method="delete"
-        class="p-10 text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
+        class="text-sm bg-black text-white px-4 py-2 ml-2"
       >
         Odhlásit se
       </.link>

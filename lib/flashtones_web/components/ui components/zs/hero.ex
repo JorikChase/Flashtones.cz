@@ -1127,13 +1127,19 @@ defmodule Hero do
         </a>
       </div>
     </div>
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-center gap-4">
       <.link
         href="/users/log_out"
         method="delete"
         class="px-8 py-2 text-white font-semibold hover:text-zinc-700 bg-[var(--deti-link)]"
       >
         Odhlásit se
+      </.link>
+      <.link
+        patch="/users/settings"
+        class="px-8 py-2 text-white font-semibold hover:text-zinc-700 bg-[var(--deti-link)]"
+      >
+        Nastavení
       </.link>
     </div>
     """
