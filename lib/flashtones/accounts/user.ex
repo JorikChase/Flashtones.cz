@@ -44,6 +44,13 @@ defmodule Flashtones.Accounts.User do
     |> validate_password(opts)
   end
 
+  def admin_registration_changeset(user, attrs, opts \\ []) do
+    user
+    |> cast(attrs, [:email, :password, :name, :confirmed_at])
+    |> validate_email(opts)
+    |> validate_password(opts)
+  end
+
   defp validate_email(changeset, opts) do
     changeset
     |> validate_required([:email])

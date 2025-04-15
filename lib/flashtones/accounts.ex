@@ -80,6 +80,44 @@ defmodule Flashtones.Accounts do
     |> Repo.insert()
   end
 
+  def register_admin(attrs) do
+    %User{}
+    |> User.admin_registration_changeset(attrs)
+    |> Repo.insert()
+  end
+
+  @doc """
+  Registers many admins from a file.
+
+  The file is a `.txt` file with `\n` separated emails.
+
+  Beware on production databases, implementation is finicky.
+  """
+  def register_admins_from_file(path) do
+    case File.read(path) do
+      {:ok, content} ->
+        datetime =
+          NaiveDateTime.utc_now()
+          |> NaiveDateTime.truncate(:second)
+
+        content
+        |> String.split("\n")
+        |> Enum.map(&String.trim/1)
+        |> Enum.each(fn email ->
+          %{
+            email: "#{email}",
+            password: "provizorniheslo",
+            name: "Instruktor",
+            confirmed_at: "#{datetime}"
+          }
+          |> register_admin()
+        end)
+
+      {:error, reason} ->
+        IO.puts("Registering many admins from file failed: #{reason}")
+    end
+  end
+
   @doc """
   Returns an `%Ecto.Changeset{}` for tracking user changes.
 
