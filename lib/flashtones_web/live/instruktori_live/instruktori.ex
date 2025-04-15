@@ -48,10 +48,6 @@ defmodule FlashtonesWeb.LektoriLive do
               50%{background-position:100% 78%}
               100%{background-position:0% 23%}
           }
-
-          /* Media queries for responsiveness */
-          @media (orientation: portrait) {
-          }
     </style>
     <Nav.nav />
     <MenuMobile.instruktori />

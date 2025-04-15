@@ -934,50 +934,50 @@ defmodule Hero do
     ~H"""
     <style>
       .instruktori-hero {
-        margin-top: 60px;
-        width: 100%;
-        min-height: 100svh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 0;
+      margin-top: 60px;
+      width: 100%;
+      min-height: 100svh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
       }
 
       .instruktori-hero-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
       }
 
       .instruktori-hero-item {
-        position: relative;
-        width: 100%;
-        aspect-ratio: 1/1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-decoration: none;
-        border-radius: 8px;
-        overflow: hidden;
-        transition: transform 0.2s ease;
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1/1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-decoration: none;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
       }
 
       .instruktori-hero-item:hover {
-        transform: scale(1.05);
+      transform: scale(1.05);
       }
 
       .instruktori-hero-item:focus-visible {
-        outline: 3px solid #000;
-        outline-offset: 2px;
+      outline: 3px solid #000;
+      outline-offset: 2px;
       }
 
       .instruktori-hero-image {
-        width: 100%;
-        height: 75%;
-        object-fit: contain;
+      width: 100%;
+      height: 75%;
+      object-fit: contain;
       }
 
       .instruktori-hero-footer:has(#academy-logo) {
@@ -985,32 +985,32 @@ defmodule Hero do
       }
 
       .instruktori-hero-footer {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 5px;
-        width: 100%;
-        background: #fff;
-        padding: 15px;
-        border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      width: 100%;
+      background: #fff;
+      padding: 15px;
+      border-radius: 0;
       }
 
       .instruktori-hero-logo {
-        height: 35px;
-        width: auto;
-        object-fit: contain;
-        border-radius: 0;
+      height: 35px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 0;
       }
       #academy-logo {
-        height: 25px;
+      height: 25px;
       }
 
       .instruktori-hero-arrow {
-        width: 30px;
-        height: 30px;
-        border-radius: 0;
-        position: relative;
-        top: 4px;
+      width: 30px;
+      height: 30px;
+      border-radius: 0;
+      position: relative;
+      top: 4px;
       }
 
       .marcel { background: var(--deti-light); }
@@ -1021,22 +1021,22 @@ defmodule Hero do
       .standa { background: var(--academy-light); }
 
       @media (max-width: 768px) {
-        .instruktori-hero {
-          margin-top: 0;
-        }
-        .instruktori-hero-grid {
-          grid-template-columns: repeat(2, 1fr);
-          width: 95%;
-          gap: 15px;
-        }
-        .instruktori-hero-item {
-          padding: 10px;
-        }
+      .instruktori-hero {
+        margin-top: 0;
+      }
+      .instruktori-hero-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 15px;
+      }
+      .instruktori-hero-item {
+        padding: 10px;
+      }
       }
 
       @media (orientation: portrait) {
       .instruktori-hero {
-        margin-top: 60px;
+      margin-top: 60px;
       }
       .instruktori-hero-footer {
       background: transparent;
@@ -1047,24 +1047,23 @@ defmodule Hero do
       }
       }
       @media (max-width: 480px) {
-        .instruktori-hero-grid {
-          gap: 10px;
-        }
-        #academy-logo{
-          padding-top: 15px;
-        }
+      .instruktori-hero-grid {
+        gap: 10px;
+      }
+      #academy-logo{
+        padding-top: 15px;
+      }
       }
 
       @media (prefers-reduced-motion: reduce) {
-        .instruktori-hero-item {
-          transition: none;
-        }
-        .instruktori-hero-item:hover {
-          transform: none;
-        }
+      .instruktori-hero-item {
+        transition: none;
+      }
+      .instruktori-hero-item:hover {
+        transform: none;
+      }
       }
     </style>
-
     <div class="instruktori-hero odsazeni">
       <div class="instruktori-hero-grid">
         <a href="#instruktori-deti" class="instruktori-hero-item marcel">
@@ -1127,6 +1126,15 @@ defmodule Hero do
           </div>
         </a>
       </div>
+    </div>
+    <div class="flex items-center justify-center">
+      <.link
+        href="/users/log_out"
+        method="delete"
+        class="px-8 py-2 text-white font-semibold hover:text-zinc-700 bg-[var(--deti-link)]"
+      >
+        Odhlásit se
+      </.link>
     </div>
     """
   end
