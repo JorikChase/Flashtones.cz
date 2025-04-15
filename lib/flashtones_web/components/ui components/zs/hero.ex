@@ -1035,6 +1035,9 @@ defmodule Hero do
       }
 
       @media (orientation: portrait) {
+      .instruktori-hero {
+        margin-top: 60px;
+      }
       .instruktori-hero-footer {
       background: transparent;
       padding: 0;
