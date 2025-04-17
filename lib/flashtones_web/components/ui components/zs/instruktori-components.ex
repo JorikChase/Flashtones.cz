@@ -56,6 +56,11 @@ defmodule Lektori do
       .section-enviro { background: var(--enviro-light); }
       .section-vylety { background: var(--vylety-light); }
       .section-academy { background: var(--academy-light); }
+      .section-doma { background: var(--doma-light); }
+      .section-ft { background: var(--ft-light); }
+      .section-krouzky { background: #f2f2f2; }
+      .section-tvurci { background: #eefbee; }
+
       #instruktori-deti, #instruktori-plavani, #instruktori-enviro, #instruktori-lyzovani, #instruktori-vylety, #instruktori-academy{
         scroll-margin-top: 20vh;
       }
@@ -104,6 +109,22 @@ defmodule Lektori do
         >
           <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
           <span>Živnostenské oprávnění</span>
+        </a>
+        <a href="/images/pdf/lektori/krizove-scenare.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Krizové scénáře</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-deti/role-zdravotnika.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Role zdravotníka</span>
+        </a>
+        <a
+          href="/images/pdf/lektori/zs-deti/karta-procesu-zdravotnik.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Karta procesů - zdravotník</span>
         </a>
         <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
           <summary>Videa</summary>
@@ -335,6 +356,50 @@ defmodule Lektori do
           <span>Program kurzu</span>
         </a>
       </div>
+      <!-- Doma section -->
+      <div class="section section-doma" id="instruktori-doma">
+        <h2 class="section-title">Kurz ZŠ Doma</h2>
+        <a
+          href="/images/pdf/lektori/zs-doma/doma-projekt-zs-doma.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Projekt ZŠ Doma</span>
+        </a>
+        <a
+          href="/images/pdf/lektori/zs-doma/doma-aplikace-dobrilo.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Aplikace Dobrilo</span>
+        </a>
+        <a
+          href="/images/pdf/lektori/zs-doma/doma-lektori-dobrilo.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Lektoři Dobrilo</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-doma/doma-online-hry.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Online hry</span>
+        </a>
+        <a
+          href="/images/pdf/lektori/zs-doma/doma-knizky-a-zabavna-videa.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Knížky a zábavná videa</span>
+        </a>
+        <a href="/images/pdf/lektori/zs-doma/doma-webove-komiksy.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-doma.svg" alt="Document icon" />
+          <span>Webové komiksy</span>
+        </a>
+      </div>
       <!-- Academy section -->
       <div class="section section-academy" id="instruktori-academy">
         <h2 class="section-title">Kurz ZŠ Academy</h2>
@@ -358,6 +423,37 @@ defmodule Lektori do
           <img src="/images/icon/dokument-academy.svg" alt="Document icon" />
           <span>Vzorový časový rozvrh kurzu Instruktor plavání C</span>
         </a>
+      </div>
+      <!-- Flashtones section -->
+      <div class="section section-ft" id="instruktori-ft">
+        <h2 class="section-title">Kurz Flashtones</h2>
+        <a href="/images/pdf/lektori/flashtones-studio.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-ft.svg" alt="Document icon" />
+          <span>Flashtones Studio</span>
+        </a>
+      </div>
+      <!-- Krouzky section -->
+      <div class="section section-krouzky" id="instruktori-krouzky">
+        <h2 class="section-title">Kurz kroužky a eventy</h2>
+        <a href="/images/pdf/lektori/krouzky-a-eventy.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-krouzky.svg" alt="Document icon" />
+          <span>Kroužky a eventy</span>
+        </a>
+      </div>
+      <div class="section section-tvurci" id="instruktori-tvurci">
+        <h2 class="section-title">Kurz tvůrčí činnost</h2>
+        <a href="/images/pdf/lektori/tvurci-cinnost.pdf" target="_blank" class="doc-item">
+          <img src="/images/icon/dokument-tvurci.svg" alt="Document icon" />
+          <span>Tvůrčí činnost</span>
+        </a>
+      <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
+        <summary>Videa</summary>
+        <iframe
+          src="https://drive.google.com/embeddedfolderview?id=1ao70XoXsSWzEhyLUuOeJ7dzMP2CNVtOf#list"
+          style="width:100%; height:600px; border:0; background: #fff;"
+        >
+        </iframe>
+      </details>
       </div>
     </div>
     """

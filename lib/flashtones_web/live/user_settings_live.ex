@@ -19,6 +19,8 @@ defmodule FlashtonesWeb.UserSettingsLive do
 
     <div class="space-y-12 divide-y odsazeni">
       <div>
+      <br>
+      <h4>Změna e-mailu</h4>
         <.simple_form
           for={@email_form}
           id="email_form"
@@ -41,6 +43,8 @@ defmodule FlashtonesWeb.UserSettingsLive do
         </.simple_form>
       </div>
       <div>
+      <br>
+      <h4>Změna hesla</h4>
         <.simple_form
           for={@password_form}
           id="password_form"

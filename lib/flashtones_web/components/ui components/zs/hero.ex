@@ -1019,6 +1019,10 @@ defmodule Hero do
       .vlocka { background: var(--lyzovani-light); }
       .obr { background: var(--vylety-light); }
       .standa { background: var(--academy-light); }
+      .vetvicka { background: var(--doma-light); }
+      .hlemyzd { background: var(--ft-light); }
+      .silak { background: #F2F2F2; }
+      .kudlanka { background: #EEFBEE; }
 
       @media (max-width: 768px) {
       .instruktori-hero {
@@ -1113,6 +1117,22 @@ defmodule Hero do
             <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
           </div>
         </a>
+        <a href="#instruktori-doma" class="instruktori-hero-item vetvicka">
+          <img
+            src="/images/socci/vetvicka.png"
+            alt="Vetvicka"
+            class="instruktori-hero-image scale-90"
+          />
+          <div class="instruktori-hero-footer">
+            <img
+              src="/images/doma/doma-logo.svg"
+              class="instruktori-hero-logo"
+              id="doma-logo"
+              alt="doma logo"
+            />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
         <a href="#instruktori-academy" class="instruktori-hero-item standa">
           <img src="/images/instruktori/standa.png" alt="Standa" class="instruktori-hero-image" />
           <div class="instruktori-hero-footer">
@@ -1122,6 +1142,43 @@ defmodule Hero do
               id="academy-logo"
               alt="academy logo"
             />
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-ft" class="instruktori-hero-item hlemyzd">
+          <img
+            src="/images/socci/hlemyzd.png"
+            alt="Hlemýžď"
+            class="instruktori-hero-image scale-[80%]"
+          />
+          <div class="instruktori-hero-footer">
+            <img
+              src="/images/ft/flashtones.svg"
+              class="instruktori-hero-logo"
+              id="flashtones-logo"
+              alt="flashtones logo"
+            />
+          </div>
+        </a>
+        <a href="#instruktori-krouzky" class="instruktori-hero-item silak">
+          <img src="/images/socci/silak.png" alt="Silak" class="instruktori-hero-image scale-[90%]" />
+          <div class="instruktori-hero-footer">
+            <span class="text-sm sm:text-lg md:text-xl lg:text-2xl font-bold uppercase">
+              Kroužky a eventy
+            </span>
+            <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
+          </div>
+        </a>
+        <a href="#instruktori-tvurci" class="instruktori-hero-item kudlanka">
+          <img
+            src="/images/socci/kudlanka.png"
+            alt="Kudlanka"
+            class="instruktori-hero-image scale-[90%]"
+          />
+          <div class="instruktori-hero-footer">
+            <span class="text-sm sm:text-lg md:text-xl lg:text-2xl font-bold uppercase">
+              Tvůrčí činnost
+            </span>
             <img src="/images/icon/arrow-right-instruktori.svg" class="instruktori-hero-arrow" alt="" />
           </div>
         </a>

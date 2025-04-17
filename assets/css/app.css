@@ -968,44 +968,6 @@ form:hover {
     }
 }
 
-.socky-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%;
-    padding: 15px;
-    position: relative;
-}
-
-.socky-icons a {
-    width: 120px;
-    height: 120px;
-    fill: currentColor;
-}
-
-.socky-icons a img {
-    width: 120px;
-    height: 120px;
-    fill: currentColor;
-}
-
-.zustanme-bg {
-    height: 60vh;
-}
-
-@media (orientation: portrait) {
-    .socky-icons {
-    }
-
-    .zustanme-bg {
-        height: auto;
-        width: 80%;
-    }
-}
-
 /* head-small*/
 
 .hero {
