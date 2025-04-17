@@ -1153,7 +1153,7 @@ defmodule Hero do
           />
           <div class="instruktori-hero-footer">
             <img
-              src="/images/ft/flashtones.svg"
+              src="/images/ft/Flashtones.svg"
               class="instruktori-hero-logo"
               id="flashtones-logo"
               alt="flashtones logo"
