@@ -48,6 +48,58 @@ defmodule KurzDetail do
           <bold>vodní hry</bold>
         </li>
       </ul>
+      <br>
+    </div>
+    """
+  end
+
+  def plavaniRegularCourse(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="course-wrap top">
+      <h1>PRAVIDELNÝ PLAVECKÝ KURZ</h1>
+      <p>
+      Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek. Bazén nabízí plavání ve slané vodě, která je šetrná k dětské pokožce a nezpůsobuje podráždění očí. Hlavní bazén má rozměry 25 x 15 metrů se šesti plaveckými dráhami, což umožňuje paralelní výuku několika skupin dle věku a pokročilosti. Areál disponuje také samostatným dětským bazénkem určeným pro nejmladší plavce a jejich postupnou adaptaci na vodní prostředí. Parametry bazénu v Hloubětíně jsou vhodné pro všechny věkové kategorie.
+      </p>
+      <h3>Jak to probíhá</h3>
+      <p>
+        S využítím
+        <bold>nových pedagogických metod</bold>
+        a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+      </p>
+      <p>
+        <bold>Výuka plavání</bold>
+        probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
+      </p>
+      <ul>
+        <li>
+          <bold>úvodní seznámení s náplní lekce a následná rozcvička</bold>
+        </li>
+        <li>
+          <bold>hlavní výuková část</bold>
+        </li>
+        <li>
+          <bold>vodní hry</bold>
+        </li>
+      </ul>
+      <br>
     </div>
     """
   end
@@ -107,7 +159,7 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h1>
+      <h1>PŘEDŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h1>
       <p>
         Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let a probíhá vždy od pondělí do středy nebo od středy do pátku. Případně v pětidenní verzi. Žáci absolvují v průběhu tří dnů celkem pět šedesátiminutových vyučovacích lekcí plavání, dále se účastní tří devadesátiminutových bloků orientovaných na hry v přírodě a tradiční i netradiční hry s cílem rozvoje hrubé i jemné motoriky. Každý večer probíhá večerní zábavní program zahrnující stolní, hudební a výtvarné hry či dětskou diskotéku. Kurz lze absolvovat i v pětidenním formátu a pokud to umožňuje vzdálenost, i v příměstské podobě.
       </p>

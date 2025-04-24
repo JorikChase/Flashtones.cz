@@ -435,10 +435,10 @@ defmodule MenuPc do
               background-image: url("/images/icon/skolka.svg");
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(4) a:before {
-              background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
+              background-image: url("/images/icon/skola.svg");
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before {
-              background-image: url("/images/icon/kurz/svp-enviro.svg");
+              background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly-2 li:nth-of-type(1) a:before {
               background-image: url("/images/icon/kurz/svt-enviro.svg");
@@ -451,6 +451,9 @@ defmodule MenuPc do
           }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly-2 li:nth-of-type(4) a:before {
               background-image: url("/images/icon/hiking.svg");
+          }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly-2 li:nth-of-type(5) a:before {
+              background-image: url("/images/icon/kurz/svp-enviro.svg");
           }
 
           .pcMenuBarLinks ul li {
@@ -598,17 +601,17 @@ defmodule MenuPc do
                       </li>
                       <li>
                         <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz">
-                          <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
+                          <h3>PŘEDŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/plavani/pravidelny-plavecky-kurz">
+                          <h3>PRAVIDELNÝ PLAVECKÝ KURZ</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/lyzovani/skolni-lyzarsky-kurz">
                           <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/enviro/svp">
-                          <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
                         </a>
                       </li>
                     </ul>
@@ -636,6 +639,11 @@ defmodule MenuPc do
                       <li>
                         <a href="/vylety">
                           <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/enviro/svp">
+                          <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
                         </a>
                       </li>
                     </ul>

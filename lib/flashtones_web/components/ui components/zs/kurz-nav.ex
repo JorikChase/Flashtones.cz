@@ -65,6 +65,16 @@ defmodule KurzNav do
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
       </a>
+      <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
+        <img alt="Logo kurzu" src="/images/icon/plavani.svg" />
+        <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
+        <p>
+          Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek.
+        </p>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
+        </span>
+      </a>
       <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" />
         <h4>Příměstský školní plavecký kurz</h4>
@@ -77,7 +87,7 @@ defmodule KurzNav do
       </a>
       <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/skolka.svg" />
-        <h4>Předškolní plavecký <br /> kurz</h4>
+        <h4>Předškolní pobytový <br />plavecký kurz</h4>
         <p>
           Je jedinečný koncept spojující základní plaveckou výuku, školku v přírodě, sportovní a zábavní program pro děti předškolního věku. Kurz je určen pro děti ve věku 4-6 let.
         </p>

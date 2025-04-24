@@ -78,6 +78,7 @@ defmodule FlashtonesWeb.Router do
     live "/plavani/skolni-pobytovy-plavecky-kurz", PlavaniDetailSchoolLive
     live "/plavani/predskolni-plavecky-kurz", PlavaniDetailPreSchoolLive
     live "/plavani/primestsky-skolni-plavecky-kurz", PlavaniDetailCitySchoolLive
+    live "/plavani/pravidelny-plavecky-kurz", PlavaniDetailRegularCourseLive
     live "/plavani/sobotni-kurzy-plavani", PlavaniDetailSaturdayLive
     live "/plavani/services/pravidelne-kurzy-plavani/", PlavaniDetailSaturdayLive
     live "/plavani/summer-camp", PlavaniDetailSummerLive

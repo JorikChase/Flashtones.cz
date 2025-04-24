@@ -72,21 +72,24 @@ defmodule Aktivity do
           background-image: url("/images/icon/skolka.svg");
         }
         .school-item-4:before {
-          background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
+          background-image: url("/images/icon/skola.svg");
         }
         .school-item-5:before {
-          background-image: url("/images/icon/kurz/svp-enviro.svg");
+          background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
         }
         .school-item-6:before {
-          background-image: url("/images/icon/kurz/svt-enviro.svg");
+          background-image: url("/images/icon/kurz/svp-enviro.svg");
         }
         .school-item-7:before {
-          background-image: url("/images/icon/friendship.svg");
-        }
-        .school-item-8:before {
           background-image: url("/images/icon/kurz/svt-enviro.svg");
         }
+        .school-item-8:before {
+          background-image: url("/images/icon/friendship.svg");
+        }
         .school-item-9:before {
+          background-image: url("/images/icon/kurz/svt-enviro.svg");
+        }
+        .school-item-10:before {
           background-image: url("/images/icon/hiking.svg");
         }
 
@@ -121,22 +124,25 @@ defmodule Aktivity do
               <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="mobile-menu-item school-item-3">
                 <h3>PŘEDŠKOLNÍ PLAVECKÝ KURZ</h3>
               </a>
-              <a href="/lyzovani/skolni-lyzarsky-kurz" class="mobile-menu-item school-item-4">
+              <a href="/plavani/pravidelny-plavecky-kurz" class="mobile-menu-item school-item-4">
+                <h3>PRAVIDELNÝ PLAVECKÝ KURZ</h3>
+              </a>
+              <a href="/lyzovani/skolni-lyzarsky-kurz" class="mobile-menu-item school-item-5">
                 <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
               </a>
-              <a href="/enviro/svp" class="mobile-menu-item school-item-5">
+              <a href="/enviro/svp" class="mobile-menu-item school-item-6">
                 <h3>ŠKOLA V PŘÍRODĚ "ENVIRO"</h3>
               </a>
-              <a href="/enviro/tym" class="mobile-menu-item school-item-6">
+              <a href="/enviro/tym" class="mobile-menu-item school-item-7">
                 <h3>ŠKOLA V PŘÍRODĚ "V TÝMU"</h3>
               </a>
-              <a href="/enviro/ss-tym" class="mobile-menu-item school-item-7">
+              <a href="/enviro/ss-tym" class="mobile-menu-item school-item-8">
                 <h3>"V TÝMU" PRO STŘEDNÍ ŠKOLY</h3>
               </a>
-              <a href="/enviro/labyrint" class="mobile-menu-item school-item-8">
+              <a href="/enviro/labyrint" class="mobile-menu-item school-item-9">
                 <h3>"LABYRINT SVĚTA A RÁJ SRDCE" PRO STŘEDNÍ ŠKOLY</h3>
               </a>
-              <a href="/vylety" class="mobile-menu-item school-item-9">
+              <a href="/vylety" class="mobile-menu-item school-item-10">
                 <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
               </a>
             </div>
@@ -266,6 +272,13 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
         </span>
       </a>
+      <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/skola.svg" alt="skola" />
+        <h4>PRAVIDELNÝ PLAVECKÝ KURZ</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
+        </span>
+      </a>
       <a href="https://zsprodeti.cz/plavani/primestsky-skolni-plavecky-kurz" class="kurz-item">
         <img src="/images/icon/kurz/primestsky-skolni-plavecky-kurz.svg" alt="Šipka" />
         <h4>Příměstský školní plavecký kurz</h4>
@@ -275,7 +288,14 @@ defmodule Aktivity do
       </a>
       <a href="https://zsprodeti.cz/plavani/predskolni-plavecky-kurz" class="kurz-item">
         <img src="/images/icon/skolka.svg" alt="Šipka" />
-        <h4>Předškolní plavecký <br /> kurz</h4>
+        <h4>Předškolní pobytový <br />plavecký kurz</h4>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
+        </span>
+      </a>
+      <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/skolka.svg" alt="Šipka" />
+        <h4>Pravidelný <br />plavecký kurz</h4>
         <span class="inline-button align-right plavani-link">
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
         </span>
@@ -565,6 +585,16 @@ defmodule Aktivity do
         <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
         <p>
           Je unikátní formou školy v přírodě s plaváním, kde žáci absolvují během pěti až šesti dnů celkem dvacet plaveckých lekcí v deseti blocích a splní tak polovinu povinné plavecké výuky
+        </p>
+        <span class="inline-button align-right plavani-link">
+          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
+        </span>
+      </a>
+      <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
+        <img src="/images/icon/skola.svg" alt="skola" />
+        <h4>PRAVIDELNÝ PLAVECKÝ KURZ</h4>
+        <p>
+          Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek.
         </p>
         <span class="inline-button align-right plavani-link">
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka plavani" />
