@@ -293,13 +293,6 @@ defmodule Aktivity do
           Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
         </span>
       </a>
-      <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
-        <img src="/images/icon/skolka.svg" alt="Šipka" />
-        <h4>Pravidelný <br />plavecký kurz</h4>
-        <span class="inline-button align-right plavani-link">
-          Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" />
-        </span>
-      </a>
     </div>
     <a class="mobile-menu-link zs-menu-plavani" href="/plavani/verejnost">
       Domovská stránka veřejnost

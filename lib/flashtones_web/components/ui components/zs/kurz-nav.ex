@@ -66,8 +66,8 @@ defmodule KurzNav do
         </span>
       </a>
       <a href="/plavani/pravidelny-plavecky-kurz" class="kurz-item">
-        <img alt="Logo kurzu" src="/images/icon/plavani.svg" />
-        <h4>ŠKOLNÍ POBYTOVÝ PLAVECKÝ KURZ</h4>
+        <img alt="Logo kurzu" src="/images/icon/skola.svg" />
+        <h4>PRAVIDELNÝ PLAVECKÝ KURZ</h4>
         <p>
           Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek.
         </p>
