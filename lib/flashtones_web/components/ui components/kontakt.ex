@@ -9,9 +9,7 @@ defmodule Kontakt do
   #
   #  IO.puts(result)
 
-
   def flashtones(assigns) do
-
     ~H"""
     <style>
       .kontakt-main{
@@ -97,9 +95,8 @@ defmodule Kontakt do
       }
     </style>
     <div class="kontakt-main">
-    <h2>Kontaktujte nás</h2>
-      <div class="">
-      </div>
+      <h2>Kontaktujte nás</h2>
+      <div class=""></div>
       <div>
         <div class="">
           <a href="tel:+420 606 589 786">
@@ -111,35 +108,24 @@ defmodule Kontakt do
             info@flashtones.cz
           </a>
         </div>
+        <div class="">
+          <h3>Flashtones, s.r.o.</h3>
+          <p>Oldřichova 596/37 <br /> Praha 2 <br /> 128 00</p>
         </div>
+      </div>
       <h2>Fakturační údaje</h2>
       <div class="">
         <div class="">
           <h3>Flashtones, s.r.o.</h3>
-          <p>Vrázova 1059/8, 150 00, Praha 5
-            <br>
-            IČO: 04275764
-            <br>
-            DIČ: CZ04275764</p>
-        </div>
-      </div>
-      <h2>Kontaktní údaje</h2>
-      <div class="">
-        <div class="">
-          <h3>Flashtones, s.r.o.</h3>
-          <p>Oldřichova 596/37
-            <br>
-            Praha 2
-            <br>
-            128 00</p>
+          <p>Vrázova 1059/8, 150 00, Praha 5 <br /> IČO: 04275764 <br /> DIČ: CZ04275764</p>
         </div>
       </div>
       <button></button>
     </div>
     """
   end
-  def main(assigns) do
 
+  def main(assigns) do
     ~H"""
     <style>
       .kontakt-main{
@@ -219,29 +205,36 @@ defmodule Kontakt do
       }
     </style>
     <div class="kontakt-main">
-    <h2>Kontakty</h2>
+      <h2>Kontakty</h2>
+      <div>
+        <div>
+          <h3>Kontaktní adresa</h3>
+          <h4>Flashtones, s.r.o.</h4>
+          <p>Oldřichova 596/37<br /> Praha 2<br />128 00</p>
+        </div>
+      </div>
       <div class="">
         <div class="">
           <h3>Pro školy - Čechy</h3>
           <div class="kontakt-sub-responsive">
-          <a href="tel:+420 608 628 881" class="noBreak">
-            <div class="kontakt-icon icon-phone"></div>
-            +420 608 628 881
-          </a>
-          <a href="mailto:petr@zsprodeti.cz" class="noBreak">
-            <div class="kontakt-icon icon-mail"></div>
-            petr@zsprodeti.cz
-          </a>
+            <a href="tel:+420 608 628 881" class="noBreak">
+              <div class="kontakt-icon icon-phone"></div>
+              +420 608 628 881
+            </a>
+            <a href="mailto:petr@zsprodeti.cz" class="noBreak">
+              <div class="kontakt-icon icon-mail"></div>
+              petr@zsprodeti.cz
+            </a>
           </div>
           <div class="kontakt-sub-responsive">
-          <a href="tel:+420 776 742 201" class="noBreak">
-            <div class="kontakt-icon icon-phone"></div>
-            +420 776 742 201
-          </a>
-          <a href="mailto:marika@zsprodeti.cz" class="noBreak">
-            <div class="kontakt-icon icon-mail"></div>
-            marika@zsprodeti.cz
-          </a>
+            <a href="tel:+420 776 742 201" class="noBreak">
+              <div class="kontakt-icon icon-phone"></div>
+              +420 776 742 201
+            </a>
+            <a href="mailto:marika@zsprodeti.cz" class="noBreak">
+              <div class="kontakt-icon icon-mail"></div>
+              marika@zsprodeti.cz
+            </a>
           </div>
         </div>
         <div class="">
@@ -279,29 +272,24 @@ defmodule Kontakt do
             info@zsprodeti.cz
           </a>
         </div>
-        </div>
+      </div>
       <h2>Fakturační údaje</h2>
       <div class="">
         <div class="">
           <h3>Flashtones, s.r.o.</h3>
-          <p>Vrázova 1059/8, 150 00, Praha 5
-            <br>
-            IČO: 04275764
-            <br>
-            DIČ: CZ04275764</p>
+          <p>Vrázova 1059/8, 150 00, Praha 5 <br /> IČO: 04275764 <br /> DIČ: CZ04275764</p>
         </div>
         <div class="">
           <h3>Zš pro děti, z.s.</h3>
-          <p>Vrázova 1059/8, 150 00, Praha 5
-            <br>
-            <br>
-            IČO: 09485015</p>
+          <p>Vrázova 1059/8, 150 00, Praha 5 <br />
+            <br /> IČO: 09485015</p>
         </div>
       </div>
       <button></button>
     </div>
     """
   end
+
   def form(assigns) do
     # instagram_token = assigns.instagram_token
 
@@ -349,73 +337,86 @@ defmodule Kontakt do
       }
     </style>
     <div class="kontakt-heading">
-      <h3>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?<br><br>NAPIŠTE NÁM</h3>
+      <h3>MÁTE DOTAZ NEBO SI PŘEJETE OBJEDNAT KURZ?<br /><br />NAPIŠTE NÁM</h3>
     </div>
-    <br>
+    <br />
     <div class="">
       <form phx-submit="send_email" class="kontakt-form" id="email_form">
         <label for="client_name">
           <h4>Celé jméno</h4>
         </label>
-        <input type="text" autocomplete="on" id="client_name" name="client_name" required><br>
+        <input type="text" autocomplete="on" id="client_name" name="client_name" required /><br />
         <label for="client_email">
           <h4>Váš email</h4>
         </label>
-        <input type="text" autocomplete="on" id="client_email" name="client_email" required><br>
+        <input type="text" autocomplete="on" id="client_email" name="client_email" required /><br />
         <label for="client_phone">
           <h4>Vaše číslo</h4>
         </label>
-        <input type="text" autocomplete="on" id="client_phone" name="client_phone" required><br>
+        <input type="text" autocomplete="on" id="client_phone" name="client_phone" required /><br />
         <label for="client_message">
           <h4>Vaše zpráva</h4>
         </label>
-        <textarea id="client_message" name="client_message" required></textarea><br>
-        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe" required><b> Souhlasím se zpracováním osobních údajů</b></label><br>
+        <textarea id="client_message" name="client_message" required></textarea>
+        <br />
+        <label for="subscribe">
+          <input type="checkbox" id="subscribe" name="subscribe" required /><b>
+             Souhlasím se zpracováním osobních údajů
+          </b>
+        </label>
+        <br />
 
-        <button type="submit" class="button" style="background: var(--deti-link);" id="submit-btn" disabled>Odeslat</button>
+        <button
+          type="submit"
+          class="button"
+          style="background: var(--deti-link);"
+          id="submit-btn"
+          disabled
+        >
+          Odeslat
+        </button>
       </form>
     </div>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('email_form');
-      const submitButton = document.getElementById('submit-btn');
+        document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('email_form');
+        const submitButton = document.getElementById('submit-btn');
 
-      form.addEventListener('input', function() {
-        const clientName = document.getElementById('client_name').value.trim();
-        const clientEmail = document.getElementById('client_email').value.trim();
-        const clientMessage = document.getElementById('client_message').value.trim();
-        const agreeChecked = document.getElementById('subscribe').checked;
+        form.addEventListener('input', function() {
+          const clientName = document.getElementById('client_name').value.trim();
+          const clientEmail = document.getElementById('client_email').value.trim();
+          const clientMessage = document.getElementById('client_message').value.trim();
+          const agreeChecked = document.getElementById('subscribe').checked;
 
-        if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
-          submitButton.removeAttribute('disabled');
-        } else {
-          submitButton.setAttribute('disabled', 'disabled');
-        }
+          if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
+            submitButton.removeAttribute('disabled');
+          } else {
+            submitButton.setAttribute('disabled', 'disabled');
+          }
+        });
+
+        form.addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent the default form submission behavior
+
+          // Checking if all fields are filled in
+          const clientName = document.getElementById('client_name').value.trim();
+          const clientEmail = document.getElementById('client_email').value.trim();
+          const clientMessage = document.getElementById('client_message').value.trim();
+          const agreeChecked = document.getElementById('subscribe').checked;
+
+          if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
+            // Alert that the form is submitted
+            alert('Odesláno');
+
+            // Disable the submit button again
+            submitButton.setAttribute('disabled', 'disabled');
+          } else {
+            // If the form is not valid, prevent submission
+            alert('Prosím, vyplňte všechna políčka a souhlas se zpracováním osobních údajů.');
+          }
+        });
       });
-
-      form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission behavior
-
-        // Checking if all fields are filled in
-        const clientName = document.getElementById('client_name').value.trim();
-        const clientEmail = document.getElementById('client_email').value.trim();
-        const clientMessage = document.getElementById('client_message').value.trim();
-        const agreeChecked = document.getElementById('subscribe').checked;
-
-        if (clientName !== '' && clientEmail !== '' && clientMessage !== '' && agreeChecked) {
-          // Alert that the form is submitted
-          alert('Odesláno');
-
-          // Disable the submit button again
-          submitButton.setAttribute('disabled', 'disabled');
-        } else {
-          // If the form is not valid, prevent submission
-          alert('Prosím, vyplňte všechna políčka a souhlas se zpracováním osobních údajů.');
-        }
-      });
-    });
     </script>
-
     """
   end
 end

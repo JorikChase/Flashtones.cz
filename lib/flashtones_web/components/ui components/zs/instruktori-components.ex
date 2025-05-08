@@ -127,7 +127,7 @@ defmodule Lektori do
           <span>Karta procesů - zdravotník</span>
         </a>
         <a
-          href="/images/pdf/lektori/zs-deti/karta-procesu-instrutkor.pdf"
+          href="/images/pdf/lektori/karta-procesu-instruktor.pdf"
           target="_blank"
           class="doc-item"
         >
@@ -135,7 +135,7 @@ defmodule Lektori do
           <span>Karta procesů - instruktor</span>
         </a>
         <a
-          href="/images/pdf/lektori/zs-deti/karta-procesu-hlavni-instruktor.pdf"
+          href="/images/pdf/lektori/karta-procesu-hlavni-instruktor.pdf"
           target="_blank"
           class="doc-item"
         >
