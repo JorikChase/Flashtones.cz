@@ -126,6 +126,22 @@ defmodule Lektori do
           <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
           <span>Karta procesů - zdravotník</span>
         </a>
+        <a
+          href="/images/pdf/lektori/zs-deti/karta-procesu-instrutkor.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Karta procesů - instruktor</span>
+        </a>
+        <a
+          href="/images/pdf/lektori/zs-deti/karta-procesu-hlavni-instruktor.pdf"
+          target="_blank"
+          class="doc-item"
+        >
+          <img src="/images/icon/dokument-deti.svg" alt="Document icon" />
+          <span>Karta procesů - hlavní instruktor</span>
+        </a>
         <details class="bg-white p-2 pl-4 font-semibold cursor-pointer hover hover:bg-black/5">
           <summary>Videa</summary>
           <iframe

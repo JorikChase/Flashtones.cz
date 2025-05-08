@@ -123,6 +123,17 @@ defmodule Kontakt do
             DIČ: CZ04275764</p>
         </div>
       </div>
+      <h2>Kontaktní údaje</h2>
+      <div class="">
+        <div class="">
+          <h3>Flashtones, s.r.o.</h3>
+          <p>Oldřichova 596/37
+            <br>
+            Praha 2
+            <br>
+            128 00</p>
+        </div>
+      </div>
       <button></button>
     </div>
     """
