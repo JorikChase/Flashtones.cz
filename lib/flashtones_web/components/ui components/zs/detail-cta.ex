@@ -306,7 +306,7 @@ defmodule DetailCta do
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">
         <img alt="email" src="/images/icon/email-plavani.svg" />info@zsplavani.cz
       </a>
-      <a class="plavani-link" href="/images/pdf/plavani.pdf" target="_blank">
+      <a class="plavani-link" href="/images/pdf/plavani-2025.pdf" target="_blank">
         <img src="/images/icon/download-plavani.svg" />PDF brožura
       </a>
     </div>
@@ -314,7 +314,7 @@ defmodule DetailCta do
       let buttonCta = document.querySelector(".cta-button");
       let clickCount = 0;
 
-      if (window.innerWidth < window.innerHeight) {
+      if (winow.innerWidth < window.innerHeight) {
       // Disable link on first click
       buttonCta.addEventListener("click", () => {
         clickCount++;

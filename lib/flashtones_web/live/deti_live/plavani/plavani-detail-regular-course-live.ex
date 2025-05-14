@@ -78,13 +78,6 @@ defmodule FlashtonesWeb.PlavaniDetailRegularCourseLive do
                   Jedná se o jediný pražský bazén s přisolovanou vodou. Vodu čistí australská technologie která přidává do vody mořskou sůl (slanost vody je 0,5%). K výuce jsou pro nás k dispozici dva kryté bazény – sportovní a dětský. Areál se nachází zhruba 200 m od stanice metra Hloubětín, před budovou je možnost parkování.
                 </p>
               </div>
-              <b class="detail-link plavani-link self-end">
-                Instrukce a FAQ<img
-                  src="/images/icon/arrow-right-plavani.svg"
-                  alt="Šipka"
-                  class="button-image"
-                />
-              </b>
             </div>
           </a>
         </div>
