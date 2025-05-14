@@ -63,7 +63,7 @@ defmodule FlashtonesWeb.PlavaniDetailRegularCourseLive do
       <h3 class="disappear">Místo konání</h3>
       <div class="category" data-category="Plavání">
         <div class="product">
-                    <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-nedele.pdf">
+          <a>
             <div
               class="detail-lokace-item-img"
               style="background-image: url(/images/hotely/hloubetin.avif)"
@@ -91,4 +91,3 @@ defmodule FlashtonesWeb.PlavaniDetailRegularCourseLive do
     """
   end
 end
-
