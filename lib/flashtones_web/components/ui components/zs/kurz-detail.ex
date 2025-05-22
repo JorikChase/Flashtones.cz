@@ -322,7 +322,7 @@ defmodule KurzDetail do
         Letní pobytové tábory s výukou plavání ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konat se budou vždy od neděle do pátku.
       </p>
       <p>
-        Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování. Koná se v nádherném přírodním areálu českého středohoří, což dětem nabízí jedinečnou příležitost prozkoumat krásy české přírody a užít si čerstvý vzduch daleko od městského shonu.
+        Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.
       </p>
       <p>
         Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Hotel je znám svým přátelským a bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního bazénu.

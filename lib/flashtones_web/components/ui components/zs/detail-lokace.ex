@@ -489,7 +489,7 @@ defmodule DetailLokace do
                     </div>
                     </a>
               </div>
-              <div class="product">
+              <!--<div class="product">
                     <a href="/lokality/zvikov">
                     <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/zvikov.avif)"></div>
                         <div class="product-text-wrap">
@@ -504,7 +504,7 @@ defmodule DetailLokace do
                         <b class="detail-link plavani-link self-end">Více informací<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                     </div>
                     </a>
-              </div>
+              </div>-->
               <div class="product">
                     <a href="/lokality/agri">
                       <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/agri/agri.avif)"></div>
