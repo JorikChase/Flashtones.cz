@@ -130,7 +130,7 @@ defmodule FlashtonesWeb.AllArticlesLive do
         background: url(/images/deti/5.avif);
         }
         .blog-article:nth-child(5){
-        background: url(/images/deti/6.avif);
+        background: url(/images/blog/IMG_1114.JPG);
         }
         .blog-article:nth-child(6){
         background: url(/images/deti/7.avif);
