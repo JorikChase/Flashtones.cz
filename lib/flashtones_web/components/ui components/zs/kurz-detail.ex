@@ -48,7 +48,7 @@ defmodule KurzDetail do
           <bold>vodní hry</bold>
         </li>
       </ul>
-      <br>
+      <br />
     </div>
     """
   end
@@ -76,7 +76,7 @@ defmodule KurzDetail do
     <div class="course-wrap top">
       <h1>PRAVIDELNÝ PLAVECKÝ KURZ</h1>
       <p>
-      Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek. Bazén nabízí plavání ve slané vodě, která je šetrná k dětské pokožce a nezpůsobuje podráždění očí. Hlavní bazén má rozměry 25 x 15 metrů se šesti plaveckými dráhami, což umožňuje paralelní výuku několika skupin dle věku a pokročilosti. Areál disponuje také samostatným dětským bazénkem určeným pro nejmladší plavce a jejich postupnou adaptaci na vodní prostředí. Parametry bazénu v Hloubětíně jsou vhodné pro všechny věkové kategorie.
+        Pravidelné lekce školního plavání probíhají v bazéně Hloubětín, který se nachází ve výborně dostupné lokalitě Prahy 9, jen pár kroků od stanice metra Hloubětín a tramvajových linek. Bazén nabízí plavání ve slané vodě, která je šetrná k dětské pokožce a nezpůsobuje podráždění očí. Hlavní bazén má rozměry 25 x 15 metrů se šesti plaveckými dráhami, což umožňuje paralelní výuku několika skupin dle věku a pokročilosti. Areál disponuje také samostatným dětským bazénkem určeným pro nejmladší plavce a jejich postupnou adaptaci na vodní prostředí. Parametry bazénu v Hloubětíně jsou vhodné pro všechny věkové kategorie.
       </p>
       <h3>Jak to probíhá</h3>
       <p>
@@ -99,7 +99,7 @@ defmodule KurzDetail do
           <bold>vodní hry</bold>
         </li>
       </ul>
-      <br>
+      <br />
     </div>
     """
   end
@@ -319,22 +319,19 @@ defmodule KurzDetail do
     <div class="course-wrap top">
       <h1>LETNÍ POBYTOVÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
       <p>
-        Letní pobytové tábory s výukou plavání ZŠ PRO DĚTI jsou určeny dětem ve věku 7-13 let. Konat se budou vždy od neděle do pátku.
+        Letní pobytové tábory ZŠ Plavání jsou určeny dětem ve věku 7-13 let. Konají se vždy od neděle do pátku v hotelu Energetik.
       </p>
       <p>
         Tábor představuje ideální prázdninové dobrodružství pro děti, které chtějí prožít nezapomenutelné léto plné zábavy, nových přátelství a objevování.
       </p>
       <p>
-        Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Hotel je znám svým přátelským a bezpečným prostředím, kvalitním ubytováním a vynikajícími službami, včetně velkého vnitřního bazénu.
+        Ubytování je zajištěno v hotelu Energetik, který se nachází v jedinečném prostředí Krkonošského národního parku s překrásným výhledem na Sněžku a Studniční horu. Plavecké lekce probíhají v tamním vnitřním bazénu o délce 16m.
       </p>
       <p>
-        Program tábora je navržen tak, aby podporoval sportovních dovedností, týmového ducha, kreativitu a samostatnost dětí. Každý den je plný aktivit, které zahrnují sporty, hry, turistiku, vzdělávací workshopy a umělecké projekty, vše pod vedením zkušených a empatických vedoucích, kteří mají k dětem individuální přístup. Speciální částí programu jsou také večerní táborové ohně, skvělé stolní hry a další zábavné aktivity. Děti se mohou těšit celkově na devět plaveckých lekcí.
+        Program je navržen pro skupiny neplavců, poloplavců i pokročilých plavců a kromě plaveckých dovedností podporuje i rozvoj všeobecných pohybových dovedností, týmového ducha, kreativity a samostatnosti dětí. Děti se mohou těšit celkově na devět plaveckých lekcí. Každý den je plný dalších pestrých aktivit, které zahrnují nejrůznější tradiční i méně tradiční sporty, hry, turistiku, táborové ohně i umělecké činnosti. Vše pod vedením zkušených a empatických instruktorů, kteří mají k dětem individuální přístup. V neposlední řadě kladou naše tábory i velký důraz na rozvoj sociálních dovedností, budování hodnot vzájemného respektu a porozumění a podporu zdravého životního stylu.
       </p>
       <p>
-        Tábory ZŠ PRO DĚTI klade velký důraz na rozvoj sociálních dovedností a podporu zdravého životního stylu. Díky široké nabídce aktivit a her v přírodě se děti nejen naučí nové dovednosti, ale také si vyzkouší, jak je důležité spolupracovat a respektovat jeden druhého.
-      </p>
-      <p>
-        V neposlední řadě, letní pobytové tábory nabízejí dětem příležitost odpočinout si od elektroniky a strávit čas aktivně venku, což je v dnešní digitální době neocenitelná zkušenost. S kombinací úžasného prostředí, skvělého programu a profesionálního týmu vedoucích se jedná o perfektní místo pro nezapomenutelné letní prázdniny.
+        Letní pobytové tábory ZŠ Plavání nabízejí dětem příležitost odpočinout si od elektroniky a strávit čas aktivně venku. S kombinací úžasného prostředí, skvělého programu a profesionálního týmu se jedná o nezapomenutelný čas letních prázdnin.
       </p>
       <br />
     </div>
