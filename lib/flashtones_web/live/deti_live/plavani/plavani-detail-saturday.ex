@@ -62,7 +62,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       <div class="category" data-category="Plavání pro veřejnost">
         <h2>Místo konání</h2>
         <div class="product">
-          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota.pdf">
+          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota-2025.pdf">
             <div
               class="detail-lokace-item-img"
               style="background-image: url(/images/hotely/radotin.avif)"
