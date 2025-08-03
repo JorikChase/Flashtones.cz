@@ -206,18 +206,17 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h1>
+      <h1>VÍKENDOVÉ KURZY PLAVÁNÍ 2025/2026</h1>
       <p>
         Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Víkendové plavání je tou správnou volbou!
       </p>
       <h3>Organizace</h3>
       <p>
-        Kurzy trvají vždy 50 minut a konají se každou sobotu(pro Radotín)/neděli (pro Hloubětín). Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro děti ve věku 5-13 let a jsou vhodné jak pro úplné začáteníky, tak pokročilé plavce.
+        Kurzy trvají vždy 50 minut a konají se každou sobotu v Radotíně. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro <b>děti ve věku 5-13 let</b> a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>.
+        <br />
         <br />
         <b>Pro Radotín máme v nabídce dopolední lekce:</b>
         <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
-        <b>Pro Hloubětín máme v nabídce odpolední lekce:</b>
-        <br /> Neděle 17:00-18:00 <br /> Neděle 18:15- 19:15 <br />
       </p>
       <h3>Jak to probíhá</h3>
       <p>

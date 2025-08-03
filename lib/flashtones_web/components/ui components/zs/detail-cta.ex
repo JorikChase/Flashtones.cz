@@ -362,33 +362,19 @@ defmodule DetailCta do
       <a
         class="cta-button cta-button2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-20/lokalita/3/termin/list"
+        href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
       <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 6 400 Kč | 16 lekcí
+        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 5 600 Kč | 14 lekcí
       </a>
-      <a class="text-gray-900 plavani-link">
+      <a class="text-gray-900 plavani-link pb-4">
         <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Radotín - soboty
       </a>
-      <a
-        class="cta-button"
-        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/kurz-21/lokalita/2/termin/list"
-      >
-        Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
-      </a>
-      <span></span>
-      <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 5 980 Kč | 15 lekcí
-      </a>
-      <a class="text-gray-900 plavani-link">
-        <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Hloubětín - neděle
-      </a>
-      <bold style="padding-bottom: 5px; padding-top: 10px;">Chci více informací o kurzu:</bold>
-      <a class="plavani-link" href="tel:+420 724 168 962">
+      <hr />
+      <a class="plavani-link pt-4" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
       <a class="plavani-link" href="mailto:petra@zsplavani.cz">

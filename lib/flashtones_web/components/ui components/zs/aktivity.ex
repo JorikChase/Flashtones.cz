@@ -307,7 +307,7 @@ defmodule Aktivity do
       </a>
       <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
-        <h4>Víkendové kurzy plavání 2025</h4>
+        <h4>Víkendové kurzy plavání 2025/2026</h4>
         <span class="inline-button align-right plavani-link">
           Více informací<img alt="Logo kurzu" src="/images/icon/arrow-right-plavani.svg" />
         </span>
