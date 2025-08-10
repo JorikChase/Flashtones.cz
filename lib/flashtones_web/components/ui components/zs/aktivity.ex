@@ -156,7 +156,7 @@ defmodule Aktivity do
                 <h3>Letní pobytový plavecký tábor</h3>
               </a>
               <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="mobile-menu-item public-item-3">
-                <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h3>
+                <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2025/2026</h3>
               </a>
               <a href="/enviro/primestske-tabory-enviro" class="mobile-menu-item public-item-4">
                 <h3>Příměstské tábory "Aktivní léto"</h3>

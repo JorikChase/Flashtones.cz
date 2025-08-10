@@ -18,7 +18,7 @@ defmodule KurzNav do
       </a>
       <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani" class="kurz-item">
         <img alt="Logo kurzu" src="/images/icon/kurz/pravidelne-sobotni-kurzy-plavani.svg" />
-        <h4>VÍKENDOVÉ KURZY PLAVÁNÍ 2025</h4>
+        <h4>VÍKENDOVÉ KURZY PLAVÁNÍ 2025/2026</h4>
         <p>
           Absolvovali jste s námi kurz školního plavání a vaše ratolest chce s plaváním pokračovat? Přihlašte své ratolesti k nám do kurzu!
         </p>

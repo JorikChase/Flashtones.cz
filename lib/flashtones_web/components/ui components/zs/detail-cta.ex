@@ -406,8 +406,8 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "https://rezervace.zsprodeti.cz/kurz-21/lokalita/2/termin/list";
-            buttonCta2.href = "https://rezervace.zsprodeti.cz/kurz-20/lokalita/3/termin/list";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
         }
         });
         }
