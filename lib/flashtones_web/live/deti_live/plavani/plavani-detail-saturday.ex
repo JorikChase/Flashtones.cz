@@ -62,7 +62,7 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
       <div class="category" data-category="Plavání pro veřejnost">
         <h2>Místo konání</h2>
         <div class="product">
-          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota-2025.pdf">
+          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota-radotin-2025.pdf">
             <div
               class="detail-lokace-item-img"
               style="background-image: url(/images/hotely/radotin.avif)"
@@ -75,6 +75,36 @@ defmodule FlashtonesWeb.PlavaniDetailSaturdayLive do
                 </h4>
                 <p class="font-normal">
                   Plavecký a sportovní areál Radotín na adrese: K Lázním 9, Praha 5, 153 00. Bazén tvoří čtyři 25metrové dráhy určené k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,6metru. Směrem k druhému konci stoupá nerezové dno na 1,3 metru.
+                </p>
+              </div>
+              <b class="detail-link plavani-link self-end">
+                Instrukce a FAQ<img
+                  src="/images/icon/arrow-right-plavani.svg"
+                  alt="Šipka"
+                  class="button-image"
+                />
+              </b>
+            </div>
+          </a>
+        </div>
+        <div class="product">
+          <a target="_blank" href="/images/pdf/plavani-verejnost/vikendove-kurzy-sobota-suchdol-2025.pdf">
+            <div
+              class="detail-lokace-item-img"
+              alt="Foto hotelu"
+              style="background-image: url(/images/hotely/suchdol.avif)"
+              id="suchdol"
+            >
+            </div>
+            <div class="product-text-wrap">
+              <div class="product-text">
+                <span class="cost-wrap">
+                  <h4>
+                    PRAHA - PLAVECKÝ BAZÉN SUCHDOL ČZU
+                  </h4>
+                </span>
+                <p class="font-normal">
+                  Kurzy probíhají v Sportcentrum Suchdol na univerzitě ČZU. Bazén má rozměry 25x13 metrů. Má pozvolný sestup, který začíná hloubkou 1,2m a končí hloubkou 1,8 m.
                 </p>
               </div>
               <b class="detail-link plavani-link self-end">

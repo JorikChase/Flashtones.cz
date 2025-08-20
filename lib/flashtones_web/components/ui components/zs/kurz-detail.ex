@@ -212,10 +212,12 @@ defmodule KurzDetail do
       </p>
       <h3>Organizace</h3>
       <p>
-        Kurzy trvají vždy 50 minut a konají se každou sobotu v Radotíně. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro <b>děti ve věku 5-13 let</b> a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>.
+        Kurzy trvají vždy 50 minut a konají se každou sobotu v Radotíně a na Suchdole. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro <b>děti ve věku 5-13 let</b> a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>.
         <br />
         <br />
         <b>Pro Radotín máme v nabídce dopolední lekce:</b>
+        <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
+        <b>Pro Suchdol máme v nabídce dopolední lekce:</b>
         <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
       </p>
       <h3>Jak to probíhá</h3>
