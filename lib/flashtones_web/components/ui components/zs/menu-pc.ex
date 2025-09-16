@@ -440,6 +440,9 @@ defmodule MenuPc do
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(5) a:before {
               background-image: url("/images/icon/kurz/skolni-lyzarsky-kurz.svg");
           }
+          .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly li:nth-of-type(6) a:before {
+              background-image: url("/images/icon/kurz/svp-enviro.svg");
+          }
           .pcMenuBarLinks ul li > div.dropdown ul.mini-skoly-2 li:nth-of-type(1) a:before {
               background-image: url("/images/icon/kurz/svt-enviro.svg");
           }
@@ -495,6 +498,15 @@ defmodule MenuPc do
               li:nth-of-type(4)
               a:before {
               background-image: url("/images/icon/kurz/city-enviro.svg");
+          }
+          .pcMenuBarLinks
+              ul
+              li
+              > div.dropdown
+              ul.mini-verejnost
+              li:nth-of-type(5)
+              a:before {
+              background-image: url("/images/icon/kurz/svp-enviro.svg");
           }
           .pcMenuBarLinks
               ul
@@ -614,6 +626,11 @@ defmodule MenuPc do
                           <h3>ŠKOLNÍ LYŽAŘSKÝ KURZ</h3>
                         </a>
                       </li>
+                      <li>
+                        <a href="/enviro/exkurze-haveti-naproti-pro-skoly">
+                          <h3>Exkurze "Havěti naproti"</h3>
+                        </a>
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -671,6 +688,11 @@ defmodule MenuPc do
                       <li>
                         <a href="/enviro/primestske-tabory-enviro">
                           <h3>Příměstské tábory "Aktivní léto"</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/enviro/exkurze-haveti-naproti-pro-verejnost">
+                          <h3>Exkurze "Havěti naproti"</h3>
                         </a>
                       </li>
                       <li>

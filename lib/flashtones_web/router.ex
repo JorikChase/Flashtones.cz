@@ -104,6 +104,8 @@ defmodule FlashtonesWeb.Router do
     live "/vylety/priroda/ekocentrum-vlasim", VyletyEkocentrumVlasimLive
     live "/vylety/priroda/kurz-remesel", VyletyKurzRemeselLive
 
+    live "/enviro/exkurze-haveti-naproti-pro-skoly", EnviroHavetiNaprotiProSkolyLive
+    live "/enviro/exkurze-haveti-naproti-pro-verejnost", EnviroHavetiNaprotiProVerejnostLive
     live "/enviro/svp", EnviroSvpLive
     live "/enviro/tym", EnviroTymLive
     live "/enviro/ss-tym", EnviroSSTymLive

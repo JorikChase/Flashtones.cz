@@ -1518,4 +1518,136 @@ defmodule DetailLokace do
     </div>
     """
   end
+
+  def detailHavetiNaprotiProSkoly(assigns) do
+    ~H"""
+    <style>
+      .detail-lokace{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      #hloubetin{
+        width: 270px!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+      .cost-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+      }
+      .cost-wrap > b{
+        padding: 2px 10px;
+        font-size: 22px;
+        background: var(--ft-main);
+        text-align: center;
+        white-space: nowrap;
+          display: inline-block;
+          width: fit-content;
+      }
+      @media (orientation: portrait){
+        #hloubetin{
+        width: 100%!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+        .cost-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+      }
+    </style>
+    <div class="detail-lokace course-wrap">
+    <div class="category" data-category="Příměstské tábory Enviro">
+    <h3 class="disappear">Místa konání</h3>
+    <div class="product">
+      <a target="_blank" href="#">
+        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/studio/flashtones-studio.png)"></div>
+          <div class="product-text-wrap">
+            <div class="product-text">
+              <span class="cost-wrap"><h4>
+                Oldřichova 37 - Flashtones Studio
+                </h4><b>180 <side>Kč</side></b></span>
+                <p class="font-normal">Program se koná v příjemném a klidném studiu v srdci pražských Nuslí, které nabízí bezpečné a přívětivé prostředí pro dětské vzdělávání i praktické aktivity. Studio je útulné, dobře dostupné a navržené tak, aby podpořilo soustředěnou práci s menší skupinou dětí. Vnitřní prostory jsou přizpůsobeny interaktivní výuce a umožňují přímý kontakt se zvířaty v bezpečném a kontrolovaném prostředí. Lokalita vyniká rodinnou atmosférou, klidem a výbornou dostupností z různých částí Prahy, což z ní činí ideální místo pro inspirativní exkurze a projektové dny.</p>
+            </div>
+          <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+        </div>
+      </a>
+    </div>
+    </div>
+    </div>
+    """
+  end
+
+  def detailHavetiNaprotiProVerejnost(assigns) do
+    ~H"""
+    <style>
+      .detail-lokace{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      #hloubetin{
+        width: 270px!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+      .cost-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+      }
+      .cost-wrap > b{
+        padding: 2px 10px;
+        font-size: 22px;
+        background: var(--ft-main);
+        text-align: center;
+        white-space: nowrap;
+          display: inline-block;
+          width: fit-content;
+      }
+      @media (orientation: portrait){
+        #hloubetin{
+        width: 100%!important;
+        height: 185px!important;
+        aspect-ratio: 270/185;
+      }
+        .cost-wrap{
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+      }
+    </style>
+    <div class="detail-lokace course-wrap">
+    <div class="category" data-category="Příměstské tábory Enviro">
+    <h3 class="disappear">Místa konání</h3>
+    <div class="product">
+      <a target="_blank" href="#">
+        <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/studio/flashtones-studio.png)"></div>
+          <div class="product-text-wrap">
+            <div class="product-text">
+              <span class="cost-wrap"><h4>
+                Oldřichova 37 - Flashtones Studio
+                </h4><b>250 <side>Kč</side></b></span>
+                <p class="font-normal">Program se koná v příjemném a klidném studiu v srdci pražských Nuslí, které nabízí bezpečné a přívětivé prostředí pro dětské vzdělávání i praktické aktivity. Studio je útulné, dobře dostupné a navržené tak, aby podpořilo soustředěnou práci s menší skupinou dětí. Vnitřní prostory jsou přizpůsobeny interaktivní výuce a umožňují přímý kontakt se zvířaty v bezpečném a kontrolovaném prostředí. Lokalita vyniká rodinnou atmosférou, klidem a výbornou dostupností z různých částí Prahy, což z ní činí ideální místo pro inspirativní exkurze a projektové dny.</p>
+            </div>
+          <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
+        </div>
+      </a>
+    </div>
+    </div>
+    </div>
+    """
+  end
 end

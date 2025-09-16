@@ -1,6 +1,117 @@
 defmodule KurzDetail do
   use Phoenix.Component
 
+  def havetiNaprotiProVerejnost(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="course-wrap top">
+      <h1>Havěti naproti – 90minutová exkurze pro rodiny a veřejnost</h1>
+      <p>
+        Zažijte setkání s živými bezobratlými, které nadchne malé i velké návštěvníky. Havěti naproti je hravý a bezpečný program, ve kterém si děti i dospělí zblízka prohlédnou pavouky, brouky, motýly a další fascinující tvory. Pod vedením zkušeného lektora Jakuba Radoše se dozvíte spoustu zajímavostí a vyzkoušíte si badatelské aktivity, které probouzejí zvídavost a učí ohleduplnosti k přírodě. Během devadesáti minut vás čekají živé ukázky hmyzu a drobných živočichů, zábavná poznávačka, poslech hmyzích zvuků i možnost bezpečného kontaktu s vybranými druhy. Program doplňují hravé aktivity, které baví děti i dospělé a propojí celou rodinu.
+      </p>
+
+      <p>
+        Exkurze probíhá v Flashtones studiu, Oldřichova 37, Praha 2, trvá 90 minut a je určena pro 8–25 osob. Vstupné začíná na 250 Kč/osoba.
+      </p>
+
+      <p>
+        Tento originální rodinný zážitek nabízí nejen zábavu a nevšední poznání, ale i inspiraci k ohleduplnému přístupu k přírodě. Bezpečné prostředí je ideální i pro menší děti a dárkový poukaz se stává skvělým tipem na výjimečný zážitek v Praze.
+      </p>
+      <!--h3>Jak to probíhá</h3>
+      <p>
+        S využítím
+        <bold>nových pedagogických metod</bold>
+        a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+      </p>
+      <p>
+        <bold>Výuka plavání</bold>
+        probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
+      </p>
+      <ul>
+        <li>
+          <bold>úvodní seznámení s náplní lekce a následná rozcvička</bold>
+        </li>
+        <li>
+          <bold>hlavní výuková část</bold>
+        </li>
+        <li>
+          <bold>vodní hry</bold>
+        </li>
+      </ul-->
+      <br />
+    </div>
+    """
+  end
+
+  def havetiNaprotiProSkoly(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="course-wrap top">
+      <h1>Exkurze Havěti naproti pro školy</h1>
+      <p>
+        90minutová exkurze s živými bezobratlými pro základní a mateřské školy odhalující fascinující říši bezobratlých. Pod vedením zkušeného lektora Jakuba Radoše děti poznají pavouky, brouky, strašilky, kudlanky i další drobné živočichy zblízka. Program zahrnuje živé ukázky, zábavnou poznávačku, poslech hmyzích zvuků i bezpečný kontakt se zvířaty. Zábava, poznání a praktická ekologie v jednom. Program je ideálním doplňkem přírodopisu nebo projektového dne.
+      </p>
+      <p>Cena za jednoho žáka činí 180 Kč. Maximální počet žáků je 25.</p>
+      <!--h3>Jak to probíhá</h3>
+      <p>
+        S využítím
+        <bold>nových pedagogických metod</bold>
+        a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+      </p>
+      <p>
+        <bold>Výuka plavání</bold>
+        probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 90 minut a je strukturována do tří částí:
+      </p>
+      <ul>
+        <li>
+          <bold>úvodní seznámení s náplní lekce a následná rozcvička</bold>
+        </li>
+        <li>
+          <bold>hlavní výuková část</bold>
+        </li>
+        <li>
+          <bold>vodní hry</bold>
+        </li>
+      </ul-->
+      <br />
+    </div>
+    """
+  end
+
   def plavaniCitySchool(assigns) do
     ~H"""
     <style>
@@ -212,8 +323,9 @@ defmodule KurzDetail do
       </p>
       <h3>Organizace</h3>
       <p>
-        Kurzy trvají vždy 50 minut a konají se každou sobotu v Radotíně a na Suchdole. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro <b>děti ve věku 5-13 let</b> a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>.
-        <br />
+        Kurzy trvají vždy 50 minut a konají se každou sobotu v Radotíně a na Suchdole. Je však jen na vás, kdy na ně dorazíte. Zaplatíte si balíček lekcí a docházíte podle vlastní potřeby. Kurzy jsou otevřené pro
+        <b>děti ve věku 5-13 let</b>
+        a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>. <br />
         <br />
         <b>Pro Radotín máme v nabídce dopolední lekce:</b>
         <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />

@@ -92,6 +92,9 @@ defmodule Aktivity do
         .school-item-10:before {
           background-image: url("/images/icon/hiking.svg");
         }
+        .school-item-11:before {
+          background-image: url("/images/icon/kurz/svp-enviro.svg");
+        }
 
         /* Public icons */
         .public-item-1:before {
@@ -108,6 +111,9 @@ defmodule Aktivity do
         }
         .public-item-5:before {
           background-image: url("/images/icon/kurz/boy.svg");
+        }
+        .public-item-6:before {
+          background-image: url("/images/icon/kurz/svp-enviro.svg");
         }
       </style>
         <div class="kurz-nav">
@@ -145,6 +151,9 @@ defmodule Aktivity do
               <a href="/vylety" class="mobile-menu-item school-item-10">
                 <h3>POZNÁVACÍ A ENVIRO VÝLETY</h3>
               </a>
+              <a href="/enviro/exkurze-haveti-naproti-pro-skoly" class="mobile-menu-item school-item-11">
+                <h3>EXKURZE "HAVĚTI NAPROTI"</h3>
+              </a>
             </div>
             <!-- Pro veřejnost section -->
             <div class="mobile-aktivity-button">Pro veřejnost</div>
@@ -163,6 +172,9 @@ defmodule Aktivity do
               </a>
               <a href="https://zsprodeti.cz/plavani/individualni-kurzy" class="mobile-menu-item public-item-5" style="justify-self: flex-start;">
                 <h3>INDIVIDUÁLNÍ KURZY</h3>
+              </a>
+              <a href="/enviro/exkurze-haveti-naproti-pro-verejnost" class="mobile-menu-item public-item-6">
+                <h3>EXKURZE "HAVĚTI NAPROTI"</h3>
               </a>
             </div>
           </div>

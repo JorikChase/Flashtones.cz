@@ -360,7 +360,7 @@ defmodule DetailCta do
     </style>
     <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
       <a
-        class="cta-button cta-button2"
+        class="cta-button cta-button2 custom-cta-1"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3"
       >
@@ -374,7 +374,7 @@ defmodule DetailCta do
         <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Radotín - soboty
       </a>
       <a
-        class="cta-button cta-button2"
+        class="cta-button cta-button2 custom-cta-2"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=24&lokalita=37"
       >
@@ -402,6 +402,49 @@ defmodule DetailCta do
         <img src="/images/icon/info-plavani.svg" />VOP
       </a>
     </div>
+    <script>
+      let buttonCta = document.querySelector(".custom-cta-1");
+
+      let buttonCta2 = document.querySelector(".custom-cta-2");
+
+      let clickCount = 0;
+
+      if (window.innerWidth < window.innerHeight) {
+
+      // Disable link on first click
+
+      buttonCta.addEventListener("click", () => {
+
+        clickCount++;
+
+        if (clickCount === 1) {
+
+          console.log("First click - disabling link");
+
+          // Prevent default action
+
+          event.preventDefault();
+
+        } else if (clickCount === 2) {
+
+          console.log("Second click - activating link");
+
+          // Reset click count
+
+          clickCount = 0;
+
+          // Enable the link
+
+            buttonCta.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
+
+            buttonCta2.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
+
+        }
+
+        });
+
+        }
+    </script>
     """
   end
 
@@ -755,6 +798,56 @@ defmodule DetailCta do
           clickCount = 0;
           // Enable the link
             buttonCta.href = "/kontakty-formular";
+        }
+        });
+        }
+    </script>
+    """
+  end
+
+  def enviroHavetiNaproti(assigns) do
+    ~H"""
+    <style>
+    </style>
+    <div class="detail-cta" style="border-color: var(--enviro-main)" id="detail-cta">
+      <a
+        class="cta-button"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
+        style="background: var(--enviro-main)"
+        href="https://zsprodeti.cz/kontakty-formular"
+      >
+        Nezávazně objednat
+      </a>
+      <!--<p>Chci více informací o kurzu:</p>-->
+      <br />
+      <a class="enviro-link" href="tel:+420 724 168 962">
+        <img alt="telefon" src="/images/icon/call-enviro.svg" />+420 724 168 962
+      </a>
+      <a class="enviro-link" href="mailto:petra@zsprodeti.cz">
+        <img alt="email" src="/images/icon/email-enviro.svg" />petra@zsprodeti.cz
+      </a>
+      <a class="enviro-link" target="_blank" href="/images/pdf/vop-zsprodeti-2025.pdf">
+        <img src="/images/icon/download-enviro.svg" />VOP
+      </a>
+    </div>
+    <script>
+      let buttonCta = document.querySelector(".cta-button");
+      let clickCount = 0;
+
+      if (window.innerWidth < window.innerHeight) {
+      // Disable link on first click
+      buttonCta.addEventListener("click", () => {
+        clickCount++;
+        if (clickCount === 1) {
+          console.log("First click - disabling link");
+          // Prevent default action
+          event.preventDefault();
+        } else if (clickCount === 2) {
+          console.log("Second click - activating link");
+          // Reset click count
+          clickCount = 0;
+          // Enable the link
+            buttonCta.href = "https://zsprodeti.cz/kontakty-formular";
         }
         });
         }
