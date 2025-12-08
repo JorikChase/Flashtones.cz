@@ -661,6 +661,19 @@ defmodule HeroSmall do
     """
   end
 
+  def swimmingHloubetin(assigns) do
+    ~H"""
+    <div class="hero-small"></div>
+
+    <style>
+      .hero-small{
+       background-image: url(/images/plavani/swimming-hloubetin.avif);
+       background-size: cover;
+      }
+    </style>
+    """
+  end
+
   def plavaniSummer(assigns) do
     ~H"""
     <div class="hero-small"></div>

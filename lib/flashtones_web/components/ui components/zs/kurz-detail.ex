@@ -164,6 +164,51 @@ defmodule KurzDetail do
     """
   end
 
+  def swimmingHloubetin(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="course-wrap top">
+      <h1>MORNING SWIMMING <br/>IN HLOUBĚTÍN</h1>
+      <span class="italic text-xl">From first strokes to confident training</span>
+      <p>
+      Want to finally learn how to swim — or improve your technique and overall fitness? We’ll help you feel comfortable in the water, teach you efficient breathing, and guide you to swim with proper, confident form. 
+      </p>
+      <ul>
+        <li>
+          <bold>Fundamentals</bold>
+        </li>
+        <li>
+          <bold>Technique</bold>
+        </li>
+        <li>
+          <bold>Conditioning</bold>
+        </li>
+        <li>
+          <bold>Recovery</bold>
+        </li>
+      </ul>
+      <br />
+    </div>
+    """
+  end
+
   def plavaniRegularCourse(assigns) do
     ~H"""
     <style>

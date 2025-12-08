@@ -88,6 +88,7 @@ defmodule FlashtonesWeb.Router do
     live "/plavani/services/letni-tabor/", PlavaniDetailSummerLive
     live "/plavani/individualni-kurzy", PlavaniDetailWeekendLive
     live "/plavani/services/vikendove-primestske-tabory-plavani/", PlavaniDetailWeekendLive
+    live "/plavani/kurz/morning-swimming-in-hloubetin", SwimmingHloubetin
 
     live "/lyzovani/skolni-lyzarsky-kurz", LyzovaniDetailSchoolLive
     live "/lyzovani/bezky", LyzovaniDetailBezkyLive

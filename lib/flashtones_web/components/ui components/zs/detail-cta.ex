@@ -335,6 +335,56 @@ defmodule DetailCta do
     """
   end
 
+  def swimmingHloubetin(assigns) do
+    ~H"""
+    <style>
+    </style>
+    <div class="detail-cta" style="border-color: var(--plavani-main)" id="detail-cta">
+      <a
+        class="cta-button"
+        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
+        style="background: var(--plavani-main)"
+        href="/kontakty-formular"
+      >
+        place an order
+      </a>
+      <p>Registration & Contact:</p>
+      <br />
+      <a class="plavani-link" href="tel:+420 724 168 962">
+        <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
+      </a>
+      <a class="plavani-link" href="mailto:info@zsplavani.cz">
+        <img alt="email" src="/images/icon/email-plavani.svg" />info@zsplavani.cz
+      </a>
+      <a class="plavani-link" href="/images/pdf/swimming-hloubetin.pdf" target="_blank">
+        <img src="/images/icon/download-plavani.svg" />PDF brochure
+      </a>
+    </div>
+    <script>
+      let buttonCta = document.querySelector(".cta-button");
+      let clickCount = 0;
+
+      if (winow.innerWidth < window.innerHeight) {
+      // Disable link on first click
+      buttonCta.addEventListener("click", () => {
+        clickCount++;
+        if (clickCount === 1) {
+          console.log("First click - disabling link");
+          // Prevent default action
+          event.preventDefault();
+        } else if (clickCount === 2) {
+          console.log("Second click - activating link");
+          // Reset click count
+          clickCount = 0;
+          // Enable the link
+            buttonCta.href = "/kontakty-formular";
+        }
+        });
+        }
+    </script>
+    """
+  end
+
   def plavaniSaturday(assigns) do
     ~H"""
     <style>
