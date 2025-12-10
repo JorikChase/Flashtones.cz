@@ -605,7 +605,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-plavani.svg" alt="Ukazat podrobnou odpoved" class="self-end">
         </div>
-          <p class="answer mt-2">Příměstské tábory probíhají po celé léto 2025, na konkrétní nabídku se můžete podívat <a class="plavani-link font-bold" href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=1">zde</a>.</p>
+          <p class="answer mt-2">Příměstské tábory probíhají po celé léto 2026, na konkrétní nabídku se můžete podívat <a class="plavani-link font-bold" href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=1">zde</a>.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">

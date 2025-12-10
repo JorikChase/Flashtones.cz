@@ -277,9 +277,8 @@ defmodule DetailLokace do
                     </a>
               </div>
               <div class="product">
-                    <a target="" href="###">
-                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/hloubetin.avif); display: flex; justify-content: center; align-items: center; color: white; background: rgba(255, 0, 0, 0.6); font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
-                      <span style="">rekonstrukce UZAVŘEN</span>
+                    <a target="_blank" href="/images/pdf/plavani-verejnost/hloubetin_instrukce_a_faq_2026.pdf">
+                      <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/hloubetin.avif); display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; text-transform: uppercase; width: 90%; height: 90%; text-align: center;" id="hloubetin">
                       </div>
                         <div class="product-text-wrap">
                         <div class="product-text">
@@ -335,7 +334,7 @@ defmodule DetailLokace do
                             </div>
                         </a>
                   </div>
-                  <div class="product">
+                  <!--div class="product">
                             <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-ostrava.pdf">
                               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/ostrava-jesterka-bazen.avif)"></div>
                                 <div class="product-text-wrap">
@@ -376,7 +375,7 @@ defmodule DetailLokace do
                                         <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
                                         </div>
                                     </a>
-                              </div>
+                              </div-->
           <%!-- <div class="product">
             <a target="_blank" href="/images/pdf/plavani-verejnost/primestaky/faq-sareza.pdf">
               <div class="detail-lokace-item-img" alt="Foto hotelu" style="background-image: url(/images/hotely/sareza.avif)" id="sareza"></div>

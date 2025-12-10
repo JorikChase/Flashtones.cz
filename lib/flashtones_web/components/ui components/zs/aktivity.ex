@@ -159,7 +159,7 @@ defmodule Aktivity do
             <div class="mobile-aktivity-button">Pro veřejnost</div>
             <div class="mobile-menu-items  aktivity-mobil">
               <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory" class="mobile-menu-item public-item-1">
-                <h3>Letní příměstské plavecké tábory 2025</h3>
+                <h3>Letní příměstské plavecké tábory 2026</h3>
               </a>
               <a href="https://zsprodeti.cz/plavani/letni-pobytove-tabory" class="mobile-menu-item public-item-2">
                 <h3>Letní pobytový plavecký tábor</h3>

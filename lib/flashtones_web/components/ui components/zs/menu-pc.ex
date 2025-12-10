@@ -672,7 +672,7 @@ defmodule MenuPc do
                     <ul class="mini-verejnost">
                       <li>
                         <a href="https://zsprodeti.cz/plavani/letni-primestske-tabory">
-                          <h3>Letní příměstské plavecké tábory 2025</h3>
+                          <h3>Letní příměstské plavecké tábory 2026</h3>
                         </a>
                       </li>
                       <li>

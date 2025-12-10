@@ -185,10 +185,10 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>MORNING SWIMMING <br/>IN HLOUBĚTÍN</h1>
+      <h1>MORNING SWIMMING <br />IN HLOUBĚTÍN</h1>
       <span class="italic text-xl">From first strokes to confident training</span>
       <p>
-      Want to finally learn how to swim — or improve your technique and overall fitness? We’ll help you feel comfortable in the water, teach you efficient breathing, and guide you to swim with proper, confident form. 
+        Want to finally learn how to swim — or improve your technique and overall fitness? We’ll help you feel comfortable in the water, teach you efficient breathing, and guide you to swim with proper, confident form.
       </p>
       <ul>
         <li>
@@ -520,24 +520,33 @@ defmodule KurzDetail do
     <div class="course-wrap top">
       <h1>LETNÍ PŘÍMĚSTSKÉ TÁBORY S VÝUKOU PLAVÁNÍ</h1>
       <p>
-        S využítím nových pedagogických metod a osvědčených nenásilných postupů výuky plavání jsou děti vedeny k lásce k vodě a následnému zvládnutí základních plaveckých způsobů. Pamatujete si na Vaše školní plavání? Násilné potápění hlavy, odstrkování rukou od břehu pomocí tyče a slzy v brýlích u nás nenajdete. Máme rádi děti a víme, že učit lze i bez křiku pomocí pozitivní motivace a přirozené autority.
+        Příměstský tábor jako místo, kde se dítě naučí skutečnou životní dovednost? Právě takový je náš tábor s plaváním!
+        Propojujeme každodenní radost z pohybu ve vodě s pestrými, nejen pohybovými, aktivitami. Denně děti absolvují  dvě plavecké lekce a doplňkový program s pohybovými hrami, tvořením nebo výpravami do městské přírody. Klademe důraz na kvalitní obsah i budování nových přátelství a zábavu. Děti odcházejí s pocitem, že zvládnou víc, než si myslely.
+      </p>
+      <h3>
+        Jak probíhá výuka plavání
+      </h3>
+      <p>
+        Výuka probíhá ve vyhřívaném bazénu pod dohledem zkušených instruktorů. Děti rozdělujeme do skupin podle plaveckých schopností, přičemž jeden instruktor se věnuje po celou dobu kurzu vždy pouze své skupině (cca 10 dětí). Díky tomu vzniká pocit bezpečí, důvěry a přátelství mezi instruktorem a dětmi.
+      </p>
+      <div>
+        <bold>
+          Každá 60minutová lekce má tři části:
+        </bold>
+        <ul>
+          <li>úvodní seznámení s náplní lekce a společná rozcvička</li>
+          <li>hlavní výuková část</li>
+          <li>závěrečné vodní hry</li>
+        </ul>
+      </div>
+      <h3>
+        Jak to funguje
+      </h3>
+      <p>
+        Příměstské tábory zahrnují celkem deset šedesátiminutových plaveckých bloků a pestré doplňkové aktivity. Probíhají v červenci a srpnu, vždy od pondělí do pátku, bez ubytování.
       </p>
       <p>
-        Výuka plavání probíhá ve vyhřívaném bazénu za dozoru zkušených instruktorů. Děti jsou rozřazeny do skupin dle schopností. Jeden instruktor vede vždy jen jednu skupinu (cca. 10 dětí) v průběhu celého kurzu z důvodu nastolení důvěry a přátelství mezi instruktorem a dětmi. Každá lekce trvá 60 minut a je strukturována do tří částí:
-      </p>
-      <ul>
-        <li><b>úvodní seznámení s náplní lekce a následná rozcvička</b></li>
-        <li><b>hlavní výuková část</b></li>
-        <li><b>vodní hry</b></li>
-      </ul>
-      <h3>Jak to probíhá</h3>
-      <p>
-        Příměstské tábory zahrnují deset šedesátiminutových plaveckých bloků a doplňkové sportovní a zábavní aktivity. Kurzy probíhají v červenci a srpnu, vždy od pondělí do pátku a nezahrnují ubytování.
-      </p>
-      <p>
-        Jsou vhodné pro <b>děti ve věku 5-13 let</b>. Rádi mezi nás přivítáme úplné
-        <b>začátečníky i pokročilé plavce</b>
-        .
+        Tábor je určen pro děti od 5 do 13 let. Rádi mezi námi přivítáme úplné začátečníky i pokročilé plavce – každý si u nás najde svou výzvu, zábavu i radost z nově získaných dovedností.
       </p>
     </div>
     <br />
