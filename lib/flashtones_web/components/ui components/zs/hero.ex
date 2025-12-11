@@ -137,7 +137,7 @@ defmodule Hero do
         <div
           id="hero-background"
           class="absolute inset-0 bg-cover bg-center transform scale-y-[-1] filter saturate-90 brightness-90 contrast-75 transition-all duration-1000"
-          style="background-image: url('/images/deti/primestak-head.jpg');"
+          style="background-image: url('/images/deti/primestak-head.avif');"
           role="img"
           aria-label="primestske tabory"
         >
@@ -149,13 +149,13 @@ defmodule Hero do
               id="hero-title"
               class="text-9xl md:text-9xl text-white font-bold drop-shadow-lg mb-4 responsive-text"
             >
-              Máme otevřené registrace na letní příměstské tábory s plaváním
+              Pořiďte plavecký příměstský tábor jako vánoční dárek!
             </h1>
             <p
               id="hero-description"
               class="text-lg md:text-2xl text-white drop-shadow-md mb-8 responsive-text"
             >
-              Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava
+              Do konce roku za zvýhodněnou cenu!
             </p>
             <a
               id="hero-button"
