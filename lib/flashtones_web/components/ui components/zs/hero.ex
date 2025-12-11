@@ -196,11 +196,11 @@ defmodule Hero do
           bgImage: "images/deti/lyzovani-head.jpg"
         },
         {
-          title: 'Máme otevřené registrace na letní příměstské tábory s plaváním',
-          description: 'Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava',
+          title: 'Pořiďte plavecký příměstský tábor jako vánoční dárek!',
+          description: 'Do konce roku za zvýhodněnou cenu!',
           buttonText: 'Více informací',
           buttonLink: '/plavani/letni-primestske-tabory',
-          bgImage: "/images/deti/primestak-head.jpg"
+          bgImage: "/images/deti/primestak-head.avif"
         },
         {
           title: 'Nový kurz Labyrint pro střední školy je tu!',
