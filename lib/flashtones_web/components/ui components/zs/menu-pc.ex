@@ -682,7 +682,7 @@ defmodule MenuPc do
                       </li>
                       <li>
                         <a href="https://zsprodeti.cz/plavani/sobotni-kurzy-plavani">
-                          <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2025/2026</h3>
+                          <h3>VÍKENDOVÉ KURZY PLAVÁNÍ 2026</h3>
                         </a>
                       </li>
                       <li>

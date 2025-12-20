@@ -412,31 +412,11 @@ defmodule DetailCta do
       <a
         class="cta-button cta-button2 custom-cta-1"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3"
+        href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=27"
       >
         Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
       </a>
       <span></span>
-      <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 5 600 Kč | 14 lekcí
-      </a>
-      <a class="text-gray-900 plavani-link pb-4">
-        <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Radotín - soboty
-      </a>
-      <a
-        class="cta-button cta-button2 custom-cta-2"
-        onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
-        href="https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=24&lokalita=37"
-      >
-        Objednat<img alt="sipka" src="/images/icon/arrow-right-white.svg" />
-      </a>
-      <span></span>
-      <a class="text-gray-900 plavani-link">
-        <img alt="kolik stoji?" src="/images/icon/prispevek-plavani.svg" /> 5 600 Kč | 14 lekcí
-      </a>
-      <a class="text-gray-900 plavani-link pb-4">
-        <img alt="kdy?" src="/images/icon/pin-lokace.svg" /> Suchdol - soboty
-      </a>
       <hr />
       <a class="plavani-link pt-4" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
@@ -454,8 +434,6 @@ defmodule DetailCta do
     </div>
     <script>
       let buttonCta = document.querySelector(".custom-cta-1");
-
-      let buttonCta2 = document.querySelector(".custom-cta-2");
 
       let clickCount = 0;
 
@@ -485,9 +463,7 @@ defmodule DetailCta do
 
           // Enable the link
 
-            buttonCta.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
-
-            buttonCta2.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=23&lokalita=3";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/zsplavani/rezervace?kurz=27";
 
         }
 

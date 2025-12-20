@@ -362,7 +362,7 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>VÍKENDOVÉ KURZY PLAVÁNÍ 2025/2026</h1>
+      <h1>VÍKENDOVÉ KURZY PLAVÁNÍ 2026</h1>
       <p>
         Absolvovali jste s námi kurz školního plavání nebo letní příměstský tábor a vaše ratolest chce s plaváním pokračovat? Sháníte pro děti smysluplnou pravidelnou pohybovou aktivitu? Víkendové plavání je tou správnou volbou!
       </p>
@@ -372,9 +372,9 @@ defmodule KurzDetail do
         <b>děti ve věku 5-13 let</b>
         a jsou vhodné jak <b>pro úplné začáteníky, tak pokročilé plavce</b>. <br />
         <br />
-        <b>Pro Radotín máme v nabídce dopolední lekce:</b>
+        <b>Pro Radotín máme v nabídce dopolední lekce (6400 Kč/16 lekcí):</b>
         <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
-        <b>Pro Suchdol máme v nabídce dopolední lekce:</b>
+        <b>Pro Suchdol máme v nabídce dopolední lekce (6800 Kč/17 lekcí):</b>
         <br /> Soboty 9:00-10:00 <br /> Soboty 10:15- 11:15 <br />
       </p>
       <h3>Jak to probíhá</h3>
