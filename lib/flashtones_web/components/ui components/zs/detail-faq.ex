@@ -1607,7 +1607,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus.svg" class="self-end">
         </div>
-          <p class="answer mt-2"><bold>Monday & Wednesday</bold><br/><span>8:00–8:45</span><br/><span>8:50–9:40</span></p>
+          <p class="answer mt-2"><b>Monday or Wednesday •</b> 8:00–8:50 / 8:50–9:40<br />Attendance <b>twice a week</b> is also possible (Monday + Wednesday).</p>
         </div>
       </div>
     </div>
@@ -1627,6 +1627,77 @@ defmodule DetailFaq do
         });
       });
     </script>
+    """
+  end
+
+  def swimmingHloubetinCzech(assigns) do
+    ~H"""
+    <style>
+      .question-box {
+        width: 100%;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .question-box-row-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .question-box-row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+
+      .active .answer {
+        max-height: 500px; /* Adjust the maximum height as needed */
+      }
+      .question-box img{
+        width: 30px;
+        height: 30px;
+      }
+      .answer ul li::marker {
+        content: "• ";
+        color: rgb(63, 98, 216);
+        background: rgb(63, 98, 216);
+        width: 5px;
+        height: 5px;
+        font-size: 25px;
+      }
+    </style>
+    <div class="course-wrap">
+    <h3>Více informací</h3>
+      <div class="w-full">
+        <div class="question-box p-4 bg-white shadow mb-2">
+        <div class="question-box-row-wrap">
+        <div class="question-box-row">
+          <img src="/images/icon/terminy.svg" alt="Terminy">
+          <p class="font-bold">Termíny</p>
+        </div>
+        <img src="/images/icon/plus.svg" class="self-end">
+        </div>
+          <p class="answer mt-2"><b>Pondělí nebo středa •</b> 8:00–8:50 / 8:50–9:40<br />Možná je i docházka <b>2× týdně</b> (pondělí + středa).</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <%!-- NO SCRIPT --%>
     """
   end
 

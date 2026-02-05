@@ -344,20 +344,23 @@ defmodule DetailCta do
         class="cta-button"
         onclick="ctaClick; ga('send', 'event', 'Link Click', 'Buy Now');"
         style="background: var(--plavani-main)"
-        href="/kontakty-formular"
+        href="https://rezervace.zsprodeti.cz/flashtones/rezervace?kurz=26&lokalita=2"
       >
-        place an order
+        objednat /<br/>place an order
       </a>
       <p>Registration & Contact:</p>
       <br />
       <a class="plavani-link" href="tel:+420 724 168 962">
         <img alt="telefon" src="/images/icon/call-plavani.svg" />+420 724 168 962
       </a>
-      <a class="plavani-link" href="mailto:info@zsplavani.cz">
-        <img alt="email" src="/images/icon/email-plavani.svg" />info@zsplavani.cz
+      <a class="plavani-link" href="mailto:petra@zsplavani.cz">
+        <img alt="email" src="/images/icon/email-plavani.svg" />petra@zsplavani.cz
       </a>
-      <a class="plavani-link" href="/images/pdf/swimming-hloubetin.pdf" target="_blank">
-        <img src="/images/icon/download-plavani.svg" />PDF brochure
+      <a class="plavani-link" href="/images/pdf/VOP_ranni_plavani_dospeli_Flashtones_v2 (1).docx.pdf" target="_blank">
+        <img src="/images/icon/download-plavani.svg" />VOP
+      </a>
+      <a class="plavani-link" href="/images/pdf/General_Terms_and_Conditions_Morning_Swimming_Courses.docx.pdf" target="_blank">
+        <img src="/images/icon/download-plavani.svg" />T&C
       </a>
     </div>
     <script>
@@ -377,7 +380,7 @@ defmodule DetailCta do
           // Reset click count
           clickCount = 0;
           // Enable the link
-            buttonCta.href = "/kontakty-formular";
+            buttonCta.href = "https://rezervace.zsprodeti.cz/flashtones/rezervace?kurz=26&lokalita=2";
         }
         });
         }

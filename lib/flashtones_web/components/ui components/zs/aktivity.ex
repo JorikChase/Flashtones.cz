@@ -115,6 +115,9 @@ defmodule Aktivity do
         .public-item-6:before {
           background-image: url("/images/icon/kurz/svp-enviro.svg");
         }
+        .public-item-7:before {
+          background-image: url("/images/icon/kurz/boy.svg");
+        }
       </style>
         <div class="kurz-nav">
           <div class="mobile-aktivity-switch">
@@ -175,6 +178,9 @@ defmodule Aktivity do
               </a>
               <a href="/enviro/exkurze-haveti-naproti-pro-verejnost" class="mobile-menu-item public-item-6">
                 <h3>EXKURZE "HAVĚTI NAPROTI"</h3>
+              </a>
+              <a href="/plavani/kurz/morning-swimming-in-hloubetin" class="mobile-menu-item public-item-7">
+                <h3>PLAVÁNÍ PRO DOSPĚLÉ</h3>
               </a>
             </div>
           </div>

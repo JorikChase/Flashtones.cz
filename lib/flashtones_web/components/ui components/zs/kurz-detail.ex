@@ -185,24 +185,75 @@ defmodule KurzDetail do
       }
     </style>
     <div class="course-wrap top">
-      <h1>MORNING SWIMMING <br />IN HLOUBĚTÍN</h1>
-      <span class="italic text-xl">From first strokes to confident training</span>
+      <h1>ADULT SWIMMING <br />IN HLOUBĚTÍN <br />(MORNING COURSES)</h1>
       <p>
-        Want to finally learn how to swim — or improve your technique and overall fitness? We’ll help you feel comfortable in the water, teach you efficient breathing, and guide you to swim with proper, confident form.
+        <i>Would you like to learn how to swim, or improve your technique so that your swimming becomes more efficient and less tiring?</i>
       </p>
+      <p>
+        We focus on proper breathing, body position, stroke efficiency and rhythm, leg work, and pace control. Groups have a maximum of 10 participants.
+      </p>
+      <h3>Beginners</h3>
+      <p>
+        Basic swimming skills: exhaling into the water, body position, floating/gliding, coordination of movement and breathing. The goal is to build a stable technical foundation and achieve continuous swimming according to your current level.
+      </p>
+      <h3>Advanced</h3>
+      <p>
+        Technique adjustments for more economical swimming: improved body position and reduced drag, stroke efficiency and coordination, pace control for longer distances, and effective breathing.
+      </p>
+      <h2>Course Details</h2>
       <ul>
-        <li>
-          <bold>Fundamentals</bold>
-        </li>
-        <li>
-          <bold>Technique</bold>
-        </li>
-        <li>
-          <bold>Conditioning</bold>
-        </li>
-        <li>
-          <bold>Recovery</bold>
-        </li>
+        <li><b>Course period:</b> 23 Feb – 3 Jun 2026</li>
+        <li><b>Number of lessons:</b> 15</li>
+        <li><b>Lesson duration:</b> 50 minutes</li>
+        <li><b>Price:</b> CZK 4 800</li>
+      </ul>
+      <br />
+    </div>
+    """
+  end
+
+  def swimmingHloubetinCzech(assigns) do
+    ~H"""
+    <style>
+      p{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      bold{
+        color: #333;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 194.444% */
+      }
+    </style>
+    <div class="course-wrap top">
+      <h1>PLAVÁNÍ PRO DOSPĚLÉ – HLOUBĚTÍN <br />(RANNÍ KURZY)</h1>
+      <p>
+        <i>Chcete se naučit plavat, nebo se zdokonalit tak, aby bylo vaše plavání účelnější a méně únavné?</i>
+      </p>
+      <p>
+        Pracujeme na správném dýchání, poloze těla, účinnosti záběru a jeho rytmu, činnosti dolních končetin i nastavení tempa. Skupiny mají max. 10 účastníků.
+      </p>
+      <h3>Začátečníci</h3>
+      <p>
+        Základní plavecké dovednosti: výdech do vody, poloha těla, splývání, koordinace pohybu a dýchání. Cílem je stabilní technický základ a souvislé plavání podle aktuální úrovně.
+      </p>
+      <h3>Pokročilí</h3>
+      <p>
+        Úprava techniky pro úspornější plavání: poloha těla a snížení odporu, účinnost záběru a koordinace, práce s tempem pro delší úseky, efektivní dýchání.
+      </p>
+      <h2>Organizace kurzu</h2>
+      <ul>
+        <li><b>Období:</b> 23. 2. – 3. 6. 2026</li>
+        <li><b>Počet lekcí:</b> 15</li>
+        <li><b>Délka lekce:</b> 50 minut</li>
+        <li><b>Cena:</b> 4 800 Kč</li>
       </ul>
       <br />
     </div>

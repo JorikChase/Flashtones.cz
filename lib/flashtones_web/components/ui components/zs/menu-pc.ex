@@ -703,6 +703,14 @@ defmodule MenuPc do
                           <h3>INDIVIDUÁLNÍ KURZY</h3>
                         </a>
                       </li>
+                      <li>
+                        <a
+                          href="https://zsprodeti.cz/plavani/kurz/morning-swimming-in-hloubetin"
+                          id="individualni-kurzy"
+                        >
+                          <h3>Plavání pro dospělé</h3>
+                        </a>
+                      </li>
                     </ul>
                   </li>
                 </ul>

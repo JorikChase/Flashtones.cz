@@ -54,13 +54,15 @@ defmodule FlashtonesWeb.SwimmingHloubetin do
     <MenuPc.menuPlavaniPc />
     <HeroSmall.swimmingHloubetin />
     <DetailCta.swimmingHloubetin />
+    <KurzDetail.swimmingHloubetinCzech />
+    <DetailFaq.swimmingHloubetinCzech />
     <KurzDetail.swimmingHloubetin />
     <DetailFaq.swimmingHloubetin />
     <!--<h3>Další informace</h3>-->
       <!--<DetailFaq.detailFaq />-->
     <br />
     <div class="detail-lokace course-wrap">
-      <h3 class="disappear">Location</h3>
+      <h3 class="disappear">Místo konání / Location</h3>
       <div class="category" data-category="Plavání">
         <div class="product">
           <a href="###">
@@ -68,10 +70,10 @@ defmodule FlashtonesWeb.SwimmingHloubetin do
             <div class="product-text-wrap">
               <div class="product-text">
                 <h4>
-                  Hloubětín Swimming Centre – Saltwater Pool
+                  Plavecký areál Hloubětín – bazén se slanou vodou /<br/>Hloubětín Swimming Centre – Saltwater Pool
                 </h4>
                 <p class="font-normal">
-                Gentle on the skin, suitable for allergy-sensitive swimmers. A calm, ideal environment for learning, technique work and rehabilitation. 
+                Šetrný k pokožce, vhodný i pro plavce s alergiemi. Klidné, ideální prostředí pro výuku, technickou práci i rehabilitaci. /<br/>Gentle on the skin, suitable for allergy-sensitive swimmers. A calm, ideal environment for learning, technique work and rehabilitation. 
                 </p>
               </div>
               <!--b class="detail-link self-end">
