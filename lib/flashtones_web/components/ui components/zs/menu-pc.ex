@@ -691,8 +691,11 @@ defmodule MenuPc do
                         </a>
                       </li>
                       <li>
-                        <a href="/enviro/exkurze-haveti-naproti-pro-verejnost">
-                          <h3>Exkurze "Havěti naproti"</h3>
+                        <a
+                          href="https://zsprodeti.cz/plavani/kurz/morning-swimming-in-hloubetin"
+                          id="individualni-kurzy"
+                        >
+                          <h3>Plavání pro dospělé</h3>
                         </a>
                       </li>
                       <li>
@@ -704,11 +707,8 @@ defmodule MenuPc do
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="https://zsprodeti.cz/plavani/kurz/morning-swimming-in-hloubetin"
-                          id="individualni-kurzy"
-                        >
-                          <h3>Plavání pro dospělé</h3>
+                        <a href="/enviro/exkurze-haveti-naproti-pro-verejnost">
+                          <h3>Exkurze "Havěti naproti"</h3>
                         </a>
                       </li>
                     </ul>
