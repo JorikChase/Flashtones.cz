@@ -327,7 +327,7 @@ defmodule DetailLokace do
                             <div class="product-text">
                             <span class="cost-wrap"><h4>
                             JABLONEC - PLAVECKÝ AREÁL JABLONEC NAD NISOU
-                            </h4><b>5 650 <side>Kč</side></b></span>
+                            </h4><b>4 950 <side>Kč</side></b></span>
                             <p class="font-normal">Kurz probíhá v Plaveckém areálu SPORT Jablonec nad Nisou. Bazén tvoří osm 25metrových drah určených k plavání, na jejich začátku jsou startovní bloky, pod kterými je hloubka 1,7 metru. Směrem k druhému konci stoupá dno na 1,4 metru. Pro venkovní aktivity jsou využívána okolní hřiště a zelené okolí.</p>
                             </div>
                             <b class="detail-link plavani-link self-end">Instrukce a FAQ<img src="/images/icon/arrow-right-plavani.svg" alt="Šipka" class="button-image"></b>
