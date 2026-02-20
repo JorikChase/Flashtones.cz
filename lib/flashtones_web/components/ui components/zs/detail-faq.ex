@@ -724,7 +724,7 @@ defmodule DetailFaq do
         </div>
         <img src="/images/icon/plus-plavani.svg" class="self-end">
         </div>
-          <p class="answer mt-2">6.-11.7 a 3.-8.8.</p>
+          <p class="answer mt-2">19.-24. 7. a 9.-14. 8.</p>
         </div>
         <div class="question-box p-4 bg-white shadow mb-2">
         <div class="question-box-row-wrap">

@@ -193,7 +193,7 @@ defmodule DetailCta do
       </a>
       <span></span>
       <span class="text-gray-900">
-        Cena:<bold>6 900 Kč</bold>
+        Cena:<bold>7 750 Kč</bold>
       </span>
       <!--<p>Chci více informací o kurzu:</p>-->
       <a class="plavani-link" href="tel:+420 724 168 962">
