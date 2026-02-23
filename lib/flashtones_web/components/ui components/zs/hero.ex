@@ -137,7 +137,7 @@ defmodule Hero do
         <div
           id="hero-background"
           class="absolute inset-0 bg-cover bg-center transform scale-y-[-1] filter saturate-90 brightness-90 contrast-75 transition-all duration-1000"
-          style="background-image: url('/images/deti/primestak-head.avif');"
+          style="background-image: url('/images/deti/primestak-head-2025.avif');"
           role="img"
           aria-label="primestske tabory"
         >
@@ -200,7 +200,7 @@ defmodule Hero do
           description: 'Do konce roku za zvýhodněnou cenu!',
           buttonText: 'Více informací',
           buttonLink: '/plavani/letni-primestske-tabory',
-          bgImage: "/images/deti/primestak-head.avif"
+          bgImage: "/images/deti/primestak-head-2025.avif"
         },
         {
           title: 'Nový kurz Labyrint pro střední školy je tu!',

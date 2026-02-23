@@ -202,7 +202,7 @@ defmodule KurzDetail do
       </p>
       <h2>Course Details</h2>
       <ul>
-        <li><b>Course period:</b> 23 Feb – 3 Jun 2026</li>
+        <li><b>Course period:</b> 16 Mar – 24 Jun 2026</li>
         <li><b>Number of lessons:</b> 15</li>
         <li><b>Lesson duration:</b> 50 minutes</li>
         <li><b>Price:</b> CZK 4 800</li>
@@ -250,7 +250,7 @@ defmodule KurzDetail do
       </p>
       <h2>Organizace kurzu</h2>
       <ul>
-        <li><b>Období:</b> 23. 2. – 3. 6. 2026</li>
+        <li><b>Období:</b> 16. 3. – 24. 6. 2026</li>
         <li><b>Počet lekcí:</b> 15</li>
         <li><b>Délka lekce:</b> 50 minut</li>
         <li><b>Cena:</b> 4 800 Kč</li>
