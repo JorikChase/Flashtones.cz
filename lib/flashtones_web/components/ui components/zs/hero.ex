@@ -137,7 +137,7 @@ defmodule Hero do
         <div
           id="hero-background"
           class="absolute inset-0 bg-cover bg-center transform scale-y-[-1] filter saturate-90 brightness-90 contrast-75 transition-all duration-1000"
-          style="background-image: url('/images/deti/primestak-head-2025.avif');"
+          style="background-image: url('/images/deti/primestak-head-2025.jpg');"
           role="img"
           aria-label="primestske tabory"
         >
@@ -149,13 +149,13 @@ defmodule Hero do
               id="hero-title"
               class="text-9xl md:text-9xl text-white font-bold drop-shadow-lg mb-4 responsive-text"
             >
-              Pořiďte plavecký příměstský tábor jako vánoční dárek!
+              Máme otevřené registrace na letní příměstské tábory s plaváním
             </h1>
             <p
               id="hero-description"
               class="text-lg md:text-2xl text-white drop-shadow-md mb-8 responsive-text"
             >
-              Do konce roku za zvýhodněnou cenu!
+              Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava
             </p>
             <a
               id="hero-button"
@@ -196,11 +196,11 @@ defmodule Hero do
           bgImage: "images/deti/lyzovani-head.jpg"
         },
         {
-          title: 'Pořiďte plavecký příměstský tábor jako vánoční dárek!',
-          description: 'Do konce roku za zvýhodněnou cenu!',
+          title: 'Máme otevřené registrace na letní příměstské tábory s plaváním',
+          description: 'Praha, Brno, Brandýs n. L., Jablonec n. N., Ostrava',
           buttonText: 'Více informací',
           buttonLink: '/plavani/letni-primestske-tabory',
-          bgImage: "/images/deti/primestak-head-2025.avif"
+          bgImage: "/images/deti/primestak-head-2025.jpg"
         },
         {
           title: 'Nový kurz Labyrint pro střední školy je tu!',
